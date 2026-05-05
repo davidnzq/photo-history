@@ -8,7 +8,7 @@ import type { Photographer, Movement } from "@/lib/types";
 import { buildEdges, clusterLayout, influenceCount } from "@/lib/relations";
 import { parseFilter, passes } from "@/lib/filter";
 import { getPhotographer } from "@/lib/data";
-import { useT, getMovementName, getPhotographerName, getPhotographerSubname } from "@/lib/i18n";
+import { useT, getMovementName, getPhotographerName } from "@/lib/i18n";
 import { useLocale } from "@/components/shell/LocaleProvider";
 
 /* react-force-graph-2d uses Canvas + DOM, client-only. */
@@ -186,7 +186,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
               {getPhotographerName(focusedPerson, locale)}
             </div>
             <div className="text-[11px] text-ink-3 mb-3">
-              {getPhotographerSubname(focusedPerson, locale)} · {focusedPerson.born}–{focusedPerson.died ?? (locale === "en" ? "now" : "今")}
+              {focusedPerson.born}–{focusedPerson.died ?? (locale === "en" ? "now" : "今")}
             </div>
             <div className="flex flex-col gap-1">
               <button

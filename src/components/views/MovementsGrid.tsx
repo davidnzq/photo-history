@@ -7,12 +7,7 @@ import { clsx } from "clsx";
 import type { Movement, Photographer } from "@/lib/types";
 import { PHOTOGRAPHERS } from "@/lib/data";
 import { parseFilter, passes } from "@/lib/filter";
-import {
-  useT,
-  getMovementName,
-  getMovementSubname,
-  getPhotographerName,
-} from "@/lib/i18n";
+import { useT, getMovementName, getPhotographerName } from "@/lib/i18n";
 import { useLocale } from "@/components/shell/LocaleProvider";
 
 type Props = { movements: Movement[] };
@@ -54,9 +49,6 @@ function MovementsGridInner({ movements }: Props) {
     <div className="absolute inset-0 overflow-y-auto">
       <div className="px-6 lg:px-12 py-10 max-w-[1400px] mx-auto">
         <header className="mb-8">
-          <div className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3 mb-1">
-            {locale === "en" ? "Movements" : "Movements"}
-          </div>
           <h1 className="font-display text-3xl text-ink tracking-tight">
             {t("movements.heading")}
           </h1>
@@ -116,10 +108,6 @@ function MovementCard({
             {startYear}–{endYear}
           </span>
         </div>
-        <div className="font-display text-[11px] tracking-[0.16em] uppercase text-ink-3 mb-3">
-          {getMovementSubname(m, locale)}
-        </div>
-
         {/* period bar with peak marker */}
         <div className="relative h-2 bg-rule mb-4">
           <div

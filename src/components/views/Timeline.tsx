@@ -8,7 +8,7 @@ import { select } from "d3-selection";
 import { clsx } from "clsx";
 import type { Photographer, Movement, HistoryEvent } from "@/lib/types";
 import { parseFilter, passes } from "@/lib/filter";
-import { useT, getMovementName, getMovementSubname, getPhotographerName } from "@/lib/i18n";
+import { useT, getMovementName, getPhotographerName } from "@/lib/i18n";
 import { useLocale } from "@/components/shell/LocaleProvider";
 
 type Props = {
@@ -44,6 +44,7 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
   const [, startTransition] = useTransition();
   const t = useT();
   const { locale } = useLocale();
+  const [hoverLaneId, setHoverLaneId] = useState<string | null>(null);
 
   const filter = useMemo(() => parseFilter(sp), [sp]);
 
@@ -186,8 +187,23 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
           const y = laneOffsets[i];
           const x0 = xScale(l.movement.period.start);
           const x1 = xScale(l.movement.period.end ?? new Date().getFullYear());
+          const laneRowHover = hoverLaneId === l.movement.id;
           return (
             <g key={l.movement.id}>
+              {/* full-row hover background — appears under everything when
+                  the matching left-rail label group is hovered (handled
+                  via onMouseEnter on that group below). */}
+              {laneRowHover && (
+                <rect
+                  x={0}
+                  y={y}
+                  width={width}
+                  height={l.height}
+                  fill={l.movement.color}
+                  opacity={0.10}
+                  className="pointer-events-none"
+                />
+              )}
               <rect
                 x={LEFT_GUTTER}
                 y={y}
@@ -215,29 +231,56 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
                 strokeWidth={1}
                 strokeDasharray="2 3"
               />
-              {/* lane label */}
-              <text
-                x={LEFT_GUTTER - 12}
-                y={y + l.height / 2 + 4}
-                textAnchor="end"
-                className="font-display"
-                fontSize={11}
-                letterSpacing={0.4}
-                fill="var(--color-ink-2)"
+              {/* lane label — clickable, hover-row, jumps to movement detail */}
+              <g
+                role="link"
+                tabIndex={0}
+                aria-label={getMovementName(l.movement, locale)}
+                onClick={() =>
+                  router.push(`/movements/${l.movement.id}`, { scroll: false })
+                }
+                onKeyDown={(e) => {
+                  if (e.key === "Enter" || e.key === " ") {
+                    e.preventDefault();
+                    router.push(`/movements/${l.movement.id}`, { scroll: false });
+                  }
+                }}
+                onMouseEnter={() => setHoverLaneId(l.movement.id)}
+                onMouseLeave={() =>
+                  setHoverLaneId((cur) =>
+                    cur === l.movement.id ? null : cur
+                  )
+                }
+                className="cursor-pointer"
+                style={{ outline: "none" }}
               >
-                {getMovementName(l.movement, locale)}
-              </text>
-              <text
-                x={LEFT_GUTTER - 12}
-                y={y + l.height / 2 + 16}
-                textAnchor="end"
-                fontSize={9}
-                letterSpacing={1.5}
-                fill="var(--color-ink-3)"
-                style={{ textTransform: "uppercase" }}
-              >
-                {getMovementSubname(l.movement, locale)}
-              </text>
+                {/* expanded hit area covering the gutter */}
+                <rect
+                  x={0}
+                  y={y + 2}
+                  width={LEFT_GUTTER - 4}
+                  height={l.height - 4}
+                  fill={laneRowHover ? l.movement.color : "transparent"}
+                  fillOpacity={laneRowHover ? 0.22 : 0}
+                  style={{ transition: "fill-opacity 140ms ease-out" }}
+                />
+                <text
+                  x={LEFT_GUTTER - 12}
+                  y={y + l.height / 2 + 5}
+                  textAnchor="end"
+                  className="font-display"
+                  fontSize={11.5}
+                  letterSpacing={0.4}
+                  fill={
+                    laneRowHover
+                      ? "var(--color-ink)"
+                      : "var(--color-ink-2)"
+                  }
+                  style={{ pointerEvents: "none" }}
+                >
+                  {getMovementName(l.movement, locale)}
+                </text>
+              </g>
             </g>
           );
         })}
@@ -368,7 +411,7 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
             letterSpacing={1.5}
             style={{ textTransform: "uppercase" }}
           >
-            {locale === "en" ? "Events" : "事件"}
+            {t("hint.events")}
           </text>
           {events.map((ev) => {
             const x = xScale(ev.year);

@@ -20,32 +20,30 @@ export const LOCALE_COOKIE_MAX_AGE = 60 * 60 * 24 * 365; // 1 year
 
 const dict: Record<Locale, Record<string, string>> = {
   zh: {
-    /* brand */
-    "brand.zh": "摄影历",
-    "brand.en": "Photography History",
-    "brand.full": "摄影历 · Photography History",
+    /* brand — 中文模式只有中文 */
+    "brand": "摄影历",
 
     /* nav / shell */
     "nav.about": "关于",
-    "locale.aria": "切换语言",
+    "nav.about.close": "关闭",
+    "locale.toggle": "EN",      // 中文模式下显示对面语言,点击切换
+    "locale.aria": "切换到 English",
 
-    /* view switcher */
+    /* view switcher — 单语 */
     "view.timeline": "时间线",
-    "view.timeline.sub": "Timeline",
     "view.network": "影响网络",
-    "view.network.sub": "Influence",
     "view.movements": "流派",
-    "view.movements.sub": "Movements",
     "view.lineage": "传承关系",
-    "view.lineage.sub": "Lineage",
 
     /* filter bar */
-    "filter.label": "筛选 / Filter",
+    "filter.label": "筛选",
     "filter.movements": "流派",
     "filter.regions": "地域",
     "filter.all": "全部",
     "filter.nItems": "{n} 项",
     "filter.clear": "清除筛选",
+    "filter.search": "搜索…",
+    "filter.empty": "无匹配项",
 
     /* regions */
     "region.europe": "欧洲",
@@ -56,18 +54,19 @@ const dict: Record<Locale, Record<string, string>> = {
     "region.oceania": "大洋",
     "region.middle-east": "中东",
 
-    /* canvas hints */
-    "hint.zoomPan": "滚轮缩放 · 拖拽平移",
-    "hint.reset": "复位 · Reset",
-    "hint.network.detail": "点击节点 · 打开词条 · 滚轮缩放 · 拖拽平移",
-    "hint.network.ego": "点击节点 · 聚焦关系 · 滚轮缩放 · 拖拽平移",
+    /* canvas hints — 单语 */
+    "hint.zoomPan": "滚轮缩放,拖拽平移",
+    "hint.reset": "复位",
+    "hint.network.detail": "点击节点打开词条,滚轮缩放,拖拽平移",
+    "hint.network.ego": "点击节点聚焦关系,滚轮缩放,拖拽平移",
+    "hint.events": "事件",
 
     /* network rail */
-    "rail.click": "点击行为 · Click",
+    "rail.click": "点击行为",
     "rail.click.detail": "打开词条",
     "rail.click.ego": "聚焦关系",
-    "rail.movements": "流派色带 · Movements",
-    "rail.ego.title": "聚焦中 · Ego",
+    "rail.movements": "流派色带",
+    "rail.ego.title": "聚焦中",
     "rail.ego.openDetail": "→ 查看词条",
     "rail.ego.exit": "✕ 退出聚焦",
 
@@ -79,12 +78,12 @@ const dict: Record<Locale, Record<string, string>> = {
     "page.about.title": "关于 · 摄影历",
 
     /* movements grid */
-    "movements.heading": "流派 · 运动",
+    "movements.heading": "流派",
     "movements.intro":
       "按高峰年份排列的 {n} 个摄影流派/运动。点入查看兴衰、代表人物和承接关系。",
 
     /* about */
-    "about.heading": "关于这个站点",
+    "about.heading": "关于摄影历",
     "about.byline": "制作人 · 赤拔",
 
     /* drawer */
@@ -94,24 +93,20 @@ const dict: Record<Locale, Record<string, string>> = {
   },
 
   en: {
-    /* brand */
-    "brand.zh": "Photo History",
-    "brand.en": "Photography History",
-    "brand.full": "Photography History",
+    /* brand — English-only */
+    "brand": "Photography History",
 
     /* nav / shell */
     "nav.about": "About",
-    "locale.aria": "Switch language",
+    "nav.about.close": "Close",
+    "locale.toggle": "中",
+    "locale.aria": "Switch to Chinese",
 
     /* view switcher */
     "view.timeline": "Timeline",
-    "view.timeline.sub": "时间线",
     "view.network": "Influence",
-    "view.network.sub": "影响网络",
     "view.movements": "Movements",
-    "view.movements.sub": "流派",
     "view.lineage": "Lineage",
-    "view.lineage.sub": "传承",
 
     /* filter bar */
     "filter.label": "Filter",
@@ -120,6 +115,8 @@ const dict: Record<Locale, Record<string, string>> = {
     "filter.all": "All",
     "filter.nItems": "{n} selected",
     "filter.clear": "Clear filters",
+    "filter.search": "Search…",
+    "filter.empty": "No matches",
 
     /* regions */
     "region.europe": "Europe",
@@ -131,17 +128,18 @@ const dict: Record<Locale, Record<string, string>> = {
     "region.middle-east": "Mid. East",
 
     /* canvas hints */
-    "hint.zoomPan": "Wheel zoom · Drag pan",
+    "hint.zoomPan": "Wheel zoom, drag to pan",
     "hint.reset": "Reset",
-    "hint.network.detail": "Click node · Open detail · Wheel zoom · Drag pan",
-    "hint.network.ego": "Click node · Focus ego · Wheel zoom · Drag pan",
+    "hint.network.detail": "Click node to open detail, wheel zoom, drag to pan",
+    "hint.network.ego": "Click node to focus ego, wheel zoom, drag to pan",
+    "hint.events": "Events",
 
     /* network rail */
     "rail.click": "Click behaviour",
     "rail.click.detail": "Open detail",
     "rail.click.ego": "Focus ego",
     "rail.movements": "Movements",
-    "rail.ego.title": "Focused · Ego",
+    "rail.ego.title": "Focused",
     "rail.ego.openDetail": "→ Open detail",
     "rail.ego.exit": "✕ Clear focus",
 
@@ -158,7 +156,7 @@ const dict: Record<Locale, Record<string, string>> = {
       "{n} photographic movements, arranged by peak year. Click into a card to read the rise, peak and succession.",
 
     /* about */
-    "about.heading": "About this site",
+    "about.heading": "About",
     "about.byline": "Curated by Chiba",
 
     /* drawer */
