@@ -47,24 +47,25 @@ import { parseFilter, passes } from "@/lib/filter";
 type Props = { root: LineageNode };
 
 const YEAR_AXIS_W = 56;
-const COL_W = 64;        // 每代深度列宽
-const NODE_R = 4;        // 节点半径
-const NODE_GAP = 22;     // 兄弟节点最小垂直间距 (容下一行 13px label)
-const TOP_PAD = 28;
-const BOTTOM_PAD = 36;
+const COL_W_MIN = 96;     // 每代深度列宽下限
+const COL_W_MAX = 168;    // 上限 (大屏不至于过散)
+const NODE_R = 4;         // 节点半径
+const NODE_GAP = 30;      // 兄弟节点最小垂直间距 — 更松散
+const TOP_PAD = 32;
+const BOTTOM_PAD = 48;
 const RIGHT_PAD = 24;
-const LABEL_OFFSET = 9;  // node 圆心到文字起点
-const LABEL_MAX_W = 160; // 末端 label 最长
+const LABEL_OFFSET = 10;  // node 圆心到文字起点
+const LABEL_MAX_W = 240;  // 末端 label 最长 — 容下名字+生卒年份内联
 
 const EXPAND_KEY = "lineage-expanded-v4";
 const SCROLL_KEY = "lineage-scroll-v4";
 
 /** Piece-wise linear time scale: sparse periods compressed, dense expanded.
- * Domain edges chosen by photography history density, not arbitrary. */
+ * 较上一版整体 ×1.5 拉伸, 让密集年代有足够呼吸空间. */
 const SEGMENTS: Array<{ from: number; to: number; pxPerYear: number }> = [
-  { from: 1820, to: 1900, pxPerYear: 1.4 },  // origins / chemical era
-  { from: 1900, to: 1970, pxPerYear: 6.0 },  // modernist peak
-  { from: 1970, to: 2030, pxPerYear: 4.0 },  // contemporary
+  { from: 1820, to: 1900, pxPerYear: 2.2 },  // origins / chemical era
+  { from: 1900, to: 1970, pxPerYear: 9.0 },  // modernist peak
+  { from: 1970, to: 2030, pxPerYear: 6.0 },  // contemporary
 ];
 function scaleY(year: number): number {
   let y = TOP_PAD;
@@ -132,11 +133,24 @@ function LineageTreeInner({ root }: Props) {
   const filter = useMemo(() => parseFilter(sp), [sp]);
 
   const scrollRef = useRef<HTMLDivElement | null>(null);
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const [viewportW, setViewportW] = useState(1280);
   const [hydrated, setHydrated] = useState(false);
   const [expandOverride, setExpandOverride] = useState<
     Record<string, boolean>
   >({});
   const [hoverId, setHoverId] = useState<string | null>(null);
+
+  /* viewport tracking ──────────────────────────────────────── */
+  useEffect(() => {
+    if (!wrapperRef.current) return;
+    const ro = new ResizeObserver((entries) => {
+      const e = entries[0];
+      if (e) setViewportW(Math.max(640, Math.floor(e.contentRect.width)));
+    });
+    ro.observe(wrapperRef.current);
+    return () => ro.disconnect();
+  }, []);
 
   /* persistence ─────────────────────────────────────────────── */
   useEffect(() => {
@@ -196,6 +210,25 @@ function LineageTreeInner({ root }: Props) {
 
   /* ── layout ──────────────────────────────────────────────── */
   const layout = useMemo(() => {
+    // Pre-pass: compute max visible depth for COL_W derivation.
+    let maxVisibleDepth = 0;
+    (function depthWalk(n: LineageNode, depth: number) {
+      if (isFilteredOut(n, filter)) return;
+      maxVisibleDepth = Math.max(maxVisibleDepth, depth);
+      if (!isExpanded(n)) return;
+      for (const c of n.children ?? []) depthWalk(c, depth + 1);
+    })(root, 0);
+
+    // 自适应 COL_W: 让最深叶子刚好顶到 viewport 右边 (减去标签 + 右内边距).
+    const usable = Math.max(
+      640,
+      viewportW - YEAR_AXIS_W - 16 - LABEL_MAX_W - RIGHT_PAD
+    );
+    const colW = Math.max(
+      COL_W_MIN,
+      Math.min(COL_W_MAX, usable / Math.max(1, maxVisibleDepth))
+    );
+
     const placed: Placed[] = [];
 
     // Pass 1: walk tree, compute depth + ideal y; collect.
@@ -209,7 +242,7 @@ function LineageTreeInner({ root }: Props) {
       if (isFilteredOut(n, filter)) return;
       const year =
         typeof n.year === "number" ? n.year : inheritedYear;
-      const x = YEAR_AXIS_W + 16 + depth * COL_W;
+      const x = YEAR_AXIS_W + 16 + depth * colW;
       const y = scaleY(year);
       const expanded = isExpanded(n);
 
@@ -301,11 +334,11 @@ function LineageTreeInner({ root }: Props) {
     const maxDepth = placed.reduce((m, p) => Math.max(m, p.depth), 0);
     const maxY = placed.reduce((m, p) => Math.max(m, p.y), TOP_PAD);
     const treeWidth =
-      YEAR_AXIS_W + 16 + maxDepth * COL_W + LABEL_MAX_W + RIGHT_PAD;
+      YEAR_AXIS_W + 16 + maxDepth * colW + LABEL_MAX_W + RIGHT_PAD;
     const treeHeight = maxY + BOTTOM_PAD;
 
-    return { placed, treeWidth, treeHeight, maxDepth, byId };
-  }, [root, filter, isExpanded]);
+    return { placed, treeWidth, treeHeight, maxDepth, byId, colW };
+  }, [root, filter, isExpanded, viewportW]);
 
   /* hover ancestor highlight */
   const hoverAncestors = useMemo<Set<string>>(() => {
@@ -343,7 +376,7 @@ function LineageTreeInner({ root }: Props) {
   }
 
   return (
-    <div className="absolute inset-0 flex flex-col">
+    <div ref={wrapperRef} className="absolute inset-0 flex flex-col">
       {/* ── Toolbar ─────────────────────────────────────────── */}
       <div className="shrink-0 flex items-center gap-3 border-b border-rule px-4 h-9 text-[10px] tracking-[0.18em] uppercase font-display bg-bg/95">
         <span className="text-ink-3 tabular-nums">
@@ -643,10 +676,10 @@ function NodeView({
         </g>
       )}
 
-      {/* Label (right of marker) */}
+      {/* Label (right of marker) — name + 内联 detail (生卒/计数) */}
       <text
         x={LABEL_OFFSET}
-        y={3.5}
+        y={4}
         fontSize={node.kind === "root" ? 12 : 11}
         fontWeight={
           node.kind === "movement" || node.kind === "root" ? 600 : 400
@@ -656,49 +689,46 @@ function NodeView({
         className="font-display"
         style={{ pointerEvents: "none" }}
       >
-        <Truncated text={label} maxChars={node.kind === "event" ? 14 : 12} />
+        <tspan>{truncate(label, node.kind === "event" ? 16 : 12)}</tspan>
+        {detail && (
+          <tspan
+            dx={6}
+            fontSize={9}
+            fontWeight={400}
+            fill="var(--color-ink-3)"
+            style={{ fontFamily: "var(--font-mono, ui-monospace)" }}
+          >
+            {detail}
+          </tspan>
+        )}
+        {!detail &&
+          node.kind === "movement" &&
+          visiblePhotographerCount > 0 && (
+            <tspan
+              dx={6}
+              fontSize={9}
+              fontWeight={400}
+              fill="var(--color-ink-3)"
+              style={{ fontFamily: "var(--font-mono, ui-monospace)" }}
+            >
+              {`${visiblePhotographerCount} ${t("lineage.figures")}`}
+            </tspan>
+          )}
       </text>
 
-      {/* Detail (life years for photographer, count for movement) */}
-      {detail && (
-        <text
-          x={LABEL_OFFSET}
-          y={14}
-          fontSize={9}
-          fill="var(--color-ink-3)"
-          className="font-mono tabular-nums"
-          opacity={0.7}
-          style={{ pointerEvents: "none" }}
-        >
-          {detail}
-        </text>
-      )}
-      {node.kind === "movement" && visiblePhotographerCount > 0 && (
-        <text
-          x={LABEL_OFFSET}
-          y={14}
-          fontSize={9}
-          fill="var(--color-ink-3)"
-          className="font-mono tabular-nums"
-          opacity={0.7}
-          style={{ pointerEvents: "none" }}
-        >
-          {visiblePhotographerCount} {t("lineage.figures")}
-        </text>
-      )}
-
-      <title>{`${label}${detail ? " · " + detail : ""}`}</title>
+      <title>
+        {`${label}${detail ? " · " + detail : ""}${
+          !detail &&
+          node.kind === "movement" &&
+          visiblePhotographerCount > 0
+            ? ` · ${visiblePhotographerCount} ${t("lineage.figures")}`
+            : ""
+        }`}
+      </title>
     </g>
   );
 }
 
-function Truncated({
-  text,
-  maxChars,
-}: {
-  text: string;
-  maxChars: number;
-}) {
-  if (text.length <= maxChars) return <>{text}</>;
-  return <>{text.slice(0, maxChars - 1) + "…"}</>;
+function truncate(text: string, maxChars: number): string {
+  return text.length <= maxChars ? text : text.slice(0, maxChars - 1) + "…";
 }
