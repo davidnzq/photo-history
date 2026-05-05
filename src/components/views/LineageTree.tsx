@@ -3,8 +3,6 @@
 import { Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { scaleLinear } from "d3-scale";
-import { zoom, zoomIdentity, type D3ZoomEvent, type ZoomTransform } from "d3-zoom";
-import { select } from "d3-selection";
 import { clsx } from "clsx";
 import type { LineageNode } from "@/lib/types";
 import { getMovement, getPhotographer } from "@/lib/data";
@@ -12,14 +10,6 @@ import { useT } from "@/lib/i18n";
 import { parseFilter, passes } from "@/lib/filter";
 
 type Props = { root: LineageNode };
-
-type Placed = {
-  node: LineageNode;
-  x: number;
-  y: number;
-  parentX?: number;
-  parentY?: number;
-};
 
 export function LineageTree(props: Props) {
   return (
@@ -29,27 +19,44 @@ export function LineageTree(props: Props) {
   );
 }
 
-const MARGIN_X = 80;
-const MARGIN_TOP = 80;
-const MARGIN_BOTTOM = 60;
-const NODE_HEIGHT = 56;
-const COLUMN_WIDTH = 120;
+/* ── 设计常量 (per §6 spacing-scale, §10 chart consistency) ──── */
+const YEAR_AXIS_W = 64;        // 年份轴列宽 (固定 64,避免 5/6 px 偏差)
+const NODE_PAD_X = 8;          // 节点容器内左右内边距
+const LEAF_W = 132;            // 单叶 (photographer) 节点列宽 — 容下 12px 文字 + 年份
+const MIN_LEAF_W = 96;         // 视口很窄时的最小叶宽
+const TOP_PAD = 24;            // 顶部留白
+const BOTTOM_PAD = 32;
+const MIN_PX_PER_YEAR = 4;
+const MAX_PX_PER_YEAR = 16;
+const DEFAULT_PX_PER_YEAR = 7;
+const SCROLL_KEY = "lineage-scroll";
+const DENSITY_KEY = "lineage-density";
+
+type Placed = {
+  node: LineageNode;
+  x: number;
+  y: number;
+  parentX?: number;
+  parentY?: number;
+  /** 是否被全局筛选隐藏 */
+  hidden: boolean;
+};
 
 function LineageTreeInner({ root }: Props) {
   const router = useRouter();
   const t = useT();
   const sp = useSearchParams();
   const filter = useMemo(() => parseFilter(sp), [sp]);
-  const wrapperRef = useRef<HTMLDivElement | null>(null);
-  const svgRef = useRef<SVGSVGElement | null>(null);
 
-  // viewport size (the visible area)
+  const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
   const [vw, setVw] = useState(1200);
   const [vh, setVh] = useState(700);
-
-  // hover state for node interaction feedback
+  const [pxPerYear, setPxPerYear] = useState(DEFAULT_PX_PER_YEAR);
   const [hoverId, setHoverId] = useState<string | null>(null);
+  const [hydrated, setHydrated] = useState(false);
 
+  /* viewport tracking */
   useEffect(() => {
     if (!wrapperRef.current) return;
     const ro = new ResizeObserver((entries) => {
@@ -63,197 +70,270 @@ function LineageTreeInner({ root }: Props) {
     return () => ro.disconnect();
   }, []);
 
-  // ── compute layout once per viewport width ─────────────────────
-  const layout = useMemo(() => layoutLineage(root, vw), [root, vw]);
-
-  // ── d3-zoom setup ──────────────────────────────────────────────
-  // initial transform = "fit to viewport" so the user sees the whole tree
-  const initialTransform = useMemo(() => {
-    const fit = Math.min(vw / layout.width, vh / layout.height) * 0.95;
-    const k = Math.max(0.25, Math.min(1, fit));
-    // center horizontally, top-aligned vertically with small offset
-    const tx = (vw - layout.width * k) / 2;
-    const ty = 16;
-    return zoomIdentity.translate(tx, ty).scale(k);
-  }, [vw, vh, layout.width, layout.height]);
-
-  const [transform, setTransform] = useState<ZoomTransform>(zoomIdentity);
-
-  // apply initial fit when layout changes
+  /* density restoration */
   useEffect(() => {
-    if (!svgRef.current) return;
-    setTransform(initialTransform);
-    select(svgRef.current).call(
-      zoom<SVGSVGElement, unknown>().transform,
-      initialTransform
-    );
-  }, [initialTransform]);
+    if (typeof window === "undefined") return;
+    const saved = sessionStorage.getItem(DENSITY_KEY);
+    const parsed = saved ? parseFloat(saved) : NaN;
+    if (
+      Number.isFinite(parsed) &&
+      parsed >= MIN_PX_PER_YEAR &&
+      parsed <= MAX_PX_PER_YEAR
+    ) {
+      setPxPerYear(parsed);
+    }
+    setHydrated(true);
+  }, []);
 
   useEffect(() => {
-    if (!svgRef.current) return;
-    const svg = select(svgRef.current);
-    const z = zoom<SVGSVGElement, unknown>()
-      .scaleExtent([0.2, 4])
-      .filter((event) => {
-        // let clicks on interactive nodes pass through
-        const t = event.target as Element;
-        if (t.closest("[data-node-interactive]")) return false;
-        // 一致性: wheel 仅在 ⌘/Ctrl 按下时触发缩放,与 Timeline 同款
-        // (Figma/Miro 标准). 普通拖拽仍可平移视图.
-        if (event.type === "wheel") {
-          return event.ctrlKey || event.metaKey;
-        }
-        return event.button === 0;
-      })
-      .on("zoom", (e: D3ZoomEvent<SVGSVGElement, unknown>) => {
-        setTransform(e.transform);
-      });
-    svg.call(z);
-    // wire current transform so subsequent gestures continue from latest
-    svg.call(z.transform, transform);
-    return () => {
-      svg.on(".zoom", null);
-    };
+    if (!hydrated) return;
+    sessionStorage.setItem(DENSITY_KEY, pxPerYear.toFixed(2));
+  }, [pxPerYear, hydrated]);
+
+  /* scroll restoration */
+  useEffect(() => {
+    if (!hydrated || !scrollRef.current) return;
+    const saved = sessionStorage.getItem(SCROLL_KEY);
+    if (!saved) return;
+    const [x, y] = saved.split(",").map(Number);
+    if (Number.isFinite(x)) scrollRef.current.scrollLeft = x;
+    if (Number.isFinite(y)) scrollRef.current.scrollTop = y;
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [vw, vh]);
+  }, [hydrated]);
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    let raf = 0;
+    const target = el;
+    function save() {
+      cancelAnimationFrame(raf);
+      raf = requestAnimationFrame(() => {
+        sessionStorage.setItem(
+          SCROLL_KEY,
+          `${target.scrollLeft},${target.scrollTop}`
+        );
+      });
+    }
+    el.addEventListener("scroll", save, { passive: true });
+    return () => {
+      cancelAnimationFrame(raf);
+      el.removeEventListener("scroll", save);
+    };
+  }, []);
 
-  function resetZoom() {
-    if (!svgRef.current) return;
-    select(svgRef.current).call(
-      zoom<SVGSVGElement, unknown>().transform,
-      initialTransform
-    );
-    setTransform(initialTransform);
+  /* ── compute layout ─────────────────────────────────────────── */
+  const layout = useMemo(
+    () => layoutLineage(root, filter, vw, pxPerYear),
+    [root, filter, vw, pxPerYear]
+  );
+
+  /* ── ⌘+wheel zoom 同步 Timeline 的语义 ─────────────────────── */
+  useEffect(() => {
+    const el = scrollRef.current;
+    if (!el) return;
+    function onWheel(e: WheelEvent) {
+      if (!(e.ctrlKey || e.metaKey)) return;
+      e.preventDefault();
+      const factor = Math.exp(-e.deltaY / 500);
+      setPxPerYear((v) =>
+        Math.max(MIN_PX_PER_YEAR, Math.min(MAX_PX_PER_YEAR, v * factor))
+      );
+    }
+    el.addEventListener("wheel", onWheel, { passive: false });
+    return () => el.removeEventListener("wheel", onWheel);
+  }, []);
+
+  function densityIn() {
+    setPxPerYear((v) => Math.min(MAX_PX_PER_YEAR, v * 1.25));
+  }
+  function densityOut() {
+    setPxPerYear((v) => Math.max(MIN_PX_PER_YEAR, v / 1.25));
+  }
+  function densityReset() {
+    setPxPerYear(DEFAULT_PX_PER_YEAR);
   }
 
   return (
-    <div ref={wrapperRef} className="absolute inset-0 overflow-hidden">
-      <svg
-        ref={svgRef}
-        width={vw}
-        height={vh}
-        className="block select-none"
-        style={{ touchAction: "none", cursor: "grab" }}
+    <div ref={wrapperRef} className="absolute inset-0 flex flex-col">
+      {/* SCROLL CONTAINER: 垂直滚动 (主) + 水平滚动 (按需). 年份轴贴左. */}
+      <div
+        ref={scrollRef}
+        className="flex-1 min-h-0 overflow-auto relative"
       >
-        <defs>
-          <marker
-            id="lineage-arrow"
-            viewBox="0 0 10 10"
-            refX="9"
-            refY="5"
-            markerWidth="5"
-            markerHeight="5"
-            orient="auto-start-reverse"
-          >
-            <path d="M0,0 L10,5 L0,10" fill="rgba(196,154,92,0.5)" />
-          </marker>
-        </defs>
-
-        {/* All zoomable content lives in a single <g> driven by the d3 transform */}
-        <g transform={transform.toString()}>
-          {/* Year axis (left rail) */}
-          <YearAxis
-            y0={MARGIN_TOP}
-            y1={layout.height - MARGIN_BOTTOM}
-            domain={layout.yearDomain}
-          />
-
-          {/* Edges */}
-          {layout.placed.map((p) => {
-            if (p.parentX === undefined || p.parentY === undefined) return null;
-            const midY = (p.parentY + p.y) / 2;
-            const path = `M ${p.parentX},${p.parentY} C ${p.parentX},${midY} ${p.x},${midY} ${p.x},${p.y}`;
-            const isOnHoverPath =
-              hoverId !== null && (hoverId === p.node.id);
-            return (
-              <path
-                key={`edge-${p.node.id}`}
-                d={path}
-                fill="none"
-                stroke={isOnHoverPath ? "var(--color-accent)" : "rgba(196,154,92,0.32)"}
-                strokeWidth={isOnHoverPath ? 1.6 : 1}
-              />
-            );
-          })}
-
-          {/* Nodes */}
-          {layout.placed.map((p) => {
-            // 是否被全局筛选(流派 / 地域)排除 → 8% 透明
-            let dimmed = false;
-            if (p.node.kind === "movement" && p.node.refId) {
-              if (filter.movementIds.length && !filter.movementIds.includes(p.node.refId)) {
-                dimmed = true;
-              }
-            } else if (p.node.kind === "photographer" && p.node.refId) {
-              const ph = getPhotographer(p.node.refId);
-              if (ph && !passes(ph, filter)) dimmed = true;
-            }
-            return (
-              <LineageNodeView
-                key={p.node.id}
-                placed={p}
-                hovered={hoverId === p.node.id}
-                dimmed={dimmed}
-                onHover={(on) => setHoverId(on ? p.node.id : null)}
-                onClick={() => {
-                  if (p.node.kind === "movement" && p.node.refId)
-                    router.push(`/movements/${p.node.refId}`, { scroll: false });
-                  if (p.node.kind === "photographer" && p.node.refId)
-                    router.push(`/p/${p.node.refId}`, { scroll: false });
-                }}
-              />
-            );
-          })}
-        </g>
-      </svg>
-
-      {/* ── Zoom hint (consistent with Timeline) ───────────────── */}
-      <div className="absolute bottom-3 right-3 flex items-center gap-2 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display">
-        <button
-          type="button"
-          onClick={resetZoom}
-          className="border border-rule px-2 h-7 hover:text-ink hover:border-rule-2 transition-colors bg-bg/80 backdrop-blur-sm"
-          title={t("hint.reset")}
+        <div
+          className="flex"
+          style={{
+            width: YEAR_AXIS_W + layout.treeWidth,
+            height: layout.treeHeight,
+          }}
         >
-          {t("hint.reset")}
-        </button>
-        <span className="border border-rule px-2 h-7 flex items-center bg-bg/80 backdrop-blur-sm tabular-nums">
-          {`zoom ${transform.k.toFixed(2)}× · ${t("hint.zoomPan")}`}
+          {/* ── Year axis: position:sticky;left:0 — 始终贴视口左边 ── */}
+          <div
+            className="sticky left-0 z-20 bg-bg/95 backdrop-blur-sm border-r border-rule shrink-0"
+            style={{ width: YEAR_AXIS_W, height: layout.treeHeight }}
+          >
+            <svg
+              width={YEAR_AXIS_W}
+              height={layout.treeHeight}
+              className="block select-none"
+            >
+              <YearAxis
+                yScale={layout.yScale}
+                domain={layout.yearDomain}
+                pxPerYear={pxPerYear}
+              />
+            </svg>
+          </div>
+
+          {/* ── Tree content ─────────────────────────────────── */}
+          <svg
+            width={layout.treeWidth}
+            height={layout.treeHeight}
+            className="block select-none"
+          >
+            {/* Edges */}
+            {layout.placed.map((p) => {
+              if (
+                p.parentX === undefined ||
+                p.parentY === undefined ||
+                p.hidden
+              )
+                return null;
+              const midY = (p.parentY + p.y) / 2;
+              const path = `M ${p.parentX},${p.parentY} C ${p.parentX},${midY} ${p.x},${midY} ${p.x},${p.y}`;
+              const isOnHoverPath =
+                hoverId !== null && hoverId === p.node.id;
+              return (
+                <path
+                  key={`edge-${p.node.id}`}
+                  d={path}
+                  fill="none"
+                  stroke={
+                    isOnHoverPath
+                      ? "var(--color-accent)"
+                      : "rgba(170,160,140,0.28)"
+                  }
+                  strokeWidth={isOnHoverPath ? 1.5 : 1}
+                  shapeRendering="geometricPrecision"
+                />
+              );
+            })}
+
+            {/* Nodes */}
+            {layout.placed.map((p) =>
+              p.hidden ? null : (
+                <LineageNodeView
+                  key={p.node.id}
+                  placed={p}
+                  hovered={hoverId === p.node.id}
+                  onHover={(on) => setHoverId(on ? p.node.id : null)}
+                  onClick={() => {
+                    if (p.node.kind === "movement" && p.node.refId)
+                      router.push(`/movements/${p.node.refId}`, {
+                        scroll: false,
+                      });
+                    if (p.node.kind === "photographer" && p.node.refId)
+                      router.push(`/p/${p.node.refId}`, { scroll: false });
+                  }}
+                />
+              )
+            )}
+          </svg>
+        </div>
+      </div>
+
+      {/* ── Density controls (年份密度,同 Timeline 同款样式) ─── */}
+      <div className="absolute bottom-3 right-3 flex items-center gap-2 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display">
+        <div
+          className="inline-flex border border-rule bg-bg/80 backdrop-blur-sm"
+          role="group"
+          aria-label="density"
+        >
+          <button
+            type="button"
+            onClick={densityOut}
+            aria-label="zoom out"
+            className="w-7 h-7 flex items-center justify-center hover:text-ink hover:bg-bg-2 transition-colors disabled:opacity-30"
+            disabled={pxPerYear <= MIN_PX_PER_YEAR + 0.01}
+          >
+            −
+          </button>
+          <button
+            type="button"
+            onClick={densityReset}
+            className="px-2 h-7 flex items-center hover:text-ink hover:bg-bg-2 transition-colors border-x border-rule tabular-nums"
+            title={t("hint.reset")}
+          >
+            {(pxPerYear / DEFAULT_PX_PER_YEAR * 100).toFixed(0)}%
+          </button>
+          <button
+            type="button"
+            onClick={densityIn}
+            aria-label="zoom in"
+            className="w-7 h-7 flex items-center justify-center hover:text-ink hover:bg-bg-2 transition-colors disabled:opacity-30"
+            disabled={pxPerYear >= MAX_PX_PER_YEAR - 0.01}
+          >
+            +
+          </button>
+        </div>
+        <span className="hidden sm:inline border border-rule px-2 h-7 flex items-center bg-bg/80 backdrop-blur-sm">
+          {t("hint.zoomPan")}
         </span>
       </div>
     </div>
   );
 }
 
+/* ── Year axis (rendered as left column) ──────────────────────── */
+
 function YearAxis({
-  y0,
-  y1,
+  yScale,
   domain,
+  pxPerYear,
 }: {
-  y0: number;
-  y1: number;
+  yScale: (y: number) => number;
   domain: [number, number];
+  pxPerYear: number;
 }) {
-  const scale = scaleLinear().domain(domain).range([y0, y1]);
-  const ticks: number[] = [];
-  const step = 25;
+  // 步长按密度自适应:稀疏时 50 年,中等 25 年,密集时 10 年
+  const step = pxPerYear < 5 ? 50 : pxPerYear < 9 ? 25 : 10;
   const start = Math.ceil(domain[0] / step) * step;
+  const ticks: number[] = [];
   for (let y = start; y <= domain[1]; y += step) ticks.push(y);
+
   return (
     <g>
-      <line x1={42} x2={42} y1={y0 - 12} y2={y1 + 12} stroke="var(--color-rule-2)" />
+      {/* axis spine */}
+      <line
+        x1={YEAR_AXIS_W - 0.5}
+        x2={YEAR_AXIS_W - 0.5}
+        y1={TOP_PAD - 8}
+        y2={yScale(domain[1]) + 16}
+        stroke="var(--color-rule-2)"
+        shapeRendering="crispEdges"
+      />
       {ticks.map((t) => {
-        const yy = scale(t);
+        const yy = yScale(t);
+        const isMajor = t % 50 === 0;
         return (
           <g key={t}>
-            <line x1={36} x2={48} y1={yy} y2={yy} stroke="var(--color-rule-2)" />
+            <line
+              x1={YEAR_AXIS_W - (isMajor ? 12 : 8)}
+              x2={YEAR_AXIS_W}
+              y1={yy}
+              y2={yy}
+              stroke={isMajor ? "var(--color-rule-2)" : "var(--color-rule)"}
+              shapeRendering="crispEdges"
+            />
             <text
-              x={30}
+              x={YEAR_AXIS_W - 16}
               y={yy + 3}
-              fontSize={10}
+              fontSize={isMajor ? 11 : 10}
               textAnchor="end"
               className="font-mono tabular-nums"
-              fill="var(--color-ink-3)"
+              fill={
+                isMajor ? "var(--color-ink-2)" : "var(--color-ink-3)"
+              }
             >
               {t}
             </text>
@@ -264,114 +344,135 @@ function YearAxis({
   );
 }
 
+/* ── Single node ─────────────────────────────────────────────── */
+
 function LineageNodeView({
   placed,
   hovered,
-  dimmed,
   onHover,
   onClick,
 }: {
   placed: Placed;
   hovered: boolean;
-  dimmed: boolean;
   onHover: (on: boolean) => void;
   onClick: () => void;
 }) {
   const { node, x, y } = placed;
-  const isInteractive = node.kind === "movement" || node.kind === "photographer";
+  const isInteractive =
+    node.kind === "movement" || node.kind === "photographer";
 
+  // 颜色与字号体系 (§4 state-clarity, §6 weight-hierarchy)
   let color = "var(--color-ink-2)";
+  let fontWeight = 400;
+  let fontSize = 11;
+  let strokeColor = color;
+  let strokeWidth = 1;
   let bg = "var(--color-bg-elev)";
   let badge = "·";
   let detail: string | undefined;
 
   if (node.kind === "root") {
     color = "var(--color-accent)";
+    fontWeight = 600;
+    fontSize = 12;
+    strokeColor = "var(--color-accent)";
+    strokeWidth = 1.5;
     badge = "◉";
     detail = "Photography";
   } else if (node.kind === "event") {
     color = "var(--color-ink-2)";
+    strokeColor = "var(--color-rule-2)";
     badge = "◇";
   } else if (node.kind === "movement") {
     const m = node.refId ? getMovement(node.refId) : undefined;
     if (m) {
       color = m.color;
+      strokeColor = m.color;
+      strokeWidth = 1.25;
       bg = `${m.color}1a`;
-      detail = m.nameEn;
+      detail = m.nameZh;
     }
+    fontWeight = 600;
     badge = "◆";
   } else if (node.kind === "photographer") {
     const p = node.refId ? getPhotographer(node.refId) : undefined;
     if (p) {
       const m = getMovement(p.movements[0]);
-      if (m) color = m.color;
+      if (m) {
+        color = m.color;
+        strokeColor = m.color;
+      }
       detail = `${p.born}–${p.died ?? "今"}`;
     }
     badge = "●";
   }
 
-  // hovered state: brighter background tint + accent stroke
+  // hover 加亮
   const effBg =
     isInteractive && hovered
       ? node.kind === "movement"
-        ? `${color}33` // 0x33 ≈ 20% opacity
+        ? `${color}33`
         : "var(--color-bg-2)"
       : bg;
-  const effStrokeOpacity = isInteractive && hovered ? 1 : 0.4;
-  const effStrokeWidth =
-    node.kind === "root" || node.kind === "movement" ? (hovered ? 2 : 1.5) : hovered ? 1.5 : 1;
+  const effStrokeOpacity = isInteractive && hovered ? 1 : 0.55;
+  const effStrokeWidth = hovered ? strokeWidth + 0.5 : strokeWidth;
 
-  const labelW = Math.max(node.label.length * 14 + 32, 88);
+  // label 宽度:用 LEAF_W 作上限,内容 fits = node.label * 12 + 24
+  const charW = 11; // 中文字符宽 ≈ 11px @ 11pt
+  const labelW = Math.min(
+    Math.max(node.label.length * charW + 28, 88),
+    LEAF_W - NODE_PAD_X * 2
+  );
+  const h = 22;
+
   return (
     <g
-      transform={`translate(${x - labelW / 2}, ${y - 12})`}
+      transform={`translate(${x - labelW / 2}, ${y - h / 2})`}
       onClick={isInteractive ? onClick : undefined}
       onMouseEnter={isInteractive ? () => onHover(true) : undefined}
       onMouseLeave={isInteractive ? () => onHover(false) : undefined}
       data-node-interactive={isInteractive ? "1" : undefined}
       className={clsx(isInteractive && "cursor-pointer")}
-      style={{
-        transition: "all 140ms ease-out",
-        opacity: dimmed ? 0.12 : 1,
-      }}
+      style={{ transition: "all 140ms ease-out" }}
     >
       <rect
         x={0}
         y={0}
         width={labelW}
-        height={24}
+        height={h}
         fill={effBg}
-        stroke={color}
+        stroke={strokeColor}
         strokeOpacity={effStrokeOpacity}
         strokeWidth={effStrokeWidth}
-        style={{ transition: "fill 140ms ease-out, stroke-opacity 140ms ease-out" }}
+        shapeRendering="geometricPrecision"
+        style={{
+          transition: "fill 140ms ease-out, stroke-opacity 140ms ease-out",
+        }}
       />
-      <text
-        x={10}
-        y={16}
-        fontSize={10}
-        fill={color}
-        fontWeight={node.kind === "root" || node.kind === "movement" ? 600 : 400}
-      >
-        <tspan>{badge}</tspan>
-        <tspan dx={6} className="font-display" fill="var(--color-ink)">
+      <text x={9} y={h / 2 + 4} fontSize={fontSize} fill={color}>
+        <tspan fontWeight={fontWeight}>{badge}</tspan>
+        <tspan
+          dx={6}
+          fontWeight={fontWeight}
+          fill="var(--color-ink)"
+          className="font-display"
+        >
           {node.label}
         </tspan>
       </text>
-      {detail && (
+      {detail && labelW > 110 && (
         <text
-          x={labelW + 8}
-          y={16}
+          x={labelW + 6}
+          y={h / 2 + 3}
           fontSize={9}
           fill="var(--color-ink-3)"
-          className="font-display"
-          letterSpacing={1.5}
-          style={{ textTransform: "uppercase" }}
+          className="font-mono tabular-nums"
+          letterSpacing={0.5}
         >
           {detail}
         </text>
       )}
-      {/* native browser tooltip for screen readers / hover */}
+      {/* native tooltip for accessibility */}
       {isInteractive && (
         <title>{`${node.label}${detail ? " · " + detail : ""}`}</title>
       )}
@@ -381,47 +482,83 @@ function LineageNodeView({
 
 /* ── Layout algorithm ──────────────────────────────────────────── */
 
+import type { FilterState } from "@/lib/types";
+
 function layoutLineage(
   root: LineageNode,
-  vw: number
-): { placed: Placed[]; width: number; height: number; yearDomain: [number, number] } {
-  // 1. count leaves per node
+  filter: FilterState,
+  viewportW: number,
+  pxPerYear: number
+): {
+  placed: Placed[];
+  treeWidth: number;
+  treeHeight: number;
+  yScale: (y: number) => number;
+  yearDomain: [number, number];
+} {
+  /* hidden 判定: 根据流派/地域筛选, 隐藏摄影师与流派节点 */
+  function isHidden(n: LineageNode): boolean {
+    if (n.kind === "photographer" && n.refId) {
+      const ph = getPhotographer(n.refId);
+      if (ph && !passes(ph, filter)) return true;
+    }
+    if (n.kind === "movement" && n.refId) {
+      if (
+        filter.movementIds.length &&
+        !filter.movementIds.includes(n.refId)
+      ) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  /* 1. 计算每个节点的 *visible* 叶子数 (隐藏的不算入宽度) */
   const leafCount = new Map<string, number>();
   (function walk(n: LineageNode): number {
+    const hidden = isHidden(n);
+    if (hidden) {
+      leafCount.set(n.id, 0);
+      return 0;
+    }
     if (!n.children || n.children.length === 0) {
       leafCount.set(n.id, 1);
       return 1;
     }
     let c = 0;
     for (const ch of n.children) c += walk(ch);
-    leafCount.set(n.id, c);
-    return c;
+    // 即使子节点全隐藏, 自己若是非 photographer 仍占一个槽 (root/event/movement
+    // 是结构脊柱) 以保证脊柱可见
+    const own = c === 0 ? 1 : c;
+    leafCount.set(n.id, own);
+    return own;
   })(root);
 
-  const totalLeaves = leafCount.get(root.id) ?? 1;
-
-  // 2. derive year domain
+  /* 2. 收集年份并计算域 */
   const years: number[] = [];
-  (function collectYears(n: LineageNode) {
+  (function collect(n: LineageNode) {
     if (typeof n.year === "number") years.push(n.year);
-    if (n.children) for (const c of n.children) collectYears(c);
+    if (n.children) for (const c of n.children) collect(c);
   })(root);
-  const minYear = Math.min(...years, 1820) - 5;
-  const maxYear = Math.max(...years, new Date().getFullYear() - 30) + 10;
-  const yearDomain: [number, number] = [minYear, maxYear];
+  const yMin = Math.min(...years, 1820) - 6;
+  const yMax = Math.max(...years, new Date().getFullYear() - 30) + 8;
+  const yearDomain: [number, number] = [yMin, yMax];
 
-  const totalWidth = Math.max(
-    vw,
-    MARGIN_X * 2 + Math.max(totalLeaves, 6) * COLUMN_WIDTH * 0.88
-  );
-  const height = MARGIN_TOP + (maxYear - minYear) * NODE_HEIGHT * 0.13 + MARGIN_BOTTOM;
-  const yearScale = scaleLinear()
+  /* 3. 视图垂直高度受 pxPerYear 控制, 水平宽度受 leaf 数量 + 视口下限控制 */
+  const totalLeaves = Math.max(1, leafCount.get(root.id) ?? 1);
+  // 优先 fit: 如果叶子少, leaf_w 拉大占满;叶子多则用 LEAF_W
+  const fitLeafW = (viewportW - YEAR_AXIS_W - 32) / totalLeaves;
+  const leafW = Math.max(MIN_LEAF_W, Math.min(LEAF_W, fitLeafW));
+  const treeWidth = Math.max(viewportW - YEAR_AXIS_W, totalLeaves * leafW + 48);
+  const treeHeight =
+    TOP_PAD + (yMax - yMin) * pxPerYear + BOTTOM_PAD;
+  const yScale = scaleLinear()
     .domain(yearDomain)
-    .range([MARGIN_TOP, height - MARGIN_BOTTOM]);
+    .range([TOP_PAD, treeHeight - BOTTOM_PAD]);
 
+  /* 4. 后序遍历分配 x */
   const placed: Placed[] = [];
-
-  function placeNode(
+  function place(
     n: LineageNode,
     xStart: number,
     xEnd: number,
@@ -429,21 +566,22 @@ function layoutLineage(
     parentY?: number
   ) {
     const x = (xStart + xEnd) / 2;
-    const y = typeof n.year === "number" ? yearScale(n.year) : MARGIN_TOP;
-    placed.push({ node: n, x, y, parentX, parentY });
+    const y =
+      typeof n.year === "number" ? yScale(n.year as number) : TOP_PAD;
+    const hidden = isHidden(n);
+    placed.push({ node: n, x, y, parentX, parentY, hidden });
     if (n.children && n.children.length > 0) {
       let cursor = xStart;
       const total = leafCount.get(n.id) ?? 1;
       for (const c of n.children) {
-        const cLeaves = leafCount.get(c.id) ?? 1;
+        const cLeaves = Math.max(1, leafCount.get(c.id) ?? 0);
         const cWidth = (cLeaves / total) * (xEnd - xStart);
-        placeNode(c, cursor, cursor + cWidth, x, y);
+        place(c, cursor, cursor + cWidth, x, y);
         cursor += cWidth;
       }
     }
   }
+  place(root, 24, treeWidth - 24);
 
-  placeNode(root, MARGIN_X + 60, totalWidth - MARGIN_X);
-
-  return { placed, width: totalWidth, height, yearDomain };
+  return { placed, treeWidth, treeHeight, yScale, yearDomain };
 }

@@ -9,6 +9,9 @@ import { defaultFilter, parseFilter, toSearchParams } from "@/lib/filter";
 import { useT, getMovementName } from "@/lib/i18n";
 import { useLocale } from "@/components/shell/LocaleProvider";
 
+/** Routes where the global filter bar is irrelevant (Tags 频道有自己的搜索) */
+const HIDE_ON = [/^\/tags$/, /^\/tag\//, /^\/about$/];
+
 export function FilterBar() {
   return (
     <Suspense fallback={<FilterBarSkeleton />}>
@@ -34,6 +37,9 @@ function FilterBarInner() {
   const { locale } = useLocale();
 
   const filter = useMemo(() => parseFilter(sp), [sp]);
+
+  // 在 /tags / /tag/* / /about 路由上隐藏全局筛选条
+  if (HIDE_ON.some((re) => re.test(pathname || ""))) return null;
 
   function update(next: FilterState) {
     const params = toSearchParams(next);

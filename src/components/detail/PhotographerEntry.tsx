@@ -37,6 +37,8 @@ export function PhotographerEntry({ photographer: p }: Props) {
             <Link
               key={m.id}
               href={`/movements/${m.id}`}
+              replace
+              scroll={false}
               className="inline-flex items-center gap-2 px-2.5 h-7 border text-[11px] hover:bg-bg-elev transition-colors"
               style={{
                 borderColor: `${m.color}66`,
@@ -109,6 +111,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
               <Link
                 key={t}
                 href={`/tag/${tagSlug(t)}`}
+                replace
                 scroll={false}
                 className="inline-flex items-center gap-1.5 px-2.5 h-7 border border-rule text-ink-2 text-[12px] hover:border-accent hover:text-accent transition-colors"
                 title={`查看所有使用 "${t}" 的摄影师`}

@@ -100,27 +100,36 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
       return set;
     })();
 
-    const nodes: Node[] = photographers.map((p) => {
-      const m = movementById.get(p.movements[0]);
-      const pos = positions.get(p.id) ?? { x: 0, y: 0 };
-      const dimByFilter = !passes(p, filter);
-      const dimByFocus =
-        focusMovement && p.movements[0] !== focusMovement ? true : false;
-      const dimByEgo = egoIds && !egoIds.has(p.id) ? true : false;
-      return {
-        id: p.id,
-        name: p.nameZh,
-        color: m?.color ?? "#888",
-        val: 2 + (ic.get(p.id) ?? 0) * 0.8,
-        movement: p.movements[0],
-        x: pos.x * 12,
-        y: pos.y * 12,
-        dim: dimByFilter || dimByFocus || dimByEgo,
-      };
-    });
-    const links: Link[] = buildEdges().map((e) => ({ source: e.from, target: e.to }));
+    // 命中筛选 + 流派聚焦 + ego 范围 — 不命中直接不入图
+    const visibleIds = new Set<string>();
+    for (const p of photographers) {
+      if (!passes(p, filter)) continue;
+      if (focusMovement && p.movements[0] !== focusMovement) continue;
+      if (egoIds && !egoIds.has(p.id)) continue;
+      visibleIds.add(p.id);
+    }
+
+    const nodes: Node[] = photographers
+      .filter((p) => visibleIds.has(p.id))
+      .map((p) => {
+        const m = movementById.get(p.movements[0]);
+        const pos = positions.get(p.id) ?? { x: 0, y: 0 };
+        return {
+          id: p.id,
+          name: p.nameZh,
+          color: m?.color ?? "#888",
+          val: 2 + (ic.get(p.id) ?? 0) * 0.8,
+          movement: p.movements[0],
+          x: pos.x * 12,
+          y: pos.y * 12,
+          dim: false,
+        };
+      });
+    const links: Link[] = buildEdges()
+      .filter((e) => visibleIds.has(e.from) && visibleIds.has(e.to))
+      .map((e) => ({ source: e.from, target: e.to }));
     return { nodes, links };
-  }, [photographers, movements, movementById, filter, focusMovement, focusEgo]);
+  }, [photographers, movementById, filter, focusMovement, focusEgo]);
 
   function setFocusMovement(m: string | null) {
     const params = new URLSearchParams(sp);
@@ -178,7 +187,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
           backgroundColor="#0F0E0C"
           nodeRelSize={4}
           nodeVal={(n) => (n as Node).val}
-          nodeColor={(n) => ((n as Node).dim ? "rgba(232,226,212,0.08)" : (n as Node).color)}
+          nodeColor={(n) => (n as Node).color}
           nodeLabel={(n) => {
             // node label shows the locale-appropriate name
             const id = (n as Node).id;

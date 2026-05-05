@@ -9,7 +9,6 @@ import {
 } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import { scaleLinear } from "d3-scale";
-import { clsx } from "clsx";
 import type { Photographer, Movement, HistoryEvent } from "@/lib/types";
 import { parseFilter, passes } from "@/lib/filter";
 import { useT, getMovementName, getPhotographerName } from "@/lib/i18n";
@@ -150,8 +149,8 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
 
   const lanesTotal = lanes.reduce((acc, l) => acc + l.height, 0);
 
-  // ── Filter dim set ────────────────────────────────────────────
-  const dimSet = useMemo(() => {
+  // ── Filter set: 隐藏未命中项 (per UX 反馈, 不再 dim) ────────────
+  const hiddenSet = useMemo(() => {
     const out = new Set<string>();
     for (const p of photographers) if (!passes(p, filter)) out.add(p.id);
     return out;
@@ -405,23 +404,21 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
                     </text>
                   </g>
 
-                  {/* photographer bars */}
-                  {l.placed.map(({ p, row, xStart, xEnd }) => {
+                  {/* photographer bars — 未命中筛选项直接不渲染 */}
+                  {l.placed
+                    .filter(({ p }) => !hiddenSet.has(p.id))
+                    .map(({ p, row, xStart, xEnd }) => {
                     const x = xScale(xStart);
                     const w = Math.max(2, xScale(xEnd) - x);
                     const yBar =
                       y +
                       LANE_PAD_TOP +
                       row * (SUB_ROW_HEIGHT + SUB_ROW_GAP);
-                    const dim = dimSet.has(p.id);
                     return (
                       <g
                         key={p.id}
                         data-bar
-                        className={clsx(
-                          "cursor-pointer transition-opacity",
-                          dim ? "opacity-[0.12]" : "opacity-100"
-                        )}
+                        className="cursor-pointer"
                         onClick={(e) => {
                           e.stopPropagation();
                           openPhotographer(p.id);

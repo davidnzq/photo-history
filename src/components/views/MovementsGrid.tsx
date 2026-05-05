@@ -3,7 +3,6 @@
 import Link from "next/link";
 import { Suspense, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
-import { clsx } from "clsx";
 import type { Movement, Photographer } from "@/lib/types";
 import { PHOTOGRAPHERS } from "@/lib/data";
 import { parseFilter, passes } from "@/lib/filter";
@@ -29,10 +28,9 @@ function MovementsGridInner({ movements }: Props) {
   const sorted = [...movements].sort((a, b) => a.period.peak - b.period.peak);
 
   /**
-   * 流派/地域筛选生效:
+   * 流派/地域筛选生效 (per UX 反馈, 改为隐藏不命中项, 不再 dim):
    * - 流派 filter 直接命中 movement.id
-   * - 地域 filter 命中 movement.countries 中是否含本流派代表人物所在 region
-   *   (我们以"流派的代表人物中至少一人通过 region 筛选"为命中)
+   * - 地域 filter 命中 movement 内代表人物中是否至少一人通过 region 筛选
    */
   function isMovementVisible(m: Movement): boolean {
     if (filter.movementIds.length && !filter.movementIds.includes(m.id))
@@ -45,6 +43,8 @@ function MovementsGridInner({ movements }: Props) {
     return true;
   }
 
+  const visible = sorted.filter(isMovementVisible);
+
   return (
     <div className="absolute inset-0 overflow-y-auto">
       <div className="px-6 lg:px-12 py-10 max-w-[1400px] mx-auto">
@@ -53,30 +53,26 @@ function MovementsGridInner({ movements }: Props) {
             {t("movements.heading")}
           </h1>
           <p className="text-ink-2 text-sm mt-2 max-w-xl">
-            {t("movements.intro", { n: movements.length })}
+            {t("movements.intro", { n: visible.length })}
           </p>
         </header>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-          {sorted.map((m) => (
-            <MovementCard
-              key={m.id}
-              movement={m}
-              dimmed={!isMovementVisible(m)}
-            />
-          ))}
-        </div>
+        {visible.length === 0 ? (
+          <div className="text-ink-3 italic text-sm">
+            {t("filter.empty")}
+          </div>
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {visible.map((m) => (
+              <MovementCard key={m.id} movement={m} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
 }
 
-function MovementCard({
-  movement: m,
-  dimmed,
-}: {
-  movement: Movement;
-  dimmed: boolean;
-}) {
+function MovementCard({ movement: m }: { movement: Movement }) {
   const { locale } = useLocale();
   // up to 4 representative photographers from PHOTOGRAPHERS where movements[0] === m.id
   const reps: Photographer[] = PHOTOGRAPHERS.filter(
@@ -87,10 +83,7 @@ function MovementCard({
   return (
     <Link
       href={`/movements/${m.id}`}
-      className={clsx(
-        "group block bg-bg-elev border border-rule hover:border-rule-2 transition-all overflow-hidden",
-        dimmed && "opacity-30 hover:opacity-60"
-      )}
+      className="group block bg-bg-elev border border-rule hover:border-rule-2 transition-all overflow-hidden"
     >
       {/* color stripe */}
       <div
