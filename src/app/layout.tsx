@@ -26,8 +26,8 @@ const SITE_URL =
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: {
-    default: "摄影历 · Photography History",
-    template: "%s · 摄影历",
+    default: "摄影简史 · Brief History of Photography",
+    template: "%s · 摄影简史",
   },
   description:
     "以时间线为主轴的摄影史交互站,梳理 180 余年传承图谱:同时代关系、流派兴衰、影响传承,从达盖尔法到当代。",
@@ -40,16 +40,16 @@ export const metadata: Metadata = {
     "新地形",
     "杜塞尔多夫学派",
   ],
-  authors: [{ name: "Photo History" }],
+  authors: [{ name: "Chiba" }],
   openGraph: {
     type: "website",
     locale: "zh_CN",
-    title: "摄影历 · Photography History",
+    title: "摄影简史 · Brief History of Photography",
     description: "180 年摄影传承图谱:同时代、流派、影响,一目了然。",
   },
   twitter: {
     card: "summary_large_image",
-    title: "摄影历 · Photography History",
+    title: "摄影简史 · Brief History of Photography",
     description: "180 年摄影传承图谱。",
   },
   robots: { index: true, follow: true },

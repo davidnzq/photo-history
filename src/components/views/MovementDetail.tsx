@@ -1,12 +1,40 @@
+"use client";
+
 import Link from "next/link";
 import type { Movement } from "@/lib/types";
 import { PHOTOGRAPHERS, getMovement, getPhotographer } from "@/lib/data";
 import { WorkImage } from "@/components/ui/WorkImage";
 import { MovementDetailHeader } from "@/components/views/MovementDetailHeader";
+import { useLocale } from "@/components/shell/LocaleProvider";
+import { getMovementName, getPhotographerName } from "@/lib/i18n";
 
 type Props = { movement: Movement };
 
+const LABELS = {
+  zh: {
+    about: "介绍",
+    arc: "兴衰",
+    works: "代表作",
+    figures: "代表人物",
+    lineage: "承接关系",
+    preceded: "前辈",
+    succeeded: "后继",
+  },
+  en: {
+    about: "About",
+    arc: "Arc",
+    works: "Signature works",
+    figures: "Figures",
+    lineage: "Lineage",
+    preceded: "Preceded by",
+    succeeded: "Succeeded by",
+  },
+};
+
 export function MovementDetail({ movement: m }: Props) {
+  const { locale } = useLocale();
+  const labels = LABELS[locale];
+
   const startYear = m.period.start;
   const peakYear = m.period.peak;
   const endYear = m.period.end ?? new Date().getFullYear();
@@ -35,10 +63,10 @@ export function MovementDetail({ movement: m }: Props) {
             className="font-display text-[10px] tracking-[0.24em] uppercase mb-2"
             style={{ color: m.color }}
           >
-            {m.nameEn}
+            {locale === "en" ? m.nameZh : m.nameEn}
           </div>
           <h1 className="font-display text-4xl md:text-5xl text-ink tracking-tight leading-tight mb-2">
-            {m.nameZh}
+            {getMovementName(m, locale)}
           </h1>
           <div className="text-ink-3 text-sm font-mono tabular-nums">
             {startYear} <span className="mx-2 text-ink-3">→ {peakYear}</span> → {endYear}
@@ -62,7 +90,7 @@ export function MovementDetail({ movement: m }: Props) {
               className="absolute -top-5"
               style={{ left: `calc(${peakLeft}% - 12px)` }}
             >
-              <span className="font-display text-[10px] tracking-wider text-ink-2">
+              <span className="font-display text-[10px] tracking-wider text-ink-2 tabular-nums">
                 ▼ {peakYear}
               </span>
             </div>
@@ -78,7 +106,7 @@ export function MovementDetail({ movement: m }: Props) {
             {/* Description */}
             <section>
               <h2 className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3 mb-3">
-                介绍 / About
+                {labels.about}
               </h2>
               <p className="text-[15px] text-ink leading-relaxed">{m.description}</p>
             </section>
@@ -86,7 +114,7 @@ export function MovementDetail({ movement: m }: Props) {
             {/* Arc */}
             <section>
               <h2 className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3 mb-3">
-                兴衰 / Arc
+                {labels.arc}
               </h2>
               <p className="text-[14px] text-ink-2 leading-relaxed italic">{m.arc}</p>
             </section>
@@ -95,7 +123,7 @@ export function MovementDetail({ movement: m }: Props) {
             {signatureWorks.length > 0 && (
               <section>
                 <h2 className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3 mb-4">
-                  代表作 / Signature Works
+                  {labels.works}
                 </h2>
                 <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
                   {signatureWorks.map(({ p, w }, i) => (
@@ -112,11 +140,15 @@ export function MovementDetail({ movement: m }: Props) {
                       <div>
                         <Link
                           href={`/p/${p.id}`}
+                          replace
+                          scroll={false}
                           className="font-display text-sm text-ink hover:text-accent block leading-tight"
                         >
-                          {p.nameZh}
+                          {getPhotographerName(p, locale)}
                         </Link>
-                        <span className="text-[11px] text-ink-3 font-mono">{w.year}</span>
+                        <span className="text-[11px] text-ink-3 font-mono tabular-nums">
+                          {w.year}
+                        </span>
                       </div>
                     </div>
                   ))}
@@ -129,13 +161,15 @@ export function MovementDetail({ movement: m }: Props) {
             {/* Members */}
             <section>
               <h2 className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3 mb-3">
-                代表人物 / Figures · {members.length}
+                {labels.figures} · <span className="tabular-nums">{members.length}</span>
               </h2>
               <div className="space-y-1">
                 {members.map((p) => (
                   <Link
                     key={p.id}
                     href={`/p/${p.id}`}
+                    replace
+                    scroll={false}
                     className="flex items-center gap-3 px-2 py-1.5 hover:bg-bg-elev transition-colors group"
                   >
                     <span
@@ -143,7 +177,7 @@ export function MovementDetail({ movement: m }: Props) {
                       style={{ background: m.color }}
                     />
                     <span className="font-display text-sm text-ink group-hover:text-accent flex-1 truncate">
-                      {p.nameZh}
+                      {getPhotographerName(p, locale)}
                     </span>
                     <span className="font-mono tabular-nums text-[10px] text-ink-3">
                       {p.born}
@@ -156,16 +190,20 @@ export function MovementDetail({ movement: m }: Props) {
             {/* Lineage */}
             <section>
               <h2 className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3 mb-3">
-                承接关系 / Lineage
+                {labels.lineage}
               </h2>
               <div className="space-y-3">
                 <div>
-                  <div className="text-[10px] tracking-wider uppercase text-ink-3 mb-1.5">前辈</div>
-                  <RelChips ids={m.precededBy} />
+                  <div className="text-[10px] tracking-wider uppercase text-ink-3 mb-1.5">
+                    {labels.preceded}
+                  </div>
+                  <RelChips ids={m.precededBy} locale={locale} />
                 </div>
                 <div>
-                  <div className="text-[10px] tracking-wider uppercase text-ink-3 mb-1.5">后继</div>
-                  <RelChips ids={m.succeededBy} />
+                  <div className="text-[10px] tracking-wider uppercase text-ink-3 mb-1.5">
+                    {labels.succeeded}
+                  </div>
+                  <RelChips ids={m.succeededBy} locale={locale} />
                 </div>
               </div>
             </section>
@@ -176,7 +214,13 @@ export function MovementDetail({ movement: m }: Props) {
   );
 }
 
-function RelChips({ ids }: { ids: string[] }) {
+function RelChips({
+  ids,
+  locale,
+}: {
+  ids: string[];
+  locale: "zh" | "en";
+}) {
   if (ids.length === 0)
     return <span className="text-[12px] text-ink-3 italic">—</span>;
   return (
@@ -188,11 +232,13 @@ function RelChips({ ids }: { ids: string[] }) {
           <Link
             key={id}
             href={`/movements/${id}`}
+            replace
+            scroll={false}
             className="inline-flex items-center gap-1.5 px-2 h-7 border text-[11px] hover:bg-bg-elev transition-colors"
             style={{ borderColor: `${m.color}66`, color: m.color }}
           >
             <span className="w-1 h-1" style={{ background: m.color }} />
-            {m.nameZh}
+            {getMovementName(m, locale)}
           </Link>
         );
       })}

@@ -1,37 +1,82 @@
+"use client";
+
 import Link from "next/link";
 import type { Photographer, Movement } from "@/lib/types";
 import { getMovement, tagSlug } from "@/lib/data";
 import { WorkImage } from "@/components/ui/WorkImage";
+import { useLocale } from "@/components/shell/LocaleProvider";
+import { getPhotographerName, getMovementName } from "@/lib/i18n";
 
 type Props = {
   photographer: Photographer;
 };
 
-const COUNTRY_NAMES: Record<string, string> = {
+/* 国名表 — 中英两套, 按 locale 选 */
+const COUNTRY_NAMES_ZH: Record<string, string> = {
   FR: "法国", UK: "英国", US: "美国", DE: "德国", IT: "意大利",
   ES: "西班牙", JP: "日本", CN: "中国", IN: "印度", MX: "墨西哥",
   BR: "巴西", AR: "阿根廷", CZ: "捷克", PL: "波兰", RU: "俄罗斯",
   HU: "匈牙利", AT: "奥地利", CH: "瑞士", BE: "比利时", NL: "荷兰",
   CA: "加拿大", AU: "澳大利亚", ZA: "南非", IL: "以色列",
+  ML: "马里", PE: "秘鲁", CU: "古巴", LT: "立陶宛", VN: "越南",
+  TW: "中国台湾", IR: "伊朗",
+};
+const COUNTRY_NAMES_EN: Record<string, string> = {
+  FR: "France", UK: "UK", US: "USA", DE: "Germany", IT: "Italy",
+  ES: "Spain", JP: "Japan", CN: "China", IN: "India", MX: "Mexico",
+  BR: "Brazil", AR: "Argentina", CZ: "Czech Rep.", PL: "Poland", RU: "Russia",
+  HU: "Hungary", AT: "Austria", CH: "Switzerland", BE: "Belgium", NL: "Netherlands",
+  CA: "Canada", AU: "Australia", ZA: "South Africa", IL: "Israel",
+  ML: "Mali", PE: "Peru", CU: "Cuba", LT: "Lithuania", VN: "Vietnam",
+  TW: "Taiwan", IR: "Iran",
+};
+
+const SECTION_LABELS = {
+  zh: {
+    works: "代表作",
+    keyDates: "关键年表",
+    tags: "技法 / 标签",
+    sources: "来源",
+    nowAlive: "今",
+  },
+  en: {
+    works: "Works",
+    keyDates: "Key dates",
+    tags: "Techniques / Tags",
+    sources: "Sources",
+    nowAlive: "now",
+  },
 };
 
 export function PhotographerEntry({ photographer: p }: Props) {
+  const { locale } = useLocale();
+  const labels = SECTION_LABELS[locale];
+  const countryMap =
+    locale === "en" ? COUNTRY_NAMES_EN : COUNTRY_NAMES_ZH;
+
   const movements = p.movements
     .map((id) => getMovement(id))
     .filter((m): m is Movement => !!m);
   const primaryMovement = movements[0];
 
+  const tagTitle = (t: string) =>
+    locale === "en"
+      ? `See all photographers tagged "${t}"`
+      : `查看所有使用 "${t}" 的摄影师`;
+
   return (
     <article className="text-ink">
       {/* Header */}
       <header className="space-y-2">
-        <div className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3">
-          {COUNTRY_NAMES[p.country] ?? p.country} · {p.born}–{p.died ?? "今"}
+        <div className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3 tabular-nums">
+          {countryMap[p.country] ?? p.country} · {p.born}–{p.died ?? labels.nowAlive}
         </div>
         <h1 className="font-display text-4xl md:text-5xl tracking-tight leading-[1.05] text-ink">
-          {p.nameZh}
+          {getPhotographerName(p, locale)}
         </h1>
-        <div className="text-ink-2 text-sm tracking-tight">{p.name}</div>
+        <div className="text-ink-2 text-sm tracking-tight">
+          {locale === "en" ? p.nameZh : p.name}
+        </div>
         <div className="flex flex-wrap gap-1.5 pt-2">
           {movements.map((m) => (
             <Link
@@ -49,7 +94,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
                 className="w-1.5 h-1.5"
                 style={{ background: m.color }}
               />
-              {m.nameZh}
+              {getMovementName(m, locale)}
             </Link>
           ))}
         </div>
@@ -57,7 +102,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
 
       <hr className="hr-subtle my-6" />
 
-      {/* Bio */}
+      {/* Bio (long-form 中文 only this release) */}
       <section className="text-[15px] leading-relaxed text-ink-2">
         {p.bio}
       </section>
@@ -65,7 +110,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
       {/* Works */}
       {p.works.length > 0 && (
         <section className="mt-8">
-          <SectionLabel zh="代表作" />
+          <SectionLabel label={labels.works} />
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-4">
             {p.works.map((w, i) => (
               <WorkImage
@@ -85,7 +130,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
       {/* Key dates */}
       {p.keyDates.length > 0 && (
         <section className="mt-8">
-          <SectionLabel zh="关键年表" />
+          <SectionLabel label={labels.keyDates} />
           <ol className="mt-4 space-y-2">
             {p.keyDates
               .slice()
@@ -105,7 +150,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
       {/* Techniques — clickable tags */}
       {p.techniques.length > 0 && (
         <section className="mt-8">
-          <SectionLabel zh="技法 / 标签" />
+          <SectionLabel label={labels.tags} />
           <div className="flex flex-wrap gap-1.5 mt-4">
             {p.techniques.map((t) => (
               <Link
@@ -114,7 +159,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
                 replace
                 scroll={false}
                 className="inline-flex items-center gap-1.5 px-2.5 h-7 border border-rule text-ink-2 text-[12px] hover:border-accent hover:text-accent transition-colors"
-                title={`查看所有使用 "${t}" 的摄影师`}
+                title={tagTitle(t)}
               >
                 <span aria-hidden="true" className="text-ink-3 leading-none">
                   #
@@ -138,7 +183,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
       {/* Sources */}
       {p.sources && p.sources.length > 0 && (
         <section className="mt-10 pt-6 border-t border-rule">
-          <SectionLabel zh="来源" />
+          <SectionLabel label={labels.sources} />
           <ul className="mt-2 space-y-1">
             {p.sources.map((s, i) => (
               <li key={i}>
@@ -159,11 +204,11 @@ export function PhotographerEntry({ photographer: p }: Props) {
   );
 }
 
-function SectionLabel({ zh }: { zh: string }) {
+function SectionLabel({ label }: { label: string }) {
   return (
     <div className="flex items-baseline gap-3">
       <span className="font-display text-xs tracking-[0.18em] text-ink-2">
-        {zh}
+        {label}
       </span>
       <span className="h-px flex-1 bg-rule" />
     </div>

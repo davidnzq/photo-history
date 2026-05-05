@@ -139,6 +139,18 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
     router.replace(`/network${params.toString() ? "?" + params : ""}`, { scroll: false });
   }
 
+  // 左栏只列出"在当前筛选下还有可见人物"的流派 (per UX 反馈)
+  const visibleMovementIds = useMemo(() => {
+    const set = new Set<string>();
+    for (const p of photographers) {
+      if (passes(p, filter)) set.add(p.movements[0]);
+    }
+    return set;
+  }, [photographers, filter]);
+  const railMovements = useMemo(
+    () => movements.filter((m) => visibleMovementIds.has(m.id)),
+    [movements, visibleMovementIds]
+  );
 
   return (
     <div className="absolute inset-0 flex">
@@ -161,7 +173,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
             <span className="w-2 h-2 bg-ink-3" />
             {t("filter.all")}
           </button>
-          {movements.map((m) => (
+          {railMovements.map((m) => (
             <button
               key={m.id}
               type="button"

@@ -21,7 +21,7 @@ export const LOCALE_COOKIE_MAX_AGE = 60 * 60 * 24 * 365; // 1 year
 const dict: Record<Locale, Record<string, string>> = {
   zh: {
     /* brand — 中文模式只有中文 */
-    "brand": "摄影历",
+    "brand": "摄影简史",
 
     /* nav / shell */
     "nav.about": "关于",
@@ -74,11 +74,11 @@ const dict: Record<Locale, Record<string, string>> = {
     "rail.ego.exit": "✕ 退出聚焦",
 
     /* page titles / metadata */
-    "page.timeline.title": "时间线 · 摄影历",
-    "page.network.title": "影响网络 · 摄影历",
-    "page.movements.title": "流派 · 摄影历",
-    "page.lineage.title": "传承关系 · 摄影历",
-    "page.about.title": "关于 · 摄影历",
+    "page.timeline.title": "时间线 · 摄影简史",
+    "page.network.title": "影响网络 · 摄影简史",
+    "page.movements.title": "流派 · 摄影简史",
+    "page.lineage.title": "传承关系 · 摄影简史",
+    "page.about.title": "关于 · 摄影简史",
 
     /* movements grid */
     "movements.heading": "流派",
@@ -86,7 +86,7 @@ const dict: Record<Locale, Record<string, string>> = {
       "按高峰年份排列的 {n} 个摄影流派/运动。点入查看兴衰、代表人物和承接关系。",
 
     /* about */
-    "about.heading": "关于摄影历",
+    "about.heading": "关于摄影简史",
     "about.byline": "制作人 · 赤拔",
 
     /* drawer */
@@ -97,7 +97,7 @@ const dict: Record<Locale, Record<string, string>> = {
 
   en: {
     /* brand — English-only */
-    "brand": "Photography History",
+    "brand": "Brief History of Photography",
 
     /* nav / shell */
     "nav.about": "About",
@@ -150,11 +150,11 @@ const dict: Record<Locale, Record<string, string>> = {
     "rail.ego.exit": "✕ Clear focus",
 
     /* page titles / metadata */
-    "page.timeline.title": "Timeline · Photography History",
-    "page.network.title": "Influence Network · Photography History",
-    "page.movements.title": "Movements · Photography History",
-    "page.lineage.title": "Lineage · Photography History",
-    "page.about.title": "About · Photography History",
+    "page.timeline.title": "Timeline · Brief History of Photography",
+    "page.network.title": "Influence Network · Brief History of Photography",
+    "page.movements.title": "Movements · Brief History of Photography",
+    "page.lineage.title": "Lineage · Brief History of Photography",
+    "page.about.title": "About · Brief History of Photography",
 
     /* movements grid */
     "movements.heading": "Movements",

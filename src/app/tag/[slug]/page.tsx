@@ -8,6 +8,7 @@ import {
   getMovement,
 } from "@/lib/data";
 import { TagDetailHeader } from "./TagDetailHeader";
+import { LifeYears } from "@/components/ui/LifeYears";
 
 type PageProps = { params: Promise<{ slug: string }> };
 
@@ -22,7 +23,7 @@ export async function generateMetadata({
   const tag = getTag(slug);
   if (!tag) return {};
   return {
-    title: `${tag.label} · 摄影历`,
+    title: `${tag.label} · 摄影简史`,
     description: `所有使用「${tag.label}」技法 / 介质 / 风格的摄影师 (${tag.photographerIds.length} 位)。`,
   };
 }
@@ -70,8 +71,8 @@ export default async function TagPage({ params }: PageProps) {
                   <h2 className="font-display text-lg text-ink group-hover:text-accent transition-colors">
                     {p.nameZh}
                   </h2>
-                  <span className="font-mono tabular-nums text-[11px] text-ink-3">
-                    {p.born}–{p.died ?? "今"}
+                  <span className="text-[11px] text-ink-3">
+                    <LifeYears born={p.born} died={p.died} />
                   </span>
                 </div>
                 <div className="text-[12px] text-ink-3">{p.name}</div>

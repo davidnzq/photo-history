@@ -1,13 +1,13 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import { useT } from "@/lib/i18n";
+import { useLocale } from "@/components/shell/LocaleProvider";
 
 /** Smart back affordance — see MovementDetailHeader / PhotographerHeader. */
 export function TagDetailHeader() {
   const router = useRouter();
-  const t = useT();
-  const label = t("brand") === "Photography History" ? "Back" : "返回";
+  const { locale } = useLocale();
+  const label = locale === "en" ? "Back" : "返回";
 
   function back() {
     if (typeof window !== "undefined" && window.history.length > 1) {

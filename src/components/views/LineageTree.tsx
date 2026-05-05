@@ -22,13 +22,13 @@ export function LineageTree(props: Props) {
 /* ── 设计常量 (per §6 spacing-scale, §10 chart consistency) ──── */
 const YEAR_AXIS_W = 64;        // 年份轴列宽 (固定 64,避免 5/6 px 偏差)
 const NODE_PAD_X = 8;          // 节点容器内左右内边距
-const LEAF_W = 132;            // 单叶 (photographer) 节点列宽 — 容下 12px 文字 + 年份
-const MIN_LEAF_W = 96;         // 视口很窄时的最小叶宽
-const TOP_PAD = 24;            // 顶部留白
-const BOTTOM_PAD = 32;
-const MIN_PX_PER_YEAR = 4;
-const MAX_PX_PER_YEAR = 16;
-const DEFAULT_PX_PER_YEAR = 7;
+const LEAF_W_MAX = 124;        // 叶 (photographer) 节点列宽上限
+const LEAF_W_MIN = 64;         // 视口窄到极限时的最小叶宽 (再小标签需截断)
+const TOP_PAD = 32;
+const BOTTOM_PAD = 40;
+const MIN_PX_PER_YEAR = 6;
+const MAX_PX_PER_YEAR = 22;
+const DEFAULT_PX_PER_YEAR = 12;  // 默认更宽松,纵向间距大了横向就不挤
 const SCROLL_KEY = "lineage-scroll";
 const DENSITY_KEY = "lineage-density";
 
@@ -402,7 +402,8 @@ function LineageNodeView({
         color = m.color;
         strokeColor = m.color;
       }
-      detail = `${p.born}–${p.died ?? "今"}`;
+      // 调用方传 locale via DOM data; 这里省事直接用 — 节点只是 detail 微注
+      detail = `${p.born}–${p.died ?? "—"}`;
     }
     badge = "●";
   }
@@ -417,12 +418,20 @@ function LineageNodeView({
   const effStrokeOpacity = isInteractive && hovered ? 1 : 0.55;
   const effStrokeWidth = hovered ? strokeWidth + 0.5 : strokeWidth;
 
-  // label 宽度:用 LEAF_W 作上限,内容 fits = node.label * 12 + 24
-  const charW = 11; // 中文字符宽 ≈ 11px @ 11pt
-  const labelW = Math.min(
-    Math.max(node.label.length * charW + 28, 88),
-    LEAF_W - NODE_PAD_X * 2
-  );
+  // label 宽度:基于 leaf 节点的可用宽度,自适应裁剪
+  // (layout 函数会传入 placed.x 之间的实际间距,这里我们用一个保守值)
+  const slotW = (placed as Placed & { slotW?: number }).slotW ?? LEAF_W_MAX;
+  const usableW = Math.max(LEAF_W_MIN, slotW - NODE_PAD_X * 2);
+  const labelW = Math.min(usableW, node.label.length * 11 + 28);
+
+  // 若节点窄到放不下完整 label,做软截断
+  let displayLabel = node.label;
+  const charW = 11;
+  const maxChars = Math.max(2, Math.floor((usableW - 28) / charW));
+  if (node.label.length > maxChars) {
+    displayLabel = node.label.slice(0, maxChars - 1) + "…";
+  }
+
   const h = 22;
 
   return (
@@ -457,7 +466,7 @@ function LineageNodeView({
           fill="var(--color-ink)"
           className="font-display"
         >
-          {node.label}
+          {displayLabel}
         </tspan>
       </text>
       {detail && labelW > 110 && (
@@ -472,10 +481,8 @@ function LineageNodeView({
           {detail}
         </text>
       )}
-      {/* native tooltip for accessibility */}
-      {isInteractive && (
-        <title>{`${node.label}${detail ? " · " + detail : ""}`}</title>
-      )}
+      {/* native tooltip — 始终给完整 label, 截断时仍可悬停看全 */}
+      <title>{`${node.label}${detail ? " · " + detail : ""}`}</title>
     </g>
   );
 }
@@ -544,19 +551,22 @@ function layoutLineage(
   const yMax = Math.max(...years, new Date().getFullYear() - 30) + 8;
   const yearDomain: [number, number] = [yMin, yMax];
 
-  /* 3. 视图垂直高度受 pxPerYear 控制, 水平宽度受 leaf 数量 + 视口下限控制 */
+  /* 3. 视图垂直高度受 pxPerYear 控制, 水平宽度先尝试 fit viewport,
+        leaf 数量太多时退化到 LEAF_W_MIN 并出现水平滚动 (per UX 反馈
+        尽量避免, 但 78 leaves @ 1280vw 不可能完全 fit). */
   const totalLeaves = Math.max(1, leafCount.get(root.id) ?? 1);
-  // 优先 fit: 如果叶子少, leaf_w 拉大占满;叶子多则用 LEAF_W
-  const fitLeafW = (viewportW - YEAR_AXIS_W - 32) / totalLeaves;
-  const leafW = Math.max(MIN_LEAF_W, Math.min(LEAF_W, fitLeafW));
-  const treeWidth = Math.max(viewportW - YEAR_AXIS_W, totalLeaves * leafW + 48);
+  const usableViewportW = Math.max(640, viewportW - YEAR_AXIS_W - 32);
+  // fit-first: 让 leafW 落在 [LEAF_W_MIN, LEAF_W_MAX] 之间
+  const fitLeafW = usableViewportW / totalLeaves;
+  const leafW = Math.max(LEAF_W_MIN, Math.min(LEAF_W_MAX, fitLeafW));
+  const treeWidth = Math.max(usableViewportW, totalLeaves * leafW + 48);
   const treeHeight =
     TOP_PAD + (yMax - yMin) * pxPerYear + BOTTOM_PAD;
   const yScale = scaleLinear()
     .domain(yearDomain)
     .range([TOP_PAD, treeHeight - BOTTOM_PAD]);
 
-  /* 4. 后序遍历分配 x */
+  /* 4. 后序遍历分配 x, 并把 slotW 传给节点供 label 截断 */
   const placed: Placed[] = [];
   function place(
     n: LineageNode,
@@ -569,7 +579,12 @@ function layoutLineage(
     const y =
       typeof n.year === "number" ? yScale(n.year as number) : TOP_PAD;
     const hidden = isHidden(n);
-    placed.push({ node: n, x, y, parentX, parentY, hidden });
+    const slotW = xEnd - xStart;
+    placed.push({
+      node: n, x, y, parentX, parentY, hidden,
+      // attach slotW for the renderer (read-only, optional field)
+      ...({ slotW } as object),
+    });
     if (n.children && n.children.length > 0) {
       let cursor = xStart;
       const total = leafCount.get(n.id) ?? 1;

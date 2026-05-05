@@ -61,7 +61,10 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
   const filter = useMemo(() => parseFilter(sp), [sp]);
 
   // ── Lane layout ────────────────────────────────────────────────
-  const lanes: LaneInfo[] = useMemo(() => {
+  // 注:layout 只考虑"哪些人在哪条 lane",不考虑筛选;筛选阶段下方
+  // 用 visibleLanes 派生只保留"至少有一个可见人物"的 lane,空 lane
+  // 不占垂直空间 (per UX 反馈,不要置灰空间).
+  const lanesAll: LaneInfo[] = useMemo(() => {
     const sortedMovements = [...movements].sort(
       (a, b) => a.period.start - b.period.start
     );
@@ -136,6 +139,44 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
     return arr;
   }, [yearBounds, zoom]);
 
+  // ── Filter set: 隐藏未命中项 (per UX 反馈, 不再 dim) ────────────
+  const hiddenSet = useMemo(() => {
+    const out = new Set<string>();
+    for (const p of photographers) if (!passes(p, filter)) out.add(p.id);
+    return out;
+  }, [photographers, filter]);
+
+  // ── 只保留"至少有一个可见人物"的 lane (per UX: 空 lane 不占空间) ──
+  const lanes: LaneInfo[] = useMemo(() => {
+    return lanesAll
+      .map((l) => {
+        const visible = l.placed.filter((p) => !hiddenSet.has(p.p.id));
+        if (visible.length === 0) return null;
+        // 重排 row 索引 (避免空隙)
+        const lanesByRow = new Map<number, Placed[]>();
+        let i = 0;
+        const rowMap = new Map<number, number>();
+        for (const v of visible) {
+          if (!rowMap.has(v.row)) rowMap.set(v.row, i++);
+        }
+        for (const v of visible) {
+          const newRow = rowMap.get(v.row) ?? 0;
+          const arr = lanesByRow.get(newRow) ?? [];
+          arr.push({ ...v, row: newRow });
+          lanesByRow.set(newRow, arr);
+        }
+        const newPlaced = [...lanesByRow.values()].flat();
+        const rowCount = Math.max(rowMap.size, 1);
+        const height =
+          LANE_PAD_TOP +
+          rowCount * SUB_ROW_HEIGHT +
+          (rowCount - 1) * SUB_ROW_GAP +
+          LANE_PAD_BOTTOM;
+        return { ...l, placed: newPlaced, rowCount, height };
+      })
+      .filter((x): x is LaneInfo => x !== null);
+  }, [lanesAll, hiddenSet]);
+
   // ── Lane vertical offsets ─────────────────────────────────────
   const laneOffsets = useMemo(() => {
     const offsets: number[] = [];
@@ -148,13 +189,6 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
   }, [lanes]);
 
   const lanesTotal = lanes.reduce((acc, l) => acc + l.height, 0);
-
-  // ── Filter set: 隐藏未命中项 (per UX 反馈, 不再 dim) ────────────
-  const hiddenSet = useMemo(() => {
-    const out = new Set<string>();
-    for (const p of photographers) if (!passes(p, filter)) out.add(p.id);
-    return out;
-  }, [photographers, filter]);
 
   // ── Hover state ────────────────────────────────────────────────
   const [hoverLaneId, setHoverLaneId] = useState<string | null>(null);
