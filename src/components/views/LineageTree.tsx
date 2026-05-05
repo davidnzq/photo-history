@@ -1,15 +1,50 @@
 "use client";
 
-import { Suspense, useEffect, useMemo, useRef, useState } from "react";
+/**
+ * LineageTree — vertical indented tree.
+ *
+ * 设计选型(取代旧 SVG + 年份纵轴 + 按 leafCount 横向铺开的方案):
+ *   - 数据形态:深度嵌套树, 共 ~107 节点(root → 事件 → 流派 → 摄影师 →
+ *     有时再嵌入"流派由摄影师催生"的子流派),且每个节点都带年份.
+ *   - 旧方案问题:78 leaves × 64–124px = 6000+px 横向, 必出水平滚动 + 标签
+ *     在窄槽位重叠 + sticky 年轴在不同滚动位置上的亚像素错位.
+ *   - 新方案:类似文件树 / JSON viewer 的纵向缩进列表. 信息按时间排序,
+ *     纵向一屏即可看到整体骨架(默认事件展开 / 流派折叠), 点击流派局部
+ *     展开摄影师. 完全无水平滚动, 没有连线对齐问题, 标签永不重叠.
+ *
+ * 设计规则参考:
+ *   §2 gesture-conflicts (避免横向手势)、§5 horizontal-scroll、§5 scroll-
+ *   behavior、§5 visual-hierarchy、§6 spacing-scale、§8 progressive-
+ *   disclosure (默认折叠, 按需展开)、§9 back-stack-integrity (Link replace).
+ */
+
+import {
+  Suspense,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { scaleLinear } from "d3-scale";
 import { clsx } from "clsx";
-import type { LineageNode } from "@/lib/types";
+import type { LineageNode, FilterState } from "@/lib/types";
 import { getMovement, getPhotographer } from "@/lib/data";
-import { useT } from "@/lib/i18n";
+import {
+  useT,
+  getMovementName,
+  getPhotographerName,
+} from "@/lib/i18n";
+import { useLocale } from "@/components/shell/LocaleProvider";
 import { parseFilter, passes } from "@/lib/filter";
 
 type Props = { root: LineageNode };
+
+const ROW_H = 34;
+const INDENT = 18;
+const YEAR_W = 64;
+const EXPAND_KEY = "lineage-expanded-v3";
+const SCROLL_KEY = "lineage-scroll-v3";
 
 export function LineageTree(props: Props) {
   return (
@@ -19,99 +54,95 @@ export function LineageTree(props: Props) {
   );
 }
 
-/* ── 设计常量 (per §6 spacing-scale, §10 chart consistency) ──── */
-const YEAR_AXIS_W = 64;        // 年份轴列宽 (固定 64,避免 5/6 px 偏差)
-const NODE_PAD_X = 8;          // 节点容器内左右内边距
-const LEAF_W_MAX = 124;        // 叶 (photographer) 节点列宽上限
-const LEAF_W_MIN = 64;         // 视口窄到极限时的最小叶宽 (再小标签需截断)
-const TOP_PAD = 32;
-const BOTTOM_PAD = 40;
-const MIN_PX_PER_YEAR = 6;
-const MAX_PX_PER_YEAR = 22;
-const DEFAULT_PX_PER_YEAR = 12;  // 默认更宽松,纵向间距大了横向就不挤
-const SCROLL_KEY = "lineage-scroll";
-const DENSITY_KEY = "lineage-density";
-
-type Placed = {
+type Flat = {
   node: LineageNode;
-  x: number;
-  y: number;
-  parentX?: number;
-  parentY?: number;
-  /** 是否被全局筛选隐藏 */
-  hidden: boolean;
+  depth: number;
+  hasChildren: boolean;
+  childCount: number;
+  visiblePhotographerCount: number;
+  expanded: boolean;
+  ancestorIds: string[];
 };
+
+function isFilteredOut(n: LineageNode, filter: FilterState): boolean {
+  if (n.kind === "photographer" && n.refId) {
+    const ph = getPhotographer(n.refId);
+    if (ph && !passes(ph, filter)) return true;
+  }
+  if (n.kind === "movement" && n.refId) {
+    if (
+      filter.movementIds.length &&
+      !filter.movementIds.includes(n.refId)
+    ) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function countVisiblePhotographers(
+  n: LineageNode,
+  filter: FilterState
+): number {
+  if (isFilteredOut(n, filter)) return 0;
+  let c = n.kind === "photographer" ? 1 : 0;
+  if (n.children) {
+    for (const ch of n.children) c += countVisiblePhotographers(ch, filter);
+  }
+  return c;
+}
 
 function LineageTreeInner({ root }: Props) {
   const router = useRouter();
   const t = useT();
+  const { locale } = useLocale();
   const sp = useSearchParams();
   const filter = useMemo(() => parseFilter(sp), [sp]);
 
-  const wrapperRef = useRef<HTMLDivElement | null>(null);
   const scrollRef = useRef<HTMLDivElement | null>(null);
-  const [vw, setVw] = useState(1200);
-  const [vh, setVh] = useState(700);
-  const [pxPerYear, setPxPerYear] = useState(DEFAULT_PX_PER_YEAR);
-  const [hoverId, setHoverId] = useState<string | null>(null);
   const [hydrated, setHydrated] = useState(false);
+  const [expandOverride, setExpandOverride] = useState<
+    Record<string, boolean>
+  >({});
+  const [hoverNode, setHoverNode] = useState<Flat | null>(null);
 
-  /* viewport tracking */
-  useEffect(() => {
-    if (!wrapperRef.current) return;
-    const ro = new ResizeObserver((entries) => {
-      const e = entries[0];
-      if (e) {
-        setVw(Math.max(640, Math.floor(e.contentRect.width)));
-        setVh(Math.max(480, Math.floor(e.contentRect.height)));
-      }
-    });
-    ro.observe(wrapperRef.current);
-    return () => ro.disconnect();
-  }, []);
-
-  /* density restoration */
+  /* persistence ─────────────────────────────────────────────────── */
   useEffect(() => {
     if (typeof window === "undefined") return;
-    const saved = sessionStorage.getItem(DENSITY_KEY);
-    const parsed = saved ? parseFloat(saved) : NaN;
-    if (
-      Number.isFinite(parsed) &&
-      parsed >= MIN_PX_PER_YEAR &&
-      parsed <= MAX_PX_PER_YEAR
-    ) {
-      setPxPerYear(parsed);
+    const saved = sessionStorage.getItem(EXPAND_KEY);
+    if (saved) {
+      try {
+        const parsed = JSON.parse(saved);
+        if (parsed && typeof parsed === "object")
+          setExpandOverride(parsed as Record<string, boolean>);
+      } catch {
+        /* ignore */
+      }
     }
     setHydrated(true);
   }, []);
-
   useEffect(() => {
     if (!hydrated) return;
-    sessionStorage.setItem(DENSITY_KEY, pxPerYear.toFixed(2));
-  }, [pxPerYear, hydrated]);
+    sessionStorage.setItem(EXPAND_KEY, JSON.stringify(expandOverride));
+  }, [expandOverride, hydrated]);
 
   /* scroll restoration */
   useEffect(() => {
     if (!hydrated || !scrollRef.current) return;
     const saved = sessionStorage.getItem(SCROLL_KEY);
-    if (!saved) return;
-    const [x, y] = saved.split(",").map(Number);
-    if (Number.isFinite(x)) scrollRef.current.scrollLeft = x;
-    if (Number.isFinite(y)) scrollRef.current.scrollTop = y;
-    // eslint-disable-next-line react-hooks/exhaustive-deps
+    if (saved) {
+      const y = Number(saved);
+      if (Number.isFinite(y)) scrollRef.current.scrollTop = y;
+    }
   }, [hydrated]);
   useEffect(() => {
     const el = scrollRef.current;
     if (!el) return;
     let raf = 0;
-    const target = el;
     function save() {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
-        sessionStorage.setItem(
-          SCROLL_KEY,
-          `${target.scrollLeft},${target.scrollTop}`
-        );
+        sessionStorage.setItem(SCROLL_KEY, String(el!.scrollTop));
       });
     }
     el.addEventListener("scroll", save, { passive: true });
@@ -121,482 +152,349 @@ function LineageTreeInner({ root }: Props) {
     };
   }, []);
 
-  /* ── compute layout ─────────────────────────────────────────── */
-  const layout = useMemo(
-    () => layoutLineage(root, filter, vw, pxPerYear),
-    [root, filter, vw, pxPerYear]
+  /* default expansion: events / root expanded; movements collapsed. */
+  const defaultExpanded = useCallback(
+    (n: LineageNode) => n.kind !== "movement",
+    []
+  );
+  const isExpanded = useCallback(
+    (n: LineageNode) =>
+      n.id in expandOverride ? expandOverride[n.id] : defaultExpanded(n),
+    [expandOverride, defaultExpanded]
   );
 
-  /* ── ⌘+wheel zoom 同步 Timeline 的语义 ─────────────────────── */
-  useEffect(() => {
-    const el = scrollRef.current;
-    if (!el) return;
-    function onWheel(e: WheelEvent) {
-      if (!(e.ctrlKey || e.metaKey)) return;
-      e.preventDefault();
-      const factor = Math.exp(-e.deltaY / 500);
-      setPxPerYear((v) =>
-        Math.max(MIN_PX_PER_YEAR, Math.min(MAX_PX_PER_YEAR, v * factor))
-      );
-    }
-    el.addEventListener("wheel", onWheel, { passive: false });
-    return () => el.removeEventListener("wheel", onWheel);
-  }, []);
+  /* flatten ─────────────────────────────────────────────────────── */
+  const flat = useMemo<Flat[]>(() => {
+    const out: Flat[] = [];
+    function walk(
+      n: LineageNode,
+      depth: number,
+      ancestors: string[]
+    ): void {
+      if (isFilteredOut(n, filter)) return;
 
-  function densityIn() {
-    setPxPerYear((v) => Math.min(MAX_PX_PER_YEAR, v * 1.25));
+      const sortedChildren = [...(n.children ?? [])].sort((a, b) => {
+        const ya = typeof a.year === "number" ? a.year : 9999;
+        const yb = typeof b.year === "number" ? b.year : 9999;
+        if (ya !== yb) return ya - yb;
+        return a.label.localeCompare(b.label);
+      });
+
+      const visibleChildren = sortedChildren.filter(
+        (c) => !isFilteredOut(c, filter)
+      );
+      const childCount = visibleChildren.length;
+      const visiblePhotographerCount = countVisiblePhotographers(n, filter);
+      const expanded = isExpanded(n);
+
+      out.push({
+        node: n,
+        depth,
+        hasChildren: childCount > 0,
+        childCount,
+        visiblePhotographerCount,
+        expanded,
+        ancestorIds: ancestors,
+      });
+
+      if (childCount > 0 && expanded) {
+        const next = [...ancestors, n.id];
+        for (const c of visibleChildren) walk(c, depth + 1, next);
+      }
+    }
+    walk(root, 0, []);
+    return out;
+  }, [root, filter, isExpanded]);
+
+  /* hover ancestor highlight: precompute Set for O(1) lookup */
+  const ancestorSet = useMemo<Set<string>>(() => {
+    if (!hoverNode) return new Set();
+    return new Set([...hoverNode.ancestorIds, hoverNode.node.id]);
+  }, [hoverNode]);
+
+  /* actions ─────────────────────────────────────────────────────── */
+  function toggle(id: string, currently: boolean) {
+    setExpandOverride((prev) => ({ ...prev, [id]: !currently }));
   }
-  function densityOut() {
-    setPxPerYear((v) => Math.max(MIN_PX_PER_YEAR, v / 1.25));
+  function expandAll() {
+    const next: Record<string, boolean> = {};
+    (function w(n: LineageNode) {
+      if (n.children?.length) next[n.id] = true;
+      n.children?.forEach(w);
+    })(root);
+    setExpandOverride(next);
   }
-  function densityReset() {
-    setPxPerYear(DEFAULT_PX_PER_YEAR);
+  function collapseAll() {
+    const next: Record<string, boolean> = {};
+    (function w(n: LineageNode) {
+      if (n.kind === "movement") next[n.id] = false;
+      n.children?.forEach(w);
+    })(root);
+    setExpandOverride(next);
+  }
+  function navigate(n: LineageNode) {
+    if (n.kind === "movement" && n.refId) {
+      router.push(`/movements/${n.refId}`, { scroll: false });
+    } else if (n.kind === "photographer" && n.refId) {
+      router.push(`/p/${n.refId}`, { scroll: false });
+    }
   }
 
   return (
-    <div ref={wrapperRef} className="absolute inset-0 flex flex-col">
-      {/* SCROLL CONTAINER: 垂直滚动 (主) + 水平滚动 (按需). 年份轴贴左. */}
-      <div
-        ref={scrollRef}
-        className="flex-1 min-h-0 overflow-auto relative"
-      >
-        <div
-          className="flex"
-          style={{
-            width: YEAR_AXIS_W + layout.treeWidth,
-            height: layout.treeHeight,
-          }}
-        >
-          {/* ── Year axis: position:sticky;left:0 — 始终贴视口左边 ── */}
-          <div
-            className="sticky left-0 z-20 bg-bg/95 backdrop-blur-sm border-r border-rule shrink-0"
-            style={{ width: YEAR_AXIS_W, height: layout.treeHeight }}
+    <div className="absolute inset-0 flex flex-col">
+      {/* ── Toolbar ────────────────────────────────────────────── */}
+      <div className="shrink-0 flex items-center gap-3 border-b border-rule px-4 h-9 text-[10px] tracking-[0.18em] uppercase font-display bg-bg/95">
+        <span className="text-ink-3 tabular-nums">
+          {t("lineage.nodes", { n: flat.length })}
+        </span>
+        <span className="text-ink-3 hidden md:inline normal-case tracking-normal text-[11px]">
+          {t("lineage.hint")}
+        </span>
+        <div className="flex-1" />
+        <div className="inline-flex border border-rule">
+          <button
+            type="button"
+            onClick={expandAll}
+            className="px-3 h-7 hover:text-ink hover:bg-bg-2 transition-colors border-r border-rule"
           >
-            <svg
-              width={YEAR_AXIS_W}
-              height={layout.treeHeight}
-              className="block select-none"
-            >
-              <YearAxis
-                yScale={layout.yScale}
-                domain={layout.yearDomain}
-                pxPerYear={pxPerYear}
-              />
-            </svg>
-          </div>
-
-          {/* ── Tree content ─────────────────────────────────── */}
-          <svg
-            width={layout.treeWidth}
-            height={layout.treeHeight}
-            className="block select-none"
+            {t("lineage.expandAll")}
+          </button>
+          <button
+            type="button"
+            onClick={collapseAll}
+            className="px-3 h-7 hover:text-ink hover:bg-bg-2 transition-colors"
           >
-            {/* Edges */}
-            {layout.placed.map((p) => {
-              if (
-                p.parentX === undefined ||
-                p.parentY === undefined ||
-                p.hidden
-              )
-                return null;
-              const midY = (p.parentY + p.y) / 2;
-              const path = `M ${p.parentX},${p.parentY} C ${p.parentX},${midY} ${p.x},${midY} ${p.x},${p.y}`;
-              const isOnHoverPath =
-                hoverId !== null && hoverId === p.node.id;
-              return (
-                <path
-                  key={`edge-${p.node.id}`}
-                  d={path}
-                  fill="none"
-                  stroke={
-                    isOnHoverPath
-                      ? "var(--color-accent)"
-                      : "rgba(170,160,140,0.28)"
-                  }
-                  strokeWidth={isOnHoverPath ? 1.5 : 1}
-                  shapeRendering="geometricPrecision"
-                />
-              );
-            })}
-
-            {/* Nodes */}
-            {layout.placed.map((p) =>
-              p.hidden ? null : (
-                <LineageNodeView
-                  key={p.node.id}
-                  placed={p}
-                  hovered={hoverId === p.node.id}
-                  onHover={(on) => setHoverId(on ? p.node.id : null)}
-                  onClick={() => {
-                    if (p.node.kind === "movement" && p.node.refId)
-                      router.push(`/movements/${p.node.refId}`, {
-                        scroll: false,
-                      });
-                    if (p.node.kind === "photographer" && p.node.refId)
-                      router.push(`/p/${p.node.refId}`, { scroll: false });
-                  }}
-                />
-              )
-            )}
-          </svg>
+            {t("lineage.collapseAll")}
+          </button>
         </div>
       </div>
 
-      {/* ── Density controls (年份密度,同 Timeline 同款样式) ─── */}
-      <div className="absolute bottom-3 right-3 flex items-center gap-2 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display">
-        <div
-          className="inline-flex border border-rule bg-bg/80 backdrop-blur-sm"
-          role="group"
-          aria-label="density"
-        >
-          <button
-            type="button"
-            onClick={densityOut}
-            aria-label="zoom out"
-            className="w-7 h-7 flex items-center justify-center hover:text-ink hover:bg-bg-2 transition-colors disabled:opacity-30"
-            disabled={pxPerYear <= MIN_PX_PER_YEAR + 0.01}
-          >
-            −
-          </button>
-          <button
-            type="button"
-            onClick={densityReset}
-            className="px-2 h-7 flex items-center hover:text-ink hover:bg-bg-2 transition-colors border-x border-rule tabular-nums"
-            title={t("hint.reset")}
-          >
-            {(pxPerYear / DEFAULT_PX_PER_YEAR * 100).toFixed(0)}%
-          </button>
-          <button
-            type="button"
-            onClick={densityIn}
-            aria-label="zoom in"
-            className="w-7 h-7 flex items-center justify-center hover:text-ink hover:bg-bg-2 transition-colors disabled:opacity-30"
-            disabled={pxPerYear >= MAX_PX_PER_YEAR - 0.01}
-          >
-            +
-          </button>
+      {/* ── Body ──────────────────────────────────────────────── */}
+      <div
+        ref={scrollRef}
+        className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden"
+      >
+        <div role="tree" aria-label="lineage tree">
+          {flat.map((f) => (
+            <Row
+              key={f.node.id}
+              flat={f}
+              locale={locale}
+              t={t}
+              ancestor={ancestorSet.has(f.node.id) && hoverNode?.node.id !== f.node.id}
+              hovered={hoverNode?.node.id === f.node.id}
+              onHover={(on) => setHoverNode(on ? f : null)}
+              onToggle={() => toggle(f.node.id, f.expanded)}
+              onNavigate={() => navigate(f.node)}
+            />
+          ))}
         </div>
-        <span className="hidden sm:inline border border-rule px-2 h-7 flex items-center bg-bg/80 backdrop-blur-sm">
-          {t("hint.zoomPan")}
-        </span>
       </div>
     </div>
   );
 }
 
-/* ── Year axis (rendered as left column) ──────────────────────── */
+/* ── Row ─────────────────────────────────────────────────────────── */
 
-function YearAxis({
-  yScale,
-  domain,
-  pxPerYear,
-}: {
-  yScale: (y: number) => number;
-  domain: [number, number];
-  pxPerYear: number;
-}) {
-  // 步长按密度自适应:稀疏时 50 年,中等 25 年,密集时 10 年
-  const step = pxPerYear < 5 ? 50 : pxPerYear < 9 ? 25 : 10;
-  const start = Math.ceil(domain[0] / step) * step;
-  const ticks: number[] = [];
-  for (let y = start; y <= domain[1]; y += step) ticks.push(y);
-
-  return (
-    <g>
-      {/* axis spine */}
-      <line
-        x1={YEAR_AXIS_W - 0.5}
-        x2={YEAR_AXIS_W - 0.5}
-        y1={TOP_PAD - 8}
-        y2={yScale(domain[1]) + 16}
-        stroke="var(--color-rule-2)"
-        shapeRendering="crispEdges"
-      />
-      {ticks.map((t) => {
-        const yy = yScale(t);
-        const isMajor = t % 50 === 0;
-        return (
-          <g key={t}>
-            <line
-              x1={YEAR_AXIS_W - (isMajor ? 12 : 8)}
-              x2={YEAR_AXIS_W}
-              y1={yy}
-              y2={yy}
-              stroke={isMajor ? "var(--color-rule-2)" : "var(--color-rule)"}
-              shapeRendering="crispEdges"
-            />
-            <text
-              x={YEAR_AXIS_W - 16}
-              y={yy + 3}
-              fontSize={isMajor ? 11 : 10}
-              textAnchor="end"
-              className="font-mono tabular-nums"
-              fill={
-                isMajor ? "var(--color-ink-2)" : "var(--color-ink-3)"
-              }
-            >
-              {t}
-            </text>
-          </g>
-        );
-      })}
-    </g>
-  );
-}
-
-/* ── Single node ─────────────────────────────────────────────── */
-
-function LineageNodeView({
-  placed,
+function Row({
+  flat,
+  locale,
+  t,
+  ancestor,
   hovered,
   onHover,
-  onClick,
+  onToggle,
+  onNavigate,
 }: {
-  placed: Placed;
+  flat: Flat;
+  locale: "zh" | "en";
+  t: ReturnType<typeof useT>;
+  ancestor: boolean;
   hovered: boolean;
   onHover: (on: boolean) => void;
-  onClick: () => void;
+  onToggle: () => void;
+  onNavigate: () => void;
 }) {
-  const { node, x, y } = placed;
-  const isInteractive =
-    node.kind === "movement" || node.kind === "photographer";
+  const { node, depth, hasChildren, expanded, visiblePhotographerCount } =
+    flat;
 
-  // 颜色与字号体系 (§4 state-clarity, §6 weight-hierarchy)
-  let color = "var(--color-ink-2)";
-  let fontWeight = 400;
-  let fontSize = 11;
-  let strokeColor = color;
-  let strokeWidth = 1;
-  let bg = "var(--color-bg-elev)";
+  /* node visuals ───────────────────────────────────────────────── */
+  let label = node.label;
   let badge = "·";
-  let detail: string | undefined;
+  let color = "var(--color-ink-2)";
+  let detail: string | null = null;
+  let interactive = false;
 
   if (node.kind === "root") {
-    color = "var(--color-accent)";
-    fontWeight = 600;
-    fontSize = 12;
-    strokeColor = "var(--color-accent)";
-    strokeWidth = 1.5;
     badge = "◉";
-    detail = "Photography";
+    color = "var(--color-accent)";
   } else if (node.kind === "event") {
-    color = "var(--color-ink-2)";
-    strokeColor = "var(--color-rule-2)";
     badge = "◇";
+    // strip leading "1839 · " — already shown in year column
+    label = label.replace(/^\s*\d{4}\s*[·•]\s*/, "");
   } else if (node.kind === "movement") {
+    badge = "◆";
+    interactive = true;
     const m = node.refId ? getMovement(node.refId) : undefined;
     if (m) {
+      label = getMovementName(m, locale);
       color = m.color;
-      strokeColor = m.color;
-      strokeWidth = 1.25;
-      bg = `${m.color}1a`;
-      detail = m.nameZh;
     }
-    fontWeight = 600;
-    badge = "◆";
   } else if (node.kind === "photographer") {
+    badge = "●";
+    interactive = true;
     const p = node.refId ? getPhotographer(node.refId) : undefined;
     if (p) {
+      label = getPhotographerName(p, locale);
       const m = getMovement(p.movements[0]);
-      if (m) {
-        color = m.color;
-        strokeColor = m.color;
-      }
-      // 调用方传 locale via DOM data; 这里省事直接用 — 节点只是 detail 微注
-      detail = `${p.born}–${p.died ?? "—"}`;
+      if (m) color = m.color;
+      const dieMark = p.died ?? (locale === "en" ? "present" : "今");
+      detail = `${p.born}–${dieMark}`;
     }
-    badge = "●";
   }
 
-  // hover 加亮
-  const effBg =
-    isInteractive && hovered
-      ? node.kind === "movement"
-        ? `${color}33`
-        : "var(--color-bg-2)"
-      : bg;
-  const effStrokeOpacity = isInteractive && hovered ? 1 : 0.55;
-  const effStrokeWidth = hovered ? strokeWidth + 0.5 : strokeWidth;
-
-  // label 宽度:基于 leaf 节点的可用宽度,自适应裁剪
-  // (layout 函数会传入 placed.x 之间的实际间距,这里我们用一个保守值)
-  const slotW = (placed as Placed & { slotW?: number }).slotW ?? LEAF_W_MAX;
-  const usableW = Math.max(LEAF_W_MIN, slotW - NODE_PAD_X * 2);
-  const labelW = Math.min(usableW, node.label.length * 11 + 28);
-
-  // 若节点窄到放不下完整 label,做软截断
-  let displayLabel = node.label;
-  const charW = 11;
-  const maxChars = Math.max(2, Math.floor((usableW - 28) / charW));
-  if (node.label.length > maxChars) {
-    displayLabel = node.label.slice(0, maxChars - 1) + "…";
+  /* keyboard support: Enter navigates, Space toggles */
+  function onKeyDown(e: React.KeyboardEvent<HTMLDivElement>) {
+    if (e.key === "Enter") {
+      if (interactive) onNavigate();
+    } else if (e.key === " " || e.key === "Spacebar") {
+      if (hasChildren) {
+        e.preventDefault();
+        onToggle();
+      }
+    } else if (e.key === "ArrowRight" && hasChildren && !expanded) {
+      e.preventDefault();
+      onToggle();
+    } else if (e.key === "ArrowLeft" && hasChildren && expanded) {
+      e.preventDefault();
+      onToggle();
+    }
   }
-
-  const h = 22;
 
   return (
-    <g
-      transform={`translate(${x - labelW / 2}, ${y - h / 2})`}
-      onClick={isInteractive ? onClick : undefined}
-      onMouseEnter={isInteractive ? () => onHover(true) : undefined}
-      onMouseLeave={isInteractive ? () => onHover(false) : undefined}
-      data-node-interactive={isInteractive ? "1" : undefined}
-      className={clsx(isInteractive && "cursor-pointer")}
-      style={{ transition: "all 140ms ease-out" }}
-    >
-      <rect
-        x={0}
-        y={0}
-        width={labelW}
-        height={h}
-        fill={effBg}
-        stroke={strokeColor}
-        strokeOpacity={effStrokeOpacity}
-        strokeWidth={effStrokeWidth}
-        shapeRendering="geometricPrecision"
-        style={{
-          transition: "fill 140ms ease-out, stroke-opacity 140ms ease-out",
-        }}
-      />
-      <text x={9} y={h / 2 + 4} fontSize={fontSize} fill={color}>
-        <tspan fontWeight={fontWeight}>{badge}</tspan>
-        <tspan
-          dx={6}
-          fontWeight={fontWeight}
-          fill="var(--color-ink)"
-          className="font-display"
-        >
-          {displayLabel}
-        </tspan>
-      </text>
-      {detail && labelW > 110 && (
-        <text
-          x={labelW + 6}
-          y={h / 2 + 3}
-          fontSize={9}
-          fill="var(--color-ink-3)"
-          className="font-mono tabular-nums"
-          letterSpacing={0.5}
-        >
-          {detail}
-        </text>
+    <div
+      role="treeitem"
+      aria-level={depth + 1}
+      aria-expanded={hasChildren ? expanded : undefined}
+      aria-selected={false}
+      tabIndex={interactive || hasChildren ? 0 : -1}
+      onMouseEnter={() => onHover(true)}
+      onMouseLeave={() => onHover(false)}
+      onKeyDown={onKeyDown}
+      className={clsx(
+        "group flex items-stretch border-b border-rule/40 outline-none",
+        "focus-visible:bg-bg-elev focus-visible:ring-1 focus-visible:ring-accent/60",
+        hovered && "bg-bg-elev",
+        ancestor && "bg-bg-elev/50"
       )}
-      {/* native tooltip — 始终给完整 label, 截断时仍可悬停看全 */}
-      <title>{`${node.label}${detail ? " · " + detail : ""}`}</title>
-    </g>
+      style={{ height: ROW_H }}
+    >
+      {/* Year column */}
+      <div
+        className="shrink-0 flex items-center justify-end pr-3 border-r border-rule text-[11px] font-mono tabular-nums text-ink-3"
+        style={{ width: YEAR_W }}
+      >
+        {typeof node.year === "number" ? node.year : ""}
+      </div>
+
+      {/* Indent guide rails */}
+      {Array.from({ length: depth }).map((_, i) => (
+        <div
+          key={i}
+          aria-hidden="true"
+          className={clsx(
+            "shrink-0 border-r",
+            ancestor || hovered
+              ? "border-accent/40"
+              : "border-rule/25"
+          )}
+          style={{ width: INDENT }}
+        />
+      ))}
+
+      {/* Chevron toggle (or placeholder) */}
+      <button
+        type="button"
+        onClick={(e) => {
+          e.stopPropagation();
+          if (hasChildren) onToggle();
+        }}
+        aria-label={expanded ? "collapse" : "expand"}
+        tabIndex={-1}
+        className={clsx(
+          "shrink-0 w-7 h-full flex items-center justify-center text-ink-3 hover:text-ink",
+          !hasChildren && "pointer-events-none opacity-0"
+        )}
+      >
+        <svg
+          width="9"
+          height="9"
+          viewBox="0 0 9 9"
+          fill="none"
+          style={{
+            transform: expanded ? "rotate(90deg)" : "rotate(0deg)",
+            transition: "transform 140ms ease-out",
+          }}
+        >
+          <path
+            d="M2.5 1.5 L6 4.5 L2.5 7.5"
+            stroke="currentColor"
+            strokeWidth="1.25"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+          />
+        </svg>
+      </button>
+
+      {/* Body — clickable for navigate */}
+      <div
+        onClick={() => interactive && onNavigate()}
+        className={clsx(
+          "flex-1 min-w-0 flex items-center gap-2 pr-4",
+          interactive && "cursor-pointer"
+        )}
+        title={node.label}
+      >
+        <span
+          aria-hidden="true"
+          style={{ color }}
+          className="font-display text-[12px] shrink-0 w-3 text-center tabular-nums"
+        >
+          {badge}
+        </span>
+        <span
+          className={clsx(
+            "font-display text-[13px] truncate",
+            node.kind === "root"
+              ? "text-accent"
+              : node.kind === "event"
+                ? "text-ink-2"
+                : "text-ink",
+            interactive && "group-hover:text-accent transition-colors"
+          )}
+          style={
+            node.kind === "movement" ? { color } : undefined
+          }
+        >
+          {label}
+        </span>
+        {detail && (
+          <span className="font-mono text-[10px] tabular-nums text-ink-3 shrink-0">
+            {detail}
+          </span>
+        )}
+        {node.kind === "movement" && visiblePhotographerCount > 0 && (
+          <span
+            className={clsx(
+              "ml-auto shrink-0 inline-flex items-center gap-1 px-1.5 h-5 border text-[10px] font-mono tabular-nums",
+              "border-rule text-ink-3 bg-bg-elev/40"
+            )}
+          >
+            <span className="tabular-nums">{visiblePhotographerCount}</span>
+            <span>{t("lineage.figures")}</span>
+          </span>
+        )}
+      </div>
+    </div>
   );
-}
-
-/* ── Layout algorithm ──────────────────────────────────────────── */
-
-import type { FilterState } from "@/lib/types";
-
-function layoutLineage(
-  root: LineageNode,
-  filter: FilterState,
-  viewportW: number,
-  pxPerYear: number
-): {
-  placed: Placed[];
-  treeWidth: number;
-  treeHeight: number;
-  yScale: (y: number) => number;
-  yearDomain: [number, number];
-} {
-  /* hidden 判定: 根据流派/地域筛选, 隐藏摄影师与流派节点 */
-  function isHidden(n: LineageNode): boolean {
-    if (n.kind === "photographer" && n.refId) {
-      const ph = getPhotographer(n.refId);
-      if (ph && !passes(ph, filter)) return true;
-    }
-    if (n.kind === "movement" && n.refId) {
-      if (
-        filter.movementIds.length &&
-        !filter.movementIds.includes(n.refId)
-      ) {
-        return true;
-      }
-    }
-    return false;
-  }
-
-  /* 1. 计算每个节点的 *visible* 叶子数 (隐藏的不算入宽度) */
-  const leafCount = new Map<string, number>();
-  (function walk(n: LineageNode): number {
-    const hidden = isHidden(n);
-    if (hidden) {
-      leafCount.set(n.id, 0);
-      return 0;
-    }
-    if (!n.children || n.children.length === 0) {
-      leafCount.set(n.id, 1);
-      return 1;
-    }
-    let c = 0;
-    for (const ch of n.children) c += walk(ch);
-    // 即使子节点全隐藏, 自己若是非 photographer 仍占一个槽 (root/event/movement
-    // 是结构脊柱) 以保证脊柱可见
-    const own = c === 0 ? 1 : c;
-    leafCount.set(n.id, own);
-    return own;
-  })(root);
-
-  /* 2. 收集年份并计算域 */
-  const years: number[] = [];
-  (function collect(n: LineageNode) {
-    if (typeof n.year === "number") years.push(n.year);
-    if (n.children) for (const c of n.children) collect(c);
-  })(root);
-  const yMin = Math.min(...years, 1820) - 6;
-  const yMax = Math.max(...years, new Date().getFullYear() - 30) + 8;
-  const yearDomain: [number, number] = [yMin, yMax];
-
-  /* 3. 视图垂直高度受 pxPerYear 控制, 水平宽度先尝试 fit viewport,
-        leaf 数量太多时退化到 LEAF_W_MIN 并出现水平滚动 (per UX 反馈
-        尽量避免, 但 78 leaves @ 1280vw 不可能完全 fit). */
-  const totalLeaves = Math.max(1, leafCount.get(root.id) ?? 1);
-  const usableViewportW = Math.max(640, viewportW - YEAR_AXIS_W - 32);
-  // fit-first: 让 leafW 落在 [LEAF_W_MIN, LEAF_W_MAX] 之间
-  const fitLeafW = usableViewportW / totalLeaves;
-  const leafW = Math.max(LEAF_W_MIN, Math.min(LEAF_W_MAX, fitLeafW));
-  const treeWidth = Math.max(usableViewportW, totalLeaves * leafW + 48);
-  const treeHeight =
-    TOP_PAD + (yMax - yMin) * pxPerYear + BOTTOM_PAD;
-  const yScale = scaleLinear()
-    .domain(yearDomain)
-    .range([TOP_PAD, treeHeight - BOTTOM_PAD]);
-
-  /* 4. 后序遍历分配 x, 并把 slotW 传给节点供 label 截断 */
-  const placed: Placed[] = [];
-  function place(
-    n: LineageNode,
-    xStart: number,
-    xEnd: number,
-    parentX?: number,
-    parentY?: number
-  ) {
-    const x = (xStart + xEnd) / 2;
-    const y =
-      typeof n.year === "number" ? yScale(n.year as number) : TOP_PAD;
-    const hidden = isHidden(n);
-    const slotW = xEnd - xStart;
-    placed.push({
-      node: n, x, y, parentX, parentY, hidden,
-      // attach slotW for the renderer (read-only, optional field)
-      ...({ slotW } as object),
-    });
-    if (n.children && n.children.length > 0) {
-      let cursor = xStart;
-      const total = leafCount.get(n.id) ?? 1;
-      for (const c of n.children) {
-        const cLeaves = Math.max(1, leafCount.get(c.id) ?? 0);
-        const cWidth = (cLeaves / total) * (xEnd - xStart);
-        place(c, cursor, cursor + cWidth, x, y);
-        cursor += cWidth;
-      }
-    }
-  }
-  place(root, 24, treeWidth - 24);
-
-  return { placed, treeWidth, treeHeight, yScale, yearDomain };
 }

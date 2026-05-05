@@ -93,6 +93,13 @@ const dict: Record<Locale, Record<string, string>> = {
     "drawer.title": "人物词条",
     "drawer.openStandalone": "独立页",
     "drawer.close": "关闭抽屉",
+
+    /* lineage */
+    "lineage.expandAll": "全部展开",
+    "lineage.collapseAll": "全部折叠",
+    "lineage.figures": "位",
+    "lineage.hint": "事件主干默认展开,流派点击展开,悬停高亮承接链路",
+    "lineage.nodes": "{n} 个节点",
   },
 
   en: {
@@ -169,6 +176,13 @@ const dict: Record<Locale, Record<string, string>> = {
     "drawer.title": "Photographer entry",
     "drawer.openStandalone": "Standalone",
     "drawer.close": "Close drawer",
+
+    /* lineage */
+    "lineage.expandAll": "Expand all",
+    "lineage.collapseAll": "Collapse all",
+    "lineage.figures": "figures",
+    "lineage.hint": "Events expanded; click a movement to reveal its figures; hover any row to highlight its lineage path",
+    "lineage.nodes": "{n} nodes",
   },
 };
 
