@@ -36,7 +36,8 @@
     ],
     "quote": "让光自己来作画。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg"
+      "https://commons.wikimedia.org/wiki/File:View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg",
+      "https://en.wikipedia.org/wiki/Nic%C3%A9phore_Ni%C3%A9pce"
     ]
   },
   {
@@ -78,7 +79,8 @@
     ],
     "quote": "我已经掌握了让光自己描绘的方法。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg"
+      "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg",
+      "https://en.wikipedia.org/wiki/Louis_Daguerre"
     ]
   },
   {
@@ -120,7 +122,8 @@
     ],
     "quote": "自然之笔。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Latticed_window_at_lacock_abbey_1835.jpg"
+      "https://commons.wikimedia.org/wiki/File:Latticed_window_at_lacock_abbey_1835.jpg",
+      "https://en.wikipedia.org/wiki/Henry_Fox_Talbot"
     ]
   },
   {
@@ -163,7 +166,8 @@
     ],
     "quote": "摄影只在一瞬间存在。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg"
+      "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg",
+      "https://en.wikipedia.org/wiki/Nadar"
     ]
   },
   {
@@ -206,7 +210,8 @@
     ],
     "quote": "我只是为艺术家收集资料。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Avenue_des_Gobelins_MET_DP315549.jpg"
+      "https://commons.wikimedia.org/wiki/File:Avenue_des_Gobelins_MET_DP315549.jpg",
+      "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Atget"
     ]
   },
   {
@@ -246,7 +251,10 @@
       "手持快门",
       "运动追拍"
     ],
-    "quote": "快乐是我唯一拍下的东西。"
+    "quote": "快乐是我唯一拍下的东西。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jacques_Henri_Lartigue"
+    ]
   },
   {
     "id": "stieglitz",
@@ -293,7 +301,8 @@
     ],
     "quote": "在艺术里,只有一种形式:就是真。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg"
+      "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
+      "https://en.wikipedia.org/wiki/Alfred_Stieglitz"
     ]
   },
   {
@@ -340,7 +349,8 @@
     ],
     "quote": "摄影任务在于解释人对人。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Edward_Steichen_%28American%29_-_%28Moonlight_-_The_Pond%29_-_Google_Art_Project.jpg"
+      "https://commons.wikimedia.org/wiki/File:Edward_Steichen_%28American%29_-_%28Moonlight_-_The_Pond%29_-_Google_Art_Project.jpg",
+      "https://en.wikipedia.org/wiki/Edward_Steichen"
     ]
   },
   {
@@ -382,7 +392,8 @@
     ],
     "quote": "为孩子留住妈妈的样子。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier%2C_Blessed_Art_Thou_Among_Women%2C_c.1900%2C_NGA_150204.jpg"
+      "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier%2C_Blessed_Art_Thou_Among_Women%2C_c.1900%2C_NGA_150204.jpg",
+      "https://en.wikipedia.org/wiki/Gertrude_K%C3%A4sebier"
     ]
   },
   {
@@ -422,7 +433,10 @@
       "俯视构图",
       "抽象摄影"
     ],
-    "quote": "为何不像音乐家拍照?"
+    "quote": "为何不像音乐家拍照?",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alvin_Langdon_Coburn"
+    ]
   },
   {
     "id": "strand",
@@ -461,7 +475,10 @@
       "大画幅",
       "锐利结构"
     ],
-    "quote": "摄影应当成为它自己。"
+    "quote": "摄影应当成为它自己。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Strand"
+    ]
   },
   {
     "id": "a-adams",
@@ -513,7 +530,8 @@
     ],
     "quote": "锐利的概念,远胜锐利的图像。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Moonrise%2C_Hernandez%2C_New_Mexico_%28cropped%29.jpg"
+      "https://commons.wikimedia.org/wiki/File:Moonrise%2C_Hernandez%2C_New_Mexico_%28cropped%29.jpg",
+      "https://en.wikipedia.org/wiki/Ansel_Adams"
     ]
   },
   {
@@ -556,7 +574,8 @@
     ],
     "quote": "组成,是观看的最强形式。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Pepper_No._30.jpg"
+      "https://commons.wikimedia.org/wiki/File:Pepper_No._30.jpg",
+      "https://en.wikipedia.org/wiki/Edward_Weston"
     ]
   },
   {
@@ -596,7 +615,10 @@
       "8x10 静物",
       "柔光肖像"
     ],
-    "quote": "我从来没有时间觉得无聊。"
+    "quote": "我从来没有时间觉得无聊。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Imogen_Cunningham"
+    ]
   },
   {
     "id": "lange",
@@ -631,7 +653,7 @@
       {
         "title": "Migrant Mother",
         "year": 1936,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Lange-MigrantMother02.jpg",
         "credit": "FSA / Library of Congress"
       }
     ],
@@ -639,7 +661,11 @@
       "Graflex 4x5",
       "直接接近被摄者"
     ],
-    "quote": "相机是观看而无须相机时的工具。"
+    "quote": "相机是观看而无须相机时的工具。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dorothea_Lange",
+      "https://commons.wikimedia.org/wiki/File:c/c1/Lange-MigrantMother02.jpg"
+    ]
   },
   {
     "id": "evans",
@@ -672,7 +698,7 @@
       {
         "title": "Allie Mae Burroughs",
         "year": 1936,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Allie_Mae_Burroughs_print.jpg",
         "credit": "Library of Congress"
       }
     ],
@@ -680,7 +706,11 @@
       "8x10",
       "直白叙述"
     ],
-    "quote": "看起来像是没有摄影师在场。"
+    "quote": "看起来像是没有摄影师在场。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Walker_Evans",
+      "https://commons.wikimedia.org/wiki/File:2/29/Allie_Mae_Burroughs_print.jpg"
+    ]
   },
   {
     "id": "rothstein",
@@ -712,7 +742,7 @@
       {
         "title": "Dust Storm, Cimarron County",
         "year": 1936,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Farmer_walking_in_dust_storm_Cimarron_County_Oklahoma2.jpg",
         "credit": "FSA / LoC"
       }
     ],
@@ -720,7 +750,11 @@
       "35mm 报道",
       "档案分类"
     ],
-    "quote": "一张照片必须告诉你一些东西。"
+    "quote": "一张照片必须告诉你一些东西。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Arthur_Rothstein",
+      "https://commons.wikimedia.org/wiki/File:4/4b/Farmer_walking_in_dust_storm_Cimarron_County_Oklahoma2.jpg"
+    ]
   },
   {
     "id": "russell-lee",
@@ -759,7 +793,10 @@
       "闪光灯",
       "室内纪实"
     ],
-    "quote": "细节才是叙事。"
+    "quote": "细节才是叙事。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Russell_Lee"
+    ]
   },
   {
     "id": "moholy-nagy",
@@ -796,7 +833,10 @@
       "Photogram",
       "极端视角"
     ],
-    "quote": "未来的文盲是不识相机的人。"
+    "quote": "未来的文盲是不识相机的人。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Moholy-Nagy"
+    ]
   },
   {
     "id": "man-ray",
@@ -835,7 +875,10 @@
       "Rayograph",
       "中途曝光 Solarisation"
     ],
-    "quote": "我画我无法拍下的,我拍我无法画的。"
+    "quote": "我画我无法拍下的,我拍我无法画的。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Man_Ray"
+    ]
   },
   {
     "id": "kertesz",
@@ -875,7 +918,10 @@
       "徕卡",
       "静默几何"
     ],
-    "quote": "我拍我看到的,简单极了。"
+    "quote": "我拍我看到的,简单极了。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andr%C3%A9_Kert%C3%A9sz"
+    ]
   },
   {
     "id": "brassai",
@@ -916,7 +962,10 @@
       "夜间长曝",
       "中画幅"
     ],
-    "quote": "夜建议,而不强制。"
+    "quote": "夜建议,而不强制。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brassa%C3%AF"
+    ]
   },
   {
     "id": "doisneau",
@@ -956,7 +1005,10 @@
       "街头偷拍",
       "日光快门"
     ],
-    "quote": "我必须捕捉那些会说话的瞬间。"
+    "quote": "我必须捕捉那些会说话的瞬间。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Doisneau"
+    ]
   },
   {
     "id": "cartier-bresson",
@@ -1010,7 +1062,10 @@
       "黑白",
       "决定性瞬间"
     ],
-    "quote": "一个事件本身,加上对它的记忆,加上人对它的反应,共同构成了那一瞬间。"
+    "quote": "一个事件本身,加上对它的记忆,加上人对它的反应,共同构成了那一瞬间。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Henri_Cartier-Bresson"
+    ]
   },
   {
     "id": "capa",
@@ -1053,7 +1108,10 @@
       "Contax 35mm",
       "战地直觉"
     ],
-    "quote": "如果你的照片不够好,是因为你不够近。"
+    "quote": "如果你的照片不够好,是因为你不够近。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Capa"
+    ]
   },
   {
     "id": "erwitt",
@@ -1093,7 +1151,10 @@
       "Leica",
       "反讽视角"
     ],
-    "quote": "幽默是最严肃的事情。"
+    "quote": "幽默是最严肃的事情。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Elliott_Erwitt"
+    ]
   },
   {
     "id": "koudelka",
@@ -1133,7 +1194,10 @@
       "黑白浓郁",
       "广角徒步"
     ],
-    "quote": "我必须看,我必须看见。"
+    "quote": "我必须看,我必须看见。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Josef_Koudelka"
+    ]
   },
   {
     "id": "salgado",
@@ -1173,7 +1237,10 @@
       "长期项目",
       "黑白史诗"
     ],
-    "quote": "摄影是我们这个星球的视觉语言。"
+    "quote": "摄影是我们这个星球的视觉语言。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sebasti%C3%A3o_Salgado"
+    ]
   },
   {
     "id": "frank",
@@ -1213,7 +1280,10 @@
       "Leica",
       "直觉构图"
     ],
-    "quote": "黑与白是希望与绝望的颜色。"
+    "quote": "黑与白是希望与绝望的颜色。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Frank"
+    ]
   },
   {
     "id": "arbus",
@@ -1253,7 +1323,10 @@
       "Rolleiflex",
       "正面闪光"
     ],
-    "quote": "一张照片是关于秘密的秘密。"
+    "quote": "一张照片是关于秘密的秘密。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Diane_Arbus"
+    ]
   },
   {
     "id": "winogrand",
@@ -1292,7 +1365,10 @@
       "Leica 28mm",
       "高速反应"
     ],
-    "quote": "我拍照是为了看世界拍出来是什么样。"
+    "quote": "我拍照是为了看世界拍出来是什么样。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Garry_Winogrand"
+    ]
   },
   {
     "id": "friedlander",
@@ -1332,7 +1408,10 @@
       "Leica 35mm",
       "复杂叠层"
     ],
-    "quote": "世界在橱窗里也在外面。"
+    "quote": "世界在橱窗里也在外面。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lee_Friedlander"
+    ]
   },
   {
     "id": "r-adams",
@@ -1371,7 +1450,10 @@
       "View Camera",
       "冷峻黑白"
     ],
-    "quote": "风景必须包含人留下的伤痕。"
+    "quote": "风景必须包含人留下的伤痕。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Adams_(photographer)"
+    ]
   },
   {
     "id": "shore",
@@ -1412,7 +1494,10 @@
       "8x10 彩色",
       "公路构图"
     ],
-    "quote": "日常的尊严。"
+    "quote": "日常的尊严。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Stephen_Shore"
+    ]
   },
   {
     "id": "eggleston",
@@ -1452,7 +1537,10 @@
       "Dye Transfer",
       "南方日常"
     ],
-    "quote": "我用大写的方式拍照。"
+    "quote": "我用大写的方式拍照。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/William_Eggleston"
+    ]
   },
   {
     "id": "sternfeld",
@@ -1492,7 +1580,10 @@
       "8x10 彩色",
       "远景反讽"
     ],
-    "quote": "风景永远是政治的。"
+    "quote": "风景永远是政治的。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joel_Sternfeld"
+    ]
   },
   {
     "id": "becher",
@@ -1534,7 +1625,10 @@
       "8x10 黑白",
       "类型学网格"
     ],
-    "quote": "我们拍下的是消失中的事物。"
+    "quote": "我们拍下的是消失中的事物。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher"
+    ]
   },
   {
     "id": "gursky",
@@ -1573,7 +1667,10 @@
       "巨幅",
       "数字接片"
     ],
-    "quote": "我寻找的是世界的视觉百科全书。"
+    "quote": "我寻找的是世界的视觉百科全书。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andreas_Gursky"
+    ]
   },
   {
     "id": "struth",
@@ -1612,7 +1709,10 @@
       "大画幅",
       "直角视点"
     ],
-    "quote": "我把镜头当窗户使用。"
+    "quote": "我把镜头当窗户使用。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Struth"
+    ]
   },
   {
     "id": "ruff",
@@ -1651,7 +1751,10 @@
       "巨幅证件式",
       "互联网截图"
     ],
-    "quote": "摄影只展现表面。"
+    "quote": "摄影只展现表面。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Ruff"
+    ]
   },
   {
     "id": "hofer",
@@ -1690,7 +1793,10 @@
       "对称构图",
       "空间无人化"
     ],
-    "quote": "空间会替使用它的人说话。"
+    "quote": "空间会替使用它的人说话。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Candida_H%C3%B6fer"
+    ]
   },
   {
     "id": "tomatsu",
@@ -1727,7 +1833,10 @@
       "高反差",
       "局部特写"
     ],
-    "quote": "战后的日本一直没有结束。"
+    "quote": "战后的日本一直没有结束。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sh%C5%8Dmei_T%C5%8Dmatsu"
+    ]
   },
   {
     "id": "hosoe",
@@ -1766,7 +1875,10 @@
       "超高反差",
       "身体编排"
     ],
-    "quote": "相机是我的镰鼬。"
+    "quote": "相机是我的镰鼬。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eikoh_Hosoe"
+    ]
   },
   {
     "id": "moriyama",
@@ -1807,7 +1919,10 @@
       "Ricoh GR",
       "高反差颗粒"
     ],
-    "quote": "世界本就是粗糙、模糊、晃动的。"
+    "quote": "世界本就是粗糙、模糊、晃动的。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Daid%C5%8D_Moriyama"
+    ]
   },
   {
     "id": "araki",
@@ -1844,7 +1959,10 @@
       "日记式",
       "黑白与彩色并用"
     ],
-    "quote": "摄影即生活。"
+    "quote": "摄影即生活。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nobuyoshi_Araki"
+    ]
   },
   {
     "id": "sugimoto",
@@ -1881,7 +1999,10 @@
       "8x10 长曝",
       "极简对称"
     ],
-    "quote": "相机是测时仪。"
+    "quote": "相机是测时仪。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hiroshi_Sugimoto"
+    ]
   },
   {
     "id": "mapplethorpe",
@@ -1920,7 +2041,10 @@
       "影棚黑白",
       "工艺极致"
     ],
-    "quote": "我寻找完美的形式。"
+    "quote": "我寻找完美的形式。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Robert_Mapplethorpe"
+    ]
   },
   {
     "id": "sherman",
@@ -1959,7 +2083,10 @@
       "自我导演",
       "类型重演"
     ],
-    "quote": "我对表象之下的东西不感兴趣。"
+    "quote": "我对表象之下的东西不感兴趣。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cindy_Sherman"
+    ]
   },
   {
     "id": "goldin",
@@ -1998,7 +2125,10 @@
       "彩色闪光",
       "生活流"
     ],
-    "quote": "让人在被遗忘前被看见。"
+    "quote": "让人在被遗忘前被看见。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nan_Goldin"
+    ]
   },
   {
     "id": "tillmans",
@@ -2037,7 +2167,10 @@
       "多介质混合",
       "杂志打印"
     ],
-    "quote": "一张照片不必装裱才算艺术。"
+    "quote": "一张照片不必装裱才算艺术。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wolfgang_Tillmans"
+    ]
   },
   {
     "id": "ruan-yizhong",
@@ -2078,7 +2211,10 @@
       "Leica",
       "人文纪实"
     ],
-    "quote": "摄影是与对方平等地相遇。"
+    "quote": "摄影是与对方平等地相遇。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Juan_I-Jong"
+    ]
   },
   {
     "id": "chen-chuanxing",
@@ -2114,7 +2250,10 @@
     "techniques": [
       "黑白文学叙事"
     ],
-    "quote": "影像是一首被洗涤过的诗。"
+    "quote": "影像是一首被洗涤过的诗。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/The_Mystic_Nine"
+    ]
   },
   {
     "id": "zhang-haier",
@@ -2154,7 +2293,10 @@
       "夜拍闪光",
       "街头肖像"
     ],
-    "quote": "我只是站在那里,世界自己来。"
+    "quote": "我只是站在那里,世界自己来。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Song_Zu%27er"
+    ]
   },
   {
     "id": "lvnan",
@@ -2193,7 +2335,10 @@
       "Leica",
       "长期蹲点"
     ],
-    "quote": "只用三件事:看,听,等。"
+    "quote": "只用三件事:看,听,等。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lu_Nan"
+    ]
   },
   {
     "id": "rongrong",
@@ -2230,7 +2375,10 @@
       "黑白纪实",
       "行为现场"
     ],
-    "quote": "影像是行为留下的灰烬。"
+    "quote": "影像是行为留下的灰烬。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rong_Zishan"
+    ]
   },
   {
     "id": "honghao",
@@ -2267,7 +2415,10 @@
       "扫描成像",
       "物品分类学"
     ],
-    "quote": "物自己讲故事。"
+    "quote": "物自己讲故事。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Say_Cheese_(TV_series)"
+    ]
   },
   {
     "id": "cameron",
@@ -2313,7 +2464,8 @@
     ],
     "quote": "我把所有热情都倾注到这门艺术。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Sir_John_Herschel_MET_DT2539.jpg"
+      "https://commons.wikimedia.org/wiki/File:Sir_John_Herschel_MET_DT2539.jpg",
+      "https://en.wikipedia.org/wiki/Julia_Margaret_Cameron"
     ]
   },
   {
@@ -2354,7 +2506,8 @@
     ],
     "quote": "目光让位给机械。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion-anim.gif"
+      "https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion-anim.gif",
+      "https://en.wikipedia.org/wiki/Eadweard_Muybridge"
     ]
   },
   {
@@ -2399,7 +2552,8 @@
     ],
     "quote": "如果他从未做过别的,这一项也足够。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Mathew_Brady%2C_Portrait_of_Secretary_of_the_Treasury_Salmon_P._Chase%2C_officer_of_the_United_States_government_%281860%E2%80%931865%2C_full_version%29.jpg"
+      "https://commons.wikimedia.org/wiki/File:Mathew_Brady%2C_Portrait_of_Secretary_of_the_Treasury_Salmon_P._Chase%2C_officer_of_the_United_States_government_%281860%E2%80%931865%2C_full_version%29.jpg",
+      "https://en.wikipedia.org/wiki/Mathew_Brady"
     ]
   },
   {
@@ -2445,7 +2599,10 @@
       "超现实拼贴",
       "Solarisation"
     ],
-    "quote": "我宁愿拍下一张完整的快门。"
+    "quote": "我宁愿拍下一张完整的快门。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lee_Miller"
+    ]
   },
   {
     "id": "bourke-white",
@@ -2487,7 +2644,10 @@
       "大画幅工业摄影",
       "战地报道"
     ],
-    "quote": "你必须保持饥饿。"
+    "quote": "你必须保持饥饿。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Margaret_Bourke-White"
+    ]
   },
   {
     "id": "avedon",
@@ -2531,7 +2691,10 @@
       "大画幅人像",
       "动态时装"
     ],
-    "quote": "肖像不是相似,是关于秘密的。"
+    "quote": "肖像不是相似,是关于秘密的。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Richard_Avedon"
+    ]
   },
   {
     "id": "penn",
@@ -2574,7 +2737,10 @@
       "灰白背景",
       "极简构图"
     ],
-    "quote": "一张好照片,什么都不去说。"
+    "quote": "一张好照片,什么都不去说。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Irving_Penn"
+    ]
   },
   {
     "id": "newton",
@@ -2618,7 +2784,10 @@
       "宽幅时装",
       "棚拍 + 实景"
     ],
-    "quote": "好趣味是创造力的敌人。"
+    "quote": "好趣味是创造力的敌人。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helmut_Newton"
+    ]
   },
   {
     "id": "modotti",
@@ -2654,7 +2823,7 @@
       {
         "title": "Worker's Hands",
         "year": 1927,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Tina_Modotti_-_Workers_Parade_-_1926.jpg",
         "credit": "MoMA / Public Domain"
       }
     ],
@@ -2662,7 +2831,11 @@
       "大画幅",
       "构成主义"
     ],
-    "quote": "相机不是工具,是器官。"
+    "quote": "相机不是工具,是器官。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tina_Modotti",
+      "https://commons.wikimedia.org/wiki/File:d/d8/Tina_Modotti_-_Workers_Parade_-_1926.jpg"
+    ]
   },
   {
     "id": "alvarez-bravo",
@@ -2706,7 +2879,10 @@
       "大画幅",
       "本土寓言"
     ],
-    "quote": "时间这块布料,折叠在物体里。"
+    "quote": "时间这块布料,折叠在物体里。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Manuel_%C3%81lvarez_Bravo"
+    ]
   },
   {
     "id": "iturbide",
@@ -2749,7 +2925,10 @@
       "35mm 黑白",
       "长期蹲点"
     ],
-    "quote": "时间在等我们,不是反过来。"
+    "quote": "时间在等我们,不是反过来。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Graciela_Iturbide"
+    ]
   },
   {
     "id": "van-der-zee",
@@ -2791,7 +2970,10 @@
       "手绘修饰",
       "中画幅"
     ],
-    "quote": "我尝试让他们看上去像他们想成为的样子。"
+    "quote": "我尝试让他们看上去像他们想成为的样子。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Van_Der_Zee"
+    ]
   },
   {
     "id": "parks",
@@ -2838,7 +3020,10 @@
       "时尚棚拍",
       "电影"
     ],
-    "quote": "选你的武器,我选了相机。"
+    "quote": "选你的武器,我选了相机。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Parks"
+    ]
   },
   {
     "id": "weems",
@@ -2884,7 +3069,10 @@
       "文字+图像",
       "档案再造"
     ],
-    "quote": "我在编织被剪掉的故事。"
+    "quote": "我在编织被剪掉的故事。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carrie_Mae_Weems"
+    ]
   },
   {
     "id": "keita",
@@ -2926,7 +3114,10 @@
       "印花布背景",
       "自然光"
     ],
-    "quote": "我让他们看见自己的美。"
+    "quote": "我让他们看见自己的美。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Seydou_Ke%C3%AFta"
+    ]
   },
   {
     "id": "sidibe",
@@ -2970,7 +3161,10 @@
       "舞会现场",
       "棚拍肖像"
     ],
-    "quote": "音乐响起,他们就是另一个人。"
+    "quote": "音乐响起,他们就是另一个人。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Malick_Sidib%C3%A9"
+    ]
   },
   {
     "id": "marey",
@@ -3009,7 +3203,8 @@
     ],
     "quote": "运动是时间在物体上的轨迹。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:%C3%89tienne-Jules_Marey_-_Chronophotograph_of_a_Flying_Heron_-_2009.349_-_Cleveland_Museum_of_Art.tif"
+      "https://commons.wikimedia.org/wiki/File:%C3%89tienne-Jules_Marey_-_Chronophotograph_of_a_Flying_Heron_-_2009.349_-_Cleveland_Museum_of_Art.tif",
+      "https://en.wikipedia.org/wiki/%C3%89tienne-Jules_Marey"
     ]
   },
   {
@@ -3052,7 +3247,8 @@
     ],
     "quote": "我对存在的事物感兴趣。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Nightview%2C_Berenice_Abbott.jpg"
+      "https://commons.wikimedia.org/wiki/File:Nightview%2C_Berenice_Abbott.jpg",
+      "https://en.wikipedia.org/wiki/Berenice_Abbott"
     ]
   },
   {
@@ -3092,7 +3288,8 @@
     ],
     "quote": "他们已经走远了。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Canyon_de_Chelly%2C_Navajo.jpg"
+      "https://commons.wikimedia.org/wiki/File:Canyon_de_Chelly%2C_Navajo.jpg",
+      "https://en.wikipedia.org/wiki/Edward_S._Curtis"
     ]
   },
   {
@@ -3127,7 +3324,7 @@
       {
         "title": "Stairs",
         "year": 1929,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/Aleksandr_Rodchenko_-_Pioneer_with_a_Trumpet_-_1930.jpg",
         "credit": "Rodchenko Estate / Public Domain"
       }
     ],
@@ -3135,7 +3332,11 @@
       "极端视角",
       "蒙太奇拼贴"
     ],
-    "quote": "我们必须做实验。"
+    "quote": "我们必须做实验。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alexander_Rodchenko",
+      "https://commons.wikimedia.org/wiki/File:3/30/Aleksandr_Rodchenko_-_Pioneer_with_a_Trumpet_-_1930.jpg"
+    ]
   },
   {
     "id": "lissitzky",
@@ -3177,7 +3378,8 @@
     ],
     "quote": "图像无穷多,文字屈居其下。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:El_Lissitzky_The_Constructor%2C_self-portrait%2C_gelatin_silver_print%2C_107%C3%97118_mm%2C_1924_London%2C_Victoria_and_Albert_Museum%2C_Inv._PH142-1985.jpg"
+      "https://commons.wikimedia.org/wiki/File:El_Lissitzky_The_Constructor%2C_self-portrait%2C_gelatin_silver_print%2C_107%C3%97118_mm%2C_1924_London%2C_Victoria_and_Albert_Museum%2C_Inv._PH142-1985.jpg",
+      "https://en.wikipedia.org/wiki/El_Lissitzky"
     ]
   },
   {
@@ -3207,7 +3409,7 @@
       {
         "title": "Young Farmers, Westerwald",
         "year": 1914,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/0f/August_Sander_-_Young_Farmers_-_1914.jpg",
         "credit": "August Sander Archive"
       }
     ],
@@ -3215,7 +3417,11 @@
       "8x10 棚拍",
       "类型学方法"
     ],
-    "quote": "看见,观察,思考。"
+    "quote": "看见,观察,思考。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/August_Sander",
+      "https://commons.wikimedia.org/wiki/File:0/0f/August_Sander_-_Young_Farmers_-_1914.jpg"
+    ]
   },
   {
     "id": "renger-patzsch",
@@ -3252,7 +3458,10 @@
       "近距离",
       "工业静物"
     ],
-    "quote": "事物的事物性。"
+    "quote": "事物的事物性。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Albert_Renger-Patzsch"
+    ]
   },
   {
     "id": "drtikol",
@@ -3289,7 +3498,10 @@
       "铂金印相",
       "Art Deco 人体"
     ],
-    "quote": "光是宇宙的话语。"
+    "quote": "光是宇宙的话语。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Franti%C5%A1ek_Drtikol"
+    ]
   },
   {
     "id": "sudek",
@@ -3326,7 +3538,10 @@
       "大画幅",
       "长曝静物"
     ],
-    "quote": "音乐与摄影是一回事。"
+    "quote": "音乐与摄影是一回事。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Josef_Sudek"
+    ]
   },
   {
     "id": "sutkus",
@@ -3367,7 +3582,10 @@
       "35mm 黑白",
       "人文叙事"
     ],
-    "quote": "我没在记录,我在见证。"
+    "quote": "我没在记录,我在见证。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Antanas_Sutkus"
+    ]
   },
   {
     "id": "chambi",
@@ -3404,7 +3622,10 @@
       "大画幅",
       "本土肖像"
     ],
-    "quote": "我相信我是印加的好儿子。"
+    "quote": "我相信我是印加的好儿子。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mart%C3%ADn_Chambi"
+    ]
   },
   {
     "id": "korda",
@@ -3442,7 +3663,10 @@
       "35mm 黑白",
       "政治肖像"
     ],
-    "quote": "我抓住了他,没有发表。"
+    "quote": "我抓住了他,没有发表。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alberto_Korda"
+    ]
   },
   {
     "id": "decarava",
@@ -3480,7 +3704,10 @@
       "低光黑白",
       "暗房高反差"
     ],
-    "quote": "我想要的不是事件,是诗。"
+    "quote": "我想要的不是事件,是诗。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roy_DeCarava"
+    ]
   },
   {
     "id": "bey",
@@ -3520,7 +3747,10 @@
       "大画幅",
       "暗房历史地点"
     ],
-    "quote": "肖像是关于在场的。"
+    "quote": "肖像是关于在场的。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dawoud_Bey"
+    ]
   },
   {
     "id": "mccullin",
@@ -3559,7 +3789,10 @@
       "Nikon F",
       "战地黑白"
     ],
-    "quote": "我要让你知道战争的样子。"
+    "quote": "我要让你知道战争的样子。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Don_McCullin"
+    ]
   },
   {
     "id": "mccurry",
@@ -3596,7 +3829,10 @@
       "Kodachrome",
       "彩色肖像"
     ],
-    "quote": "你为什么拍照?为了不忘记。"
+    "quote": "你为什么拍照?为了不忘记。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Steve_McCurry"
+    ]
   },
   {
     "id": "nick-ut",
@@ -3633,7 +3869,10 @@
       "Leica M2",
       "战地报道"
     ],
-    "quote": "我必须发表它,这是真相。"
+    "quote": "我必须发表它,这是真相。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Ut"
+    ]
   },
   {
     "id": "mark",
@@ -3674,7 +3913,10 @@
       "35mm 黑白",
       "长期蹲点"
     ],
-    "quote": "你必须真的喜欢人。"
+    "quote": "你必须真的喜欢人。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Ellen_Mark"
+    ]
   },
   {
     "id": "meyerowitz",
@@ -3715,7 +3957,10 @@
       "8x10 彩色",
       "街头偶遇"
     ],
-    "quote": "彩色是我开口说话的方式。"
+    "quote": "彩色是我开口说话的方式。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Joel_Meyerowitz"
+    ]
   },
   {
     "id": "leiter",
@@ -3755,7 +4000,10 @@
       "过期 35mm 彩色",
       "玻璃倒影"
     ],
-    "quote": "我从不在意是否被记住。"
+    "quote": "我从不在意是否被记住。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Saul_Leiter"
+    ]
   },
   {
     "id": "maier",
@@ -3792,7 +4040,10 @@
       "Rolleiflex 6x6",
       "私人街拍"
     ],
-    "quote": "我必须为某个目的腾出位置。"
+    "quote": "我必须为某个目的腾出位置。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Vivian_Maier"
+    ]
   },
   {
     "id": "wall",
@@ -3832,7 +4083,10 @@
       "巨幅灯箱",
       "搭建场景"
     ],
-    "quote": "我寻找已经在那里的图像。"
+    "quote": "我寻找已经在那里的图像。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jeff_Wall"
+    ]
   },
   {
     "id": "soth",
@@ -3873,7 +4127,10 @@
       "8x10 彩色",
       "公路慢速"
     ],
-    "quote": "我对自己感到困惑。"
+    "quote": "我对自己感到困惑。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alec_Soth"
+    ]
   },
   {
     "id": "crewdson",
@@ -3912,7 +4169,10 @@
       "大型团队制作",
       "电影灯光"
     ],
-    "quote": "我每张照片都要一个剧本。"
+    "quote": "我每张照片都要一个剧本。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gregory_Crewdson"
+    ]
   },
   {
     "id": "lang-jingshan",
@@ -3950,7 +4210,10 @@
       "集锦合成",
       "暗房山水"
     ],
-    "quote": "中国画的美学也属于摄影。"
+    "quote": "中国画的美学也属于摄影。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lang_Jingshan"
+    ]
   },
   {
     "id": "liu-heung-shing",
@@ -3988,7 +4251,10 @@
       "35mm 黑白",
       "纪实"
     ],
-    "quote": "我看见的中国。"
+    "quote": "我看见的中国。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Liu_Heung_Shing"
+    ]
   },
   {
     "id": "rai",
@@ -4028,7 +4294,10 @@
       "35mm 黑白",
       "印度日常"
     ],
-    "quote": "印度是我的恋人。"
+    "quote": "印度是我的恋人。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Raghu_Rai"
+    ]
   },
   {
     "id": "neshat",
@@ -4065,7 +4334,10 @@
       "黑白手书",
       "身体作媒介"
     ],
-    "quote": "我不能假装我没有失去家园。"
+    "quote": "我不能假装我没有失去家园。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shirin_Neshat"
+    ]
   },
   {
     "id": "kawauchi",
@@ -4106,6 +4378,9 @@
       "6x6 彩色",
       "日常微距"
     ],
-    "quote": "我看到的不是大事件。"
+    "quote": "我看到的不是大事件。",
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rinko_Kawauchi"
+    ]
   }
 ]
