@@ -1,6 +1,6 @@
 import Link from "next/link";
 import type { Photographer, Movement } from "@/lib/types";
-import { getMovement } from "@/lib/data";
+import { getMovement, tagSlug } from "@/lib/data";
 import { WorkImage } from "@/components/ui/WorkImage";
 
 type Props = {
@@ -63,7 +63,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
       {/* Works */}
       {p.works.length > 0 && (
         <section className="mt-8">
-          <SectionLabel zh="代表作" en="Works" />
+          <SectionLabel zh="代表作" />
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 mt-4">
             {p.works.map((w, i) => (
               <WorkImage
@@ -83,7 +83,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
       {/* Key dates */}
       {p.keyDates.length > 0 && (
         <section className="mt-8">
-          <SectionLabel zh="关键年表" en="Key Dates" />
+          <SectionLabel zh="关键年表" />
           <ol className="mt-4 space-y-2">
             {p.keyDates
               .slice()
@@ -100,18 +100,24 @@ export function PhotographerEntry({ photographer: p }: Props) {
         </section>
       )}
 
-      {/* Techniques */}
+      {/* Techniques — clickable tags */}
       {p.techniques.length > 0 && (
         <section className="mt-8">
-          <SectionLabel zh="技法" en="Techniques" />
+          <SectionLabel zh="技法 / 标签" />
           <div className="flex flex-wrap gap-1.5 mt-4">
             {p.techniques.map((t) => (
-              <span
+              <Link
                 key={t}
-                className="inline-flex items-center px-2.5 h-7 border border-rule text-ink-2 text-[12px]"
+                href={`/tag/${tagSlug(t)}`}
+                scroll={false}
+                className="inline-flex items-center gap-1.5 px-2.5 h-7 border border-rule text-ink-2 text-[12px] hover:border-accent hover:text-accent transition-colors"
+                title={`查看所有使用 "${t}" 的摄影师`}
               >
+                <span aria-hidden="true" className="text-ink-3 leading-none">
+                  #
+                </span>
                 {t}
-              </span>
+              </Link>
             ))}
           </div>
         </section>
@@ -129,7 +135,7 @@ export function PhotographerEntry({ photographer: p }: Props) {
       {/* Sources */}
       {p.sources && p.sources.length > 0 && (
         <section className="mt-10 pt-6 border-t border-rule">
-          <SectionLabel zh="来源" en="Sources" />
+          <SectionLabel zh="来源" />
           <ul className="mt-2 space-y-1">
             {p.sources.map((s, i) => (
               <li key={i}>
@@ -150,14 +156,13 @@ export function PhotographerEntry({ photographer: p }: Props) {
   );
 }
 
-function SectionLabel({ zh, en }: { zh: string; en: string }) {
+function SectionLabel({ zh }: { zh: string }) {
   return (
     <div className="flex items-baseline gap-3">
-      <span className="font-display text-[10px] tracking-[0.24em] uppercase text-ink-3">
-        {en}
+      <span className="font-display text-xs tracking-[0.18em] text-ink-2">
+        {zh}
       </span>
       <span className="h-px flex-1 bg-rule" />
-      <span className="font-display text-xs text-ink-2">{zh}</span>
     </div>
   );
 }

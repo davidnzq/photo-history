@@ -9,6 +9,7 @@ import {
   NetworkIcon,
   MovementsIcon,
   LineageIcon,
+  TagsIcon,
 } from "@/components/shell/ViewIcons";
 
 type Tab = {
@@ -42,6 +43,12 @@ const TABS: Tab[] = [
     labelKey: "view.lineage",
     icon: <LineageIcon />,
     match: (p) => p.startsWith("/lineage"),
+  },
+  {
+    href: "/tags",
+    labelKey: "view.tags",
+    icon: <TagsIcon />,
+    match: (p) => p.startsWith("/tags") || p.startsWith("/tag/"),
   },
 ];
 

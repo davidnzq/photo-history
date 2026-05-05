@@ -34,6 +34,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "view.network": "影响网络",
     "view.movements": "流派",
     "view.lineage": "传承关系",
+    "view.tags": "标签",
 
     /* filter bar */
     "filter.label": "筛选",
@@ -109,6 +110,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "view.network": "Influence",
     "view.movements": "Movements",
     "view.lineage": "Lineage",
+    "view.tags": "Tags",
 
     /* filter bar */
     "filter.label": "Filter",

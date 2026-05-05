@@ -66,3 +66,12 @@ export function LineageIcon({ size = 14 }: { size?: number }) {
     </svg>
   );
 }
+
+export function TagsIcon({ size = 14 }: { size?: number }) {
+  return (
+    <svg width={size} height={size} {...COMMON}>
+      <path d="M3 12V5a2 2 0 012-2h7l8 8-9 9z" />
+      <circle cx="8" cy="8" r="1.4" fill="currentColor" />
+    </svg>
+  );
+}

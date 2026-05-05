@@ -1,12 +1,23 @@
 import type { MetadataRoute } from "next";
-import { allPhotographerIds, allMovementIds } from "@/lib/data";
+import {
+  allPhotographerIds,
+  allMovementIds,
+  allTagSlugs,
+} from "@/lib/data";
 
 const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL ?? "https://photo-history.vercel.app";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const now = new Date();
-  const top = ["/", "/network", "/movements", "/lineage", "/about"].map((path) => ({
+  const top = [
+    "/",
+    "/network",
+    "/movements",
+    "/lineage",
+    "/tags",
+    "/about",
+  ].map((path) => ({
     url: `${SITE_URL}${path}`,
     lastModified: now,
     changeFrequency: "weekly" as const,
@@ -24,5 +35,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     changeFrequency: "monthly" as const,
     priority: 0.7,
   }));
-  return [...top, ...photographers, ...movements];
+  const tags = allTagSlugs().map((slug) => ({
+    url: `${SITE_URL}/tag/${encodeURIComponent(slug)}`,
+    lastModified: now,
+    changeFrequency: "monthly" as const,
+    priority: 0.5,
+  }));
+  return [...top, ...photographers, ...movements, ...tags];
 }

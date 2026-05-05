@@ -3167,7 +3167,7 @@
       {
         "title": "The Constructor (Self-Portrait)",
         "year": 1924,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/30/El_Lissitzky_The_Constructor%2C_self-portrait%2C_gelatin_silver_print%2C_107%C3%97118_mm%2C_1924_London%2C_Victoria_and_Albert_Museum%2C_Inv._PH142-1985.jpg",
         "credit": "MoMA / Public Domain"
       }
     ],
@@ -3175,7 +3175,10 @@
       "多重曝光",
       "摄影蒙太奇"
     ],
-    "quote": "图像无穷多,文字屈居其下。"
+    "quote": "图像无穷多,文字屈居其下。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:El_Lissitzky_The_Constructor%2C_self-portrait%2C_gelatin_silver_print%2C_107%C3%97118_mm%2C_1924_London%2C_Victoria_and_Albert_Museum%2C_Inv._PH142-1985.jpg"
+    ]
   },
   {
     "id": "sander",
