@@ -333,5 +333,146 @@
       }
     ],
     "arc": "1985 年新潮美术启动,1990s 北京东村行为/观念摄影爆发,2000 后进入国际市场"
+  },
+  {
+    "id": "war-photography",
+    "nameZh": "战地摄影",
+    "nameEn": "War Photography",
+    "period": {
+      "start": 1855,
+      "peak": 1944,
+      "end": 2010
+    },
+    "countries": [
+      "US",
+      "UK",
+      "FR",
+      "DE"
+    ],
+    "color": "#6E3F40",
+    "description": "始于克里米亚战争(Roger Fenton)与美国南北战争(Brady),经一战二战(Capa, Bourke-White, Lee Miller, Taro)推向黄金时代,是 20 世纪新闻图像的脊柱。",
+    "arc": "1855 Crimea / 1862 Brady 战场展 / 1936 Capa 西班牙 / 1944 D-Day / 越战后转型",
+    "precededBy": [
+      "pictorialism"
+    ],
+    "succeededBy": [
+      "humanist",
+      "magnum"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "brady",
+        "workIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "fashion",
+    "nameZh": "时尚摄影",
+    "nameEn": "Fashion Photography",
+    "period": {
+      "start": 1910,
+      "peak": 1965,
+      "end": 2026
+    },
+    "countries": [
+      "US",
+      "FR"
+    ],
+    "color": "#BC9F7A",
+    "description": "从 Steichen 进入 Vogue 起,经 Penn 极简棚拍 → Avedon 移动镜头 → Newton 张力黑白 → Leibovitz 名人神话,把商业摄影提升到画廊艺术等级。",
+    "arc": "1923 Steichen 入职 Condé Nast / 1947 Penn 椅子棚拍 / 1957 Avedon Funny Face / 1976 Newton White Women",
+    "precededBy": [
+      "pictorialism"
+    ],
+    "succeededBy": [
+      "new-color"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "penn",
+        "workIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "latin-american-modernism",
+    "nameZh": "拉美现代主义摄影",
+    "nameEn": "Latin American Modernism",
+    "period": {
+      "start": 1920,
+      "peak": 1950,
+      "end": 2010
+    },
+    "countries": [
+      "MX"
+    ],
+    "color": "#B8654A",
+    "description": "墨西哥革命后,Modotti 与 Edward Weston 把美国直接摄影带入墨西哥,与 Manuel Álvarez Bravo 的本土寓言结合,形成独立的拉美视觉语言,延伸至 Iturbide 的原住民档案。",
+    "arc": "1923 Modotti+Weston 抵墨 / 1939 Bravo 巴黎超现实展 / 1979 Iturbide Juchitán 系列",
+    "precededBy": [
+      "straight"
+    ],
+    "succeededBy": [
+      "humanist"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "alvarez-bravo",
+        "workIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "black-american-photo",
+    "nameZh": "美国黑人摄影",
+    "nameEn": "Black American Photography",
+    "period": {
+      "start": 1900,
+      "peak": 1968,
+      "end": 2026
+    },
+    "countries": [
+      "US"
+    ],
+    "color": "#4A6E70",
+    "description": "从 Van Der Zee 的 Harlem 棚拍记录 Harlem Renaissance 起,经 Roy DeCarava 的低光爵士与 Gordon Parks 的 LIFE 报道,延展到 Carrie Mae Weems 的身份观念,自成一支独立而绵长的视觉脉络。",
+    "arc": "1916 Van Der Zee 开棚 / 1942 Parks 入 FSA / 1955 DeCarava《The Sweet Flypaper of Life》/ 1990 Weems Kitchen Table",
+    "precededBy": [
+      "pictorialism"
+    ],
+    "succeededBy": [
+      "new-color"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "parks",
+        "workIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "west-african-studio",
+    "nameZh": "西非棚拍肖像",
+    "nameEn": "West African Studio Portraiture",
+    "period": {
+      "start": 1948,
+      "peak": 1965,
+      "end": 1985
+    },
+    "countries": [
+      "ML"
+    ],
+    "color": "#8B7B45",
+    "description": "马里巴马科以 Seydou Keïta、Malick Sidibé 为代表的棚拍传统,记录非洲独立前后的新中产与青年舞会文化,1990 年代被欧美再发现并成为非洲现代摄影的标志。",
+    "arc": "1948 Keïta 开棚 / 1962 Sidibé 自立 / 1991 巴黎国际摄影双年展再发现 / 2007 Sidibé 威尼斯金狮",
+    "precededBy": [],
+    "succeededBy": [],
+    "signatureWorks": [
+      {
+        "photographerId": "keita",
+        "workIndex": 0
+      }
+    ]
   }
 ]

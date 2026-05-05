@@ -26,7 +26,7 @@
       {
         "title": "View from the Window at Le Gras",
         "year": 1826,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg",
         "credit": "Public Domain / Harry Ransom Center"
       }
     ],
@@ -34,7 +34,10 @@
       "日光蚀刻",
       "沥青感光"
     ],
-    "quote": "让光自己来作画。"
+    "quote": "让光自己来作画。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:View_from_the_Window_at_Le_Gras%2C_Joseph_Nic%C3%A9phore_Ni%C3%A9pce.jpg"
+    ]
   },
   {
     "id": "daguerre",
@@ -65,7 +68,7 @@
       {
         "title": "Boulevard du Temple",
         "year": 1838,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Boulevard_du_Temple_by_Daguerre.jpg",
         "credit": "Public Domain"
       }
     ],
@@ -73,7 +76,10 @@
       "银版法",
       "Daguerreotype"
     ],
-    "quote": "我已经掌握了让光自己描绘的方法。"
+    "quote": "我已经掌握了让光自己描绘的方法。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg"
+    ]
   },
   {
     "id": "talbot",
@@ -104,7 +110,7 @@
       {
         "title": "The Open Door",
         "year": 1844,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Latticed_window_at_lacock_abbey_1835.jpg",
         "credit": "Public Domain / Bodleian"
       }
     ],
@@ -112,7 +118,10 @@
       "卡罗式负片",
       "盐纸印相"
     ],
-    "quote": "自然之笔。"
+    "quote": "自然之笔。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Latticed_window_at_lacock_abbey_1835.jpg"
+    ]
   },
   {
     "id": "nadar",
@@ -144,7 +153,7 @@
       {
         "title": "Sarah Bernhardt",
         "year": 1864,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg",
         "credit": "Public Domain"
       }
     ],
@@ -152,7 +161,10 @@
       "湿版火棉胶",
       "人像光学"
     ],
-    "quote": "摄影只在一瞬间存在。"
+    "quote": "摄影只在一瞬间存在。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg"
+    ]
   },
   {
     "id": "atget",
@@ -184,7 +196,7 @@
       {
         "title": "Avenue des Gobelins",
         "year": 1925,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Avenue_des_Gobelins_MET_DP315549.jpg",
         "credit": "MoMA / Public Domain"
       }
     ],
@@ -192,7 +204,10 @@
       "玻璃版",
       "清晨自然光"
     ],
-    "quote": "我只是为艺术家收集资料。"
+    "quote": "我只是为艺术家收集资料。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Avenue_des_Gobelins_MET_DP315549.jpg"
+    ]
   },
   {
     "id": "lartigue",
@@ -268,7 +283,7 @@
       {
         "title": "The Steerage",
         "year": 1907,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
         "credit": "Public Domain"
       }
     ],
@@ -276,7 +291,10 @@
       "铂金印相",
       "画意软焦"
     ],
-    "quote": "在艺术里,只有一种形式:就是真。"
+    "quote": "在艺术里,只有一种形式:就是真。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg"
+    ]
   },
   {
     "id": "steichen",
@@ -312,7 +330,7 @@
       {
         "title": "The Pond — Moonlight",
         "year": 1904,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Edward_Steichen_%28American%29_-_%28Moonlight_-_The_Pond%29_-_Google_Art_Project.jpg",
         "credit": "MoMA"
       }
     ],
@@ -320,7 +338,10 @@
       "多重印相",
       "时尚布光"
     ],
-    "quote": "摄影任务在于解释人对人。"
+    "quote": "摄影任务在于解释人对人。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Edward_Steichen_%28American%29_-_%28Moonlight_-_The_Pond%29_-_Google_Art_Project.jpg"
+    ]
   },
   {
     "id": "kasebier",
@@ -351,7 +372,7 @@
       {
         "title": "Blessed Art Thou Among Women",
         "year": 1899,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Gertrude_K%C3%A4sebier%2C_Blessed_Art_Thou_Among_Women%2C_c.1900%2C_NGA_150204.jpg",
         "credit": "MoMA"
       }
     ],
@@ -359,7 +380,10 @@
       "画意软焦",
       "铂金印相"
     ],
-    "quote": "为孩子留住妈妈的样子。"
+    "quote": "为孩子留住妈妈的样子。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Gertrude_K%C3%A4sebier%2C_Blessed_Art_Thou_Among_Women%2C_c.1900%2C_NGA_150204.jpg"
+    ]
   },
   {
     "id": "coburn",
@@ -2238,5 +2262,708 @@
       "物品分类学"
     ],
     "quote": "物自己讲故事。"
+  },
+  {
+    "id": "cameron",
+    "name": "Julia Margaret Cameron",
+    "nameZh": "卡梅隆",
+    "born": 1815,
+    "died": 1879,
+    "country": "UK",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [
+      "talbot"
+    ],
+    "bio": "维多利亚时期英国女性肖像先驱,48 岁才收到第一台相机,用湿版火棉胶 + 软焦镜头拍出梦幻肖像,Tennyson、Carlyle 等是她的常客。被尊为画意主义重要源头。",
+    "keyDates": [
+      {
+        "year": 1864,
+        "event": "收到女儿赠送的第一台相机"
+      },
+      {
+        "year": 1865,
+        "event": "在 South Kensington 博物馆个展"
+      },
+      {
+        "year": 1875,
+        "event": "迁居锡兰,继续拍摄"
+      }
+    ],
+    "works": [
+      {
+        "title": "I Wait",
+        "year": 1872,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Sir_John_Herschel_MET_DT2539.jpg",
+        "credit": "V&A / Public Domain"
+      }
+    ],
+    "techniques": [
+      "湿版火棉胶",
+      "软焦",
+      "长曝肖像"
+    ],
+    "quote": "我把所有热情都倾注到这门艺术。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Sir_John_Herschel_MET_DT2539.jpg"
+    ]
+  },
+  {
+    "id": "muybridge",
+    "name": "Eadweard Muybridge",
+    "nameZh": "穆布里奇",
+    "born": 1830,
+    "died": 1904,
+    "country": "UK",
+    "region": "n-america",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [],
+    "bio": "英裔美国摄影 + 工程师,1878 年用 12 台相机阵列拍摄《奔跑的马》,首次证明马奔跑时确有四蹄同时离地的瞬间,是连续摄影的奠基,也是电影术的直接前身。",
+    "keyDates": [
+      {
+        "year": 1878,
+        "event": "《The Horse in Motion》12 帧序列发表"
+      },
+      {
+        "year": 1887,
+        "event": "《Animal Locomotion》781 张图版出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Horse in Motion",
+        "year": 1878,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/The_Horse_in_Motion-anim.gif",
+        "credit": "Library of Congress / Public Domain"
+      }
+    ],
+    "techniques": [
+      "多机阵列",
+      "连续摄影",
+      "湿版"
+    ],
+    "quote": "目光让位给机械。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion-anim.gif"
+    ]
+  },
+  {
+    "id": "brady",
+    "name": "Mathew Brady",
+    "nameZh": "布雷迪",
+    "born": 1822,
+    "died": 1896,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "war-photography"
+    ],
+    "influencedBy": [],
+    "bio": "美国摄影师,组织 20 余人团队系统记录美国南北战争(1861-65),将湿版火棉胶搬上战场,1862 年在纽约展出《死亡的安蒂特姆》震惊公众,被视为现代战地摄影起点。",
+    "keyDates": [
+      {
+        "year": 1844,
+        "event": "纽约百老汇开 Daguerreian 工作室"
+      },
+      {
+        "year": 1862,
+        "event": "《死亡的安蒂特姆》战场摄影展"
+      },
+      {
+        "year": 1865,
+        "event": "拍摄林肯遇刺前最后照片"
+      }
+    ],
+    "works": [
+      {
+        "title": "Antietam, Confederate dead",
+        "year": 1862,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/9/91/Mathew_Brady%2C_Portrait_of_Secretary_of_the_Treasury_Salmon_P._Chase%2C_officer_of_the_United_States_government_%281860%E2%80%931865%2C_full_version%29.jpg",
+        "credit": "Library of Congress / Public Domain"
+      }
+    ],
+    "techniques": [
+      "湿版火棉胶",
+      "野外暗房车",
+      "肖像与战场"
+    ],
+    "quote": "如果他从未做过别的,这一项也足够。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Mathew_Brady%2C_Portrait_of_Secretary_of_the_Treasury_Salmon_P._Chase%2C_officer_of_the_United_States_government_%281860%E2%80%931865%2C_full_version%29.jpg"
+    ]
+  },
+  {
+    "id": "lee-miller",
+    "name": "Lee Miller",
+    "nameZh": "李·米勒",
+    "born": 1907,
+    "died": 1977,
+    "country": "US",
+    "region": "europe",
+    "movements": [
+      "war-photography",
+      "fashion"
+    ],
+    "influencedBy": [
+      "man-ray"
+    ],
+    "bio": "美国-英国摄影师,1929 抵巴黎拜师 Man Ray,既是其学生也是模特与情人,后转行 Vogue 战地记者。1945 年最早进入达豪、布痕瓦尔德集中营,《在希特勒慕尼黑公寓的浴缸里》成为 20 世纪标志影像。",
+    "keyDates": [
+      {
+        "year": 1929,
+        "event": "抵巴黎师从 Man Ray"
+      },
+      {
+        "year": 1944,
+        "event": "Vogue 战地记者,跟随盟军欧洲战场"
+      },
+      {
+        "year": 1945,
+        "event": "进入达豪、布痕瓦尔德集中营"
+      }
+    ],
+    "works": [
+      {
+        "title": "Lee Miller in Hitler's Bathtub",
+        "year": 1945,
+        "image": null,
+        "credit": "Lee Miller Archives"
+      }
+    ],
+    "techniques": [
+      "35mm 战地",
+      "超现实拼贴",
+      "Solarisation"
+    ],
+    "quote": "我宁愿拍下一张完整的快门。"
+  },
+  {
+    "id": "bourke-white",
+    "name": "Margaret Bourke-White",
+    "nameZh": "布尔克-怀特",
+    "born": 1904,
+    "died": 1971,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "war-photography",
+      "fashion"
+    ],
+    "influencedBy": [],
+    "bio": "美国先锋女性摄影师,LIFE 杂志 1936 创刊号封面《Fort Peck Dam》出自其手;首位被允许进入苏联拍摄的西方摄影师(1930),1945 年跟随巴顿军团解放布痕瓦尔德。",
+    "keyDates": [
+      {
+        "year": 1929,
+        "event": "Fortune 杂志摄影师"
+      },
+      {
+        "year": 1936,
+        "event": "LIFE 创刊号封面"
+      },
+      {
+        "year": 1945,
+        "event": "布痕瓦尔德集中营纪录"
+      }
+    ],
+    "works": [
+      {
+        "title": "Fort Peck Dam (LIFE cover)",
+        "year": 1936,
+        "image": null,
+        "credit": "LIFE / TIME Inc."
+      }
+    ],
+    "techniques": [
+      "大画幅工业摄影",
+      "战地报道"
+    ],
+    "quote": "你必须保持饥饿。"
+  },
+  {
+    "id": "avedon",
+    "name": "Richard Avedon",
+    "nameZh": "阿维顿",
+    "born": 1923,
+    "died": 2004,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "kertesz"
+    ],
+    "bio": "美国时尚 + 肖像大师,Harper's Bazaar / Vogue 主力。1957 电影《Funny Face》以其为原型。1985 巨幅黑白《在美国西部》将平凡矿工肖像推到画廊级地位。",
+    "keyDates": [
+      {
+        "year": 1944,
+        "event": "入职 Harper's Bazaar"
+      },
+      {
+        "year": 1955,
+        "event": "Dovima with Elephants 拍摄"
+      },
+      {
+        "year": 1985,
+        "event": "《In the American West》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Dovima with Elephants",
+        "year": 1955,
+        "image": null,
+        "credit": "© Avedon Foundation"
+      }
+    ],
+    "techniques": [
+      "白底棚拍",
+      "大画幅人像",
+      "动态时装"
+    ],
+    "quote": "肖像不是相似,是关于秘密的。"
+  },
+  {
+    "id": "penn",
+    "name": "Irving Penn",
+    "nameZh": "佩恩",
+    "born": 1917,
+    "died": 2009,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "fashion",
+      "straight"
+    ],
+    "influencedBy": [],
+    "bio": "美国摄影师,Vogue 长达六十年合作。极简灰白棚拍背景 + 椅子角落构图(Corner Portraits)成时尚摄影标杆,静物-时装-人种学(秘鲁 Cuzco 系列)统一在同一种节制语言下。",
+    "keyDates": [
+      {
+        "year": 1943,
+        "event": "入职 Vogue"
+      },
+      {
+        "year": 1948,
+        "event": "秘鲁 Cuzco 肖像系列"
+      },
+      {
+        "year": 1950,
+        "event": "Corner Portraits 系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "Cuzco Children",
+        "year": 1948,
+        "image": null,
+        "credit": "© Irving Penn Foundation"
+      }
+    ],
+    "techniques": [
+      "8x10 棚拍",
+      "灰白背景",
+      "极简构图"
+    ],
+    "quote": "一张好照片,什么都不去说。"
+  },
+  {
+    "id": "newton",
+    "name": "Helmut Newton",
+    "nameZh": "诺顿",
+    "born": 1920,
+    "died": 2004,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "brassai"
+    ],
+    "bio": "德国-澳大利亚-法国时尚摄影师,1980 年代主宰 Vogue Paris。高对比黑白 + 强势女性 + 性张力,被称为'时尚色情'的开山者,1976《白色女人》出版即标志。",
+    "keyDates": [
+      {
+        "year": 1956,
+        "event": "移居澳大利亚"
+      },
+      {
+        "year": 1976,
+        "event": "《White Women》出版"
+      },
+      {
+        "year": 1981,
+        "event": "《Big Nudes》系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "Sie kommen, Paris",
+        "year": 1981,
+        "image": null,
+        "credit": "© Helmut Newton Foundation"
+      }
+    ],
+    "techniques": [
+      "高对比黑白",
+      "宽幅时装",
+      "棚拍 + 实景"
+    ],
+    "quote": "好趣味是创造力的敌人。"
+  },
+  {
+    "id": "modotti",
+    "name": "Tina Modotti",
+    "nameZh": "莫多蒂",
+    "born": 1896,
+    "died": 1942,
+    "country": "MX",
+    "region": "latin",
+    "movements": [
+      "latin-american-modernism",
+      "straight"
+    ],
+    "influencedBy": [
+      "e-weston"
+    ],
+    "bio": "意大利-墨西哥摄影师与革命者,1923 与 Edward Weston 移居墨西哥,在墨拍摄农民运动、建筑构成与工人手部特写,7 年后被驱逐回欧洲转入地下革命工作。",
+    "keyDates": [
+      {
+        "year": 1923,
+        "event": "与 Weston 抵墨"
+      },
+      {
+        "year": 1929,
+        "event": "墨西哥个展"
+      },
+      {
+        "year": 1930,
+        "event": "被驱逐出墨"
+      }
+    ],
+    "works": [
+      {
+        "title": "Worker's Hands",
+        "year": 1927,
+        "image": null,
+        "credit": "MoMA / Public Domain"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "构成主义"
+    ],
+    "quote": "相机不是工具,是器官。"
+  },
+  {
+    "id": "alvarez-bravo",
+    "name": "Manuel Álvarez Bravo",
+    "nameZh": "布拉沃",
+    "born": 1902,
+    "died": 2002,
+    "country": "MX",
+    "region": "latin",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "influencedBy": [
+      "e-weston",
+      "modotti"
+    ],
+    "bio": "墨西哥摄影师,墨西哥革命后视觉文化主奠基者。东方寓言 + 西方现代主义 + 本土土著日常,1939 年被布勒东选入巴黎超现实主义群展,职业生涯横跨 80 年。",
+    "keyDates": [
+      {
+        "year": 1924,
+        "event": "开始摄影"
+      },
+      {
+        "year": 1939,
+        "event": "巴黎国际超现实主义展"
+      },
+      {
+        "year": 1959,
+        "event": "Fondo Editorial Plástica Mexicana 出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "La buena fama durmiendo",
+        "year": 1939,
+        "image": null,
+        "credit": "© Archivo Manuel Álvarez Bravo"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "本土寓言"
+    ],
+    "quote": "时间这块布料,折叠在物体里。"
+  },
+  {
+    "id": "iturbide",
+    "name": "Graciela Iturbide",
+    "nameZh": "伊图尔比德",
+    "born": 1942,
+    "died": null,
+    "country": "MX",
+    "region": "latin",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "influencedBy": [
+      "alvarez-bravo"
+    ],
+    "bio": "墨西哥摄影师,Bravo 学生,长期记录萨波特克族原住民。《天使女人》(1979)是 Sonora 沙漠中携带卡带的塞里族女性,被视为拉美摄影象征性影像。",
+    "keyDates": [
+      {
+        "year": 1969,
+        "event": "师从 Bravo"
+      },
+      {
+        "year": 1979,
+        "event": "Juchitán《天使女人》"
+      },
+      {
+        "year": 2008,
+        "event": "Hasselblad 国际摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Mujer Ángel, Sonora",
+        "year": 1979,
+        "image": null,
+        "credit": "© Graciela Iturbide"
+      }
+    ],
+    "techniques": [
+      "35mm 黑白",
+      "长期蹲点"
+    ],
+    "quote": "时间在等我们,不是反过来。"
+  },
+  {
+    "id": "van-der-zee",
+    "name": "James Van Der Zee",
+    "nameZh": "范德齐",
+    "born": 1886,
+    "died": 1983,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "black-american-photo"
+    ],
+    "influencedBy": [],
+    "bio": "美国摄影师,1916-1969 在 Harlem 经营 Guarantee Photo Studio,系统记录哈莱姆文艺复兴时期的中产黑人家庭、葬礼、马库斯·加维等政治领袖,使一整个时代的尊严被影像保留。",
+    "keyDates": [
+      {
+        "year": 1916,
+        "event": "开 Guarantee Photo Studio"
+      },
+      {
+        "year": 1924,
+        "event": "Marcus Garvey 系列"
+      },
+      {
+        "year": 1969,
+        "event": "Met Museum《Harlem on My Mind》展再发现"
+      }
+    ],
+    "works": [
+      {
+        "title": "Couple, Harlem",
+        "year": 1932,
+        "image": null,
+        "credit": "© Van Der Zee Estate"
+      }
+    ],
+    "techniques": [
+      "棚拍肖像",
+      "手绘修饰",
+      "中画幅"
+    ],
+    "quote": "我尝试让他们看上去像他们想成为的样子。"
+  },
+  {
+    "id": "parks",
+    "name": "Gordon Parks",
+    "nameZh": "戈登·帕克斯",
+    "born": 1912,
+    "died": 2006,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "black-american-photo",
+      "fsa",
+      "fashion"
+    ],
+    "influencedBy": [
+      "lange",
+      "evans"
+    ],
+    "bio": "美国摄影师 / 作家 / 导演,FSA 唯一黑人摄影师,LIFE 杂志首位黑人摄影师 (1948-72),1971 年执导《Shaft》开启 blaxploitation 电影。1942《American Gothic, Washington》为其代表作。",
+    "keyDates": [
+      {
+        "year": 1942,
+        "event": "加入 FSA;《American Gothic》"
+      },
+      {
+        "year": 1948,
+        "event": "入职 LIFE 杂志"
+      },
+      {
+        "year": 1971,
+        "event": "执导《Shaft》"
+      }
+    ],
+    "works": [
+      {
+        "title": "American Gothic, Washington, D.C.",
+        "year": 1942,
+        "image": null,
+        "credit": "Library of Congress / Public Domain"
+      }
+    ],
+    "techniques": [
+      "35mm 报道",
+      "时尚棚拍",
+      "电影"
+    ],
+    "quote": "选你的武器,我选了相机。"
+  },
+  {
+    "id": "weems",
+    "name": "Carrie Mae Weems",
+    "nameZh": "威姆斯",
+    "born": 1953,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "black-american-photo",
+      "new-color"
+    ],
+    "influencedBy": [
+      "van-der-zee",
+      "parks"
+    ],
+    "bio": "美国摄影师,《Kitchen Table》(1990) 系列以同一张餐桌为舞台,通过 20 张摆拍 + 文字重塑黑人女性自我表象。装置 + 影像 + 文字穿透身份与历史。2014 MacArthur 天才奖。",
+    "keyDates": [
+      {
+        "year": 1990,
+        "event": "《Kitchen Table》系列"
+      },
+      {
+        "year": 1995,
+        "event": "《From Here I Saw What Happened》"
+      },
+      {
+        "year": 2014,
+        "event": "MacArthur Fellowship"
+      }
+    ],
+    "works": [
+      {
+        "title": "Untitled (Kitchen Table)",
+        "year": 1990,
+        "image": null,
+        "credit": "© Carrie Mae Weems"
+      }
+    ],
+    "techniques": [
+      "影像装置",
+      "文字+图像",
+      "档案再造"
+    ],
+    "quote": "我在编织被剪掉的故事。"
+  },
+  {
+    "id": "keita",
+    "name": "Seydou Keïta",
+    "nameZh": "凯塔",
+    "born": 1921,
+    "died": 2001,
+    "country": "ML",
+    "region": "africa",
+    "movements": [
+      "west-african-studio"
+    ],
+    "influencedBy": [],
+    "bio": "马里摄影师,Bamako 棚拍肖像之父,1948 在自家庭院开棚,用大画幅 + 印花布背景拍摄独立前后的非洲新中产、士兵、青年情侣,1990 年代被欧美'再发现',作品被纳入 MoMA 永久收藏。",
+    "keyDates": [
+      {
+        "year": 1948,
+        "event": "Bamako 自宅开棚"
+      },
+      {
+        "year": 1962,
+        "event": "马里独立后转为政府官摄"
+      },
+      {
+        "year": 1991,
+        "event": "巴黎非洲摄影展再发现"
+      }
+    ],
+    "works": [
+      {
+        "title": "Untitled (Three Women)",
+        "year": 1956,
+        "image": null,
+        "credit": "© Seydou Keïta Estate"
+      }
+    ],
+    "techniques": [
+      "13×18 大画幅",
+      "印花布背景",
+      "自然光"
+    ],
+    "quote": "我让他们看见自己的美。"
+  },
+  {
+    "id": "sidibe",
+    "name": "Malick Sidibé",
+    "nameZh": "西迪贝",
+    "born": 1936,
+    "died": 2016,
+    "country": "ML",
+    "region": "africa",
+    "movements": [
+      "west-african-studio"
+    ],
+    "influencedBy": [
+      "keita"
+    ],
+    "bio": "马里摄影师,'Bamako 之眼',1962 自立工作室。周末舞会与海滩青年记录使其成为非洲后殖民青年文化最重要的视觉档案者。2007 威尼斯双年展金狮终身成就奖,首位获奖的非洲艺术家。",
+    "keyDates": [
+      {
+        "year": 1962,
+        "event": "Studio Malick 开张"
+      },
+      {
+        "year": 2003,
+        "event": "Hasselblad 奖"
+      },
+      {
+        "year": 2007,
+        "event": "威尼斯金狮终身成就"
+      }
+    ],
+    "works": [
+      {
+        "title": "Nuit de Noël (Happy Club)",
+        "year": 1963,
+        "image": null,
+        "credit": "© Malick Sidibé Estate"
+      }
+    ],
+    "techniques": [
+      "35mm 黑白",
+      "舞会现场",
+      "棚拍肖像"
+    ],
+    "quote": "音乐响起,他们就是另一个人。"
   }
 ]

@@ -64,7 +64,41 @@
                               "refId": "steichen",
                               "label": "斯泰肯",
                               "year": 1904,
-                              "children": []
+                              "children": [
+                                {
+                                  "id": "movements/fashion",
+                                  "kind": "movement",
+                                  "refId": "fashion",
+                                  "label": "时尚摄影",
+                                  "year": 1965,
+                                  "children": [
+                                    {
+                                      "id": "photographers/penn",
+                                      "kind": "photographer",
+                                      "refId": "penn",
+                                      "label": "Penn",
+                                      "year": 1948,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/avedon",
+                                      "kind": "photographer",
+                                      "refId": "avedon",
+                                      "label": "Avedon",
+                                      "year": 1955,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/newton",
+                                      "kind": "photographer",
+                                      "refId": "newton",
+                                      "label": "Newton",
+                                      "year": 1976,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
                               "id": "photographers/strand",
@@ -75,6 +109,14 @@
                               "children": []
                             }
                           ]
+                        },
+                        {
+                          "id": "photographers/cameron",
+                          "kind": "photographer",
+                          "refId": "cameron",
+                          "label": "Cameron",
+                          "year": 1864,
+                          "children": []
                         }
                       ]
                     },
@@ -105,7 +147,42 @@
                               "refId": "e-weston",
                               "label": "E. Weston",
                               "year": 1932,
-                              "children": []
+                              "children": [
+                                {
+                                  "id": "movements/latin-american-modernism",
+                                  "kind": "movement",
+                                  "refId": "latin-american-modernism",
+                                  "label": "拉美现代主义",
+                                  "year": 1939,
+                                  "children": [
+                                    {
+                                      "id": "photographers/modotti",
+                                      "kind": "photographer",
+                                      "refId": "modotti",
+                                      "label": "Modotti",
+                                      "year": 1927,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/alvarez-bravo",
+                                      "kind": "photographer",
+                                      "refId": "alvarez-bravo",
+                                      "label": "Bravo",
+                                      "year": 1939,
+                                      "children": [
+                                        {
+                                          "id": "photographers/iturbide",
+                                          "kind": "photographer",
+                                          "refId": "iturbide",
+                                          "label": "Iturbide",
+                                          "year": 1979,
+                                          "children": []
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
                             },
                             {
                               "id": "photographers/cunningham",
@@ -512,6 +589,109 @@
                           "refId": "honghao",
                           "label": "洪浩",
                           "year": 2001,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "movements/black-american-photo",
+                      "kind": "movement",
+                      "refId": "black-american-photo",
+                      "label": "美国黑人摄影",
+                      "year": 1968,
+                      "children": [
+                        {
+                          "id": "photographers/van-der-zee",
+                          "kind": "photographer",
+                          "refId": "van-der-zee",
+                          "label": "Van Der Zee",
+                          "year": 1924,
+                          "children": [
+                            {
+                              "id": "photographers/parks",
+                              "kind": "photographer",
+                              "refId": "parks",
+                              "label": "Parks",
+                              "year": 1942,
+                              "children": [
+                                {
+                                  "id": "photographers/weems",
+                                  "kind": "photographer",
+                                  "refId": "weems",
+                                  "label": "Weems",
+                                  "year": 1990,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "movements/west-african-studio",
+                      "kind": "movement",
+                      "refId": "west-african-studio",
+                      "label": "西非棚拍肖像",
+                      "year": 1965,
+                      "children": [
+                        {
+                          "id": "photographers/keita",
+                          "kind": "photographer",
+                          "refId": "keita",
+                          "label": "Keïta",
+                          "year": 1956,
+                          "children": [
+                            {
+                              "id": "photographers/sidibe",
+                              "kind": "photographer",
+                              "refId": "sidibe",
+                              "label": "Sidibé",
+                              "year": 1963,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "photographers/muybridge",
+                  "kind": "photographer",
+                  "refId": "muybridge",
+                  "label": "Muybridge",
+                  "year": 1878,
+                  "children": []
+                },
+                {
+                  "id": "photographers/brady",
+                  "kind": "photographer",
+                  "refId": "brady",
+                  "label": "Brady",
+                  "year": 1862,
+                  "children": [
+                    {
+                      "id": "movements/war-photography",
+                      "kind": "movement",
+                      "refId": "war-photography",
+                      "label": "战地摄影",
+                      "year": 1944,
+                      "children": [
+                        {
+                          "id": "photographers/lee-miller",
+                          "kind": "photographer",
+                          "refId": "lee-miller",
+                          "label": "Lee Miller",
+                          "year": 1945,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/bourke-white",
+                          "kind": "photographer",
+                          "refId": "bourke-white",
+                          "label": "Bourke-White",
+                          "year": 1936,
                           "children": []
                         }
                       ]
