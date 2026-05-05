@@ -1,0 +1,2242 @@
+[
+  {
+    "id": "niepce",
+    "name": "Nicéphore Niépce",
+    "nameZh": "尼埃普斯",
+    "born": 1765,
+    "died": 1833,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [],
+    "bio": "法国发明家,1826-27 年用沥青感光板拍下的《窗外景色》是现存最早的照片。",
+    "keyDates": [
+      {
+        "year": 1826,
+        "event": "日光蚀刻法 Heliography 拍下《窗外景色》"
+      },
+      {
+        "year": 1829,
+        "event": "与达盖尔签订合作协议"
+      }
+    ],
+    "works": [
+      {
+        "title": "View from the Window at Le Gras",
+        "year": 1826,
+        "image": null,
+        "credit": "Public Domain / Harry Ransom Center"
+      }
+    ],
+    "techniques": [
+      "日光蚀刻",
+      "沥青感光"
+    ],
+    "quote": "让光自己来作画。"
+  },
+  {
+    "id": "daguerre",
+    "name": "Louis Daguerre",
+    "nameZh": "达盖尔",
+    "born": 1787,
+    "died": 1851,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [
+      "niepce"
+    ],
+    "bio": "法国画家、布景师,1839 年向公众公布达盖尔银版法,被视为摄影术的\"诞生日\"。",
+    "keyDates": [
+      {
+        "year": 1839,
+        "event": "达盖尔法在法国科学院公开"
+      },
+      {
+        "year": 1838,
+        "event": "《气堂大道》摄入历史上首张人像剪影"
+      }
+    ],
+    "works": [
+      {
+        "title": "Boulevard du Temple",
+        "year": 1838,
+        "image": null,
+        "credit": "Public Domain"
+      }
+    ],
+    "techniques": [
+      "银版法",
+      "Daguerreotype"
+    ],
+    "quote": "我已经掌握了让光自己描绘的方法。"
+  },
+  {
+    "id": "talbot",
+    "name": "William Henry Fox Talbot",
+    "nameZh": "塔尔博特",
+    "born": 1800,
+    "died": 1877,
+    "country": "UK",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [
+      "niepce"
+    ],
+    "bio": "英国博学者,发明卡罗式负片(Calotype)工艺,确立\"负-正\"系统,是现代银盐摄影直接祖先。",
+    "keyDates": [
+      {
+        "year": 1841,
+        "event": "卡罗式负片工艺专利"
+      },
+      {
+        "year": 1844,
+        "event": "《自然之笔》问世,首本插图为照片的书"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Open Door",
+        "year": 1844,
+        "image": null,
+        "credit": "Public Domain / Bodleian"
+      }
+    ],
+    "techniques": [
+      "卡罗式负片",
+      "盐纸印相"
+    ],
+    "quote": "自然之笔。"
+  },
+  {
+    "id": "nadar",
+    "name": "Nadar (Gaspard-Félix Tournachon)",
+    "nameZh": "纳达尔",
+    "born": 1820,
+    "died": 1910,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [
+      "daguerre",
+      "talbot"
+    ],
+    "bio": "法国肖像摄影先驱,巴黎工作室拍下波德莱尔、雨果、萨拉·伯恩哈特等十九世纪文化名人;1858 年首次完成航拍。",
+    "keyDates": [
+      {
+        "year": 1858,
+        "event": "热气球航拍巴黎"
+      },
+      {
+        "year": 1874,
+        "event": "工作室主办首届印象派展览"
+      }
+    ],
+    "works": [
+      {
+        "title": "Sarah Bernhardt",
+        "year": 1864,
+        "image": null,
+        "credit": "Public Domain"
+      }
+    ],
+    "techniques": [
+      "湿版火棉胶",
+      "人像光学"
+    ],
+    "quote": "摄影只在一瞬间存在。"
+  },
+  {
+    "id": "atget",
+    "name": "Eugène Atget",
+    "nameZh": "阿杰",
+    "born": 1857,
+    "died": 1927,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "pictorialism",
+      "street"
+    ],
+    "influencedBy": [
+      "nadar"
+    ],
+    "bio": "法国摄影师,清晨独自走街拍摄\"老巴黎\",一万余张玻璃版片几乎构成一座城市的影像档案。被超现实主义与现代主义共同奉为先驱。",
+    "keyDates": [
+      {
+        "year": 1898,
+        "event": "开始系统性拍摄 \"Vieux Paris\""
+      },
+      {
+        "year": 1925,
+        "event": "与 Berenice Abbott 相识,作品由其抢救"
+      }
+    ],
+    "works": [
+      {
+        "title": "Avenue des Gobelins",
+        "year": 1925,
+        "image": null,
+        "credit": "MoMA / Public Domain"
+      }
+    ],
+    "techniques": [
+      "玻璃版",
+      "清晨自然光"
+    ],
+    "quote": "我只是为艺术家收集资料。"
+  },
+  {
+    "id": "lartigue",
+    "name": "Jacques Henri Lartigue",
+    "nameZh": "拉蒂格",
+    "born": 1894,
+    "died": 1986,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "nadar"
+    ],
+    "bio": "法国业余摄影师,7 岁开始用相机记录贵族家庭与早期赛车飞行的\"美好年代\",1963 年才被 MoMA 发现。",
+    "keyDates": [
+      {
+        "year": 1902,
+        "event": "七岁起拍摄家庭与运动"
+      },
+      {
+        "year": 1963,
+        "event": "MoMA 个展使其作品公开"
+      }
+    ],
+    "works": [
+      {
+        "title": "Grand Prix de l'A.C.F.",
+        "year": 1912,
+        "image": null,
+        "credit": "Lartigue Foundation"
+      }
+    ],
+    "techniques": [
+      "手持快门",
+      "运动追拍"
+    ],
+    "quote": "快乐是我唯一拍下的东西。"
+  },
+  {
+    "id": "stieglitz",
+    "name": "Alfred Stieglitz",
+    "nameZh": "斯蒂格利茨",
+    "born": 1864,
+    "died": 1946,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "pictorialism",
+      "straight"
+    ],
+    "influencedBy": [
+      "nadar",
+      "atget"
+    ],
+    "bio": "美国画意主义旗手,1902 创立 Photo-Secession,办《Camera Work》,后期转向直接摄影,推动摄影进入美术馆。",
+    "keyDates": [
+      {
+        "year": 1902,
+        "event": "创立 Photo-Secession"
+      },
+      {
+        "year": 1903,
+        "event": "《Camera Work》创刊"
+      },
+      {
+        "year": 1907,
+        "event": "《三等舱》拍摄"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Steerage",
+        "year": 1907,
+        "image": null,
+        "credit": "Public Domain"
+      }
+    ],
+    "techniques": [
+      "铂金印相",
+      "画意软焦"
+    ],
+    "quote": "在艺术里,只有一种形式:就是真。"
+  },
+  {
+    "id": "steichen",
+    "name": "Edward Steichen",
+    "nameZh": "斯泰肯",
+    "born": 1879,
+    "died": 1973,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "pictorialism",
+      "straight"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "bio": "美国画意-时尚-纪实跨阶段大师,后任 MoMA 摄影部主任,1955 年策划《人类一家》巡展。",
+    "keyDates": [
+      {
+        "year": 1904,
+        "event": "《池塘月光》(售价历史最高)"
+      },
+      {
+        "year": 1947,
+        "event": "出任 MoMA 摄影部主任"
+      },
+      {
+        "year": 1955,
+        "event": "策划《人类一家》MoMA 大展"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Pond — Moonlight",
+        "year": 1904,
+        "image": null,
+        "credit": "MoMA"
+      }
+    ],
+    "techniques": [
+      "多重印相",
+      "时尚布光"
+    ],
+    "quote": "摄影任务在于解释人对人。"
+  },
+  {
+    "id": "kasebier",
+    "name": "Gertrude Käsebier",
+    "nameZh": "凯斯比尔",
+    "born": 1852,
+    "died": 1934,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "bio": "美国画意主义女性代表,擅长母性、家庭与原住民肖像,Photo-Secession 创始成员之一。",
+    "keyDates": [
+      {
+        "year": 1899,
+        "event": "《The Manger》拍出当时最高价"
+      },
+      {
+        "year": 1902,
+        "event": "加入 Photo-Secession"
+      }
+    ],
+    "works": [
+      {
+        "title": "Blessed Art Thou Among Women",
+        "year": 1899,
+        "image": null,
+        "credit": "MoMA"
+      }
+    ],
+    "techniques": [
+      "画意软焦",
+      "铂金印相"
+    ],
+    "quote": "为孩子留住妈妈的样子。"
+  },
+  {
+    "id": "coburn",
+    "name": "Alvin Langdon Coburn",
+    "nameZh": "寇本",
+    "born": 1882,
+    "died": 1966,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "bio": "美籍英国摄影师,从画意主义跨入抽象,1916-17 年与 Vorticists 合作发表 \"Vortographs\",几乎是最早的抽象摄影。",
+    "keyDates": [
+      {
+        "year": 1909,
+        "event": "《纽约》画册出版"
+      },
+      {
+        "year": 1917,
+        "event": "Vortographs 抽象摄影展"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Octopus",
+        "year": 1912,
+        "image": null,
+        "credit": "MoMA"
+      }
+    ],
+    "techniques": [
+      "俯视构图",
+      "抽象摄影"
+    ],
+    "quote": "为何不像音乐家拍照?"
+  },
+  {
+    "id": "strand",
+    "name": "Paul Strand",
+    "nameZh": "斯特兰德",
+    "born": 1890,
+    "died": 1976,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "bio": "美国直接摄影奠基人之一,1916 年作品被刊于《Camera Work》最后两期,标志画意主义到直接摄影的转折。",
+    "keyDates": [
+      {
+        "year": 1916,
+        "event": "《Camera Work》刊发,直接摄影宣告诞生"
+      },
+      {
+        "year": 1955,
+        "event": "出版《Un Paese》村庄影像志"
+      }
+    ],
+    "works": [
+      {
+        "title": "Wall Street",
+        "year": 1915,
+        "image": null,
+        "credit": "MoMA"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "锐利结构"
+    ],
+    "quote": "摄影应当成为它自己。"
+  },
+  {
+    "id": "a-adams",
+    "name": "Ansel Adams",
+    "nameZh": "安塞尔·亚当斯",
+    "born": 1902,
+    "died": 1984,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "stieglitz",
+      "strand"
+    ],
+    "bio": "美国风景摄影代表人物,1932 年与 Weston 等创立 Group f/64;发明区域曝光法,把暗房技术系统化。",
+    "keyDates": [
+      {
+        "year": 1932,
+        "event": "与 Weston 等创立 Group f/64"
+      },
+      {
+        "year": 1941,
+        "event": "《月升,Hernandez》"
+      },
+      {
+        "year": 1948,
+        "event": "发表区域曝光法"
+      }
+    ],
+    "works": [
+      {
+        "title": "Moonrise, Hernandez, New Mexico",
+        "year": 1941,
+        "image": null,
+        "credit": "Ansel Adams Trust"
+      },
+      {
+        "title": "Clearing Winter Storm, Yosemite",
+        "year": 1937,
+        "image": null,
+        "credit": "Ansel Adams Trust"
+      }
+    ],
+    "techniques": [
+      "区域曝光法",
+      "8x10 大画幅"
+    ],
+    "quote": "锐利的概念,远胜锐利的图像。"
+  },
+  {
+    "id": "e-weston",
+    "name": "Edward Weston",
+    "nameZh": "爱德华·韦斯顿",
+    "born": 1886,
+    "died": 1958,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "stieglitz",
+      "strand"
+    ],
+    "bio": "f/64 创始成员,贝壳、青椒、人体的极致静物结构。",
+    "keyDates": [
+      {
+        "year": 1932,
+        "event": "共同创立 Group f/64"
+      },
+      {
+        "year": 1937,
+        "event": "获古根海姆基金,西部公路系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "Pepper No. 30",
+        "year": 1930,
+        "image": null,
+        "credit": "Center for Creative Photography"
+      }
+    ],
+    "techniques": [
+      "8x10",
+      "极小光圈"
+    ],
+    "quote": "组成,是观看的最强形式。"
+  },
+  {
+    "id": "cunningham",
+    "name": "Imogen Cunningham",
+    "nameZh": "坎宁安",
+    "born": 1883,
+    "died": 1976,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "bio": "f/64 创始成员,植物、人体、肖像皆有突破,职业生涯横跨 70 年。",
+    "keyDates": [
+      {
+        "year": 1932,
+        "event": "共同创立 Group f/64"
+      },
+      {
+        "year": 1976,
+        "event": "《After Ninety》出版,93 岁完成"
+      }
+    ],
+    "works": [
+      {
+        "title": "Magnolia Blossom",
+        "year": 1925,
+        "image": null,
+        "credit": "Imogen Cunningham Trust"
+      }
+    ],
+    "techniques": [
+      "8x10 静物",
+      "柔光肖像"
+    ],
+    "quote": "我从来没有时间觉得无聊。"
+  },
+  {
+    "id": "lange",
+    "name": "Dorothea Lange",
+    "nameZh": "兰格",
+    "born": 1895,
+    "died": 1965,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "fsa"
+    ],
+    "influencedBy": [
+      "strand"
+    ],
+    "bio": "美国纪实摄影开山者,FSA 项目核心成员。1936 年《移民母亲》成为美国大萧条最具代表性的肖像。",
+    "keyDates": [
+      {
+        "year": 1935,
+        "event": "加入 FSA 项目"
+      },
+      {
+        "year": 1936,
+        "event": "拍摄《移民母亲》"
+      },
+      {
+        "year": 1942,
+        "event": "记录日裔美国人拘禁营"
+      }
+    ],
+    "works": [
+      {
+        "title": "Migrant Mother",
+        "year": 1936,
+        "image": null,
+        "credit": "FSA / Library of Congress"
+      }
+    ],
+    "techniques": [
+      "Graflex 4x5",
+      "直接接近被摄者"
+    ],
+    "quote": "相机是观看而无须相机时的工具。"
+  },
+  {
+    "id": "evans",
+    "name": "Walker Evans",
+    "nameZh": "埃文斯",
+    "born": 1903,
+    "died": 1975,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "fsa",
+      "straight"
+    ],
+    "influencedBy": [
+      "atget",
+      "strand"
+    ],
+    "bio": "美国冷峻纪实代表,FSA 时期与作家 James Agee 合著《让我们赞美名人》。1938 年纽约 MoMA 个展是该馆首次给摄影师办个展。",
+    "keyDates": [
+      {
+        "year": 1938,
+        "event": "MoMA 摄影个展(美术馆首次)"
+      },
+      {
+        "year": 1941,
+        "event": "《Let Us Now Praise Famous Men》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Allie Mae Burroughs",
+        "year": 1936,
+        "image": null,
+        "credit": "Library of Congress"
+      }
+    ],
+    "techniques": [
+      "8x10",
+      "直白叙述"
+    ],
+    "quote": "看起来像是没有摄影师在场。"
+  },
+  {
+    "id": "rothstein",
+    "name": "Arthur Rothstein",
+    "nameZh": "罗斯坦",
+    "born": 1915,
+    "died": 1985,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "fsa"
+    ],
+    "influencedBy": [
+      "evans",
+      "lange"
+    ],
+    "bio": "FSA 首位被聘的摄影师,负责档案系统化与公关传播。1936 《尘暴中的父子》引发\"是否摆拍\"争议。",
+    "keyDates": [
+      {
+        "year": 1935,
+        "event": "入职 FSA,负责档案"
+      },
+      {
+        "year": 1936,
+        "event": "《Dust Storm, Cimarron County》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Dust Storm, Cimarron County",
+        "year": 1936,
+        "image": null,
+        "credit": "FSA / LoC"
+      }
+    ],
+    "techniques": [
+      "35mm 报道",
+      "档案分类"
+    ],
+    "quote": "一张照片必须告诉你一些东西。"
+  },
+  {
+    "id": "russell-lee",
+    "name": "Russell Lee",
+    "nameZh": "罗素·李",
+    "born": 1903,
+    "died": 1986,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "fsa"
+    ],
+    "influencedBy": [
+      "lange"
+    ],
+    "bio": "FSA 高产摄影师,以闪光灯扎实记录小镇室内生活,后期参与战后矿区健康调查。",
+    "keyDates": [
+      {
+        "year": 1936,
+        "event": "加入 FSA"
+      },
+      {
+        "year": 1946,
+        "event": "矿工健康调查项目"
+      }
+    ],
+    "works": [
+      {
+        "title": "Pie Town, New Mexico",
+        "year": 1940,
+        "image": null,
+        "credit": "FSA / LoC"
+      }
+    ],
+    "techniques": [
+      "闪光灯",
+      "室内纪实"
+    ],
+    "quote": "细节才是叙事。"
+  },
+  {
+    "id": "moholy-nagy",
+    "name": "László Moholy-Nagy",
+    "nameZh": "莫霍利-纳吉",
+    "born": 1895,
+    "died": 1946,
+    "country": "HU",
+    "region": "europe",
+    "movements": [
+      "bauhaus"
+    ],
+    "influencedBy": [],
+    "bio": "匈牙利构成主义艺术家,包豪斯教师。把摄影图(photogram)、蒙太奇、仰俯视角推为基础视觉训练。",
+    "keyDates": [
+      {
+        "year": 1923,
+        "event": "受聘包豪斯"
+      },
+      {
+        "year": 1937,
+        "event": "在芝加哥创立 New Bauhaus"
+      }
+    ],
+    "works": [
+      {
+        "title": "Photogram",
+        "year": 1925,
+        "image": null,
+        "credit": "Bauhaus Archive"
+      }
+    ],
+    "techniques": [
+      "Photogram",
+      "极端视角"
+    ],
+    "quote": "未来的文盲是不识相机的人。"
+  },
+  {
+    "id": "man-ray",
+    "name": "Man Ray",
+    "nameZh": "曼·雷",
+    "born": 1890,
+    "died": 1976,
+    "country": "US",
+    "region": "europe",
+    "movements": [
+      "bauhaus"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "bio": "美国出生、巴黎扎根的达达-超现实主义艺术家,发明 Rayograph(摄影图),Solarisation 等技术。",
+    "keyDates": [
+      {
+        "year": 1922,
+        "event": "发明 Rayograph"
+      },
+      {
+        "year": 1924,
+        "event": "《Le Violon d'Ingres》拍摄"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le Violon d'Ingres",
+        "year": 1924,
+        "image": null,
+        "credit": "Man Ray Trust"
+      }
+    ],
+    "techniques": [
+      "Rayograph",
+      "中途曝光 Solarisation"
+    ],
+    "quote": "我画我无法拍下的,我拍我无法画的。"
+  },
+  {
+    "id": "kertesz",
+    "name": "André Kertész",
+    "nameZh": "柯尔特茨",
+    "born": 1894,
+    "died": 1985,
+    "country": "HU",
+    "region": "europe",
+    "movements": [
+      "humanist",
+      "street"
+    ],
+    "influencedBy": [
+      "atget"
+    ],
+    "bio": "匈牙利-法国-美国摄影师,布列松称其为自己最重要的影响。诗意、几何、日常的融合大师。",
+    "keyDates": [
+      {
+        "year": 1925,
+        "event": "迁居巴黎"
+      },
+      {
+        "year": 1936,
+        "event": "迁居纽约"
+      }
+    ],
+    "works": [
+      {
+        "title": "Meudon",
+        "year": 1928,
+        "image": null,
+        "credit": "André Kertész Estate"
+      }
+    ],
+    "techniques": [
+      "徕卡",
+      "静默几何"
+    ],
+    "quote": "我拍我看到的,简单极了。"
+  },
+  {
+    "id": "brassai",
+    "name": "Brassaï (Gyula Halász)",
+    "nameZh": "布拉塞",
+    "born": 1899,
+    "died": 1984,
+    "country": "HU",
+    "region": "europe",
+    "movements": [
+      "humanist",
+      "street"
+    ],
+    "influencedBy": [
+      "atget",
+      "kertesz"
+    ],
+    "bio": "匈牙利出生的巴黎夜行者,1933 年《巴黎之夜》(Paris by Night)定格夜巴黎的酒馆、妓女、街灯,被亨利·米勒称为\"巴黎的眼睛\"。",
+    "keyDates": [
+      {
+        "year": 1932,
+        "event": "开始夜拍巴黎"
+      },
+      {
+        "year": 1933,
+        "event": "《巴黎之夜》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Lovers in a Café, Paris",
+        "year": 1932,
+        "image": null,
+        "credit": "Brassaï Estate"
+      }
+    ],
+    "techniques": [
+      "夜间长曝",
+      "中画幅"
+    ],
+    "quote": "夜建议,而不强制。"
+  },
+  {
+    "id": "doisneau",
+    "name": "Robert Doisneau",
+    "nameZh": "杜瓦诺",
+    "born": 1912,
+    "died": 1994,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "humanist"
+    ],
+    "influencedBy": [
+      "kertesz",
+      "brassai"
+    ],
+    "bio": "法国人文主义代表,街角偷拍小幽默,《市政厅前之吻》被全世界印成明信片。",
+    "keyDates": [
+      {
+        "year": 1948,
+        "event": "《Vogue》记者"
+      },
+      {
+        "year": 1950,
+        "event": "拍摄《Le Baiser de l'Hôtel de Ville》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le Baiser de l'Hôtel de Ville",
+        "year": 1950,
+        "image": null,
+        "credit": "Atelier Doisneau"
+      }
+    ],
+    "techniques": [
+      "街头偷拍",
+      "日光快门"
+    ],
+    "quote": "我必须捕捉那些会说话的瞬间。"
+  },
+  {
+    "id": "cartier-bresson",
+    "name": "Henri Cartier-Bresson",
+    "nameZh": "布列松",
+    "born": 1908,
+    "died": 2004,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "street",
+      "magnum",
+      "humanist"
+    ],
+    "influencedBy": [
+      "atget",
+      "kertesz",
+      "man-ray"
+    ],
+    "bio": "\"决定性瞬间\"提出者,Magnum 联合创始人。拍摄横跨西班牙内战、解放巴黎、印度独立、新中国成立等历史现场。",
+    "keyDates": [
+      {
+        "year": 1932,
+        "event": "在马赛见到摄影后,放下绘画"
+      },
+      {
+        "year": 1947,
+        "event": "与 Capa 等创立 Magnum"
+      },
+      {
+        "year": 1952,
+        "event": "《决定性瞬间》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Behind the Gare Saint-Lazare",
+        "year": 1932,
+        "image": null,
+        "credit": "Magnum Photos"
+      },
+      {
+        "title": "Hyères, France",
+        "year": 1932,
+        "image": null,
+        "credit": "Magnum Photos"
+      }
+    ],
+    "techniques": [
+      "Leica 50mm",
+      "黑白",
+      "决定性瞬间"
+    ],
+    "quote": "一个事件本身,加上对它的记忆,加上人对它的反应,共同构成了那一瞬间。"
+  },
+  {
+    "id": "capa",
+    "name": "Robert Capa",
+    "nameZh": "卡帕",
+    "born": 1913,
+    "died": 1954,
+    "country": "HU",
+    "region": "europe",
+    "movements": [
+      "magnum"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "匈牙利-美国战地摄影师,Magnum 联合创始人。\"如果你的照片不够好,是因为你不够近\"。1954 在越南踩雷身亡。",
+    "keyDates": [
+      {
+        "year": 1936,
+        "event": "《倒下的士兵》(西班牙内战)"
+      },
+      {
+        "year": 1944,
+        "event": "诺曼底登陆 D-Day 抢拍"
+      },
+      {
+        "year": 1947,
+        "event": "共同创立 Magnum"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Falling Soldier",
+        "year": 1936,
+        "image": null,
+        "credit": "Magnum Photos"
+      }
+    ],
+    "techniques": [
+      "Contax 35mm",
+      "战地直觉"
+    ],
+    "quote": "如果你的照片不够好,是因为你不够近。"
+  },
+  {
+    "id": "erwitt",
+    "name": "Elliott Erwitt",
+    "nameZh": "艾略特·欧维特",
+    "born": 1928,
+    "died": 2023,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "magnum",
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "法裔美国 Magnum 长期成员,以反讽幽默与狗题材著称,职业横跨七十年。",
+    "keyDates": [
+      {
+        "year": 1953,
+        "event": "加入 Magnum"
+      },
+      {
+        "year": 1968,
+        "event": "《赤足夫妇》(法国普罗旺斯)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Provence, France",
+        "year": 1955,
+        "image": null,
+        "credit": "Magnum Photos"
+      }
+    ],
+    "techniques": [
+      "Leica",
+      "反讽视角"
+    ],
+    "quote": "幽默是最严肃的事情。"
+  },
+  {
+    "id": "koudelka",
+    "name": "Josef Koudelka",
+    "nameZh": "寇德卡",
+    "born": 1938,
+    "died": null,
+    "country": "CZ",
+    "region": "europe",
+    "movements": [
+      "magnum",
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "捷克-法国摄影师,1968 年苏联坦克入侵布拉格的现场图像震惊西方,后流亡欧洲拍摄吉普赛人 17 年。",
+    "keyDates": [
+      {
+        "year": 1968,
+        "event": "布拉格入侵现场拍摄"
+      },
+      {
+        "year": 1975,
+        "event": "《Gypsies》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Invasion of Prague",
+        "year": 1968,
+        "image": null,
+        "credit": "Magnum Photos"
+      }
+    ],
+    "techniques": [
+      "黑白浓郁",
+      "广角徒步"
+    ],
+    "quote": "我必须看,我必须看见。"
+  },
+  {
+    "id": "salgado",
+    "name": "Sebastião Salgado",
+    "nameZh": "萨尔加多",
+    "born": 1944,
+    "died": null,
+    "country": "BR",
+    "region": "latin",
+    "movements": [
+      "magnum"
+    ],
+    "influencedBy": [
+      "capa",
+      "cartier-bresson"
+    ],
+    "bio": "巴西经济学家转摄影师,以宏大黑白长篇项目记录全球劳工、移民、地球生态(《工人》《人类大迁徙》《创世纪》)。",
+    "keyDates": [
+      {
+        "year": 1986,
+        "event": "《塞拉佩拉达金矿》系列"
+      },
+      {
+        "year": 2013,
+        "event": "《创世纪》八年项目完成"
+      }
+    ],
+    "works": [
+      {
+        "title": "Serra Pelada Gold Mine",
+        "year": 1986,
+        "image": null,
+        "credit": "Amazonas Images"
+      }
+    ],
+    "techniques": [
+      "长期项目",
+      "黑白史诗"
+    ],
+    "quote": "摄影是我们这个星球的视觉语言。"
+  },
+  {
+    "id": "frank",
+    "name": "Robert Frank",
+    "nameZh": "弗兰克",
+    "born": 1924,
+    "died": 2019,
+    "country": "CH",
+    "region": "n-america",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "evans",
+      "cartier-bresson"
+    ],
+    "bio": "瑞士-美国摄影师,1958 《美国人》83 张照片彻底改写了战后纪实美学,粗糙、忧郁、反英雄。",
+    "keyDates": [
+      {
+        "year": 1955,
+        "event": "获古根海姆奖,横穿美国"
+      },
+      {
+        "year": 1958,
+        "event": "《Les Américains》在巴黎出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Trolley — New Orleans",
+        "year": 1955,
+        "image": null,
+        "credit": "Robert Frank Foundation"
+      }
+    ],
+    "techniques": [
+      "Leica",
+      "直觉构图"
+    ],
+    "quote": "黑与白是希望与绝望的颜色。"
+  },
+  {
+    "id": "arbus",
+    "name": "Diane Arbus",
+    "nameZh": "阿勃丝",
+    "born": 1923,
+    "died": 1971,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "evans",
+      "frank"
+    ],
+    "bio": "美国摄影师,以正面 6x6 拍摄畸人、双胞胎、易装者等\"边缘者\",1967 年 MoMA《New Documents》三人展中最具冲击力的一位。",
+    "keyDates": [
+      {
+        "year": 1962,
+        "event": "改用 Rolleiflex 6x6"
+      },
+      {
+        "year": 1967,
+        "event": "MoMA《New Documents》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Identical Twins, Roselle, NJ",
+        "year": 1967,
+        "image": null,
+        "credit": "Estate of Diane Arbus"
+      }
+    ],
+    "techniques": [
+      "Rolleiflex",
+      "正面闪光"
+    ],
+    "quote": "一张照片是关于秘密的秘密。"
+  },
+  {
+    "id": "winogrand",
+    "name": "Garry Winogrand",
+    "nameZh": "维诺格兰德",
+    "born": 1928,
+    "died": 1984,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "frank"
+    ],
+    "bio": "美国街头摄影标志性人物,生前未冲洗的胶卷以万计,代表了 1960-70 美国\"看上去到处都在发生事\"的能量。",
+    "keyDates": [
+      {
+        "year": 1967,
+        "event": "MoMA《New Documents》"
+      },
+      {
+        "year": 1969,
+        "event": "《女人很美》系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "New York",
+        "year": 1969,
+        "image": null,
+        "credit": "Winogrand Estate"
+      }
+    ],
+    "techniques": [
+      "Leica 28mm",
+      "高速反应"
+    ],
+    "quote": "我拍照是为了看世界拍出来是什么样。"
+  },
+  {
+    "id": "friedlander",
+    "name": "Lee Friedlander",
+    "nameZh": "弗里兰德",
+    "born": 1934,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "evans",
+      "frank"
+    ],
+    "bio": "美国街头摄影代表,以反射、自影、城市标志的\"美国社会风景\"著称,New Documents 三人之一。",
+    "keyDates": [
+      {
+        "year": 1967,
+        "event": "MoMA《New Documents》"
+      },
+      {
+        "year": 1970,
+        "event": "《Self Portrait》系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "New Orleans",
+        "year": 1968,
+        "image": null,
+        "credit": "Fraenkel Gallery"
+      }
+    ],
+    "techniques": [
+      "Leica 35mm",
+      "复杂叠层"
+    ],
+    "quote": "世界在橱窗里也在外面。"
+  },
+  {
+    "id": "r-adams",
+    "name": "Robert Adams",
+    "nameZh": "罗伯特·亚当斯",
+    "born": 1937,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-topographics"
+    ],
+    "influencedBy": [
+      "evans"
+    ],
+    "bio": "美国新地形代表,记录科罗拉多前山地郊区化过程的冷峻黑白,1975 同名展核心成员。",
+    "keyDates": [
+      {
+        "year": 1974,
+        "event": "《The New West》出版"
+      },
+      {
+        "year": 1975,
+        "event": "\"New Topographics\" 群展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Tract House, Colorado",
+        "year": 1973,
+        "image": null,
+        "credit": "Fraenkel Gallery"
+      }
+    ],
+    "techniques": [
+      "View Camera",
+      "冷峻黑白"
+    ],
+    "quote": "风景必须包含人留下的伤痕。"
+  },
+  {
+    "id": "shore",
+    "name": "Stephen Shore",
+    "nameZh": "肖尔",
+    "born": 1947,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-topographics",
+      "new-color"
+    ],
+    "influencedBy": [
+      "evans",
+      "r-adams"
+    ],
+    "bio": "美国摄影师,十几岁就向 MoMA 卖照片,1972《American Surfaces》35mm 彩色快拍,1975《Uncommon Places》8x10 彩色公路,定义了\"日常美国\"的彩色目光。",
+    "keyDates": [
+      {
+        "year": 1972,
+        "event": "《American Surfaces》开始"
+      },
+      {
+        "year": 1975,
+        "event": "\"New Topographics\" 群展"
+      }
+    ],
+    "works": [
+      {
+        "title": "U.S. 97, South of Klamath Falls",
+        "year": 1973,
+        "image": null,
+        "credit": "303 Gallery"
+      }
+    ],
+    "techniques": [
+      "8x10 彩色",
+      "公路构图"
+    ],
+    "quote": "日常的尊严。"
+  },
+  {
+    "id": "eggleston",
+    "name": "William Eggleston",
+    "nameZh": "艾格斯顿",
+    "born": 1939,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "frank"
+    ],
+    "bio": "美国\"新彩色摄影\"教父,1976 MoMA《William Eggleston's Guide》是历史上首个被现代美术馆完整接纳的彩色摄影个展。",
+    "keyDates": [
+      {
+        "year": 1973,
+        "event": "采用 Dye Transfer 印相"
+      },
+      {
+        "year": 1976,
+        "event": "MoMA《Eggleston's Guide》"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Red Ceiling",
+        "year": 1973,
+        "image": null,
+        "credit": "Eggleston Artistic Trust"
+      }
+    ],
+    "techniques": [
+      "Dye Transfer",
+      "南方日常"
+    ],
+    "quote": "我用大写的方式拍照。"
+  },
+  {
+    "id": "sternfeld",
+    "name": "Joel Sternfeld",
+    "nameZh": "斯坦菲尔德",
+    "born": 1944,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [
+      "shore",
+      "eggleston"
+    ],
+    "bio": "美国摄影师,1987《American Prospects》以反讽和图说重塑了风景纪实,把\"事件后果\"作为题材。",
+    "keyDates": [
+      {
+        "year": 1987,
+        "event": "《American Prospects》出版"
+      },
+      {
+        "year": 2001,
+        "event": "《On This Site》项目"
+      }
+    ],
+    "works": [
+      {
+        "title": "McLean, Virginia",
+        "year": 1978,
+        "image": null,
+        "credit": "Luhring Augustine"
+      }
+    ],
+    "techniques": [
+      "8x10 彩色",
+      "远景反讽"
+    ],
+    "quote": "风景永远是政治的。"
+  },
+  {
+    "id": "becher",
+    "name": "Bernd & Hilla Becher",
+    "nameZh": "贝歇尔夫妇",
+    "born": 1931,
+    "died": 2007,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf",
+      "new-topographics"
+    ],
+    "influencedBy": [],
+    "bio": "德国艺术家夫妇,系统拍摄水塔、煤矿井架、储气罐等工业建筑,九宫格\"类型学\"陈列法影响整代当代摄影。",
+    "keyDates": [
+      {
+        "year": 1959,
+        "event": "开始拍摄工业建筑"
+      },
+      {
+        "year": 1976,
+        "event": "Bernd 任教杜塞尔多夫学院"
+      },
+      {
+        "year": 1990,
+        "event": "威尼斯双年展金狮奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Water Towers",
+        "year": 1972,
+        "image": null,
+        "credit": "Becher Estate"
+      }
+    ],
+    "techniques": [
+      "8x10 黑白",
+      "类型学网格"
+    ],
+    "quote": "我们拍下的是消失中的事物。"
+  },
+  {
+    "id": "gursky",
+    "name": "Andreas Gursky",
+    "nameZh": "古尔斯基",
+    "born": 1955,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "德国当代摄影代表,巨幅彩色全景描绘资本主义景观:证券交易所、酒店阳台、海滨与超市。其作品长期保持当代摄影拍卖纪录。",
+    "keyDates": [
+      {
+        "year": 1980,
+        "event": "杜塞尔多夫学院学习"
+      },
+      {
+        "year": 1999,
+        "event": "《99 Cent》拍摄"
+      }
+    ],
+    "works": [
+      {
+        "title": "Rhein II",
+        "year": 1999,
+        "image": null,
+        "credit": "Sprüth Magers"
+      }
+    ],
+    "techniques": [
+      "巨幅",
+      "数字接片"
+    ],
+    "quote": "我寻找的是世界的视觉百科全书。"
+  },
+  {
+    "id": "struth",
+    "name": "Thomas Struth",
+    "nameZh": "施特鲁斯",
+    "born": 1954,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "德国摄影师,杜塞尔多夫学派之一,以城市街道、博物馆观众、家庭肖像系列建立国际声誉。",
+    "keyDates": [
+      {
+        "year": 1989,
+        "event": "《Museum Photographs》系列"
+      },
+      {
+        "year": 2002,
+        "event": "《Family Portraits》系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "Pantheon, Rome",
+        "year": 1990,
+        "image": null,
+        "credit": "Marian Goodman"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "直角视点"
+    ],
+    "quote": "我把镜头当窗户使用。"
+  },
+  {
+    "id": "ruff",
+    "name": "Thomas Ruff",
+    "nameZh": "鲁夫",
+    "born": 1958,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "德国摄影师,杜塞尔多夫学派,以巨幅证件照式肖像、夜景、互联网图像与抽象图像探索摄影本体。",
+    "keyDates": [
+      {
+        "year": 1986,
+        "event": "《Porträts》系列开始"
+      },
+      {
+        "year": 1995,
+        "event": "《Nudes》互联网图像系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "Portrait (A. Vollberg)",
+        "year": 1986,
+        "image": null,
+        "credit": "David Zwirner"
+      }
+    ],
+    "techniques": [
+      "巨幅证件式",
+      "互联网截图"
+    ],
+    "quote": "摄影只展现表面。"
+  },
+  {
+    "id": "hofer",
+    "name": "Candida Höfer",
+    "nameZh": "霍弗",
+    "born": 1944,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "德国摄影师,以无人公共空间(图书馆、剧院、博物馆)的对称构图形成强烈视觉签名。",
+    "keyDates": [
+      {
+        "year": 1973,
+        "event": "入读杜塞尔多夫学院"
+      },
+      {
+        "year": 2003,
+        "event": "威尼斯双年展德国馆"
+      }
+    ],
+    "works": [
+      {
+        "title": "Biblioteca Real, Madrid",
+        "year": 2000,
+        "image": null,
+        "credit": "Sonnabend"
+      }
+    ],
+    "techniques": [
+      "对称构图",
+      "空间无人化"
+    ],
+    "quote": "空间会替使用它的人说话。"
+  },
+  {
+    "id": "tomatsu",
+    "name": "Shōmei Tōmatsu",
+    "nameZh": "东松照明",
+    "born": 1930,
+    "died": 2012,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [],
+    "bio": "日本战后纪实先锋,VIVO 集团核心成员,代表项目记录长崎核爆遗存与美军基地下的日本。",
+    "keyDates": [
+      {
+        "year": 1959,
+        "event": "VIVO 成立"
+      },
+      {
+        "year": 1966,
+        "event": "《11:02 NAGASAKI》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Steel Helmet with Skull, Nagasaki",
+        "year": 1963,
+        "image": null,
+        "credit": "Shōmei Tōmatsu Estate"
+      }
+    ],
+    "techniques": [
+      "高反差",
+      "局部特写"
+    ],
+    "quote": "战后的日本一直没有结束。"
+  },
+  {
+    "id": "hosoe",
+    "name": "Eikoh Hosoe",
+    "nameZh": "细江英公",
+    "born": 1933,
+    "died": 2024,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "tomatsu"
+    ],
+    "bio": "日本前卫摄影师,与三岛由纪夫合作《蔷薇刑》,身体、舞踏、欲望被高对比黑白记录。",
+    "keyDates": [
+      {
+        "year": 1963,
+        "event": "《Barakei (Killed by Roses)》三岛由纪夫合作"
+      },
+      {
+        "year": 1971,
+        "event": "《Kamaitachi》与土方巽合作"
+      }
+    ],
+    "works": [
+      {
+        "title": "Barakei #32",
+        "year": 1961,
+        "image": null,
+        "credit": "Eikoh Hosoe Archive"
+      }
+    ],
+    "techniques": [
+      "超高反差",
+      "身体编排"
+    ],
+    "quote": "相机是我的镰鼬。"
+  },
+  {
+    "id": "moriyama",
+    "name": "Daido Moriyama",
+    "nameZh": "森山大道",
+    "born": 1938,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar",
+      "street"
+    ],
+    "influencedBy": [
+      "hosoe",
+      "frank"
+    ],
+    "bio": "日本街头-反美学摄影代表,1968 加入《Provoke》,提出\"是·粗·糙·晕\"(are-bure-boke)路线。",
+    "keyDates": [
+      {
+        "year": 1968,
+        "event": "加入《Provoke》"
+      },
+      {
+        "year": 1972,
+        "event": "《写真よさようなら》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Stray Dog, Misawa",
+        "year": 1971,
+        "image": null,
+        "credit": "Daido Moriyama Foundation"
+      }
+    ],
+    "techniques": [
+      "Ricoh GR",
+      "高反差颗粒"
+    ],
+    "quote": "世界本就是粗糙、模糊、晃动的。"
+  },
+  {
+    "id": "araki",
+    "name": "Nobuyoshi Araki",
+    "nameZh": "荒木经惟",
+    "born": 1940,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [],
+    "bio": "日本高产摄影师,《感伤之旅》记录与亡妻阳子的婚旅与晚年,情色与死亡两极并行。",
+    "keyDates": [
+      {
+        "year": 1971,
+        "event": "《感伤之旅》出版"
+      },
+      {
+        "year": 1990,
+        "event": "《冬之旅》(阳子去世)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Sentimental Journey",
+        "year": 1971,
+        "image": null,
+        "credit": "Araki Estate"
+      }
+    ],
+    "techniques": [
+      "日记式",
+      "黑白与彩色并用"
+    ],
+    "quote": "摄影即生活。"
+  },
+  {
+    "id": "sugimoto",
+    "name": "Hiroshi Sugimoto",
+    "nameZh": "杉本博司",
+    "born": 1948,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [],
+    "bio": "日本观念摄影代表,长曝海平线、剧院、蜡像系列把摄影推到接近时间的本体。",
+    "keyDates": [
+      {
+        "year": 1976,
+        "event": "《Dioramas》系列开始"
+      },
+      {
+        "year": 1980,
+        "event": "《Seascapes》系列开始"
+      }
+    ],
+    "works": [
+      {
+        "title": "Boden Sea, Uttwil",
+        "year": 1993,
+        "image": null,
+        "credit": "Sugimoto Studio"
+      }
+    ],
+    "techniques": [
+      "8x10 长曝",
+      "极简对称"
+    ],
+    "quote": "相机是测时仪。"
+  },
+  {
+    "id": "mapplethorpe",
+    "name": "Robert Mapplethorpe",
+    "nameZh": "梅普索普",
+    "born": 1946,
+    "died": 1989,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [
+      "arbus"
+    ],
+    "bio": "美国摄影师,极致工艺感的肖像、花卉、人体黑白,1989 年因艾滋病去世后引爆 Culture Wars 公共艺术争议。",
+    "keyDates": [
+      {
+        "year": 1976,
+        "event": "首个个展(纽约 Light Gallery)"
+      },
+      {
+        "year": 1989,
+        "event": "《The Perfect Moment》巡展引发审查争议"
+      }
+    ],
+    "works": [
+      {
+        "title": "Calla Lily",
+        "year": 1988,
+        "image": null,
+        "credit": "Mapplethorpe Foundation"
+      }
+    ],
+    "techniques": [
+      "影棚黑白",
+      "工艺极致"
+    ],
+    "quote": "我寻找完美的形式。"
+  },
+  {
+    "id": "sherman",
+    "name": "Cindy Sherman",
+    "nameZh": "辛迪·谢尔曼",
+    "born": 1954,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [
+      "arbus"
+    ],
+    "bio": "美国艺术家,1977 起《Untitled Film Stills》以自己装扮成各种好莱坞女主角,把摄影推向身份与表演性的核心。",
+    "keyDates": [
+      {
+        "year": 1977,
+        "event": "《Untitled Film Stills》开始"
+      },
+      {
+        "year": 1995,
+        "event": "MoMA 中段回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Untitled Film Still #21",
+        "year": 1978,
+        "image": null,
+        "credit": "MoMA"
+      }
+    ],
+    "techniques": [
+      "自我导演",
+      "类型重演"
+    ],
+    "quote": "我对表象之下的东西不感兴趣。"
+  },
+  {
+    "id": "goldin",
+    "name": "Nan Goldin",
+    "nameZh": "南·戈尔丁",
+    "born": 1953,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [
+      "arbus"
+    ],
+    "bio": "美国摄影师,《性依赖叙事曲》以幻灯放映形式记录波士顿-纽约-柏林朋友圈的爱、暴力、艾滋与药物。",
+    "keyDates": [
+      {
+        "year": 1985,
+        "event": "《The Ballad of Sexual Dependency》首演"
+      },
+      {
+        "year": 2017,
+        "event": "发起 P.A.I.N. 反 Sackler 运动"
+      }
+    ],
+    "works": [
+      {
+        "title": "Nan one month after being battered",
+        "year": 1984,
+        "image": null,
+        "credit": "Marian Goodman"
+      }
+    ],
+    "techniques": [
+      "彩色闪光",
+      "生活流"
+    ],
+    "quote": "让人在被遗忘前被看见。"
+  },
+  {
+    "id": "tillmans",
+    "name": "Wolfgang Tillmans",
+    "nameZh": "蒂尔曼斯",
+    "born": 1968,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [
+      "goldin"
+    ],
+    "bio": "德国艺术家,把摄影展示从画框解放为图片墙、激光打印与杂志页,2000 年成为首位获 Turner Prize 的非英籍且非画家艺术家。",
+    "keyDates": [
+      {
+        "year": 1992,
+        "event": "i-D 杂志合作"
+      },
+      {
+        "year": 2000,
+        "event": "获 Turner Prize"
+      }
+    ],
+    "works": [
+      {
+        "title": "paper drop (window)",
+        "year": 2006,
+        "image": null,
+        "credit": "Maureen Paley"
+      }
+    ],
+    "techniques": [
+      "多介质混合",
+      "杂志打印"
+    ],
+    "quote": "一张照片不必装裱才算艺术。"
+  },
+  {
+    "id": "ruan-yizhong",
+    "name": "阮义忠 (Juan I-Jong)",
+    "nameZh": "阮义忠",
+    "born": 1950,
+    "died": null,
+    "country": "TW",
+    "region": "asia",
+    "movements": [
+      "china-contemporary",
+      "humanist"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "doisneau"
+    ],
+    "bio": "台湾摄影评论与摄影家,《当代摄影大师》《当代摄影新锐》两本书塑造了大陆 1990s 摄影的入门视野。",
+    "keyDates": [
+      {
+        "year": 1981,
+        "event": "《北埔》系列开始"
+      },
+      {
+        "year": 1988,
+        "event": "《当代摄影大师》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "北埔 1981",
+        "year": 1981,
+        "image": null,
+        "credit": "阮义忠摄影中心"
+      }
+    ],
+    "techniques": [
+      "Leica",
+      "人文纪实"
+    ],
+    "quote": "摄影是与对方平等地相遇。"
+  },
+  {
+    "id": "chen-chuanxing",
+    "name": "陈传兴",
+    "nameZh": "陈传兴",
+    "born": 1952,
+    "died": null,
+    "country": "TW",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "台湾摄影、电影理论与导演,《行者》《如雾起时》等纪录片把诗与摄影并置思考,行人文化实验室主理。",
+    "keyDates": [
+      {
+        "year": 1976,
+        "event": "《芦洲浮生》系列"
+      },
+      {
+        "year": 2014,
+        "event": "《如雾起时》上映"
+      }
+    ],
+    "works": [
+      {
+        "title": "芦洲浮生",
+        "year": 1976,
+        "image": null,
+        "credit": "行人文化实验室"
+      }
+    ],
+    "techniques": [
+      "黑白文学叙事"
+    ],
+    "quote": "影像是一首被洗涤过的诗。"
+  },
+  {
+    "id": "zhang-haier",
+    "name": "张海儿",
+    "nameZh": "张海儿",
+    "born": 1957,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [
+      "frank",
+      "arbus"
+    ],
+    "bio": "中国摄影师,1980 年代末南方都市夜色与\"坏女孩\"系列,被视为大陆当代摄影最早的独立写作之一。",
+    "keyDates": [
+      {
+        "year": 1988,
+        "event": "《坏女孩》系列"
+      },
+      {
+        "year": 1992,
+        "event": "为 Magnum 发现并引介西方"
+      }
+    ],
+    "works": [
+      {
+        "title": "坏女孩 No.7",
+        "year": 1988,
+        "image": null,
+        "credit": "张海儿"
+      }
+    ],
+    "techniques": [
+      "夜拍闪光",
+      "街头肖像"
+    ],
+    "quote": "我只是站在那里,世界自己来。"
+  },
+  {
+    "id": "lvnan",
+    "name": "吕楠",
+    "nameZh": "吕楠",
+    "born": 1962,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [
+      "salgado"
+    ],
+    "bio": "中国独立纪实摄影师,十五年完成《被遗忘的人:中国精神病人》《在路上:中国天主教》《四季:西藏农民日常》三部曲。",
+    "keyDates": [
+      {
+        "year": 1989,
+        "event": "《被遗忘的人》开始"
+      },
+      {
+        "year": 2007,
+        "event": "三部曲完成展览"
+      }
+    ],
+    "works": [
+      {
+        "title": "被遗忘的人 No.21",
+        "year": 1990,
+        "image": null,
+        "credit": "吕楠"
+      }
+    ],
+    "techniques": [
+      "Leica",
+      "长期蹲点"
+    ],
+    "quote": "只用三件事:看,听,等。"
+  },
+  {
+    "id": "rongrong",
+    "name": "荣荣",
+    "nameZh": "荣荣",
+    "born": 1968,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国观念摄影代表,1990s 北京东村行为艺术现场记录者;后与映里(Inri)创立\"三影堂\"摄影艺术中心。",
+    "keyDates": [
+      {
+        "year": 1994,
+        "event": "北京东村现场记录"
+      },
+      {
+        "year": 2007,
+        "event": "与映里创办三影堂"
+      }
+    ],
+    "works": [
+      {
+        "title": "东村 No.46",
+        "year": 1994,
+        "image": null,
+        "credit": "三影堂"
+      }
+    ],
+    "techniques": [
+      "黑白纪实",
+      "行为现场"
+    ],
+    "quote": "影像是行为留下的灰烬。"
+  },
+  {
+    "id": "honghao",
+    "name": "洪浩",
+    "nameZh": "洪浩",
+    "born": 1965,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国艺术家,《我的东西》系列以扫描方式整理日常物品形成视觉清单,把摄影推近图书馆学与物质考古。",
+    "keyDates": [
+      {
+        "year": 2001,
+        "event": "《我的东西》开始"
+      },
+      {
+        "year": 2008,
+        "event": "威尼斯双年展中国馆参展"
+      }
+    ],
+    "works": [
+      {
+        "title": "My Things No.5",
+        "year": 2002,
+        "image": null,
+        "credit": "洪浩"
+      }
+    ],
+    "techniques": [
+      "扫描成像",
+      "物品分类学"
+    ],
+    "quote": "物自己讲故事。"
+  }
+]

@@ -1,0 +1,131 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Photo History — 暗房画廊 (Dark Gallery)
+   深炭墨黑底 / 温白文字 / 黑白照片为绝对主角 / 流派 muted 色仅作辅助
+   ============================================================ */
+
+@theme {
+  /* surfaces */
+  --color-bg: #0F0E0C;
+  --color-bg-elev: #1A1815;
+  --color-bg-2: #2A2620;
+
+  /* ink */
+  --color-ink: #E8E2D4;
+  --color-ink-2: #8B847A;
+  --color-ink-3: #5C564E;
+
+  /* edges */
+  --color-rule: #2A2722;
+  --color-rule-2: #3A352D;
+  --color-accent: #C49A5C;
+
+  /* movement palette (暗底 muted) */
+  --color-m-pic: #B89870; /* pictorialism */
+  --color-m-str-photo: #7A8A6E; /* straight photography */
+  --color-m-bauhaus: #5A5A6E; /* bauhaus / new vision */
+  --color-m-fsa: #6E5740; /* fsa documentary */
+  --color-m-hum: #B07A3A; /* humanist */
+  --color-m-street: #506C70; /* street */
+  --color-m-conceptual: #8870B0; /* conceptual */
+  --color-m-newcolor: #C49A5C; /* new color */
+  --color-m-newtopo: #7C6B52; /* new topographics */
+  --color-m-dusseldorf: #5A5A6E; /* düsseldorf */
+  --color-m-jpw: #985365; /* japanese postwar */
+  --color-m-ccn: #5E7060; /* chinese contemporary */
+  --color-m-cnt: #8870B0; /* contemporary international */
+
+  /* typography */
+  --font-display: var(--font-space-grotesk), 'Source Han Serif SC', serif;
+  --font-sans: var(--font-inter), var(--font-noto-sc), system-ui, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), monospace;
+
+  /* timing */
+  --ease-out-soft: cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: var(--color-bg);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-feature-settings: "ss01", "cv01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  min-height: 100dvh;
+}
+
+/* selection */
+::selection {
+  background: rgba(196, 154, 92, 0.35);
+  color: var(--color-ink);
+}
+
+/* scrollbar — slim, dark */
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: var(--color-bg); }
+::-webkit-scrollbar-thumb {
+  background: var(--color-rule-2);
+  border: 2px solid var(--color-bg);
+  border-radius: 999px;
+}
+::-webkit-scrollbar-thumb:hover { background: var(--color-ink-3); }
+
+/* photo treatment — museum frame, no rounding */
+.photo-frame {
+  position: relative;
+  border: 1px solid var(--color-rule);
+  background: var(--color-bg-2);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.45);
+  transition: box-shadow 220ms var(--ease-out-soft), transform 220ms var(--ease-out-soft);
+}
+.photo-frame:hover {
+  box-shadow: 0 0 0 1px var(--color-accent), 0 6px 28px rgba(196, 154, 92, 0.18);
+}
+
+/* fallback gradient (when image fails to load / no src) */
+.photo-fallback {
+  background-image:
+    linear-gradient(135deg, var(--fb-color, var(--color-rule)) 0%, var(--color-bg-2) 70%);
+  position: relative;
+}
+.photo-fallback::after {
+  content: var(--fb-label, '');
+  position: absolute;
+  inset: auto 12px 12px 12px;
+  font-family: var(--font-display);
+  font-size: 11px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(232, 226, 212, 0.72);
+}
+
+/* film-grain ish noise on hero areas */
+.has-grain::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.06;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='160' height='160'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)' opacity='0.85'/></svg>");
+}
+
+/* Display heading utility */
+.font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* horizontal rule subtle */
+.hr-subtle {
+  border: 0;
+  border-top: 1px solid var(--color-rule);
+}

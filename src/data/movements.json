@@ -1,0 +1,337 @@
+[
+  {
+    "id": "pictorialism",
+    "nameZh": "画意主义",
+    "nameEn": "Pictorialism",
+    "period": {
+      "start": 1885,
+      "peak": 1905,
+      "end": 1920
+    },
+    "countries": [
+      "UK",
+      "US",
+      "FR"
+    ],
+    "color": "#B89870",
+    "description": "受绘画美学影响的早期摄影流派,使用软焦、铂金印相、橡胶重铬酸盐等手工工艺,把摄影争取为\"美术\"的一支。Photo-Secession 为其美国分支。",
+    "precededBy": [],
+    "succeededBy": [
+      "straight",
+      "bauhaus"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "steichen",
+        "workIndex": 0
+      }
+    ],
+    "arc": "兴起于英国 1880s,经斯蒂格利茨在美国推动至高峰,最终在直接摄影的批评下让位"
+  },
+  {
+    "id": "straight",
+    "nameZh": "直接摄影",
+    "nameEn": "Straight / Modernist Photography",
+    "period": {
+      "start": 1915,
+      "peak": 1932,
+      "end": 1955
+    },
+    "countries": [
+      "US"
+    ],
+    "color": "#3E5A6E",
+    "description": "主张锐利清晰、不加修饰、忠于介质本身物理性的现代主义路线。f/64 小组(亚当斯、韦斯顿、坎宁安)为代表。",
+    "precededBy": [
+      "pictorialism"
+    ],
+    "succeededBy": [
+      "fsa",
+      "new-topographics"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "a-adams",
+        "workIndex": 0
+      }
+    ],
+    "arc": "从斯蒂格利茨晚期转向开始,经 1932 年 f/64 成立至高峰,五十年代被纪实与新地形分流"
+  },
+  {
+    "id": "bauhaus",
+    "nameZh": "包豪斯/新视觉",
+    "nameEn": "Bauhaus / New Vision",
+    "period": {
+      "start": 1923,
+      "peak": 1929,
+      "end": 1945
+    },
+    "countries": [
+      "DE",
+      "HU"
+    ],
+    "color": "#5A4A6E",
+    "description": "包豪斯学校与 Moholy-Nagy 推动的实验摄影:摄影图、仰俯视角、蒙太奇、对镜头本身的研究,把摄影纳入构成主义美学训练。",
+    "precededBy": [
+      "pictorialism"
+    ],
+    "succeededBy": [
+      "subjektive"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "moholy-nagy",
+        "workIndex": 0
+      }
+    ],
+    "arc": "魏玛德国实验高峰,1933 年随包豪斯关闭分散到欧美,延续到 Subjektive Fotografie"
+  },
+  {
+    "id": "fsa",
+    "nameZh": "FSA 纪实",
+    "nameEn": "FSA Documentary",
+    "period": {
+      "start": 1935,
+      "peak": 1939,
+      "end": 1944
+    },
+    "countries": [
+      "US"
+    ],
+    "color": "#A86C4F",
+    "description": "美国农业安全署委托的纪实项目,记录大萧条与尘暴中的农村美国。Stryker 主持,Lange、Evans、Rothstein 等参与,塑造了美国现代纪实摄影的原型。",
+    "precededBy": [
+      "straight"
+    ],
+    "succeededBy": [
+      "humanist",
+      "street"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "lange",
+        "workIndex": 0
+      }
+    ],
+    "arc": "1935 罗斯福新政启动,1936 兰格《移民母亲》发表,1942 项目并入 OWI 后结束"
+  },
+  {
+    "id": "humanist",
+    "nameZh": "人文主义摄影",
+    "nameEn": "Humanist Photography",
+    "period": {
+      "start": 1930,
+      "peak": 1955,
+      "end": 1970
+    },
+    "countries": [
+      "FR",
+      "US"
+    ],
+    "color": "#985365",
+    "description": "战后欧洲(尤其法国)一支强调日常温度、共情、普世人性的纪实路线。1955 年 MoMA《人类一家》大展为其高潮。",
+    "precededBy": [
+      "fsa"
+    ],
+    "succeededBy": [
+      "street",
+      "magnum"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "doisneau",
+        "workIndex": 0
+      }
+    ],
+    "arc": "战前萌芽,1947 Magnum 创立后扩散,1955《人类一家》巡展定锚,六十年代被冷峻派逐渐取代"
+  },
+  {
+    "id": "magnum",
+    "nameZh": "Magnum 报道摄影",
+    "nameEn": "Magnum Photojournalism",
+    "period": {
+      "start": 1947,
+      "peak": 1968,
+      "end": 2000
+    },
+    "countries": [
+      "FR",
+      "US"
+    ],
+    "color": "#2A2826",
+    "description": "1947 年由 Capa、Cartier-Bresson、Rodger、Seymour 在巴黎 / 纽约创立,摄影师拥有版权。是战后报道摄影的金标准,深度参与从西班牙内战到越战的重大事件叙事。",
+    "precededBy": [
+      "humanist"
+    ],
+    "succeededBy": [
+      "new-journalism"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "cartier-bresson",
+        "workIndex": 0
+      }
+    ],
+    "arc": "1947 创立,五六十年代鼎盛,九十年代后随报刊衰落转型"
+  },
+  {
+    "id": "street",
+    "nameZh": "街头摄影",
+    "nameEn": "Street Photography",
+    "period": {
+      "start": 1950,
+      "peak": 1965,
+      "end": 2010
+    },
+    "countries": [
+      "US",
+      "FR",
+      "JP"
+    ],
+    "color": "#506C70",
+    "description": "从布列松\"决定性瞬间\"出发,经 Frank、Winogrand、Friedlander 在纽约推到顶点的城市偶遇美学。强调直觉、构成与瞬间的张力。",
+    "precededBy": [
+      "humanist"
+    ],
+    "succeededBy": [
+      "new-color"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "winogrand",
+        "workIndex": 0
+      }
+    ],
+    "arc": "1950s 由 Frank《美国人》打开,1967 MoMA《New Documents》三人展定型,数码时代回潮"
+  },
+  {
+    "id": "new-topographics",
+    "nameZh": "新地形",
+    "nameEn": "New Topographics",
+    "period": {
+      "start": 1970,
+      "peak": 1975,
+      "end": 1990
+    },
+    "countries": [
+      "US"
+    ],
+    "color": "#7C8973",
+    "description": "以 1975 年罗切斯特同名展为标志,反对亚当斯式英雄风景,转向郊区、停车场、工业用地等\"人改造的景观\",冷静无情绪的客观视角。",
+    "precededBy": [
+      "straight"
+    ],
+    "succeededBy": [
+      "dusseldorf"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "shore",
+        "workIndex": 0
+      }
+    ],
+    "arc": "1970s 初萌芽,1975 Eastman House 大展定锚,影响一直延伸到 Düsseldorf 与当代风景"
+  },
+  {
+    "id": "dusseldorf",
+    "nameZh": "杜塞尔多夫学派",
+    "nameEn": "Düsseldorf School",
+    "period": {
+      "start": 1976,
+      "peak": 1995,
+      "end": 2015
+    },
+    "countries": [
+      "DE"
+    ],
+    "color": "#6B7A52",
+    "description": "Bernd & Hilla Becher 在杜塞尔多夫国立艺术学院培养出的一代:Gursky、Struth、Ruff、Höfer。冷峻、巨幅、工业类型学,把摄影推入大画廊与高价艺术市场。",
+    "precededBy": [
+      "new-topographics"
+    ],
+    "succeededBy": [],
+    "signatureWorks": [
+      {
+        "photographerId": "gursky",
+        "workIndex": 0
+      }
+    ],
+    "arc": "1976 Becher 任教开始,1990s 学生群体成熟为巨幅彩色,2000 年代主导当代摄影艺术市场"
+  },
+  {
+    "id": "japan-postwar",
+    "nameZh": "日本战后摄影",
+    "nameEn": "Japanese Postwar Photography",
+    "period": {
+      "start": 1955,
+      "peak": 1970,
+      "end": 1990
+    },
+    "countries": [
+      "JP"
+    ],
+    "color": "#2A2826",
+    "description": "从 VIVO 集团到《Provoke》杂志(1968-70),日本战后摄影发展出粗、糙、晕(are-bure-boke)的独立美学,反西方纪实路线。森山、东松、中平、荒木为代表。",
+    "precededBy": [],
+    "succeededBy": [],
+    "signatureWorks": [
+      {
+        "photographerId": "moriyama",
+        "workIndex": 0
+      }
+    ],
+    "arc": "战后焦虑+反美军占领情绪推动,1968 Provoke 创刊为爆点,1990s 后影响国际"
+  },
+  {
+    "id": "new-color",
+    "nameZh": "新彩色摄影",
+    "nameEn": "New Color Photography",
+    "period": {
+      "start": 1970,
+      "peak": 1981,
+      "end": 2000
+    },
+    "countries": [
+      "US"
+    ],
+    "color": "#C9A862",
+    "description": "把彩色从商业摄影中\"解救\"出来,使其作为艺术表达手段成立。Eggleston 1976 年 MoMA 个展为标志事件,Shore、Sternfeld 同代。",
+    "precededBy": [
+      "new-topographics"
+    ],
+    "succeededBy": [
+      "dusseldorf"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "eggleston",
+        "workIndex": 0
+      }
+    ],
+    "arc": "七十年代初柯达 Type C 普及,1976 Eggleston MoMA 大展引爆,九十年代成主流"
+  },
+  {
+    "id": "china-contemporary",
+    "nameZh": "中国当代摄影",
+    "nameEn": "Chinese Contemporary Photography",
+    "period": {
+      "start": 1980,
+      "peak": 2005,
+      "end": 2026
+    },
+    "countries": [
+      "CN"
+    ],
+    "color": "#985365",
+    "description": "从 1980s 民间纪实(吕楠、张海儿)到 1990s 观念摄影(荣荣、洪浩),再到 2000 年后市场化阶段。阮义忠、陈传兴等台湾文人脉络在大陆产生持续回响。",
+    "precededBy": [],
+    "succeededBy": [],
+    "signatureWorks": [
+      {
+        "photographerId": "lvnan",
+        "workIndex": 0
+      }
+    ],
+    "arc": "1985 年新潮美术启动,1990s 北京东村行为/观念摄影爆发,2000 后进入国际市场"
+  }
+]

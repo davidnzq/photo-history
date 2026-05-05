@@ -1,0 +1,117 @@
+[
+  {
+    "year": 1826,
+    "label": "Niépce 日光蚀刻",
+    "tier": "tech"
+  },
+  {
+    "year": 1839,
+    "label": "达盖尔法公开",
+    "tier": "tech"
+  },
+  {
+    "year": 1841,
+    "label": "卡罗式负片",
+    "tier": "tech"
+  },
+  {
+    "year": 1851,
+    "label": "湿版火棉胶法",
+    "tier": "tech"
+  },
+  {
+    "year": 1888,
+    "label": "柯达 No.1",
+    "tier": "tech"
+  },
+  {
+    "year": 1902,
+    "label": "Photo-Secession 创立",
+    "tier": "institution"
+  },
+  {
+    "year": 1925,
+    "label": "徕卡 I 上市",
+    "tier": "tech"
+  },
+  {
+    "year": 1929,
+    "label": "《Film und Foto》斯图加特展",
+    "tier": "exhibition"
+  },
+  {
+    "year": 1932,
+    "label": "Group f/64 创立",
+    "tier": "institution"
+  },
+  {
+    "year": 1935,
+    "label": "FSA 项目启动",
+    "tier": "institution"
+  },
+  {
+    "year": 1936,
+    "label": "Kodachrome 民用上市",
+    "tier": "tech"
+  },
+  {
+    "year": 1947,
+    "label": "Magnum 创立",
+    "tier": "institution"
+  },
+  {
+    "year": 1948,
+    "label": "Polaroid 上市",
+    "tier": "tech"
+  },
+  {
+    "year": 1955,
+    "label": "《人类一家》MoMA 大展",
+    "tier": "exhibition"
+  },
+  {
+    "year": 1959,
+    "label": "日本 VIVO 集团成立",
+    "tier": "institution"
+  },
+  {
+    "year": 1967,
+    "label": "MoMA《New Documents》",
+    "tier": "exhibition"
+  },
+  {
+    "year": 1968,
+    "label": "《Provoke》创刊",
+    "tier": "institution"
+  },
+  {
+    "year": 1975,
+    "label": "\"New Topographics\" 展",
+    "tier": "exhibition"
+  },
+  {
+    "year": 1976,
+    "label": "MoMA Eggleston 个展",
+    "tier": "exhibition"
+  },
+  {
+    "year": 1990,
+    "label": "Photoshop 1.0",
+    "tier": "tech"
+  },
+  {
+    "year": 1999,
+    "label": "Nikon D1 数码单反",
+    "tier": "tech"
+  },
+  {
+    "year": 2007,
+    "label": "iPhone 发布",
+    "tier": "tech"
+  },
+  {
+    "year": 2010,
+    "label": "Instagram 上线",
+    "tier": "tech"
+  }
+]
