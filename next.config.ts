@@ -1,6 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  // 关掉左下角 Next.js dev 浮窗 (per UX 反馈,只是开发工具,生产无此元素).
+  devIndicators: false,
   images: {
     remotePatterns: [
       { protocol: "https", hostname: "upload.wikimedia.org" },
