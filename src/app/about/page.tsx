@@ -41,8 +41,8 @@ export default function AboutPage() {
               — {MOVEMENTS.length} 个摄影流派的卡片墙,点入查看兴衰、代表人物和承接关系。
             </li>
             <li>
-              <Link href="/lineage" className="text-accent hover:underline">🌳 传承树</Link>{" "}
-              — 从 1826 尼埃普斯起的纵向 dendrogram,讲技术-美学传承链。
+              <Link href="/lineage" className="text-accent hover:underline">🌳 传承关系</Link>{" "}
+              — 从 1826 尼埃普斯起的纵向 dendrogram,讲技术-美学传承关系。
             </li>
           </ul>
         </Section>

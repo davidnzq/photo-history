@@ -37,7 +37,7 @@ const TABS: Tab[] = [
   },
   {
     href: "/lineage",
-    label: "传承树",
+    label: "传承关系",
     sub: "Lineage",
     icon: <LineageIcon />,
     match: (p) => p.startsWith("/lineage"),

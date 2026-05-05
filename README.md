@@ -7,7 +7,7 @@
 - **`/`** — 时间线(主入口),横向年代尺,流派轨道色带,人物条按生卒铺位,关键技术/事件以纵向标记
 - **`/network`** — 影响网络,react-force-graph-2d 节点-连线力图,流派聚类,点击进入 ego 模式
 - **`/movements`** — 流派卡片墙,点入 `/movements/[id]` 看兴衰、代表人物、承接关系
-- **`/lineage`** — 传承树,从 1826 尼埃普斯起的纵向 dendrogram,讲技术-美学传承链
+- **`/lineage`** — 传承关系,从 1826 尼埃普斯起的纵向 dendrogram,讲技术-美学传承关系
 - **`/p/[id]`** — 摄影师独立词条页(SSG,SEO 友好),左词条 + 右迷你 ego graph
 
 ## 数据规模
@@ -58,7 +58,7 @@ pnpm dlx vercel --prod    # 后续推 prod
 - `src/data/photographers.json` — 摄影师数组
 - `src/data/movements.json` — 流派数组
 - `src/data/events.json` — 关键技术/事件
-- `src/data/lineage.json` — 传承树层级(策展性,手工编辑)
+- `src/data/lineage.json` — 传承关系层级(策展性,手工编辑)
 
 数据 schema 由 `src/lib/types.ts` 定义。新增/修改后:
 1. `pnpm build` 验证类型 + SSG 页面更新

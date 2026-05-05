@@ -7,6 +7,7 @@ import { clsx } from "clsx";
 import type { Photographer, Movement } from "@/lib/types";
 import { buildEdges, clusterLayout, influenceCount } from "@/lib/relations";
 import { parseFilter, passes } from "@/lib/filter";
+import { getPhotographer } from "@/lib/data";
 
 /* react-force-graph-2d uses Canvas + DOM, client-only. */
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
@@ -54,6 +55,15 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
 
   const containerRef = useRef<HTMLDivElement | null>(null);
   const [size, setSize] = useState({ w: 1200, h: 700 });
+
+  /**
+   * Click mode — interaction consistency 修复
+   * 默认 'detail':左键点节点 = 打开词条抽屉(与时间线 / 传承关系一致)
+   * 'ego':左键点节点 = 聚焦关系图谱(2 度邻居),需用户在左侧栏显式切换
+   * 之前的"左键 ego / 右键词条"模式不再使用 — 右键无法在移动端触达,
+   * 且违反 "primary action = left click" 的平台习惯。
+   */
+  const [clickMode, setClickMode] = useState<"detail" | "ego">("detail");
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -125,10 +135,75 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
     router.replace(`/network${params.toString() ? "?" + params : ""}`, { scroll: false });
   }
 
+  const focusedPerson = focusEgo ? getPhotographer(focusEgo) : undefined;
+
   return (
     <div className="absolute inset-0 flex">
-      {/* Left rail: legend / movement focus */}
+      {/* Left rail: click mode / movement focus / current ego target */}
       <aside className="w-56 shrink-0 border-r border-rule overflow-y-auto p-4 hidden md:block">
+        {/* ── Click mode (decides what left-click does) ──────────── */}
+        <div className="font-display text-[10px] tracking-[0.2em] uppercase text-ink-3 mb-2">
+          点击行为 · Click
+        </div>
+        <div className="grid grid-cols-2 gap-1 mb-6 border border-rule p-0.5">
+          <button
+            type="button"
+            onClick={() => setClickMode("detail")}
+            className={clsx(
+              "h-7 text-[11px] tracking-wider transition-colors",
+              clickMode === "detail"
+                ? "bg-accent text-bg"
+                : "text-ink-2 hover:text-ink"
+            )}
+          >
+            打开词条
+          </button>
+          <button
+            type="button"
+            onClick={() => setClickMode("ego")}
+            className={clsx(
+              "h-7 text-[11px] tracking-wider transition-colors",
+              clickMode === "ego"
+                ? "bg-accent text-bg"
+                : "text-ink-2 hover:text-ink"
+            )}
+          >
+            聚焦关系
+          </button>
+        </div>
+
+        {/* ── Currently-focused ego target ────────────────────────── */}
+        {focusedPerson && (
+          <div className="mb-6 border border-accent/40 bg-bg-elev p-3">
+            <div className="font-display text-[10px] tracking-[0.2em] uppercase text-accent mb-2">
+              聚焦中 · Ego
+            </div>
+            <div className="font-display text-[14px] text-ink mb-0.5">
+              {focusedPerson.nameZh}
+            </div>
+            <div className="text-[11px] text-ink-3 mb-3">
+              {focusedPerson.name} · {focusedPerson.born}–{focusedPerson.died ?? "今"}
+            </div>
+            <div className="flex flex-col gap-1">
+              <button
+                type="button"
+                onClick={() => router.push(`/p/${focusedPerson.id}`, { scroll: false })}
+                className="h-7 text-[11px] tracking-wider border border-rule hover:border-accent hover:text-accent transition-colors text-ink-2"
+              >
+                → 查看词条
+              </button>
+              <button
+                type="button"
+                onClick={() => setEgo(null)}
+                className="h-7 text-[11px] tracking-wider text-ink-3 hover:text-ink transition-colors"
+              >
+                ✕ 退出聚焦
+              </button>
+            </div>
+          </div>
+        )}
+
+        {/* ── Movement filter (existing) ──────────────────────────── */}
         <div className="font-display text-[10px] tracking-[0.2em] uppercase text-ink-3 mb-3">
           流派色带 · Movements
         </div>
@@ -159,17 +234,6 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
             </button>
           ))}
         </div>
-        {focusEgo && (
-          <div className="mt-6">
-            <button
-              type="button"
-              onClick={() => setEgo(null)}
-              className="text-[11px] text-accent hover:underline"
-            >
-              ✕ 退出 ego 模式
-            </button>
-          </div>
-        )}
       </aside>
 
       {/* Graph canvas */}
@@ -192,12 +256,18 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
           d3VelocityDecay={0.4}
           onNodeClick={(node) => {
             const id = (node as Node).id;
-            const params = new URLSearchParams(sp);
-            params.set("ego", id);
-            router.replace(`/network${params.toString() ? "?" + params : ""}`, { scroll: false });
-          }}
-          onNodeRightClick={(node) => {
-            router.push(`/p/${(node as Node).id}`);
+            if (clickMode === "detail") {
+              // 主动作:左键打开词条抽屉(intercepting route 触发)
+              router.push(`/p/${id}`, { scroll: false });
+            } else {
+              // 聚焦模式:左键设置 ego 目标
+              const params = new URLSearchParams(sp);
+              params.set("ego", id);
+              router.replace(
+                `/network${params.toString() ? "?" + params : ""}`,
+                { scroll: false }
+              );
+            }
           }}
           nodeCanvasObjectMode={() => "after"}
           nodeCanvasObject={(node, ctx, globalScale) => {
@@ -212,8 +282,10 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
             ctx.fillText(n.name, n.x ?? 0, (n.y ?? 0) + n.val + 3);
           }}
         />
-        <div className="absolute bottom-3 right-3 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display border border-rule px-2 py-1 bg-bg/80 backdrop-blur-sm">
-          点击 = ego 模式 · 右键 = 进入词条
+        <div className="absolute bottom-3 right-3 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display border border-rule px-2 py-1 bg-bg/80 backdrop-blur-sm tabular-nums">
+          {clickMode === "detail"
+            ? "点击节点 · 打开词条 · 滚轮缩放 · 拖拽平移"
+            : "点击节点 · 聚焦关系 · 滚轮缩放 · 拖拽平移"}
         </div>
       </div>
     </div>

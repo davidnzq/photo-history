@@ -3,6 +3,8 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { scaleLinear } from "d3-scale";
+import { zoom, zoomIdentity, type D3ZoomEvent, type ZoomTransform } from "d3-zoom";
+import { select } from "d3-selection";
 import { clsx } from "clsx";
 import type { LineageNode } from "@/lib/types";
 import { getMovement, getPhotographer } from "@/lib/data";
@@ -26,26 +28,94 @@ const COLUMN_WIDTH = 120;
 export function LineageTree({ root }: Props) {
   const router = useRouter();
   const wrapperRef = useRef<HTMLDivElement | null>(null);
+  const svgRef = useRef<SVGSVGElement | null>(null);
+
+  // viewport size (the visible area)
   const [vw, setVw] = useState(1200);
+  const [vh, setVh] = useState(700);
+
+  // hover state for node interaction feedback
+  const [hoverId, setHoverId] = useState<string | null>(null);
 
   useEffect(() => {
     if (!wrapperRef.current) return;
     const ro = new ResizeObserver((entries) => {
       const e = entries[0];
-      if (e) setVw(Math.max(640, Math.floor(e.contentRect.width)));
+      if (e) {
+        setVw(Math.max(640, Math.floor(e.contentRect.width)));
+        setVh(Math.max(480, Math.floor(e.contentRect.height)));
+      }
     });
     ro.observe(wrapperRef.current);
     return () => ro.disconnect();
   }, []);
 
+  // ── compute layout once per viewport width ─────────────────────
   const layout = useMemo(() => layoutLineage(root, vw), [root, vw]);
 
+  // ── d3-zoom setup ──────────────────────────────────────────────
+  // initial transform = "fit to viewport" so the user sees the whole tree
+  const initialTransform = useMemo(() => {
+    const fit = Math.min(vw / layout.width, vh / layout.height) * 0.95;
+    const k = Math.max(0.25, Math.min(1, fit));
+    // center horizontally, top-aligned vertically with small offset
+    const tx = (vw - layout.width * k) / 2;
+    const ty = 16;
+    return zoomIdentity.translate(tx, ty).scale(k);
+  }, [vw, vh, layout.width, layout.height]);
+
+  const [transform, setTransform] = useState<ZoomTransform>(zoomIdentity);
+
+  // apply initial fit when layout changes
+  useEffect(() => {
+    if (!svgRef.current) return;
+    setTransform(initialTransform);
+    select(svgRef.current).call(
+      zoom<SVGSVGElement, unknown>().transform,
+      initialTransform
+    );
+  }, [initialTransform]);
+
+  useEffect(() => {
+    if (!svgRef.current) return;
+    const svg = select(svgRef.current);
+    const z = zoom<SVGSVGElement, unknown>()
+      .scaleExtent([0.2, 4])
+      .filter((event) => {
+        // let clicks on interactive nodes pass through
+        const t = event.target as Element;
+        if (t.closest("[data-node-interactive]")) return false;
+        return event.button === 0 || event.type === "wheel";
+      })
+      .on("zoom", (e: D3ZoomEvent<SVGSVGElement, unknown>) => {
+        setTransform(e.transform);
+      });
+    svg.call(z);
+    // wire current transform so subsequent gestures continue from latest
+    svg.call(z.transform, transform);
+    return () => {
+      svg.on(".zoom", null);
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [vw, vh]);
+
+  function resetZoom() {
+    if (!svgRef.current) return;
+    select(svgRef.current).call(
+      zoom<SVGSVGElement, unknown>().transform,
+      initialTransform
+    );
+    setTransform(initialTransform);
+  }
+
   return (
-    <div ref={wrapperRef} className="absolute inset-0 overflow-y-auto overflow-x-auto">
+    <div ref={wrapperRef} className="absolute inset-0 overflow-hidden">
       <svg
-        width={Math.max(vw, layout.width)}
-        height={layout.height}
+        ref={svgRef}
+        width={vw}
+        height={vh}
         className="block select-none"
+        style={{ touchAction: "none", cursor: "grab" }}
       >
         <defs>
           <marker
@@ -61,43 +131,65 @@ export function LineageTree({ root }: Props) {
           </marker>
         </defs>
 
-        {/* Year axis (left rail) */}
-        <YearAxis
-          y0={MARGIN_TOP}
-          y1={layout.height - MARGIN_BOTTOM}
-          domain={layout.yearDomain}
-        />
-
-        {/* Edges */}
-        {layout.placed.map((p) => {
-          if (p.parentX === undefined || p.parentY === undefined) return null;
-          const midY = (p.parentY + p.y) / 2;
-          const path = `M ${p.parentX},${p.parentY} C ${p.parentX},${midY} ${p.x},${midY} ${p.x},${p.y}`;
-          return (
-            <path
-              key={`edge-${p.node.id}`}
-              d={path}
-              fill="none"
-              stroke="rgba(196,154,92,0.32)"
-              strokeWidth={1}
-            />
-          );
-        })}
-
-        {/* Nodes */}
-        {layout.placed.map((p) => (
-          <LineageNodeView
-            key={p.node.id}
-            placed={p}
-            onClick={() => {
-              if (p.node.kind === "movement" && p.node.refId)
-                router.push(`/movements/${p.node.refId}`);
-              if (p.node.kind === "photographer" && p.node.refId)
-                router.push(`/p/${p.node.refId}`);
-            }}
+        {/* All zoomable content lives in a single <g> driven by the d3 transform */}
+        <g transform={transform.toString()}>
+          {/* Year axis (left rail) */}
+          <YearAxis
+            y0={MARGIN_TOP}
+            y1={layout.height - MARGIN_BOTTOM}
+            domain={layout.yearDomain}
           />
-        ))}
+
+          {/* Edges */}
+          {layout.placed.map((p) => {
+            if (p.parentX === undefined || p.parentY === undefined) return null;
+            const midY = (p.parentY + p.y) / 2;
+            const path = `M ${p.parentX},${p.parentY} C ${p.parentX},${midY} ${p.x},${midY} ${p.x},${p.y}`;
+            const isOnHoverPath =
+              hoverId !== null && (hoverId === p.node.id);
+            return (
+              <path
+                key={`edge-${p.node.id}`}
+                d={path}
+                fill="none"
+                stroke={isOnHoverPath ? "var(--color-accent)" : "rgba(196,154,92,0.32)"}
+                strokeWidth={isOnHoverPath ? 1.6 : 1}
+              />
+            );
+          })}
+
+          {/* Nodes */}
+          {layout.placed.map((p) => (
+            <LineageNodeView
+              key={p.node.id}
+              placed={p}
+              hovered={hoverId === p.node.id}
+              onHover={(on) => setHoverId(on ? p.node.id : null)}
+              onClick={() => {
+                if (p.node.kind === "movement" && p.node.refId)
+                  router.push(`/movements/${p.node.refId}`, { scroll: false });
+                if (p.node.kind === "photographer" && p.node.refId)
+                  router.push(`/p/${p.node.refId}`, { scroll: false });
+              }}
+            />
+          ))}
+        </g>
       </svg>
+
+      {/* ── Zoom hint (consistent with Timeline) ───────────────── */}
+      <div className="absolute bottom-3 right-3 flex items-center gap-2 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display">
+        <button
+          type="button"
+          onClick={resetZoom}
+          className="border border-rule px-2 h-7 hover:text-ink hover:border-rule-2 transition-colors bg-bg/80 backdrop-blur-sm"
+          title="复位:适配视图"
+        >
+          复位 · Reset
+        </button>
+        <span className="border border-rule px-2 h-7 flex items-center bg-bg/80 backdrop-blur-sm tabular-nums">
+          {`zoom ${transform.k.toFixed(2)}× · 滚轮缩放 · 拖拽平移`}
+        </span>
+      </div>
     </div>
   );
 }
@@ -143,9 +235,13 @@ function YearAxis({
 
 function LineageNodeView({
   placed,
+  hovered,
+  onHover,
   onClick,
 }: {
   placed: Placed;
+  hovered: boolean;
+  onHover: (on: boolean) => void;
   onClick: () => void;
 }) {
   const { node, x, y } = placed;
@@ -181,23 +277,38 @@ function LineageNodeView({
     badge = "●";
   }
 
+  // hovered state: brighter background tint + accent stroke
+  const effBg =
+    isInteractive && hovered
+      ? node.kind === "movement"
+        ? `${color}33` // 0x33 ≈ 20% opacity
+        : "var(--color-bg-2)"
+      : bg;
+  const effStrokeOpacity = isInteractive && hovered ? 1 : 0.4;
+  const effStrokeWidth =
+    node.kind === "root" || node.kind === "movement" ? (hovered ? 2 : 1.5) : hovered ? 1.5 : 1;
+
   const labelW = Math.max(node.label.length * 14 + 32, 88);
   return (
     <g
       transform={`translate(${x - labelW / 2}, ${y - 12})`}
       onClick={isInteractive ? onClick : undefined}
-      className={clsx(isInteractive && "cursor-pointer group")}
+      onMouseEnter={isInteractive ? () => onHover(true) : undefined}
+      onMouseLeave={isInteractive ? () => onHover(false) : undefined}
+      data-node-interactive={isInteractive ? "1" : undefined}
+      className={clsx(isInteractive && "cursor-pointer")}
+      style={{ transition: "all 140ms ease-out" }}
     >
       <rect
         x={0}
         y={0}
         width={labelW}
         height={24}
-        fill={bg}
+        fill={effBg}
         stroke={color}
-        strokeOpacity={0.4}
-        strokeWidth={node.kind === "root" || node.kind === "movement" ? 1.5 : 1}
-        className={clsx(isInteractive && "group-hover:fill-bg-2 transition-colors")}
+        strokeOpacity={effStrokeOpacity}
+        strokeWidth={effStrokeWidth}
+        style={{ transition: "fill 140ms ease-out, stroke-opacity 140ms ease-out" }}
       />
       <text
         x={10}
@@ -223,6 +334,10 @@ function LineageNodeView({
         >
           {detail}
         </text>
+      )}
+      {/* native browser tooltip for screen readers / hover */}
+      {isInteractive && (
+        <title>{`${node.label}${detail ? " · " + detail : ""}`}</title>
       )}
     </g>
   );
