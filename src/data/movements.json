@@ -474,5 +474,62 @@
         "workIndex": 0
       }
     ]
+  },
+  {
+    "id": "new-objectivity",
+    "nameZh": "新客观性",
+    "nameEn": "Neue Sachlichkeit",
+    "period": {
+      "start": 1923,
+      "peak": 1930,
+      "end": 1945
+    },
+    "countries": [
+      "DE"
+    ],
+    "color": "#7C7468",
+    "description": "魏玛德国一支冷峻精确的现代主义路线,反表现主义,聚焦对象本身的物质性。Sander 类型学肖像、Renger-Patzsch《世界是美的》是两座地标。",
+    "arc": "1923 萌芽 / 1928 Renger-Patzsch《世界是美的》/ 1929 Sander《20 世纪面孔》/ 1933 受纳粹冲击",
+    "precededBy": [
+      "bauhaus",
+      "straight"
+    ],
+    "succeededBy": [
+      "dusseldorf"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "sander",
+        "workIndex": 0
+      }
+    ]
+  },
+  {
+    "id": "russian-constructivism",
+    "nameZh": "俄罗斯构成主义摄影",
+    "nameEn": "Russian Constructivism",
+    "period": {
+      "start": 1920,
+      "peak": 1928,
+      "end": 1937
+    },
+    "countries": [
+      "RU"
+    ],
+    "color": "#9C5544",
+    "description": "苏联早期前卫艺术运动,Rodchenko 与 Lissitzky 把摄影 + 蒙太奇推为社会主义新视觉语言:仰俯极端视角、对角构图、政治海报。",
+    "arc": "1924 Rodchenko 第一台相机 / 1928《Lef》杂志 / 1932 'Socialist Realism' 强制后转型",
+    "precededBy": [
+      "bauhaus"
+    ],
+    "succeededBy": [
+      "new-objectivity"
+    ],
+    "signatureWorks": [
+      {
+        "photographerId": "rodchenko",
+        "workIndex": 0
+      }
+    ]
   }
 ]

@@ -497,7 +497,7 @@
       {
         "title": "Moonrise, Hernandez, New Mexico",
         "year": 1941,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Moonrise%2C_Hernandez%2C_New_Mexico_%28cropped%29.jpg",
         "credit": "Ansel Adams Trust"
       },
       {
@@ -511,7 +511,10 @@
       "区域曝光法",
       "8x10 大画幅"
     ],
-    "quote": "锐利的概念,远胜锐利的图像。"
+    "quote": "锐利的概念,远胜锐利的图像。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Moonrise%2C_Hernandez%2C_New_Mexico_%28cropped%29.jpg"
+    ]
   },
   {
     "id": "e-weston",
@@ -543,7 +546,7 @@
       {
         "title": "Pepper No. 30",
         "year": 1930,
-        "image": null,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Pepper_No._30.jpg",
         "credit": "Center for Creative Photography"
       }
     ],
@@ -551,7 +554,10 @@
       "8x10",
       "极小光圈"
     ],
-    "quote": "组成,是观看的最强形式。"
+    "quote": "组成,是观看的最强形式。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Pepper_No._30.jpg"
+    ]
   },
   {
     "id": "cunningham",
@@ -2965,5 +2971,1138 @@
       "棚拍肖像"
     ],
     "quote": "音乐响起,他们就是另一个人。"
+  },
+  {
+    "id": "marey",
+    "name": "Étienne-Jules Marey",
+    "nameZh": "马雷",
+    "born": 1830,
+    "died": 1904,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [],
+    "bio": "法国生理学家 + 摄影学家,与 Muybridge 同代独立发展连续摄影。1882 发明摄影枪 (chronophotographic gun) 一秒 12 帧,把动作分解推向科学影像。",
+    "keyDates": [
+      {
+        "year": 1882,
+        "event": "发明摄影枪 chronophotographic gun"
+      },
+      {
+        "year": 1894,
+        "event": "出版《Le Mouvement》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Geometric Chronophotograph of a Man in a Black Suit",
+        "year": 1883,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/%C3%89tienne-Jules_Marey_-_Chronophotograph_of_a_Flying_Heron_-_2009.349_-_Cleveland_Museum_of_Art.tif",
+        "credit": "Public Domain"
+      }
+    ],
+    "techniques": [
+      "chronophotographie",
+      "多重曝光"
+    ],
+    "quote": "运动是时间在物体上的轨迹。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:%C3%89tienne-Jules_Marey_-_Chronophotograph_of_a_Flying_Heron_-_2009.349_-_Cleveland_Museum_of_Art.tif"
+    ]
+  },
+  {
+    "id": "abbott",
+    "name": "Berenice Abbott",
+    "nameZh": "贝伦尼斯·阿博特",
+    "born": 1898,
+    "died": 1991,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "atget",
+      "man-ray"
+    ],
+    "bio": "美国摄影师,1925 在巴黎为 Man Ray 工作期间认识 Atget,1927 Atget 去世后从其遗产中抢救出 7000 张玻璃版片。1930 年代回纽约拍摄《Changing New York》系列。",
+    "keyDates": [
+      {
+        "year": 1927,
+        "event": "抢救 Atget 玻璃版底片"
+      },
+      {
+        "year": 1939,
+        "event": "《Changing New York》系列出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Nightview, New York",
+        "year": 1932,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Nightview%2C_Berenice_Abbott.jpg",
+        "credit": "MoMA / Public Domain"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "城市建筑"
+    ],
+    "quote": "我对存在的事物感兴趣。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Nightview%2C_Berenice_Abbott.jpg"
+    ]
+  },
+  {
+    "id": "curtis",
+    "name": "Edward S. Curtis",
+    "nameZh": "柯蒂斯",
+    "born": 1868,
+    "died": 1952,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [],
+    "bio": "美国摄影师,《北美印第安人》20 卷大型项目记录 80 个原住民部族,30 年完成 4 万余张。后世讨论:既是抢救性记录,也带有'被消失的高贵'的浪漫化框架。",
+    "keyDates": [
+      {
+        "year": 1907,
+        "event": "《The North American Indian》第一卷出版"
+      },
+      {
+        "year": 1930,
+        "event": "完成 20 卷项目"
+      }
+    ],
+    "works": [
+      {
+        "title": "Canyon de Chelly — Navajo",
+        "year": 1904,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Canyon_de_Chelly%2C_Navajo.jpg",
+        "credit": "Library of Congress / Public Domain"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "光面铂金印相"
+    ],
+    "quote": "他们已经走远了。",
+    "sources": [
+      "https://commons.wikimedia.org/wiki/File:Canyon_de_Chelly%2C_Navajo.jpg"
+    ]
+  },
+  {
+    "id": "rodchenko",
+    "name": "Alexander Rodchenko",
+    "nameZh": "罗琴科",
+    "born": 1891,
+    "died": 1956,
+    "country": "RU",
+    "region": "europe",
+    "movements": [
+      "russian-constructivism",
+      "bauhaus"
+    ],
+    "influencedBy": [],
+    "bio": "苏联前卫艺术家,设计师 + 摄影师 + 拼贴大师,1924 拿起相机后大量使用极端仰俯视角与对角构图,把摄影从'肖似'解放为'看的方法'。",
+    "keyDates": [
+      {
+        "year": 1924,
+        "event": "首次摄影实验"
+      },
+      {
+        "year": 1925,
+        "event": "《楼梯》 拍摄"
+      },
+      {
+        "year": 1928,
+        "event": "Pioneer with Bugle 拍摄"
+      }
+    ],
+    "works": [
+      {
+        "title": "Stairs",
+        "year": 1929,
+        "image": null,
+        "credit": "Rodchenko Estate / Public Domain"
+      }
+    ],
+    "techniques": [
+      "极端视角",
+      "蒙太奇拼贴"
+    ],
+    "quote": "我们必须做实验。"
+  },
+  {
+    "id": "lissitzky",
+    "name": "El Lissitzky",
+    "nameZh": "李西斯基",
+    "born": 1890,
+    "died": 1941,
+    "country": "RU",
+    "region": "europe",
+    "movements": [
+      "russian-constructivism",
+      "bauhaus"
+    ],
+    "influencedBy": [
+      "rodchenko"
+    ],
+    "bio": "俄国艺术家 + 设计师 + 建筑师,把构成主义美学带到柏林包豪斯,《自画像 (建造者)》(1924) 多重曝光成为构成主义视觉宣言。",
+    "keyDates": [
+      {
+        "year": 1924,
+        "event": "《自画像 (建造者)》"
+      },
+      {
+        "year": 1928,
+        "event": "为科隆 Pressa 展览设计苏联馆"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Constructor (Self-Portrait)",
+        "year": 1924,
+        "image": null,
+        "credit": "MoMA / Public Domain"
+      }
+    ],
+    "techniques": [
+      "多重曝光",
+      "摄影蒙太奇"
+    ],
+    "quote": "图像无穷多,文字屈居其下。"
+  },
+  {
+    "id": "sander",
+    "name": "August Sander",
+    "nameZh": "桑德",
+    "born": 1876,
+    "died": 1964,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "new-objectivity"
+    ],
+    "influencedBy": [],
+    "bio": "德国摄影师,1929《20 世纪面孔》以类型学方式把德意志社会按职业 / 阶层切片:农夫、银行家、革命者、艺术家。Becher 夫妇直接受其类型学方法影响。",
+    "keyDates": [
+      {
+        "year": 1929,
+        "event": "《20 世纪面孔》第一卷"
+      },
+      {
+        "year": 1936,
+        "event": "纳粹查禁《20 世纪面孔》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Young Farmers, Westerwald",
+        "year": 1914,
+        "image": null,
+        "credit": "August Sander Archive"
+      }
+    ],
+    "techniques": [
+      "8x10 棚拍",
+      "类型学方法"
+    ],
+    "quote": "看见,观察,思考。"
+  },
+  {
+    "id": "renger-patzsch",
+    "name": "Albert Renger-Patzsch",
+    "nameZh": "伦格-帕奇",
+    "born": 1897,
+    "died": 1966,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "new-objectivity"
+    ],
+    "influencedBy": [],
+    "bio": "德国摄影师,1928《世界是美的》100 张图把工厂、自然、机械以同样冷静的近距离呈现,被宣言式地视为新客观性奠基作。",
+    "keyDates": [
+      {
+        "year": 1928,
+        "event": "《Die Welt ist schön》出版"
+      },
+      {
+        "year": 1944,
+        "event": "工作室二战中被摧毁"
+      }
+    ],
+    "works": [
+      {
+        "title": "Factory Pipes, Herrenwyk",
+        "year": 1927,
+        "image": null,
+        "credit": "Renger-Patzsch Archive"
+      }
+    ],
+    "techniques": [
+      "近距离",
+      "工业静物"
+    ],
+    "quote": "事物的事物性。"
+  },
+  {
+    "id": "drtikol",
+    "name": "František Drtikol",
+    "nameZh": "德尔吉科尔",
+    "born": 1883,
+    "died": 1961,
+    "country": "CZ",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [],
+    "bio": "捷克摄影师,1920s 装饰艺术风格的人体作品在欧洲获奖无数,1935 突然终止商业摄影转入精神冥想,被 1990 年代重新发现。",
+    "keyDates": [
+      {
+        "year": 1929,
+        "event": "巴黎国际摄影展金奖"
+      },
+      {
+        "year": 1935,
+        "event": "停止商业摄影,转入冥想绘画"
+      }
+    ],
+    "works": [
+      {
+        "title": "Wave",
+        "year": 1927,
+        "image": null,
+        "credit": "Drtikol Estate / Public Domain"
+      }
+    ],
+    "techniques": [
+      "铂金印相",
+      "Art Deco 人体"
+    ],
+    "quote": "光是宇宙的话语。"
+  },
+  {
+    "id": "sudek",
+    "name": "Josef Sudek",
+    "nameZh": "苏德克",
+    "born": 1896,
+    "died": 1976,
+    "country": "CZ",
+    "region": "europe",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [],
+    "bio": "捷克摄影师,'布拉格的诗人',一战中失去右臂仍坚持大画幅,工作室窗外的雾、苹果、玻璃杯静物拍了 30 年,以微小事物反复迭代到极致。",
+    "keyDates": [
+      {
+        "year": 1940,
+        "event": "开始'工作室之窗'系列"
+      },
+      {
+        "year": 1959,
+        "event": "《Praha》画册出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Window of My Studio",
+        "year": 1940,
+        "image": null,
+        "credit": "Sudek Estate"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "长曝静物"
+    ],
+    "quote": "音乐与摄影是一回事。"
+  },
+  {
+    "id": "sutkus",
+    "name": "Antanas Sutkus",
+    "nameZh": "苏特库斯",
+    "born": 1939,
+    "died": null,
+    "country": "LT",
+    "region": "europe",
+    "movements": [
+      "humanist",
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "kertesz"
+    ],
+    "bio": "立陶宛摄影师,苏维埃统治下的人文主义旗手,1965 Sartre 访问立陶宛时随行 5 天的肖像系列成为立陶宛最重要影像档案之一。",
+    "keyDates": [
+      {
+        "year": 1965,
+        "event": "Sartre in Lithuania 系列"
+      },
+      {
+        "year": 1969,
+        "event": "立陶宛摄影师协会创立人"
+      }
+    ],
+    "works": [
+      {
+        "title": "Pioneer",
+        "year": 1965,
+        "image": null,
+        "credit": "Sutkus Archive"
+      }
+    ],
+    "techniques": [
+      "35mm 黑白",
+      "人文叙事"
+    ],
+    "quote": "我没在记录,我在见证。"
+  },
+  {
+    "id": "chambi",
+    "name": "Martín Chambi",
+    "nameZh": "钱比",
+    "born": 1891,
+    "died": 1973,
+    "country": "PE",
+    "region": "latin",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "influencedBy": [],
+    "bio": "秘鲁摄影师,印加血统,Cuzco 工作室经营 50 年,系统记录安第斯山区原住民、地主与劳工。被视为拉美最重要的本土现代摄影师。",
+    "keyDates": [
+      {
+        "year": 1920,
+        "event": "Cuzco 开棚"
+      },
+      {
+        "year": 1979,
+        "event": "MoMA 个展 (去世后)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Self-Portrait in Machu Picchu",
+        "year": 1934,
+        "image": null,
+        "credit": "Asociación Martín Chambi"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "本土肖像"
+    ],
+    "quote": "我相信我是印加的好儿子。"
+  },
+  {
+    "id": "korda",
+    "name": "Alberto Korda",
+    "nameZh": "科尔达",
+    "born": 1928,
+    "died": 2001,
+    "country": "CU",
+    "region": "latin",
+    "movements": [
+      "latin-american-modernism",
+      "war-photography"
+    ],
+    "influencedBy": [],
+    "bio": "古巴摄影师,Castro 私人摄影师,1960 年葬礼现场拍下的切·格瓦拉肖像 (Guerrillero Heroico) 是 20 世纪传播最广的政治图像。",
+    "keyDates": [
+      {
+        "year": 1959,
+        "event": "古巴革命胜利,任 Castro 私人摄影师"
+      },
+      {
+        "year": 1960,
+        "event": "拍摄《Guerrillero Heroico》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Guerrillero Heroico (Che)",
+        "year": 1960,
+        "image": null,
+        "credit": "Korda Estate / 古巴公共领域"
+      }
+    ],
+    "techniques": [
+      "35mm 黑白",
+      "政治肖像"
+    ],
+    "quote": "我抓住了他,没有发表。"
+  },
+  {
+    "id": "decarava",
+    "name": "Roy DeCarava",
+    "nameZh": "德卡拉瓦",
+    "born": 1919,
+    "died": 2009,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "black-american-photo",
+      "street"
+    ],
+    "influencedBy": [],
+    "bio": "美国摄影师,纽约 Harlem 黑人摄影师中第一位拿古根海姆奖 (1952)。极低光黑白记录爵士俱乐部、地铁、街头,与 Langston Hughes 合著《The Sweet Flypaper of Life》。",
+    "keyDates": [
+      {
+        "year": 1952,
+        "event": "首位获古根海姆奖的黑人摄影师"
+      },
+      {
+        "year": 1955,
+        "event": "与 Hughes 合著《Sweet Flypaper of Life》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Coltrane on Soprano",
+        "year": 1963,
+        "image": null,
+        "credit": "DeCarava Estate"
+      }
+    ],
+    "techniques": [
+      "低光黑白",
+      "暗房高反差"
+    ],
+    "quote": "我想要的不是事件,是诗。"
+  },
+  {
+    "id": "bey",
+    "name": "Dawoud Bey",
+    "nameZh": "戴·贝",
+    "born": 1953,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "black-american-photo"
+    ],
+    "influencedBy": [
+      "van-der-zee",
+      "decarava"
+    ],
+    "bio": "美国摄影师,1975《Harlem, USA》系列开启,后期转向大画幅彩色青少年肖像与历史地点(《Night Coming Tenderly, Black》纪念地下铁路)。2017 MacArthur 天才奖。",
+    "keyDates": [
+      {
+        "year": 1975,
+        "event": "《Harlem, USA》开始"
+      },
+      {
+        "year": 2017,
+        "event": "MacArthur Fellowship"
+      }
+    ],
+    "works": [
+      {
+        "title": "A Boy in Front of the Loew's 125th Street Movie Theater",
+        "year": 1976,
+        "image": null,
+        "credit": "© Dawoud Bey"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "暗房历史地点"
+    ],
+    "quote": "肖像是关于在场的。"
+  },
+  {
+    "id": "mccullin",
+    "name": "Don McCullin",
+    "nameZh": "麦卡林",
+    "born": 1935,
+    "died": null,
+    "country": "UK",
+    "region": "europe",
+    "movements": [
+      "war-photography"
+    ],
+    "influencedBy": [
+      "capa"
+    ],
+    "bio": "英国摄影师,Sunday Times 主力,记录刚果、越战、北爱、贝鲁特、艾滋。被自己拍下的暴力压垮,晚年退到萨默塞特乡村专注风景。",
+    "keyDates": [
+      {
+        "year": 1968,
+        "event": "顺化战役越战记录"
+      },
+      {
+        "year": 1982,
+        "event": "福克兰战争被英国政府拒绝随军"
+      }
+    ],
+    "works": [
+      {
+        "title": "Shell-Shocked US Marine, Hue",
+        "year": 1968,
+        "image": null,
+        "credit": "© Don McCullin"
+      }
+    ],
+    "techniques": [
+      "Nikon F",
+      "战地黑白"
+    ],
+    "quote": "我要让你知道战争的样子。"
+  },
+  {
+    "id": "mccurry",
+    "name": "Steve McCurry",
+    "nameZh": "麦凯瑞",
+    "born": 1950,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "war-photography"
+    ],
+    "influencedBy": [],
+    "bio": "美国摄影师,Magnum 成员。1984《阿富汗少女》(Sharbat Gula 12 岁绿眼难民) 成为 National Geographic 史上最知名封面。批评:糖水化人道主义。",
+    "keyDates": [
+      {
+        "year": 1984,
+        "event": "拍摄《阿富汗少女》"
+      },
+      {
+        "year": 2002,
+        "event": "重新找到 Sharbat Gula"
+      }
+    ],
+    "works": [
+      {
+        "title": "Afghan Girl",
+        "year": 1984,
+        "image": null,
+        "credit": "© Steve McCurry / National Geographic"
+      }
+    ],
+    "techniques": [
+      "Kodachrome",
+      "彩色肖像"
+    ],
+    "quote": "你为什么拍照?为了不忘记。"
+  },
+  {
+    "id": "nick-ut",
+    "name": "Nick Ut (Huỳnh Công Út)",
+    "nameZh": "黄功吾",
+    "born": 1951,
+    "died": null,
+    "country": "VN",
+    "region": "asia",
+    "movements": [
+      "war-photography"
+    ],
+    "influencedBy": [],
+    "bio": "越南-美国摄影师,AP 记者,1972 在 Trảng Bàng 公路拍下被汽油弹烧伤奔逃的 9 岁女孩 Phan Thị Kim Phúc(《Napalm Girl》),次年 Pulitzer 奖。",
+    "keyDates": [
+      {
+        "year": 1972,
+        "event": "拍摄《Napalm Girl》"
+      },
+      {
+        "year": 1973,
+        "event": "Pulitzer Prize"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Terror of War (Napalm Girl)",
+        "year": 1972,
+        "image": null,
+        "credit": "© AP / Nick Ut"
+      }
+    ],
+    "techniques": [
+      "Leica M2",
+      "战地报道"
+    ],
+    "quote": "我必须发表它,这是真相。"
+  },
+  {
+    "id": "mark",
+    "name": "Mary Ellen Mark",
+    "nameZh": "玛丽·艾伦·马克",
+    "born": 1940,
+    "died": 2015,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "humanist",
+      "street"
+    ],
+    "influencedBy": [
+      "evans",
+      "lange"
+    ],
+    "bio": "美国摄影师,长期蹲点项目记录边缘群体:孟买妓女(《Falkland Road》)、印第安纳州精神病院(《Ward 81》)、流浪青少年(《Streetwise》)。同情但不浪漫化。",
+    "keyDates": [
+      {
+        "year": 1981,
+        "event": "《Falkland Road》出版"
+      },
+      {
+        "year": 1985,
+        "event": "《Streetwise》纪录片+画册"
+      }
+    ],
+    "works": [
+      {
+        "title": "Tiny in Her Halloween Costume, Seattle",
+        "year": 1983,
+        "image": null,
+        "credit": "© Mary Ellen Mark Estate"
+      }
+    ],
+    "techniques": [
+      "35mm 黑白",
+      "长期蹲点"
+    ],
+    "quote": "你必须真的喜欢人。"
+  },
+  {
+    "id": "meyerowitz",
+    "name": "Joel Meyerowitz",
+    "nameZh": "迈耶罗维茨",
+    "born": 1938,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color",
+      "street"
+    ],
+    "influencedBy": [
+      "frank",
+      "winogrand"
+    ],
+    "bio": "美国摄影师,1960s 起街头彩色先锋(与 Eggleston / Shore 同代)。2001 911 后获唯一进入 Ground Zero 拍摄许可,9 个月 8000 张档案性记录。",
+    "keyDates": [
+      {
+        "year": 1976,
+        "event": "《Cape Light》8x10 彩色风景"
+      },
+      {
+        "year": 2001,
+        "event": "911 Ground Zero 档案项目"
+      }
+    ],
+    "works": [
+      {
+        "title": "New York City",
+        "year": 1975,
+        "image": null,
+        "credit": "© Joel Meyerowitz"
+      }
+    ],
+    "techniques": [
+      "8x10 彩色",
+      "街头偶遇"
+    ],
+    "quote": "彩色是我开口说话的方式。"
+  },
+  {
+    "id": "leiter",
+    "name": "Saul Leiter",
+    "nameZh": "莱特",
+    "born": 1923,
+    "died": 2013,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color",
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "美国摄影师,1948 起在 NYC 用过期柯达彩色胶卷拍纽约下东区,雪、雨、玻璃倒影、几何切片。生前低调,2006 才首次个展 (83 岁) 后被'重新发现'。",
+    "keyDates": [
+      {
+        "year": 1948,
+        "event": "开始彩色街拍 (远早于'新彩色')"
+      },
+      {
+        "year": 2006,
+        "event": "Henri Cartier-Bresson 基金会首个展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Snow",
+        "year": 1960,
+        "image": null,
+        "credit": "© Saul Leiter Foundation"
+      }
+    ],
+    "techniques": [
+      "过期 35mm 彩色",
+      "玻璃倒影"
+    ],
+    "quote": "我从不在意是否被记住。"
+  },
+  {
+    "id": "maier",
+    "name": "Vivian Maier",
+    "nameZh": "薇薇安·迈尔",
+    "born": 1926,
+    "died": 2009,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [],
+    "bio": "美国法裔街头摄影师,芝加哥保姆,生前完全私下拍摄 15 万张胶片从未冲洗。2007 仓库被拍卖,John Maloof 偶然买入并公开,引爆全球'再发现'。",
+    "keyDates": [
+      {
+        "year": 2009,
+        "event": "去世;同年作品被发现"
+      },
+      {
+        "year": 2014,
+        "event": "MoMA 收藏 + 同名纪录片入围奥斯卡"
+      }
+    ],
+    "works": [
+      {
+        "title": "Self-Portrait",
+        "year": 1955,
+        "image": null,
+        "credit": "© Maloof Collection"
+      }
+    ],
+    "techniques": [
+      "Rolleiflex 6x6",
+      "私人街拍"
+    ],
+    "quote": "我必须为某个目的腾出位置。"
+  },
+  {
+    "id": "wall",
+    "name": "Jeff Wall",
+    "nameZh": "杰夫·沃尔",
+    "born": 1946,
+    "died": null,
+    "country": "CA",
+    "region": "n-america",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "evans",
+      "becher"
+    ],
+    "bio": "加拿大艺术家,把摄影推回'画面摄影'范畴。巨幅灯箱影像是精心搭建的、大场景虚构,常引用绘画史 (Manet, Hokusai)。1990 年代当代摄影画廊化的关键人物。",
+    "keyDates": [
+      {
+        "year": 1978,
+        "event": "首张灯箱作品《The Destroyed Room》"
+      },
+      {
+        "year": 1992,
+        "event": "《A Sudden Gust of Wind》"
+      }
+    ],
+    "works": [
+      {
+        "title": "A Sudden Gust of Wind (after Hokusai)",
+        "year": 1993,
+        "image": null,
+        "credit": "© Jeff Wall / Tate"
+      }
+    ],
+    "techniques": [
+      "巨幅灯箱",
+      "搭建场景"
+    ],
+    "quote": "我寻找已经在那里的图像。"
+  },
+  {
+    "id": "soth",
+    "name": "Alec Soth",
+    "nameZh": "索斯",
+    "born": 1969,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "new-color",
+      "magnum"
+    ],
+    "influencedBy": [
+      "shore",
+      "eggleston"
+    ],
+    "bio": "美国摄影师,Magnum 成员。2004《Sleeping by the Mississippi》8x10 彩色公路项目从明尼苏达到新奥尔良,与 Shore 同款气质但更忧郁。",
+    "keyDates": [
+      {
+        "year": 2004,
+        "event": "《Sleeping by the Mississippi》出版"
+      },
+      {
+        "year": 2008,
+        "event": "Magnum 正式成员"
+      }
+    ],
+    "works": [
+      {
+        "title": "Charles, Vasa, Minnesota",
+        "year": 2002,
+        "image": null,
+        "credit": "© Alec Soth / Magnum"
+      }
+    ],
+    "techniques": [
+      "8x10 彩色",
+      "公路慢速"
+    ],
+    "quote": "我对自己感到困惑。"
+  },
+  {
+    "id": "crewdson",
+    "name": "Gregory Crewdson",
+    "nameZh": "克鲁森",
+    "born": 1962,
+    "died": null,
+    "country": "US",
+    "region": "n-america",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "wall"
+    ],
+    "bio": "美国艺术家,以电影级搭建拍摄美国小镇黄昏:闭路灯、烟雾机、布景师团队,一张照片成本数万美元。把摄影做到电影一帧的精度。",
+    "keyDates": [
+      {
+        "year": 2002,
+        "event": "《Twilight》系列出版"
+      },
+      {
+        "year": 2008,
+        "event": "《Beneath the Roses》出版"
+      }
+    ],
+    "works": [
+      {
+        "title": "Untitled (Ophelia)",
+        "year": 2001,
+        "image": null,
+        "credit": "© Gregory Crewdson / Gagosian"
+      }
+    ],
+    "techniques": [
+      "大型团队制作",
+      "电影灯光"
+    ],
+    "quote": "我每张照片都要一个剧本。"
+  },
+  {
+    "id": "lang-jingshan",
+    "name": "Lang Jingshan",
+    "nameZh": "郎静山",
+    "born": 1892,
+    "died": 1995,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "pictorialism",
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国摄影师,'集锦摄影'(composite photography) 创始人,把山水画美学搬入摄影暗房,多张底片合成单幅画意作品。横跨 20 世纪绝大半。",
+    "keyDates": [
+      {
+        "year": 1934,
+        "event": "集锦摄影方法成型"
+      },
+      {
+        "year": 1980,
+        "event": "台湾摄影学会主席"
+      }
+    ],
+    "works": [
+      {
+        "title": "春树奇峰 (Spring Trees, Spectacular Peaks)",
+        "year": 1939,
+        "image": null,
+        "credit": "Lang Jingshan Estate"
+      }
+    ],
+    "techniques": [
+      "集锦合成",
+      "暗房山水"
+    ],
+    "quote": "中国画的美学也属于摄影。"
+  },
+  {
+    "id": "liu-heung-shing",
+    "name": "Liu Heung Shing",
+    "nameZh": "刘香成",
+    "born": 1951,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary",
+      "war-photography"
+    ],
+    "influencedBy": [],
+    "bio": "美国华裔摄影师,1976-1983 派驻中国为 Time 与 AP 工作,拍摄改革开放初期的日常与政治瞬间。1992 Pulitzer 奖(摄苏联解体)。",
+    "keyDates": [
+      {
+        "year": 1980,
+        "event": "为 Time 杂志拍摄'毛后中国'"
+      },
+      {
+        "year": 1992,
+        "event": "Pulitzer Prize for Spot News"
+      }
+    ],
+    "works": [
+      {
+        "title": "Reading Mao Speech, Tiananmen",
+        "year": 1980,
+        "image": null,
+        "credit": "© Liu Heung Shing / AP"
+      }
+    ],
+    "techniques": [
+      "35mm 黑白",
+      "纪实"
+    ],
+    "quote": "我看见的中国。"
+  },
+  {
+    "id": "rai",
+    "name": "Raghu Rai",
+    "nameZh": "拉胡·赖",
+    "born": 1942,
+    "died": null,
+    "country": "IN",
+    "region": "asia",
+    "movements": [
+      "humanist",
+      "magnum"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "印度摄影师,Magnum 1977 邀请加入。50 年记录印度生活、母亲特蕾莎、博帕尔毒气泄漏、锡克教徒迫害。被视为印度纪实摄影的脊柱。",
+    "keyDates": [
+      {
+        "year": 1977,
+        "event": "加入 Magnum"
+      },
+      {
+        "year": 1984,
+        "event": "记录博帕尔毒气泄漏"
+      }
+    ],
+    "works": [
+      {
+        "title": "Mother Teresa, Calcutta",
+        "year": 1980,
+        "image": null,
+        "credit": "© Raghu Rai / Magnum"
+      }
+    ],
+    "techniques": [
+      "35mm 黑白",
+      "印度日常"
+    ],
+    "quote": "印度是我的恋人。"
+  },
+  {
+    "id": "neshat",
+    "name": "Shirin Neshat",
+    "nameZh": "希林·内沙",
+    "born": 1957,
+    "died": null,
+    "country": "IR",
+    "region": "middle-east",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [],
+    "bio": "伊朗-美国艺术家,《Women of Allah》(1993-97) 在伊斯兰女性身体上书写波斯诗篇 + 武器,把性别 / 宗教 / 离散合并为 1990s 当代摄影最具张力的政治图像。",
+    "keyDates": [
+      {
+        "year": 1996,
+        "event": "《Women of Allah》系列完成"
+      },
+      {
+        "year": 1999,
+        "event": "威尼斯双年展金狮奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Rebellious Silence (from Women of Allah)",
+        "year": 1994,
+        "image": null,
+        "credit": "© Shirin Neshat / Gladstone Gallery"
+      }
+    ],
+    "techniques": [
+      "黑白手书",
+      "身体作媒介"
+    ],
+    "quote": "我不能假装我没有失去家园。"
+  },
+  {
+    "id": "kawauchi",
+    "name": "Rinko Kawauchi",
+    "nameZh": "川内伦子",
+    "born": 1972,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar",
+      "new-color"
+    ],
+    "influencedBy": [
+      "sugimoto",
+      "araki"
+    ],
+    "bio": "日本摄影师,2001《Utatane》6x6 彩色微观日常 (蝉壳 / 牛奶 / 婴儿手指),把日本'物哀'美学与彩色摄影微距结合,2000s 后影响国际私摄影潮流。",
+    "keyDates": [
+      {
+        "year": 2001,
+        "event": "《うたたね》《花火》同时出版"
+      },
+      {
+        "year": 2009,
+        "event": "ICP Infinity Award"
+      }
+    ],
+    "works": [
+      {
+        "title": "Untitled (from Illuminance)",
+        "year": 2009,
+        "image": null,
+        "credit": "© Rinko Kawauchi"
+      }
+    ],
+    "techniques": [
+      "6x6 彩色",
+      "日常微距"
+    ],
+    "quote": "我看到的不是大事件。"
   }
 ]

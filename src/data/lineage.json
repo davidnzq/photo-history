@@ -117,6 +117,30 @@
                           "label": "Cameron",
                           "year": 1864,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/curtis",
+                          "kind": "photographer",
+                          "refId": "curtis",
+                          "label": "Curtis",
+                          "year": 1907,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/drtikol",
+                          "kind": "photographer",
+                          "refId": "drtikol",
+                          "label": "Drtikol",
+                          "year": 1929,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/lang-jingshan",
+                          "kind": "photographer",
+                          "refId": "lang-jingshan",
+                          "label": "Lang Jingshan",
+                          "year": 1934,
+                          "children": []
                         }
                       ]
                     },
@@ -179,6 +203,14 @@
                                           "children": []
                                         }
                                       ]
+                                    },
+                                    {
+                                      "id": "photographers/chambi",
+                                      "kind": "photographer",
+                                      "refId": "chambi",
+                                      "label": "Chambi",
+                                      "year": 1934,
+                                      "children": []
                                     }
                                   ]
                                 }
@@ -190,6 +222,30 @@
                               "refId": "cunningham",
                               "label": "Cunningham",
                               "year": 1932,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/abbott",
+                              "kind": "photographer",
+                              "refId": "abbott",
+                              "label": "Abbott",
+                              "year": 1939,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/sudek",
+                              "kind": "photographer",
+                              "refId": "sudek",
+                              "label": "Sudek",
+                              "year": 1940,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/marey",
+                              "kind": "photographer",
+                              "refId": "marey",
+                              "label": "Marey",
+                              "year": 1882,
                               "children": []
                             }
                           ]
@@ -216,6 +272,57 @@
                               "label": "Man Ray",
                               "year": 1922,
                               "children": []
+                            },
+                            {
+                              "id": "movements/russian-constructivism",
+                              "kind": "movement",
+                              "refId": "russian-constructivism",
+                              "label": "俄罗斯构成主义",
+                              "year": 1928,
+                              "children": [
+                                {
+                                  "id": "photographers/rodchenko",
+                                  "kind": "photographer",
+                                  "refId": "rodchenko",
+                                  "label": "Rodchenko",
+                                  "year": 1925,
+                                  "children": [
+                                    {
+                                      "id": "photographers/lissitzky",
+                                      "kind": "photographer",
+                                      "refId": "lissitzky",
+                                      "label": "Lissitzky",
+                                      "year": 1924,
+                                      "children": []
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "id": "movements/new-objectivity",
+                              "kind": "movement",
+                              "refId": "new-objectivity",
+                              "label": "新客观性",
+                              "year": 1928,
+                              "children": [
+                                {
+                                  "id": "photographers/sander",
+                                  "kind": "photographer",
+                                  "refId": "sander",
+                                  "label": "Sander",
+                                  "year": 1929,
+                                  "children": []
+                                },
+                                {
+                                  "id": "photographers/renger-patzsch",
+                                  "kind": "photographer",
+                                  "refId": "renger-patzsch",
+                                  "label": "Renger-Patzsch",
+                                  "year": 1928,
+                                  "children": []
+                                }
+                              ]
                             }
                           ]
                         },
@@ -279,6 +386,22 @@
                                       "label": "Arbus",
                                       "year": 1967,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/maier",
+                                      "kind": "photographer",
+                                      "refId": "maier",
+                                      "label": "Vivian Maier",
+                                      "year": 1955,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/leiter",
+                                      "kind": "photographer",
+                                      "refId": "leiter",
+                                      "label": "Leiter",
+                                      "year": 1960,
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -325,6 +448,30 @@
                                               "refId": "sternfeld",
                                               "label": "Sternfeld",
                                               "year": 1987,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/meyerowitz",
+                                              "kind": "photographer",
+                                              "refId": "meyerowitz",
+                                              "label": "Meyerowitz",
+                                              "year": 1976,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/soth",
+                                              "kind": "photographer",
+                                              "refId": "soth",
+                                              "label": "Soth",
+                                              "year": 2004,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/neshat",
+                                              "kind": "photographer",
+                                              "refId": "neshat",
+                                              "label": "Neshat",
+                                              "year": 1996,
                                               "children": []
                                             }
                                           ]
@@ -380,6 +527,22 @@
                                           "children": []
                                         }
                                       ]
+                                    },
+                                    {
+                                      "id": "photographers/wall",
+                                      "kind": "photographer",
+                                      "refId": "wall",
+                                      "label": "Jeff Wall",
+                                      "year": 1993,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/crewdson",
+                                      "kind": "photographer",
+                                      "refId": "crewdson",
+                                      "label": "Crewdson",
+                                      "year": 2001,
+                                      "children": []
                                     }
                                   ]
                                 }
@@ -474,6 +637,30 @@
                               "label": "Doisneau",
                               "year": 1950,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/sutkus",
+                              "kind": "photographer",
+                              "refId": "sutkus",
+                              "label": "Sutkus",
+                              "year": 1965,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/mark",
+                              "kind": "photographer",
+                              "refId": "mark",
+                              "label": "Mary Ellen Mark",
+                              "year": 1981,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/rai",
+                              "kind": "photographer",
+                              "refId": "rai",
+                              "label": "Raghu Rai",
+                              "year": 1980,
+                              "children": []
                             }
                           ]
                         }
@@ -530,6 +717,14 @@
                               "refId": "sugimoto",
                               "label": "杉本博司",
                               "year": 1980,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/kawauchi",
+                              "kind": "photographer",
+                              "refId": "kawauchi",
+                              "label": "Kawauchi",
+                              "year": 2001,
                               "children": []
                             }
                           ]
@@ -590,6 +785,14 @@
                           "label": "洪浩",
                           "year": 2001,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/liu-heung-shing",
+                          "kind": "photographer",
+                          "refId": "liu-heung-shing",
+                          "label": "Liu Heung Shing",
+                          "year": 1980,
+                          "children": []
                         }
                       ]
                     },
@@ -625,6 +828,22 @@
                               ]
                             }
                           ]
+                        },
+                        {
+                          "id": "photographers/decarava",
+                          "kind": "photographer",
+                          "refId": "decarava",
+                          "label": "DeCarava",
+                          "year": 1955,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/bey",
+                          "kind": "photographer",
+                          "refId": "bey",
+                          "label": "Bey",
+                          "year": 1976,
+                          "children": []
                         }
                       ]
                     },
@@ -693,10 +912,50 @@
                           "label": "Bourke-White",
                           "year": 1936,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/mccullin",
+                          "kind": "photographer",
+                          "refId": "mccullin",
+                          "label": "McCullin",
+                          "year": 1968,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/mccurry",
+                          "kind": "photographer",
+                          "refId": "mccurry",
+                          "label": "McCurry",
+                          "year": 1984,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/nick-ut",
+                          "kind": "photographer",
+                          "refId": "nick-ut",
+                          "label": "Nick Ut",
+                          "year": 1972,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/korda",
+                          "kind": "photographer",
+                          "refId": "korda",
+                          "label": "Korda",
+                          "year": 1960,
+                          "children": []
                         }
                       ]
                     }
                   ]
+                },
+                {
+                  "id": "photographers/marey",
+                  "kind": "photographer",
+                  "refId": "marey",
+                  "label": "Marey",
+                  "year": 1882,
+                  "children": []
                 }
               ]
             }

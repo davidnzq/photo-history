@@ -24,37 +24,54 @@ PHO = ROOT / "src" / "data" / "photographers.json"
 # 选取明确公有领域 (作者过世 70+ 年 OR FSA/LoC 政府作品)
 # 即便部分 URL 解析失败,fallback 占位仍然能用。
 TARGETS = [
-    # ── 19 世纪开山 (resolved) ────────────────────────────────
+    # ── 19 世纪开山 ─────────────────────────────────────────
     ("niepce", 0, "View from the Window at Le Gras, Joseph Nicéphore Niépce.jpg"),
     ("daguerre", 0, "Boulevard du Temple by Daguerre.jpg"),
     ("talbot", 0, "Latticed window at lacock abbey 1835.jpg"),
     ("nadar", 0, "Sarah Bernhardt by Nadar"),
     ("atget", 0, "Atget Avenue des Gobelins"),
+    ("marey", 0, "Marey chronophotograph"),
 
-    # ── 维多利亚 / 早期 ────────────────────────────────────────
+    # ── 维多利亚 / 早期 ────────────────────────────────────
     ("cameron", 0, "Julia Margaret Cameron Sir John Herschel"),
     ("muybridge", 0, "The Horse in Motion-anim.gif"),
     ("brady", 0, "Mathew Brady Civil War portrait Lincoln"),
+    ("curtis", 0, "Edward Curtis Canyon de Chelly Navajo"),
 
-    # ── Pictorialism / Photo-Secession ─────────────────────────
+    # ── Pictorialism ───────────────────────────────────────
     ("stieglitz", 0, "Alfred Stieglitz - The Steerage - Google Art Project.jpg"),
     ("steichen", 0, "Edward Steichen The Pond Moonlight 1904"),
     ("kasebier", 0, "Gertrude Käsebier Blessed Art Thou Among Women"),
+    ("drtikol", 0, "Drtikol Wave"),
+    ("lang-jingshan", 0, "Lang Jingshan Spring Trees"),
 
-    # ── 直接摄影 / f64 ─────────────────────────────────────────
+    # ── Russian Constructivism ─────────────────────────────
+    ("rodchenko", 0, "Rodchenko Stairs"),
+    ("lissitzky", 0, "El Lissitzky The Constructor self portrait"),
+
+    # ── New Objectivity ────────────────────────────────────
+    ("sander", 0, "August Sander Young Farmers Westerwald"),
+    ("renger-patzsch", 0, "Renger-Patzsch factory pipes"),
+
+    # ── Czech / Central European ───────────────────────────
+    ("sudek", 0, "Josef Sudek Prague window"),
+
+    # ── 直接摄影 / f64 ─────────────────────────────────────
     ("strand", 0, "Paul Strand Wall Street 1915"),
     ("a-adams", 0, "Ansel Adams Moonrise Hernandez New Mexico"),
     ("e-weston", 0, "Edward Weston Pepper No. 30"),
+    ("abbott", 0, "Berenice Abbott Nightview New York"),
 
-    # ── FSA 公有 (US gov, 全部 PD) ────────────────────────────
+    # ── FSA (US gov) ───────────────────────────────────────
     ("lange", 0, "Migrant Mother by Dorothea Lange"),
     ("evans", 0, "Walker Evans Allie Mae Burroughs"),
     ("rothstein", 0, "Dust storm Cimarron County Oklahoma 1936"),
 
-    # ── 拉美 ──────────────────────────────────────────────────
+    # ── 拉美 ───────────────────────────────────────────────
     ("modotti", 0, "Tina Modotti workers parade"),
+    ("chambi", 0, "Martín Chambi self portrait Machu Picchu"),
 
-    # ── 美国黑人 ──────────────────────────────────────────────
+    # ── 美国黑人 ───────────────────────────────────────────
     ("parks", 0, "American Gothic Gordon Parks 1942"),
     ("van-der-zee", 0, "James Van Der Zee Couple Harlem"),
 ]
@@ -171,6 +188,7 @@ def main():
 
     matched = 0
     failed = 0
+    skipped = 0
     for pid, idx, title in TARGETS:
         p = by_id.get(pid)
         if not p:
@@ -179,9 +197,14 @@ def main():
         if idx >= len(p.get("works", [])):
             print(f"⨯ {pid}: works[{idx}] out of range")
             continue
+        # idempotent: skip if already has a verified image
+        if p["works"][idx].get("image"):
+            print(f"= {pid}: already has image, skipping")
+            skipped += 1
+            continue
 
-        # rate-limit Commons API (失败在 ~5 fast calls/sec; 2s 间隔实测稳)
-        time.sleep(2.0)
+        # rate-limit Commons API
+        time.sleep(3.0)
         result = resolve_file(title)
         if not result:
             print(f"⨯ {pid}: cannot resolve {title!r}")
@@ -208,7 +231,7 @@ def main():
         matched += 1
 
     PHO.write_text(json.dumps(pho, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\n{matched} matched · {failed} failed · {len(TARGETS)} attempted")
+    print(f"\n{matched} new · {skipped} already · {failed} failed · {len(TARGETS)} attempted")
 
 
 if __name__ == "__main__":
