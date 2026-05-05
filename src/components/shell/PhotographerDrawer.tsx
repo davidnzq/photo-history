@@ -2,13 +2,11 @@
 
 import { useEffect, useRef } from "react";
 import { useRouter } from "next/navigation";
-import Link from "next/link";
+import { useT } from "@/lib/i18n";
 
 type Props = {
   children: React.ReactNode;
-  /** photographer id, used for the "open as full page" link */
-  id: string;
-  /** display title for sr/title bar */
+  /** display title for sr / title bar */
   title: string;
 };
 
@@ -21,13 +19,14 @@ type Props = {
  *   - mask click
  *   - Escape key
  *
- * The "open as full page" link goes to the same /p/[id] but with a
- * `_force=1` flag so we don't immediately re-intercept; the underlying
- * SSG page is the same content and is SEO indexable on its own.
+ * Direct visit to /p/[id] still renders the standalone SSG page and is
+ * SEO-indexable on its own — no need for an in-drawer "open as full page"
+ * link, removed per UX feedback (didn't actually do anything useful).
  */
-export function PhotographerDrawer({ children, id, title }: Props) {
+export function PhotographerDrawer({ children, title }: Props) {
   const router = useRouter();
   const panelRef = useRef<HTMLDivElement | null>(null);
+  const t = useT();
 
   // Lock body scroll while open
   useEffect(() => {
@@ -61,9 +60,9 @@ export function PhotographerDrawer({ children, id, title }: Props) {
       {/* mask */}
       <button
         type="button"
-        aria-label="关闭"
+        aria-label={t("drawer.close")}
         onClick={() => router.back()}
-        className="absolute inset-0 bg-bg/70 backdrop-blur-[2px] cursor-default animate-[drawerFade_220ms_ease-out]"
+        className="absolute inset-0 bg-bg/70 backdrop-blur-[2px] cursor-default"
         style={{
           animation: "drawerFade 220ms cubic-bezier(0.22, 1, 0.36, 1)",
         }}
@@ -81,25 +80,13 @@ export function PhotographerDrawer({ children, id, title }: Props) {
         {/* header */}
         <div className="sticky top-0 z-10 border-b border-rule bg-bg/85 backdrop-blur flex items-center gap-3 px-5 h-12">
           <span className="font-display text-[10px] tracking-[0.32em] uppercase text-ink-3">
-            人 物 词 条
+            {t("drawer.title")}
           </span>
           <span className="flex-1" />
-          <Link
-            href={`/p/${id}`}
-            className="text-[11px] tracking-wider uppercase text-ink-3 hover:text-accent transition-colors flex items-center gap-1.5"
-            title="在新页面打开（独立链接 / 适合分享）"
-          >
-            <svg viewBox="0 0 24 24" width="12" height="12" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
-              <path d="M14 3h7v7" />
-              <path d="M21 3l-9 9" />
-              <path d="M21 14v5a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h5" />
-            </svg>
-            <span>独立页</span>
-          </Link>
           <button
             type="button"
             onClick={() => router.back()}
-            aria-label="关闭抽屉"
+            aria-label={t("drawer.close")}
             className="w-9 h-9 -mr-2 flex items-center justify-center text-ink-2 hover:text-ink transition-colors"
           >
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">

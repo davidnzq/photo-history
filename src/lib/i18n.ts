@@ -44,6 +44,8 @@ const dict: Record<Locale, Record<string, string>> = {
     "filter.clear": "清除筛选",
     "filter.search": "搜索…",
     "filter.empty": "无匹配项",
+    "filter.selectAll": "全选",
+    "filter.clearOne": "清除",
 
     /* regions */
     "region.europe": "欧洲",
@@ -55,7 +57,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "region.middle-east": "中东",
 
     /* canvas hints — 单语 */
-    "hint.zoomPan": "滚轮缩放,拖拽平移",
+    "hint.zoomPan": "⌘+滚轮缩放,拖拽平移",
     "hint.reset": "复位",
     "hint.network.detail": "点击节点打开词条,滚轮缩放,拖拽平移",
     "hint.network.ego": "点击节点聚焦关系,滚轮缩放,拖拽平移",
@@ -117,6 +119,8 @@ const dict: Record<Locale, Record<string, string>> = {
     "filter.clear": "Clear filters",
     "filter.search": "Search…",
     "filter.empty": "No matches",
+    "filter.selectAll": "Select all",
+    "filter.clearOne": "Clear",
 
     /* regions */
     "region.europe": "Europe",
@@ -128,7 +132,7 @@ const dict: Record<Locale, Record<string, string>> = {
     "region.middle-east": "Mid. East",
 
     /* canvas hints */
-    "hint.zoomPan": "Wheel zoom, drag to pan",
+    "hint.zoomPan": "⌘+wheel zoom, drag to pan",
     "hint.reset": "Reset",
     "hint.network.detail": "Click node to open detail, wheel zoom, drag to pan",
     "hint.network.ego": "Click node to focus ego, wheel zoom, drag to pan",

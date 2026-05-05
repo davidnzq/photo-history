@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useRouter, usePathname } from "next/navigation";
 import { useLocale } from "@/components/shell/LocaleProvider";
-import { useT, type Locale } from "@/lib/i18n";
+import { useT } from "@/lib/i18n";
 
 export function TopNav() {
   const { locale, setLocale } = useLocale();
@@ -27,14 +27,6 @@ export function TopNav() {
     }
   }
 
-  // Locale toggle: a single small "EN" / "中" pill — shows the OTHER
-  // language so it reads "click to switch to <X>". Cleaner than a 中/EN
-  // segment that always wastes equal space on both sides.
-  function flipLocale() {
-    const next: Locale = locale === "zh" ? "en" : "zh";
-    setLocale(next);
-  }
-
   return (
     <header className="border-b border-rule bg-bg/80 backdrop-blur-md sticky top-0 z-30">
       <div className="px-6 h-14 flex items-center gap-4">
@@ -50,16 +42,41 @@ export function TopNav() {
 
         <div className="flex-1" />
 
-        {/* Locale toggle — minimal: just shows target language as a hint */}
-        <button
-          type="button"
-          onClick={flipLocale}
+        {/* Locale toggle — 视觉优雅版:两段都显示,当前态用 ink + 描线
+            指示;非当前态 ink-3。点任意段切到该语言。比单按钮更直观,
+            比 1/EN 等宽 segment 更轻。设计原则: state-clarity
+            (Quick Reference §4) + visual-hierarchy via 字重/颜色对比。 */}
+        <div
+          role="group"
           aria-label={t("locale.aria")}
-          title={t("locale.aria")}
-          className="font-display text-[12px] tracking-[0.18em] text-ink-3 hover:text-accent transition-colors px-2 h-8 flex items-center"
+          className="font-display text-[12px] flex items-center"
         >
-          {t("locale.toggle")}
-        </button>
+          <button
+            type="button"
+            onClick={() => setLocale("zh")}
+            aria-pressed={locale === "zh"}
+            className={
+              locale === "zh"
+                ? "px-1.5 h-8 flex items-center text-ink border-b border-accent -mb-px"
+                : "px-1.5 h-8 flex items-center text-ink-3 hover:text-ink-2 transition-colors"
+            }
+          >
+            中
+          </button>
+          <span className="text-ink-3/60 text-[10px] mx-0.5">/</span>
+          <button
+            type="button"
+            onClick={() => setLocale("en")}
+            aria-pressed={locale === "en"}
+            className={
+              locale === "en"
+                ? "px-1.5 h-8 flex items-center text-ink border-b border-accent -mb-px tracking-[0.06em]"
+                : "px-1.5 h-8 flex items-center text-ink-3 hover:text-ink-2 transition-colors tracking-[0.06em]"
+            }
+          >
+            EN
+          </button>
+        </div>
 
         {/* About i icon — toggles open/close */}
         <button

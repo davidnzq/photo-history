@@ -73,11 +73,7 @@ function FilterBarInner() {
         {/* 流派 */}
         <Dropdown
           label={t("filter.movements")}
-          summary={
-            filter.movementIds.length === 0
-              ? t("filter.all")
-              : t("filter.nItems", { n: filter.movementIds.length })
-          }
+          count={filter.movementIds.length}
         >
           <SearchableMultiSelect
             placeholder={t("filter.search")}
@@ -87,41 +83,30 @@ function FilterBarInner() {
               swatch: m.color,
             }))}
             selected={filter.movementIds}
-            onToggle={(id) => {
-              const on = filter.movementIds.includes(id);
-              const next = on
-                ? filter.movementIds.filter((x) => x !== id)
-                : [...filter.movementIds, id];
-              update({ ...filter, movementIds: next });
-            }}
+            onChange={(ids) => update({ ...filter, movementIds: ids })}
             emptyLabel={t("filter.empty")}
+            selectAllLabel={t("filter.selectAll")}
+            clearLabel={t("filter.clearOne")}
+            allLabel={t("filter.all")}
           />
         </Dropdown>
 
         {/* 地域 */}
         <Dropdown
           label={t("filter.regions")}
-          summary={
-            filter.regions.length === 0
-              ? t("filter.all")
-              : filter.regions
-                  .map((r) => REGIONS.find((x) => x.id === r)?.label ?? r)
-                  .join(" · ")
-          }
+          count={filter.regions.length}
         >
           <SearchableMultiSelect
             placeholder={t("filter.search")}
             items={REGIONS.map((r) => ({ id: r.id, label: r.label }))}
             selected={filter.regions as string[]}
-            onToggle={(id) => {
-              const r = id as Region;
-              const on = filter.regions.includes(r);
-              const next = on
-                ? filter.regions.filter((x) => x !== r)
-                : [...filter.regions, r];
-              update({ ...filter, regions: next });
-            }}
+            onChange={(ids) =>
+              update({ ...filter, regions: ids as Region[] })
+            }
             emptyLabel={t("filter.empty")}
+            selectAllLabel={t("filter.selectAll")}
+            clearLabel={t("filter.clearOne")}
+            allLabel={t("filter.all")}
           />
         </Dropdown>
 
@@ -143,19 +128,27 @@ function FilterBarInner() {
 
 /* ── Subcomponents ──────────────────────────────────────────────── */
 
+/**
+ * Trigger button — 显示 label + 当前选中数量徽标 (符合
+ * GitHub / Linear / Notion 多选筛选的常规模式).
+ *
+ * 状态视觉:
+ *  - count = 0: 默认 + 灰色(text-ink-3)
+ *  - count > 0: 强调态 + 数字徽标
+ *  - open:      accent 描边
+ */
 function Dropdown({
   label,
-  summary,
+  count,
   children,
 }: {
   label: string;
-  summary: string;
+  count: number;
   children: React.ReactNode;
 }) {
   const [open, setOpen] = useState(false);
   const wrapRef = useRef<HTMLDivElement | null>(null);
 
-  // Click outside to close
   useEffect(() => {
     if (!open) return;
     function onDoc(e: MouseEvent) {
@@ -173,6 +166,8 @@ function Dropdown({
     };
   }, [open]);
 
+  const active = count > 0;
+
   return (
     <div ref={wrapRef} className="relative shrink-0">
       <button
@@ -180,14 +175,20 @@ function Dropdown({
         onClick={() => setOpen((v) => !v)}
         aria-expanded={open}
         className={clsx(
-          "flex items-center gap-2 px-3 h-8 border transition-colors",
+          "flex items-center gap-2 px-3 h-8 border transition-colors text-[12px]",
           open
             ? "border-accent text-ink"
-            : "border-rule hover:border-rule-2 text-ink-2 hover:text-ink"
+            : active
+            ? "border-rule-2 text-ink hover:border-accent"
+            : "border-rule text-ink-2 hover:text-ink hover:border-rule-2"
         )}
       >
-        <span className="text-[12px]">{label}</span>
-        <span className="text-[12px] text-ink-3">{summary}</span>
+        <span>{label}</span>
+        {active && (
+          <span className="inline-flex items-center justify-center min-w-[16px] h-4 px-1 bg-accent text-bg text-[10px] font-display tabular-nums leading-none">
+            {count}
+          </span>
+        )}
         <svg
           viewBox="0 0 24 24"
           width="10"
@@ -195,7 +196,7 @@ function Dropdown({
           fill="none"
           stroke="currentColor"
           strokeWidth="2"
-          className={clsx("transition-transform", open && "rotate-180")}
+          className={clsx("transition-transform opacity-60", open && "rotate-180")}
           aria-hidden="true"
         >
           <path d="M6 9l6 6 6-6" />
@@ -205,6 +206,7 @@ function Dropdown({
         <div
           className="absolute top-[calc(100%+4px)] left-0 z-40 bg-bg-elev border border-rule shadow-2xl"
           role="menu"
+          onClick={(e) => e.stopPropagation()}
         >
           {children}
         </div>
@@ -215,23 +217,43 @@ function Dropdown({
 
 type Item = { id: string; label: string; swatch?: string };
 
+/**
+ * 完整多选交互 (符合设计 skill §8 progressive-disclosure / field-grouping
+ * 与 GitHub / Linear 等参考组件):
+ *
+ *   ┌──────────────────────┐
+ *   │ 🔍 搜索…           ✕ │  ← 自动 focus, 实时过滤
+ *   │ ─────────────────── │
+ *   │ 全选 (8) / 清除      │  ← header 提供 全选 / 清除 (仅在过滤后显示)
+ *   │ ─────────────────── │
+ *   │ ▢ 画意主义           │  ← checkbox 视觉, 受流派色提示
+ *   │ ▣ 直接摄影           │  ← 已选: bg-2 + 高亮
+ *   │ ▢ FSA 纪实           │
+ *   │ …                    │
+ *   └──────────────────────┘
+ */
 function SearchableMultiSelect({
   items,
   selected,
-  onToggle,
+  onChange,
   placeholder,
   emptyLabel,
+  selectAllLabel,
+  clearLabel,
+  allLabel,
 }: {
   items: Item[];
   selected: string[];
-  onToggle: (id: string) => void;
+  onChange: (ids: string[]) => void;
   placeholder: string;
   emptyLabel: string;
+  selectAllLabel: string;
+  clearLabel: string;
+  allLabel: string;
 }) {
   const [q, setQ] = useState("");
   const inputRef = useRef<HTMLInputElement | null>(null);
 
-  // Auto-focus search on open
   useEffect(() => {
     inputRef.current?.focus();
   }, []);
@@ -242,10 +264,32 @@ function SearchableMultiSelect({
     return items.filter((it) => it.label.toLowerCase().includes(t));
   }, [items, q]);
 
+  const visibleIds = filtered.map((it) => it.id);
+  const visibleSelected = visibleIds.filter((id) => selected.includes(id));
+  const allVisibleSelected =
+    filtered.length > 0 && visibleSelected.length === filtered.length;
+
+  function toggle(id: string) {
+    onChange(
+      selected.includes(id)
+        ? selected.filter((x) => x !== id)
+        : [...selected, id]
+    );
+  }
+  function selectAllVisible() {
+    const merged = new Set(selected);
+    for (const id of visibleIds) merged.add(id);
+    onChange([...merged]);
+  }
+  function clearAll() {
+    onChange([]);
+  }
+
   return (
     <div className="min-w-[260px] max-w-[320px]">
+      {/* search */}
       <div className="px-2 pt-2">
-        <div className="flex items-center gap-2 px-2 h-8 border border-rule">
+        <div className="flex items-center gap-2 px-2 h-8 border border-rule focus-within:border-accent transition-colors">
           <svg
             viewBox="0 0 24 24"
             width="12"
@@ -272,46 +316,90 @@ function SearchableMultiSelect({
             <button
               type="button"
               onClick={() => setQ("")}
-              className="text-ink-3 hover:text-ink shrink-0"
-              aria-label="clear"
+              className="text-ink-3 hover:text-ink shrink-0 text-[14px] leading-none w-4 h-4 flex items-center justify-center"
+              aria-label="clear search"
             >
               ×
             </button>
           )}
         </div>
       </div>
-      <div className="max-h-[280px] overflow-y-auto p-2 mt-1">
-        {filtered.length === 0 && (
+
+      {/* header: 全选可见 / 清除全部 */}
+      {filtered.length > 0 && (
+        <div className="px-3 mt-2 pb-1.5 border-b border-rule flex items-center gap-2 text-[10px] tracking-[0.16em] uppercase">
+          <button
+            type="button"
+            onClick={allVisibleSelected ? clearAll : selectAllVisible}
+            className="text-ink-3 hover:text-ink transition-colors font-display"
+          >
+            {allVisibleSelected ? clearLabel : selectAllLabel}
+          </button>
+          <span className="flex-1" />
+          <span className="font-display text-ink-3 tabular-nums">
+            {selected.length === 0
+              ? allLabel
+              : `${selected.length}/${items.length}`}
+          </span>
+        </div>
+      )}
+
+      {/* items */}
+      <div className="max-h-[280px] overflow-y-auto p-1.5 mt-0.5">
+        {filtered.length === 0 ? (
           <div className="text-[12px] text-ink-3 text-center py-4 italic">
             {emptyLabel}
           </div>
-        )}
-        {filtered.length > 0 && (
-          <div className="grid grid-cols-1 gap-0.5">
+        ) : (
+          <div className="grid grid-cols-1 gap-px">
             {filtered.map((it) => {
               const on = selected.includes(it.id);
               return (
                 <button
                   key={it.id}
                   type="button"
-                  onClick={() => onToggle(it.id)}
+                  onClick={() => toggle(it.id)}
+                  aria-pressed={on}
                   className={clsx(
-                    "flex items-center gap-2 px-2 h-8 text-left transition-colors",
+                    "group flex items-center gap-2 px-2 h-8 text-left transition-colors",
                     on
                       ? "bg-bg-2 text-ink"
                       : "text-ink-2 hover:bg-bg-elev hover:text-ink"
                   )}
                 >
+                  {/* checkbox glyph */}
+                  <span
+                    className={clsx(
+                      "w-3.5 h-3.5 shrink-0 border flex items-center justify-center transition-colors",
+                      on
+                        ? "border-accent bg-accent text-bg"
+                        : "border-rule-2 group-hover:border-ink-3"
+                    )}
+                  >
+                    {on && (
+                      <svg
+                        viewBox="0 0 12 12"
+                        width="9"
+                        height="9"
+                        fill="none"
+                        stroke="currentColor"
+                        strokeWidth="2"
+                        aria-hidden="true"
+                      >
+                        <path d="M2 6.5l3 3 5-6" />
+                      </svg>
+                    )}
+                  </span>
+                  {/* swatch */}
                   {it.swatch !== undefined && (
                     <span
                       className="w-2 h-2 shrink-0"
                       style={{ background: it.swatch }}
                     />
                   )}
-                  <span className="text-[12px] flex-1">{it.label}</span>
-                  {on && (
-                    <span className="text-accent text-[10px]">✓</span>
-                  )}
+                  <span className="text-[12px] flex-1 truncate">
+                    {it.label}
+                  </span>
                 </button>
               );
             })}

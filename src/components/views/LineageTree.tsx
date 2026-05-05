@@ -98,7 +98,12 @@ function LineageTreeInner({ root }: Props) {
         // let clicks on interactive nodes pass through
         const t = event.target as Element;
         if (t.closest("[data-node-interactive]")) return false;
-        return event.button === 0 || event.type === "wheel";
+        // 一致性: wheel 仅在 ⌘/Ctrl 按下时触发缩放,与 Timeline 同款
+        // (Figma/Miro 标准). 普通拖拽仍可平移视图.
+        if (event.type === "wheel") {
+          return event.ctrlKey || event.metaKey;
+        }
+        return event.button === 0;
       })
       .on("zoom", (e: D3ZoomEvent<SVGSVGElement, unknown>) => {
         setTransform(e.transform);

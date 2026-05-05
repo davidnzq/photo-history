@@ -2,6 +2,7 @@ import Link from "next/link";
 import type { Movement } from "@/lib/types";
 import { PHOTOGRAPHERS, getMovement, getPhotographer } from "@/lib/data";
 import { WorkImage } from "@/components/ui/WorkImage";
+import { MovementDetailHeader } from "@/components/views/MovementDetailHeader";
 
 type Props = { movement: Movement };
 
@@ -26,20 +27,7 @@ export function MovementDetail({ movement: m }: Props) {
 
   return (
     <div className="absolute inset-0 overflow-y-auto">
-      {/* Top bar */}
-      <div className="sticky top-0 z-10 border-b border-rule bg-bg/85 backdrop-blur">
-        <div className="px-6 h-12 flex items-center gap-3">
-          <Link
-            href="/movements"
-            className="text-ink-2 hover:text-accent text-sm flex items-center gap-2 transition-colors"
-          >
-            <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" strokeWidth="1.75" strokeLinecap="round" strokeLinejoin="round">
-              <path d="M15 18l-6-6 6-6" />
-            </svg>
-            <span>返回流派</span>
-          </Link>
-        </div>
-      </div>
+      <MovementDetailHeader />
 
       <div className="px-6 lg:px-12 py-12 max-w-[1280px] mx-auto">
         <header className="mb-10">

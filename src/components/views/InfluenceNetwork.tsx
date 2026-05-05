@@ -61,13 +61,11 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
   const [size, setSize] = useState({ w: 1200, h: 700 });
 
   /**
-   * Click mode — interaction consistency 修复
-   * 默认 'detail':左键点节点 = 打开词条抽屉(与时间线 / 传承关系一致)
-   * 'ego':左键点节点 = 聚焦关系图谱(2 度邻居),需用户在左侧栏显式切换
-   * 之前的"左键 ego / 右键词条"模式不再使用 — 右键无法在移动端触达,
-   * 且违反 "primary action = left click" 的平台习惯。
+   * Click 行为简化:
+   * 主动作 = 打开词条 (与时间线/传承关系一致). 不再有 "聚焦关系" 模式
+   * (per UX 反馈,选 mode 是冗余决策). 流派聚焦仍由左侧栏 chip 控制.
+   * URL 参数 ego= 仍保留以便深链, 但 UI 不再产生.
    */
-  const [clickMode, setClickMode] = useState<"detail" | "ego">("detail");
 
   useEffect(() => {
     if (!containerRef.current) return;
@@ -132,80 +130,11 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
     router.replace(`/network${params.toString() ? "?" + params : ""}`, { scroll: false });
   }
 
-  function setEgo(id: string | null) {
-    const params = new URLSearchParams(sp);
-    if (id) params.set("ego", id);
-    else params.delete("ego");
-    router.replace(`/network${params.toString() ? "?" + params : ""}`, { scroll: false });
-  }
-
-  const focusedPerson = focusEgo ? getPhotographer(focusEgo) : undefined;
 
   return (
     <div className="absolute inset-0 flex">
-      {/* Left rail: click mode / movement focus / current ego target */}
+      {/* Left rail — only movement focus chips. ego mode 已移除. */}
       <aside className="w-56 shrink-0 border-r border-rule overflow-y-auto p-4 hidden md:block">
-        {/* ── Click mode (decides what left-click does) ──────────── */}
-        <div className="font-display text-[10px] tracking-[0.2em] uppercase text-ink-3 mb-2">
-          {t("rail.click")}
-        </div>
-        <div className="grid grid-cols-2 gap-1 mb-6 border border-rule p-0.5">
-          <button
-            type="button"
-            onClick={() => setClickMode("detail")}
-            className={clsx(
-              "h-7 text-[11px] tracking-wider transition-colors",
-              clickMode === "detail"
-                ? "bg-accent text-bg"
-                : "text-ink-2 hover:text-ink"
-            )}
-          >
-            {t("rail.click.detail")}
-          </button>
-          <button
-            type="button"
-            onClick={() => setClickMode("ego")}
-            className={clsx(
-              "h-7 text-[11px] tracking-wider transition-colors",
-              clickMode === "ego"
-                ? "bg-accent text-bg"
-                : "text-ink-2 hover:text-ink"
-            )}
-          >
-            {t("rail.click.ego")}
-          </button>
-        </div>
-
-        {/* ── Currently-focused ego target ────────────────────────── */}
-        {focusedPerson && (
-          <div className="mb-6 border border-accent/40 bg-bg-elev p-3">
-            <div className="font-display text-[10px] tracking-[0.2em] uppercase text-accent mb-2">
-              {t("rail.ego.title")}
-            </div>
-            <div className="font-display text-[14px] text-ink mb-0.5">
-              {getPhotographerName(focusedPerson, locale)}
-            </div>
-            <div className="text-[11px] text-ink-3 mb-3">
-              {focusedPerson.born}–{focusedPerson.died ?? (locale === "en" ? "now" : "今")}
-            </div>
-            <div className="flex flex-col gap-1">
-              <button
-                type="button"
-                onClick={() => router.push(`/p/${focusedPerson.id}`, { scroll: false })}
-                className="h-7 text-[11px] tracking-wider border border-rule hover:border-accent hover:text-accent transition-colors text-ink-2"
-              >
-                {t("rail.ego.openDetail")}
-              </button>
-              <button
-                type="button"
-                onClick={() => setEgo(null)}
-                className="h-7 text-[11px] tracking-wider text-ink-3 hover:text-ink transition-colors"
-              >
-                {t("rail.ego.exit")}
-              </button>
-            </div>
-          </div>
-        )}
 
         {/* ── Movement filter (existing) ──────────────────────────── */}
         <div className="font-display text-[10px] tracking-[0.2em] uppercase text-ink-3 mb-3">
@@ -264,19 +193,8 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
           cooldownTicks={120}
           d3VelocityDecay={0.4}
           onNodeClick={(node) => {
-            const id = (node as Node).id;
-            if (clickMode === "detail") {
-              // 主动作:左键打开词条抽屉(intercepting route 触发)
-              router.push(`/p/${id}`, { scroll: false });
-            } else {
-              // 聚焦模式:左键设置 ego 目标
-              const params = new URLSearchParams(sp);
-              params.set("ego", id);
-              router.replace(
-                `/network${params.toString() ? "?" + params : ""}`,
-                { scroll: false }
-              );
-            }
+            // 主动作 = 打开词条 (intercepting route 触发抽屉)
+            router.push(`/p/${(node as Node).id}`, { scroll: false });
           }}
           nodeCanvasObjectMode={() => "after"}
           nodeCanvasObject={(node, ctx, globalScale) => {
@@ -294,7 +212,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
           }}
         />
         <div className="absolute bottom-3 right-3 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display border border-rule px-2 py-1 bg-bg/80 backdrop-blur-sm tabular-nums">
-          {clickMode === "detail" ? t("hint.network.detail") : t("hint.network.ego")}
+          {t("hint.network.detail")}
         </div>
       </div>
     </div>
