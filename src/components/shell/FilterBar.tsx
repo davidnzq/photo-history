@@ -3,19 +3,11 @@
 import { useRouter, useSearchParams, usePathname } from "next/navigation";
 import { Suspense, useMemo, useTransition } from "react";
 import { clsx } from "clsx";
-import { MOVEMENTS, YEAR_BOUNDS } from "@/lib/data";
+import { MOVEMENTS } from "@/lib/data";
 import type { FilterState, Region } from "@/lib/types";
 import { defaultFilter, parseFilter, toSearchParams } from "@/lib/filter";
-
-const REGION_LABELS: Record<Region, string> = {
-  europe: "欧洲",
-  "n-america": "北美",
-  latin: "拉美",
-  asia: "亚洲",
-  africa: "非洲",
-  oceania: "大洋",
-  "middle-east": "中东",
-};
+import { useT, getMovementName } from "@/lib/i18n";
+import { useLocale } from "@/components/shell/LocaleProvider";
 
 /**
  * FilterBar uses useSearchParams() under the hood — wrap inner in Suspense
@@ -42,6 +34,8 @@ function FilterBarInner() {
   const pathname = usePathname();
   const sp = useSearchParams();
   const [, startTransition] = useTransition();
+  const t = useT();
+  const { locale } = useLocale();
 
   const filter = useMemo(() => parseFilter(sp), [sp]);
 
@@ -55,24 +49,31 @@ function FilterBarInner() {
   }
 
   const isClean =
-    filter.movementIds.length === 0 &&
-    filter.regions.length === 0 &&
-    filter.yearRange[0] === YEAR_BOUNDS[0] &&
-    filter.yearRange[1] === YEAR_BOUNDS[1];
+    filter.movementIds.length === 0 && filter.regions.length === 0;
+
+  const REGION_LABELS: Record<Region, string> = {
+    europe: t("region.europe"),
+    "n-america": t("region.n-america"),
+    latin: t("region.latin"),
+    asia: t("region.asia"),
+    africa: t("region.africa"),
+    oceania: t("region.oceania"),
+    "middle-east": t("region.middle-east"),
+  };
 
   return (
     <div className="border-b border-rule bg-bg/60 backdrop-blur-sm sticky top-[6.5rem] z-10">
       <div className="px-6 h-12 flex items-center gap-3 overflow-x-auto text-sm">
         <span className="font-display text-[10px] tracking-[0.18em] uppercase text-ink-3 mr-2">
-          筛选 / Filter
+          {t("filter.label")}
         </span>
 
         <Dropdown
-          label="流派"
+          label={t("filter.movements")}
           summary={
             filter.movementIds.length === 0
-              ? "全部"
-              : `${filter.movementIds.length} 项`
+              ? t("filter.all")
+              : t("filter.nItems", { n: filter.movementIds.length })
           }
         >
           <div className="grid grid-cols-2 gap-1 p-1 max-h-72 overflow-y-auto min-w-[280px]">
@@ -99,7 +100,7 @@ function FilterBarInner() {
                     className="w-2 h-2 shrink-0"
                     style={{ background: m.color }}
                   />
-                  <span className="text-[12px]">{m.nameZh}</span>
+                  <span className="text-[12px]">{getMovementName(m, locale)}</span>
                 </button>
               );
             })}
@@ -107,10 +108,10 @@ function FilterBarInner() {
         </Dropdown>
 
         <Dropdown
-          label="地域"
+          label={t("filter.regions")}
           summary={
             filter.regions.length === 0
-              ? "全部"
+              ? t("filter.all")
               : filter.regions.map((r) => REGION_LABELS[r]).join(" · ")
           }
         >
@@ -141,11 +142,6 @@ function FilterBarInner() {
           </div>
         </Dropdown>
 
-        <YearRangeControl
-          value={filter.yearRange}
-          onChange={(yr) => update({ ...filter, yearRange: yr })}
-        />
-
         <div className="flex-1" />
 
         {!isClean && (
@@ -154,7 +150,7 @@ function FilterBarInner() {
             onClick={() => update(defaultFilter())}
             className="text-[12px] text-ink-3 hover:text-accent transition-colors uppercase tracking-wider font-display"
           >
-            清除筛选
+            {t("filter.clear")}
           </button>
         )}
       </div>
@@ -199,38 +195,3 @@ function Dropdown({
   );
 }
 
-function YearRangeControl({
-  value,
-  onChange,
-}: {
-  value: [number, number];
-  onChange: (next: [number, number]) => void;
-}) {
-  const [a, b] = value;
-  return (
-    <div className="flex items-center gap-2 px-3 h-8 border border-rule text-ink-2 text-[12px]">
-      <span className="font-display text-[10px] tracking-[0.18em] uppercase text-ink-3">
-        年代
-      </span>
-      <input
-        type="number"
-        inputMode="numeric"
-        value={a}
-        onChange={(e) =>
-          onChange([parseInt(e.target.value, 10) || YEAR_BOUNDS[0], b])
-        }
-        className="w-16 bg-transparent text-ink outline-none border-b border-rule focus:border-accent"
-      />
-      <span className="text-ink-3">—</span>
-      <input
-        type="number"
-        inputMode="numeric"
-        value={b}
-        onChange={(e) =>
-          onChange([a, parseInt(e.target.value, 10) || YEAR_BOUNDS[1]])
-        }
-        className="w-16 bg-transparent text-ink outline-none border-b border-rule focus:border-accent"
-      />
-    </div>
-  );
-}

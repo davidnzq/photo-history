@@ -8,6 +8,8 @@ import type { Photographer, Movement } from "@/lib/types";
 import { buildEdges, clusterLayout, influenceCount } from "@/lib/relations";
 import { parseFilter, passes } from "@/lib/filter";
 import { getPhotographer } from "@/lib/data";
+import { useT, getMovementName, getPhotographerName, getPhotographerSubname } from "@/lib/i18n";
+import { useLocale } from "@/components/shell/LocaleProvider";
 
 /* react-force-graph-2d uses Canvas + DOM, client-only. */
 const ForceGraph2D = dynamic(() => import("react-force-graph-2d"), {
@@ -50,6 +52,8 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
   const router = useRouter();
   const sp = useSearchParams();
   const filter = useMemo(() => parseFilter(sp), [sp]);
+  const t = useT();
+  const { locale } = useLocale();
   const focusMovement = sp.get("focus") || null;
   const focusEgo = sp.get("ego") || null;
 
@@ -143,7 +147,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
       <aside className="w-56 shrink-0 border-r border-rule overflow-y-auto p-4 hidden md:block">
         {/* ── Click mode (decides what left-click does) ──────────── */}
         <div className="font-display text-[10px] tracking-[0.2em] uppercase text-ink-3 mb-2">
-          点击行为 · Click
+          {t("rail.click")}
         </div>
         <div className="grid grid-cols-2 gap-1 mb-6 border border-rule p-0.5">
           <button
@@ -156,7 +160,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
                 : "text-ink-2 hover:text-ink"
             )}
           >
-            打开词条
+            {t("rail.click.detail")}
           </button>
           <button
             type="button"
@@ -168,7 +172,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
                 : "text-ink-2 hover:text-ink"
             )}
           >
-            聚焦关系
+            {t("rail.click.ego")}
           </button>
         </div>
 
@@ -176,13 +180,13 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
         {focusedPerson && (
           <div className="mb-6 border border-accent/40 bg-bg-elev p-3">
             <div className="font-display text-[10px] tracking-[0.2em] uppercase text-accent mb-2">
-              聚焦中 · Ego
+              {t("rail.ego.title")}
             </div>
             <div className="font-display text-[14px] text-ink mb-0.5">
-              {focusedPerson.nameZh}
+              {getPhotographerName(focusedPerson, locale)}
             </div>
             <div className="text-[11px] text-ink-3 mb-3">
-              {focusedPerson.name} · {focusedPerson.born}–{focusedPerson.died ?? "今"}
+              {getPhotographerSubname(focusedPerson, locale)} · {focusedPerson.born}–{focusedPerson.died ?? (locale === "en" ? "now" : "今")}
             </div>
             <div className="flex flex-col gap-1">
               <button
@@ -190,14 +194,14 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
                 onClick={() => router.push(`/p/${focusedPerson.id}`, { scroll: false })}
                 className="h-7 text-[11px] tracking-wider border border-rule hover:border-accent hover:text-accent transition-colors text-ink-2"
               >
-                → 查看词条
+                {t("rail.ego.openDetail")}
               </button>
               <button
                 type="button"
                 onClick={() => setEgo(null)}
                 className="h-7 text-[11px] tracking-wider text-ink-3 hover:text-ink transition-colors"
               >
-                ✕ 退出聚焦
+                {t("rail.ego.exit")}
               </button>
             </div>
           </div>
@@ -205,7 +209,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
 
         {/* ── Movement filter (existing) ──────────────────────────── */}
         <div className="font-display text-[10px] tracking-[0.2em] uppercase text-ink-3 mb-3">
-          流派色带 · Movements
+          {t("rail.movements")}
         </div>
         <div className="space-y-1">
           <button
@@ -217,7 +221,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
             )}
           >
             <span className="w-2 h-2 bg-ink-3" />
-            全部
+            {t("filter.all")}
           </button>
           {movements.map((m) => (
             <button
@@ -230,7 +234,7 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
               )}
             >
               <span className="w-2 h-2" style={{ background: m.color }} />
-              {m.nameZh}
+              {getMovementName(m, locale)}
             </button>
           ))}
         </div>
@@ -246,7 +250,12 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
           nodeRelSize={4}
           nodeVal={(n) => (n as Node).val}
           nodeColor={(n) => ((n as Node).dim ? "rgba(232,226,212,0.08)" : (n as Node).color)}
-          nodeLabel={(n) => (n as Node).name}
+          nodeLabel={(n) => {
+            // node label shows the locale-appropriate name
+            const id = (n as Node).id;
+            const p = getPhotographer(id);
+            return p ? getPhotographerName(p, locale) : (n as Node).name;
+          }}
           linkColor={() => "rgba(196, 154, 92, 0.18)"}
           linkDirectionalArrowLength={3}
           linkDirectionalArrowRelPos={1}
@@ -279,13 +288,13 @@ function InfluenceNetworkInner({ photographers, movements }: Props) {
             ctx.fillStyle = "rgba(232,226,212,0.85)";
             ctx.textAlign = "center";
             ctx.textBaseline = "top";
-            ctx.fillText(n.name, n.x ?? 0, (n.y ?? 0) + n.val + 3);
+            const p = getPhotographer(n.id);
+            const label = p ? getPhotographerName(p, locale) : n.name;
+            ctx.fillText(label, n.x ?? 0, (n.y ?? 0) + n.val + 3);
           }}
         />
         <div className="absolute bottom-3 right-3 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display border border-rule px-2 py-1 bg-bg/80 backdrop-blur-sm tabular-nums">
-          {clickMode === "detail"
-            ? "点击节点 · 打开词条 · 滚轮缩放 · 拖拽平移"
-            : "点击节点 · 聚焦关系 · 滚轮缩放 · 拖拽平移"}
+          {clickMode === "detail" ? t("hint.network.detail") : t("hint.network.ego")}
         </div>
       </div>
     </div>

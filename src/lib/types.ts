@@ -115,5 +115,4 @@ export type EgoGraph = {
 export type FilterState = {
   movementIds: string[];
   regions: Region[];
-  yearRange: [number, number];
 };

@@ -4,6 +4,8 @@ import "./globals.css";
 import { TopNav } from "@/components/shell/TopNav";
 import { ViewSwitcher } from "@/components/shell/ViewSwitcher";
 import { FilterBar } from "@/components/shell/FilterBar";
+import { LocaleProvider } from "@/components/shell/LocaleProvider";
+import { LocaleAwareFooter } from "@/components/shell/LocaleAwareFooter";
 
 const spaceGrotesk = Space_Grotesk({
   variable: "--font-space-grotesk",
@@ -66,21 +68,22 @@ export default function RootLayout({
       className={`${spaceGrotesk.variable} ${inter.variable} h-full antialiased`}
     >
       <body className="min-h-dvh flex flex-col bg-bg text-ink">
-        <TopNav />
-        <ViewSwitcher />
-        <FilterBar />
-        <main className="flex-1 min-h-0 relative overflow-hidden">{children}</main>
-        <footer className="px-6 py-4 border-t border-rule text-ink-3 text-xs flex justify-between font-display tracking-wider uppercase">
-          <span>摄影历 · Photography History</span>
-          <span>
-            数据 · 通识公开资料(CC-BY-SA 等),作品图源自 Wikimedia Commons /
-            公共领域
-          </span>
-        </footer>
-        {/* Intercepting-route slot: renders the photographer drawer when
-            a sibling route (timeline / network / etc.) softly navigates
-            to /p/[id]. Direct visits fall through to app/p/[id]/page.tsx. */}
-        {modal}
+        {/* SSG-friendly: provider seeds with "zh" then reconciles to cookie
+            value on client mount. Avoids cookies() in layout which would
+            opt the entire route tree out of static rendering. */}
+        <LocaleProvider initialLocale="zh">
+          <TopNav />
+          <ViewSwitcher />
+          <FilterBar />
+          <main className="flex-1 min-h-0 relative overflow-hidden">
+            {children}
+          </main>
+          <LocaleAwareFooter />
+          {/* Intercepting-route slot: renders the photographer drawer when
+              a sibling route (timeline / network / etc.) softly navigates
+              to /p/[id]. Direct visits fall through to app/p/[id]/page.tsx. */}
+          {modal}
+        </LocaleProvider>
       </body>
     </html>
   );

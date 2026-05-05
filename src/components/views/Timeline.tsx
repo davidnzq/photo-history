@@ -8,6 +8,8 @@ import { select } from "d3-selection";
 import { clsx } from "clsx";
 import type { Photographer, Movement, HistoryEvent } from "@/lib/types";
 import { parseFilter, passes } from "@/lib/filter";
+import { useT, getMovementName, getMovementSubname, getPhotographerName } from "@/lib/i18n";
+import { useLocale } from "@/components/shell/LocaleProvider";
 
 type Props = {
   photographers: Photographer[];
@@ -40,6 +42,8 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
   const router = useRouter();
   const sp = useSearchParams();
   const [, startTransition] = useTransition();
+  const t = useT();
+  const { locale } = useLocale();
 
   const filter = useMemo(() => parseFilter(sp), [sp]);
 
@@ -221,7 +225,7 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
                 letterSpacing={0.4}
                 fill="var(--color-ink-2)"
               >
-                {l.movement.nameZh}
+                {getMovementName(l.movement, locale)}
               </text>
               <text
                 x={LEFT_GUTTER - 12}
@@ -232,7 +236,7 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
                 fill="var(--color-ink-3)"
                 style={{ textTransform: "uppercase" }}
               >
-                {l.movement.nameEn}
+                {getMovementSubname(l.movement, locale)}
               </text>
             </g>
           );
@@ -275,7 +279,7 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
                         fill="var(--color-bg)"
                         className="font-display pointer-events-none"
                       >
-                        {p.nameZh}
+                        {getPhotographerName(p, locale)}
                       </text>
                     )}
                     {/* invisible wider hitbox for narrow bars */}
@@ -341,7 +345,7 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
             letterSpacing={1.5}
             style={{ textTransform: "uppercase" }}
           >
-            流派 · Movement
+            {t("filter.movements")}
           </text>
         </g>
 
@@ -364,7 +368,7 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
             letterSpacing={1.5}
             style={{ textTransform: "uppercase" }}
           >
-            事件 · Events
+            {locale === "en" ? "Events" : "事件"}
           </text>
           {events.map((ev) => {
             const x = xScale(ev.year);
@@ -399,8 +403,8 @@ function TimelineInner({ photographers, movements, events, yearBounds }: Props) 
       </svg>
 
       {/* Floating zoom hint */}
-      <div className="absolute bottom-3 right-3 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display border border-rule px-2 py-1 bg-bg/80 backdrop-blur-sm">
-        {`zoom ${transform.k.toFixed(1)}× · 滚轮缩放 · 拖拽平移`}
+      <div className="absolute bottom-3 right-3 text-[10px] tracking-[0.18em] uppercase text-ink-3 font-display border border-rule px-2 py-1 bg-bg/80 backdrop-blur-sm tabular-nums">
+        {`zoom ${transform.k.toFixed(1)}× · ${t("hint.zoomPan")}`}
       </div>
     </div>
   );

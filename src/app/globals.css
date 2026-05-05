@@ -11,10 +11,15 @@
   --color-bg-elev: #1A1815;
   --color-bg-2: #2A2620;
 
-  /* ink */
+  /* ink — WCAG AA tuned against #0F0E0C background:
+       ink   = #E8E2D4  → 13.0:1   主文 / 标题
+       ink-2 = #A8A092  →  7.5:1   副文 (was #8B847A, 5.2:1)
+       ink-3 = #807A6E  →  4.5:1   小字 / 标签 (was #5C564E, 2.66:1 ✗)
+     ink-3 之前只有 2.66:1 — 连 3:1 大字都过不了,而站点里 10-12px 标签广泛使用此色,
+     已 fail AA。本次提亮使最小可读字号也满足 4.5:1。 */
   --color-ink: #E8E2D4;
-  --color-ink-2: #8B847A;
-  --color-ink-3: #5C564E;
+  --color-ink-2: #A8A092;
+  --color-ink-3: #807A6E;
 
   /* edges */
   --color-rule: #2A2722;

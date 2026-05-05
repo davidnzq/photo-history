@@ -1,13 +1,15 @@
 "use client";
 
-import { useEffect, useMemo, useRef, useState } from "react";
-import { useRouter } from "next/navigation";
+import { Suspense, useEffect, useMemo, useRef, useState } from "react";
+import { useRouter, useSearchParams } from "next/navigation";
 import { scaleLinear } from "d3-scale";
 import { zoom, zoomIdentity, type D3ZoomEvent, type ZoomTransform } from "d3-zoom";
 import { select } from "d3-selection";
 import { clsx } from "clsx";
 import type { LineageNode } from "@/lib/types";
 import { getMovement, getPhotographer } from "@/lib/data";
+import { useT } from "@/lib/i18n";
+import { parseFilter, passes } from "@/lib/filter";
 
 type Props = { root: LineageNode };
 
@@ -19,14 +21,25 @@ type Placed = {
   parentY?: number;
 };
 
+export function LineageTree(props: Props) {
+  return (
+    <Suspense fallback={null}>
+      <LineageTreeInner {...props} />
+    </Suspense>
+  );
+}
+
 const MARGIN_X = 80;
 const MARGIN_TOP = 80;
 const MARGIN_BOTTOM = 60;
 const NODE_HEIGHT = 56;
 const COLUMN_WIDTH = 120;
 
-export function LineageTree({ root }: Props) {
+function LineageTreeInner({ root }: Props) {
   const router = useRouter();
+  const t = useT();
+  const sp = useSearchParams();
+  const filter = useMemo(() => parseFilter(sp), [sp]);
   const wrapperRef = useRef<HTMLDivElement | null>(null);
   const svgRef = useRef<SVGSVGElement | null>(null);
 
@@ -159,20 +172,33 @@ export function LineageTree({ root }: Props) {
           })}
 
           {/* Nodes */}
-          {layout.placed.map((p) => (
-            <LineageNodeView
-              key={p.node.id}
-              placed={p}
-              hovered={hoverId === p.node.id}
-              onHover={(on) => setHoverId(on ? p.node.id : null)}
-              onClick={() => {
-                if (p.node.kind === "movement" && p.node.refId)
-                  router.push(`/movements/${p.node.refId}`, { scroll: false });
-                if (p.node.kind === "photographer" && p.node.refId)
-                  router.push(`/p/${p.node.refId}`, { scroll: false });
-              }}
-            />
-          ))}
+          {layout.placed.map((p) => {
+            // 是否被全局筛选(流派 / 地域)排除 → 8% 透明
+            let dimmed = false;
+            if (p.node.kind === "movement" && p.node.refId) {
+              if (filter.movementIds.length && !filter.movementIds.includes(p.node.refId)) {
+                dimmed = true;
+              }
+            } else if (p.node.kind === "photographer" && p.node.refId) {
+              const ph = getPhotographer(p.node.refId);
+              if (ph && !passes(ph, filter)) dimmed = true;
+            }
+            return (
+              <LineageNodeView
+                key={p.node.id}
+                placed={p}
+                hovered={hoverId === p.node.id}
+                dimmed={dimmed}
+                onHover={(on) => setHoverId(on ? p.node.id : null)}
+                onClick={() => {
+                  if (p.node.kind === "movement" && p.node.refId)
+                    router.push(`/movements/${p.node.refId}`, { scroll: false });
+                  if (p.node.kind === "photographer" && p.node.refId)
+                    router.push(`/p/${p.node.refId}`, { scroll: false });
+                }}
+              />
+            );
+          })}
         </g>
       </svg>
 
@@ -182,12 +208,12 @@ export function LineageTree({ root }: Props) {
           type="button"
           onClick={resetZoom}
           className="border border-rule px-2 h-7 hover:text-ink hover:border-rule-2 transition-colors bg-bg/80 backdrop-blur-sm"
-          title="复位:适配视图"
+          title={t("hint.reset")}
         >
-          复位 · Reset
+          {t("hint.reset")}
         </button>
         <span className="border border-rule px-2 h-7 flex items-center bg-bg/80 backdrop-blur-sm tabular-nums">
-          {`zoom ${transform.k.toFixed(2)}× · 滚轮缩放 · 拖拽平移`}
+          {`zoom ${transform.k.toFixed(2)}× · ${t("hint.zoomPan")}`}
         </span>
       </div>
     </div>
@@ -236,11 +262,13 @@ function YearAxis({
 function LineageNodeView({
   placed,
   hovered,
+  dimmed,
   onHover,
   onClick,
 }: {
   placed: Placed;
   hovered: boolean;
+  dimmed: boolean;
   onHover: (on: boolean) => void;
   onClick: () => void;
 }) {
@@ -297,7 +325,10 @@ function LineageNodeView({
       onMouseLeave={isInteractive ? () => onHover(false) : undefined}
       data-node-interactive={isInteractive ? "1" : undefined}
       className={clsx(isInteractive && "cursor-pointer")}
-      style={{ transition: "all 140ms ease-out" }}
+      style={{
+        transition: "all 140ms ease-out",
+        opacity: dimmed ? 0.12 : 1,
+      }}
     >
       <rect
         x={0}
