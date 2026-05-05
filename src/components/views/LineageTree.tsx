@@ -1,21 +1,28 @@
 "use client";
 
 /**
- * LineageTree — vertical indented tree.
+ * LineageTree — phylogenetic-style time-tree (SVG).
  *
- * 设计选型(取代旧 SVG + 年份纵轴 + 按 leafCount 横向铺开的方案):
- *   - 数据形态:深度嵌套树, 共 ~107 节点(root → 事件 → 流派 → 摄影师 →
- *     有时再嵌入"流派由摄影师催生"的子流派),且每个节点都带年份.
- *   - 旧方案问题:78 leaves × 64–124px = 6000+px 横向, 必出水平滚动 + 标签
- *     在窄槽位重叠 + sticky 年轴在不同滚动位置上的亚像素错位.
- *   - 新方案:类似文件树 / JSON viewer 的纵向缩进列表. 信息按时间排序,
- *     纵向一屏即可看到整体骨架(默认事件展开 / 流派折叠), 点击流派局部
- *     展开摄影师. 完全无水平滚动, 没有连线对齐问题, 标签永不重叠.
+ * 设计:
+ *   x = 树深度 × COL_W (~80 节点列, depth ≤ 10 → ~800px, 一屏放下)
+ *   y = 非对称(分段线性)时间轴: 1820–1900 稀疏期压缩, 1900–1970 高峰期
+ *       拉伸, 1970–现今居中. 摄影/事件/流派/摄影师都按各自年份纵向定位.
+ *   edges = parent → child cubic-bezier, 直接呈现"传承"关系
  *
- * 设计规则参考:
- *   §2 gesture-conflicts (避免横向手势)、§5 horizontal-scroll、§5 scroll-
- *   behavior、§5 visual-hierarchy、§6 spacing-scale、§8 progressive-
- *   disclosure (默认折叠, 按需展开)、§9 back-stack-integrity (Link replace).
+ * 解决了之前两版的核心问题:
+ *   - 旧 SVG (按 leaf-count 横向铺开): 78 leaf × ~80 = 6000+px, 必出
+ *     横向滚 + 标签在窄槽位重叠 + sticky 年轴亚像素错位.
+ *   - 上一版纵向缩进树: 信息密度高但失去"树"的视觉,时间维度只在年份
+ *     列里反映, 看不出时间间距.
+ *
+ * 这里两个维度都按数据语义分配: x=世代, y=年份(非对称). leaf 不再
+ * 抢横向槽位; 同代兄弟在 y 方向自然分散; 时间轴 visually compresses
+ * 死亡空白期 (1820–1900 整 80 年压在 120px, 而 1900–1970 70 年得到
+ * 420px), 整棵树一屏(纵向偶尔滚)看到, 横向 ~900px 一屏可见.
+ *
+ * 兼容: §2 gesture-conflicts (无强制横向滚)、§5 horizontal-scroll
+ * 尽量不出现、§5 visual-hierarchy (时间+世代双正交编码)、§8 progressive-
+ * disclosure (流派可折叠收纳麾下摄影师)、§10 chart axis-readability.
  */
 
 import {
@@ -27,7 +34,6 @@ import {
   useState,
 } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
-import { clsx } from "clsx";
 import type { LineageNode, FilterState } from "@/lib/types";
 import { getMovement, getPhotographer } from "@/lib/data";
 import {
@@ -40,29 +46,39 @@ import { parseFilter, passes } from "@/lib/filter";
 
 type Props = { root: LineageNode };
 
-const ROW_H = 34;
-const INDENT = 18;
-const YEAR_W = 64;
-const EXPAND_KEY = "lineage-expanded-v3";
-const SCROLL_KEY = "lineage-scroll-v3";
+const YEAR_AXIS_W = 56;
+const COL_W = 64;        // 每代深度列宽
+const NODE_R = 4;        // 节点半径
+const NODE_GAP = 22;     // 兄弟节点最小垂直间距 (容下一行 13px label)
+const TOP_PAD = 28;
+const BOTTOM_PAD = 36;
+const RIGHT_PAD = 24;
+const LABEL_OFFSET = 9;  // node 圆心到文字起点
+const LABEL_MAX_W = 160; // 末端 label 最长
 
-export function LineageTree(props: Props) {
-  return (
-    <Suspense fallback={null}>
-      <LineageTreeInner {...props} />
-    </Suspense>
-  );
+const EXPAND_KEY = "lineage-expanded-v4";
+const SCROLL_KEY = "lineage-scroll-v4";
+
+/** Piece-wise linear time scale: sparse periods compressed, dense expanded.
+ * Domain edges chosen by photography history density, not arbitrary. */
+const SEGMENTS: Array<{ from: number; to: number; pxPerYear: number }> = [
+  { from: 1820, to: 1900, pxPerYear: 1.4 },  // origins / chemical era
+  { from: 1900, to: 1970, pxPerYear: 6.0 },  // modernist peak
+  { from: 1970, to: 2030, pxPerYear: 4.0 },  // contemporary
+];
+function scaleY(year: number): number {
+  let y = TOP_PAD;
+  for (const s of SEGMENTS) {
+    if (year <= s.from) return y;
+    if (year >= s.to) {
+      y += (s.to - s.from) * s.pxPerYear;
+      continue;
+    }
+    y += (year - s.from) * s.pxPerYear;
+    return y;
+  }
+  return y;
 }
-
-type Flat = {
-  node: LineageNode;
-  depth: number;
-  hasChildren: boolean;
-  childCount: number;
-  visiblePhotographerCount: number;
-  expanded: boolean;
-  ancestorIds: string[];
-};
 
 function isFilteredOut(n: LineageNode, filter: FilterState): boolean {
   if (n.kind === "photographer" && n.refId) {
@@ -70,12 +86,8 @@ function isFilteredOut(n: LineageNode, filter: FilterState): boolean {
     if (ph && !passes(ph, filter)) return true;
   }
   if (n.kind === "movement" && n.refId) {
-    if (
-      filter.movementIds.length &&
-      !filter.movementIds.includes(n.refId)
-    ) {
+    if (filter.movementIds.length && !filter.movementIds.includes(n.refId))
       return true;
-    }
   }
   return false;
 }
@@ -86,11 +98,31 @@ function countVisiblePhotographers(
 ): number {
   if (isFilteredOut(n, filter)) return 0;
   let c = n.kind === "photographer" ? 1 : 0;
-  if (n.children) {
+  if (n.children)
     for (const ch of n.children) c += countVisiblePhotographers(ch, filter);
-  }
   return c;
 }
+
+export function LineageTree(props: Props) {
+  return (
+    <Suspense fallback={null}>
+      <LineageTreeInner {...props} />
+    </Suspense>
+  );
+}
+
+type Placed = {
+  node: LineageNode;
+  depth: number;
+  x: number;
+  y: number;
+  parentX?: number;
+  parentY?: number;
+  visiblePhotographerCount: number;
+  hasChildren: boolean;
+  expanded: boolean;
+  ancestorIds: string[];
+};
 
 function LineageTreeInner({ root }: Props) {
   const router = useRouter();
@@ -104,9 +136,9 @@ function LineageTreeInner({ root }: Props) {
   const [expandOverride, setExpandOverride] = useState<
     Record<string, boolean>
   >({});
-  const [hoverNode, setHoverNode] = useState<Flat | null>(null);
+  const [hoverId, setHoverId] = useState<string | null>(null);
 
-  /* persistence ─────────────────────────────────────────────────── */
+  /* persistence ─────────────────────────────────────────────── */
   useEffect(() => {
     if (typeof window === "undefined") return;
     const saved = sessionStorage.getItem(EXPAND_KEY);
@@ -115,9 +147,7 @@ function LineageTreeInner({ root }: Props) {
         const parsed = JSON.parse(saved);
         if (parsed && typeof parsed === "object")
           setExpandOverride(parsed as Record<string, boolean>);
-      } catch {
-        /* ignore */
-      }
+      } catch {}
     }
     setHydrated(true);
   }, []);
@@ -125,13 +155,12 @@ function LineageTreeInner({ root }: Props) {
     if (!hydrated) return;
     sessionStorage.setItem(EXPAND_KEY, JSON.stringify(expandOverride));
   }, [expandOverride, hydrated]);
-
-  /* scroll restoration */
   useEffect(() => {
     if (!hydrated || !scrollRef.current) return;
     const saved = sessionStorage.getItem(SCROLL_KEY);
     if (saved) {
-      const y = Number(saved);
+      const [x, y] = saved.split(",").map(Number);
+      if (Number.isFinite(x)) scrollRef.current.scrollLeft = x;
       if (Number.isFinite(y)) scrollRef.current.scrollTop = y;
     }
   }, [hydrated]);
@@ -142,7 +171,10 @@ function LineageTreeInner({ root }: Props) {
     function save() {
       cancelAnimationFrame(raf);
       raf = requestAnimationFrame(() => {
-        sessionStorage.setItem(SCROLL_KEY, String(el!.scrollTop));
+        sessionStorage.setItem(
+          SCROLL_KEY,
+          `${el!.scrollLeft},${el!.scrollTop}`
+        );
       });
     }
     el.addEventListener("scroll", save, { passive: true });
@@ -152,67 +184,138 @@ function LineageTreeInner({ root }: Props) {
     };
   }, []);
 
-  /* default expansion: events / root expanded; movements collapsed. */
-  const defaultExpanded = useCallback(
-    (n: LineageNode) => n.kind !== "movement",
-    []
-  );
+  /* expansion default: events & root expanded; movements expanded by
+     default in this view too (tree-curves benefit from showing connections);
+     user can collapse to focus. */
+  const defaultExpanded = useCallback(() => true, []);
   const isExpanded = useCallback(
     (n: LineageNode) =>
-      n.id in expandOverride ? expandOverride[n.id] : defaultExpanded(n),
+      n.id in expandOverride ? expandOverride[n.id] : defaultExpanded(),
     [expandOverride, defaultExpanded]
   );
 
-  /* flatten ─────────────────────────────────────────────────────── */
-  const flat = useMemo<Flat[]>(() => {
-    const out: Flat[] = [];
+  /* ── layout ──────────────────────────────────────────────── */
+  const layout = useMemo(() => {
+    const placed: Placed[] = [];
+
+    // Pass 1: walk tree, compute depth + ideal y; collect.
     function walk(
       n: LineageNode,
       depth: number,
-      ancestors: string[]
-    ): void {
+      parent: Placed | null,
+      ancestors: string[],
+      inheritedYear: number
+    ) {
       if (isFilteredOut(n, filter)) return;
-
-      const sortedChildren = [...(n.children ?? [])].sort((a, b) => {
-        const ya = typeof a.year === "number" ? a.year : 9999;
-        const yb = typeof b.year === "number" ? b.year : 9999;
-        if (ya !== yb) return ya - yb;
-        return a.label.localeCompare(b.label);
-      });
-
-      const visibleChildren = sortedChildren.filter(
-        (c) => !isFilteredOut(c, filter)
-      );
-      const childCount = visibleChildren.length;
-      const visiblePhotographerCount = countVisiblePhotographers(n, filter);
+      const year =
+        typeof n.year === "number" ? n.year : inheritedYear;
+      const x = YEAR_AXIS_W + 16 + depth * COL_W;
+      const y = scaleY(year);
       const expanded = isExpanded(n);
 
-      out.push({
+      const sortedChildren = [...(n.children ?? [])]
+        .filter((c) => !isFilteredOut(c, filter))
+        .sort((a, b) => {
+          const ya = typeof a.year === "number" ? a.year : 9999;
+          const yb = typeof b.year === "number" ? b.year : 9999;
+          if (ya !== yb) return ya - yb;
+          return a.label.localeCompare(b.label);
+        });
+
+      const me: Placed = {
         node: n,
         depth,
-        hasChildren: childCount > 0,
-        childCount,
-        visiblePhotographerCount,
+        x,
+        y,
+        parentX: parent?.x,
+        parentY: parent?.y,
+        visiblePhotographerCount: countVisiblePhotographers(n, filter),
+        hasChildren: sortedChildren.length > 0,
         expanded,
         ancestorIds: ancestors,
-      });
+      };
+      placed.push(me);
 
-      if (childCount > 0 && expanded) {
+      if (expanded) {
         const next = [...ancestors, n.id];
-        for (const c of visibleChildren) walk(c, depth + 1, next);
+        for (const c of sortedChildren)
+          walk(c, depth + 1, me, next, year);
       }
     }
-    walk(root, 0, []);
-    return out;
+    walk(root, 0, null, [], 1820);
+
+    // Pass 2: per-parent sibling min-spacing (sort by y, push down).
+    // Build child arrays from placed parent linkage.
+    const byParent = new Map<string, Placed[]>();
+    for (const p of placed) {
+      const pid = p.ancestorIds[p.ancestorIds.length - 1] ?? "__root__";
+      if (!byParent.has(pid)) byParent.set(pid, []);
+      byParent.get(pid)!.push(p);
+    }
+    for (const siblings of byParent.values()) {
+      siblings.sort((a, b) => a.y - b.y);
+      let prevY = -Infinity;
+      for (const s of siblings) {
+        if (s.y < prevY + NODE_GAP) s.y = prevY + NODE_GAP;
+        prevY = s.y;
+      }
+    }
+
+    // Pass 3: top-down enforcement: child.y >= parent.y + NODE_GAP/2
+    // (a child can't temporally precede its parent in our chosen scale).
+    const byId = new Map(placed.map((p) => [p.node.id, p]));
+    function enforce(p: Placed) {
+      const myDirectKids = byParent.get(p.node.id) ?? [];
+      for (const k of myDirectKids) {
+        const minY = p.y + NODE_GAP * 0.5;
+        if (k.y < minY) k.y = minY;
+        enforce(k);
+      }
+    }
+    const rootPlaced = byId.get(root.id);
+    if (rootPlaced) enforce(rootPlaced);
+
+    // Reapply pass 2 (sibling spacing) after pass 3 may have pushed kids
+    // unevenly: re-run once for stability.
+    for (const siblings of byParent.values()) {
+      siblings.sort((a, b) => a.y - b.y);
+      let prevY = -Infinity;
+      for (const s of siblings) {
+        if (s.y < prevY + NODE_GAP) s.y = prevY + NODE_GAP;
+        prevY = s.y;
+      }
+    }
+
+    // Reconnect parent y (parents may have moved).
+    for (const p of placed) {
+      const parentId = p.ancestorIds[p.ancestorIds.length - 1];
+      if (parentId) {
+        const par = byId.get(parentId);
+        if (par) {
+          p.parentX = par.x;
+          p.parentY = par.y;
+        }
+      }
+    }
+
+    const maxDepth = placed.reduce((m, p) => Math.max(m, p.depth), 0);
+    const maxY = placed.reduce((m, p) => Math.max(m, p.y), TOP_PAD);
+    const treeWidth =
+      YEAR_AXIS_W + 16 + maxDepth * COL_W + LABEL_MAX_W + RIGHT_PAD;
+    const treeHeight = maxY + BOTTOM_PAD;
+
+    return { placed, treeWidth, treeHeight, maxDepth, byId };
   }, [root, filter, isExpanded]);
 
-  /* hover ancestor highlight: precompute Set for O(1) lookup */
-  const ancestorSet = useMemo<Set<string>>(() => {
-    if (!hoverNode) return new Set();
-    return new Set([...hoverNode.ancestorIds, hoverNode.node.id]);
-  }, [hoverNode]);
+  /* hover ancestor highlight */
+  const hoverAncestors = useMemo<Set<string>>(() => {
+    if (!hoverId) return new Set();
+    const hp = layout.byId.get(hoverId);
+    if (!hp) return new Set();
+    return new Set([...hp.ancestorIds, hp.node.id]);
+  }, [hoverId, layout]);
 
-  /* actions ─────────────────────────────────────────────────────── */
+  /* actions ─────────────────────────────────────────────────── */
   function toggle(id: string, currently: boolean) {
     setExpandOverride((prev) => ({ ...prev, [id]: !currently }));
   }
@@ -224,7 +327,7 @@ function LineageTreeInner({ root }: Props) {
     })(root);
     setExpandOverride(next);
   }
-  function collapseAll() {
+  function collapseMovements() {
     const next: Record<string, boolean> = {};
     (function w(n: LineageNode) {
       if (n.kind === "movement") next[n.id] = false;
@@ -233,19 +336,18 @@ function LineageTreeInner({ root }: Props) {
     setExpandOverride(next);
   }
   function navigate(n: LineageNode) {
-    if (n.kind === "movement" && n.refId) {
+    if (n.kind === "movement" && n.refId)
       router.push(`/movements/${n.refId}`, { scroll: false });
-    } else if (n.kind === "photographer" && n.refId) {
+    else if (n.kind === "photographer" && n.refId)
       router.push(`/p/${n.refId}`, { scroll: false });
-    }
   }
 
   return (
     <div className="absolute inset-0 flex flex-col">
-      {/* ── Toolbar ────────────────────────────────────────────── */}
+      {/* ── Toolbar ─────────────────────────────────────────── */}
       <div className="shrink-0 flex items-center gap-3 border-b border-rule px-4 h-9 text-[10px] tracking-[0.18em] uppercase font-display bg-bg/95">
         <span className="text-ink-3 tabular-nums">
-          {t("lineage.nodes", { n: flat.length })}
+          {t("lineage.nodes", { n: layout.placed.length })}
         </span>
         <span className="text-ink-3 hidden md:inline normal-case tracking-normal text-[11px]">
           {t("lineage.hint")}
@@ -261,7 +363,7 @@ function LineageTreeInner({ root }: Props) {
           </button>
           <button
             type="button"
-            onClick={collapseAll}
+            onClick={collapseMovements}
             className="px-3 h-7 hover:text-ink hover:bg-bg-2 transition-colors"
           >
             {t("lineage.collapseAll")}
@@ -269,79 +371,193 @@ function LineageTreeInner({ root }: Props) {
         </div>
       </div>
 
-      {/* ── Body ──────────────────────────────────────────────── */}
+      {/* ── SVG canvas with sticky-left year axis ─────────────── */}
       <div
         ref={scrollRef}
-        className="flex-1 min-h-0 overflow-y-auto overflow-x-hidden"
+        className="flex-1 min-h-0 overflow-auto relative"
       >
-        <div role="tree" aria-label="lineage tree">
-          {flat.map((f) => (
-            <Row
-              key={f.node.id}
-              flat={f}
-              locale={locale}
-              t={t}
-              ancestor={ancestorSet.has(f.node.id) && hoverNode?.node.id !== f.node.id}
-              hovered={hoverNode?.node.id === f.node.id}
-              onHover={(on) => setHoverNode(on ? f : null)}
-              onToggle={() => toggle(f.node.id, f.expanded)}
-              onNavigate={() => navigate(f.node)}
-            />
-          ))}
+        <div
+          className="flex relative"
+          style={{
+            width: layout.treeWidth,
+            height: layout.treeHeight,
+          }}
+        >
+          {/* Year axis sticky-left so it remains visible while scrolling. */}
+          <div
+            className="sticky left-0 z-20 bg-bg/95 backdrop-blur-sm border-r border-rule shrink-0"
+            style={{ width: YEAR_AXIS_W, height: layout.treeHeight }}
+            aria-hidden="true"
+          >
+            <svg
+              width={YEAR_AXIS_W}
+              height={layout.treeHeight}
+              className="block select-none"
+            >
+              <YearAxis height={layout.treeHeight} />
+            </svg>
+          </div>
+
+          {/* Tree (SVG) */}
+          <svg
+            width={layout.treeWidth - YEAR_AXIS_W}
+            height={layout.treeHeight}
+            viewBox={`${YEAR_AXIS_W} 0 ${layout.treeWidth - YEAR_AXIS_W} ${layout.treeHeight}`}
+            className="block select-none"
+          >
+            {/* Edges */}
+            {layout.placed.map((p) => {
+              if (p.parentX === undefined || p.parentY === undefined)
+                return null;
+              const x1 = p.parentX;
+              const y1 = p.parentY;
+              const x2 = p.x;
+              const y2 = p.y;
+              // smooth horizontal bezier
+              const dx = (x2 - x1) * 0.5;
+              const path = `M ${x1},${y1} C ${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}`;
+              const isOnPath =
+                hoverAncestors.has(p.node.id) &&
+                hoverAncestors.has(p.ancestorIds[p.ancestorIds.length - 1] ?? "");
+              return (
+                <path
+                  key={`e-${p.node.id}`}
+                  d={path}
+                  fill="none"
+                  stroke={
+                    isOnPath
+                      ? "var(--color-accent)"
+                      : "rgba(170,160,140,0.32)"
+                  }
+                  strokeWidth={isOnPath ? 1.6 : 1}
+                  shapeRendering="geometricPrecision"
+                />
+              );
+            })}
+
+            {/* Nodes */}
+            {layout.placed.map((p) => (
+              <NodeView
+                key={p.node.id}
+                placed={p}
+                locale={locale}
+                hovered={hoverId === p.node.id}
+                ancestor={
+                  hoverAncestors.has(p.node.id) && hoverId !== p.node.id
+                }
+                t={t}
+                onHover={(on) => setHoverId(on ? p.node.id : null)}
+                onClick={() => navigate(p.node)}
+                onToggle={() => toggle(p.node.id, p.expanded)}
+              />
+            ))}
+          </svg>
         </div>
       </div>
     </div>
   );
 }
 
-/* ── Row ─────────────────────────────────────────────────────────── */
+/* ── Year axis (non-linear) ─────────────────────────────────── */
 
-function Row({
-  flat,
+function YearAxis({ height }: { height: number }) {
+  // Major ticks every 25 years, minor every 5; labels every 25.
+  const ticks: { year: number; major: boolean }[] = [];
+  for (const s of SEGMENTS) {
+    const minorStep = s.pxPerYear < 3 ? 25 : s.pxPerYear < 5 ? 10 : 5;
+    const startMinor = Math.ceil(s.from / minorStep) * minorStep;
+    for (let y = startMinor; y <= s.to; y += minorStep) {
+      ticks.push({ year: y, major: y % 25 === 0 });
+    }
+  }
+  return (
+    <g>
+      <line
+        x1={YEAR_AXIS_W - 0.5}
+        x2={YEAR_AXIS_W - 0.5}
+        y1={TOP_PAD - 8}
+        y2={height - 8}
+        stroke="var(--color-rule-2)"
+        shapeRendering="crispEdges"
+      />
+      {ticks.map((t) => {
+        const yy = scaleY(t.year);
+        return (
+          <g key={t.year}>
+            <line
+              x1={YEAR_AXIS_W - (t.major ? 12 : 6)}
+              x2={YEAR_AXIS_W}
+              y1={yy}
+              y2={yy}
+              stroke={
+                t.major ? "var(--color-rule-2)" : "var(--color-rule)"
+              }
+              shapeRendering="crispEdges"
+            />
+            {t.major && (
+              <text
+                x={YEAR_AXIS_W - 16}
+                y={yy + 3}
+                fontSize={10}
+                textAnchor="end"
+                className="font-mono tabular-nums"
+                fill="var(--color-ink-3)"
+              >
+                {t.year}
+              </text>
+            )}
+          </g>
+        );
+      })}
+    </g>
+  );
+}
+
+/* ── Node ──────────────────────────────────────────────────── */
+
+function NodeView({
+  placed,
   locale,
-  t,
-  ancestor,
   hovered,
+  ancestor,
+  t,
   onHover,
+  onClick,
   onToggle,
-  onNavigate,
 }: {
-  flat: Flat;
+  placed: Placed;
   locale: "zh" | "en";
-  t: ReturnType<typeof useT>;
-  ancestor: boolean;
   hovered: boolean;
+  ancestor: boolean;
+  t: ReturnType<typeof useT>;
   onHover: (on: boolean) => void;
+  onClick: () => void;
   onToggle: () => void;
-  onNavigate: () => void;
 }) {
-  const { node, depth, hasChildren, expanded, visiblePhotographerCount } =
-    flat;
+  const { node, x, y, hasChildren, expanded, visiblePhotographerCount } =
+    placed;
 
-  /* node visuals ───────────────────────────────────────────────── */
   let label = node.label;
-  let badge = "·";
   let color = "var(--color-ink-2)";
-  let detail: string | null = null;
   let interactive = false;
+  let detail: string | null = null;
+  let badgeFill = "transparent";
 
   if (node.kind === "root") {
-    badge = "◉";
     color = "var(--color-accent)";
+    badgeFill = "var(--color-accent)";
   } else if (node.kind === "event") {
-    badge = "◇";
-    // strip leading "1839 · " — already shown in year column
+    color = "var(--color-ink-2)";
     label = label.replace(/^\s*\d{4}\s*[·•]\s*/, "");
   } else if (node.kind === "movement") {
-    badge = "◆";
     interactive = true;
     const m = node.refId ? getMovement(node.refId) : undefined;
     if (m) {
       label = getMovementName(m, locale);
       color = m.color;
+      badgeFill = m.color;
     }
   } else if (node.kind === "photographer") {
-    badge = "●";
     interactive = true;
     const p = node.refId ? getPhotographer(node.refId) : undefined;
     if (p) {
@@ -353,148 +569,136 @@ function Row({
     }
   }
 
-  /* keyboard support: Enter navigates, Space toggles */
-  function onKeyDown(e: React.KeyboardEvent<HTMLDivElement>) {
-    if (e.key === "Enter") {
-      if (interactive) onNavigate();
-    } else if (e.key === " " || e.key === "Spacebar") {
-      if (hasChildren) {
-        e.preventDefault();
-        onToggle();
-      }
-    } else if (e.key === "ArrowRight" && hasChildren && !expanded) {
-      e.preventDefault();
-      onToggle();
-    } else if (e.key === "ArrowLeft" && hasChildren && expanded) {
-      e.preventDefault();
-      onToggle();
-    }
-  }
+  const r = hovered ? NODE_R + 1 : NODE_R;
+  const labelOpacity = hovered ? 1 : ancestor ? 0.95 : 0.85;
+  const isMovementCollapsible = node.kind === "movement" && hasChildren;
 
   return (
-    <div
-      role="treeitem"
-      aria-level={depth + 1}
-      aria-expanded={hasChildren ? expanded : undefined}
-      aria-selected={false}
-      tabIndex={interactive || hasChildren ? 0 : -1}
+    <g
+      transform={`translate(${x},${y})`}
       onMouseEnter={() => onHover(true)}
       onMouseLeave={() => onHover(false)}
-      onKeyDown={onKeyDown}
-      className={clsx(
-        "group flex items-stretch border-b border-rule/40 outline-none",
-        "focus-visible:bg-bg-elev focus-visible:ring-1 focus-visible:ring-accent/60",
-        hovered && "bg-bg-elev",
-        ancestor && "bg-bg-elev/50"
-      )}
-      style={{ height: ROW_H }}
+      style={{ cursor: interactive ? "pointer" : undefined }}
     >
-      {/* Year column */}
-      <div
-        className="shrink-0 flex items-center justify-end pr-3 border-r border-rule text-[11px] font-mono tabular-nums text-ink-3"
-        style={{ width: YEAR_W }}
-      >
-        {typeof node.year === "number" ? node.year : ""}
-      </div>
+      {/* Hit area for node + label */}
+      <rect
+        x={-LABEL_OFFSET}
+        y={-NODE_GAP / 2}
+        width={LABEL_OFFSET + LABEL_MAX_W}
+        height={NODE_GAP}
+        fill="transparent"
+        onClick={interactive ? onClick : undefined}
+      />
 
-      {/* Indent guide rails */}
-      {Array.from({ length: depth }).map((_, i) => (
-        <div
-          key={i}
-          aria-hidden="true"
-          className={clsx(
-            "shrink-0 border-r",
-            ancestor || hovered
-              ? "border-accent/40"
-              : "border-rule/25"
-          )}
-          style={{ width: INDENT }}
+      {/* Marker */}
+      <circle
+        cx={0}
+        cy={0}
+        r={r}
+        fill={badgeFill === "transparent" ? "var(--color-bg)" : badgeFill}
+        stroke={color}
+        strokeWidth={hovered || ancestor ? 1.5 : 1}
+      />
+      {node.kind === "event" && (
+        <circle
+          cx={0}
+          cy={0}
+          r={r - 2}
+          fill="var(--color-bg)"
+          opacity={0.85}
         />
-      ))}
+      )}
 
-      {/* Chevron toggle (or placeholder) */}
-      <button
-        type="button"
-        onClick={(e) => {
-          e.stopPropagation();
-          if (hasChildren) onToggle();
-        }}
-        aria-label={expanded ? "collapse" : "expand"}
-        tabIndex={-1}
-        className={clsx(
-          "shrink-0 w-7 h-full flex items-center justify-center text-ink-3 hover:text-ink",
-          !hasChildren && "pointer-events-none opacity-0"
-        )}
-      >
-        <svg
-          width="9"
-          height="9"
-          viewBox="0 0 9 9"
-          fill="none"
-          style={{
-            transform: expanded ? "rotate(90deg)" : "rotate(0deg)",
-            transition: "transform 140ms ease-out",
+      {/* Toggle for movement (small chevron sitting on the marker for collapsibility) */}
+      {isMovementCollapsible && (
+        <g
+          onClick={(e) => {
+            e.stopPropagation();
+            onToggle();
           }}
+          style={{ cursor: "pointer" }}
         >
+          <circle
+            cx={-12}
+            cy={0}
+            r={6}
+            fill="var(--color-bg)"
+            stroke={color}
+            strokeWidth={1}
+            opacity={hovered || ancestor ? 1 : 0.55}
+          />
           <path
-            d="M2.5 1.5 L6 4.5 L2.5 7.5"
-            stroke="currentColor"
-            strokeWidth="1.25"
+            d={
+              expanded
+                ? "M -14.5,-1.5 L -12,1 L -9.5,-1.5"
+                : "M -13.5,-3 L -10.5,0 L -13.5,3"
+            }
+            stroke={color}
+            strokeWidth={1.25}
+            fill="none"
             strokeLinecap="round"
             strokeLinejoin="round"
+            opacity={hovered || ancestor ? 1 : 0.55}
           />
-        </svg>
-      </button>
+        </g>
+      )}
 
-      {/* Body — clickable for navigate */}
-      <div
-        onClick={() => interactive && onNavigate()}
-        className={clsx(
-          "flex-1 min-w-0 flex items-center gap-2 pr-4",
-          interactive && "cursor-pointer"
-        )}
-        title={node.label}
+      {/* Label (right of marker) */}
+      <text
+        x={LABEL_OFFSET}
+        y={3.5}
+        fontSize={node.kind === "root" ? 12 : 11}
+        fontWeight={
+          node.kind === "movement" || node.kind === "root" ? 600 : 400
+        }
+        fill="var(--color-ink)"
+        opacity={labelOpacity}
+        className="font-display"
+        style={{ pointerEvents: "none" }}
       >
-        <span
-          aria-hidden="true"
-          style={{ color }}
-          className="font-display text-[12px] shrink-0 w-3 text-center tabular-nums"
+        <Truncated text={label} maxChars={node.kind === "event" ? 14 : 12} />
+      </text>
+
+      {/* Detail (life years for photographer, count for movement) */}
+      {detail && (
+        <text
+          x={LABEL_OFFSET}
+          y={14}
+          fontSize={9}
+          fill="var(--color-ink-3)"
+          className="font-mono tabular-nums"
+          opacity={0.7}
+          style={{ pointerEvents: "none" }}
         >
-          {badge}
-        </span>
-        <span
-          className={clsx(
-            "font-display text-[13px] truncate",
-            node.kind === "root"
-              ? "text-accent"
-              : node.kind === "event"
-                ? "text-ink-2"
-                : "text-ink",
-            interactive && "group-hover:text-accent transition-colors"
-          )}
-          style={
-            node.kind === "movement" ? { color } : undefined
-          }
+          {detail}
+        </text>
+      )}
+      {node.kind === "movement" && visiblePhotographerCount > 0 && (
+        <text
+          x={LABEL_OFFSET}
+          y={14}
+          fontSize={9}
+          fill="var(--color-ink-3)"
+          className="font-mono tabular-nums"
+          opacity={0.7}
+          style={{ pointerEvents: "none" }}
         >
-          {label}
-        </span>
-        {detail && (
-          <span className="font-mono text-[10px] tabular-nums text-ink-3 shrink-0">
-            {detail}
-          </span>
-        )}
-        {node.kind === "movement" && visiblePhotographerCount > 0 && (
-          <span
-            className={clsx(
-              "ml-auto shrink-0 inline-flex items-center gap-1 px-1.5 h-5 border text-[10px] font-mono tabular-nums",
-              "border-rule text-ink-3 bg-bg-elev/40"
-            )}
-          >
-            <span className="tabular-nums">{visiblePhotographerCount}</span>
-            <span>{t("lineage.figures")}</span>
-          </span>
-        )}
-      </div>
-    </div>
+          {visiblePhotographerCount} {t("lineage.figures")}
+        </text>
+      )}
+
+      <title>{`${label}${detail ? " · " + detail : ""}`}</title>
+    </g>
   );
+}
+
+function Truncated({
+  text,
+  maxChars,
+}: {
+  text: string;
+  maxChars: number;
+}) {
+  if (text.length <= maxChars) return <>{text}</>;
+  return <>{text.slice(0, maxChars - 1) + "…"}</>;
 }
