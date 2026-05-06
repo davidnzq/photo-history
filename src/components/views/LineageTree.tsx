@@ -277,49 +277,58 @@ function LineageTreeInner({ root }: Props) {
     }
     walk(root, 0, null, [], 1820);
 
-    // Pass 2: per-parent sibling min-spacing (sort by y, push down).
-    // Build child arrays from placed parent linkage.
+    // Group helpers (re-used per iteration).
     const byParent = new Map<string, Placed[]>();
+    const byDepth = new Map<number, Placed[]>();
     for (const p of placed) {
       const pid = p.ancestorIds[p.ancestorIds.length - 1] ?? "__root__";
       if (!byParent.has(pid)) byParent.set(pid, []);
       byParent.get(pid)!.push(p);
+      if (!byDepth.has(p.depth)) byDepth.set(p.depth, []);
+      byDepth.get(p.depth)!.push(p);
     }
-    for (const siblings of byParent.values()) {
-      siblings.sort((a, b) => a.y - b.y);
-      let prevY = -Infinity;
-      for (const s of siblings) {
-        if (s.y < prevY + NODE_GAP) s.y = prevY + NODE_GAP;
-        prevY = s.y;
-      }
-    }
-
-    // Pass 3: top-down enforcement: child.y >= parent.y + NODE_GAP/2
-    // (a child can't temporally precede its parent in our chosen scale).
     const byId = new Map(placed.map((p) => [p.node.id, p]));
-    function enforce(p: Placed) {
-      const myDirectKids = byParent.get(p.node.id) ?? [];
-      for (const k of myDirectKids) {
+
+    // Top-down enforce: child.y >= parent.y + NODE_GAP/2 (temporal
+    // coherence — keeps ancestors-up, descendants-down).
+    function enforceTopDown(p: Placed) {
+      for (const k of byParent.get(p.node.id) ?? []) {
         const minY = p.y + NODE_GAP * 0.5;
         if (k.y < minY) k.y = minY;
-        enforce(k);
+        enforceTopDown(k);
       }
     }
     const rootPlaced = byId.get(root.id);
-    if (rootPlaced) enforce(rootPlaced);
 
-    // Reapply pass 2 (sibling spacing) after pass 3 may have pushed kids
-    // unevenly: re-run once for stability.
-    for (const siblings of byParent.values()) {
-      siblings.sort((a, b) => a.y - b.y);
-      let prevY = -Infinity;
-      for (const s of siblings) {
-        if (s.y < prevY + NODE_GAP) s.y = prevY + NODE_GAP;
-        prevY = s.y;
+    // Iterative relaxation: alternates 3 constraints until stable.
+    //   1) per-parent sibling spacing (siblings under same parent
+    //      in birth-year order with min gap)
+    //   2) per-DEPTH global spacing (cross-parent same-depth
+    //      collisions — the bug we're fixing now)
+    //   3) top-down: child below parent
+    for (let iter = 0; iter < 5; iter++) {
+      for (const siblings of byParent.values()) {
+        siblings.sort((a, b) => a.y - b.y);
+        let prevY = -Infinity;
+        for (const s of siblings) {
+          if (s.y < prevY + NODE_GAP) s.y = prevY + NODE_GAP;
+          prevY = s.y;
+        }
+      }
+      if (rootPlaced) enforceTopDown(rootPlaced);
+      for (const sameDepth of byDepth.values()) {
+        sameDepth.sort((a, b) => a.y - b.y);
+        let prevY = -Infinity;
+        for (const s of sameDepth) {
+          if (s.y < prevY + NODE_GAP) s.y = prevY + NODE_GAP;
+          prevY = s.y;
+        }
       }
     }
 
-    // Reconnect parent y (parents may have moved).
+    // FINAL step: reconnect parentX/Y to the parents' final positions
+    // so that bezier endpoints anchor to where parent dots actually render.
+    // Must be LAST — any earlier sweep will move parents and stale these.
     for (const p of placed) {
       const parentId = p.ancestorIds[p.ancestorIds.length - 1];
       if (parentId) {
