@@ -230,6 +230,10 @@ function LineageTreeInner({ root }: Props) {
     );
 
     const placed: Placed[] = [];
+    // Defensive: skip duplicate node ids — a single id appearing twice
+    // in the source tree would silently break byId lookups and corrupt
+    // hover-ancestor highlighting. We render only the first occurrence.
+    const seen = new Set<string>();
 
     // Pass 1: walk tree, compute depth + ideal y; collect.
     function walk(
@@ -240,6 +244,8 @@ function LineageTreeInner({ root }: Props) {
       inheritedYear: number
     ) {
       if (isFilteredOut(n, filter)) return;
+      if (seen.has(n.id)) return;
+      seen.add(n.id);
       const year =
         typeof n.year === "number" ? n.year : inheritedYear;
       const x = YEAR_AXIS_W + 16 + depth * colW;
@@ -447,35 +453,54 @@ function LineageTreeInner({ root }: Props) {
             viewBox={`${YEAR_AXIS_W} 0 ${layout.treeWidth - YEAR_AXIS_W} ${layout.treeHeight}`}
             className="block select-none"
           >
-            {/* Edges */}
-            {layout.placed.map((p) => {
-              if (p.parentX === undefined || p.parentY === undefined)
-                return null;
-              const x1 = p.parentX;
-              const y1 = p.parentY;
-              const x2 = p.x;
-              const y2 = p.y;
-              // smooth horizontal bezier
-              const dx = (x2 - x1) * 0.5;
-              const path = `M ${x1},${y1} C ${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}`;
-              const isOnPath =
-                hoverAncestors.has(p.node.id) &&
-                hoverAncestors.has(p.ancestorIds[p.ancestorIds.length - 1] ?? "");
+            {/* Edges — split into two layers so highlighted ones render
+                on top of dimmed siblings (z-order via paint order). */}
+            {(() => {
+              const hovering = hoverId !== null;
+              const items = layout.placed
+                .filter(
+                  (p) => p.parentX !== undefined && p.parentY !== undefined
+                )
+                .map((p) => {
+                  const x1 = p.parentX!;
+                  const y1 = p.parentY!;
+                  const x2 = p.x;
+                  const y2 = p.y;
+                  const dx = (x2 - x1) * 0.5;
+                  const d = `M ${x1},${y1} C ${x1 + dx},${y1} ${x2 - dx},${y2} ${x2},${y2}`;
+                  const isOnPath =
+                    hoverAncestors.has(p.node.id) &&
+                    hoverAncestors.has(
+                      p.ancestorIds[p.ancestorIds.length - 1] ?? ""
+                    );
+                  return { id: p.node.id, d, isOnPath };
+                });
               return (
-                <path
-                  key={`e-${p.node.id}`}
-                  d={path}
-                  fill="none"
-                  stroke={
-                    isOnPath
-                      ? "var(--color-accent)"
-                      : "rgba(170,160,140,0.32)"
-                  }
-                  strokeWidth={isOnPath ? 1.6 : 1}
-                  shapeRendering="geometricPrecision"
-                />
+                <>
+                  {items.map((it) => (
+                    <path
+                      key={`e-${it.id}`}
+                      d={it.d}
+                      fill="none"
+                      stroke={
+                        it.isOnPath
+                          ? "var(--color-accent)"
+                          : "rgba(170,160,140,1)"
+                      }
+                      strokeOpacity={
+                        it.isOnPath ? 1 : hovering ? 0.08 : 0.32
+                      }
+                      strokeWidth={it.isOnPath ? 2 : 1}
+                      shapeRendering="geometricPrecision"
+                      style={{
+                        transition:
+                          "stroke-opacity 160ms ease-out, stroke-width 160ms ease-out",
+                      }}
+                    />
+                  ))}
+                </>
               );
-            })}
+            })()}
 
             {/* Nodes */}
             {layout.placed.map((p) => (
@@ -483,6 +508,7 @@ function LineageTreeInner({ root }: Props) {
                 key={p.node.id}
                 placed={p}
                 locale={locale}
+                hovering={hoverId !== null}
                 hovered={hoverId === p.node.id}
                 ancestor={
                   hoverAncestors.has(p.node.id) && hoverId !== p.node.id
@@ -560,6 +586,7 @@ function YearAxis({ height }: { height: number }) {
 function NodeView({
   placed,
   locale,
+  hovering,
   hovered,
   ancestor,
   t,
@@ -569,8 +596,9 @@ function NodeView({
 }: {
   placed: Placed;
   locale: "zh" | "en";
-  hovered: boolean;
-  ancestor: boolean;
+  hovering: boolean;     // any node hovered (this one or another)
+  hovered: boolean;      // this exact node is hovered
+  ancestor: boolean;     // this is an ancestor of the hovered node
   t: ReturnType<typeof useT>;
   onHover: (on: boolean) => void;
   onClick: () => void;
@@ -578,6 +606,10 @@ function NodeView({
 }) {
   const { node, x, y, hasChildren, expanded, visiblePhotographerCount } =
     placed;
+  /** on the hover path: hovered OR ancestor of the hovered node */
+  const onPath = hovered || ancestor;
+  /** dimmed: there IS a hover, but this node isn't on the path */
+  const dimmed = hovering && !onPath;
 
   let label = node.label;
   let color = "var(--color-ink-2)";
@@ -611,8 +643,9 @@ function NodeView({
     }
   }
 
-  const r = hovered ? NODE_R + 1 : NODE_R;
-  const labelOpacity = hovered ? 1 : ancestor ? 0.95 : 0.85;
+  const r = hovered ? NODE_R + 1.5 : ancestor ? NODE_R + 0.5 : NODE_R;
+  const labelOpacity = dimmed ? 0.22 : 1;
+  const markerOpacity = dimmed ? 0.28 : 1;
   const isMovementCollapsible = node.kind === "movement" && hasChildren;
 
   return (
@@ -620,7 +653,10 @@ function NodeView({
       transform={`translate(${x},${y})`}
       onMouseEnter={() => onHover(true)}
       onMouseLeave={() => onHover(false)}
-      style={{ cursor: interactive ? "pointer" : undefined }}
+      style={{
+        cursor: interactive ? "pointer" : undefined,
+        transition: "opacity 160ms ease-out",
+      }}
     >
       {/* Hit area for node + label */}
       <rect
@@ -638,8 +674,12 @@ function NodeView({
         cy={0}
         r={r}
         fill={badgeFill === "transparent" ? "var(--color-bg)" : badgeFill}
-        stroke={color}
-        strokeWidth={hovered || ancestor ? 1.5 : 1}
+        stroke={onPath ? "var(--color-accent)" : color}
+        strokeWidth={hovered ? 2 : ancestor ? 1.75 : 1}
+        opacity={markerOpacity}
+        style={{
+          transition: "opacity 160ms ease-out, stroke-width 160ms ease-out",
+        }}
       />
       {node.kind === "event" && (
         <circle
@@ -647,7 +687,7 @@ function NodeView({
           cy={0}
           r={r - 2}
           fill="var(--color-bg)"
-          opacity={0.85}
+          opacity={dimmed ? 0.4 : 0.85}
         />
       )}
 
@@ -658,16 +698,16 @@ function NodeView({
             e.stopPropagation();
             onToggle();
           }}
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer", opacity: markerOpacity }}
         >
           <circle
             cx={-12}
             cy={0}
             r={6}
             fill="var(--color-bg)"
-            stroke={color}
+            stroke={onPath ? "var(--color-accent)" : color}
             strokeWidth={1}
-            opacity={hovered || ancestor ? 1 : 0.55}
+            opacity={onPath ? 1 : 0.55}
           />
           <path
             d={
@@ -675,12 +715,12 @@ function NodeView({
                 ? "M -14.5,-1.5 L -12,1 L -9.5,-1.5"
                 : "M -13.5,-3 L -10.5,0 L -13.5,3"
             }
-            stroke={color}
+            stroke={onPath ? "var(--color-accent)" : color}
             strokeWidth={1.25}
             fill="none"
             strokeLinecap="round"
             strokeLinejoin="round"
-            opacity={hovered || ancestor ? 1 : 0.55}
+            opacity={onPath ? 1 : 0.55}
           />
         </g>
       )}
@@ -689,14 +729,28 @@ function NodeView({
       <text
         x={LABEL_OFFSET}
         y={4}
-        fontSize={node.kind === "root" ? 12 : 11}
-        fontWeight={
-          node.kind === "movement" || node.kind === "root" ? 600 : 400
+        fontSize={
+          hovered ? 12 : node.kind === "root" ? 12 : 11
         }
-        fill="var(--color-ink)"
+        fontWeight={
+          onPath || node.kind === "movement" || node.kind === "root"
+            ? 600
+            : 400
+        }
+        fill={
+          hovered
+            ? "var(--color-accent)"
+            : ancestor
+              ? "var(--color-ink)"
+              : "var(--color-ink)"
+        }
         opacity={labelOpacity}
         className="font-display"
-        style={{ pointerEvents: "none" }}
+        style={{
+          pointerEvents: "none",
+          transition:
+            "opacity 160ms ease-out, font-size 160ms ease-out, fill 160ms ease-out",
+        }}
       >
         <tspan>{truncate(label, node.kind === "event" ? 16 : 12)}</tspan>
         {detail && (
@@ -704,7 +758,9 @@ function NodeView({
             dx={6}
             fontSize={9}
             fontWeight={400}
-            fill="var(--color-ink-3)"
+            fill={
+              onPath ? "var(--color-ink-2)" : "var(--color-ink-3)"
+            }
             style={{ fontFamily: "var(--font-mono, ui-monospace)" }}
           >
             {detail}
@@ -717,7 +773,9 @@ function NodeView({
               dx={6}
               fontSize={9}
               fontWeight={400}
-              fill="var(--color-ink-3)"
+              fill={
+                onPath ? "var(--color-ink-2)" : "var(--color-ink-3)"
+              }
               style={{ fontFamily: "var(--font-mono, ui-monospace)" }}
             >
               {`${visiblePhotographerCount} ${t("lineage.figures")}`}

@@ -239,14 +239,6 @@
                               "label": "Sudek",
                               "year": 1940,
                               "children": []
-                            },
-                            {
-                              "id": "photographers/marey",
-                              "kind": "photographer",
-                              "refId": "marey",
-                              "label": "Marey",
-                              "year": 1882,
-                              "children": []
                             }
                           ]
                         },
