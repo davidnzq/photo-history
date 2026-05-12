@@ -142,14 +142,35 @@
       "talbot"
     ],
     "bio": "法国肖像摄影先驱,巴黎工作室拍下波德莱尔、雨果、萨拉·伯恩哈特等十九世纪文化名人;1858 年首次完成航拍。",
+    "bioLong": "原名 Gaspard-Félix Tournachon,巴黎讽刺画家与记者出身,1854 年在卡布辛大道开设 \"Nadar\" 摄影工作室。他放弃当时流行的繁复布景,改用自然光与单色背景,近距正面构图捕捉人物精神状态,迅速成为十九世纪后半叶巴黎文化圈的肖像中心:波德莱尔、George Sand、雨果、Sarah Bernhardt、Manet、Delacroix 几乎是当时整个法国艺文界。1858 年他乘热气球完成首次可识别的航拍,把摄影从工作室推向地理与新闻领域;1863 年又造了巨型热气球 \"Le Géant\" 做更远距离的尝试。1874 年 4 月,他把工作室借给一群被沙龙拒绝的青年画家,意外成为印象派首届展览的发生地。晚年与儿子 Paul 合作的 \"采访摄影\" 被视为摄影报道的先声。Nadar 几乎以一己之力把摄影师从工匠提升为文化人物,他的肖像范式——背景剥离、注意力全在眼神——延续到斯蒂格利茨与 Cartier-Bresson 一代仍未失效。",
     "keyDates": [
       {
+        "year": 1854,
+        "event": "在卡布辛大道开设 \"Nadar\" 摄影工作室"
+      },
+      {
+        "year": 1855,
+        "event": "拍摄 Baudelaire 肖像"
+      },
+      {
         "year": 1858,
-        "event": "热气球航拍巴黎"
+        "event": "热气球首次完成可识别的航拍"
+      },
+      {
+        "year": 1863,
+        "event": "升空巨型热气球 \"Le Géant\""
       },
       {
         "year": 1874,
         "event": "工作室主办首届印象派展览"
+      },
+      {
+        "year": 1886,
+        "event": "与儿子 Paul 完成对化学家 Chevreul 的首例 \"采访摄影\""
+      },
+      {
+        "year": 1900,
+        "event": "出版回忆录《当我曾是摄影师》"
       }
     ],
     "works": [
@@ -157,17 +178,34 @@
         "title": "Sarah Bernhardt",
         "year": 1864,
         "image": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg",
-        "credit": "Public Domain"
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg"
+      },
+      {
+        "title": "Charles Baudelaire",
+        "year": 1855,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Charles_Baudelaire.jpg",
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Charles_Baudelaire.jpg"
+      },
+      {
+        "title": "Self-portrait",
+        "year": 1860,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Self-portrait_of_Nadar.jpg",
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Self-portrait_of_Nadar.jpg"
       }
     ],
     "techniques": [
       "湿版火棉胶",
-      "人像光学"
+      "黑色背景",
+      "自然光肖像"
     ],
     "quote": "摄影只在一瞬间存在。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Sarah_Bernhardt%2C_par_Nadar%2C_1864.jpg",
-      "https://en.wikipedia.org/wiki/Nadar"
+      "https://en.wikipedia.org/wiki/Nadar",
+      "https://commons.wikimedia.org/wiki/Category:Photographs_by_Nadar",
+      "https://www.metmuseum.org/art/collection/search/283134"
     ]
   },
   {
@@ -186,14 +224,31 @@
       "nadar"
     ],
     "bio": "法国摄影师,清晨独自走街拍摄\"老巴黎\",一万余张玻璃版片几乎构成一座城市的影像档案。被超现实主义与现代主义共同奉为先驱。",
+    "bioLong": "1857 年生于法国波尔多附近的 Libourne,早年做过水手、外省演员,四十岁后才转入摄影。Atget 给自己定的位置不是 \"艺术家\",而是给画家、装饰师、博物馆提供视觉素材的供货人——他的店铺招牌写着 \"Documents pour artistes\"(给艺术家的资料)。从 1898 年起,他每天清晨背着 18×24 玻璃湿版相机走巴黎街头,以三十年时间系统拍摄即将消失的老街、店铺橱窗、宫廷花园、人行道上的小贩与妓女、凡尔赛雕像与镜面反光,留下八千余张玻璃版片。Atget 在世时几乎默默无闻,1925 年因 Berenice Abbott 的发现与抢救才进入现代主义视野——Man Ray 将他的橱窗照片登在《超现实主义革命》上,Abbott 在他 1927 年去世后将底片运往纽约,最终入藏 MoMA。他对后世的影响是双线的:作为 \"文献\" 的诚实清晰被 Walker Evans、Berenice Abbott 等直接摄影一代继承;作为 \"无意识超现实\" 的橱窗、镜面、空街又被 Man Ray、Lee Friedlander 等吸收。",
     "keyDates": [
       {
+        "year": 1857,
+        "event": "生于法国 Libourne"
+      },
+      {
         "year": 1898,
-        "event": "开始系统性拍摄 \"Vieux Paris\""
+        "event": "开始系统性拍摄 \"Vieux Paris\" 老街档案"
+      },
+      {
+        "year": 1908,
+        "event": "完成《Au Tambour》等橱窗系列"
       },
       {
         "year": 1925,
-        "event": "与 Berenice Abbott 相识,作品由其抢救"
+        "event": "Berenice Abbott 发现并访问其工作室"
+      },
+      {
+        "year": 1926,
+        "event": "Man Ray 将其作品刊于《超现实主义革命》"
+      },
+      {
+        "year": 1927,
+        "event": "在巴黎逝世,Abbott 抢救约一万张玻璃底片"
       }
     ],
     "works": [
@@ -201,17 +256,41 @@
         "title": "Avenue des Gobelins",
         "year": 1925,
         "image": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Avenue_des_Gobelins_MET_DP315549.jpg",
-        "credit": "MoMA / Public Domain"
+        "credit": "MoMA / Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Avenue_des_Gobelins_MET_DP315549.jpg"
+      },
+      {
+        "title": "Joueur d'orgue (Street Musicians)",
+        "year": 1898,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/41/Eug%C3%A8ne_Atget%2C_Street_Musicians%2C_1898%E2%80%9399.jpg",
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Eug%C3%A8ne_Atget,_Street_Musicians,_1898%E2%80%9399.jpg"
+      },
+      {
+        "title": "Au Tambour",
+        "year": 1908,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Au_tambour.jpg",
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Au_tambour.jpg"
+      },
+      {
+        "title": "Saint-Cloud",
+        "year": 1924,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Saint-Cloud_by_Eug%C3%A8ne_Atget_1924.jpeg",
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Saint-Cloud_by_Eug%C3%A8ne_Atget_1924.jpeg"
       }
     ],
     "techniques": [
       "玻璃版",
-      "清晨自然光"
+      "清晨自然光",
+      "广角橱窗反光"
     ],
     "quote": "我只是为艺术家收集资料。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Avenue_des_Gobelins_MET_DP315549.jpg",
-      "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Atget"
+      "https://en.wikipedia.org/wiki/Eug%C3%A8ne_Atget",
+      "https://commons.wikimedia.org/wiki/Category:Photographs_by_Eug%C3%A8ne_Atget",
+      "https://www.moma.org/artists/262"
     ]
   },
   {
@@ -273,7 +352,12 @@
       "atget"
     ],
     "bio": "美国画意主义旗手,1902 创立 Photo-Secession,办《Camera Work》,后期转向直接摄影,推动摄影进入美术馆。",
+    "bioLong": "1864 年生于新泽西州 Hoboken,德裔犹太移民家庭出身。1881 年随家人迁回欧洲,在柏林学机械工程,1883 年偶遇摄影后彻底转向。1890 年代回纽约,他把摄影从工匠铺子和业余俱乐部抢出来,推向美术馆和艺术理论:1902 年创立 Photo-Secession,1903 年起编辑《Camera Work》季刊整整十四年;1905 年与 Steichen 合开 291 画廊,不只展美国摄影,还首次把 Cézanne、Picasso、Matisse、Rodin 引入美国观众。他的摄影实践分两段:前期画意主义,以软焦、铂金印相、雪夜车马的诗意场景为标志(《Winter, Fifth Avenue》1893、《The Terminal》1893);1902 年《The Hand of Man》拍蒸汽机车驶出阴影,标志他向直接摄影的转向,1907 年《The Steerage》拍下移民船下层旅客的几何构图,被他本人称作 \"我的最重要的一张\"。1920 年代以后他与画家 O'Keeffe 婚后定居,转向无说明性的抽象——《Equivalents》系列把云朵孤立成纯粹的形式与情绪,被誉为现代主义摄影抽象的起点。",
     "keyDates": [
+      {
+        "year": 1893,
+        "event": "拍摄《Winter, Fifth Avenue》《The Terminal》"
+      },
       {
         "year": 1902,
         "event": "创立 Photo-Secession"
@@ -283,8 +367,20 @@
         "event": "《Camera Work》创刊"
       },
       {
+        "year": 1905,
+        "event": "与 Steichen 创办 291 画廊"
+      },
+      {
         "year": 1907,
-        "event": "《三等舱》拍摄"
+        "event": "拍摄《The Steerage》"
+      },
+      {
+        "year": 1925,
+        "event": "开始《Equivalents》云朵抽象系列"
+      },
+      {
+        "year": 1946,
+        "event": "在纽约逝世"
       }
     ],
     "works": [
@@ -292,17 +388,34 @@
         "title": "The Steerage",
         "year": 1907,
         "image": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
-        "credit": "Public Domain"
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg"
+      },
+      {
+        "title": "The Hand of Man",
+        "year": 1902,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Alfred_Stieglitz_-_The_Hand_of_Man_-_Google_Art_Project_%28color_corrected%29.jpg",
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Hand_of_Man_-_Google_Art_Project_(color_corrected).jpg"
+      },
+      {
+        "title": "Winter, Fifth Avenue",
+        "year": 1893,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg",
+        "credit": "Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_Winter_Fifth_Avenue_1892.jpg"
       }
     ],
     "techniques": [
       "铂金印相",
-      "画意软焦"
+      "画意软焦",
+      "后期 silver gelatin"
     ],
     "quote": "在艺术里,只有一种形式:就是真。",
     "sources": [
-      "https://commons.wikimedia.org/wiki/File:Alfred_Stieglitz_-_The_Steerage_-_Google_Art_Project.jpg",
-      "https://en.wikipedia.org/wiki/Alfred_Stieglitz"
+      "https://en.wikipedia.org/wiki/Alfred_Stieglitz",
+      "https://commons.wikimedia.org/wiki/Category:Photographs_by_Alfred_Stieglitz",
+      "https://www.nga.gov/collection/artist-info.1817.html"
     ]
   },
   {
@@ -453,14 +566,39 @@
       "stieglitz"
     ],
     "bio": "美国直接摄影奠基人之一,1916 年作品被刊于《Camera Work》最后两期,标志画意主义到直接摄影的转折。",
+    "bioLong": "1890 年生于纽约犹太移民家庭,在 Ethical Culture Fieldston School 上中学时,摄影师 Lewis Hine 是他的老师,1907 年带他去 Stieglitz 的 291 画廊,从此把他领入摄影。1915–17 三年里他完成了几次关键突破:用直径较短的棱镜镜头偷拍纽约街头普通人,得到《Blind Woman》等冷峻直视的肖像;在 Connecticut 农场院子拍出几乎纯抽象的影子构图。Stieglitz 在 1916–17 年《Camera Work》最后两期专题刊登他的作品并宣告 \"美国最重要的青年摄影师\",这标志画意主义到 \"直接摄影\" (Straight Photography) 的转折——锐利对焦、不修底、不退让的几何与质感成为新美学。1920s 他与 Charles Sheeler 合拍 1921 年纪录短片《Manhatta》;1932–34 在墨西哥拍摄西班牙征服遗留的乡村;1940s 因麦卡锡氛围逃离美国,在法国 Orgeval 定居余生。他后半生主要以 \"地区民族志\" 形式工作:与 Cesare Zavattini 合作意大利村庄《Un Paese》(1955)、赫布里底群岛《Tir A'Mhurain》(1962)、加纳与埃及。Lange、Adams、Evans、Cartier-Bresson 一代都把他认作共同的影响源。",
     "keyDates": [
       {
+        "year": 1907,
+        "event": "经 Lewis Hine 引荐进入 291 画廊圈"
+      },
+      {
+        "year": 1915,
+        "event": "棱镜偷拍系列与《Wall Street》"
+      },
+      {
         "year": 1916,
-        "event": "《Camera Work》刊发,直接摄影宣告诞生"
+        "event": "《Camera Work》最后两期专题,直接摄影宣告诞生"
+      },
+      {
+        "year": 1921,
+        "event": "与 Charles Sheeler 合拍纪录短片《Manhatta》"
+      },
+      {
+        "year": 1933,
+        "event": "墨西哥工作,拍摄宗教雕塑与乡村"
       },
       {
         "year": 1955,
-        "event": "出版《Un Paese》村庄影像志"
+        "event": "与 Cesare Zavattini 出版《Un Paese》"
+      },
+      {
+        "year": 1962,
+        "event": "《Tir A'Mhurain》赫布里底群岛村庄影像志"
+      },
+      {
+        "year": 1976,
+        "event": "在法国 Orgeval 逝世"
       }
     ],
     "works": [
@@ -468,16 +606,41 @@
         "title": "Wall Street",
         "year": 1915,
         "image": null,
-        "credit": "MoMA"
+        "credit": "© Aperture Foundation, Paul Strand Archive",
+        "href": "https://en.wikipedia.org/wiki/Paul_Strand"
+      },
+      {
+        "title": "Blind Woman, New York",
+        "year": 1916,
+        "image": null,
+        "credit": "© Aperture Foundation, Paul Strand Archive",
+        "href": "https://aperture.org/foundation/paul-strand/"
+      },
+      {
+        "title": "White Fence, Port Kent, New York",
+        "year": 1916,
+        "image": null,
+        "credit": "© Aperture Foundation, Paul Strand Archive",
+        "href": "https://aperture.org/foundation/paul-strand/"
+      },
+      {
+        "title": "Mr. Bennett, Vermont",
+        "year": 1944,
+        "image": null,
+        "credit": "© Aperture Foundation, Paul Strand Archive",
+        "href": "https://aperture.org/foundation/paul-strand/"
       }
     ],
     "techniques": [
       "大画幅",
-      "锐利结构"
+      "锐利结构",
+      "棱镜偷拍肖像"
     ],
     "quote": "摄影应当成为它自己。",
     "sources": [
-      "https://en.wikipedia.org/wiki/Paul_Strand"
+      "https://en.wikipedia.org/wiki/Paul_Strand",
+      "https://aperture.org/foundation/paul-strand/",
+      "https://philamuseum.org/collection/permanent/142091.html"
     ]
   },
   {
@@ -635,36 +798,70 @@
       "strand"
     ],
     "bio": "美国纪实摄影开山者,FSA 项目核心成员。1936 年《移民母亲》成为美国大萧条最具代表性的肖像。",
+    "bioLong": "1895 年生于新泽西 Hoboken。7 岁感染小儿麻痹,右腿留下永久跛行——她后来说这是她 \"最重要的事\":让她学会无声靠近被摄者。1913 年在哥伦比亚大学学摄影,1918 年移居旧金山,1919 年开肖像工作室拍摄当地名流。1929 年大萧条让她走出工作室,1932 年到加州街头拍流浪汉与失业者,1933 年《White Angel Breadline》正面冲撞观者,被视为她由肖像师转向纪实者的转折。1935 年加入 Resettlement / FSA 计划,与农经学家 Paul Taylor 合作(后结婚),用照片配文字报告说服国会拨款。1936 年 3 月在加州 Nipomo 一片豌豆地里,她遇见 32 岁的 Florence Owens Thompson 与四个孩子,拍下《Migrant Mother》,成为美国大萧条最被复制的影像。1942 年她受聘 War Relocation Authority 记录 12 万日裔美国人被强制迁离西海岸的过程;她交出的照片对政府过于同情,大部分被军方压下,直到 2006 年才完全公开。",
     "keyDates": [
       {
+        "year": 1933,
+        "event": "拍摄《White Angel Breadline》"
+      },
+      {
         "year": 1935,
-        "event": "加入 FSA 项目"
+        "event": "加入 FSA / Resettlement Administration"
       },
       {
         "year": 1936,
-        "event": "拍摄《移民母亲》"
+        "event": "在 Nipomo 拍摄《移民母亲》"
       },
       {
         "year": 1942,
-        "event": "记录日裔美国人拘禁营"
+        "event": "记录日裔美国人拘禁,大部分照片被军方压下"
+      },
+      {
+        "year": 1955,
+        "event": "与 Ansel Adams 合作 LIFE 专题"
+      },
+      {
+        "year": 1965,
+        "event": "在加州逝世"
+      },
+      {
+        "year": 1966,
+        "event": "MoMA 死后个展"
       }
     ],
     "works": [
       {
         "title": "Migrant Mother",
         "year": 1936,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Lange-MigrantMother02.jpg",
-        "credit": "FSA / Library of Congress"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Lange-MigrantMother02.jpg",
+        "credit": "FSA / Library of Congress / Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Lange-MigrantMother02.jpg"
+      },
+      {
+        "title": "Broke, Baby Sick, and Car Trouble",
+        "year": 1937,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/63/Broke%2C_baby_sick%2C_and_car_trouble%21_-_Dorothea_Langes_photo_of_a_Missouri_family_of_five_in_the_vicinity_of_Tracy%2C_California.jpg",
+        "credit": "FSA / Library of Congress / Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Broke,_baby_sick,_and_car_trouble!_-_Dorothea_Langes_photo_of_a_Missouri_family_of_five_in_the_vicinity_of_Tracy,_California.jpg"
+      },
+      {
+        "title": "Manzanar — Grandfather and Grandson",
+        "year": 1942,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/1/1b/Manzanar_Relocation_Center%2C_Manzanar%2C_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg",
+        "credit": "NARA / Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Manzanar_Relocation_Center,_Manzanar,_California._Grandfather_and_grandson_of_Japanese_ancestry_at_._._._-_NARA_-_537994.jpg"
       }
     ],
     "techniques": [
       "Graflex 4x5",
-      "直接接近被摄者"
+      "近距正面",
+      "照片配 Paul Taylor 田野笔记"
     ],
     "quote": "相机是观看而无须相机时的工具。",
     "sources": [
       "https://en.wikipedia.org/wiki/Dorothea_Lange",
-      "https://commons.wikimedia.org/wiki/File:c/c1/Lange-MigrantMother02.jpg"
+      "https://commons.wikimedia.org/wiki/Category:Photographs_by_Dorothea_Lange",
+      "https://www.loc.gov/pictures/collection/fsa/"
     ]
   },
   {
@@ -684,32 +881,66 @@
       "strand"
     ],
     "bio": "美国冷峻纪实代表,FSA 时期与作家 James Agee 合著《让我们赞美名人》。1938 年纽约 MoMA 个展是该馆首次给摄影师办个展。",
+    "bioLong": "1903 年生于密苏里 St. Louis,1922 年入 Williams College,1926 年到巴黎学法语文学,本欲做作家,1928 年回纽约后被 Atget 与 Stieglitz 的作品决定性地转向摄影。1935 年加入罗斯福新政的 Resettlement / FSA 计划,与作家 James Agee 在 1936 年夏天驻进阿拉巴马 Hale County,与三户佃农同住数周,拍下《Allie Mae Burroughs》等 21 幅肖像与房屋内景,1941 年集结成《Let Us Now Praise Famous Men》。Evans 拒绝 Lange 式的同情叙事,主张相机像一架冷峻的目击者:8×10 大画幅、正面、无戏剧用光、不诱导被摄者。1938 年纽约 MoMA 为他举办的《American Photographs》是美术馆首次为摄影师举办个展;同年起他用藏在外套里的徕卡偷拍纽约地铁乘客,这批照片直到 1966 年才以《Many Are Called》出版。晚年长期为《Fortune》供稿,在耶鲁执教,影响 Friedlander、Eggleston 等下一代直接摄影者。",
     "keyDates": [
       {
+        "year": 1933,
+        "event": "拍摄古巴街市,《古巴罪行》出版"
+      },
+      {
+        "year": 1935,
+        "event": "加入 Resettlement Administration / FSA"
+      },
+      {
+        "year": 1936,
+        "event": "Hale County 与 Agee 拍摄佃农肖像"
+      },
+      {
         "year": 1938,
-        "event": "MoMA 摄影个展(美术馆首次)"
+        "event": "MoMA《American Photographs》个展(美术馆首次摄影个展)"
       },
       {
         "year": 1941,
         "event": "《Let Us Now Praise Famous Men》出版"
+      },
+      {
+        "year": 1966,
+        "event": "《Many Are Called》地铁肖像集出版"
       }
     ],
     "works": [
       {
         "title": "Allie Mae Burroughs",
         "year": 1936,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/2/29/Allie_Mae_Burroughs_print.jpg",
-        "credit": "Library of Congress"
+        "image": "https://upload.wikimedia.org/wikipedia/commons/2/26/Allie_Mae_Burroughs_print.jpg",
+        "credit": "Library of Congress / Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Allie_Mae_Burroughs_print.jpg"
+      },
+      {
+        "title": "Bethlehem PA Graveyard and Steel Mill",
+        "year": 1935,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bethlehem_PA_graveyard_and_steel_mill_1935.jpg",
+        "credit": "Library of Congress / Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Bethlehem_PA_graveyard_and_steel_mill_1935.jpg"
+      },
+      {
+        "title": "Frame House, Charleston, South Carolina",
+        "year": 1936,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Frame_house_Charleston_Walker_Evans.jpg",
+        "credit": "Library of Congress / Public Domain",
+        "href": "https://commons.wikimedia.org/wiki/File:Frame_house_Charleston_Walker_Evans.jpg"
       }
     ],
     "techniques": [
-      "8x10",
-      "直白叙述"
+      "8x10 大画幅",
+      "直白叙述",
+      "徕卡藏匿偷拍(地铁系列)"
     ],
     "quote": "看起来像是没有摄影师在场。",
     "sources": [
       "https://en.wikipedia.org/wiki/Walker_Evans",
-      "https://commons.wikimedia.org/wiki/File:2/29/Allie_Mae_Burroughs_print.jpg"
+      "https://commons.wikimedia.org/wiki/Category:Photographs_by_Walker_Evans",
+      "https://www.moma.org/artists/1777"
     ]
   },
   {
@@ -896,14 +1127,39 @@
       "atget"
     ],
     "bio": "匈牙利-法国-美国摄影师,布列松称其为自己最重要的影响。诗意、几何、日常的融合大师。",
+    "bioLong": "1894 年生于布达佩斯犹太家庭,父亲是书商。1912 年在布达佩斯证券交易所工作时购入第一台箱式相机,1914 年参军在战壕与营房里拍下早期作品(后大部分被妹妹销毁于战乱)。1917 年在 Esztergom 拍下《Underwater Swimmer》,泳池水折射出身体的几何变形,被视为他后来 \"扭曲\" 系列的预兆。1925 年到巴黎,他正赶上 Paris 摄影的鼎盛期——蒙帕纳斯咖啡馆、Mondrian 工作室、Brassaï 的夜巴黎、Man Ray 的圈子,Kertész 是所有人的朋友与影响源,经常借相机给 Brassaï 与年轻的 Cartier-Bresson。1928 年的《Meudon》——一辆蒸汽火车在拱桥上滑过,前景一位男子目光与镜头对视——被认作 30 年代最具代表性的巴黎现代主义影像。同年另一作品《The Fork》在德国 \"Film und Foto\" 展引爆;1933 年《Distortions》系列把女体在哈哈镜里抽象化。1936 年应邀短期访美,因二战滞留纽约 50 年,长期被美国摄影圈低估——直到 1964 年 MoMA 为他举办回顾展,他才重新进入主流视野。Cartier-Bresson 终其一生称 Kertész 为 \"我们都从他偷过东西\"。",
     "keyDates": [
       {
+        "year": 1914,
+        "event": "一战参军,在战壕与营房拍摄"
+      },
+      {
+        "year": 1917,
+        "event": "在 Esztergom 拍摄《Underwater Swimmer》"
+      },
+      {
         "year": 1925,
-        "event": "迁居巴黎"
+        "event": "移居巴黎,进入蒙帕纳斯艺术圈"
+      },
+      {
+        "year": 1928,
+        "event": "拍摄《Meudon》《The Fork》"
+      },
+      {
+        "year": 1933,
+        "event": "《Distortions》扭曲女体系列发表"
       },
       {
         "year": 1936,
-        "event": "迁居纽约"
+        "event": "移居纽约,因二战滞留"
+      },
+      {
+        "year": 1964,
+        "event": "MoMA 回顾展,重获美国摄影界承认"
+      },
+      {
+        "year": 1985,
+        "event": "在纽约逝世"
       }
     ],
     "works": [
@@ -911,16 +1167,41 @@
         "title": "Meudon",
         "year": 1928,
         "image": null,
-        "credit": "André Kertész Estate"
+        "credit": "© Estate of André Kertész",
+        "href": "https://en.wikipedia.org/wiki/Andr%C3%A9_Kert%C3%A9sz"
+      },
+      {
+        "title": "Underwater Swimmer, Esztergom",
+        "year": 1917,
+        "image": null,
+        "credit": "© Estate of André Kertész",
+        "href": "https://en.wikipedia.org/wiki/Andr%C3%A9_Kert%C3%A9sz"
+      },
+      {
+        "title": "The Fork",
+        "year": 1928,
+        "image": null,
+        "credit": "© Estate of André Kertész",
+        "href": "https://en.wikipedia.org/wiki/Andr%C3%A9_Kert%C3%A9sz"
+      },
+      {
+        "title": "Satiric Dancer",
+        "year": 1926,
+        "image": null,
+        "credit": "© Estate of André Kertész",
+        "href": "https://en.wikipedia.org/wiki/Andr%C3%A9_Kert%C3%A9sz"
       }
     ],
     "techniques": [
       "徕卡",
-      "静默几何"
+      "静默几何",
+      "哈哈镜形变 (Distortions)"
     ],
     "quote": "我拍我看到的,简单极了。",
     "sources": [
-      "https://en.wikipedia.org/wiki/Andr%C3%A9_Kert%C3%A9sz"
+      "https://en.wikipedia.org/wiki/Andr%C3%A9_Kert%C3%A9sz",
+      "https://www.moma.org/artists/3050",
+      "https://www.vam.ac.uk/articles/andre-kertesz-master-of-the-decisive-moment"
     ]
   },
   {
@@ -1029,18 +1310,39 @@
       "man-ray"
     ],
     "bio": "\"决定性瞬间\"提出者,Magnum 联合创始人。拍摄横跨西班牙内战、解放巴黎、印度独立、新中国成立等历史现场。",
+    "bioLong": "1908 年生于法国 Chanteloup-en-Brie 的纺织业富商家庭,1927–28 年随画家 André Lhote 学立体派构图,1931 年从西非的痢疾热病中归来,在马赛看到 Martin Munkácsi 的 1930 年《坦噶尼喀湖三个男孩跳水》照片后决定改行做摄影师。1932 年买下徕卡相机,以小型 35mm 机和 50mm 镜头穿行欧洲,这一年完成了《Behind the Gare Saint-Lazare》《Hyères》等早期代表作。1936 年与 Robert Capa、David Seymour 一起在西班牙内战做战地拍摄;1944 年解放巴黎前夕从德军战俘营脱身,记录下解放过程。1947 年与 Capa、Seymour、George Rodger 共同创立 Magnum 图片社,改写摄影记者与杂志之间的版权关系。1948–50 年驻印度记录甘地遇刺与印度独立、再驻北京记录新中国成立,这批照片首次让西方观众看见亚洲历史现场。1952 年法语版《Images à la sauvette》(英译《决定性瞬间》)出版,前言提出 \"在一瞬间同时识别出事件的意义与构图的精确形式\"——这成为之后半个世纪街头与纪实摄影的核心方法论。1968 年后他几乎搁置摄影,转回素描与油画,直到 2004 年去世。",
     "keyDates": [
       {
         "year": 1932,
-        "event": "在马赛见到摄影后,放下绘画"
+        "event": "在马赛见到 Munkácsi 照片后,放下绘画买徕卡相机"
+      },
+      {
+        "year": 1936,
+        "event": "拍摄西班牙内战"
+      },
+      {
+        "year": 1944,
+        "event": "记录解放巴黎"
       },
       {
         "year": 1947,
-        "event": "与 Capa 等创立 Magnum"
+        "event": "与 Capa、Seymour、Rodger 创立 Magnum 图片社"
+      },
+      {
+        "year": 1948,
+        "event": "驻印度记录甘地遇刺与独立"
+      },
+      {
+        "year": 1949,
+        "event": "驻北京记录新中国成立前后"
       },
       {
         "year": 1952,
-        "event": "《决定性瞬间》出版"
+        "event": "《决定性瞬间》(Images à la sauvette) 出版"
+      },
+      {
+        "year": 1968,
+        "event": "搁置摄影,转回素描与绘画"
       }
     ],
     "works": [
@@ -1048,23 +1350,42 @@
         "title": "Behind the Gare Saint-Lazare",
         "year": 1932,
         "image": null,
-        "credit": "Magnum Photos"
+        "credit": "© Henri Cartier-Bresson / Magnum Photos",
+        "href": "https://en.wikipedia.org/wiki/Behind_the_Gare_Saint-Lazare"
       },
       {
         "title": "Hyères, France",
         "year": 1932,
         "image": null,
-        "credit": "Magnum Photos"
+        "credit": "© Henri Cartier-Bresson / Magnum Photos",
+        "href": "https://www.henricartierbresson.org/en/hcb/"
+      },
+      {
+        "title": "Seville, Spain — Children in Ruins",
+        "year": 1933,
+        "image": null,
+        "credit": "© Henri Cartier-Bresson / Magnum Photos",
+        "href": "https://www.magnumphotos.com/photographer/henri-cartier-bresson/"
+      },
+      {
+        "title": "Liberation of Paris — Cartier-Bresson photographing Robert Capa",
+        "year": 1944,
+        "image": null,
+        "credit": "© Henri Cartier-Bresson / Magnum Photos",
+        "href": "https://www.magnumphotos.com/photographer/henri-cartier-bresson/"
       }
     ],
     "techniques": [
       "Leica 50mm",
       "黑白",
-      "决定性瞬间"
+      "决定性瞬间",
+      "立体派构图训练"
     ],
     "quote": "一个事件本身,加上对它的记忆,加上人对它的反应,共同构成了那一瞬间。",
     "sources": [
-      "https://en.wikipedia.org/wiki/Henri_Cartier-Bresson"
+      "https://en.wikipedia.org/wiki/Henri_Cartier-Bresson",
+      "https://www.henricartierbresson.org/en/",
+      "https://www.magnumphotos.com/photographer/henri-cartier-bresson/"
     ]
   },
   {
@@ -1258,14 +1579,35 @@
       "cartier-bresson"
     ],
     "bio": "瑞士-美国摄影师,1958 《美国人》83 张照片彻底改写了战后纪实美学,粗糙、忧郁、反英雄。",
+    "bioLong": "1924 年生于苏黎世犹太家庭,二战期间因瑞士中立得以幸免。1941 年从中学辍学进摄影暗房学手艺,1947 年带着自制摄影集移居纽约,在《Harper's Bazaar》做时尚助理。1949–53 年游历秘鲁、玻利维亚、伦敦、巴黎与西班牙,作品被 Edward Steichen 收入 MoMA 1955 年《The Family of Man》大展。1955 年获古根海姆奖金,带着一台徕卡和家人沿 32 号公路横穿美国,九个月里拍 767 个胶卷约 28,000 张,选出 83 张组成《Les Américains》。这本书 1958 年在巴黎首版,1959 年纽约 Grove Press 英文版加上 Kerouac 的序言出版,因刻意倾斜、模糊、粒粗、低照度、对美国种族隔离与精神空虚的冷峻观察,在美国引发强烈反弹——彼时主流仍崇尚 LIFE 杂志式的洁净叙事。今天它被普遍视为二十世纪最重要的摄影集,改写了战后纪实方法论:从客观目击者转向主观叙事。1959 年后他大幅转向实验电影(《Pull My Daisy》与 Kerouac 合作),晚年回到摄影与图文拼贴,直到 2019 年在 Nova Scotia 逝世。",
     "keyDates": [
       {
+        "year": 1947,
+        "event": "从苏黎世移居纽约,在《Harper's Bazaar》做时尚助理"
+      },
+      {
         "year": 1955,
-        "event": "获古根海姆奖,横穿美国"
+        "event": "获古根海姆奖金,与家人沿 32 号公路横穿美国"
       },
       {
         "year": 1958,
-        "event": "《Les Américains》在巴黎出版"
+        "event": "《Les Américains》在巴黎由 Robert Delpire 出版"
+      },
+      {
+        "year": 1959,
+        "event": "Grove Press 英文版《The Americans》出版,Kerouac 作序"
+      },
+      {
+        "year": 1959,
+        "event": "首部电影《Pull My Daisy》与 Kerouac、Ginsberg 合作"
+      },
+      {
+        "year": 1972,
+        "event": "出版《The Lines of My Hand》图文拼贴自传"
+      },
+      {
+        "year": 2019,
+        "event": "在加拿大 Nova Scotia 逝世"
       }
     ],
     "works": [
@@ -1273,16 +1615,42 @@
         "title": "Trolley — New Orleans",
         "year": 1955,
         "image": null,
-        "credit": "Robert Frank Foundation"
+        "credit": "© Robert Frank Foundation",
+        "href": "https://en.wikipedia.org/wiki/The_Americans_(photography)"
+      },
+      {
+        "title": "Parade — Hoboken, New Jersey",
+        "year": 1955,
+        "image": null,
+        "credit": "© Robert Frank Foundation",
+        "href": "https://en.wikipedia.org/wiki/The_Americans_(photography)"
+      },
+      {
+        "title": "U.S. 285, New Mexico",
+        "year": 1955,
+        "image": null,
+        "credit": "© Robert Frank Foundation",
+        "href": "https://en.wikipedia.org/wiki/The_Americans_(photography)"
+      },
+      {
+        "title": "Funeral — St. Helena, South Carolina",
+        "year": 1955,
+        "image": null,
+        "credit": "© Robert Frank Foundation",
+        "href": "https://en.wikipedia.org/wiki/The_Americans_(photography)"
       }
     ],
     "techniques": [
       "Leica",
+      "高 ISO 推冲粒粗",
+      "倾斜地平线",
       "直觉构图"
     ],
     "quote": "黑与白是希望与绝望的颜色。",
     "sources": [
-      "https://en.wikipedia.org/wiki/Robert_Frank"
+      "https://en.wikipedia.org/wiki/Robert_Frank",
+      "https://en.wikipedia.org/wiki/The_Americans_(photography)",
+      "https://www.nga.gov/collection/artist-info.1252.html"
     ]
   },
   {
@@ -1599,35 +1967,81 @@
     ],
     "influencedBy": [],
     "bio": "德国艺术家夫妇,系统拍摄水塔、煤矿井架、储气罐等工业建筑,九宫格\"类型学\"陈列法影响整代当代摄影。",
+    "bioLong": "Bernd 1931 年生于德国西部钢铁城市 Siegen,Hilla 1934 年生于波茨坦。两人 1957 年在杜塞尔多夫艺术学院相遇,1961 年结婚后开始合作。50 年代末战后德国正在快速拆除工业革命与战时遗留的工厂、矿井与水塔,Bechers 决心在它们消失前做系统记录:八千余处工业建筑,选阴天散射光、正面、相同距离与高度、统一格式地拍下,再以三联、九宫格、十六格的 \"类型学\" (Typologie) 方式陈列。这种把摄影从单张影像转向序列与比较系统的方法,影响了概念艺术与极简主义,1990 年获威尼斯双年展雕塑金狮奖——评委把他们的工业塔楼当作 \"匿名雕塑\" 颁奖,正是这种跨界识别本身的胜利。1976 年起 Bernd 任教杜塞尔多夫学院摄影系,二十年里教出 Andreas Gursky、Thomas Ruff、Candida Höfer、Thomas Struth、Axel Hütte,日后被称为 \"杜塞尔多夫学派\",在 90 年代以大画幅、大尺寸、冷静客观的色彩摄影主导国际艺术市场。Bernd 2007 年逝世,Hilla 继续至 2015 年。",
     "keyDates": [
       {
+        "year": 1957,
+        "event": "Bernd 与 Hilla 在杜塞尔多夫学院相遇"
+      },
+      {
         "year": 1959,
-        "event": "开始拍摄工业建筑"
+        "event": "开始系统拍摄消失中的工业建筑"
+      },
+      {
+        "year": 1961,
+        "event": "两人结婚,正式合作"
       },
       {
         "year": 1976,
-        "event": "Bernd 任教杜塞尔多夫学院"
+        "event": "Bernd 任教杜塞尔多夫学院摄影系"
       },
       {
         "year": 1990,
-        "event": "威尼斯双年展金狮奖"
+        "event": "威尼斯双年展雕塑金狮奖"
+      },
+      {
+        "year": 2002,
+        "event": "MoMA 回顾展"
+      },
+      {
+        "year": 2007,
+        "event": "Bernd 逝世"
+      },
+      {
+        "year": 2015,
+        "event": "Hilla 逝世"
       }
     ],
     "works": [
       {
-        "title": "Water Towers",
+        "title": "Water Towers (Wassertürme)",
         "year": 1972,
         "image": null,
-        "credit": "Becher Estate"
+        "credit": "© Estate of Bernd & Hilla Becher",
+        "href": "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher"
+      },
+      {
+        "title": "Blast Furnaces (Hochöfen)",
+        "year": 1969,
+        "image": null,
+        "credit": "© Estate of Bernd & Hilla Becher",
+        "href": "https://www.tate.org.uk/art/artists/bernd-becher-and-hilla-becher-718"
+      },
+      {
+        "title": "Framework Houses (Fachwerkhäuser)",
+        "year": 1959,
+        "image": null,
+        "credit": "© Estate of Bernd & Hilla Becher",
+        "href": "https://www.tate.org.uk/art/artists/bernd-becher-and-hilla-becher-718"
+      },
+      {
+        "title": "Coal Mine Tipples (Fördertürme)",
+        "year": 1974,
+        "image": null,
+        "credit": "© Estate of Bernd & Hilla Becher",
+        "href": "https://www.tate.org.uk/art/artists/bernd-becher-and-hilla-becher-718"
       }
     ],
     "techniques": [
-      "8x10 黑白",
-      "类型学网格"
+      "8x10 大画幅黑白",
+      "阴天散射光",
+      "正面 / 统一焦距 / 类型学网格"
     ],
     "quote": "我们拍下的是消失中的事物。",
     "sources": [
-      "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher"
+      "https://en.wikipedia.org/wiki/Bernd_and_Hilla_Becher",
+      "https://www.tate.org.uk/art/artists/bernd-becher-and-hilla-becher-718",
+      "https://www.moma.org/artists/452"
     ]
   },
   {
