@@ -1308,7 +1308,7 @@
   {
     "id": "kertesz",
     "name": "André Kertész",
-    "nameZh": "柯尔特茨",
+    "nameZh": "柯特兹",
     "born": 1894,
     "died": 1985,
     "country": "HU",
@@ -2318,7 +2318,7 @@
   {
     "id": "sternfeld",
     "name": "Joel Sternfeld",
-    "nameZh": "斯坦菲尔德",
+    "nameZh": "斯特恩菲尔德",
     "born": 1944,
     "died": null,
     "country": "US",
@@ -3006,7 +3006,7 @@
   {
     "id": "mapplethorpe",
     "name": "Robert Mapplethorpe",
-    "nameZh": "梅普索普",
+    "nameZh": "梅普尔索普",
     "born": 1946,
     "died": 1989,
     "country": "US",
@@ -3601,7 +3601,7 @@
   {
     "id": "cameron",
     "name": "Julia Margaret Cameron",
-    "nameZh": "卡梅隆",
+    "nameZh": "卡梅伦",
     "born": 1815,
     "died": 1879,
     "country": "UK",
@@ -3924,7 +3924,7 @@
   {
     "id": "avedon",
     "name": "Richard Avedon",
-    "nameZh": "阿维顿",
+    "nameZh": "阿维东",
     "born": 1923,
     "died": 2004,
     "country": "US",
@@ -4066,7 +4066,7 @@
   {
     "id": "newton",
     "name": "Helmut Newton",
-    "nameZh": "诺顿",
+    "nameZh": "纽顿",
     "born": 1920,
     "died": 2004,
     "country": "DE",
@@ -5755,7 +5755,7 @@
   {
     "id": "leiter",
     "name": "Saul Leiter",
-    "nameZh": "莱特",
+    "nameZh": "索尔·莱特",
     "born": 1923,
     "died": 2013,
     "country": "US",
@@ -6886,6 +6886,5545 @@
       "https://en.wikipedia.org/wiki/Zanele_Muholi",
       "https://www.stevenson.info/artist/zanele-muholi",
       "https://www.tate.org.uk/art/artists/zanele-muholi-18591"
+    ]
+  },
+  {
+    "id": "roger-fenton",
+    "name": "Roger Fenton",
+    "nameZh": "罗杰·芬顿",
+    "born": 1819,
+    "died": 1869,
+    "country": "GB",
+    "region": "europe",
+    "movements": [
+      "war-photography"
+    ],
+    "influencedBy": [],
+    "bio": "英国摄影师,1855 年赴克里米亚战争前线,拍摄了最早的系统性战地摄影。",
+    "bioLong": "1819 年生于英格兰兰开夏郡,剑桥法律学位毕业后转向艺术与摄影。1855 年受英国政府资助赴克里米亚前线,用蜡纸负片和玻璃底片拍摄了 360 余张照片——这是人类最早的系统性战地摄影。由于技术限制和政府要求,他未拍摄阵亡士兵,而是记录营地、将领和风景,其中《死亡之谷》(Valley of the Shadow of Death)成为摄影史上最具争议的早期影像之一(炮弹遍布的空旷道路)。回国后在伦敦举办展览,但并未获得足够经济回报,1862 年放弃摄影。",
+    "keyDates": [
+      {
+        "year": 1855,
+        "event": "赴克里米亚前线,完成最早的系统性战地摄影"
+      },
+      {
+        "year": 1856,
+        "event": "伦敦展出克里米亚照片"
+      },
+      {
+        "year": 1862,
+        "event": "放弃摄影"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Valley of the Shadow of Death",
+        "year": 1855,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Roger_Fenton_-_Valley_of_the_Shadow_of_Death.jpg",
+        "credit": "Public Domain — Roger Fenton"
+      },
+      {
+        "title": "Lt. Col. Hallewell — Camp Crimea",
+        "year": 1855,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Roger_Fenton_-_Colonel_Hallewell.jpg",
+        "credit": "Public Domain — Roger Fenton"
+      }
+    ],
+    "techniques": [
+      "蜡纸负片",
+      "湿版火棉胶",
+      "大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Roger_Fenton",
+      "https://www.metmuseum.org/toah/hd/fent/hd_fent.htm"
+    ]
+  },
+  {
+    "id": "timothy-osullivan",
+    "name": "Timothy O'Sullivan",
+    "nameZh": "蒂莫西·奥沙利文",
+    "born": 1840,
+    "died": 1882,
+    "country": "US",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [
+      "brady"
+    ],
+    "bio": "美国摄影师,内战后随联邦地质勘探队记录美国西部,拍下了最早的西部荒野影像。",
+    "bioLong": "1840 年生于纽约(一说爱尔兰),少年时在 Mathew Brady 工作室学习摄影。内战期间随军拍摄了盖茨堡战场上的阵亡士兵,1867-74 年作为官方摄影师随 Clarence King 和 George Wheeler 的地质勘探队深入美国西部:内华达沙漠、科罗拉多大峡谷、巴拿马运河区——他的照片第一次向东部民众展示了美国西部的壮丽与荒凉。《沙丘上的收割》等作品的超现实构图启发了 20 世纪的现代主义摄影师。1882 年因肺结核去世,年仅 42 岁。",
+    "keyDates": [
+      {
+        "year": 1863,
+        "event": "拍摄盖茨堡战役后的阵亡士兵"
+      },
+      {
+        "year": 1867,
+        "event": "加入 Clarence King 地质勘探队"
+      },
+      {
+        "year": 1874,
+        "event": "完成最后一次西部勘探摄影"
+      }
+    ],
+    "works": [
+      {
+        "title": "Sand Dunes near Sand Springs, Nevada",
+        "year": 1867,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sand_dunes%2C_Carson_Desert%2C_Nevada_LCCN2004662852.jpg",
+        "credit": "Public Domain — Timothy O'Sullivan / USGS"
+      },
+      {
+        "title": "A Harvest of Death, Gettysburg",
+        "year": 1863,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Timothy_H._O%27Sullivan_-_A_Harvest_of_Death%2C_Gettysburg%2C_Pennsylvania_-_Google_Art_Project.jpg",
+        "credit": "Public Domain — Timothy O'Sullivan"
+      }
+    ],
+    "techniques": [
+      "湿版火棉胶",
+      "大画幅",
+      "勘探摄影"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Timothy_H._O%27Sullivan",
+      "https://www.metmuseum.org/toah/hd/osul/hd_osul.htm"
+    ]
+  },
+  {
+    "id": "carleton-watkins",
+    "name": "Carleton Watkins",
+    "nameZh": "卡尔顿·沃特金斯",
+    "born": 1829,
+    "died": 1916,
+    "country": "US",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [],
+    "bio": "美国风景摄影先驱,1861 年拍摄的约塞米蒂照片直接推动了美国国家公园运动。",
+    "bioLong": "1829 年生于纽约,1851 年随淘金热赴加州。1861 年携 18×22 英寸巨型玻璃底片相机深入约塞米蒂山谷,拍摄的照片被呈给国会议员,直接促成林肯总统 1864 年签署法案保护该地——这是美国国家公园运动的起点。他的大画幅风景照以极端的清晰度和庄严构图著称,影响了后来的 Ansel Adams。1906 年旧金山大地震摧毁了他的全部底片库,此后精神崩溃,1916 年在精神病院去世。",
+    "keyDates": [
+      {
+        "year": 1861,
+        "event": "首次拍摄约塞米蒂山谷,推动国家公园立法"
+      },
+      {
+        "year": 1867,
+        "event": "随太平洋铁路拍摄美国西部"
+      },
+      {
+        "year": 1906,
+        "event": "旧金山地震毁掉全部底片"
+      }
+    ],
+    "works": [
+      {
+        "title": "Cathedral Rocks, Yosemite",
+        "year": 1861,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Watkins_Carleton_E_-_Cathedral_Rocks_-_2726_ft._-_Yosemite.jpg",
+        "credit": "Public Domain — Carleton Watkins"
+      },
+      {
+        "title": "Cape Horn near Celilo, Oregon",
+        "year": 1867,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Cape_Horn_near_Celilo_1867_Carleton_Watkins.jpg",
+        "credit": "Public Domain — Carleton Watkins"
+      }
+    ],
+    "techniques": [
+      "巨型湿版 (18×22 in)",
+      "大画幅",
+      "风景"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Carleton_Watkins",
+      "https://www.metmuseum.org/toah/hd/watk/hd_watk.htm"
+    ]
+  },
+  {
+    "id": "jacob-riis",
+    "name": "Jacob Riis",
+    "nameZh": "雅各布·里斯",
+    "born": 1849,
+    "died": 1914,
+    "country": "DK",
+    "region": "americas",
+    "movements": [
+      "fsa"
+    ],
+    "influencedBy": [],
+    "bio": "丹麦裔美国记者,以闪光灯拍摄纽约贫民窟,出版《另一半人怎样生活》,开创社会纪实摄影。",
+    "bioLong": "1849 年生于丹麦里伯,1870 年移民美国,在纽约底层挣扎数年后成为警察线记者。1888 年率先使用镁粉闪光灯深入曼哈顿下东区的出租屋、血汗工厂和街头,拍摄贫民窟触目惊心的居住条件。1890 年出版的《另一半人怎样生活》(How the Other Half Lives)以照片加文字揭露了移民贫民的生存现状,震动美国社会,直接推动了纽约住房改革立法。他是最早将摄影作为社会改革工具的人之一,比 Lewis Hine 早了近 20 年。",
+    "keyDates": [
+      {
+        "year": 1888,
+        "event": "率先使用镁粉闪光灯拍摄纽约贫民窟"
+      },
+      {
+        "year": 1890,
+        "event": "出版《另一半人怎样生活》"
+      },
+      {
+        "year": 1901,
+        "event": "出版《与贫民窟的战斗》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Bandit's Roost, Mulberry Street, New York",
+        "year": 1888,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Bandit%27s_Roost_by_Jacob_Riis.jpeg",
+        "credit": "Public Domain — Jacob Riis"
+      },
+      {
+        "title": "Five Cents a Spot (Lodgers in a Bayard Street Tenement)",
+        "year": 1889,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Lodgers_in_a_Crowded_Bayard_Street_Tenement---%22Five_Cents_a_Spot%22.jpg",
+        "credit": "Public Domain — Jacob Riis"
+      }
+    ],
+    "techniques": [
+      "镁粉闪光灯",
+      "纪实",
+      "社会改革摄影"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jacob_Riis",
+      "https://www.moma.org/artists/4929"
+    ]
+  },
+  {
+    "id": "lewis-hine",
+    "name": "Lewis Hine",
+    "nameZh": "刘易斯·海因",
+    "born": 1874,
+    "died": 1940,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "fsa"
+    ],
+    "influencedBy": [
+      "jacob-riis"
+    ],
+    "bio": "美国社会学家-摄影师,以记录童工和帝国大厦建设工人闻名,用照片推动美国劳工立法改革。",
+    "bioLong": "1874 年生于威斯康星州奥什科什,原为社会学教师。1908 年成为美国童工委员会(NCLC)的调查摄影师,深入矿山、棉纺厂和罐头厂,拍摄了数千张童工照片——瘦小的孩子操作巨大的机器、满脸煤灰的矿井男孩——这些照片被用作国会听证的证据,直接推动了 1916 年和 1938 年的联邦童工立法。1930 年他被聘为帝国大厦建设的官方摄影师,在数百米高空拍摄铆钉工人悬挂在钢梁上的惊心画面。他将摄影定义为'带有良知的镜子',是社会纪实摄影的奠基人。",
+    "keyDates": [
+      {
+        "year": 1908,
+        "event": "成为 NCLC 调查摄影师,开始拍摄童工"
+      },
+      {
+        "year": 1916,
+        "event": "童工照片推动联邦童工法通过"
+      },
+      {
+        "year": 1930,
+        "event": "拍摄帝国大厦建设工人"
+      }
+    ],
+    "works": [
+      {
+        "title": "Power House Mechanic Working on Steam Pump",
+        "year": 1920,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Lewis_Hine_Power_house_mechanic_working_on_steam_pump.jpg",
+        "credit": "Public Domain — Lewis Hine"
+      },
+      {
+        "title": "Spinner in North Carolina Cotton Mill",
+        "year": 1908,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Lewis_Hine%2C_Spinner_in_a_cotton_mill.jpg",
+        "credit": "Public Domain — Lewis Hine / NCLC"
+      }
+    ],
+    "techniques": [
+      "纪实",
+      "社会调查摄影",
+      "4×5 大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lewis_Hine",
+      "https://www.moma.org/artists/2647"
+    ]
+  },
+  {
+    "id": "rejlander",
+    "name": "Oscar Gustave Rejlander",
+    "nameZh": "奥斯卡·雷兰德",
+    "born": 1813,
+    "died": 1875,
+    "country": "SE",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [],
+    "bio": "瑞典裔英国摄影师,以多底片合成的《人生两条路》开创了摄影蒙太奇,被称为'艺术摄影之父'。",
+    "bioLong": "1813 年生于瑞典,在罗马学习绘画后移居英国。1857 年创作的《人生两条路》(The Two Ways of Life)用 30 多张底片合成一幅寓言式巨型照片,描绘青年在美德与堕落之间的抉择——这是摄影史上最早的蒙太奇合成作品。维多利亚女王买下一幅。他还为达尔文的《人与动物的表情》(1872)拍摄了面部表情系列。他的工作证明了摄影可以超越单纯记录,进入想象与叙事的领域。",
+    "keyDates": [
+      {
+        "year": 1857,
+        "event": "创作《人生两条路》,30 多张底片合成"
+      },
+      {
+        "year": 1872,
+        "event": "为达尔文《人与动物的表情》拍摄面部表情"
+      },
+      {
+        "year": 1875,
+        "event": "去世"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Two Ways of Life",
+        "year": 1857,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Oscar_Gustave_Rejlander_-_The_Two_Ways_of_Life.jpg",
+        "credit": "Public Domain — Oscar Gustave Rejlander"
+      },
+      {
+        "title": "Expression Studies for Darwin",
+        "year": 1871,
+        "image": null,
+        "credit": "Public Domain — Rejlander / Natural History Museum",
+        "href": "https://en.wikipedia.org/wiki/Oscar_Gustave_Rejlander"
+      }
+    ],
+    "techniques": [
+      "多底片合成",
+      "蛋白印相",
+      "画意构图"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Oscar_Gustave_Rejlander",
+      "https://www.vam.ac.uk/articles/oscar-rejlander"
+    ]
+  },
+  {
+    "id": "robinson",
+    "name": "Henry Peach Robinson",
+    "nameZh": "亨利·皮奇·罗宾逊",
+    "born": 1830,
+    "died": 1901,
+    "country": "GB",
+    "region": "europe",
+    "movements": [
+      "pictorialism"
+    ],
+    "influencedBy": [
+      "rejlander"
+    ],
+    "bio": "英国画意摄影理论家,著有《摄影的画意效果》,主张摄影应追求绘画般的美学品质。",
+    "bioLong": "1830 年生于英格兰拉德洛,1858 年的合成照片《弥留》(Fading Away)——一位年轻女子在家人注视中临终——引发了'摄影是否应表现痛苦'的激烈争论,但获得维多利亚亲王的赞赏。1869 年出版的《摄影的画意效果》(Pictorial Effect in Photography)是第一本系统阐述摄影美学理论的著作,主张摄影师应像画家一样构思构图、光线和情感。他被视为画意摄影运动的理论奠基人,直接影响了后来的 Stieglitz 和 Photo-Secession 运动。",
+    "keyDates": [
+      {
+        "year": 1858,
+        "event": "创作《弥留》,引发摄影伦理争论"
+      },
+      {
+        "year": 1869,
+        "event": "出版《摄影的画意效果》,画意摄影理论奠基"
+      },
+      {
+        "year": 1892,
+        "event": "参与创立 Linked Ring 摄影团体"
+      }
+    ],
+    "works": [
+      {
+        "title": "Fading Away",
+        "year": 1858,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Henry_Peach_Robinson_-_Fading_Away.jpg",
+        "credit": "Public Domain — Henry Peach Robinson"
+      },
+      {
+        "title": "When the Day's Work Is Done",
+        "year": 1877,
+        "image": null,
+        "credit": "Public Domain — Henry Peach Robinson",
+        "href": "https://en.wikipedia.org/wiki/Henry_Peach_Robinson"
+      }
+    ],
+    "techniques": [
+      "合成印相",
+      "画意构图",
+      "蛋白印相"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Henry_Peach_Robinson",
+      "https://www.vam.ac.uk"
+    ]
+  },
+  {
+    "id": "emerson",
+    "name": "Peter Henry Emerson",
+    "nameZh": "彼得·亨利·爱默生",
+    "born": 1856,
+    "died": 1936,
+    "country": "GB",
+    "region": "europe",
+    "movements": [],
+    "influencedBy": [],
+    "bio": "英国摄影师,提出'自然主义摄影'理论,主张摄影应模仿人眼视觉而非绘画。",
+    "bioLong": "1856 年生于古巴(英国父亲,古巴母亲),在伦敦学医后转向摄影。1889 年出版《自然主义摄影》(Naturalistic Photography for Students of the Art),提出摄影应模拟人眼的选择性聚焦——主体清晰而背景略微模糊——而非追求画意摄影的全面锐利或绘画式合成。这一理论挑战了 Robinson 派的合成美学,虽然他后来自我否定了部分观点,但'自然主义摄影'成为从画意到直接摄影转型的关键理论桥梁。他在诺福克湖区拍摄的英国乡村渔民生活影像是这一理论的最佳实践。",
+    "keyDates": [
+      {
+        "year": 1886,
+        "event": "出版《诺福克湖区生活与风景》"
+      },
+      {
+        "year": 1889,
+        "event": "出版《自然主义摄影》,提出选择性聚焦理论"
+      },
+      {
+        "year": 1891,
+        "event": "发表《自然主义摄影之死》,自我修正"
+      }
+    ],
+    "works": [
+      {
+        "title": "Gathering Water-Lilies (Life and Landscape on the Norfolk Broads)",
+        "year": 1886,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Peter_Henry_Emerson_Gathering_Water-Lilies.jpg",
+        "credit": "Public Domain — Peter Henry Emerson"
+      },
+      {
+        "title": "Poling the Marsh Hay",
+        "year": 1886,
+        "image": null,
+        "credit": "Public Domain — Peter Henry Emerson",
+        "href": "https://en.wikipedia.org/wiki/Peter_Henry_Emerson"
+      }
+    ],
+    "techniques": [
+      "铂金印相",
+      "自然主义聚焦",
+      "大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Henry_Emerson",
+      "https://www.moma.org/artists/1731"
+    ]
+  },
+  {
+    "id": "weegee",
+    "name": "Weegee (Arthur Fellig)",
+    "nameZh": "维加",
+    "born": 1899,
+    "died": 1968,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [],
+    "bio": "美国犯罪现场摄影师,以闪光灯拍摄纽约夜间街头犯罪与底层生活,绰号来自他'通灵般'提前赶到现场的能力。",
+    "bioLong": "1899 年生于奥匈帝国(今乌克兰),10 岁移民纽约。1930-40 年代以自由摄影师身份专拍纽约夜间新闻:凶杀现场、火灾、逮捕、街头醉汉——他在后备箱装着暗房设备和警用收音机,总能比警察更快到达现场,同事戏称他为'Weegee'(谐音 Ouija,通灵板)。他的招牌是 4×5 Speed Graphic 相机加闪光灯直射,画面中心人物被强光照亮而背景漆黑,创造出粗暴、戏剧化的视觉效果。1945 年出版的《赤裸的城市》(Naked City)成为纽约黑色影像的经典。",
+    "keyDates": [
+      {
+        "year": 1938,
+        "event": "成为纽约唯一获准安装警用收音机的报社外摄影师"
+      },
+      {
+        "year": 1945,
+        "event": "出版《赤裸的城市》(Naked City)"
+      },
+      {
+        "year": 1948,
+        "event": "同名电影上映,noir 美学标志"
+      }
+    ],
+    "works": [
+      {
+        "title": "Their First Murder",
+        "year": 1941,
+        "image": null,
+        "credit": "© Weegee / International Center of Photography",
+        "href": "https://www.icp.org/browse/archive/objects/their-first-murder"
+      },
+      {
+        "title": "The Critic (Mrs. Cavanaugh & Friend)",
+        "year": 1943,
+        "image": null,
+        "credit": "© Weegee / ICP",
+        "href": "https://www.icp.org"
+      }
+    ],
+    "techniques": [
+      "4×5 Speed Graphic",
+      "直射闪光灯",
+      "黑白",
+      "犯罪现场"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Weegee",
+      "https://www.icp.org/browse/archive/constituents/weegee"
+    ]
+  },
+  {
+    "id": "bill-brandt",
+    "name": "Bill Brandt",
+    "nameZh": "比尔·布兰特",
+    "born": 1904,
+    "died": 1983,
+    "country": "GB",
+    "region": "europe",
+    "movements": [
+      "humanist",
+      "street"
+    ],
+    "influencedBy": [
+      "man-ray",
+      "atget"
+    ],
+    "bio": "英国最重要的摄影师之一,从社会纪实到超现实裸体,以极端反差的黑白影调定义了英国摄影的视觉语言。",
+    "bioLong": "1904 年生于汉堡(德英混血),1929 年在巴黎做 Man Ray 的短期助手,受超现实主义影响。1930 年代定居伦敦,拍摄英国阶级社会:富人的晚宴与矿工的午餐并置(《英国人在家》,1936)、战时伦敦人在地铁站避难的群像。1940 年代后期他转向用极端广角镜头拍摄裸体——在海滩的鹅卵石间、废弃房间的地板上,人体被透视变形为近乎抽象的雕塑,这组裸体系列是 20 世纪最具原创性的人体摄影之一。他的暗房工艺追求极端的明暗对比,几乎没有灰色过渡,影响了后来的 Ralph Gibson 等人。",
+    "keyDates": [
+      {
+        "year": 1936,
+        "event": "出版《英国人在家》(The English at Home)"
+      },
+      {
+        "year": 1945,
+        "event": "拍摄伦敦战时地铁站避难系列"
+      },
+      {
+        "year": 1961,
+        "event": "出版《裸体的透视》(Perspective of Nudes)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Nude, East Sussex Coast",
+        "year": 1957,
+        "image": null,
+        "credit": "© Bill Brandt Archive",
+        "href": "https://www.moma.org/artists/729"
+      },
+      {
+        "title": "Coal Searcher Going Home to Jarrow",
+        "year": 1937,
+        "image": null,
+        "credit": "© Bill Brandt Archive",
+        "href": "https://www.billbrandt.com"
+      }
+    ],
+    "techniques": [
+      "极端反差",
+      "广角变形",
+      "黑白",
+      "社会纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bill_Brandt",
+      "https://www.moma.org/artists/729"
+    ]
+  },
+  {
+    "id": "w-eugene-smith",
+    "name": "W. Eugene Smith",
+    "nameZh": "尤金·史密斯",
+    "born": 1918,
+    "died": 1978,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "magnum",
+      "war-photography"
+    ],
+    "influencedBy": [
+      "lange"
+    ],
+    "bio": "美国摄影记者,'图片故事'(photo essay)形式的奠基者,以二战太平洋战场报道和水俣病调查闻名。",
+    "bioLong": "1918 年生于堪萨斯州威奇托,二战期间在太平洋战场拍摄了冲绳战役等惨烈场面,自己也被炮弹碎片严重击伤。康复后为《Life》杂志创作了一系列定义'图片故事'(photo essay)这一形式的专题:《乡村医生》(1948)、《助产士》(1951)、《西班牙村庄》(1951)——每一组都以电影般的叙事结构和极致的暗房控制呈现。1971 年移居日本,花三年记录水俣湾工业汞中毒对渔村居民的毁灭性影响;《智子与其母亲入浴》成为环境公害摄影的标志性图像。他对编辑控制权的执着抗争(多次与杂志决裂)定义了摄影师独立性的职业伦理。",
+    "keyDates": [
+      {
+        "year": 1945,
+        "event": "在冲绳战役中被炮弹碎片重伤"
+      },
+      {
+        "year": 1948,
+        "event": "为 Life 拍摄《乡村医生》,奠定 photo essay 形式"
+      },
+      {
+        "year": 1975,
+        "event": "出版《水俣》(Minamata),记录工业汞中毒"
+      }
+    ],
+    "works": [
+      {
+        "title": "Tomoko Uemura in Her Bath (Minamata)",
+        "year": 1971,
+        "image": null,
+        "credit": "© W. Eugene Smith / Magnum Photos",
+        "href": "https://www.magnumphotos.com/photographer/w-eugene-smith/"
+      },
+      {
+        "title": "The Walk to Paradise Garden",
+        "year": 1946,
+        "image": null,
+        "credit": "© W. Eugene Smith / Magnum Photos",
+        "href": "https://www.magnumphotos.com/photographer/w-eugene-smith/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "图片故事",
+      "暗房精控",
+      "纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/W._Eugene_Smith",
+      "https://www.magnumphotos.com/photographer/w-eugene-smith/"
+    ]
+  },
+  {
+    "id": "william-klein",
+    "name": "William Klein",
+    "nameZh": "威廉·克莱因",
+    "born": 1926,
+    "died": 2022,
+    "country": "US",
+    "region": "europe",
+    "movements": [
+      "street",
+      "fashion"
+    ],
+    "influencedBy": [],
+    "bio": "美国裔巴黎摄影师与电影人,以粗暴的广角闪光灯街头摄影和反时尚的 Vogue 大片颠覆了 50 年代的摄影规范。",
+    "bioLong": "1926 年生于纽约,1948 年移居巴黎学习绘画。1956 年出版的《纽约》(Life is Good & Good for You in New York)以粗颗粒、运动模糊、极端广角和直闪的'反摄影'手法震惊摄影界——在 Cartier-Bresson 优雅精确的年代,他的照片像一记耳光。同时他也为法国版 Vogue 拍摄时装大片,但以同样叛逆的方式:模特在街头与路人混在一起,构图故意歪斜粗暴。他的《纽约》《罗马》《莫斯科》《东京》四本城市摄影集重新定义了城市摄影的可能性。1960 年代后转向电影,拍摄了《谁是你,波莉·马戈?》等实验作品。",
+    "keyDates": [
+      {
+        "year": 1956,
+        "event": "出版《纽约》,颠覆摄影美学规范"
+      },
+      {
+        "year": 1960,
+        "event": "出版《罗马》《莫斯科》《东京》"
+      },
+      {
+        "year": 1966,
+        "event": "转向电影,拍摄《谁是你,波莉·马戈?》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Gun 1, New York",
+        "year": 1955,
+        "image": null,
+        "credit": "© William Klein",
+        "href": "https://www.moma.org/artists/3201"
+      },
+      {
+        "title": "Moves + Pepsi, Harlem, New York",
+        "year": 1955,
+        "image": null,
+        "credit": "© William Klein",
+        "href": "https://www.moma.org/artists/3201"
+      }
+    ],
+    "techniques": [
+      "广角",
+      "粗颗粒",
+      "直射闪光灯",
+      "运动模糊"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/William_Klein_(photographer)",
+      "https://www.moma.org/artists/3201"
+    ]
+  },
+  {
+    "id": "harry-callahan",
+    "name": "Harry Callahan",
+    "nameZh": "哈里·卡拉汉",
+    "born": 1912,
+    "died": 1999,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "a-adams",
+      "moholy-nagy"
+    ],
+    "bio": "美国现代主义摄影大师,以极简构图和对妻子 Eleanor 的持续肖像实践著称,兼具 f/64 的精确与包豪斯的实验。",
+    "bioLong": "1912 年生于底特律,1941 年听了 Ansel Adams 的讲座后被摄影'击中',此后完全自学。他在芝加哥设计学院(Moholy-Nagy 创办的新包豪斯)和罗德岛设计学院任教数十年,是美国摄影教育史上最有影响力的教师之一。他的作品横跨极简风景(芝加哥湖滨的一根草与白雪)、多重曝光实验、以及对妻子 Eleanor 长达 50 年的持续拍摄——从年轻到老年,在海滩、街头、家中——这是摄影史上最长久的爱情视觉日记。他的教学方法强调'拍你所爱',影响了 Emmet Gowin、Stephen Shore 等后辈。",
+    "keyDates": [
+      {
+        "year": 1946,
+        "event": "在芝加哥设计学院(新包豪斯)开始任教"
+      },
+      {
+        "year": 1961,
+        "event": "转入罗德岛设计学院"
+      },
+      {
+        "year": 1996,
+        "event": "获国家艺术勋章"
+      }
+    ],
+    "works": [
+      {
+        "title": "Eleanor, Chicago",
+        "year": 1948,
+        "image": null,
+        "credit": "© The Estate of Harry Callahan / Pace Gallery",
+        "href": "https://www.moma.org/artists/896"
+      },
+      {
+        "title": "Weed Against Sky, Detroit",
+        "year": 1948,
+        "image": null,
+        "credit": "© The Estate of Harry Callahan",
+        "href": "https://www.moma.org/artists/896"
+      }
+    ],
+    "techniques": [
+      "极简构图",
+      "多重曝光",
+      "黑白",
+      "大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Callahan_(photographer)",
+      "https://www.moma.org/artists/896"
+    ]
+  },
+  {
+    "id": "minor-white",
+    "name": "Minor White",
+    "nameZh": "迈纳·怀特",
+    "born": 1908,
+    "died": 1976,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "stieglitz",
+      "a-adams"
+    ],
+    "bio": "美国摄影师与理论家,将斯蒂格利茨的'等价物'概念发展为精神性摄影实践,创办《Aperture》杂志。",
+    "bioLong": "1908 年生于明尼阿波利斯,在俄勒冈大学学习植物学和文学后转向摄影。他深受斯蒂格利茨'等价物'(Equivalents)概念影响——认为照片可以超越表面的记录,成为内在情感和精神状态的'对应物'。他拍摄的岩石、冰面、树皮等自然表面以极端精细的影调呈现,被视为'冥想式摄影'的代表。1952 年与 Ansel Adams、Beaumont Newhall 等人共同创办《Aperture》杂志,此后编辑该杂志长达 23 年,使之成为严肃摄影的最重要出版平台。他也是禅宗和 Gurdjieff 思想的实践者,将冥想融入教学方法。",
+    "keyDates": [
+      {
+        "year": 1952,
+        "event": "共同创办《Aperture》杂志"
+      },
+      {
+        "year": 1965,
+        "event": "MIT 创意摄影项目创始人"
+      },
+      {
+        "year": 1976,
+        "event": "去世;生前最后一场展览在 MoMA"
+      }
+    ],
+    "works": [
+      {
+        "title": "Sun in Rock, Devil's Slide, San Mateo County",
+        "year": 1947,
+        "image": null,
+        "credit": "© The Minor White Archive / Princeton University Art Museum",
+        "href": "https://www.moma.org/artists/6327"
+      },
+      {
+        "title": "Windowsill Daydreaming, Rochester",
+        "year": 1958,
+        "image": null,
+        "credit": "© The Minor White Archive",
+        "href": "https://www.moma.org/artists/6327"
+      }
+    ],
+    "techniques": [
+      "等价物",
+      "精神性摄影",
+      "黑白",
+      "区域曝光法"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Minor_White",
+      "https://www.moma.org/artists/6327"
+    ]
+  },
+  {
+    "id": "helen-levitt",
+    "name": "Helen Levitt",
+    "nameZh": "海伦·莱维特",
+    "born": 1913,
+    "died": 2009,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "美国街头摄影师,以纽约底层社区儿童的自发游戏和身体语言闻名,是街头摄影中最纯粹的抒情诗人。",
+    "bioLong": "1913 年生于纽约布鲁克林,1930 年代在纽约看到 Cartier-Bresson 的作品后开始在街头拍摄。她的镜头几乎专注于纽约工人阶级社区(尤其是哈莱姆和下东区)的街头生活:孩子们在消防栓下玩水、在人行道上用粉笔画画、在台阶上打闹——每张照片都捕捉了都市童年的自发欢乐与编舞般的身体韵律。她的彩色作品(1960-70 年代)以柔和的柯达色调呈现纽约街头的诗意日常,是最早被严肃对待的彩色街头摄影之一。她极度低调,终生不愿接受采访,让照片自己说话。",
+    "keyDates": [
+      {
+        "year": 1943,
+        "event": "在 MoMA 举办首次个展"
+      },
+      {
+        "year": 1965,
+        "event": "开始拍摄彩色街头摄影"
+      },
+      {
+        "year": 1991,
+        "event": "出版综合回顾集"
+      }
+    ],
+    "works": [
+      {
+        "title": "New York (Children Playing with Masks)",
+        "year": 1940,
+        "image": null,
+        "credit": "© Helen Levitt Film Documents LLC",
+        "href": "https://www.moma.org/artists/3508"
+      },
+      {
+        "title": "New York (Chalk Drawings)",
+        "year": 1940,
+        "image": null,
+        "credit": "© Helen Levitt",
+        "href": "https://www.moma.org/artists/3508"
+      }
+    ],
+    "techniques": [
+      "Leica 旁轴",
+      "抓拍",
+      "黑白",
+      "彩色"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helen_Levitt",
+      "https://www.moma.org/artists/3508"
+    ]
+  },
+  {
+    "id": "lisette-model",
+    "name": "Lisette Model",
+    "nameZh": "利塞特·莫德尔",
+    "born": 1901,
+    "died": 1983,
+    "country": "AT",
+    "region": "americas",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [],
+    "bio": "奥地利裔美国街头摄影师,以粗暴直接的风格拍摄纽约街头人物,是 Diane Arbus 的老师。",
+    "bioLong": "1901 年生于维也纳,1938 年逃离纳粹移居纽约。她以大胆、侵略性的近距离拍摄著称:1940 年代在法国尼斯海滨拍摄的富人肖像(Promenade des Anglais 系列)——肥胖的身体、夸张的表情、炫耀的珠宝——用不加修饰的正面视角揭示了布尔乔亚的荒诞。在纽约她继续以同样的方式拍摄酒吧歌手、变装皇后和街头路人。她的教学(在纽约新社会研究学院)影响深远:Diane Arbus 是她最著名的学生,Arbus 对社会边缘人的直视方法直接继承自 Model 的教诲。",
+    "keyDates": [
+      {
+        "year": 1940,
+        "event": "尼斯海滨系列在纽约 PM 杂志发表"
+      },
+      {
+        "year": 1951,
+        "event": "开始在纽约新社会研究学院任教"
+      },
+      {
+        "year": 1958,
+        "event": "Diane Arbus 成为她的学生"
+      }
+    ],
+    "works": [
+      {
+        "title": "Promenade des Anglais, Nice",
+        "year": 1937,
+        "image": null,
+        "credit": "© The Lisette Model Foundation",
+        "href": "https://www.moma.org/artists/4029"
+      },
+      {
+        "title": "Singer at the Metropole Café, New York",
+        "year": 1946,
+        "image": null,
+        "credit": "© The Lisette Model Foundation",
+        "href": "https://www.moma.org/artists/4029"
+      }
+    ],
+    "techniques": [
+      "近距离",
+      "Rolleiflex",
+      "黑白",
+      "直接肖像"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lisette_Model",
+      "https://www.moma.org/artists/4029"
+    ]
+  },
+  {
+    "id": "willy-ronis",
+    "name": "Willy Ronis",
+    "nameZh": "威利·罗尼",
+    "born": 1910,
+    "died": 2009,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "humanist"
+    ],
+    "influencedBy": [
+      "kertesz"
+    ],
+    "bio": "法国人文主义摄影大师,与 Doisneau、Brassaï 并列,以温暖的目光记录巴黎工人阶级的日常诗意。",
+    "bioLong": "1910 年生于巴黎(乌克兰犹太移民之子),原学小提琴,父亲去世后接手家庭摄影工作室。他的照片以对巴黎工人阶级日常生活的深情记录著称:贝尔维尔区的集市、工厂女工的午休、孩子在广场上的追逐——每一个画面都充满温暖的光线和对劳动者尊严的尊重。1957 年获威尼斯双年展金奖(摄影类首次设奖)。他是法国人文主义摄影'五人组'(与 Doisneau、Brassaï、Izis、Boubat 并列)的核心成员,也是法国共产党的长期同路人,将社会关怀融入每一张照片。",
+    "keyDates": [
+      {
+        "year": 1946,
+        "event": "拍摄标志性作品《贝尔维尔的小巴黎人》"
+      },
+      {
+        "year": 1957,
+        "event": "获威尼斯双年展金奖(摄影类首次设奖)"
+      },
+      {
+        "year": 2005,
+        "event": "将全部作品捐赠法国政府"
+      }
+    ],
+    "works": [
+      {
+        "title": "Le Petit Parisien (The Little Parisian), Belleville",
+        "year": 1952,
+        "image": null,
+        "credit": "© Succession Willy Ronis / Ministère de la Culture",
+        "href": "https://en.wikipedia.org/wiki/Willy_Ronis"
+      },
+      {
+        "title": "Nu provençal (Provençal Nude)",
+        "year": 1949,
+        "image": null,
+        "credit": "© Succession Willy Ronis",
+        "href": "https://en.wikipedia.org/wiki/Willy_Ronis"
+      }
+    ],
+    "techniques": [
+      "Leica 旁轴",
+      "自然光",
+      "黑白",
+      "人文纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Willy_Ronis",
+      "https://www.mep-fr.org"
+    ]
+  },
+  {
+    "id": "ernst-haas",
+    "name": "Ernst Haas",
+    "nameZh": "恩斯特·哈斯",
+    "born": 1921,
+    "died": 1986,
+    "country": "AT",
+    "region": "americas",
+    "movements": [
+      "magnum"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "奥地利裔美国摄影师,彩色摄影先驱,1953 年在 Life 杂志发表首个全彩色图片故事。",
+    "bioLong": "1921 年生于维也纳,1949 年被 Robert Capa 邀请加入 Magnum 图片社。1953 年《Life》杂志用 24 页刊登了他的纽约彩色摄影专题——这是该杂志首次以彩色照片为主体的图片故事,标志着彩色摄影在严肃新闻媒体中的突破。他以慢速快门拍摄运动中的色彩——斗牛士的红色、赛车的模糊光带、纽约街头雨后的反射——创造出绘画般的抽象效果。1962 年出版的《创造》(The Creation)是最早以纯彩色照片为内容的艺术摄影书之一。他比 Eggleston 和 Shore 更早探索彩色摄影的艺术可能性。",
+    "keyDates": [
+      {
+        "year": 1949,
+        "event": "加入 Magnum 图片社"
+      },
+      {
+        "year": 1953,
+        "event": "Life 杂志刊登首个全彩色图片故事"
+      },
+      {
+        "year": 1962,
+        "event": "出版《创造》(The Creation)"
+      }
+    ],
+    "works": [
+      {
+        "title": "New York in Color — Corner of 38th Street",
+        "year": 1952,
+        "image": null,
+        "credit": "© Ernst Haas / Getty Images",
+        "href": "https://ernst-haas.com"
+      },
+      {
+        "title": "Bullfight — Motion Study",
+        "year": 1956,
+        "image": null,
+        "credit": "© Ernst Haas / Getty Images",
+        "href": "https://ernst-haas.com"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "慢速快门",
+      "运动模糊",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ernst_Haas",
+      "https://ernst-haas.com"
+    ]
+  },
+  {
+    "id": "philippe-halsman",
+    "name": "Philippe Halsman",
+    "nameZh": "菲利普·哈尔斯曼",
+    "born": 1906,
+    "died": 1979,
+    "country": "LV",
+    "region": "americas",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [],
+    "bio": "拉脱维亚裔美国肖像摄影师,Life 杂志封面拍摄记录保持者(101 张),以'跳跃肖像'系列闻名。",
+    "bioLong": "1906 年生于里加,1940 年在爱因斯坦的帮助下逃离纳粹欧洲赴美。他是 20 世纪中叶美国最成功的肖像摄影师之一:为《Life》杂志拍摄了 101 张封面,至今仍是纪录保持者。他与达利长达 37 年的合作(1941-1978)产生了摄影史上最超现实的肖像系列,包括《达利的原子》(Dalí Atomicus,1948)——达利悬空跳跃,猫和水同时被抛入空中,拍了 28 次才成功。他的'跳跃学'(Jumpology)项目让每位名人在镜头前跳跃——从玛丽莲·梦露到尼克松——他认为'跳跃时人无法控制表情,面具会脱落'。",
+    "keyDates": [
+      {
+        "year": 1941,
+        "event": "开始与达利长达 37 年的合作"
+      },
+      {
+        "year": 1948,
+        "event": "拍摄《达利的原子》,28 次尝试"
+      },
+      {
+        "year": 1959,
+        "event": "出版《跳跃书》(Jump Book)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Dalí Atomicus",
+        "year": 1948,
+        "image": "https://upload.wikimedia.org/wikipedia/en/6/6e/Salvador_Dali_A_%28Dali_Atomicus%29_09633u.jpg",
+        "credit": "© Philippe Halsman Archive",
+        "href": "https://www.magnumphotos.com/photographer/philippe-halsman/"
+      },
+      {
+        "title": "Marilyn Monroe Jump",
+        "year": 1959,
+        "image": null,
+        "credit": "© Philippe Halsman Archive",
+        "href": "https://www.magnumphotos.com/photographer/philippe-halsman/"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "闪光灯",
+      "跳跃肖像",
+      "超现实合作"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Philippe_Halsman",
+      "https://www.magnumphotos.com/photographer/philippe-halsman/"
+    ]
+  },
+  {
+    "id": "yousuf-karsh",
+    "name": "Yousuf Karsh",
+    "nameZh": "优素福·卡什",
+    "born": 1908,
+    "died": 2002,
+    "country": "CA",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [],
+    "bio": "亚美尼亚裔加拿大肖像摄影师,以戏剧性布光拍摄 20 世纪最重要的面孔,丘吉尔怒容肖像举世闻名。",
+    "bioLong": "1908 年生于奥斯曼帝国马尔丁(今土耳其,亚美尼亚裔),少年时经历亚美尼亚种族灭绝后逃至加拿大。1941 年在渥太华拍摄了丘吉尔的标志性肖像——他故意从丘吉尔嘴边拿走雪茄,激怒了首相,按下快门的瞬间捕捉到了那个著名的怒容。这张照片成为二战期间盟军坚毅形象的象征。此后 60 年间,他为超过百位 20 世纪最重要的人物拍摄了正式肖像:爱因斯坦、海明威、肯尼迪、卡斯特罗、毕加索——每一张都以精心设计的戏剧性布光呈现人物的'内在力量'。",
+    "keyDates": [
+      {
+        "year": 1941,
+        "event": "拍摄丘吉尔怒容肖像,一举成名"
+      },
+      {
+        "year": 1967,
+        "event": "出版《Karsh Portfolio》"
+      },
+      {
+        "year": 1992,
+        "event": "获加拿大勋章最高等级"
+      }
+    ],
+    "works": [
+      {
+        "title": "Winston Churchill",
+        "year": 1941,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Sir_Winston_Churchill_-_19086236948.jpg",
+        "credit": "© Estate of Yousuf Karsh"
+      },
+      {
+        "title": "Ernest Hemingway",
+        "year": 1957,
+        "image": null,
+        "credit": "© Estate of Yousuf Karsh",
+        "href": "https://karsh.org"
+      }
+    ],
+    "techniques": [
+      "大画幅 8×10",
+      "戏剧性布光",
+      "正式肖像"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yousuf_Karsh",
+      "https://karsh.org"
+    ]
+  },
+  {
+    "id": "arnold-newman",
+    "name": "Arnold Newman",
+    "nameZh": "阿诺德·纽曼",
+    "born": 1918,
+    "died": 2006,
+    "country": "US",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [],
+    "bio": "美国摄影师,'环境肖像'(environmental portrait)的发明者,将被摄者置于其工作/生活环境中拍摄。",
+    "bioLong": "1918 年生于纽约,被公认为'环境肖像'(environmental portrait)这一类型的创始人——在他之前,肖像摄影通常在中性背景前完成;他将被摄者放回他们的工作室、实验室或舞台,让环境成为人物性格的视觉延伸。1946 年为斯特拉文斯基拍摄的侧面剪影与三角钢琴的几何构成是环境肖像的教科书范例。他为蒙德里安、毕加索、玛丽莲·梦露、肯尼迪等名人拍摄的肖像都以精心构思的环境-人物关系著称。他的理念是'每张肖像都应该有一个视觉概念(visual idea)',而不只是一张漂亮的脸。",
+    "keyDates": [
+      {
+        "year": 1946,
+        "event": "拍摄斯特拉文斯基钢琴肖像,定义环境肖像"
+      },
+      {
+        "year": 1951,
+        "event": "作品进入 MoMA 收藏"
+      },
+      {
+        "year": 2000,
+        "event": "获 ICP Infinity Award 终身成就奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Igor Stravinsky with Piano",
+        "year": 1946,
+        "image": null,
+        "credit": "© Arnold Newman / Getty Images",
+        "href": "https://www.moma.org/artists/4291"
+      },
+      {
+        "title": "Alfred Krupp, Essen, Germany",
+        "year": 1963,
+        "image": null,
+        "credit": "© Arnold Newman / Getty Images",
+        "href": "https://en.wikipedia.org/wiki/Arnold_Newman"
+      }
+    ],
+    "techniques": [
+      "环境肖像",
+      "大画幅",
+      "几何构图",
+      "黑白"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Arnold_Newman",
+      "https://www.moma.org/artists/4291"
+    ]
+  },
+  {
+    "id": "james-nachtwey",
+    "name": "James Nachtwey",
+    "nameZh": "詹姆斯·纳赫特韦",
+    "born": 1948,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "war-photography",
+      "magnum"
+    ],
+    "influencedBy": [
+      "capa",
+      "w-eugene-smith"
+    ],
+    "bio": "当代最重要的战地摄影师,以极端近距离记录卢旺达屠杀、911、阿富汗等人道主义危机闻名。",
+    "bioLong": "1948 年生于纽约锡拉丘兹,受越战和民权运动新闻照片启发走上摄影道路。从 1981 年开始,他几乎出现在每一个当代重大冲突现场:北爱尔兰、萨尔瓦多、卢旺达屠杀、波黑战争、索马里饥荒、阿富汗、伊拉克、911 世贸中心(他当时就在曼哈顿)。他的照片以极端近距离和对受害者痛苦的直面而著称——不是旁观者的冷眼,而是'与受难者同在'的参与感。2001 年纪录片《War Photographer》记录了他在科索沃和印尼的工作,获奥斯卡提名。他坚持'照片可以改变世界'的信念,是 Robert Capa 精神的当代传人。",
+    "keyDates": [
+      {
+        "year": 1994,
+        "event": "深入卢旺达记录种族屠杀"
+      },
+      {
+        "year": 2001,
+        "event": "在曼哈顿现场记录 911 事件"
+      },
+      {
+        "year": 2007,
+        "event": "获 TED Prize,创办 X 平台记录全球结核病危机"
+      }
+    ],
+    "works": [
+      {
+        "title": "Hutu Man Mutilated by Interahamwe, Rwanda",
+        "year": 1994,
+        "image": null,
+        "credit": "© James Nachtwey / VII Photo",
+        "href": "https://www.jamesnachtwey.com"
+      },
+      {
+        "title": "Ground Zero, September 11, 2001",
+        "year": 2001,
+        "image": null,
+        "credit": "© James Nachtwey / VII Photo",
+        "href": "https://www.jamesnachtwey.com"
+      }
+    ],
+    "techniques": [
+      "35mm",
+      "黑白与彩色",
+      "极端近距离",
+      "战地纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/James_Nachtwey",
+      "https://www.jamesnachtwey.com"
+    ]
+  },
+  {
+    "id": "herb-ritts",
+    "name": "Herb Ritts",
+    "nameZh": "赫布·里兹",
+    "born": 1952,
+    "died": 2002,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "avedon",
+      "penn"
+    ],
+    "bio": "美国时尚与名人摄影师,以加州阳光下的雕塑感黑白人体和名人肖像定义了 1980-90 年代的视觉文化。",
+    "bioLong": "1952 年生于洛杉矶,在加州大学修读经济学期间开始为朋友拍照,1979 年为演员 Richard Gere 拍摄的一组公路旁即兴肖像让两人同时成名。80-90 年代他成为时尚与名人摄影的顶级人物:麦当娜、辛迪·克劳馥、超模 Naomi Campbell 的标志性形象大多出自他手。他的风格独特地融合了加州的自然光与古典雕塑的形体感:在沙漠或海滩的强光下,人体呈现出大理石般的质感和纪念碑式的庄严。他也为 Michael Jackson、Janet Jackson 拍摄 MV,将摄影美学带入流行音乐视觉。2002 年因 AIDS 并发症去世。",
+    "keyDates": [
+      {
+        "year": 1979,
+        "event": "为 Richard Gere 拍摄公路肖像,一举成名"
+      },
+      {
+        "year": 1988,
+        "event": "拍摄麦当娜 'Like a Prayer' 宣传照"
+      },
+      {
+        "year": 1999,
+        "event": "波士顿美术馆个展 'Work'"
+      }
+    ],
+    "works": [
+      {
+        "title": "Cindy Crawford — Malibu",
+        "year": 1988,
+        "image": null,
+        "credit": "© Herb Ritts Foundation",
+        "href": "https://www.herbritts.com"
+      },
+      {
+        "title": "Fred with Tires, Hollywood",
+        "year": 1984,
+        "image": null,
+        "credit": "© Herb Ritts Foundation",
+        "href": "https://www.herbritts.com"
+      }
+    ],
+    "techniques": [
+      "自然光",
+      "黑白",
+      "雕塑感人体",
+      "加州户外"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Herb_Ritts",
+      "https://www.herbritts.com"
+    ]
+  },
+  {
+    "id": "peter-lindbergh",
+    "name": "Peter Lindbergh",
+    "nameZh": "彼得·林德伯格",
+    "born": 1944,
+    "died": 2019,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [],
+    "bio": "德国时尚摄影师,以黑白纪实风格革新时尚摄影,1990 年英国版 Vogue 封面定义了'超模时代'。",
+    "bioLong": "1944 年生于德国被占领的波兰地区,在杜伊斯堡长大。他以拒绝修图和过度美化而闻名——在时尚摄影全面数字化修饰的时代,他坚持黑白胶片和自然状态的拍摄。1990 年 1 月为英国版 Vogue 拍摄的封面——Naomi Campbell、Linda Evangelista、Christy Turlington、Cindy Crawford 和 Tatjana Patitz 五人以素颜示人——被视为'超模时代'的开端。他的照片以电影般的叙事感、自然光与极简布光、以及对女性'真实力量'(而非完美外表)的捕捉著称。他生前策划了 2019 年 Pirelli 年历,坚持使用未修图的自然肖像。",
+    "keyDates": [
+      {
+        "year": 1990,
+        "event": "英国版 Vogue 封面定义'超模时代'"
+      },
+      {
+        "year": 2014,
+        "event": "Kunsthal Rotterdam 大型回顾展"
+      },
+      {
+        "year": 2019,
+        "event": "策划 Pirelli 年历后去世"
+      }
+    ],
+    "works": [
+      {
+        "title": "Naomi Campbell, Linda Evangelista, Tatjana Patitz, Christy Turlington, Cindy Crawford — British Vogue",
+        "year": 1990,
+        "image": null,
+        "credit": "© Peter Lindbergh Foundation",
+        "href": "https://www.peterlindbergh.com"
+      },
+      {
+        "title": "Milla Jovovich — Mojave Desert",
+        "year": 1990,
+        "image": null,
+        "credit": "© Peter Lindbergh Foundation",
+        "href": "https://www.peterlindbergh.com"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "自然光",
+      "电影叙事",
+      "拒绝修图"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Lindbergh",
+      "https://www.peterlindbergh.com"
+    ]
+  },
+  {
+    "id": "david-bailey",
+    "name": "David Bailey",
+    "nameZh": "大卫·贝利",
+    "born": 1938,
+    "died": null,
+    "country": "GB",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "avedon"
+    ],
+    "bio": "英国时尚摄影师,伦敦'摇摆六十年代'的视觉缔造者,以粗犷的黑白风格为 Vogue 拍摄了定义一个时代的时装大片。",
+    "bioLong": "1938 年生于伦敦东区工人阶级家庭,1960 年加入英国版 Vogue 后迅速成为'摇摆六十年代'的视觉代言人。他与 Terence Donovan 和 Brian Duffy 并称'恐怖三人组'(Terrible Three),彻底颠覆了英国时尚摄影的贵族气息——用粗犷的黑白影调、街头感的场景和模特的自然动态取代了僵硬的摄影棚美学。他为 Jean Shrimpton、Twiggy、Kate Moss 等超模拍摄的照片定义了数十年的时尚视觉。电影《放大》(Blow-Up, 1966)中的摄影师角色即以他为原型。",
+    "keyDates": [
+      {
+        "year": 1960,
+        "event": "加入英国版 Vogue"
+      },
+      {
+        "year": 1965,
+        "event": "出版《David Bailey's Box of Pin-Ups》"
+      },
+      {
+        "year": 2014,
+        "event": "伦敦国家肖像画廊大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Jean Shrimpton — Vogue",
+        "year": 1962,
+        "image": null,
+        "credit": "© David Bailey",
+        "href": "https://www.npg.org.uk/collections/search/person/mp07181/david-bailey"
+      },
+      {
+        "title": "Mick Jagger — Portrait",
+        "year": 1964,
+        "image": null,
+        "credit": "© David Bailey",
+        "href": "https://en.wikipedia.org/wiki/David_Bailey"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "自然动态",
+      "35mm",
+      "时尚纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Bailey",
+      "https://www.npg.org.uk/collections/search/person/mp07181/david-bailey"
+    ]
+  },
+  {
+    "id": "larry-clark",
+    "name": "Larry Clark",
+    "nameZh": "拉里·克拉克",
+    "born": 1943,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "frank"
+    ],
+    "bio": "美国摄影师与电影人,1971 年出版的《塔尔萨》以毫不遮掩的方式记录了美国青少年的毒品、性与暴力。",
+    "bioLong": "1943 年生于俄克拉荷马州塔尔萨,1971 年出版的《Tulsa》是摄影史上最具争议的作品之一——他以局内人身份(自己也是使用者)拍摄了塔尔萨青少年群体的注射毒品、性行为和枪支暴力。这本书因其毫不回避的真实性而震动美国社会,直接影响了 Nan Goldin 一代的'私密纪实'方向。1995 年他执导的电影《Kids》延续了同样的题材与争议。他的作品始终在'纪录与剥削'、'亲历与窥视'之间引发辩论。",
+    "keyDates": [
+      {
+        "year": 1971,
+        "event": "出版《Tulsa》,震动美国摄影界"
+      },
+      {
+        "year": 1983,
+        "event": "出版《Teenage Lust》"
+      },
+      {
+        "year": 1995,
+        "event": "执导电影《Kids》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Untitled (Tulsa)",
+        "year": 1971,
+        "image": null,
+        "credit": "© Larry Clark / Luhring Augustine",
+        "href": "https://www.moma.org/artists/1109"
+      },
+      {
+        "title": "Billy Mann",
+        "year": 1968,
+        "image": null,
+        "credit": "© Larry Clark",
+        "href": "https://www.moma.org/artists/1109"
+      }
+    ],
+    "techniques": [
+      "35mm",
+      "黑白",
+      "私密纪实",
+      "局内人视角"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Larry_Clark",
+      "https://www.moma.org/artists/1109"
+    ]
+  },
+  {
+    "id": "barbara-kruger",
+    "name": "Barbara Kruger",
+    "nameZh": "芭芭拉·克鲁格",
+    "born": 1945,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [
+      "sherman"
+    ],
+    "bio": "美国概念艺术家,以红白黑文字叠加在黑白照片上的标志性风格质问消费主义、性别与权力。",
+    "bioLong": "1945 年生于新泽西州纽瓦克,早年在 Condé Nast 做平面设计师。1980 年代开始创作她的标志性作品:从杂志和档案中挑选黑白照片,叠加 Futura Bold 字体的挑衅性文字——'I shop therefore I am'(我购物故我在)、'Your body is a battleground'(你的身体是战场)——红白黑的视觉冲击力和广告式的直接性让她的作品同时在画廊和街头发挥作用。她的方法论质问了图像如何制造欲望、权力和身份认同,是后现代摄影与概念艺术的标志人物。",
+    "keyDates": [
+      {
+        "year": 1981,
+        "event": "开始文字叠加照片的标志性创作方式"
+      },
+      {
+        "year": 1987,
+        "event": "创作'I shop therefore I am'"
+      },
+      {
+        "year": 2022,
+        "event": "纽约 MoMA/芝加哥 Art Institute 联合回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Untitled (Your Body Is a Battleground)",
+        "year": 1989,
+        "image": null,
+        "credit": "© Barbara Kruger",
+        "href": "https://www.moma.org/artists/3266"
+      },
+      {
+        "title": "Untitled (I Shop Therefore I Am)",
+        "year": 1987,
+        "image": null,
+        "credit": "© Barbara Kruger",
+        "href": "https://www.moma.org/artists/3266"
+      }
+    ],
+    "techniques": [
+      "图文叠加",
+      "挪用",
+      "Futura Bold",
+      "红白黑"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Barbara_Kruger",
+      "https://www.moma.org/artists/3266"
+    ]
+  },
+  {
+    "id": "lewis-baltz",
+    "name": "Lewis Baltz",
+    "nameZh": "刘易斯·巴尔兹",
+    "born": 1945,
+    "died": 2014,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "new-topographics"
+    ],
+    "influencedBy": [
+      "evans",
+      "r-adams"
+    ],
+    "bio": "美国摄影师,新地形学运动核心成员,以冷峻的黑白影像记录美国西部郊区开发的荒凉。",
+    "bioLong": "1945 年生于加州纽波特比奇,1975 年参加'新地形'展览的核心成员之一。他的《The New Industrial Parks near Irvine, California》(1974)和《Park City》(1980)以极简的黑白构图拍摄新建工业园区的外墙、施工废料和空置的停车场——不带任何情感判断,只是冷静地呈现郊区蔓延的物质事实。他的照片在 Walker Evans 的客观传统和极简主义艺术之间找到了独特的位置。2000 年后移居巴黎,转向数字影像和装置。",
+    "keyDates": [
+      {
+        "year": 1975,
+        "event": "参加'New Topographics'展览"
+      },
+      {
+        "year": 1980,
+        "event": "出版《Park City》"
+      },
+      {
+        "year": 2010,
+        "event": "阿尔勒国际摄影节回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "South Wall, Mazda Motors, Irvine",
+        "year": 1974,
+        "image": null,
+        "credit": "© Lewis Baltz Estate / Galerie Thomas Zander",
+        "href": "https://www.moma.org/artists/322"
+      },
+      {
+        "title": "Park City #30",
+        "year": 1980,
+        "image": null,
+        "credit": "© Lewis Baltz Estate",
+        "href": "https://www.moma.org/artists/322"
+      }
+    ],
+    "techniques": [
+      "极简构图",
+      "黑白",
+      "类型学",
+      "建筑表面"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lewis_Baltz",
+      "https://www.moma.org/artists/322"
+    ]
+  },
+  {
+    "id": "francesca-woodman",
+    "name": "Francesca Woodman",
+    "nameZh": "弗朗切斯卡·伍德曼",
+    "born": 1958,
+    "died": 1981,
+    "country": "US",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [
+      "man-ray"
+    ],
+    "bio": "美国摄影师,以模糊的自拍裸体探索身体与空间的消逝感,22 岁自杀后成为当代摄影的传奇。",
+    "bioLong": "1958 年生于丹佛(父母都是艺术家),13 岁开始摄影,在罗德岛设计学院就读期间创作了大部分作品。她在废弃的公寓和空旷的房间中用长时间曝光拍摄自己的裸体——身体在运动模糊中似乎正在消融到墙壁和地板中,或躲藏在壁纸和剥落的油漆后面。这些幽灵般的影像探索了存在与消逝、身体与空间的边界,被视为超现实主义精神在当代的延续。1981 年自杀身亡,年仅 22 岁。她留下约 800 张照片,在去世后逐渐被认为是 20 世纪末最具原创性的摄影艺术家之一。",
+    "keyDates": [
+      {
+        "year": 1975,
+        "event": "进入罗德岛设计学院,开始核心创作期"
+      },
+      {
+        "year": 1977,
+        "event": "赴罗马交换学习,创作'意大利系列'"
+      },
+      {
+        "year": 1981,
+        "event": "去世;留下约 800 张作品"
+      }
+    ],
+    "works": [
+      {
+        "title": "House #3, Providence",
+        "year": 1976,
+        "image": null,
+        "credit": "© Estate of Francesca Woodman / Charles Woodman",
+        "href": "https://www.moma.org/artists/6350"
+      },
+      {
+        "title": "Space², Providence",
+        "year": 1976,
+        "image": null,
+        "credit": "© Estate of Francesca Woodman",
+        "href": "https://www.moma.org/artists/6350"
+      }
+    ],
+    "techniques": [
+      "长曝光",
+      "自拍",
+      "黑白",
+      "身体与空间"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Francesca_Woodman",
+      "https://www.moma.org/artists/6350"
+    ]
+  },
+  {
+    "id": "edward-burtynsky",
+    "name": "Edward Burtynsky",
+    "nameZh": "爱德华·伯廷斯基",
+    "born": 1955,
+    "died": null,
+    "country": "CA",
+    "region": "americas",
+    "movements": [
+      "new-topographics"
+    ],
+    "influencedBy": [
+      "r-adams"
+    ],
+    "bio": "加拿大摄影师,以航拍和大画幅记录工业化对地球地貌的改造,是环境摄影的当代标志。",
+    "bioLong": "1955 年生于安大略省圣凯瑟琳斯(乌克兰移民之子),以大画幅和航拍记录全球工业化对自然景观的改造:中国三峡大坝的拆迁废墟、孟加拉国的拆船场、加州的采石场、尼日利亚的石油三角洲。他的巨幅照片(通常 150×200 厘米)以矛盾的美感呈现环境破坏:壮丽的构图和丰富的色彩与毁灭性的主题形成张力,让观者在审美愉悦和生态焦虑之间动摇。他的'人类世'(Anthropocene)项目(2018)与 Jennifer Baichwal 合作的纪录片和 AR 展览推动了公众对环境议题的关注。",
+    "keyDates": [
+      {
+        "year": 2003,
+        "event": "出版《Manufactured Landscapes》"
+      },
+      {
+        "year": 2006,
+        "event": "同名纪录片获多伦多电影节奖"
+      },
+      {
+        "year": 2018,
+        "event": "'Anthropocene'展览与电影全球巡展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Shipbreaking #13, Chittagong, Bangladesh",
+        "year": 2000,
+        "image": null,
+        "credit": "© Edward Burtynsky / Flowers Gallery",
+        "href": "https://www.edwardburtynsky.com"
+      },
+      {
+        "title": "Three Gorges Dam Project — Feng Jie, China",
+        "year": 2002,
+        "image": null,
+        "credit": "© Edward Burtynsky",
+        "href": "https://www.edwardburtynsky.com"
+      }
+    ],
+    "techniques": [
+      "大画幅 4×5",
+      "航拍",
+      "彩色",
+      "环境纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Edward_Burtynsky",
+      "https://www.edwardburtynsky.com"
+    ]
+  },
+  {
+    "id": "lorna-simpson",
+    "name": "Lorna Simpson",
+    "nameZh": "洛娜·辛普森",
+    "born": 1960,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "black-american-photo"
+    ],
+    "influencedBy": [
+      "weems"
+    ],
+    "bio": "非裔美国概念摄影师,以照片与文字的并置探索种族、性别和记忆的视觉政治。",
+    "bioLong": "1960 年生于纽约布鲁克林,1985 年在纽约视觉艺术学院获 MFA。她的早期标志性作品将黑人女性的身体碎片(背部、辫子、侧面)与精心排列的文字面板并置,质问观者对黑人女性身体的预设凝视。1990 年代后扩展到影像装置和拼贴。2007 年后开始用老照片和档案图像创作大型'混合'(collage)拼贴,将不同时代的黑人女性形象重组为新的叙事。2021 年获哈苏基金会国际摄影奖。她是当代最重要的将摄影作为批判工具的艺术家之一。",
+    "keyDates": [
+      {
+        "year": 1988,
+        "event": "MoMA 群展 'Committed to the Image'"
+      },
+      {
+        "year": 1990,
+        "event": "成为首位在威尼斯双年展出展的非裔美国女性"
+      },
+      {
+        "year": 2021,
+        "event": "获哈苏基金会国际摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Guarded Conditions",
+        "year": 1989,
+        "image": null,
+        "credit": "© Lorna Simpson / Hauser & Wirth",
+        "href": "https://www.moma.org/artists/5479"
+      },
+      {
+        "title": "Wigs (Portfolio)",
+        "year": 1994,
+        "image": null,
+        "credit": "© Lorna Simpson",
+        "href": "https://www.moma.org/artists/5479"
+      }
+    ],
+    "techniques": [
+      "照片与文字并置",
+      "概念摄影",
+      "拼贴",
+      "档案挪用"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lorna_Simpson",
+      "https://www.moma.org/artists/5479"
+    ]
+  },
+  {
+    "id": "samuel-fosso",
+    "name": "Samuel Fosso",
+    "nameZh": "塞缪尔·福索",
+    "born": 1962,
+    "died": null,
+    "country": "CM",
+    "region": "africa",
+    "movements": [
+      "west-african-studio"
+    ],
+    "influencedBy": [
+      "keita",
+      "sherman"
+    ],
+    "bio": "喀麦隆裔摄影师,以精心扮装的自拍肖像探索非洲身份政治,被称为'非洲的辛迪·谢尔曼'。",
+    "bioLong": "1962 年生于喀麦隆,5 岁因比亚法拉战争逃至中非共和国班吉,13 岁开设照相馆。1970 年代他开始在打烊后用剩余胶卷为自己拍摄精心装扮的肖像:穿西装、扮水手、模仿杂志封面——最初只是自娱,后来发展为系统性的身份探索项目。1990 年代被国际策展人发现后,他将自拍扩展为'African Spirits'系列——扮演 Martin Luther King、Angela Davis、Patrice Lumumba 等非洲裔历史人物,用变装质问身份、权力与再现。2020 年获哈苏基金会国际摄影奖。",
+    "keyDates": [
+      {
+        "year": 1976,
+        "event": "在班吉开设照相馆,开始自拍系列"
+      },
+      {
+        "year": 1994,
+        "event": "在巴马科非洲摄影双年展被国际发现"
+      },
+      {
+        "year": 2020,
+        "event": "获哈苏基金会国际摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "African Spirits — Martin Luther King Jr.",
+        "year": 2008,
+        "image": null,
+        "credit": "© Samuel Fosso / JM Patras Gallery",
+        "href": "https://en.wikipedia.org/wiki/Samuel_Fosso"
+      },
+      {
+        "title": "Le Chef (qui a vendu l'Afrique aux colons)",
+        "year": 1997,
+        "image": null,
+        "credit": "© Samuel Fosso",
+        "href": "https://www.tate.org.uk/art/artists/samuel-fosso-10674"
+      }
+    ],
+    "techniques": [
+      "自拍",
+      "变装",
+      "棚拍",
+      "身份政治"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Samuel_Fosso",
+      "https://www.tate.org.uk/art/artists/samuel-fosso-10674"
+    ]
+  },
+  {
+    "id": "david-goldblatt",
+    "name": "David Goldblatt",
+    "nameZh": "大卫·戈德布拉特",
+    "born": 1930,
+    "died": 2018,
+    "country": "ZA",
+    "region": "africa",
+    "movements": [
+      "humanist"
+    ],
+    "influencedBy": [
+      "sander",
+      "evans"
+    ],
+    "bio": "南非最重要的纪实摄影师,以六十年的持续拍摄记录了种族隔离的结构性暴力与后隔离时代的社会转型。",
+    "bioLong": "1930 年生于南非约翰内斯堡近郊的兰德方丹(立陶宛犹太移民之子),用超过 60 年的时间记录南非社会:种族隔离制度下的日常暴力(不是标语和冲突,而是隔离法规如何渗透到公共汽车路线、住宅分区和日常生活的每一个缝隙)、矿工的地下劳动、约翰内斯堡城市景观的变迁。他的风格继承了 Walker Evans 的冷静客观——不煽情、不英雄化,只是持续而精确地注视。他坚持留在南非而非流亡,用'在场'本身作为立场。1998 年创办 Market Photo Workshop,为南非年轻摄影师提供教育。",
+    "keyDates": [
+      {
+        "year": 1973,
+        "event": "出版《On the Mines》(与 Nadine Gordimer 合作)"
+      },
+      {
+        "year": 1998,
+        "event": "创办 Market Photo Workshop"
+      },
+      {
+        "year": 2018,
+        "event": "去世;MoMA 回顾展同年开幕"
+      }
+    ],
+    "works": [
+      {
+        "title": "Bus for Whites Only, Johannesburg",
+        "year": 1967,
+        "image": null,
+        "credit": "© David Goldblatt / Goodman Gallery",
+        "href": "https://www.moma.org/artists/43698"
+      },
+      {
+        "title": "Structure for Water Purification, Orange Free State",
+        "year": 1993,
+        "image": null,
+        "credit": "© David Goldblatt",
+        "href": "https://www.moma.org/artists/43698"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "黑白与彩色",
+      "类型学",
+      "社会纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Goldblatt",
+      "https://www.moma.org/artists/43698"
+    ]
+  },
+  {
+    "id": "guy-bourdin",
+    "name": "Guy Bourdin",
+    "nameZh": "盖伊·布尔丹",
+    "born": 1928,
+    "died": 1991,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "man-ray"
+    ],
+    "bio": "法国时尚摄影师,以超现实的色彩、暴力暗示和情色叙事革新了时尚广告摄影的视觉语言。",
+    "bioLong": "1928 年生于巴黎,早年师从 Man Ray。1955 年开始为法国版 Vogue 拍摄,成为 20 世纪下半叶最具影响力的时尚摄影师之一。他的照片远远超出了'展示衣服'的功能:高度饱和的色彩、电影级的叙事场景、犯罪现场般的暴力暗示(假血、假尸体、倒地的模特)和情色张力——Charles Jourdan 鞋履广告中,鞋子往往不是主角,而是一个超现实故事的道具。他的工作为后来的 Tim Walker、David LaChapelle 等人开辟了'时尚摄影即叙事艺术'的道路。生前拒绝出版摄影集,去世后才被系统性整理。",
+    "keyDates": [
+      {
+        "year": 1955,
+        "event": "开始为法国版 Vogue 拍摄"
+      },
+      {
+        "year": 1967,
+        "event": "开始为 Charles Jourdan 拍摄标志性鞋履广告"
+      },
+      {
+        "year": 2003,
+        "event": "伦敦 V&A 博物馆回顾展(去世后首次大展)"
+      }
+    ],
+    "works": [
+      {
+        "title": "Charles Jourdan Campaign — Walking Legs",
+        "year": 1979,
+        "image": null,
+        "credit": "© Estate of Guy Bourdin",
+        "href": "https://www.guybourdin.net"
+      },
+      {
+        "title": "French Vogue — Red Spread",
+        "year": 1976,
+        "image": null,
+        "credit": "© Estate of Guy Bourdin",
+        "href": "https://www.guybourdin.net"
+      }
+    ],
+    "techniques": [
+      "高饱和色彩",
+      "超现实叙事",
+      "时尚",
+      "暗示性构图"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Guy_Bourdin",
+      "https://www.guybourdin.net"
+    ]
+  },
+  {
+    "id": "sarah-moon",
+    "name": "Sarah Moon",
+    "nameZh": "莎拉·穆恩",
+    "born": 1941,
+    "died": null,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [],
+    "bio": "法国时尚与艺术摄影师,以梦幻般的模糊影像和忧郁的色调拍摄时装与个人项目,前身为 60 年代超模。",
+    "bioLong": "1941 年生于法国(本名 Marielle Warin),1960 年代初以模特身份出道,1968 年转到镜头后面开始摄影生涯。她为 Cacharel 品牌拍摄了长达 20 年的广告,定义了一种'法式忧郁美学':柔焦、过期胶片的偏色、梦境般的光线和模特若即若离的眼神——与同时代的锐利时尚摄影形成鲜明对比。她的个人项目更加诗意:受安徒生和佩罗童话启发的暗黑叙事,以及对俄罗斯芭蕾、马戏团和消逝事物的持续关注。2022 年获哈苏基金会国际摄影奖。",
+    "keyDates": [
+      {
+        "year": 1968,
+        "event": "从模特转为摄影师,开始为 Cacharel 拍摄"
+      },
+      {
+        "year": 1995,
+        "event": "出版《Vrais Semblants》(True Semblances)"
+      },
+      {
+        "year": 2022,
+        "event": "获哈苏基金会国际摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Cacharel Campaign — Fashion 1",
+        "year": 1972,
+        "image": null,
+        "credit": "© Sarah Moon",
+        "href": "https://en.wikipedia.org/wiki/Sarah_Moon"
+      },
+      {
+        "title": "Le Petit Chaperon Rouge",
+        "year": 1983,
+        "image": null,
+        "credit": "© Sarah Moon",
+        "href": "https://en.wikipedia.org/wiki/Sarah_Moon"
+      }
+    ],
+    "techniques": [
+      "柔焦",
+      "过期胶片",
+      "宝丽来",
+      "梦幻色调"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sarah_Moon",
+      "https://www.mep-fr.org"
+    ]
+  },
+  {
+    "id": "lola-alvarez-bravo",
+    "name": "Lola Álvarez Bravo",
+    "nameZh": "洛拉·阿尔瓦雷斯·布拉沃",
+    "born": 1903,
+    "died": 1993,
+    "country": "MX",
+    "region": "americas",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "influencedBy": [
+      "alvarez-bravo"
+    ],
+    "bio": "墨西哥首位女性纪实摄影师,以超现实手法记录墨西哥民间生活和女性形象。",
+    "bioLong": "1903 年生于墨西哥城,与摄影师 Manuel Álvarez Bravo 结婚(后离异)期间学习摄影。1930 年代成为墨西哥第一位以摄影为全职的女性,拍摄了墨西哥民间生活、街头场景和女性肖像,风格融合了纪实的直接性与超现实的诗意。她也是杰出的策展人,1953 年在墨西哥城组织了 Frida Kahlo 生前唯一一次个展。她为 Kahlo 拍摄的多幅肖像成为后者最具标志性的影像。她的作品长期被丈夫的名声遮蔽,1990 年代才获得应有的国际认可。",
+    "keyDates": [
+      {
+        "year": 1934,
+        "event": "开始全职摄影生涯"
+      },
+      {
+        "year": 1953,
+        "event": "策划 Frida Kahlo 在墨西哥的唯一生前个展"
+      },
+      {
+        "year": 1992,
+        "event": "获墨西哥国家艺术奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Frida Kahlo — Portrait",
+        "year": 1944,
+        "image": null,
+        "credit": "© Lola Álvarez Bravo / Estate",
+        "href": "https://en.wikipedia.org/wiki/Lola_%C3%81lvarez_Bravo"
+      },
+      {
+        "title": "El sueño de los pobres (Dream of the Poor)",
+        "year": 1935,
+        "image": null,
+        "credit": "© Lola Álvarez Bravo",
+        "href": "https://en.wikipedia.org/wiki/Lola_%C3%81lvarez_Bravo"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "超现实",
+      "纪实",
+      "肖像"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lola_%C3%81lvarez_Bravo",
+      "https://www.moma.org/artists/139"
+    ]
+  },
+  {
+    "id": "aaron-siskind",
+    "name": "Aaron Siskind",
+    "nameZh": "阿伦·西斯金德",
+    "born": 1903,
+    "died": 1991,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "moholy-nagy"
+    ],
+    "bio": "美国摄影师,将纪实转向抽象,以墙壁纹理和岩石表面的特写创造了与抽象表现主义绘画对话的摄影语言。",
+    "bioLong": "1903 年生于纽约,早年拍摄纽约哈莱姆区的社会纪实(Harlem Document, 1932-40),1940 年代突然转向完全抽象:拍摄剥落的油漆、岩石的纹理、胶带撕裂的痕迹——将三维物体压缩为二维的抽象图案。他的转向与抽象表现主义画家(De Kooning、Franz Kline)的友谊密不可分:他的照片被 Harold Rosenberg 等批评家与'行动绘画'并列讨论。在芝加哥设计学院(继 Moholy-Nagy 之后)和罗德岛设计学院任教数十年,与 Harry Callahan 并称美国摄影教育的'两大基石'。",
+    "keyDates": [
+      {
+        "year": 1941,
+        "event": "从纪实转向抽象摄影"
+      },
+      {
+        "year": 1951,
+        "event": "在芝加哥设计学院任教"
+      },
+      {
+        "year": 1966,
+        "event": "出版综合集《Aaron Siskind: Photographer》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Chicago 30",
+        "year": 1949,
+        "image": null,
+        "credit": "© Aaron Siskind Foundation",
+        "href": "https://www.moma.org/artists/5460"
+      },
+      {
+        "title": "Pleasures and Terrors of Levitation #37",
+        "year": 1953,
+        "image": null,
+        "credit": "© Aaron Siskind Foundation",
+        "href": "https://www.moma.org/artists/5460"
+      }
+    ],
+    "techniques": [
+      "抽象",
+      "特写",
+      "黑白",
+      "表面纹理"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aaron_Siskind",
+      "https://www.moma.org/artists/5460"
+    ]
+  },
+  {
+    "id": "duane-michals",
+    "name": "Duane Michals",
+    "nameZh": "杜安·迈克尔斯",
+    "born": 1932,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [],
+    "bio": "美国摄影师,以照片序列和手写文字叙事闻名,挑战了'单张照片'的传统,将摄影变成哲学沉思的媒介。",
+    "bioLong": "1932 年生于宾夕法尼亚州,没有正式摄影教育。他以'照片序列'(sequences)——通常 5-6 张照片讲述一个微型故事——挑战了摄影的单张传统。《Things Are Queer》(1973)以循环叙事结构展现了摄影对现实的无限嵌套;《Death Comes to the Old Lady》则用朴素的序列讲述死亡。他也直接在照片上手写文字,将摄影与文学融合。他的作品拒绝了'决定性瞬间'的教条,转而探索梦境、死亡、性和时间的流逝——他称自己为'写故事的人,只不过用照片写'。",
+    "keyDates": [
+      {
+        "year": 1966,
+        "event": "首次个展在纽约地下画廊"
+      },
+      {
+        "year": 1973,
+        "event": "创作《Things Are Queer》循环序列"
+      },
+      {
+        "year": 2014,
+        "event": "卡内基博物馆大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Things Are Queer",
+        "year": 1973,
+        "image": null,
+        "credit": "© Duane Michals / DC Moore Gallery",
+        "href": "https://www.moma.org/artists/3972"
+      },
+      {
+        "title": "The Spirit Leaves the Body",
+        "year": 1968,
+        "image": null,
+        "credit": "© Duane Michals",
+        "href": "https://www.moma.org/artists/3972"
+      }
+    ],
+    "techniques": [
+      "照片序列",
+      "手写文字",
+      "多重曝光",
+      "叙事"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Duane_Michals",
+      "https://www.moma.org/artists/3972"
+    ]
+  },
+  {
+    "id": "taryn-simon",
+    "name": "Taryn Simon",
+    "nameZh": "塔琳·西蒙",
+    "born": 1975,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [],
+    "influencedBy": [
+      "wall"
+    ],
+    "bio": "美国当代摄影师,以调查性的系统分类方法揭示权力、秘密和官僚体系的视觉逻辑。",
+    "bioLong": "1975 年生于纽约,以大画幅精密摄影和调查性研究方法闻名。《An American Index of the Hidden and Unfamiliar》(2007)拍摄了美国社会中不可见的空间:核废料储存设施、CIA 训练基地、冷冻保存的死亡婴儿、活体病毒库——每张照片都是经过数月交涉才获准进入的'秘密'空间。《The Innocents》(2003)拍摄了被错误定罪后通过 DNA 证据翻案的囚犯,让他们站在当年被错误指认的犯罪现场。她的每个项目都像一次视觉审计,系统性地揭示权力运作的隐蔽逻辑。",
+    "keyDates": [
+      {
+        "year": 2003,
+        "event": "出版《The Innocents》,关注司法冤案"
+      },
+      {
+        "year": 2007,
+        "event": "出版《An American Index of the Hidden and Unfamiliar》"
+      },
+      {
+        "year": 2012,
+        "event": "MoMA 个展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Nuclear Waste Encapsulation and Storage Facility, Hanford, Washington (American Index)",
+        "year": 2007,
+        "image": null,
+        "credit": "© Taryn Simon / Gagosian Gallery",
+        "href": "https://tarynsimon.com"
+      },
+      {
+        "title": "The Innocents — Ronald Cotton",
+        "year": 2002,
+        "image": null,
+        "credit": "© Taryn Simon",
+        "href": "https://tarynsimon.com"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "精密纪实",
+      "调查性",
+      "系统分类"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Taryn_Simon",
+      "https://tarynsimon.com"
+    ]
+  },
+  {
+    "id": "philip-lorca-dicorcia",
+    "name": "Philip-Lorca diCorcia",
+    "nameZh": "菲利普-洛卡·迪科西亚",
+    "born": 1951,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "wall",
+      "crewdson"
+    ],
+    "bio": "美国摄影师,以电影级布光在街头拍摄'编排的偶然',模糊了纪实与虚构的边界。",
+    "bioLong": "1951 年生于康涅狄格州,耶鲁大学 MFA。他最具标志性的方法是在纽约时代广场的街头预先架设闪光灯,然后等待路人走入光线——被闪光灯'挑选'出的路人在周围暗色人群中呈现出电影般的孤立感和戏剧性,仿佛在上演一个无名的故事。这种'编排的偶然'(staged candid)挑战了街头摄影的真实性预设。他早期的'家庭系列'(Hartford)则用电影布光拍摄家庭成员的日常场景,每张照片都暗含叙事张力。",
+    "keyDates": [
+      {
+        "year": 1993,
+        "event": "开始在纽约街头用预设闪光灯拍摄路人"
+      },
+      {
+        "year": 2003,
+        "event": "出版《Heads》时代广场特写肖像系列"
+      },
+      {
+        "year": 2013,
+        "event": "洛杉矶 LACMA 回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Head #13, New York",
+        "year": 2001,
+        "image": null,
+        "credit": "© Philip-Lorca diCorcia / David Zwirner",
+        "href": "https://www.moma.org/artists/7197"
+      },
+      {
+        "title": "Hartford, Connecticut — Eddie Anderson",
+        "year": 1989,
+        "image": null,
+        "credit": "© Philip-Lorca diCorcia",
+        "href": "https://www.moma.org/artists/7197"
+      }
+    ],
+    "techniques": [
+      "预设闪光灯",
+      "街头",
+      "电影布光",
+      "彩色"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Philip-Lorca_diCorcia",
+      "https://www.moma.org/artists/7197"
+    ]
+  },
+  {
+    "id": "ken-domon",
+    "name": "Ken Domon",
+    "nameZh": "土门拳",
+    "born": 1909,
+    "died": 1990,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "日本战后纪实摄影奠基人，以社会纪实与佛教雕塑摄影闻名。",
+    "bioLong": "土门拳是日本战后最重要的纪实摄影家之一。早年受布列松影响投身抓拍摄影，1950年代以《筑丰的孩子们》记录矿区贫困儿童，震动日本社会。后期转向寺院佛像拍摄，出版巨著《古寺巡礼》五卷，将日本古典美学与现代摄影语言融合。他与木村伊兵卫的写实主义路线深刻影响了战后日本摄影的走向，被誉为'日本纪实摄影之父'。",
+    "keyDates": [
+      {
+        "year": 1909,
+        "event": "出生于山形县酒田市"
+      },
+      {
+        "year": 1943,
+        "event": "出版《风貌》，确立纪实风格"
+      },
+      {
+        "year": 1958,
+        "event": "出版《筑丰的孩子们》"
+      },
+      {
+        "year": 1963,
+        "event": "开始拍摄《古寺巡礼》系列"
+      },
+      {
+        "year": 1990,
+        "event": "去世于东京"
+      }
+    ],
+    "works": [
+      {
+        "title": "筑丰的孩子们",
+        "year": 1958,
+        "image": null,
+        "credit": "Ken Domon",
+        "href": "https://www.domonken-kinenkan.jp/"
+      },
+      {
+        "title": "古寺巡礼",
+        "year": 1963,
+        "image": null,
+        "credit": "Ken Domon",
+        "href": "https://www.domonken-kinenkan.jp/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "纪实抓拍",
+      "大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ken_Domon",
+      "https://www.domonken-kinenkan.jp/"
+    ]
+  },
+  {
+    "id": "kimura-ihei",
+    "name": "Ihei Kimura",
+    "nameZh": "木村伊兵卫",
+    "born": 1901,
+    "died": 1974,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar",
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "日本抓拍摄影先驱，以东京街头的人文快照著称，木村伊兵卫奖以其命名。",
+    "bioLong": "木村伊兵卫是日本现代摄影的奠基人之一。1930年代开始使用小型相机（Leica）在东京街头拍摄，开创了日本的抓拍（スナップ）风格。他记录了战前到战后日本社会的剧变，尤其擅长捕捉平民日常生活中的诗意瞬间。他与土门拳分别代表日本摄影的两大路线——抓拍派与纪实派。日本最重要的摄影奖'木村伊兵卫奖'即以他命名，影响了森山大道等后辈。",
+    "keyDates": [
+      {
+        "year": 1901,
+        "event": "出生于东京"
+      },
+      {
+        "year": 1933,
+        "event": "开始用 Leica 进行街头抓拍"
+      },
+      {
+        "year": 1950,
+        "event": "加入日本摄影家协会"
+      },
+      {
+        "year": 1974,
+        "event": "去世；1975年以其名设立木村伊兵卫摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "秋田",
+        "year": 1953,
+        "image": null,
+        "credit": "Ihei Kimura",
+        "href": "https://www.icp.org/"
+      },
+      {
+        "title": "巴黎",
+        "year": 1955,
+        "image": null,
+        "credit": "Ihei Kimura",
+        "href": "https://www.icp.org/"
+      }
+    ],
+    "techniques": [
+      "Leica 35mm",
+      "黑白",
+      "抓拍"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ihei_Kimura",
+      "https://www.icp.org/"
+    ]
+  },
+  {
+    "id": "fukase",
+    "name": "Masahisa Fukase",
+    "nameZh": "深濑昌久",
+    "born": 1934,
+    "died": 2012,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "moriyama",
+      "araki"
+    ],
+    "bio": "日本私摄影代表人物，《鸦》被誉为有史以来最伟大的摄影集之一。",
+    "bioLong": "深濑昌久是日本'私摄影'（私写真）运动的代表人物。他最著名的作品《鸦》（1986）以阴郁的乌鸦意象隐喻离婚后的孤独与绝望，被多家机构评为'有史以来最伟大的摄影集'。早期他以妻子洋子为主题拍摄了大量亲密影像，离婚后转向更为内省、黑暗的风格。1992年意外跌倒导致脑损伤后再未创作，但其影响深远，启发了当代日本与全球的自传体摄影。",
+    "keyDates": [
+      {
+        "year": 1934,
+        "event": "出生于北海道美深町"
+      },
+      {
+        "year": 1961,
+        "event": "开始以妻子洋子为主题拍摄"
+      },
+      {
+        "year": 1976,
+        "event": "开始拍摄《鸦》系列"
+      },
+      {
+        "year": 1986,
+        "event": "出版《鸦》"
+      },
+      {
+        "year": 1992,
+        "event": "跌倒受伤，停止创作"
+      },
+      {
+        "year": 2012,
+        "event": "去世于东京"
+      }
+    ],
+    "works": [
+      {
+        "title": "鸦 (Ravens / 烏)",
+        "year": 1986,
+        "image": null,
+        "credit": "Masahisa Fukase",
+        "href": "https://www.masahisafukase.com/"
+      },
+      {
+        "title": "洋子 (Yōko)",
+        "year": 1978,
+        "image": null,
+        "credit": "Masahisa Fukase",
+        "href": "https://www.masahisafukase.com/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "私摄影",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Masahisa_Fukase",
+      "https://www.masahisafukase.com/"
+    ]
+  },
+  {
+    "id": "ishiuchi-miyako",
+    "name": "Miyako Ishiuchi",
+    "nameZh": "石内都",
+    "born": 1947,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "moriyama"
+    ],
+    "bio": "日本当代重要女性摄影家，以身体、记忆与创伤为主题，2014年哈苏奖得主。",
+    "bioLong": "石内都是日本当代最重要的女性摄影家之一。她的创作始终围绕身体、记忆与时间的痕迹展开。早期代表作《横须贺故事》（1979）记录了驻日美军基地城市的衰败景象；《1·9·4·7》（1990）拍摄同龄女性的身体局部，探讨衰老与女性身份。2005年起她受邀拍摄广岛和平纪念资料馆中的遗物，以细腻的静物手法唤起战争创伤的集体记忆。2014年获哈苏国际摄影奖。",
+    "keyDates": [
+      {
+        "year": 1947,
+        "event": "出生于群马县桐生市"
+      },
+      {
+        "year": 1979,
+        "event": "出版《横须贺故事》，崭露头角"
+      },
+      {
+        "year": 1990,
+        "event": "出版《1·9·4·7》"
+      },
+      {
+        "year": 2005,
+        "event": "开始拍摄广岛遗物系列 ひろしま/hiroshima"
+      },
+      {
+        "year": 2014,
+        "event": "获哈苏国际摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "横须贺故事 (Yokosuka Story)",
+        "year": 1979,
+        "image": null,
+        "credit": "Miyako Ishiuchi",
+        "href": "https://www.theThirdGalleryAya.com/"
+      },
+      {
+        "title": "ひろしま (hiroshima)",
+        "year": 2008,
+        "image": null,
+        "credit": "Miyako Ishiuchi",
+        "href": "https://www.moma.org/artists/29194"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "彩色",
+      "大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Miyako_Ishiuchi",
+      "https://www.moma.org/artists/29194"
+    ]
+  },
+  {
+    "id": "nakahira",
+    "name": "Takuma Nakahira",
+    "nameZh": "中平卓马",
+    "born": 1938,
+    "died": 2015,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "moriyama",
+      "tomatsu"
+    ],
+    "bio": "日本前卫摄影运动 Provoke 杂志创始人之一，以激进的粗粒度影像颠覆传统美学。",
+    "bioLong": "中平卓马是日本前卫摄影运动的核心人物，1968年与森山大道等人共同创办了激进摄影杂志《Provoke》（挑衅），提出'Are, Bure, Boke'（粗糙、模糊、失焦）的反传统美学宣言。其处女作《为了该有的语言，为了所见之物》（1970）以极端的粗粒度和高反差影像震撼摄影界。1973年他在一次公开活动中烧毁自己的作品和底片，宣告与过去决裂。1977年因急性酒精中毒导致记忆丧失，此后以全新的冷静风格继续拍摄至2010年代。",
+    "keyDates": [
+      {
+        "year": 1938,
+        "event": "出生于东京"
+      },
+      {
+        "year": 1968,
+        "event": "参与创办《Provoke》杂志"
+      },
+      {
+        "year": 1970,
+        "event": "出版《为了该有的语言，为了所见之物》"
+      },
+      {
+        "year": 1973,
+        "event": "公开焚毁自己的照片和底片"
+      },
+      {
+        "year": 1977,
+        "event": "因急性酒精中毒丧失记忆"
+      },
+      {
+        "year": 2015,
+        "event": "去世于横滨"
+      }
+    ],
+    "works": [
+      {
+        "title": "为了该有的语言 (For a Language to Come)",
+        "year": 1970,
+        "image": null,
+        "credit": "Takuma Nakahira",
+        "href": "https://www.osifrancis.com/nakahira"
+      },
+      {
+        "title": "循环：日期、场所、事件 (Circulation)",
+        "year": 1971,
+        "image": null,
+        "credit": "Takuma Nakahira",
+        "href": "https://www.artsy.net/artist/takuma-nakahira"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "粗粒度",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Takuma_Nakahira",
+      "https://www.artsy.net/artist/takuma-nakahira"
+    ]
+  },
+  {
+    "id": "hatakeyama",
+    "name": "Naoya Hatakeyama",
+    "nameZh": "畠山直哉",
+    "born": 1958,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "new-topographics",
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "日本当代风景摄影家，以石灰岩矿场和城市开发系列探讨自然与人类活动的关系。",
+    "bioLong": "畠山直哉是日本最重要的当代风景摄影家之一，深受杜塞尔多夫学派影响。他以大画幅相机拍摄石灰岩矿场的爆破瞬间（《Blast》系列）和城市地下基础设施（《Underground》系列），冷静而宏大地探讨了自然、工业与城市化之间的张力。2011年东日本大地震中，他的故乡岩手县陆前高田市遭海啸摧毁，此后他以极为克制的方式记录了家园的毁灭与重建，作品在威尼斯双年展等国际场合展出。",
+    "keyDates": [
+      {
+        "year": 1958,
+        "event": "出生于岩手县"
+      },
+      {
+        "year": 1995,
+        "event": "开始《Blast》系列"
+      },
+      {
+        "year": 2000,
+        "event": "出版《Underground》"
+      },
+      {
+        "year": 2011,
+        "event": "故乡在东日本大地震中被海啸摧毁，开始灾后记录"
+      },
+      {
+        "year": 2012,
+        "event": "参加威尼斯建筑双年展日本馆"
+      }
+    ],
+    "works": [
+      {
+        "title": "Blast",
+        "year": 1995,
+        "image": null,
+        "credit": "Naoya Hatakeyama",
+        "href": "https://www.taka-ishii.com/artists/naoya-hatakeyama/"
+      },
+      {
+        "title": "陸前高田 (Rikuzentakata)",
+        "year": 2011,
+        "image": null,
+        "credit": "Naoya Hatakeyama",
+        "href": "https://www.taka-ishii.com/artists/naoya-hatakeyama/"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "彩色",
+      "长时间曝光"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Naoya_Hatakeyama",
+      "https://www.taka-ishii.com/artists/naoya-hatakeyama/"
+    ]
+  },
+  {
+    "id": "yasumasa-morimura",
+    "name": "Yasumasa Morimura",
+    "nameZh": "森村泰昌",
+    "born": 1951,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "sherman"
+    ],
+    "bio": "日本当代概念摄影家，以'自拍'方式扮演西方经典名画与历史人物闻名。",
+    "bioLong": "森村泰昌是日本当代最具国际影响力的概念摄影家之一。自1985年起，他以自己的身体'侵入'西方经典名画——从梵高自画像到奥林匹亚，从梦露到弗里达·卡罗——通过精心化妆与布景，以亚洲男性身体挑战西方艺术正典中的性别、种族与文化霸权。他的作品融合了摄影、行为与挪用艺术，在身份政治与后现代挪用之间开辟了独特的东方视角，在全球美术馆广泛展出。",
+    "keyDates": [
+      {
+        "year": 1951,
+        "event": "出生于大阪"
+      },
+      {
+        "year": 1985,
+        "event": "创作首件挪用名画作品《肖像（梵高）》"
+      },
+      {
+        "year": 1988,
+        "event": "开始'艺术史的女儿'系列"
+      },
+      {
+        "year": 1996,
+        "event": "参加圣保罗双年展"
+      },
+      {
+        "year": 2010,
+        "event": "在纽约日本协会举办大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "肖像（梵高）(Portrait/Van Gogh)",
+        "year": 1985,
+        "image": null,
+        "credit": "Yasumasa Morimura",
+        "href": "https://www.artsy.net/artist/yasumasa-morimura"
+      },
+      {
+        "title": "艺术史的女儿 (Daughter of Art History)",
+        "year": 1990,
+        "image": null,
+        "credit": "Yasumasa Morimura",
+        "href": "https://www.artsy.net/artist/yasumasa-morimura"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "彩色",
+      "数码后期",
+      "行为摄影"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yasumasa_Morimura",
+      "https://www.artsy.net/artist/yasumasa-morimura"
+    ]
+  },
+  {
+    "id": "hiroshi-hamaya",
+    "name": "Hiroshi Hamaya",
+    "nameZh": "滨谷浩",
+    "born": 1915,
+    "died": 1999,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar",
+      "magnum"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "日本纪实摄影大师，以记录日本海沿岸雪国风土与社会运动闻名，马格南会员。",
+    "bioLong": "滨谷浩是日本战后最重要的纪实摄影家之一，也是少数加入马格南图片社的亚洲摄影师。他最著名的系列《雪国》（Yukiguni）花费二十余年记录日本海沿岸新潟县山村的风土民俗与自然景观，展现了与现代化平行存在的古老日本。他同时也是社会运动的记录者，拍摄了1960年代反安保斗争等重大政治事件。他的作品兼具人类学深度与视觉诗意，在东西方均获高度评价。",
+    "keyDates": [
+      {
+        "year": 1915,
+        "event": "出生于东京"
+      },
+      {
+        "year": 1940,
+        "event": "开始《雪国》长期拍摄项目"
+      },
+      {
+        "year": 1960,
+        "event": "记录反安保条约抗议运动"
+      },
+      {
+        "year": 1960,
+        "event": "加入马格南图片社"
+      },
+      {
+        "year": 1999,
+        "event": "去世于神奈川县大矶"
+      }
+    ],
+    "works": [
+      {
+        "title": "雪国 (Snow Land / Yukiguni)",
+        "year": 1956,
+        "image": null,
+        "credit": "Hiroshi Hamaya",
+        "href": "https://www.magnumphotos.com/photographer/hiroshi-hamaya/"
+      },
+      {
+        "title": "愤怒与悲哀的记录 (Document of Grief and Anger)",
+        "year": 1960,
+        "image": null,
+        "credit": "Hiroshi Hamaya",
+        "href": "https://www.magnumphotos.com/photographer/hiroshi-hamaya/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "中画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hiroshi_Hamaya",
+      "https://www.magnumphotos.com/photographer/hiroshi-hamaya/"
+    ]
+  },
+  {
+    "id": "noguchi-rika",
+    "name": "Rika Noguchi",
+    "nameZh": "野口里佳",
+    "born": 1971,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "sugimoto",
+      "hatakeyama"
+    ],
+    "bio": "日本当代摄影家，以清澈透明的视觉语言探索日常事物中的宇宙秩序。",
+    "bioLong": "野口里佳是日本当代摄影的重要代表，以清澈、透明的视觉语言著称。她的代表作《飞翔的人》（A Prime）拍摄攀登富士山的人影化为星空中的光点；《太阳》系列则在热带丛林中追踪光线的变化，将日常景象转化为冥想式的视觉体验。她善于从极其平凡的题材中提取出某种宇宙性的秩序感，作品在简洁中蕴含深邃的哲学思考，多次参加威尼斯双年展与横滨三年展。",
+    "keyDates": [
+      {
+        "year": 1971,
+        "event": "出生于埼玉县大宫市"
+      },
+      {
+        "year": 1995,
+        "event": "凭《飞翔的人》获写真新世纪优秀奖"
+      },
+      {
+        "year": 2001,
+        "event": "参加横滨三年展"
+      },
+      {
+        "year": 2004,
+        "event": "出版《太阳》系列"
+      },
+      {
+        "year": 2009,
+        "event": "参加威尼斯双年展日本馆"
+      }
+    ],
+    "works": [
+      {
+        "title": "飞翔的人 (A Prime)",
+        "year": 1995,
+        "image": null,
+        "credit": "Rika Noguchi",
+        "href": "https://www.taka-ishii.com/artists/rika-noguchi/"
+      },
+      {
+        "title": "太阳 (The Sun)",
+        "year": 2004,
+        "image": null,
+        "credit": "Rika Noguchi",
+        "href": "https://www.taka-ishii.com/artists/rika-noguchi/"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "大画幅",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rika_Noguchi",
+      "https://www.taka-ishii.com/artists/rika-noguchi/"
+    ]
+  },
+  {
+    "id": "tokihiro-sato",
+    "name": "Tokihiro Sato",
+    "nameZh": "佐藤时启",
+    "born": 1957,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "sugimoto"
+    ],
+    "bio": "日本当代摄影与装置艺术家，以'光绘'长曝光手法在风景中创造光球闻名。",
+    "bioLong": "佐藤时启是日本当代摄影中极具辨识度的艺术家。他的'Photo-Respiration'系列采用大画幅相机长时间曝光，在曝光过程中手持小镜子在画面中走动反射阳光，最终在照片上留下一个个悬浮的光球。这些光球如同幽灵般散布在日本各地的风景中——从传统庭院到海边——形成介于摄影与行为艺术之间的独特视觉语言。他的创作方法将摄影还原为'以光书写'的本义，在国际上广受认可。",
+    "keyDates": [
+      {
+        "year": 1957,
+        "event": "出生于山形县"
+      },
+      {
+        "year": 1988,
+        "event": "开始'Photo-Respiration'系列"
+      },
+      {
+        "year": 1998,
+        "event": "在东京都写真美术馆举办个展"
+      },
+      {
+        "year": 2005,
+        "event": "参加横滨三年展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Photo-Respiration",
+        "year": 1988,
+        "image": null,
+        "credit": "Tokihiro Sato",
+        "href": "https://www.gallery916.com/artists/tokihiro-sato/"
+      },
+      {
+        "title": "Breath of Light",
+        "year": 2002,
+        "image": null,
+        "credit": "Tokihiro Sato",
+        "href": "https://www.gallery916.com/artists/tokihiro-sato/"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "长时间曝光",
+      "彩色"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tokihiro_Sato",
+      "https://www.gallery916.com/artists/tokihiro-sato/"
+    ]
+  },
+  {
+    "id": "bae-bien-u",
+    "name": "Bae Bien-U",
+    "nameZh": "裴炳雨",
+    "born": 1950,
+    "died": null,
+    "country": "KR",
+    "region": "asia",
+    "movements": [
+      "new-topographics"
+    ],
+    "influencedBy": [
+      "e-weston"
+    ],
+    "bio": "韩国风景摄影大师，以松树林系列享誉国际，作品融合东方山水精神与当代摄影语言。",
+    "bioLong": "裴炳雨是韩国最具国际影响力的摄影家之一。他持续30余年拍摄韩国的松树林（소나무 / Sonamu），以大画幅相机在薄雾中捕捉松林的层次感与氛围，创造出兼具东方水墨意境与当代摄影精度的独特风景。这些照片不仅是自然记录，更承载着韩国文化中松树作为民族精神象征的深层含义。他的作品被蓬皮杜中心、维多利亚与阿尔伯特博物馆等世界级机构收藏，是亚洲风景摄影走向国际的重要推手。",
+    "keyDates": [
+      {
+        "year": 1950,
+        "event": "出生于韩国金海"
+      },
+      {
+        "year": 1985,
+        "event": "开始松树林拍摄项目"
+      },
+      {
+        "year": 2004,
+        "event": "作品入藏蓬皮杜中心"
+      },
+      {
+        "year": 2012,
+        "event": "出版《Windscape》"
+      }
+    ],
+    "works": [
+      {
+        "title": "松 (Sonamu / Sacred Wood)",
+        "year": 1985,
+        "image": null,
+        "credit": "Bae Bien-U",
+        "href": "https://www.baebien-u.com/"
+      },
+      {
+        "title": "Windscape",
+        "year": 2012,
+        "image": null,
+        "credit": "Bae Bien-U",
+        "href": "https://www.baebien-u.com/"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "黑白",
+      "彩色"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Bae_Bien-u",
+      "https://www.baebien-u.com/"
+    ]
+  },
+  {
+    "id": "koo-bohnchang",
+    "name": "Koo Bohnchang",
+    "nameZh": "具本昌",
+    "born": 1953,
+    "died": null,
+    "country": "KR",
+    "region": "asia",
+    "movements": [
+      "japan-postwar"
+    ],
+    "influencedBy": [
+      "sugimoto"
+    ],
+    "bio": "韩国当代摄影先驱，以白瓷器与呼吸系列探索记忆、消逝与东方美学。",
+    "bioLong": "具本昌是韩国当代摄影的先驱人物。他最著名的系列《白瓷》以极简的白色背景拍摄韩国传统白瓷器，将器物的微妙弧线与光影变化提升为冥想式的视觉体验，唤起韩国文化中'留白'与'素'的美学传统。另一重要系列《呼吸》拍摄雾气弥漫的自然景象，探索可见与不可见的边界。他在汉堡学习摄影后回到首尔，是将韩国当代摄影推向国际的关键人物之一。",
+    "keyDates": [
+      {
+        "year": 1953,
+        "event": "出生于首尔"
+      },
+      {
+        "year": 1985,
+        "event": "自汉堡艺术学院毕业回国"
+      },
+      {
+        "year": 1992,
+        "event": "开始《白瓷》系列"
+      },
+      {
+        "year": 2006,
+        "event": "在 Kukje Gallery 举办大型个展"
+      },
+      {
+        "year": 2015,
+        "event": "参加威尼斯双年展韩国馆"
+      }
+    ],
+    "works": [
+      {
+        "title": "白瓷 (Vessel)",
+        "year": 1992,
+        "image": null,
+        "credit": "Koo Bohnchang",
+        "href": "https://www.kukjegallery.com/artists/koo-bohnchang"
+      },
+      {
+        "title": "呼吸 (Breath)",
+        "year": 1995,
+        "image": null,
+        "credit": "Koo Bohnchang",
+        "href": "https://www.kukjegallery.com/artists/koo-bohnchang"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "彩色",
+      "胶片"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Koo_Bohnchang",
+      "https://www.kukjegallery.com/artists/koo-bohnchang"
+    ]
+  },
+  {
+    "id": "kim-ki-chan",
+    "name": "Kim Ki-chan",
+    "nameZh": "金基赞",
+    "born": 1938,
+    "died": 2005,
+    "country": "KR",
+    "region": "asia",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "韩国街头摄影大师，以首尔巷弄中的儿童与日常生活影像记录了韩国现代化转型。",
+    "bioLong": "金基赞是韩国最重要的街头摄影家，被称为'韩国的布列松'。他一生几乎只拍摄首尔的巷弄——尤其是在胡同中玩耍的儿童、聊天的邻居、晾晒的衣物——以朴素、温暖的黑白影像记录了韩国从贫穷到现代化转型过程中正在消失的社区生活。他不追求技巧的炫耀，而是以持续数十年的日常观察积累了一部珍贵的韩国城市平民生活史。",
+    "keyDates": [
+      {
+        "year": 1938,
+        "event": "出生于首尔"
+      },
+      {
+        "year": 1966,
+        "event": "开始在首尔巷弄中拍摄"
+      },
+      {
+        "year": 1990,
+        "event": "出版《巷弄的孩子们》"
+      },
+      {
+        "year": 2005,
+        "event": "去世于首尔"
+      }
+    ],
+    "works": [
+      {
+        "title": "巷弄的孩子们 (Alley Children)",
+        "year": 1990,
+        "image": null,
+        "credit": "Kim Ki-chan",
+        "href": "https://www.mmca.go.kr/"
+      },
+      {
+        "title": "首尔的巷弄 (Alleys of Seoul)",
+        "year": 2000,
+        "image": null,
+        "credit": "Kim Ki-chan",
+        "href": "https://www.mmca.go.kr/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "抓拍"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kim_Ki-chan",
+      "https://www.mmca.go.kr/"
+    ]
+  },
+  {
+    "id": "jungjin-lee",
+    "name": "Jungjin Lee",
+    "nameZh": "李政进",
+    "born": 1961,
+    "died": null,
+    "country": "KR",
+    "region": "asia",
+    "movements": [
+      "new-topographics"
+    ],
+    "influencedBy": [
+      "minor-white"
+    ],
+    "bio": "韩裔美籍摄影家，以韩纸手工印刷和沙漠风景系列在当代摄影界独树一帜。",
+    "bioLong": "李政进是韩裔美籍当代摄影家，以独特的韩纸（hanji）手工银盐印刷技术闻名。她在纽约跟随 Minor White 的弟子学习后，发展出一种将东方材料与西方摄影技术融合的独特工艺：将感光乳液涂在韩国传统手工纸上，再用银盐印刷，使影像呈现独特的纹理与温度。她的美国沙漠和韩国济州岛风景系列在这种材料性中获得了介于绘画与摄影之间的冥想气质。",
+    "keyDates": [
+      {
+        "year": 1961,
+        "event": "出生于韩国"
+      },
+      {
+        "year": 1988,
+        "event": "赴纽约学习摄影"
+      },
+      {
+        "year": 1997,
+        "event": "开始在韩纸上印刷的实验"
+      },
+      {
+        "year": 2002,
+        "event": "出版《American Desert》"
+      },
+      {
+        "year": 2014,
+        "event": "在首尔 Kukje Gallery 举办回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "American Desert",
+        "year": 2002,
+        "image": null,
+        "credit": "Jungjin Lee",
+        "href": "https://www.jungjinlee.com/"
+      },
+      {
+        "title": "Wind",
+        "year": 2007,
+        "image": null,
+        "credit": "Jungjin Lee",
+        "href": "https://www.jungjinlee.com/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "韩纸手工印刷",
+      "大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jungjin_Lee",
+      "https://www.jungjinlee.com/"
+    ]
+  },
+  {
+    "id": "li-zhensheng",
+    "name": "Li Zhensheng",
+    "nameZh": "李振盛",
+    "born": 1940,
+    "died": 2024,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国纪实摄影家，冒险保存了文化大革命期间的珍贵影像档案。",
+    "bioLong": "李振盛是中国最重要的纪实摄影家之一。文化大革命期间，他作为黑龙江日报摄影记者，在官方要求销毁'负面'照片的压力下，冒险将近三万张底片藏在家中地板下保存了二十余年。这批照片涵盖了批斗会、游街、武斗等文革核心场景，是目前已知最完整的文革影像档案之一。2003年出版的《红色新闻兵》在国际上引起巨大反响，被视为20世纪最重要的摄影文献之一。",
+    "keyDates": [
+      {
+        "year": 1940,
+        "event": "出生于大连"
+      },
+      {
+        "year": 1966,
+        "event": "开始记录文化大革命"
+      },
+      {
+        "year": 1968,
+        "event": "将底片藏于地板下保存"
+      },
+      {
+        "year": 2003,
+        "event": "出版《红色新闻兵》(Red-Color News Soldier)"
+      },
+      {
+        "year": 2024,
+        "event": "去世于纽约"
+      }
+    ],
+    "works": [
+      {
+        "title": "红色新闻兵 (Red-Color News Soldier)",
+        "year": 2003,
+        "image": null,
+        "credit": "Li Zhensheng",
+        "href": "https://www.icp.org/"
+      },
+      {
+        "title": "批斗大会",
+        "year": 1966,
+        "image": null,
+        "credit": "Li Zhensheng",
+        "href": "https://www.contactpressimages.com/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Li_Zhensheng",
+      "https://www.icp.org/"
+    ]
+  },
+  {
+    "id": "xiao-quan",
+    "name": "Xiao Quan",
+    "nameZh": "肖全",
+    "born": 1959,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "中国人像摄影家，以《我们这一代》系列记录了1980-90年代中国文艺界群像。",
+    "bioLong": "肖全是中国最重要的人像摄影家之一，被称为'中国最好的人像摄影师'。他的代表作《我们这一代》耗时十余年，拍摄了1980至1990年代中国文化艺术界的核心人物——包括作家三毛、余华、北岛，艺术家张晓刚、何多苓，音乐人崔健、窦唯等。这批肖像以朴素而深刻的黑白影像，定格了中国改革开放后第一代文化精英的青春面孔与时代精神，成为理解那个激情年代的珍贵视觉文献。",
+    "keyDates": [
+      {
+        "year": 1959,
+        "event": "出生于成都"
+      },
+      {
+        "year": 1986,
+        "event": "开始《我们这一代》拍摄计划"
+      },
+      {
+        "year": 1996,
+        "event": "出版《我们这一代》"
+      },
+      {
+        "year": 2014,
+        "event": "《我们这一代》增补再版，引发广泛关注"
+      }
+    ],
+    "works": [
+      {
+        "title": "我们这一代 (Our Generation)",
+        "year": 1996,
+        "image": null,
+        "credit": "Xiao Quan",
+        "href": "https://www.artsy.net/artist/xiao-quan"
+      },
+      {
+        "title": "三毛肖像",
+        "year": 1990,
+        "image": null,
+        "credit": "Xiao Quan",
+        "href": "https://www.artsy.net/artist/xiao-quan"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "中画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Xiao_Quan",
+      "https://www.artsy.net/artist/xiao-quan"
+    ]
+  },
+  {
+    "id": "wang-qingsong",
+    "name": "Wang Qingsong",
+    "nameZh": "王庆松",
+    "born": 1966,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国当代观念摄影代表，以大型布景式摄影讽刺消费主义与社会变迁。",
+    "bioLong": "王庆松是中国当代观念摄影最具代表性的艺术家之一。他擅长构建大型布景，雇佣数十甚至数百名群众演员，以'活人画'的方式拍摄兼具荒诞感和社会批判力的大幅照片。代表作《跟我学》模拟教室场景，黑板上写满了各种'成功学'口号，讽刺了当代中国的教育焦虑与功利主义。他的作品从中国传统绘画和西方古典构图中汲取灵感，以戏剧化的视觉语言回应了全球化和消费主义对中国社会的冲击。",
+    "keyDates": [
+      {
+        "year": 1966,
+        "event": "出生于湖北大冶"
+      },
+      {
+        "year": 2000,
+        "event": "创作大型布景摄影《老栗夜宴图》"
+      },
+      {
+        "year": 2003,
+        "event": "创作《跟我学》(Follow Me)"
+      },
+      {
+        "year": 2008,
+        "event": "参加上海双年展"
+      }
+    ],
+    "works": [
+      {
+        "title": "跟我学 (Follow Me)",
+        "year": 2003,
+        "image": null,
+        "credit": "Wang Qingsong",
+        "href": "https://www.artsy.net/artist/wang-qingsong"
+      },
+      {
+        "title": "老栗夜宴图 (Night Revels of Lao Li)",
+        "year": 2000,
+        "image": null,
+        "credit": "Wang Qingsong",
+        "href": "https://www.artsy.net/artist/wang-qingsong"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "彩色",
+      "布景摄影"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wang_Qingsong",
+      "https://www.artsy.net/artist/wang-qingsong"
+    ]
+  },
+  {
+    "id": "ren-hang",
+    "name": "Ren Hang",
+    "nameZh": "任航",
+    "born": 1987,
+    "died": 2017,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [
+      "araki",
+      "goldin"
+    ],
+    "bio": "中国当代摄影家，以鲜艳色彩和大胆裸体摄影挑战中国社会禁忌，27岁成名。",
+    "bioLong": "任航是21世纪中国最引人注目的年轻摄影家。他以廉价傻瓜相机和闪光灯拍摄朋友们的裸体，以鲜艳的色彩、直接的闪光和超现实的肢体编排，创造出一种既挑衅又充满幽默感的独特美学。他的作品在中国屡遭审查和删除，但在国际上获得了极高关注，被视为年轻一代中国人反抗压抑性文化的视觉宣言。2017年因抑郁症去世，年仅29岁，但留下了超过400页的出版物和大量展览记录。",
+    "keyDates": [
+      {
+        "year": 1987,
+        "event": "出生于吉林长春"
+      },
+      {
+        "year": 2008,
+        "event": "开始拍摄并在博客上发布作品"
+      },
+      {
+        "year": 2012,
+        "event": "在北京举办首次个展"
+      },
+      {
+        "year": 2014,
+        "event": "作品在巴黎 Maison Européenne de la Photographie 展出"
+      },
+      {
+        "year": 2017,
+        "event": "因抑郁症去世于北京"
+      }
+    ],
+    "works": [
+      {
+        "title": "Republic",
+        "year": 2013,
+        "image": null,
+        "credit": "Ren Hang",
+        "href": "https://www.renhangs.com/"
+      },
+      {
+        "title": "Athens Love",
+        "year": 2015,
+        "image": null,
+        "credit": "Ren Hang",
+        "href": "https://www.renhangs.com/"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "傻瓜相机",
+      "闪光灯"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ren_Hang",
+      "https://www.renhangs.com/"
+    ]
+  },
+  {
+    "id": "mo-yi",
+    "name": "Mo Yi",
+    "nameZh": "莫毅",
+    "born": 1958,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary",
+      "street"
+    ],
+    "influencedBy": [
+      "moriyama"
+    ],
+    "bio": "中国先锋街头摄影家，以激进的抓拍手法记录天津街头的原始城市能量。",
+    "bioLong": "莫毅是中国最重要的先锋摄影家之一，被誉为'中国街头摄影教父'。自1980年代中期起，他在天津街头以各种非常规方式拍摄——将相机绑在自行车把手上、举过头顶盲拍、或故意拉近陌生人面前按下快门。这些粗粝、激进的影像呈现出一种原始而真实的城市能量，远远早于森山大道在中国广为人知之前就独立发展出了类似的美学路径。他是中国当代摄影中最早突破传统纪实框架的实践者之一。",
+    "keyDates": [
+      {
+        "year": 1958,
+        "event": "出生于西藏拉萨"
+      },
+      {
+        "year": 1986,
+        "event": "开始在天津街头的激进抓拍实验"
+      },
+      {
+        "year": 1989,
+        "event": "创作《摇荡的车厢》系列"
+      },
+      {
+        "year": 2005,
+        "event": "作品入藏纽约 MoMA"
+      }
+    ],
+    "works": [
+      {
+        "title": "摇荡的车厢 (Swinging Bus)",
+        "year": 1989,
+        "image": null,
+        "credit": "Mo Yi",
+        "href": "https://www.artsy.net/artist/mo-yi"
+      },
+      {
+        "title": "我虚幻的城市",
+        "year": 1987,
+        "image": null,
+        "credit": "Mo Yi",
+        "href": "https://www.artsy.net/artist/mo-yi"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "盲拍"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mo_Yi_(photographer)",
+      "https://www.artsy.net/artist/mo-yi"
+    ]
+  },
+  {
+    "id": "wang-fuchun",
+    "name": "Wang Fuchun",
+    "nameZh": "王福春",
+    "born": 1943,
+    "died": 2021,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国纪实摄影家，以四十年如一日拍摄中国火车上的人生百态闻名于世。",
+    "bioLong": "王福春是中国纪实摄影的标志性人物。他原是哈尔滨铁路局的宣传干部，从1978年开始在中国各线路的列车上拍摄乘客。四十余年间，他积累了数十万张车厢内的影像，从蒸汽机车时代的绿皮火车到高铁动车，完整记录了中国铁路旅行的变迁与车厢内的人间百态——吃饭、睡觉、打牌、争吵、恋爱。他的《火车上的中国人》被视为中国社会变迁最生动的缩影之一。",
+    "keyDates": [
+      {
+        "year": 1943,
+        "event": "出生于黑龙江"
+      },
+      {
+        "year": 1978,
+        "event": "开始在火车上系统拍摄"
+      },
+      {
+        "year": 2001,
+        "event": "出版《火车上的中国人》"
+      },
+      {
+        "year": 2021,
+        "event": "去世于北京"
+      }
+    ],
+    "works": [
+      {
+        "title": "火车上的中国人 (Chinese on the Train)",
+        "year": 2001,
+        "image": null,
+        "credit": "Wang Fuchun",
+        "href": "https://www.artsy.net/artist/wang-fuchun"
+      },
+      {
+        "title": "绿皮火车",
+        "year": 1990,
+        "image": null,
+        "credit": "Wang Fuchun",
+        "href": "https://www.artsy.net/artist/wang-fuchun"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "彩色",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wang_Fuchun",
+      "https://www.artsy.net/artist/wang-fuchun"
+    ]
+  },
+  {
+    "id": "hai-bo",
+    "name": "Hai Bo",
+    "nameZh": "海波",
+    "born": 1962,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国当代摄影家，以'对照'系列（旧照片重拍）探索时间、记忆与社会变迁。",
+    "bioLong": "海波是中国当代观念摄影的重要代表。他最著名的'他们'系列收集文革时期和集体化年代的合影旧照，然后在数十年后找到原照中的人物，在尽量相同的位置重新拍摄一张合影。两张照片并置展出时，人的衰老、缺席（已故者的空位）和时代的痕迹形成了极具冲击力的对比。这一看似简单的创作方法深刻触及了中国集体记忆中的伤痕与时间的不可逆性，在国际当代摄影界引起广泛共鸣。",
+    "keyDates": [
+      {
+        "year": 1962,
+        "event": "出生于吉林长春"
+      },
+      {
+        "year": 1999,
+        "event": "开始'他们'(They) 系列"
+      },
+      {
+        "year": 2002,
+        "event": "参加圣保罗双年展"
+      },
+      {
+        "year": 2004,
+        "event": "参加上海双年展"
+      }
+    ],
+    "works": [
+      {
+        "title": "他们 (They)",
+        "year": 1999,
+        "image": null,
+        "credit": "Hai Bo",
+        "href": "https://www.artsy.net/artist/hai-bo"
+      },
+      {
+        "title": "北方 (The Northern)",
+        "year": 2005,
+        "image": null,
+        "credit": "Hai Bo",
+        "href": "https://www.artsy.net/artist/hai-bo"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "中画幅",
+      "观念"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Hai_Bo_(artist)",
+      "https://www.artsy.net/artist/hai-bo"
+    ]
+  },
+  {
+    "id": "zhang-huan",
+    "name": "Zhang Huan",
+    "nameZh": "张洹",
+    "born": 1965,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国行为艺术与摄影先驱，以身体为媒介的极端行为在国际艺坛产生巨大影响。",
+    "bioLong": "张洹是1990年代中国前卫艺术运动中最具国际影响力的行为艺术家和摄影家之一。他的早期行为作品如《12平方米》（在公厕中涂满蜂蜜和鱼油端坐，让苍蝇覆满全身）和《为鱼塘增高水位》（组织农民工集体站入鱼塘）以极端的身体实践挑战社会规训与审美边界。这些行为通过摄影记录传播，成为中国当代艺术走向国际的标志性图像。2000年代移居纽约后，他的创作扩展到雕塑和装置领域。",
+    "keyDates": [
+      {
+        "year": 1965,
+        "event": "出生于河南安阳"
+      },
+      {
+        "year": 1994,
+        "event": "创作《12平方米》行为及影像"
+      },
+      {
+        "year": 1997,
+        "event": "创作《为鱼塘增高水位》"
+      },
+      {
+        "year": 1998,
+        "event": "移居纽约"
+      },
+      {
+        "year": 2007,
+        "event": "在纽约亚洲协会举办大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "为鱼塘增高水位 (To Raise the Water Level in a Fishpond)",
+        "year": 1997,
+        "image": null,
+        "credit": "Zhang Huan",
+        "href": "https://www.pacegallery.com/artists/zhang-huan/"
+      },
+      {
+        "title": "12平方米 (12 Square Meters)",
+        "year": 1994,
+        "image": null,
+        "credit": "Zhang Huan",
+        "href": "https://www.pacegallery.com/artists/zhang-huan/"
+      }
+    ],
+    "techniques": [
+      "行为摄影",
+      "彩色",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zhang_Huan",
+      "https://www.pacegallery.com/artists/zhang-huan/"
+    ]
+  },
+  {
+    "id": "raghubir-singh",
+    "name": "Raghubir Singh",
+    "nameZh": "拉胡比尔·辛格",
+    "born": 1942,
+    "died": 1999,
+    "country": "IN",
+    "region": "asia",
+    "movements": [
+      "new-color",
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "eggleston"
+    ],
+    "bio": "印度彩色摄影先驱，以多层次构图和饱和色彩重新定义了印度的视觉叙事。",
+    "bioLong": "拉胡比尔·辛格是印度最重要的摄影家之一，也是全球彩色街头摄影的先驱。在西方摄影界仍以黑白为正统的1970年代，他就坚持以彩色胶片拍摄印度，认为色彩是理解印度文化不可分割的一部分。他发展出一种极为复杂的多层次构图方法——通过车窗、镜子、门框等'画中画'结构，在单张照片中容纳多个叙事层次。他出版了14本摄影集，涵盖恒河、加尔各答、孟买等主题，深刻影响了后来的印度摄影家和全球彩色摄影实践。",
+    "keyDates": [
+      {
+        "year": 1942,
+        "event": "出生于斋浦尔"
+      },
+      {
+        "year": 1966,
+        "event": "开始系统性地以彩色拍摄印度"
+      },
+      {
+        "year": 1974,
+        "event": "出版首本摄影集《加尔各答》"
+      },
+      {
+        "year": 1992,
+        "event": "出版《恒河》"
+      },
+      {
+        "year": 1999,
+        "event": "去世于纽约"
+      }
+    ],
+    "works": [
+      {
+        "title": "恒河 (River of Colour)",
+        "year": 1992,
+        "image": null,
+        "credit": "Raghubir Singh",
+        "href": "https://www.moma.org/artists/34840"
+      },
+      {
+        "title": "孟买 (Bombay)",
+        "year": 1994,
+        "image": null,
+        "credit": "Raghubir Singh",
+        "href": "https://www.artsy.net/artist/raghubir-singh"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "35mm",
+      "Leica"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Raghubir_Singh_(photographer)",
+      "https://www.moma.org/artists/34840"
+    ]
+  },
+  {
+    "id": "dayanita-singh",
+    "name": "Dayanita Singh",
+    "nameZh": "达亚妮塔·辛格",
+    "born": 1961,
+    "died": null,
+    "country": "IN",
+    "region": "asia",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "印度当代摄影家，以'博物馆化'的摄影书装置重新定义摄影的展示方式。",
+    "bioLong": "达亚妮塔·辛格是当代印度最具国际影响力的摄影家。她早期以黑白纪实风格拍摄印度社会——包括重要的太监群体纪实系列和音乐家系列。2000年代后她的实践发生了根本转向，开始创作可折叠的'移动博物馆'——将精选照片装在手工制作的木箱或手风琴式结构中，使观众能够自行组合展示顺序。这一创新挑战了摄影作为固定物件的传统观念，2013年入围德意志交易所摄影奖决选，在全球摄影界引发关于'摄影展示'的新讨论。",
+    "keyDates": [
+      {
+        "year": 1961,
+        "event": "出生于新德里"
+      },
+      {
+        "year": 1986,
+        "event": "开始拍摄印度太监群体"
+      },
+      {
+        "year": 2001,
+        "event": "出版《隐私》(Privacy)"
+      },
+      {
+        "year": 2013,
+        "event": "入围德意志交易所摄影奖"
+      },
+      {
+        "year": 2014,
+        "event": "在伦敦 Hayward Gallery 举办大型展览"
+      }
+    ],
+    "works": [
+      {
+        "title": "Museum of Chance",
+        "year": 2013,
+        "image": null,
+        "credit": "Dayanita Singh",
+        "href": "https://www.dayanitasingh.com/"
+      },
+      {
+        "title": "File Room",
+        "year": 2012,
+        "image": null,
+        "credit": "Dayanita Singh",
+        "href": "https://www.dayanitasingh.com/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "彩色",
+      "书籍装置"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Dayanita_Singh",
+      "https://www.dayanitasingh.com/"
+    ]
+  },
+  {
+    "id": "shirin-neshat",
+    "name": "Shirin Neshat",
+    "nameZh": "希琳·奈沙特",
+    "born": 1957,
+    "died": null,
+    "country": "IR",
+    "region": "middle-east",
+    "movements": [
+      "war-photography"
+    ],
+    "influencedBy": [],
+    "bio": "伊朗裔美国摄影与影像艺术家，以女性身体上的波斯书法探讨伊斯兰世界的性别政治。",
+    "bioLong": "希琳·奈沙特是当代最重要的伊朗裔视觉艺术家之一。她最具标志性的作品是'女性真主'（Women of Allah）系列——在自己和其他女性手持武器的黑白肖像上，用墨水书写波斯诗歌文字，探讨伊朗革命后女性身份的复杂性。她的创作横跨摄影、影像和电影，持续关注流亡、性别、身份和伊斯兰世界的政治现实。2009年凭影片《没有男人的女人》获威尼斯电影节最佳导演银狮奖。",
+    "keyDates": [
+      {
+        "year": 1957,
+        "event": "出生于伊朗加兹温"
+      },
+      {
+        "year": 1993,
+        "event": "开始'女性真主'(Women of Allah)系列"
+      },
+      {
+        "year": 1999,
+        "event": "在威尼斯双年展展出影像装置《狂喜》"
+      },
+      {
+        "year": 2009,
+        "event": "获威尼斯电影节最佳导演银狮奖"
+      },
+      {
+        "year": 2015,
+        "event": "在华盛顿赫希洪博物馆举办大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "女性真主 (Women of Allah)",
+        "year": 1994,
+        "image": null,
+        "credit": "Shirin Neshat",
+        "href": "https://www.gladstone.gallery/artists/shirin-neshat"
+      },
+      {
+        "title": "狂喜 (Rapture)",
+        "year": 1999,
+        "image": null,
+        "credit": "Shirin Neshat",
+        "href": "https://www.gladstone.gallery/artists/shirin-neshat"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "墨水书写",
+      "大画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shirin_Neshat",
+      "https://www.gladstone.gallery/artists/shirin-neshat"
+    ]
+  },
+  {
+    "id": "abbas",
+    "name": "Abbas Attar",
+    "nameZh": "阿巴斯",
+    "born": 1944,
+    "died": 2018,
+    "country": "IR",
+    "region": "middle-east",
+    "movements": [
+      "magnum",
+      "war-photography"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "伊朗裔马格南摄影师，以长期记录伊斯兰革命和全球宗教冲突闻名。",
+    "bioLong": "阿巴斯是马格南图片社最重要的纪实摄影师之一。出生于伊朗，他最著名的工作是从1978年开始长期记录伊朗伊斯兰革命——从推翻国王到人质事件到两伊战争——形成了迄今最完整的伊朗革命影像档案之一。此后他将镜头扩展到全球范围内的伊斯兰世界，出版了《真主·安拉·上帝》（Allah O Akbar）和《世界各地的伊斯兰》等著作，以冷静而深入的观察记录了政治伊斯兰的兴起。他的纪实立场既非猎奇也非辩护，而是追求理解。",
+    "keyDates": [
+      {
+        "year": 1944,
+        "event": "出生于伊朗"
+      },
+      {
+        "year": 1978,
+        "event": "开始记录伊朗伊斯兰革命"
+      },
+      {
+        "year": 1981,
+        "event": "加入马格南图片社"
+      },
+      {
+        "year": 1994,
+        "event": "出版《真主·安拉·上帝》(Allah O Akbar)"
+      },
+      {
+        "year": 2018,
+        "event": "去世于巴黎"
+      }
+    ],
+    "works": [
+      {
+        "title": "伊朗革命 (Iran Diary)",
+        "year": 1980,
+        "image": null,
+        "credit": "Abbas Attar",
+        "href": "https://www.magnumphotos.com/photographer/abbas/"
+      },
+      {
+        "title": "真主·安拉·上帝 (Allah O Akbar)",
+        "year": 1994,
+        "image": null,
+        "credit": "Abbas Attar",
+        "href": "https://www.magnumphotos.com/photographer/abbas/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Abbas_(photographer)",
+      "https://www.magnumphotos.com/photographer/abbas/"
+    ]
+  },
+  {
+    "id": "gordon-parks",
+    "name": "Gordon Parks",
+    "nameZh": "戈登·帕克斯",
+    "born": 1912,
+    "died": 2006,
+    "country": "US",
+    "region": "north-america",
+    "movements": [
+      "fsa",
+      "black-american-photo"
+    ],
+    "influencedBy": [
+      "lange"
+    ],
+    "bio": "美国非裔摄影家、电影导演，FSA摄影师，以镜头对抗种族不平等的先驱。",
+    "bioLong": "戈登·帕克斯是20世纪最多才多艺的美国非裔艺术家之一。他自学摄影后加入FSA（农业安全管理局），成为其首位非裔摄影师，拍摄了标志性的《美国哥特式》（American Gothic）——一名清洁女工站在美国国旗前持拖把和扫帚。后来他成为《Life》杂志首位非裔全职摄影师和作家，并执导了开创性的黑人电影《风雨斗士》(Shaft)。他一生跨越摄影、电影、文学和音乐，始终以艺术为武器对抗贫困和种族歧视。",
+    "keyDates": [
+      {
+        "year": 1912,
+        "event": "出生于堪萨斯州"
+      },
+      {
+        "year": 1942,
+        "event": "加入 FSA，成为首位非裔摄影师"
+      },
+      {
+        "year": 1942,
+        "event": "拍摄标志性作品《美国哥特式》"
+      },
+      {
+        "year": 1948,
+        "event": "成为《Life》杂志首位非裔全职摄影师"
+      },
+      {
+        "year": 1971,
+        "event": "执导电影《Shaft》"
+      },
+      {
+        "year": 2006,
+        "event": "去世于纽约"
+      }
+    ],
+    "works": [
+      {
+        "title": "美国哥特式 (American Gothic)",
+        "year": 1942,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Grant_DeVolson_Wood_-_American_Gothic.jpg/800px-Grant_DeVolson_Wood_-_American_Gothic.jpg",
+        "credit": "Gordon Parks / FSA (PD-USGov)",
+        "href": "https://www.gordonparksfoundation.org/"
+      },
+      {
+        "title": "Ella Watson",
+        "year": 1942,
+        "image": null,
+        "credit": "Gordon Parks / FSA",
+        "href": "https://www.gordonparksfoundation.org/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "彩色",
+      "35mm",
+      "中画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Parks",
+      "https://www.gordonparksfoundation.org/"
+    ]
+  },
+  {
+    "id": "mary-ellen-mark",
+    "name": "Mary Ellen Mark",
+    "nameZh": "玛丽·埃伦·马克",
+    "born": 1940,
+    "died": 2015,
+    "country": "US",
+    "region": "north-america",
+    "movements": [
+      "street",
+      "magnum"
+    ],
+    "influencedBy": [
+      "arbus",
+      "frank"
+    ],
+    "bio": "美国纪实摄影大师，以深入社会边缘群体的长期项目闻名，被誉为最伟大的纪实摄影家之一。",
+    "bioLong": "玛丽·埃伦·马克是美国最受敬重的纪实摄影家之一。她的职业生涯跨越四十余年，始终致力于深入社会最边缘的群体——流浪儿、精神病患者、吸毒者、马戏团表演者、性工作者。她在俄勒冈州精神病院拍摄的《Ward 81》和在印度拍摄的流浪儿系列，不以猎奇姿态旁观，而是以长期驻留和真诚关系建立信任，由此获得的影像兼具深度与尊严。她的黑白人像力量惊人，总能在最被忽视的人群中发现不可摧毁的人性。",
+    "keyDates": [
+      {
+        "year": 1940,
+        "event": "出生于宾夕法尼亚州费城"
+      },
+      {
+        "year": 1979,
+        "event": "出版《Ward 81》，记录精神病院"
+      },
+      {
+        "year": 1981,
+        "event": "拍摄印度孟买流浪儿系列"
+      },
+      {
+        "year": 1983,
+        "event": "出版《Falkland Road》"
+      },
+      {
+        "year": 2015,
+        "event": "去世于纽约"
+      }
+    ],
+    "works": [
+      {
+        "title": "Ward 81",
+        "year": 1979,
+        "image": null,
+        "credit": "Mary Ellen Mark",
+        "href": "https://www.maryellenmark.com/"
+      },
+      {
+        "title": "Falkland Road",
+        "year": 1981,
+        "image": null,
+        "credit": "Mary Ellen Mark",
+        "href": "https://www.maryellenmark.com/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "中画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mary_Ellen_Mark",
+      "https://www.maryellenmark.com/"
+    ]
+  },
+  {
+    "id": "irving-penn",
+    "name": "Irving Penn",
+    "nameZh": "欧文·佩恩",
+    "born": 1917,
+    "died": 2009,
+    "country": "US",
+    "region": "north-america",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "steichen"
+    ],
+    "bio": "美国时尚与人像摄影大师，以极简背景和精湛的光线控制为Vogue创造了经典视觉语言。",
+    "bioLong": "欧文·佩恩是20世纪最具影响力的时尚与人像摄影家之一。他为《Vogue》工作超过六十年，以极简的灰色或白色背景、精确的光线控制和优雅的构图创造了大量标志性时尚图像。他的人像摄影同样出色——从毕加索到杜鲁门·卡波特——总能在最简洁的设定中捕捉人物的本质。他还以'小世界'系列拍摄烟蒂、食物残渣等日常废弃物的静物，展现了惊人的美学包容力。他对铂金印刷工艺的精研使他的原版照片成为收藏家最追捧的摄影艺术品之一。",
+    "keyDates": [
+      {
+        "year": 1917,
+        "event": "出生于新泽西州"
+      },
+      {
+        "year": 1943,
+        "event": "为《Vogue》拍摄首个封面"
+      },
+      {
+        "year": 1948,
+        "event": "开创'角落肖像'(Corner Portrait)风格"
+      },
+      {
+        "year": 1950,
+        "event": "拍摄'小世界'(Small Trades)系列"
+      },
+      {
+        "year": 2009,
+        "event": "去世于纽约"
+      }
+    ],
+    "works": [
+      {
+        "title": "角落肖像 (Corner Portrait)",
+        "year": 1948,
+        "image": null,
+        "credit": "Irving Penn",
+        "href": "https://www.irvingpenn.org/"
+      },
+      {
+        "title": "冻结的食物 (Frozen Foods)",
+        "year": 1977,
+        "image": null,
+        "credit": "Irving Penn",
+        "href": "https://www.irvingpenn.org/"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "铂金印刷",
+      "黑白",
+      "彩色"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Irving_Penn",
+      "https://www.irvingpenn.org/"
+    ]
+  },
+  {
+    "id": "graciela-iturbide",
+    "name": "Graciela Iturbide",
+    "nameZh": "格拉谢拉·伊图尔维德",
+    "born": 1942,
+    "died": null,
+    "country": "MX",
+    "region": "latin-america",
+    "movements": [
+      "latin-american-modernism",
+      "street"
+    ],
+    "influencedBy": [
+      "alvarez-bravo"
+    ],
+    "bio": "墨西哥摄影大师，阿尔瓦雷斯·布拉沃的学生，以诗意的黑白影像记录拉美原住民文化。",
+    "bioLong": "格拉谢拉·伊图尔维德是拉丁美洲当代最重要的摄影家之一，也是墨西哥摄影传统的核心传承者。她师从曼努埃尔·阿尔瓦雷斯·布拉沃，但很快发展出独特的个人视觉语言。她最著名的照片《鬣蜥女人》（Nuestra Señora de las Iguanas）拍摄一位头顶蜥蜴的华纳特佩克妇女，已成为墨西哥摄影的标志性图像。她长期深入墨西哥原住民社区，以诗意而不浪漫化的方式记录仪式、市场和日常生活，2008年获哈苏国际摄影奖。",
+    "keyDates": [
+      {
+        "year": 1942,
+        "event": "出生于墨西哥城"
+      },
+      {
+        "year": 1969,
+        "event": "师从阿尔瓦雷斯·布拉沃学习摄影"
+      },
+      {
+        "year": 1979,
+        "event": "拍摄《鬣蜥女人》"
+      },
+      {
+        "year": 1988,
+        "event": "出版《华纳特佩克》"
+      },
+      {
+        "year": 2008,
+        "event": "获哈苏国际摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "鬣蜥女人 (Nuestra Señora de las Iguanas)",
+        "year": 1979,
+        "image": null,
+        "credit": "Graciela Iturbide",
+        "href": "https://www.artsy.net/artist/graciela-iturbide"
+      },
+      {
+        "title": "华纳特佩克 (Juchitán de las Mujeres)",
+        "year": 1989,
+        "image": null,
+        "credit": "Graciela Iturbide",
+        "href": "https://www.artsy.net/artist/graciela-iturbide"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "Leica"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Graciela_Iturbide",
+      "https://www.artsy.net/artist/graciela-iturbide"
+    ]
+  },
+  {
+    "id": "josef-koudelka",
+    "name": "Josef Koudelka",
+    "nameZh": "约瑟夫·寇德卡",
+    "born": 1938,
+    "died": null,
+    "country": "CZ",
+    "region": "europe",
+    "movements": [
+      "magnum",
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "frank"
+    ],
+    "bio": "捷克摄影大师，以布拉格之春记录和吉普赛人系列闻名，马格南核心成员。",
+    "bioLong": "约瑟夫·寇德卡是20世纪最伟大的纪实摄影家之一。1968年苏联入侵捷克斯洛伐克时，他冒着生命危险拍摄了布拉格之春的血腥镇压，这批匿名发表的照片获得了罗伯特·卡帕金奖。流亡西方后，他以十余年时间深入欧洲各地的吉普赛人社区，完成了史诗般的《吉普赛人》（Gypsies）。后期他转向全景摄影，以宽幅相机拍摄地中海沿岸的废墟风景。他是马格南图片社的核心成员，作品以强烈的视觉张力和深沉的人文关怀著称。",
+    "keyDates": [
+      {
+        "year": 1938,
+        "event": "出生于捷克斯洛伐克摩拉维亚"
+      },
+      {
+        "year": 1968,
+        "event": "拍摄布拉格之春苏联入侵"
+      },
+      {
+        "year": 1970,
+        "event": "流亡西方，加入马格南图片社"
+      },
+      {
+        "year": 1975,
+        "event": "出版《吉普赛人》(Gypsies)"
+      },
+      {
+        "year": 2013,
+        "event": "捐赠全部作品给公共机构"
+      }
+    ],
+    "works": [
+      {
+        "title": "布拉格之春 (Prague 1968)",
+        "year": 1968,
+        "image": null,
+        "credit": "Josef Koudelka / Magnum",
+        "href": "https://www.magnumphotos.com/photographer/josef-koudelka/"
+      },
+      {
+        "title": "吉普赛人 (Gypsies)",
+        "year": 1975,
+        "image": null,
+        "credit": "Josef Koudelka / Magnum",
+        "href": "https://www.magnumphotos.com/photographer/josef-koudelka/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "全景"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Josef_Koudelka",
+      "https://www.magnumphotos.com/photographer/josef-koudelka/"
+    ]
+  },
+  {
+    "id": "alec-soth",
+    "name": "Alec Soth",
+    "nameZh": "亚历克·索思",
+    "born": 1969,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "movements": [
+      "new-color",
+      "magnum"
+    ],
+    "influencedBy": [
+      "eggleston",
+      "shore",
+      "arbus"
+    ],
+    "bio": "美国当代纪实摄影家，以大画幅彩色摄影和公路旅行叙事延续了美国摄影的河流传统。",
+    "bioLong": "亚历克·索思是21世纪美国最重要的纪实摄影家之一，马格南图片社成员。他的处女作《Sleeping by the Mississippi》（2004）沿密西西比河拍摄沿岸居民的肖像和生活场景，以大画幅相机的精致色彩和缓慢节奏重新诠释了美国公路摄影传统。他的作品介于纪实与诗意之间，关注美国社会的边缘人物——隐士、流浪者、梦想家——以温柔而不感伤的方式记录了全球化时代美国内陆的孤独与希望。他也是当代摄影出版的重要推动者。",
+    "keyDates": [
+      {
+        "year": 1969,
+        "event": "出生于明尼苏达州明尼阿波利斯"
+      },
+      {
+        "year": 2004,
+        "event": "出版《Sleeping by the Mississippi》，一举成名"
+      },
+      {
+        "year": 2008,
+        "event": "加入马格南图片社"
+      },
+      {
+        "year": 2010,
+        "event": "创立 Little Brown Mushroom 独立出版"
+      },
+      {
+        "year": 2015,
+        "event": "出版《Songbook》"
+      }
+    ],
+    "works": [
+      {
+        "title": "Sleeping by the Mississippi",
+        "year": 2004,
+        "image": null,
+        "credit": "Alec Soth / Magnum",
+        "href": "https://www.magnumphotos.com/photographer/alec-soth/"
+      },
+      {
+        "title": "Songbook",
+        "year": 2015,
+        "image": null,
+        "credit": "Alec Soth / Magnum",
+        "href": "https://www.magnumphotos.com/photographer/alec-soth/"
+      }
+    ],
+    "techniques": [
+      "大画幅 8x10",
+      "彩色",
+      "胶片"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Alec_Soth",
+      "https://www.magnumphotos.com/photographer/alec-soth/"
+    ]
+  },
+  {
+    "id": "cristina-de-middel",
+    "name": "Cristina de Middel",
+    "nameZh": "克里斯蒂娜·德·米德尔",
+    "born": 1975,
+    "died": null,
+    "country": "ES",
+    "region": "europe",
+    "movements": [
+      "magnum"
+    ],
+    "influencedBy": [
+      "parr"
+    ],
+    "bio": "西班牙当代摄影家，马格南现任主席，以虚构纪实手法挑战摄影的真实性假设。",
+    "bioLong": "克里斯蒂娜·德·米德尔是西班牙当代最具影响力的摄影家之一，2022年被选为马格南图片社主席。她以《非洲宇航员》（The Afronauts，2012）一炮成名——以虚构纪实的手法重演了1964年赞比亚尝试太空计划的真实故事，挑战了西方对非洲叙事的刻板印象。她的实践融合了纪实、虚构和自出版，是当代摄影界最活跃的跨界实验者之一，代表了从传统纪实向当代视觉叙事的转型。",
+    "keyDates": [
+      {
+        "year": 1975,
+        "event": "出生于西班牙阿利坎特"
+      },
+      {
+        "year": 2012,
+        "event": "自出版《非洲宇航员》(The Afronauts)，迅速走红"
+      },
+      {
+        "year": 2017,
+        "event": "加入马格南图片社"
+      },
+      {
+        "year": 2022,
+        "event": "当选马格南图片社主席"
+      },
+      {
+        "year": 2023,
+        "event": "在泰特现代美术馆展出"
+      }
+    ],
+    "works": [
+      {
+        "title": "非洲宇航员 (The Afronauts)",
+        "year": 2012,
+        "image": null,
+        "credit": "Cristina de Middel",
+        "href": "https://www.magnumphotos.com/photographer/cristina-de-middel/"
+      },
+      {
+        "title": "This Is What Hatred Did",
+        "year": 2014,
+        "image": null,
+        "credit": "Cristina de Middel",
+        "href": "https://www.magnumphotos.com/photographer/cristina-de-middel/"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "虚构纪实",
+      "数码"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cristina_de_Middel",
+      "https://www.magnumphotos.com/photographer/cristina-de-middel/"
+    ]
+  },
+  {
+    "id": "gregory-crewdson",
+    "name": "Gregory Crewdson",
+    "nameZh": "格雷戈里·克鲁德森",
+    "born": 1962,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "movements": [
+      "new-color"
+    ],
+    "influencedBy": [
+      "shore",
+      "eggleston"
+    ],
+    "bio": "美国当代摄影家，以好莱坞级别的制作规模拍摄郊区超现实场景闻名。",
+    "bioLong": "格雷戈里·克鲁德森是美国当代最著名的布景摄影家。他以好莱坞电影的制作规模——包括灯光团队、美术指导、群众演员——在美国小镇和郊区街道上构建大型摄影场景。这些画面以电影级的光线和构图呈现看似平常的美国郊区生活，但每个场景都潜伏着某种无法言说的不安与超现实感。他的作品位于摄影与电影之间，深受大卫·林奇和爱德华·霍珀的影响，每幅照片的制作成本可达数十万美元。",
+    "keyDates": [
+      {
+        "year": 1962,
+        "event": "出生于纽约布鲁克林"
+      },
+      {
+        "year": 1998,
+        "event": "创作 Twilight 系列"
+      },
+      {
+        "year": 2005,
+        "event": "创作 Beneath the Roses 系列"
+      },
+      {
+        "year": 2012,
+        "event": "在纽约 Gagosian 画廊展出"
+      },
+      {
+        "year": 2021,
+        "event": "出版 An Eclipse of Moths"
+      }
+    ],
+    "works": [
+      {
+        "title": "Beneath the Roses",
+        "year": 2005,
+        "image": null,
+        "credit": "Gregory Crewdson",
+        "href": "https://www.gagosian.com/artists/gregory-crewdson"
+      },
+      {
+        "title": "An Eclipse of Moths",
+        "year": 2020,
+        "image": null,
+        "credit": "Gregory Crewdson",
+        "href": "https://www.gagosian.com/artists/gregory-crewdson"
+      }
+    ],
+    "techniques": [
+      "大画幅 8x10",
+      "彩色",
+      "布景摄影"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gregory_Crewdson",
+      "https://www.gagosian.com/artists/gregory-crewdson"
+    ]
+  },
+  {
+    "id": "thomas-struth",
+    "name": "Thomas Struth",
+    "nameZh": "托马斯·施特鲁斯",
+    "born": 1954,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "杜塞尔多夫学派核心成员，以博物馆参观者和城市街景的大画幅摄影闻名。",
+    "bioLong": "托马斯·施特鲁斯是杜塞尔多夫学派的核心成员之一，师从贝歇夫妇。他最著名的系列包括'博物馆摄影'——拍摄世界各大美术馆中驻足观画的参观者，形成一种'观看之观看'的元摄影；以及'街景'系列——以严谨的正面视角拍摄全球各城市的街道立面。他的作品延续了贝歇学派的类型学精神，但加入了更多人文叙事元素。他与古尔斯基、鲁夫并称杜塞尔多夫三杰，作品在全球主要美术馆广泛收藏。",
+    "keyDates": [
+      {
+        "year": 1954,
+        "event": "出生于德国盖尔德恩"
+      },
+      {
+        "year": 1976,
+        "event": "进入杜塞尔多夫艺术学院贝歇班"
+      },
+      {
+        "year": 1989,
+        "event": "开始博物馆系列"
+      },
+      {
+        "year": 2001,
+        "event": "在纽约大都会博物馆举办个展"
+      },
+      {
+        "year": 2019,
+        "event": "在伦敦白教堂画廊举办回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "博物馆系列 (Museum Photographs)",
+        "year": 1989,
+        "image": null,
+        "credit": "Thomas Struth",
+        "href": "https://www.artsy.net/artist/thomas-struth"
+      },
+      {
+        "title": "天堂 (Paradise)",
+        "year": 1998,
+        "image": null,
+        "credit": "Thomas Struth",
+        "href": "https://www.artsy.net/artist/thomas-struth"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "彩色",
+      "数码"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Struth",
+      "https://www.artsy.net/artist/thomas-struth"
+    ]
+  },
+  {
+    "id": "thomas-ruff",
+    "name": "Thomas Ruff",
+    "nameZh": "托马斯·鲁夫",
+    "born": 1958,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "杜塞尔多夫学派核心成员，以巨幅护照式肖像和数码图像实验著称。",
+    "bioLong": "托马斯·鲁夫是杜塞尔多夫学派中最具实验性的成员。他的早期代表作是巨幅'肖像'系列——以护照照片的正面中性构图将普通人的面孔放大到两米高，消除了所有情感暗示，逼迫观者重新思考肖像摄影的本质。后来他转向数码实验，以互联网图像、NASA太空照片和JPEG压缩伪影为素材进行再创作，是最早系统探讨数码时代图像本体论的摄影家之一。他与施特鲁斯、古尔斯基共同构成了杜塞尔多夫学派的核心。",
+    "keyDates": [
+      {
+        "year": 1958,
+        "event": "出生于德国策尔阿姆哈默斯巴赫"
+      },
+      {
+        "year": 1981,
+        "event": "进入杜塞尔多夫艺术学院贝歇班"
+      },
+      {
+        "year": 1986,
+        "event": "开始巨幅'肖像'系列"
+      },
+      {
+        "year": 1999,
+        "event": "开始 Nudes 系列（网络图像再创作）"
+      },
+      {
+        "year": 2012,
+        "event": "在慕尼黑艺术之家举办大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "肖像 (Portraits)",
+        "year": 1986,
+        "image": null,
+        "credit": "Thomas Ruff",
+        "href": "https://www.artsy.net/artist/thomas-ruff"
+      },
+      {
+        "title": "JPEG",
+        "year": 2004,
+        "image": null,
+        "credit": "Thomas Ruff",
+        "href": "https://www.artsy.net/artist/thomas-ruff"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "数码",
+      "彩色"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Ruff",
+      "https://www.artsy.net/artist/thomas-ruff"
+    ]
+  },
+  {
+    "id": "candida-hofer",
+    "name": "Candida Höfer",
+    "nameZh": "坎迪达·霍弗",
+    "born": 1944,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "bio": "杜塞尔多夫学派成员，以大画幅拍摄图书馆、剧院等公共空间的对称构图闻名。",
+    "bioLong": "坎迪达·霍弗是杜塞尔多夫学派的重要成员，师从贝歇夫妇。她以大画幅相机系统性地拍摄世界各地的公共空间——图书馆、剧院、博物馆、宫殿——通常选择无人在场的时刻，以严谨的对称构图和自然光线呈现这些空间的建筑秩序与文化积淀。她的照片将公共空间转化为某种'知识的肖像'，每座图书馆、每间剧院都在空无一人时展现出独特的性格与庄严感。",
+    "keyDates": [
+      {
+        "year": 1944,
+        "event": "出生于德国埃伯斯瓦尔德"
+      },
+      {
+        "year": 1976,
+        "event": "进入杜塞尔多夫艺术学院贝歇班"
+      },
+      {
+        "year": 2000,
+        "event": "以'图书馆'系列获国际关注"
+      },
+      {
+        "year": 2003,
+        "event": "代表德国参加威尼斯双年展"
+      },
+      {
+        "year": 2013,
+        "event": "在汉堡火车站当代艺术馆举办回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "图书馆 (Libraries)",
+        "year": 2000,
+        "image": null,
+        "credit": "Candida Höfer",
+        "href": "https://www.artsy.net/artist/candida-hofer"
+      },
+      {
+        "title": "剧院 (Theaters)",
+        "year": 2005,
+        "image": null,
+        "credit": "Candida Höfer",
+        "href": "https://www.artsy.net/artist/candida-hofer"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "彩色",
+      "自然光"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Candida_H%C3%B6fer",
+      "https://www.artsy.net/artist/candida-hofer"
+    ]
+  },
+  {
+    "id": "paolo-roversi",
+    "name": "Paolo Roversi",
+    "nameZh": "保罗·罗韦西",
+    "born": 1947,
+    "died": null,
+    "country": "IT",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "penn"
+    ],
+    "bio": "意大利时尚摄影大师，以宝丽来8x10大画幅和朦胧诗意的光线风格独树一帜。",
+    "bioLong": "保罗·罗韦西是当代时尚摄影界最具辨识度的大师之一。自1980年代起，他坚持使用宝丽来8x10大画幅相机拍摄时尚人像，以长时间曝光、自然光线和暗调色彩创造出一种介于绘画与摄影之间的朦胧美感。他的风格与追求锐利和商业感的主流时尚摄影截然相反——模特如同从文艺复兴油画中走出的幽灵，充满神秘与诗意。他长期为Dior、Comme des Garçons等品牌拍摄，2020年拍摄了Dior春夏高定系列。",
+    "keyDates": [
+      {
+        "year": 1947,
+        "event": "出生于意大利拉韦纳"
+      },
+      {
+        "year": 1973,
+        "event": "移居巴黎，开始时尚摄影生涯"
+      },
+      {
+        "year": 1980,
+        "event": "开始使用宝丽来 8x10 相机"
+      },
+      {
+        "year": 2005,
+        "event": "出版《Studio》"
+      },
+      {
+        "year": 2020,
+        "event": "为Dior拍摄高定系列"
+      }
+    ],
+    "works": [
+      {
+        "title": "Studio",
+        "year": 2005,
+        "image": null,
+        "credit": "Paolo Roversi",
+        "href": "https://www.artsy.net/artist/paolo-roversi"
+      },
+      {
+        "title": "Nudi",
+        "year": 1999,
+        "image": null,
+        "credit": "Paolo Roversi",
+        "href": "https://www.artsy.net/artist/paolo-roversi"
+      }
+    ],
+    "techniques": [
+      "宝丽来 8x10",
+      "自然光",
+      "长时间曝光"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paolo_Roversi",
+      "https://www.artsy.net/artist/paolo-roversi"
+    ]
+  },
+  {
+    "id": "pixy-liao",
+    "name": "Pixy Liao",
+    "nameZh": "廖逸君",
+    "born": 1979,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [
+      "sherman",
+      "araki"
+    ],
+    "bio": "中国旅美摄影家，以与日本男友的亲密关系影像挑战东亚性别权力结构。",
+    "bioLong": "廖逸君是中国当代摄影中最具国际关注度的年轻艺术家之一。她的长期项目'Experimental Relationship'（实验性关系）以自己与日本男友 Moro 的亲密生活为主题，通过精心布置的摄影场景系统性地颠倒了东亚文化中的性别权力结构——让男性处于被动、柔弱、被凝视的位置。这些照片以幽默、挑衅和视觉愉悦感包裹着深层的女性主义批判，在全球当代摄影界广受好评，入选多个国际摄影节和美术馆展览。",
+    "keyDates": [
+      {
+        "year": 1979,
+        "event": "出生于上海"
+      },
+      {
+        "year": 2005,
+        "event": "赴美国孟菲斯大学学习摄影"
+      },
+      {
+        "year": 2007,
+        "event": "开始 Experimental Relationship 项目"
+      },
+      {
+        "year": 2020,
+        "event": "入选《纽约时报》'年度最佳照片'"
+      },
+      {
+        "year": 2021,
+        "event": "在上海摄影艺术中心举办个展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Experimental Relationship",
+        "year": 2007,
+        "image": null,
+        "credit": "Pixy Liao",
+        "href": "https://www.pixyliao.com/"
+      },
+      {
+        "title": "For Your Eyes Only",
+        "year": 2017,
+        "image": null,
+        "credit": "Pixy Liao",
+        "href": "https://www.pixyliao.com/"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "中画幅",
+      "数码"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pixy_Liao",
+      "https://www.pixyliao.com/"
+    ]
+  },
+  {
+    "id": "zhang-xiao",
+    "name": "Zhang Xiao",
+    "nameZh": "张晓",
+    "born": 1981,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary",
+      "street"
+    ],
+    "influencedBy": [
+      "parr",
+      "moriyama"
+    ],
+    "bio": "中国当代街头摄影家，以鲜艳闪光灯美学记录中国二三线城市的荒诞日常。",
+    "bioLong": "张晓是中国新一代街头摄影的代表人物。他最著名的系列《海岸线》以直接闪光灯和高饱和色彩拍摄中国东部沿海城市的海滩与游乐场，以荒诞、滑稽而不乏温情的视角记录了中国经济高速发展中普通人的休闲生活。他的美学深受马丁·帕尔的影响，但扎根于中国特有的城市化景观与审美趣味。2010年获三影堂摄影奖，此后在侯登科纪实摄影奖等中国重要摄影奖项中屡获认可。",
+    "keyDates": [
+      {
+        "year": 1981,
+        "event": "出生于山东烟台"
+      },
+      {
+        "year": 2007,
+        "event": "开始《海岸线》系列"
+      },
+      {
+        "year": 2010,
+        "event": "获三影堂摄影奖"
+      },
+      {
+        "year": 2014,
+        "event": "出版《海岸线》"
+      },
+      {
+        "year": 2019,
+        "event": "在连州国际摄影年展展出"
+      }
+    ],
+    "works": [
+      {
+        "title": "海岸线 (Coastline)",
+        "year": 2010,
+        "image": null,
+        "credit": "Zhang Xiao",
+        "href": "https://www.artsy.net/artist/zhang-xiao"
+      },
+      {
+        "title": "他乡 (They)",
+        "year": 2015,
+        "image": null,
+        "credit": "Zhang Xiao",
+        "href": "https://www.artsy.net/artist/zhang-xiao"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "闪光灯",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zhang_Xiao_(photographer)",
+      "https://www.artsy.net/artist/zhang-xiao"
+    ]
+  },
+  {
+    "id": "eamonn-doyle",
+    "name": "Eamonn Doyle",
+    "nameZh": "埃蒙·多伊尔",
+    "born": 1969,
+    "died": null,
+    "country": "IE",
+    "region": "europe",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "frank",
+      "william-klein"
+    ],
+    "bio": "爱尔兰街头摄影家，以都柏林三部曲重新激活了欧洲街头摄影的当代活力。",
+    "bioLong": "埃蒙·多伊尔是21世纪欧洲街头摄影的复兴者之一。他在40余岁时以'都柏林三部曲'（i、ON、End.）从音乐行业转型摄影，以大胆的构图、极近的距离和强烈的图形感拍摄都柏林街头的行人，多伊尔的风格既受威廉·克莱因的激进传统启发，又融入了当代平面设计的锐利感。马丁·帕尔称其处女作 i 为'过去十年最好的街头摄影书'。他还与音乐人合作将摄影扩展为多媒体沉浸式体验。",
+    "keyDates": [
+      {
+        "year": 1969,
+        "event": "出生于都柏林"
+      },
+      {
+        "year": 2014,
+        "event": "自出版处女作 i ，获国际关注"
+      },
+      {
+        "year": 2015,
+        "event": "出版 ON"
+      },
+      {
+        "year": 2017,
+        "event": "出版 End.，完成都柏林三部曲"
+      },
+      {
+        "year": 2018,
+        "event": "在阿尔勒摄影节展出"
+      }
+    ],
+    "works": [
+      {
+        "title": "i",
+        "year": 2014,
+        "image": null,
+        "credit": "Eamonn Doyle",
+        "href": "https://www.artsy.net/artist/eamonn-doyle"
+      },
+      {
+        "title": "End.",
+        "year": 2017,
+        "image": null,
+        "credit": "Eamonn Doyle",
+        "href": "https://www.artsy.net/artist/eamonn-doyle"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "数码",
+      "35mm"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eamonn_Doyle_(photographer)",
+      "https://www.artsy.net/artist/eamonn-doyle"
+    ]
+  },
+  {
+    "id": "nadav-kander",
+    "name": "Nadav Kander",
+    "nameZh": "纳达夫·坎德",
+    "born": 1961,
+    "died": null,
+    "country": "IL",
+    "region": "europe",
+    "movements": [
+      "new-topographics"
+    ],
+    "influencedBy": [
+      "shore"
+    ],
+    "bio": "以色列裔英国摄影家，以长江沿岸纪实和奥巴马团队肖像享誉国际。",
+    "bioLong": "纳达夫·坎德是当代最受认可的肖像与风景摄影家之一。他最著名的项目《扬子——长江》沿中国长江从入海口拍到源头，以宏大而忧郁的画面记录了中国城市化进程中消失的风景，获Prix Pictet摄影奖。他同时是顶级肖像摄影师，曾为《纽约时报杂志》拍摄奥巴马过渡团队的封面系列。他的作品融合了商业摄影的精致制作与艺术摄影的深度思考，在两个领域均居顶尖地位。",
+    "keyDates": [
+      {
+        "year": 1961,
+        "event": "出生于以色列特拉维夫"
+      },
+      {
+        "year": 2006,
+        "event": "开始拍摄长江项目"
+      },
+      {
+        "year": 2009,
+        "event": "为《纽约时报杂志》拍摄奥巴马团队"
+      },
+      {
+        "year": 2009,
+        "event": "获 Prix Pictet 摄影奖"
+      },
+      {
+        "year": 2019,
+        "event": "出版 The Meeting"
+      }
+    ],
+    "works": [
+      {
+        "title": "扬子——长江 (Yangtze — The Long River)",
+        "year": 2010,
+        "image": null,
+        "credit": "Nadav Kander",
+        "href": "https://www.nadavkander.com/"
+      },
+      {
+        "title": "Obama's People",
+        "year": 2009,
+        "image": null,
+        "credit": "Nadav Kander",
+        "href": "https://www.nadavkander.com/"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "彩色",
+      "数码"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nadav_Kander",
+      "https://www.nadavkander.com/"
+    ]
+  },
+  {
+    "id": "viviane-sassen",
+    "name": "Viviane Sassen",
+    "nameZh": "维维安·萨森",
+    "born": 1972,
+    "died": null,
+    "country": "NL",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "newton"
+    ],
+    "bio": "荷兰当代摄影家，以鲜艳色彩和抽象构图打破时尚与艺术摄影的边界。",
+    "bioLong": "维维安·萨森是当代最引人注目的荷兰摄影家之一，也是少数能在时尚和艺术摄影两个领域都居于顶尖的摄影师。她童年在肯尼亚的成长经历深刻影响了她的色彩感知和对人体的表现方式。她的作品以鲜艳的色彩、大胆的阴影和抽象的身体构图著称——人物被剪裁、叠加、隐匿在阴影中，形成介于抽象绘画与摄影之间的视觉语言。她为Miu Miu、Stella McCartney等品牌拍摄的时尚作品同样带有这种强烈的个人艺术印记。",
+    "keyDates": [
+      {
+        "year": 1972,
+        "event": "出生于荷兰阿姆斯特丹"
+      },
+      {
+        "year": 2008,
+        "event": "出版 Flamboya，以非洲为题材"
+      },
+      {
+        "year": 2013,
+        "event": "出版 Parasomnia"
+      },
+      {
+        "year": 2014,
+        "event": "入围德意志交易所摄影奖"
+      },
+      {
+        "year": 2023,
+        "event": "在阿姆斯特丹市立美术馆举办大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Parasomnia",
+        "year": 2013,
+        "image": null,
+        "credit": "Viviane Sassen",
+        "href": "https://www.vivianesassen.com/"
+      },
+      {
+        "title": "Umbra",
+        "year": 2015,
+        "image": null,
+        "credit": "Viviane Sassen",
+        "href": "https://www.vivianesassen.com/"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "闪光灯",
+      "数码"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Viviane_Sassen",
+      "https://www.vivianesassen.com/"
+    ]
+  },
+  {
+    "id": "malick-sidibe",
+    "name": "Malick Sidibé",
+    "nameZh": "马利克·西迪贝",
+    "born": 1936,
+    "died": 2016,
+    "country": "ML",
+    "region": "africa",
+    "movements": [
+      "west-african-studio"
+    ],
+    "influencedBy": [],
+    "bio": "马里摄影大师，以1960年代巴马科青年文化的欢乐影像成为非洲摄影的标志人物。",
+    "bioLong": "马利克·西迪贝是非洲摄影史上最重要的人物之一。1960年代马里独立后，他在首都巴马科的照相馆和舞会上拍摄了大量充满活力的黑白照片——年轻人在夜总会跳舞、在河边游泳、骑着Vespa摩托车兜风。这些照片不仅记录了非洲独立初期充满希望的青年文化，更以其欢快的能量和优雅的构图打破了西方对非洲的刻板印象。2007年获威尼斯双年展终身成就金狮奖，是首位获此殊荣的非洲艺术家。",
+    "keyDates": [
+      {
+        "year": 1936,
+        "event": "出生于马里索利马纳"
+      },
+      {
+        "year": 1962,
+        "event": "在巴马科开设自己的照相馆"
+      },
+      {
+        "year": 1995,
+        "event": "被国际策展人'重新发现'，开始全球展出"
+      },
+      {
+        "year": 2003,
+        "event": "获哈苏国际摄影奖"
+      },
+      {
+        "year": 2007,
+        "event": "获威尼斯双年展终身成就金狮奖"
+      },
+      {
+        "year": 2016,
+        "event": "去世于巴马科"
+      }
+    ],
+    "works": [
+      {
+        "title": "巴马科之夜 (Nuit de Noël)",
+        "year": 1963,
+        "image": null,
+        "credit": "Malick Sidibé",
+        "href": "https://www.artsy.net/artist/malick-sidibe"
+      },
+      {
+        "title": "海滩上的年轻人 (Les Jeunes à la Plage)",
+        "year": 1965,
+        "image": null,
+        "credit": "Malick Sidibé",
+        "href": "https://www.artsy.net/artist/malick-sidibe"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "中画幅",
+      "闪光灯"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Malick_Sidib%C3%A9",
+      "https://www.artsy.net/artist/malick-sidibe"
+    ]
+  },
+  {
+    "id": "liu-bolin",
+    "name": "Liu Bolin",
+    "nameZh": "刘勃麟",
+    "born": 1973,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "china-contemporary"
+    ],
+    "influencedBy": [],
+    "bio": "中国当代艺术家，以'隐形人'系列（将自己涂装融入背景）闻名全球。",
+    "bioLong": "刘勃麟是中国当代最具国际知名度的视觉艺术家之一，被称为'隐形人'。他的标志性系列'Hiding in the City'（隐于市）源于2005年北京索家村艺术区被强拆的经历——他将自己作为画布，由助手花费数小时将他的身体和面部涂成与背景完全一致的图案，然后在原地拍摄，人几乎完全'消失'在环境中。这一看似简单的创作方法承载了深层的政治寓意：个人在强大体制面前的隐匿与抵抗。他的作品在全球广泛传播并被主要美术馆收藏。",
+    "keyDates": [
+      {
+        "year": 1973,
+        "event": "出生于山东潍坊"
+      },
+      {
+        "year": 2005,
+        "event": "索家村被拆，开始'隐形人'系列"
+      },
+      {
+        "year": 2009,
+        "event": "在巴黎 Galerie Paris-Beijing 展出"
+      },
+      {
+        "year": 2013,
+        "event": "作品登上《Time》杂志封面"
+      }
+    ],
+    "works": [
+      {
+        "title": "隐于市 (Hiding in the City)",
+        "year": 2005,
+        "image": null,
+        "credit": "Liu Bolin",
+        "href": "https://www.artsy.net/artist/liu-bolin"
+      },
+      {
+        "title": "隐形人在超市",
+        "year": 2011,
+        "image": null,
+        "credit": "Liu Bolin",
+        "href": "https://www.artsy.net/artist/liu-bolin"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "行为摄影",
+      "人体彩绘"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Liu_Bolin",
+      "https://www.artsy.net/artist/liu-bolin"
+    ]
+  },
+  {
+    "id": "apichatpong-weerasethakul-photo",
+    "name": "Apichatpong Weerasethakul",
+    "nameZh": "阿彼察邦·韦拉斯哈古",
+    "born": 1970,
+    "died": null,
+    "country": "TH",
+    "region": "asia",
+    "movements": [],
+    "influencedBy": [],
+    "bio": "泰国导演与视觉艺术家，以静态影像和光线装置在摄影与电影之间开辟独特领域。",
+    "bioLong": "阿彼察邦·韦拉斯哈古虽以电影闻名（2010年凭《能召回前世的布米叔叔》获戛纳金棕榈奖），但他同时也是重要的摄影和影像装置艺术家。他的静态摄影延续了电影中对光线、记忆和热带景观的迷恋，以极为缓慢的节奏和梦境般的氛围捕捉泰国乡村的超自然日常。他的摄影装置作品在全球主要美术馆展出，模糊了电影、摄影和装置之间的边界，代表了东南亚当代视觉艺术的最高成就之一。",
+    "keyDates": [
+      {
+        "year": 1970,
+        "event": "出生于泰国曼谷"
+      },
+      {
+        "year": 2004,
+        "event": "开始系统性地创作摄影和影像装置"
+      },
+      {
+        "year": 2010,
+        "event": "凭《布米叔叔》获戛纳金棕榈奖"
+      },
+      {
+        "year": 2016,
+        "event": "在伦敦泰特现代美术馆举办影像装置展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Fireworks (Archives)",
+        "year": 2014,
+        "image": null,
+        "credit": "Apichatpong Weerasethakul",
+        "href": "https://www.artsy.net/artist/apichatpong-weerasethakul"
+      },
+      {
+        "title": "Phantoms of Nabua",
+        "year": 2009,
+        "image": null,
+        "credit": "Apichatpong Weerasethakul",
+        "href": "https://www.artsy.net/artist/apichatpong-weerasethakul"
+      }
+    ],
+    "techniques": [
+      "彩色",
+      "影像装置",
+      "长时间曝光"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Apichatpong_Weerasethakul",
+      "https://www.artsy.net/artist/apichatpong-weerasethakul"
+    ]
+  },
+  {
+    "id": "chen-man",
+    "name": "Chen Man",
+    "nameZh": "陈漫",
+    "born": 1980,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "movements": [
+      "fashion",
+      "china-contemporary"
+    ],
+    "influencedBy": [
+      "avedon",
+      "newton"
+    ],
+    "bio": "中国时尚摄影领军人物，以融合中国传统美学与数码后期的视觉风格著称。",
+    "bioLong": "陈漫是中国时尚摄影的领军人物，也是第一位真正在国际时尚界获得广泛认可的中国摄影师。她以融合中国传统美学元素（水墨、书法、戏曲）与先进数码后期技术的独特视觉风格著称，为《Vogue》中国版、《i-D》等国际时尚杂志拍摄了大量标志性封面。她的作品既有商业时尚摄影的精致，又带有鲜明的中国文化身份，代表了全球化时代中国视觉创意产业的崛起。",
+    "keyDates": [
+      {
+        "year": 1980,
+        "event": "出生于北京"
+      },
+      {
+        "year": 2003,
+        "event": "从中央美术学院毕业"
+      },
+      {
+        "year": 2008,
+        "event": "为《Vogue》中国版拍摄封面系列"
+      },
+      {
+        "year": 2012,
+        "event": "成为首位拍摄《i-D》杂志封面的中国摄影师"
+      },
+      {
+        "year": 2019,
+        "event": "在巴黎举办个展"
+      }
+    ],
+    "works": [
+      {
+        "title": "中国十二色 (Chinese Zodiac)",
+        "year": 2011,
+        "image": null,
+        "credit": "Chen Man",
+        "href": "https://www.artsy.net/artist/chen-man"
+      },
+      {
+        "title": "Vogue China Covers",
+        "year": 2008,
+        "image": null,
+        "credit": "Chen Man",
+        "href": "https://www.artsy.net/artist/chen-man"
+      }
+    ],
+    "techniques": [
+      "数码",
+      "数码后期",
+      "中画幅"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chen_Man",
+      "https://www.artsy.net/artist/chen-man"
+    ]
+  },
+  {
+    "id": "nick-knight",
+    "name": "Nick Knight",
+    "nameZh": "尼克·奈特",
+    "born": 1958,
+    "died": null,
+    "country": "GB",
+    "region": "europe",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "penn",
+      "newton"
+    ],
+    "bio": "英国时尚摄影家和影像导演，SHOWstudio创始人，数码时尚影像的先驱。",
+    "bioLong": "尼克·奈特是当代时尚摄影和影像中最具前瞻性的人物之一。他长期与Alexander McQueen、川久保玲等先锋设计师合作，以大胆的数码处理和实验性手法挑战时尚摄影的视觉边界。2000年他创立的SHOWstudio是全球首个以动态影像直播时装秀的平台，预见了时尚传播的数码化转向。他的作品涵盖摄影、影像、3D扫描和AI生成图像，始终处于时尚与技术交叉点的最前沿。",
+    "keyDates": [
+      {
+        "year": 1958,
+        "event": "出生于伦敦"
+      },
+      {
+        "year": 1982,
+        "event": "为《i-D》杂志拍摄首组时尚照片"
+      },
+      {
+        "year": 1993,
+        "event": "为Alexander McQueen拍摄标志性图像"
+      },
+      {
+        "year": 2000,
+        "event": "创立SHOWstudio数码平台"
+      },
+      {
+        "year": 2019,
+        "event": "在伦敦V&A博物馆展出"
+      }
+    ],
+    "works": [
+      {
+        "title": "Flora",
+        "year": 2012,
+        "image": null,
+        "credit": "Nick Knight",
+        "href": "https://www.showstudio.com/"
+      },
+      {
+        "title": "Roses from My Garden",
+        "year": 2015,
+        "image": null,
+        "credit": "Nick Knight",
+        "href": "https://www.showstudio.com/"
+      }
+    ],
+    "techniques": [
+      "数码",
+      "数码后期",
+      "影像"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Nick_Knight_(photographer)",
+      "https://www.showstudio.com/"
+    ]
+  },
+  {
+    "id": "lee-friedlander",
+    "name": "Lee Friedlander",
+    "nameZh": "李·弗里德兰德",
+    "born": 1934,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "atget",
+      "evans"
+    ],
+    "bio": "美国街头摄影大师，以复杂的多层构图和自拍影子系列定义了战后美国社会风景。",
+    "bioLong": "李·弗里德兰德是美国战后最重要的街头摄影家之一。他以极为复杂的多层构图——通过橱窗反射、电视屏幕、车窗、电话线和标识牌的叠加——创造出一种密集而幽默的视觉语言，精准地捕捉了战后美国城市景观的混乱活力。他的标志性'自拍'系列将自己的影子或反射植入街景中，是最早系统性探索摄影师在场性的实践之一。1967年与阿巴斯和温诺格兰德共同参加MoMA'新纪实'展览，奠定了他的历史地位。",
+    "keyDates": [
+      {
+        "year": 1934,
+        "event": "出生于华盛顿州阿伯丁"
+      },
+      {
+        "year": 1963,
+        "event": "开始'自拍'(Self Portrait)系列"
+      },
+      {
+        "year": 1967,
+        "event": "参加MoMA'新纪实'展览"
+      },
+      {
+        "year": 2005,
+        "event": "获哈苏国际摄影奖"
+      },
+      {
+        "year": 2017,
+        "event": "在耶鲁大学美术馆举办回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "自拍 (Self Portrait)",
+        "year": 1970,
+        "image": null,
+        "credit": "Lee Friedlander",
+        "href": "https://www.moma.org/artists/2049"
+      },
+      {
+        "title": "American Monument",
+        "year": 1976,
+        "image": null,
+        "credit": "Lee Friedlander",
+        "href": "https://www.moma.org/artists/2049"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "Leica"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lee_Friedlander",
+      "https://www.moma.org/artists/2049"
+    ]
+  },
+  {
+    "id": "garry-winogrand",
+    "name": "Garry Winogrand",
+    "nameZh": "加里·温诺格兰德",
+    "born": 1928,
+    "died": 1984,
+    "country": "US",
+    "region": "north-america",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "frank",
+      "evans"
+    ],
+    "bio": "美国街头摄影大师，以倾斜构图和惊人的产量捕捉了1960-70年代美国的躁动能量。",
+    "bioLong": "加里·温诺格兰德是美国街头摄影最狂热的实践者。他以Leica相机在纽约街头近乎疯狂地拍摄，一生估计拍下了超过一百万张照片——去世时留下了约2500卷未冲洗的胶卷和约6500卷未编辑的已冲洗胶卷。他的照片以标志性的倾斜构图和精准的时机捕捉了1960至70年代美国社会的躁动能量——反战游行、民权运动、女性解放、城市生活的荒诞与活力。他与弗里德兰德、阿巴斯并列为美国'新纪实'摄影的三巨头。",
+    "keyDates": [
+      {
+        "year": 1928,
+        "event": "出生于纽约布朗克斯"
+      },
+      {
+        "year": 1964,
+        "event": "获古根海姆奖金"
+      },
+      {
+        "year": 1967,
+        "event": "参加MoMA'新纪实'展览"
+      },
+      {
+        "year": 1969,
+        "event": "出版 The Animals"
+      },
+      {
+        "year": 1984,
+        "event": "去世于墨西哥蒂华纳，留下大量未处理底片"
+      }
+    ],
+    "works": [
+      {
+        "title": "The Animals",
+        "year": 1969,
+        "image": null,
+        "credit": "Garry Winogrand",
+        "href": "https://www.moma.org/artists/6399"
+      },
+      {
+        "title": "Women Are Beautiful",
+        "year": 1975,
+        "image": null,
+        "credit": "Garry Winogrand",
+        "href": "https://www.moma.org/artists/6399"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "Leica"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Garry_Winogrand",
+      "https://www.moma.org/artists/6399"
+    ]
+  },
+  {
+    "id": "fan-ho",
+    "name": "Fan Ho",
+    "nameZh": "何藩",
+    "born": 1931,
+    "died": 2016,
+    "country": "HK",
+    "region": "asia",
+    "movements": [
+      "street"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "bio": "香港摄影大师与电影导演，以1950-60年代香港街头的光影诗意闻名于世。",
+    "bioLong": "何藩是20世纪亚洲最杰出的街头摄影家之一。他在1950至1960年代以极为敏锐的光影感知拍摄了大量香港街头影像——小巷中的光束、码头的剪影、市场的烟雾——将日常的香港城市生活提升为具有古典绘画质感的视觉诗篇。他的构图兼具几何精度与东方意境，被国际摄影界称为'东方的布列松'。同时他也是多产的电影导演。近年来随着其作品在社交媒体上重新流传，他获得了全球性的重新评价与广泛关注。",
+    "keyDates": [
+      {
+        "year": 1931,
+        "event": "出生于上海"
+      },
+      {
+        "year": 1949,
+        "event": "移居香港，开始街头摄影"
+      },
+      {
+        "year": 1958,
+        "event": "连续十年获国际摄影沙龙奖项"
+      },
+      {
+        "year": 2006,
+        "event": "出版《昔日香港》(Hong Kong Yesterday)"
+      },
+      {
+        "year": 2016,
+        "event": "去世于加利福尼亚州圣何塞"
+      }
+    ],
+    "works": [
+      {
+        "title": "日暮途远 (Approaching Shadow)",
+        "year": 1954,
+        "image": null,
+        "credit": "Fan Ho",
+        "href": "https://www.fanho-forgetmenot.com/"
+      },
+      {
+        "title": "昔日香港 (Hong Kong Yesterday)",
+        "year": 2006,
+        "image": null,
+        "credit": "Fan Ho",
+        "href": "https://www.fanho-forgetmenot.com/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "Rolleiflex"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Fan_Ho",
+      "https://www.fanho-forgetmenot.com/"
+    ]
+  },
+  {
+    "id": "marc-riboud",
+    "name": "Marc Riboud",
+    "nameZh": "马克·吕布",
+    "born": 1923,
+    "died": 2016,
+    "country": "FR",
+    "region": "europe",
+    "movements": [
+      "magnum",
+      "humanist"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "capa"
+    ],
+    "bio": "法国马格南摄影师，以长期拍摄中国和越南闻名，是最早进入新中国的西方摄影师之一。",
+    "bioLong": "马克·吕布是法国人文主义摄影传统的重要代表，马格南图片社核心成员。他最著名的单张照片是1967年越战中一位年轻女性以花朵面对枪口的《枪与花》。但他最持久的贡献是对中国的长期记录——从1957年首次访华到2010年代，他跨越半个世纪多次深入中国，从毛泽东时代到改革开放，留下了最完整的西方摄影师视角中的中国变迁影像档案。他的镜头温暖而不感伤，始终保持着对东方文化的深切尊重与好奇。",
+    "keyDates": [
+      {
+        "year": 1923,
+        "event": "出生于法国里昂"
+      },
+      {
+        "year": 1953,
+        "event": "加入马格南图片社"
+      },
+      {
+        "year": 1957,
+        "event": "首次访问中国，拍摄新中国初期"
+      },
+      {
+        "year": 1967,
+        "event": "拍摄标志性的《枪与花》"
+      },
+      {
+        "year": 2016,
+        "event": "去世于巴黎"
+      }
+    ],
+    "works": [
+      {
+        "title": "枪与花 (La Jeune Fille à la Fleur)",
+        "year": 1967,
+        "image": null,
+        "credit": "Marc Riboud / Magnum",
+        "href": "https://www.magnumphotos.com/photographer/marc-riboud/"
+      },
+      {
+        "title": "在中国 (Visions of China)",
+        "year": 1996,
+        "image": null,
+        "credit": "Marc Riboud / Magnum",
+        "href": "https://www.magnumphotos.com/photographer/marc-riboud/"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "35mm",
+      "Leica"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marc_Riboud",
+      "https://www.magnumphotos.com/photographer/marc-riboud/"
     ]
   }
 ]
