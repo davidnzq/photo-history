@@ -4796,5 +4796,550 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Rinko_Kawauchi"
     ]
+  },
+  {
+    "id": "testino",
+    "name": "Mario Testino",
+    "nameZh": "马里奥·特斯蒂诺",
+    "born": 1954,
+    "died": null,
+    "country": "PE",
+    "region": "americas",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "newton",
+      "avedon",
+      "penn"
+    ],
+    "bio": "秘鲁裔时尚摄影师,以为 Vogue、Vanity Fair 拍摄名人肖像与高端时装大片闻名,戴安娜王妃标志性肖像出自其手。",
+    "bioLong": "1954 年生于秘鲁利马,1976 年移居伦敦,从零起步在时尚界闯荡。80 年代初为英国版 Vogue 拍摄第一组大片后逐渐崭露头角,90 年代成为全球最炙手可热的时尚摄影师之一。1997 年为戴安娜王妃拍摄的 Vanity Fair 封面肖像成为其最具标志性的作品——那组照片中的戴安娜放松自然,被公认为王妃最动人的影像。Testino 的风格融合拉丁美洲的色彩活力与欧洲高级时装的精致,擅长捕捉模特与名人最自然放松的一面。他长期为 Gucci、Burberry、Versace 等品牌拍摄广告,与 Gisele Bündchen、Kate Moss 等超模的合作定义了千禧年前后的时尚影像语言。2012 年在利马创办 MATE 博物馆,致力于将拉美当代艺术与摄影带入国际视野。",
+    "keyDates": [
+      {
+        "year": 1976,
+        "event": "从秘鲁移居伦敦,开始摄影生涯"
+      },
+      {
+        "year": 1997,
+        "event": "为戴安娜王妃拍摄 Vanity Fair 封面肖像"
+      },
+      {
+        "year": 1999,
+        "event": "拍摄 Gucci 'Tom Ford 时代'标志性广告"
+      },
+      {
+        "year": 2002,
+        "event": "在伦敦国家肖像画廊举办个展 'Portraits'"
+      },
+      {
+        "year": 2012,
+        "event": "在利马创办 MATE 博物馆"
+      }
+    ],
+    "works": [
+      {
+        "title": "Diana, Princess of Wales — Vanity Fair",
+        "year": 1997,
+        "image": null,
+        "credit": "© Mario Testino",
+        "href": "https://www.vanityfair.com/news/photos/2017/08/princess-diana-mario-testino-photos"
+      },
+      {
+        "title": "Kate Moss — Vogue Italia",
+        "year": 2006,
+        "image": null,
+        "credit": "© Mario Testino / Vogue Italia",
+        "href": "https://www.mariotestino.com"
+      },
+      {
+        "title": "Cuzco — Alta Moda series",
+        "year": 2007,
+        "image": null,
+        "credit": "© Mario Testino / MATE",
+        "href": "https://www.mate.pe"
+      }
+    ],
+    "techniques": [
+      "自然光",
+      "彩色",
+      "时尚大片",
+      "名人肖像"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mario_Testino",
+      "https://www.mariotestino.com",
+      "https://www.mate.pe"
+    ]
+  },
+  {
+    "id": "leibovitz",
+    "name": "Annie Leibovitz",
+    "nameZh": "安妮·莱博维茨",
+    "born": 1949,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "fashion"
+    ],
+    "influencedBy": [
+      "avedon",
+      "arbus"
+    ],
+    "bio": "美国最具辨识度的肖像摄影师,Rolling Stone 与 Vanity Fair 的标志性视觉缔造者,以戏剧性布光与叙事性场景构建著称。",
+    "bioLong": "1949 年生于康涅狄格州,1970 年加入《Rolling Stone》杂志,迅速成为首席摄影师。1980 年 12 月 8 日拍下约翰·列侬与小野洋子蜷缩拥抱的照片——几小时后列侬遇刺,这张照片成为《Rolling Stone》史上最著名的封面。1983 年转入《Vanity Fair》后,她将名人肖像从简单的'抓拍'推向精心编排的戏剧场景:裸身彩绘的 Demi Moore 孕照(1991)、扮为爱丽丝的 Keira Knightley 系列、白宫中的奥巴马家族——每一张都是文化事件。她的布光继承 Avedon 的大画幅精准,但加入了电影级的色彩与叙事层次。2006 年法国政府授予她艺术与文学勋章;她是在世时即在史密森尼举办个展的极少数摄影师之一。",
+    "keyDates": [
+      {
+        "year": 1970,
+        "event": "加入 Rolling Stone 杂志"
+      },
+      {
+        "year": 1980,
+        "event": "拍摄约翰·列侬与小野洋子的最后肖像"
+      },
+      {
+        "year": 1983,
+        "event": "加入 Vanity Fair 杂志"
+      },
+      {
+        "year": 1991,
+        "event": "拍摄 Demi Moore 孕照封面,引发文化震动"
+      },
+      {
+        "year": 2006,
+        "event": "获法国艺术与文学勋章;Smithsonian 个展"
+      },
+      {
+        "year": 2022,
+        "event": "Hauser & Wirth 画廊代理,进入纯艺术市场"
+      }
+    ],
+    "works": [
+      {
+        "title": "John Lennon and Yoko Ono",
+        "year": 1980,
+        "image": null,
+        "credit": "© Annie Leibovitz / Rolling Stone",
+        "href": "https://www.rollingstone.com/feature/annie-leibovitz-john-lennon-yoko-ono-cover-story-249663/"
+      },
+      {
+        "title": "Demi Moore — More Demi Moore (Vanity Fair)",
+        "year": 1991,
+        "image": null,
+        "credit": "© Annie Leibovitz / Vanity Fair",
+        "href": "https://www.vanityfair.com/magazine/1991/08"
+      },
+      {
+        "title": "Queen Elizabeth II",
+        "year": 2007,
+        "image": null,
+        "credit": "© Annie Leibovitz",
+        "href": "https://www.npg.org.uk/collections/search/portrait/mw152792/Queen-Elizabeth-II"
+      }
+    ],
+    "techniques": [
+      "大画幅",
+      "戏剧性布光",
+      "场景构建",
+      "名人肖像"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Annie_Leibovitz",
+      "https://www.smithsonianmag.com/arts-culture/annie-leibovitz-at-work-136439853/",
+      "https://www.npg.org.uk/collections/search/person/mp55143/annie-leibovitz"
+    ]
+  },
+  {
+    "id": "parr",
+    "name": "Martin Parr",
+    "nameZh": "马丁·帕尔",
+    "born": 1952,
+    "died": null,
+    "country": "GB",
+    "region": "europe",
+    "movements": [
+      "magnum",
+      "new-color",
+      "street"
+    ],
+    "influencedBy": [
+      "eggleston",
+      "shore",
+      "cartier-bresson"
+    ],
+    "bio": "英国纪实摄影师,Magnum 成员,以饱和闪光灯彩色近距离拍摄消费主义与大众休闲文化闻名,幽默而尖锐。",
+    "bioLong": "1952 年生于英国萨里,祖父是业余摄影爱好者,自幼耳濡目染。70 年代在曼彻斯特理工学院学习摄影后,起初以黑白拍摄英格兰北部工人阶级社区。1986 年出版《The Last Resort》——用环形闪光灯和高饱和度彩色胶片拍摄新布赖顿海滨度假地的英国游客,画面中堆满垃圾、被晒伤的皮肤和廉价消费品,引发巨大争议,也确立了他'消费主义人类学家'的标签。1994 年加入 Magnum 图片社(投票过程本身就充满争议,传统纪实派认为他太讽刺)。此后数十年,他将相同的'微距闪光灯+饱和色+近距离'方法论带到全球:日本超市、美国枪展、中国旅游景点——《Common Sense》(1999)、《Luxury》(2009)持续解剖消费社会。他也是摄影书收藏界的核心人物,个人藏书逾一万册。",
+    "keyDates": [
+      {
+        "year": 1986,
+        "event": "出版《The Last Resort》,引发英国摄影界争议"
+      },
+      {
+        "year": 1994,
+        "event": "加入 Magnum 图片社"
+      },
+      {
+        "year": 1999,
+        "event": "出版《Common Sense》,全球巡展"
+      },
+      {
+        "year": 2013,
+        "event": "在巴黎欧洲摄影之家举办回顾展"
+      },
+      {
+        "year": 2017,
+        "event": "当选 Magnum 图片社主席"
+      },
+      {
+        "year": 2019,
+        "event": "伦敦国家肖像画廊 'Only Human' 展"
+      }
+    ],
+    "works": [
+      {
+        "title": "New Brighton, Merseyside (The Last Resort)",
+        "year": 1986,
+        "image": null,
+        "credit": "© Martin Parr / Magnum Photos",
+        "href": "https://www.magnumphotos.com/photographer/martin-parr/"
+      },
+      {
+        "title": "Common Sense — Tokyo",
+        "year": 1999,
+        "image": null,
+        "credit": "© Martin Parr / Magnum Photos",
+        "href": "https://www.magnumphotos.com/photographer/martin-parr/"
+      },
+      {
+        "title": "Luxury — Moscow",
+        "year": 2009,
+        "image": null,
+        "credit": "© Martin Parr / Magnum Photos",
+        "href": "https://www.magnumphotos.com/photographer/martin-parr/"
+      }
+    ],
+    "techniques": [
+      "环形闪光灯",
+      "微距",
+      "高饱和彩色",
+      "近距离纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Martin_Parr",
+      "https://www.magnumphotos.com/photographer/martin-parr/",
+      "https://www.martinparr.com"
+    ]
+  },
+  {
+    "id": "sally-mann",
+    "name": "Sally Mann",
+    "nameZh": "萨莉·曼",
+    "born": 1951,
+    "died": null,
+    "country": "US",
+    "region": "americas",
+    "movements": [
+      "straight"
+    ],
+    "influencedBy": [
+      "e-weston",
+      "a-adams"
+    ],
+    "bio": "美国南方摄影师,以大画幅湿版相机拍摄家庭亲密肖像与南方风景闻名,作品在美与争议之间探索死亡、记忆与土地。",
+    "bioLong": "1951 年生于弗吉尼亚州列克星敦,至今仍在该地生活和工作。1988 年出版《At Twelve: Portraits of Young Women》引起关注;1992 年《Immediate Family》以她三个孩子的裸体与半裸肖像震动美国艺术界——这些用 8×10 大画幅相机拍摄的照片构图精美如文艺复兴绘画,却因涉及儿童裸体引发激烈的审查与辩护论战,至今仍是艺术自由与儿童隐私之间最著名的案例之一。90 年代后期她转向弗吉尼亚南方风景,使用 19 世纪湿版火棉胶工艺拍摄内战战场遗址(《Deep South》、《Battlefields》),影像模糊、渗透、腐蚀,仿佛土地本身在渗出历史记忆。2003 年《What Remains》系列直面死亡:腐烂的猎犬尸体、FBI 法医人体农场、自己的面孔老化——用无情的注视拓宽了摄影对死亡议题的表达边界。2015 年出版回忆录《Hold Still》入围美国国家图书奖。",
+    "keyDates": [
+      {
+        "year": 1988,
+        "event": "出版《At Twelve: Portraits of Young Women》"
+      },
+      {
+        "year": 1992,
+        "event": "《Immediate Family》出版,引发全美争议"
+      },
+      {
+        "year": 1998,
+        "event": "开始用湿版火棉胶工艺拍摄南方风景"
+      },
+      {
+        "year": 2003,
+        "event": "《What Remains》系列完成"
+      },
+      {
+        "year": 2006,
+        "event": "被《时代》杂志评为'美国最佳摄影师'"
+      },
+      {
+        "year": 2015,
+        "event": "回忆录《Hold Still》入围国家图书奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Emmett, Jessie and Virginia",
+        "year": 1990,
+        "image": null,
+        "credit": "© Sally Mann / Gagosian Gallery",
+        "href": "https://gagosian.com/artists/sally-mann/"
+      },
+      {
+        "title": "Deep South — Untitled (Bridge)",
+        "year": 1998,
+        "image": null,
+        "credit": "© Sally Mann / Gagosian Gallery",
+        "href": "https://gagosian.com/artists/sally-mann/"
+      },
+      {
+        "title": "What Remains — Untitled #11",
+        "year": 2003,
+        "image": null,
+        "credit": "© Sally Mann / Gagosian Gallery",
+        "href": "https://gagosian.com/artists/sally-mann/"
+      }
+    ],
+    "techniques": [
+      "8×10 大画幅",
+      "湿版火棉胶",
+      "黑白",
+      "南方风景"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sally_Mann",
+      "https://gagosian.com/artists/sally-mann/",
+      "https://www.moma.org/artists/27527"
+    ]
+  },
+  {
+    "id": "dijkstra",
+    "name": "Rineke Dijkstra",
+    "nameZh": "里内克·迪克斯特拉",
+    "born": 1959,
+    "died": null,
+    "country": "NL",
+    "region": "europe",
+    "movements": [
+      "dusseldorf"
+    ],
+    "influencedBy": [
+      "becher",
+      "sander"
+    ],
+    "bio": "荷兰肖像摄影师,以海滩青少年系列和类型学式正面肖像闻名,在极简背景中捕捉人物从青涩到自我意识觉醒的过渡瞬间。",
+    "bioLong": "1959 年生于荷兰锡塔德,在阿姆斯特丹 Gerrit Rietveld 学院学习摄影。1992 年一场手术后的自拍启发她开始拍摄'脆弱状态下的人':同年夏天在比利时和荷兰海滩拍摄刚从海中上岸的青少年——湿漉漉的泳装、笨拙的姿态、直视镜头的眼神——这组《Beach Portraits》成为 90 年代最重要的肖像系列之一。她的方法继承了 August Sander 的正面类型学传统和 Becher 学派对系列化的执念,但注入了深刻的心理层次:每张照片都是一个人在镜头前从不自在到接受注视的过程。后续系列包括以色列新兵入伍前后对比(《Israeli Soldiers》)、利物浦夜店青少年(《The Buzz Club》)、产后数小时内的新生儿母亲(《Mothers》)。2012 年纽约古根海姆博物馆和旧金山现代艺术博物馆联合举办大型回顾展,确立了她作为当代最重要肖像摄影师之一的地位。",
+    "keyDates": [
+      {
+        "year": 1992,
+        "event": "开始拍摄《Beach Portraits》海滩青少年系列"
+      },
+      {
+        "year": 1994,
+        "event": "在 MoMA 首次群展亮相"
+      },
+      {
+        "year": 1997,
+        "event": "拍摄《The Buzz Club》利物浦夜店系列"
+      },
+      {
+        "year": 2000,
+        "event": "开始《Israeli Soldiers》以色列新兵系列"
+      },
+      {
+        "year": 2012,
+        "event": "纽约古根海姆 + SFMOMA 大型回顾展"
+      },
+      {
+        "year": 2017,
+        "event": "获哈苏基金会国际摄影奖"
+      }
+    ],
+    "works": [
+      {
+        "title": "Hilton Head Island, S.C., USA, June 24, 1992",
+        "year": 1992,
+        "image": null,
+        "credit": "© Rineke Dijkstra / Marian Goodman Gallery",
+        "href": "https://www.mariangoodman.com/artists/47-rineke-dijkstra/"
+      },
+      {
+        "title": "The Buzz Club, Liverpool, England",
+        "year": 1997,
+        "image": null,
+        "credit": "© Rineke Dijkstra / Marian Goodman Gallery",
+        "href": "https://www.mariangoodman.com/artists/47-rineke-dijkstra/"
+      },
+      {
+        "title": "Mothers — Julie, Den Haag, February 29, 1994",
+        "year": 1994,
+        "image": null,
+        "credit": "© Rineke Dijkstra / Marian Goodman Gallery",
+        "href": "https://www.guggenheim.org/artwork/artist/rineke-dijkstra"
+      }
+    ],
+    "techniques": [
+      "大画幅 4×5",
+      "自然光",
+      "正面肖像",
+      "类型学系列"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rineke_Dijkstra",
+      "https://www.mariangoodman.com/artists/47-rineke-dijkstra/",
+      "https://www.guggenheim.org/artwork/artist/rineke-dijkstra"
+    ]
+  },
+  {
+    "id": "pieter-hugo",
+    "name": "Pieter Hugo",
+    "nameZh": "彼得·雨果",
+    "born": 1976,
+    "died": null,
+    "country": "ZA",
+    "region": "africa",
+    "movements": [
+      "humanist"
+    ],
+    "influencedBy": [
+      "salgado",
+      "goldin"
+    ],
+    "bio": "南非纪实与肖像摄影师,以《鬣狗与人》系列震动国际摄影界,作品聚焦非洲社会的复杂性与人的尊严。",
+    "bioLong": "1976 年生于南非约翰内斯堡,在开普敦成长。他没有接受正式摄影教育,完全自学成才。2005 年在尼日利亚拍摄的《The Hyena & Other Men》系列让他一举成名——一群在拉各斯街头以鬣狗、蟒蛇和狒狒表演的流浪艺人,画面中人与猛兽的亲密共处颠覆了西方对'非洲'的刻板想象。此后他持续深入非洲社会的褶皱:《Nollywood》(2009)记录尼日利亚电影工业的底层演员与超现实布景;《Permanent Error》(2010)拍摄加纳阿格博格布洛谢电子垃圾场中的拾荒者,浓烟与毒物中的人体如末日寓言。他的肖像风格受 Sander 和 Avedon 正面传统影响,但画面中的张力来自非洲当代现实本身的荒诞与尊严并存。2011 年后定居开普敦,开始拍摄南非种族隔离后遗症下的家庭与社区肖像。",
+    "keyDates": [
+      {
+        "year": 2005,
+        "event": "拍摄《The Hyena & Other Men》,在 Michael Stevenson 画廊首展"
+      },
+      {
+        "year": 2008,
+        "event": "作品进入 V&A 博物馆与 J. Paul Getty 博物馆收藏"
+      },
+      {
+        "year": 2009,
+        "event": "出版《Nollywood》,记录尼日利亚电影产业"
+      },
+      {
+        "year": 2010,
+        "event": "《Permanent Error》加纳电子垃圾场系列"
+      },
+      {
+        "year": 2016,
+        "event": "出版《Kin》,聚焦南非种族隔离后家庭肖像"
+      },
+      {
+        "year": 2020,
+        "event": "阿姆斯特丹 Huis Marseille 大型回顾展"
+      }
+    ],
+    "works": [
+      {
+        "title": "Mallam Mantari Lamal with Mainasara, Abuja, Nigeria (The Hyena & Other Men)",
+        "year": 2005,
+        "image": null,
+        "credit": "© Pieter Hugo / Stevenson Gallery",
+        "href": "https://www.stevenson.info/artist/pieter-hugo"
+      },
+      {
+        "title": "Permanent Error — Agbogbloshie Market, Accra",
+        "year": 2010,
+        "image": null,
+        "credit": "© Pieter Hugo / Stevenson Gallery",
+        "href": "https://www.stevenson.info/artist/pieter-hugo"
+      },
+      {
+        "title": "Kin — Portrait #6, Cape Town",
+        "year": 2013,
+        "image": null,
+        "credit": "© Pieter Hugo / Stevenson Gallery",
+        "href": "https://www.stevenson.info/artist/pieter-hugo"
+      }
+    ],
+    "techniques": [
+      "中画幅",
+      "自然光",
+      "正面肖像",
+      "环境纪实"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Pieter_Hugo",
+      "https://www.stevenson.info/artist/pieter-hugo",
+      "https://www.getty.edu/art/collection/person/106HMZ"
+    ]
+  },
+  {
+    "id": "muholi",
+    "name": "Zanele Muholi",
+    "nameZh": "扎内莱·穆霍利",
+    "born": 1972,
+    "died": null,
+    "country": "ZA",
+    "region": "africa",
+    "movements": [],
+    "influencedBy": [
+      "mapplethorpe",
+      "sherman"
+    ],
+    "bio": "南非视觉行动主义者,以《面孔与阶段》记录黑人 LGBTQ+ 群体,以《Somnyama Ngonyama》自拍系列挑战种族与性别的视觉再现。",
+    "bioLong": "1972 年生于南非德班,自称'视觉行动主义者'而非艺术家。2004 年开始拍摄《Faces and Phases》——持续二十年的黑白正面肖像项目,记录了超过 500 位南非黑人女同性恋、跨性别者与非二元性别者的面孔,每张都是对仇恨犯罪与社会隐形的无声抵抗。2012 年开始的《Somnyama Ngonyama》(祖鲁语'万岁,黑色雄狮')系列中,Muholi 用高对比度黑白自拍,用日常物品——钢丝球、轮胎、橡胶手套——装饰自己的身体与头部,同时通过极暗曝光让黑色肌肤呈现雕塑般的质感,挑战白人主导的审美体系对黑色身体的再现方式。作品被 Tate Modern、纽约古根海姆、阿姆斯特丹市立博物馆等全球主要机构收藏。2019 年获 ICP Infinity Award,同年在 Tate Modern 举办大型个展。",
+    "keyDates": [
+      {
+        "year": 2004,
+        "event": "开始《Faces and Phases》黑人 LGBTQ+ 肖像项目"
+      },
+      {
+        "year": 2009,
+        "event": "首次在南非约堡艺术博览会引起国际关注"
+      },
+      {
+        "year": 2012,
+        "event": "开始《Somnyama Ngonyama》高对比度自拍系列"
+      },
+      {
+        "year": 2017,
+        "event": "documenta 14 参展"
+      },
+      {
+        "year": 2019,
+        "event": "获 ICP Infinity Award;Tate Modern 大型个展"
+      },
+      {
+        "year": 2022,
+        "event": "威尼斯双年展南非国家馆代表"
+      }
+    ],
+    "works": [
+      {
+        "title": "Bester I, Mayotte (Somnyama Ngonyama)",
+        "year": 2015,
+        "image": null,
+        "credit": "© Zanele Muholi / Stevenson Gallery",
+        "href": "https://www.stevenson.info/artist/zanele-muholi"
+      },
+      {
+        "title": "Faces and Phases — Busi Sigasa, Braamfontein",
+        "year": 2006,
+        "image": null,
+        "credit": "© Zanele Muholi",
+        "href": "https://www.tate.org.uk/art/artists/zanele-muholi-18591"
+      },
+      {
+        "title": "Ntozakhe II, Parktown (Somnyama Ngonyama)",
+        "year": 2016,
+        "image": null,
+        "credit": "© Zanele Muholi / Stevenson Gallery",
+        "href": "https://www.stevenson.info/artist/zanele-muholi"
+      }
+    ],
+    "techniques": [
+      "黑白",
+      "高对比度",
+      "正面肖像",
+      "自拍",
+      "视觉行动主义"
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zanele_Muholi",
+      "https://www.stevenson.info/artist/zanele-muholi",
+      "https://www.tate.org.uk/art/artists/zanele-muholi-18591"
+    ]
   }
 ]

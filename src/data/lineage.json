@@ -95,6 +95,22 @@
                                       "label": "Newton",
                                       "year": 1976,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/testino",
+                                      "kind": "photographer",
+                                      "refId": "testino",
+                                      "label": "Testino",
+                                      "year": 1997,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/leibovitz",
+                                      "kind": "photographer",
+                                      "refId": "leibovitz",
+                                      "label": "Leibovitz",
+                                      "year": 1980,
+                                      "children": []
                                     }
                                   ]
                                 }
@@ -172,6 +188,14 @@
                               "label": "E. Weston",
                               "year": 1932,
                               "children": [
+                                {
+                                  "id": "photographers/sally-mann",
+                                  "kind": "photographer",
+                                  "refId": "sally-mann",
+                                  "label": "Sally Mann",
+                                  "year": 1992,
+                                  "children": []
+                                },
                                 {
                                   "id": "movements/latin-american-modernism",
                                   "kind": "movement",
@@ -517,6 +541,14 @@
                                           "label": "Höfer",
                                           "year": 2000,
                                           "children": []
+                                        },
+                                        {
+                                          "id": "photographers/dijkstra",
+                                          "kind": "photographer",
+                                          "refId": "dijkstra",
+                                          "label": "Dijkstra",
+                                          "year": 1992,
+                                          "children": []
                                         }
                                       ]
                                     },
@@ -595,6 +627,23 @@
                               "refId": "salgado",
                               "label": "Salgado",
                               "year": 1986,
+                              "children": [
+                                {
+                                  "id": "photographers/pieter-hugo",
+                                  "kind": "photographer",
+                                  "refId": "pieter-hugo",
+                                  "label": "Pieter Hugo",
+                                  "year": 2005,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "photographers/parr",
+                              "kind": "photographer",
+                              "refId": "parr",
+                              "label": "Martin Parr",
+                              "year": 1994,
                               "children": []
                             }
                           ]
