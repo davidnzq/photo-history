@@ -39,6 +39,112 @@
               "year": 1851,
               "children": [
                 {
+                  "id": "photographers/brady",
+                  "kind": "photographer",
+                  "refId": "brady",
+                  "label": "布雷迪",
+                  "year": 1862,
+                  "children": [
+                    {
+                      "id": "movements/war-photography",
+                      "kind": "movement",
+                      "refId": "war-photography",
+                      "label": "战地摄影",
+                      "year": 1944,
+                      "children": [
+                        {
+                          "id": "photographers/roger-fenton",
+                          "kind": "photographer",
+                          "refId": "roger-fenton",
+                          "label": "罗杰·芬顿",
+                          "year": 1819,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/bourke-white",
+                          "kind": "photographer",
+                          "refId": "bourke-white",
+                          "label": "布尔克-怀特",
+                          "year": 1936,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/lee-miller",
+                          "kind": "photographer",
+                          "refId": "lee-miller",
+                          "label": "李·米勒",
+                          "year": 1945,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/james-nachtwey",
+                          "kind": "photographer",
+                          "refId": "james-nachtwey",
+                          "label": "詹姆斯·纳赫特韦",
+                          "year": 1948,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/shirin-neshat",
+                          "kind": "photographer",
+                          "refId": "shirin-neshat",
+                          "label": "希琳·奈沙特",
+                          "year": 1957,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/korda",
+                          "kind": "photographer",
+                          "refId": "korda",
+                          "label": "科尔达",
+                          "year": 1960,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/mccullin",
+                          "kind": "photographer",
+                          "refId": "mccullin",
+                          "label": "麦卡林",
+                          "year": 1968,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/nick-ut",
+                          "kind": "photographer",
+                          "refId": "nick-ut",
+                          "label": "黄公崴",
+                          "year": 1972,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/mccurry",
+                          "kind": "photographer",
+                          "refId": "mccurry",
+                          "label": "麦凯瑞",
+                          "year": 1984,
+                          "children": []
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "id": "photographers/muybridge",
+                  "kind": "photographer",
+                  "refId": "muybridge",
+                  "label": "迈布里奇",
+                  "year": 1878,
+                  "children": []
+                },
+                {
+                  "id": "photographers/marey",
+                  "kind": "photographer",
+                  "refId": "marey",
+                  "label": "马雷",
+                  "year": 1882,
+                  "children": []
+                },
+                {
                   "id": "evt-kodak",
                   "kind": "event",
                   "label": "1888 · 柯达No.1",
@@ -51,6 +157,86 @@
                       "label": "画意主义",
                       "year": 1902,
                       "children": [
+                        {
+                          "id": "photographers/niepce",
+                          "kind": "photographer",
+                          "refId": "niepce",
+                          "label": "涅普斯",
+                          "year": 1765,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/daguerre",
+                          "kind": "photographer",
+                          "refId": "daguerre",
+                          "label": "达盖尔",
+                          "year": 1787,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/talbot",
+                          "kind": "photographer",
+                          "refId": "talbot",
+                          "label": "塔尔博特",
+                          "year": 1800,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/rejlander",
+                          "kind": "photographer",
+                          "refId": "rejlander",
+                          "label": "奥斯卡·雷兰德",
+                          "year": 1813,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/robinson",
+                          "kind": "photographer",
+                          "refId": "robinson",
+                          "label": "亨利·皮奇·罗宾逊",
+                          "year": 1830,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/kasebier",
+                          "kind": "photographer",
+                          "refId": "kasebier",
+                          "label": "凯斯比尔",
+                          "year": 1852,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/emerson",
+                          "kind": "photographer",
+                          "refId": "emerson",
+                          "label": "彼得·亨利·爱默生",
+                          "year": 1856,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/atget",
+                          "kind": "photographer",
+                          "refId": "atget",
+                          "label": "阿杰特",
+                          "year": 1857,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/cameron",
+                          "kind": "photographer",
+                          "refId": "cameron",
+                          "label": "卡梅伦",
+                          "year": 1864,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/coburn",
+                          "kind": "photographer",
+                          "refId": "coburn",
+                          "label": "寇本",
+                          "year": 1882,
+                          "children": []
+                        },
                         {
                           "id": "photographers/stieglitz",
                           "kind": "photographer",
@@ -73,91 +259,11 @@
                                   "year": 1965,
                                   "children": [
                                     {
-                                      "id": "photographers/penn",
-                                      "kind": "photographer",
-                                      "refId": "penn",
-                                      "label": "Penn",
-                                      "year": 1948,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/avedon",
-                                      "kind": "photographer",
-                                      "refId": "avedon",
-                                      "label": "Avedon",
-                                      "year": 1955,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/newton",
-                                      "kind": "photographer",
-                                      "refId": "newton",
-                                      "label": "Newton",
-                                      "year": 1976,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/testino",
-                                      "kind": "photographer",
-                                      "refId": "testino",
-                                      "label": "Testino",
-                                      "year": 1997,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/leibovitz",
-                                      "kind": "photographer",
-                                      "refId": "leibovitz",
-                                      "label": "Leibovitz",
-                                      "year": 1980,
-                                      "children": []
-                                    },
-                                    {
                                       "id": "photographers/philippe-halsman",
                                       "kind": "photographer",
                                       "refId": "philippe-halsman",
                                       "label": "菲利普·哈尔斯曼",
                                       "year": 1906,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/herb-ritts",
-                                      "kind": "photographer",
-                                      "refId": "herb-ritts",
-                                      "label": "赫布·里兹",
-                                      "year": 1952,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/peter-lindbergh",
-                                      "kind": "photographer",
-                                      "refId": "peter-lindbergh",
-                                      "label": "彼得·林德伯格",
-                                      "year": 1944,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/david-bailey",
-                                      "kind": "photographer",
-                                      "refId": "david-bailey",
-                                      "label": "大卫·贝利",
-                                      "year": 1938,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/guy-bourdin",
-                                      "kind": "photographer",
-                                      "refId": "guy-bourdin",
-                                      "label": "盖伊·布尔丹",
-                                      "year": 1928,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/sarah-moon",
-                                      "kind": "photographer",
-                                      "refId": "sarah-moon",
-                                      "label": "莎拉·穆恩",
-                                      "year": 1941,
                                       "children": []
                                     },
                                     {
@@ -169,11 +275,75 @@
                                       "children": []
                                     },
                                     {
+                                      "id": "photographers/guy-bourdin",
+                                      "kind": "photographer",
+                                      "refId": "guy-bourdin",
+                                      "label": "盖伊·布尔丹",
+                                      "year": 1928,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/david-bailey",
+                                      "kind": "photographer",
+                                      "refId": "david-bailey",
+                                      "label": "大卫·贝利",
+                                      "year": 1938,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/sarah-moon",
+                                      "kind": "photographer",
+                                      "refId": "sarah-moon",
+                                      "label": "莎拉·穆恩",
+                                      "year": 1941,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/peter-lindbergh",
+                                      "kind": "photographer",
+                                      "refId": "peter-lindbergh",
+                                      "label": "彼得·林德伯格",
+                                      "year": 1944,
+                                      "children": []
+                                    },
+                                    {
                                       "id": "photographers/paolo-roversi",
                                       "kind": "photographer",
                                       "refId": "paolo-roversi",
                                       "label": "保罗·罗韦西",
                                       "year": 1947,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/penn",
+                                      "kind": "photographer",
+                                      "refId": "penn",
+                                      "label": "佩恩",
+                                      "year": 1948,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/herb-ritts",
+                                      "kind": "photographer",
+                                      "refId": "herb-ritts",
+                                      "label": "赫布·里兹",
+                                      "year": 1952,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/avedon",
+                                      "kind": "photographer",
+                                      "refId": "avedon",
+                                      "label": "阿维东",
+                                      "year": 1955,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/nick-knight",
+                                      "kind": "photographer",
+                                      "refId": "nick-knight",
+                                      "label": "尼克·奈特",
+                                      "year": 1958,
                                       "children": []
                                     },
                                     {
@@ -185,6 +355,22 @@
                                       "children": []
                                     },
                                     {
+                                      "id": "photographers/newton",
+                                      "kind": "photographer",
+                                      "refId": "newton",
+                                      "label": "赫尔穆特·牛顿",
+                                      "year": 1976,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/leibovitz",
+                                      "kind": "photographer",
+                                      "refId": "leibovitz",
+                                      "label": "安妮·莱博维茨",
+                                      "year": 1980,
+                                      "children": []
+                                    },
+                                    {
                                       "id": "photographers/chen-man",
                                       "kind": "photographer",
                                       "refId": "chen-man",
@@ -193,11 +379,11 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/nick-knight",
+                                      "id": "photographers/testino",
                                       "kind": "photographer",
-                                      "refId": "nick-knight",
-                                      "label": "尼克·奈特",
-                                      "year": 1958,
+                                      "refId": "testino",
+                                      "label": "马里奥·特斯蒂诺",
+                                      "year": 1997,
                                       "children": []
                                     }
                                   ]
@@ -215,18 +401,10 @@
                           ]
                         },
                         {
-                          "id": "photographers/cameron",
-                          "kind": "photographer",
-                          "refId": "cameron",
-                          "label": "Cameron",
-                          "year": 1864,
-                          "children": []
-                        },
-                        {
                           "id": "photographers/curtis",
                           "kind": "photographer",
                           "refId": "curtis",
-                          "label": "Curtis",
+                          "label": "柯蒂斯",
                           "year": 1907,
                           "children": []
                         },
@@ -234,7 +412,7 @@
                           "id": "photographers/drtikol",
                           "kind": "photographer",
                           "refId": "drtikol",
-                          "label": "Drtikol",
+                          "label": "德尔吉科尔",
                           "year": 1929,
                           "children": []
                         },
@@ -242,80 +420,8 @@
                           "id": "photographers/lang-jingshan",
                           "kind": "photographer",
                           "refId": "lang-jingshan",
-                          "label": "Lang Jingshan",
+                          "label": "郎静山",
                           "year": 1934,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/niepce",
-                          "kind": "photographer",
-                          "refId": "niepce",
-                          "label": "尼埃普斯",
-                          "year": 1765,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/daguerre",
-                          "kind": "photographer",
-                          "refId": "daguerre",
-                          "label": "达盖尔",
-                          "year": 1787,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/talbot",
-                          "kind": "photographer",
-                          "refId": "talbot",
-                          "label": "塔尔博特",
-                          "year": 1800,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/atget",
-                          "kind": "photographer",
-                          "refId": "atget",
-                          "label": "阿杰",
-                          "year": 1857,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/kasebier",
-                          "kind": "photographer",
-                          "refId": "kasebier",
-                          "label": "凯斯比尔",
-                          "year": 1852,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/coburn",
-                          "kind": "photographer",
-                          "refId": "coburn",
-                          "label": "寇本",
-                          "year": 1882,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/rejlander",
-                          "kind": "photographer",
-                          "refId": "rejlander",
-                          "label": "奥斯卡·雷兰德",
-                          "year": 1813,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/robinson",
-                          "kind": "photographer",
-                          "refId": "robinson",
-                          "label": "亨利·皮奇·罗宾逊",
-                          "year": 1830,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/emerson",
-                          "kind": "photographer",
-                          "refId": "emerson",
-                          "label": "彼得·亨利·爱默生",
-                          "year": 1856,
                           "children": []
                         }
                       ]
@@ -327,162 +433,6 @@
                       "year": 1925,
                       "children": [
                         {
-                          "id": "movements/straight",
-                          "kind": "movement",
-                          "refId": "straight",
-                          "label": "直接摄影 / f/64",
-                          "year": 1932,
-                          "children": [
-                            {
-                              "id": "photographers/a-adams",
-                              "kind": "photographer",
-                              "refId": "a-adams",
-                              "label": "Ansel Adams",
-                              "year": 1932,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/e-weston",
-                              "kind": "photographer",
-                              "refId": "e-weston",
-                              "label": "E. Weston",
-                              "year": 1932,
-                              "children": [
-                                {
-                                  "id": "photographers/sally-mann",
-                                  "kind": "photographer",
-                                  "refId": "sally-mann",
-                                  "label": "Sally Mann",
-                                  "year": 1992,
-                                  "children": []
-                                },
-                                {
-                                  "id": "movements/latin-american-modernism",
-                                  "kind": "movement",
-                                  "refId": "latin-american-modernism",
-                                  "label": "拉美现代主义",
-                                  "year": 1939,
-                                  "children": [
-                                    {
-                                      "id": "photographers/modotti",
-                                      "kind": "photographer",
-                                      "refId": "modotti",
-                                      "label": "Modotti",
-                                      "year": 1927,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/alvarez-bravo",
-                                      "kind": "photographer",
-                                      "refId": "alvarez-bravo",
-                                      "label": "Bravo",
-                                      "year": 1939,
-                                      "children": [
-                                        {
-                                          "id": "photographers/iturbide",
-                                          "kind": "photographer",
-                                          "refId": "iturbide",
-                                          "label": "Iturbide",
-                                          "year": 1979,
-                                          "children": []
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "id": "photographers/chambi",
-                                      "kind": "photographer",
-                                      "refId": "chambi",
-                                      "label": "Chambi",
-                                      "year": 1934,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/lola-alvarez-bravo",
-                                      "kind": "photographer",
-                                      "refId": "lola-alvarez-bravo",
-                                      "label": "洛拉·阿尔瓦雷斯·布拉沃",
-                                      "year": 1903,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/graciela-iturbide",
-                                      "kind": "photographer",
-                                      "refId": "graciela-iturbide",
-                                      "label": "格拉谢拉·伊图尔维德",
-                                      "year": 1942,
-                                      "children": []
-                                    }
-                                  ]
-                                }
-                              ]
-                            },
-                            {
-                              "id": "photographers/cunningham",
-                              "kind": "photographer",
-                              "refId": "cunningham",
-                              "label": "Cunningham",
-                              "year": 1932,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/abbott",
-                              "kind": "photographer",
-                              "refId": "abbott",
-                              "label": "Abbott",
-                              "year": 1939,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/sudek",
-                              "kind": "photographer",
-                              "refId": "sudek",
-                              "label": "Sudek",
-                              "year": 1940,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/timothy-osullivan",
-                              "kind": "photographer",
-                              "refId": "timothy-osullivan",
-                              "label": "蒂莫西·奥沙利文",
-                              "year": 1840,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/carleton-watkins",
-                              "kind": "photographer",
-                              "refId": "carleton-watkins",
-                              "label": "卡尔顿·沃特金斯",
-                              "year": 1829,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/harry-callahan",
-                              "kind": "photographer",
-                              "refId": "harry-callahan",
-                              "label": "哈里·卡拉汉",
-                              "year": 1912,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/minor-white",
-                              "kind": "photographer",
-                              "refId": "minor-white",
-                              "label": "迈纳·怀特",
-                              "year": 1908,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/aaron-siskind",
-                              "kind": "photographer",
-                              "refId": "aaron-siskind",
-                              "label": "阿伦·西斯金德",
-                              "year": 1903,
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
                           "id": "movements/bauhaus",
                           "kind": "movement",
                           "refId": "bauhaus",
@@ -490,19 +440,19 @@
                           "year": 1923,
                           "children": [
                             {
-                              "id": "photographers/moholy-nagy",
-                              "kind": "photographer",
-                              "refId": "moholy-nagy",
-                              "label": "Moholy-Nagy",
-                              "year": 1923,
-                              "children": []
-                            },
-                            {
                               "id": "photographers/man-ray",
                               "kind": "photographer",
                               "refId": "man-ray",
-                              "label": "Man Ray",
+                              "label": "曼·雷",
                               "year": 1922,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/moholy-nagy",
+                              "kind": "photographer",
+                              "refId": "moholy-nagy",
+                              "label": "莫霍利-纳吉",
+                              "year": 1923,
                               "children": []
                             },
                             {
@@ -516,14 +466,14 @@
                                   "id": "photographers/rodchenko",
                                   "kind": "photographer",
                                   "refId": "rodchenko",
-                                  "label": "Rodchenko",
+                                  "label": "罗德钦科",
                                   "year": 1925,
                                   "children": [
                                     {
                                       "id": "photographers/lissitzky",
                                       "kind": "photographer",
                                       "refId": "lissitzky",
-                                      "label": "Lissitzky",
+                                      "label": "利西茨基",
                                       "year": 1924,
                                       "children": []
                                     }
@@ -539,22 +489,178 @@
                               "year": 1928,
                               "children": [
                                 {
-                                  "id": "photographers/sander",
-                                  "kind": "photographer",
-                                  "refId": "sander",
-                                  "label": "Sander",
-                                  "year": 1929,
-                                  "children": []
-                                },
-                                {
                                   "id": "photographers/renger-patzsch",
                                   "kind": "photographer",
                                   "refId": "renger-patzsch",
-                                  "label": "Renger-Patzsch",
+                                  "label": "伦格-帕奇",
                                   "year": 1928,
+                                  "children": []
+                                },
+                                {
+                                  "id": "photographers/sander",
+                                  "kind": "photographer",
+                                  "refId": "sander",
+                                  "label": "桑德",
+                                  "year": 1929,
                                   "children": []
                                 }
                               ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "movements/straight",
+                          "kind": "movement",
+                          "refId": "straight",
+                          "label": "直接摄影 / f/64",
+                          "year": 1932,
+                          "children": [
+                            {
+                              "id": "photographers/carleton-watkins",
+                              "kind": "photographer",
+                              "refId": "carleton-watkins",
+                              "label": "卡尔顿·沃特金斯",
+                              "year": 1829,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/timothy-osullivan",
+                              "kind": "photographer",
+                              "refId": "timothy-osullivan",
+                              "label": "蒂莫西·奥沙利文",
+                              "year": 1840,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/aaron-siskind",
+                              "kind": "photographer",
+                              "refId": "aaron-siskind",
+                              "label": "阿伦·西斯金德",
+                              "year": 1903,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/minor-white",
+                              "kind": "photographer",
+                              "refId": "minor-white",
+                              "label": "迈纳·怀特",
+                              "year": 1908,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/harry-callahan",
+                              "kind": "photographer",
+                              "refId": "harry-callahan",
+                              "label": "哈里·卡拉汉",
+                              "year": 1912,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/a-adams",
+                              "kind": "photographer",
+                              "refId": "a-adams",
+                              "label": "安塞尔·亚当斯",
+                              "year": 1932,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/cunningham",
+                              "kind": "photographer",
+                              "refId": "cunningham",
+                              "label": "坎宁安",
+                              "year": 1932,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/e-weston",
+                              "kind": "photographer",
+                              "refId": "e-weston",
+                              "label": "爱德华·韦斯顿",
+                              "year": 1932,
+                              "children": [
+                                {
+                                  "id": "movements/latin-american-modernism",
+                                  "kind": "movement",
+                                  "refId": "latin-american-modernism",
+                                  "label": "拉美现代主义",
+                                  "year": 1939,
+                                  "children": [
+                                    {
+                                      "id": "photographers/lola-alvarez-bravo",
+                                      "kind": "photographer",
+                                      "refId": "lola-alvarez-bravo",
+                                      "label": "洛拉·阿尔瓦雷斯·布拉沃",
+                                      "year": 1903,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/modotti",
+                                      "kind": "photographer",
+                                      "refId": "modotti",
+                                      "label": "莫多蒂",
+                                      "year": 1927,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/chambi",
+                                      "kind": "photographer",
+                                      "refId": "chambi",
+                                      "label": "钱比",
+                                      "year": 1934,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/alvarez-bravo",
+                                      "kind": "photographer",
+                                      "refId": "alvarez-bravo",
+                                      "label": "布拉沃",
+                                      "year": 1939,
+                                      "children": [
+                                        {
+                                          "id": "photographers/iturbide",
+                                          "kind": "photographer",
+                                          "refId": "iturbide",
+                                          "label": "伊图尔比德",
+                                          "year": 1979,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "photographers/graciela-iturbide",
+                                      "kind": "photographer",
+                                      "refId": "graciela-iturbide",
+                                      "label": "格拉谢拉·伊图尔维德",
+                                      "year": 1942,
+                                      "children": []
+                                    }
+                                  ]
+                                },
+                                {
+                                  "id": "photographers/sally-mann",
+                                  "kind": "photographer",
+                                  "refId": "sally-mann",
+                                  "label": "萨莉·曼",
+                                  "year": 1992,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "photographers/abbott",
+                              "kind": "photographer",
+                              "refId": "abbott",
+                              "label": "贝伦尼斯·阿博特",
+                              "year": 1939,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/sudek",
+                              "kind": "photographer",
+                              "refId": "sudek",
+                              "label": "苏德克",
+                              "year": 1940,
+                              "children": []
                             }
                           ]
                         },
@@ -566,18 +672,42 @@
                           "year": 1935,
                           "children": [
                             {
-                              "id": "photographers/lange",
+                              "id": "photographers/jacob-riis",
                               "kind": "photographer",
-                              "refId": "lange",
-                              "label": "兰格",
-                              "year": 1936,
+                              "refId": "jacob-riis",
+                              "label": "雅各布·里斯",
+                              "year": 1849,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/lewis-hine",
+                              "kind": "photographer",
+                              "refId": "lewis-hine",
+                              "label": "刘易斯·海因",
+                              "year": 1874,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/russell-lee",
+                              "kind": "photographer",
+                              "refId": "russell-lee",
+                              "label": "罗素·李",
+                              "year": 1903,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/gordon-parks",
+                              "kind": "photographer",
+                              "refId": "gordon-parks",
+                              "label": "戈登·帕克斯",
+                              "year": 1912,
                               "children": []
                             },
                             {
                               "id": "photographers/evans",
                               "kind": "photographer",
                               "refId": "evans",
-                              "label": "Evans",
+                              "label": "埃文斯",
                               "year": 1936,
                               "children": [
                                 {
@@ -587,54 +717,6 @@
                                   "label": "街头摄影",
                                   "year": 1958,
                                   "children": [
-                                    {
-                                      "id": "photographers/frank",
-                                      "kind": "photographer",
-                                      "refId": "frank",
-                                      "label": "Frank",
-                                      "year": 1958,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/winogrand",
-                                      "kind": "photographer",
-                                      "refId": "winogrand",
-                                      "label": "Winogrand",
-                                      "year": 1967,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/friedlander",
-                                      "kind": "photographer",
-                                      "refId": "friedlander",
-                                      "label": "Friedlander",
-                                      "year": 1967,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/arbus",
-                                      "kind": "photographer",
-                                      "refId": "arbus",
-                                      "label": "Arbus",
-                                      "year": 1967,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/maier",
-                                      "kind": "photographer",
-                                      "refId": "maier",
-                                      "label": "Vivian Maier",
-                                      "year": 1955,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/leiter",
-                                      "kind": "photographer",
-                                      "refId": "leiter",
-                                      "label": "Leiter",
-                                      "year": 1960,
-                                      "children": []
-                                    },
                                     {
                                       "id": "photographers/lartigue",
                                       "kind": "photographer",
@@ -652,11 +734,11 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/william-klein",
+                                      "id": "photographers/lisette-model",
                                       "kind": "photographer",
-                                      "refId": "william-klein",
-                                      "label": "威廉·克莱因",
-                                      "year": 1926,
+                                      "refId": "lisette-model",
+                                      "label": "利塞特·莫德尔",
+                                      "year": 1901,
                                       "children": []
                                     },
                                     {
@@ -668,11 +750,59 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/lisette-model",
+                                      "id": "photographers/william-klein",
                                       "kind": "photographer",
-                                      "refId": "lisette-model",
-                                      "label": "利塞特·莫德尔",
-                                      "year": 1901,
+                                      "refId": "william-klein",
+                                      "label": "威廉·克莱因",
+                                      "year": 1926,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/garry-winogrand",
+                                      "kind": "photographer",
+                                      "refId": "garry-winogrand",
+                                      "label": "加里·温诺格兰德",
+                                      "year": 1928,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/fan-ho",
+                                      "kind": "photographer",
+                                      "refId": "fan-ho",
+                                      "label": "何藩",
+                                      "year": 1931,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/duane-michals",
+                                      "kind": "photographer",
+                                      "refId": "duane-michals",
+                                      "label": "杜安·迈克尔斯",
+                                      "year": 1932,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/lee-friedlander",
+                                      "kind": "photographer",
+                                      "refId": "lee-friedlander",
+                                      "label": "李·弗里德兰德",
+                                      "year": 1934,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/kim-ki-chan",
+                                      "kind": "photographer",
+                                      "refId": "kim-ki-chan",
+                                      "label": "金基赞",
+                                      "year": 1938,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/mary-ellen-mark",
+                                      "kind": "photographer",
+                                      "refId": "mary-ellen-mark",
+                                      "label": "玛丽·埃伦·马克",
+                                      "year": 1940,
                                       "children": []
                                     },
                                     {
@@ -692,22 +822,6 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/francesca-woodman",
-                                      "kind": "photographer",
-                                      "refId": "francesca-woodman",
-                                      "label": "弗朗切斯卡·伍德曼",
-                                      "year": 1958,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/duane-michals",
-                                      "kind": "photographer",
-                                      "refId": "duane-michals",
-                                      "label": "杜安·迈克尔斯",
-                                      "year": 1932,
-                                      "children": []
-                                    },
-                                    {
                                       "id": "photographers/philip-lorca-dicorcia",
                                       "kind": "photographer",
                                       "refId": "philip-lorca-dicorcia",
@@ -716,11 +830,35 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/kim-ki-chan",
+                                      "id": "photographers/maier",
                                       "kind": "photographer",
-                                      "refId": "kim-ki-chan",
-                                      "label": "金基赞",
-                                      "year": 1938,
+                                      "refId": "maier",
+                                      "label": "薇薇安·迈尔",
+                                      "year": 1955,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/frank",
+                                      "kind": "photographer",
+                                      "refId": "frank",
+                                      "label": "弗兰克",
+                                      "year": 1958,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/francesca-woodman",
+                                      "kind": "photographer",
+                                      "refId": "francesca-woodman",
+                                      "label": "弗朗切斯卡·伍德曼",
+                                      "year": 1958,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/leiter",
+                                      "kind": "photographer",
+                                      "refId": "leiter",
+                                      "label": "索尔·莱特",
+                                      "year": 1960,
                                       "children": []
                                     },
                                     {
@@ -732,11 +870,27 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/mary-ellen-mark",
+                                      "id": "photographers/arbus",
                                       "kind": "photographer",
-                                      "refId": "mary-ellen-mark",
-                                      "label": "玛丽·埃伦·马克",
-                                      "year": 1940,
+                                      "refId": "arbus",
+                                      "label": "阿勃丝",
+                                      "year": 1967,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/friedlander",
+                                      "kind": "photographer",
+                                      "refId": "friedlander",
+                                      "label": "弗里兰德",
+                                      "year": 1967,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/winogrand",
+                                      "kind": "photographer",
+                                      "refId": "winogrand",
+                                      "label": "维诺格兰德",
+                                      "year": 1967,
                                       "children": []
                                     },
                                     {
@@ -745,30 +899,6 @@
                                       "refId": "eamonn-doyle",
                                       "label": "埃蒙·多伊尔",
                                       "year": 1969,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/lee-friedlander",
-                                      "kind": "photographer",
-                                      "refId": "lee-friedlander",
-                                      "label": "李·弗里德兰德",
-                                      "year": 1934,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/garry-winogrand",
-                                      "kind": "photographer",
-                                      "refId": "garry-winogrand",
-                                      "label": "加里·温诺格兰德",
-                                      "year": 1928,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/fan-ho",
-                                      "kind": "photographer",
-                                      "refId": "fan-ho",
-                                      "label": "何藩",
-                                      "year": 1931,
                                       "children": []
                                     }
                                   ]
@@ -781,133 +911,19 @@
                                   "year": 1975,
                                   "children": [
                                     {
-                                      "id": "photographers/r-adams",
-                                      "kind": "photographer",
-                                      "refId": "r-adams",
-                                      "label": "R. Adams",
-                                      "year": 1975,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/shore",
-                                      "kind": "photographer",
-                                      "refId": "shore",
-                                      "label": "Shore",
-                                      "year": 1975,
-                                      "children": [
-                                        {
-                                          "id": "movements/new-color",
-                                          "kind": "movement",
-                                          "refId": "new-color",
-                                          "label": "新彩色",
-                                          "year": 1976,
-                                          "children": [
-                                            {
-                                              "id": "photographers/eggleston",
-                                              "kind": "photographer",
-                                              "refId": "eggleston",
-                                              "label": "Eggleston",
-                                              "year": 1976,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/sternfeld",
-                                              "kind": "photographer",
-                                              "refId": "sternfeld",
-                                              "label": "Sternfeld",
-                                              "year": 1987,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/meyerowitz",
-                                              "kind": "photographer",
-                                              "refId": "meyerowitz",
-                                              "label": "Meyerowitz",
-                                              "year": 1976,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/soth",
-                                              "kind": "photographer",
-                                              "refId": "soth",
-                                              "label": "Soth",
-                                              "year": 2004,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/neshat",
-                                              "kind": "photographer",
-                                              "refId": "neshat",
-                                              "label": "Neshat",
-                                              "year": 1996,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/mapplethorpe",
-                                              "kind": "photographer",
-                                              "refId": "mapplethorpe",
-                                              "label": "梅普尔索普",
-                                              "year": 1946,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/sherman",
-                                              "kind": "photographer",
-                                              "refId": "sherman",
-                                              "label": "辛迪·谢尔曼",
-                                              "year": 1954,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/goldin",
-                                              "kind": "photographer",
-                                              "refId": "goldin",
-                                              "label": "南·戈尔丁",
-                                              "year": 1953,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/tillmans",
-                                              "kind": "photographer",
-                                              "refId": "tillmans",
-                                              "label": "蒂尔曼斯",
-                                              "year": 1968,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/raghubir-singh",
-                                              "kind": "photographer",
-                                              "refId": "raghubir-singh",
-                                              "label": "拉胡比尔·辛格",
-                                              "year": 1942,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/alec-soth",
-                                              "kind": "photographer",
-                                              "refId": "alec-soth",
-                                              "label": "亚历克·索思",
-                                              "year": 1969,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/gregory-crewdson",
-                                              "kind": "photographer",
-                                              "refId": "gregory-crewdson",
-                                              "label": "格雷戈里·克鲁德森",
-                                              "year": 1962,
-                                              "children": []
-                                            }
-                                          ]
-                                        }
-                                      ]
-                                    },
-                                    {
                                       "id": "photographers/lewis-baltz",
                                       "kind": "photographer",
                                       "refId": "lewis-baltz",
                                       "label": "刘易斯·巴尔兹",
                                       "year": 1945,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/bae-bien-u",
+                                      "kind": "photographer",
+                                      "refId": "bae-bien-u",
+                                      "label": "裴炳雨",
+                                      "year": 1950,
                                       "children": []
                                     },
                                     {
@@ -919,27 +935,11 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/taryn-simon",
-                                      "kind": "photographer",
-                                      "refId": "taryn-simon",
-                                      "label": "塔琳·西蒙",
-                                      "year": 1975,
-                                      "children": []
-                                    },
-                                    {
                                       "id": "photographers/hatakeyama",
                                       "kind": "photographer",
                                       "refId": "hatakeyama",
                                       "label": "畠山直哉",
                                       "year": 1958,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/bae-bien-u",
-                                      "kind": "photographer",
-                                      "refId": "bae-bien-u",
-                                      "label": "裴炳雨",
-                                      "year": 1950,
                                       "children": []
                                     },
                                     {
@@ -957,6 +957,136 @@
                                       "label": "纳达夫·坎德",
                                       "year": 1961,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/r-adams",
+                                      "kind": "photographer",
+                                      "refId": "r-adams",
+                                      "label": "罗伯特·亚当斯",
+                                      "year": 1975,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/shore",
+                                      "kind": "photographer",
+                                      "refId": "shore",
+                                      "label": "肖尔",
+                                      "year": 1975,
+                                      "children": [
+                                        {
+                                          "id": "movements/new-color",
+                                          "kind": "movement",
+                                          "refId": "new-color",
+                                          "label": "新彩色",
+                                          "year": 1976,
+                                          "children": [
+                                            {
+                                              "id": "photographers/raghubir-singh",
+                                              "kind": "photographer",
+                                              "refId": "raghubir-singh",
+                                              "label": "拉胡比尔·辛格",
+                                              "year": 1942,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/mapplethorpe",
+                                              "kind": "photographer",
+                                              "refId": "mapplethorpe",
+                                              "label": "梅普尔索普",
+                                              "year": 1946,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/goldin",
+                                              "kind": "photographer",
+                                              "refId": "goldin",
+                                              "label": "南·戈尔丁",
+                                              "year": 1953,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/sherman",
+                                              "kind": "photographer",
+                                              "refId": "sherman",
+                                              "label": "辛迪·谢尔曼",
+                                              "year": 1954,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/gregory-crewdson",
+                                              "kind": "photographer",
+                                              "refId": "gregory-crewdson",
+                                              "label": "格雷戈里·克鲁德森",
+                                              "year": 1962,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/tillmans",
+                                              "kind": "photographer",
+                                              "refId": "tillmans",
+                                              "label": "蒂尔曼斯",
+                                              "year": 1968,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/alec-soth",
+                                              "kind": "photographer",
+                                              "refId": "alec-soth",
+                                              "label": "亚历克·索思",
+                                              "year": 1969,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/eggleston",
+                                              "kind": "photographer",
+                                              "refId": "eggleston",
+                                              "label": "艾格斯顿",
+                                              "year": 1976,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/meyerowitz",
+                                              "kind": "photographer",
+                                              "refId": "meyerowitz",
+                                              "label": "迈耶罗维茨",
+                                              "year": 1976,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/sternfeld",
+                                              "kind": "photographer",
+                                              "refId": "sternfeld",
+                                              "label": "斯特恩菲尔德",
+                                              "year": 1987,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/neshat",
+                                              "kind": "photographer",
+                                              "refId": "neshat",
+                                              "label": "希林·内沙",
+                                              "year": 1996,
+                                              "children": []
+                                            },
+                                            {
+                                              "id": "photographers/soth",
+                                              "kind": "photographer",
+                                              "refId": "soth",
+                                              "label": "索斯",
+                                              "year": 2004,
+                                              "children": []
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "photographers/taryn-simon",
+                                      "kind": "photographer",
+                                      "refId": "taryn-simon",
+                                      "label": "塔琳·西蒙",
+                                      "year": 1975,
+                                      "children": []
                                     }
                                   ]
                                 },
@@ -968,68 +1098,11 @@
                                   "year": 1976,
                                   "children": [
                                     {
-                                      "id": "photographers/becher",
+                                      "id": "photographers/candida-hofer",
                                       "kind": "photographer",
-                                      "refId": "becher",
-                                      "label": "Bechers",
-                                      "year": 1976,
-                                      "children": [
-                                        {
-                                          "id": "photographers/gursky",
-                                          "kind": "photographer",
-                                          "refId": "gursky",
-                                          "label": "Gursky",
-                                          "year": 1995,
-                                          "children": []
-                                        },
-                                        {
-                                          "id": "photographers/struth",
-                                          "kind": "photographer",
-                                          "refId": "struth",
-                                          "label": "Struth",
-                                          "year": 1990,
-                                          "children": []
-                                        },
-                                        {
-                                          "id": "photographers/ruff",
-                                          "kind": "photographer",
-                                          "refId": "ruff",
-                                          "label": "Ruff",
-                                          "year": 1995,
-                                          "children": []
-                                        },
-                                        {
-                                          "id": "photographers/hofer",
-                                          "kind": "photographer",
-                                          "refId": "hofer",
-                                          "label": "Höfer",
-                                          "year": 2000,
-                                          "children": []
-                                        },
-                                        {
-                                          "id": "photographers/dijkstra",
-                                          "kind": "photographer",
-                                          "refId": "dijkstra",
-                                          "label": "Dijkstra",
-                                          "year": 1992,
-                                          "children": []
-                                        }
-                                      ]
-                                    },
-                                    {
-                                      "id": "photographers/wall",
-                                      "kind": "photographer",
-                                      "refId": "wall",
-                                      "label": "Jeff Wall",
-                                      "year": 1993,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/crewdson",
-                                      "kind": "photographer",
-                                      "refId": "crewdson",
-                                      "label": "Crewdson",
-                                      "year": 2001,
+                                      "refId": "candida-hofer",
+                                      "label": "坎迪达·霍弗",
+                                      "year": 1944,
                                       "children": []
                                     },
                                     {
@@ -1049,11 +1122,68 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/candida-hofer",
+                                      "id": "photographers/becher",
                                       "kind": "photographer",
-                                      "refId": "candida-hofer",
-                                      "label": "坎迪达·霍弗",
-                                      "year": 1944,
+                                      "refId": "becher",
+                                      "label": "贝歇尔夫妇",
+                                      "year": 1976,
+                                      "children": [
+                                        {
+                                          "id": "photographers/struth",
+                                          "kind": "photographer",
+                                          "refId": "struth",
+                                          "label": "施特鲁斯",
+                                          "year": 1990,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "photographers/dijkstra",
+                                          "kind": "photographer",
+                                          "refId": "dijkstra",
+                                          "label": "里内克·迪克斯特拉",
+                                          "year": 1992,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "photographers/gursky",
+                                          "kind": "photographer",
+                                          "refId": "gursky",
+                                          "label": "古尔斯基",
+                                          "year": 1995,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "photographers/ruff",
+                                          "kind": "photographer",
+                                          "refId": "ruff",
+                                          "label": "鲁夫",
+                                          "year": 1995,
+                                          "children": []
+                                        },
+                                        {
+                                          "id": "photographers/hofer",
+                                          "kind": "photographer",
+                                          "refId": "hofer",
+                                          "label": "霍弗",
+                                          "year": 2000,
+                                          "children": []
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "id": "photographers/wall",
+                                      "kind": "photographer",
+                                      "refId": "wall",
+                                      "label": "杰夫·沃尔",
+                                      "year": 1993,
+                                      "children": []
+                                    },
+                                    {
+                                      "id": "photographers/crewdson",
+                                      "kind": "photographer",
+                                      "refId": "crewdson",
+                                      "label": "克鲁森",
+                                      "year": 2001,
                                       "children": []
                                     }
                                   ]
@@ -1064,40 +1194,16 @@
                               "id": "photographers/rothstein",
                               "kind": "photographer",
                               "refId": "rothstein",
-                              "label": "Rothstein",
+                              "label": "罗斯坦",
                               "year": 1936,
                               "children": []
                             },
                             {
-                              "id": "photographers/russell-lee",
+                              "id": "photographers/lange",
                               "kind": "photographer",
-                              "refId": "russell-lee",
-                              "label": "罗素·李",
-                              "year": 1903,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/jacob-riis",
-                              "kind": "photographer",
-                              "refId": "jacob-riis",
-                              "label": "雅各布·里斯",
-                              "year": 1849,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/lewis-hine",
-                              "kind": "photographer",
-                              "refId": "lewis-hine",
-                              "label": "刘易斯·海因",
-                              "year": 1874,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/gordon-parks",
-                              "kind": "photographer",
-                              "refId": "gordon-parks",
-                              "label": "戈登·帕克斯",
-                              "year": 1912,
+                              "refId": "lange",
+                              "label": "兰格",
+                              "year": 1936,
                               "children": []
                             }
                           ]
@@ -1109,63 +1215,6 @@
                           "label": "Magnum",
                           "year": 1947,
                           "children": [
-                            {
-                              "id": "photographers/cartier-bresson",
-                              "kind": "photographer",
-                              "refId": "cartier-bresson",
-                              "label": "Cartier-Bresson",
-                              "year": 1947,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/capa",
-                              "kind": "photographer",
-                              "refId": "capa",
-                              "label": "Capa",
-                              "year": 1947,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/erwitt",
-                              "kind": "photographer",
-                              "refId": "erwitt",
-                              "label": "Erwitt",
-                              "year": 1953,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/koudelka",
-                              "kind": "photographer",
-                              "refId": "koudelka",
-                              "label": "Koudelka",
-                              "year": 1968,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/salgado",
-                              "kind": "photographer",
-                              "refId": "salgado",
-                              "label": "Salgado",
-                              "year": 1986,
-                              "children": [
-                                {
-                                  "id": "photographers/pieter-hugo",
-                                  "kind": "photographer",
-                                  "refId": "pieter-hugo",
-                                  "label": "Pieter Hugo",
-                                  "year": 2005,
-                                  "children": []
-                                }
-                              ]
-                            },
-                            {
-                              "id": "photographers/parr",
-                              "kind": "photographer",
-                              "refId": "parr",
-                              "label": "Martin Parr",
-                              "year": 1994,
-                              "children": []
-                            },
                             {
                               "id": "photographers/w-eugene-smith",
                               "kind": "photographer",
@@ -1183,11 +1232,11 @@
                               "children": []
                             },
                             {
-                              "id": "photographers/abbas",
+                              "id": "photographers/marc-riboud",
                               "kind": "photographer",
-                              "refId": "abbas",
-                              "label": "阿巴斯",
-                              "year": 1944,
+                              "refId": "marc-riboud",
+                              "label": "马克·吕布",
+                              "year": 1923,
                               "children": []
                             },
                             {
@@ -1199,6 +1248,46 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/abbas",
+                              "kind": "photographer",
+                              "refId": "abbas",
+                              "label": "阿巴斯",
+                              "year": 1944,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/capa",
+                              "kind": "photographer",
+                              "refId": "capa",
+                              "label": "卡帕",
+                              "year": 1947,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/cartier-bresson",
+                              "kind": "photographer",
+                              "refId": "cartier-bresson",
+                              "label": "布列松",
+                              "year": 1947,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/erwitt",
+                              "kind": "photographer",
+                              "refId": "erwitt",
+                              "label": "埃利奥特·厄威特",
+                              "year": 1953,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/koudelka",
+                              "kind": "photographer",
+                              "refId": "koudelka",
+                              "label": "寇德卡",
+                              "year": 1968,
+                              "children": []
+                            },
+                            {
                               "id": "photographers/cristina-de-middel",
                               "kind": "photographer",
                               "refId": "cristina-de-middel",
@@ -1207,11 +1296,28 @@
                               "children": []
                             },
                             {
-                              "id": "photographers/marc-riboud",
+                              "id": "photographers/salgado",
                               "kind": "photographer",
-                              "refId": "marc-riboud",
-                              "label": "马克·吕布",
-                              "year": 1923,
+                              "refId": "salgado",
+                              "label": "萨尔加多",
+                              "year": 1986,
+                              "children": [
+                                {
+                                  "id": "photographers/pieter-hugo",
+                                  "kind": "photographer",
+                                  "refId": "pieter-hugo",
+                                  "label": "彼得·雨果",
+                                  "year": 2005,
+                                  "children": []
+                                }
+                              ]
+                            },
+                            {
+                              "id": "photographers/parr",
+                              "kind": "photographer",
+                              "refId": "parr",
+                              "label": "马丁·帕尔",
+                              "year": 1994,
                               "children": []
                             }
                           ]
@@ -1224,67 +1330,11 @@
                           "year": 1955,
                           "children": [
                             {
-                              "id": "photographers/kertesz",
-                              "kind": "photographer",
-                              "refId": "kertesz",
-                              "label": "Kertész",
-                              "year": 1925,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/brassai",
-                              "kind": "photographer",
-                              "refId": "brassai",
-                              "label": "Brassaï",
-                              "year": 1933,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/doisneau",
-                              "kind": "photographer",
-                              "refId": "doisneau",
-                              "label": "Doisneau",
-                              "year": 1950,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/sutkus",
-                              "kind": "photographer",
-                              "refId": "sutkus",
-                              "label": "Sutkus",
-                              "year": 1965,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/mark",
-                              "kind": "photographer",
-                              "refId": "mark",
-                              "label": "Mary Ellen Mark",
-                              "year": 1981,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/rai",
-                              "kind": "photographer",
-                              "refId": "rai",
-                              "label": "Raghu Rai",
-                              "year": 1980,
-                              "children": []
-                            },
-                            {
                               "id": "photographers/bill-brandt",
                               "kind": "photographer",
                               "refId": "bill-brandt",
                               "label": "比尔·布兰特",
                               "year": 1904,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/willy-ronis",
-                              "kind": "photographer",
-                              "refId": "willy-ronis",
-                              "label": "威利·罗尼",
-                              "year": 1910,
                               "children": []
                             },
                             {
@@ -1296,6 +1346,14 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/willy-ronis",
+                              "kind": "photographer",
+                              "refId": "willy-ronis",
+                              "label": "威利·罗尼",
+                              "year": 1910,
+                              "children": []
+                            },
+                            {
                               "id": "photographers/arnold-newman",
                               "kind": "photographer",
                               "refId": "arnold-newman",
@@ -1304,11 +1362,59 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/kertesz",
+                              "kind": "photographer",
+                              "refId": "kertesz",
+                              "label": "柯特兹",
+                              "year": 1925,
+                              "children": []
+                            },
+                            {
                               "id": "photographers/david-goldblatt",
                               "kind": "photographer",
                               "refId": "david-goldblatt",
                               "label": "大卫·戈德布拉特",
                               "year": 1930,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/brassai",
+                              "kind": "photographer",
+                              "refId": "brassai",
+                              "label": "布拉塞",
+                              "year": 1933,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/doisneau",
+                              "kind": "photographer",
+                              "refId": "doisneau",
+                              "label": "杜瓦诺",
+                              "year": 1950,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/sutkus",
+                              "kind": "photographer",
+                              "refId": "sutkus",
+                              "label": "苏特库斯",
+                              "year": 1965,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/rai",
+                              "kind": "photographer",
+                              "refId": "rai",
+                              "label": "拉胡·赖",
+                              "year": 1980,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/mark",
+                              "kind": "photographer",
+                              "refId": "mark",
+                              "label": "玛丽·艾伦·马克",
+                              "year": 1981,
                               "children": []
                             }
                           ]
@@ -1328,6 +1434,78 @@
                           "label": "日本战后摄影",
                           "year": 1968,
                           "children": [
+                            {
+                              "id": "photographers/kimura-ihei",
+                              "kind": "photographer",
+                              "refId": "kimura-ihei",
+                              "label": "木村伊兵卫",
+                              "year": 1901,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/ken-domon",
+                              "kind": "photographer",
+                              "refId": "ken-domon",
+                              "label": "土门拳",
+                              "year": 1909,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/hiroshi-hamaya",
+                              "kind": "photographer",
+                              "refId": "hiroshi-hamaya",
+                              "label": "滨谷浩",
+                              "year": 1915,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/fukase",
+                              "kind": "photographer",
+                              "refId": "fukase",
+                              "label": "深濑昌久",
+                              "year": 1934,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/nakahira",
+                              "kind": "photographer",
+                              "refId": "nakahira",
+                              "label": "中平卓马",
+                              "year": 1938,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/ishiuchi-miyako",
+                              "kind": "photographer",
+                              "refId": "ishiuchi-miyako",
+                              "label": "石内都",
+                              "year": 1947,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/yasumasa-morimura",
+                              "kind": "photographer",
+                              "refId": "yasumasa-morimura",
+                              "label": "森村泰昌",
+                              "year": 1951,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/koo-bohnchang",
+                              "kind": "photographer",
+                              "refId": "koo-bohnchang",
+                              "label": "具本昌",
+                              "year": 1953,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/tokihiro-sato",
+                              "kind": "photographer",
+                              "refId": "tokihiro-sato",
+                              "label": "佐藤时启",
+                              "year": 1957,
+                              "children": []
+                            },
                             {
                               "id": "photographers/tomatsu",
                               "kind": "photographer",
@@ -1353,10 +1531,26 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/apichatpong-weerasethakul-photo",
+                              "kind": "photographer",
+                              "refId": "apichatpong-weerasethakul-photo",
+                              "label": "阿彼察邦·韦拉斯哈古",
+                              "year": 1970,
+                              "children": []
+                            },
+                            {
                               "id": "photographers/araki",
                               "kind": "photographer",
                               "refId": "araki",
                               "label": "荒木经惟",
+                              "year": 1971,
+                              "children": []
+                            },
+                            {
+                              "id": "photographers/noguchi-rika",
+                              "kind": "photographer",
+                              "refId": "noguchi-rika",
+                              "label": "野口里佳",
                               "year": 1971,
                               "children": []
                             },
@@ -1372,99 +1566,120 @@
                               "id": "photographers/kawauchi",
                               "kind": "photographer",
                               "refId": "kawauchi",
-                              "label": "Kawauchi",
+                              "label": "川内伦子",
                               "year": 2001,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/ken-domon",
-                              "kind": "photographer",
-                              "refId": "ken-domon",
-                              "label": "土门拳",
-                              "year": 1909,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/kimura-ihei",
-                              "kind": "photographer",
-                              "refId": "kimura-ihei",
-                              "label": "木村伊兵卫",
-                              "year": 1901,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/fukase",
-                              "kind": "photographer",
-                              "refId": "fukase",
-                              "label": "深濑昌久",
-                              "year": 1934,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/ishiuchi-miyako",
-                              "kind": "photographer",
-                              "refId": "ishiuchi-miyako",
-                              "label": "石内都",
-                              "year": 1947,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/nakahira",
-                              "kind": "photographer",
-                              "refId": "nakahira",
-                              "label": "中平卓马",
-                              "year": 1938,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/yasumasa-morimura",
-                              "kind": "photographer",
-                              "refId": "yasumasa-morimura",
-                              "label": "森村泰昌",
-                              "year": 1951,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/hiroshi-hamaya",
-                              "kind": "photographer",
-                              "refId": "hiroshi-hamaya",
-                              "label": "滨谷浩",
-                              "year": 1915,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/noguchi-rika",
-                              "kind": "photographer",
-                              "refId": "noguchi-rika",
-                              "label": "野口里佳",
-                              "year": 1971,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/tokihiro-sato",
-                              "kind": "photographer",
-                              "refId": "tokihiro-sato",
-                              "label": "佐藤时启",
-                              "year": 1957,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/koo-bohnchang",
-                              "kind": "photographer",
-                              "refId": "koo-bohnchang",
-                              "label": "具本昌",
-                              "year": 1953,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/apichatpong-weerasethakul-photo",
-                              "kind": "photographer",
-                              "refId": "apichatpong-weerasethakul-photo",
-                              "label": "阿彼察邦·韦拉斯哈古",
-                              "year": 1970,
                               "children": []
                             }
                           ]
+                        }
+                      ]
+                    },
+                    {
+                      "id": "movements/west-african-studio",
+                      "kind": "movement",
+                      "refId": "west-african-studio",
+                      "label": "西非棚拍肖像",
+                      "year": 1965,
+                      "children": [
+                        {
+                          "id": "photographers/malick-sidibe",
+                          "kind": "photographer",
+                          "refId": "malick-sidibe",
+                          "label": "马利克·西迪贝",
+                          "year": 1936,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/keita",
+                          "kind": "photographer",
+                          "refId": "keita",
+                          "label": "凯塔",
+                          "year": 1956,
+                          "children": [
+                            {
+                              "id": "photographers/sidibe",
+                              "kind": "photographer",
+                              "refId": "sidibe",
+                              "label": "西迪贝",
+                              "year": 1963,
+                              "children": []
+                            }
+                          ]
+                        },
+                        {
+                          "id": "photographers/samuel-fosso",
+                          "kind": "photographer",
+                          "refId": "samuel-fosso",
+                          "label": "塞缪尔·福索",
+                          "year": 1962,
+                          "children": []
+                        }
+                      ]
+                    },
+                    {
+                      "id": "movements/black-american-photo",
+                      "kind": "movement",
+                      "refId": "black-american-photo",
+                      "label": "美国黑人摄影",
+                      "year": 1968,
+                      "children": [
+                        {
+                          "id": "photographers/van-der-zee",
+                          "kind": "photographer",
+                          "refId": "van-der-zee",
+                          "label": "范德齐",
+                          "year": 1924,
+                          "children": [
+                            {
+                              "id": "photographers/parks",
+                              "kind": "photographer",
+                              "refId": "parks",
+                              "label": "戈登·帕克斯",
+                              "year": 1942,
+                              "children": [
+                                {
+                                  "id": "photographers/weems",
+                                  "kind": "photographer",
+                                  "refId": "weems",
+                                  "label": "威姆斯",
+                                  "year": 1990,
+                                  "children": []
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "id": "photographers/decarava",
+                          "kind": "photographer",
+                          "refId": "decarava",
+                          "label": "德卡拉瓦",
+                          "year": 1955,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/lorna-simpson",
+                          "kind": "photographer",
+                          "refId": "lorna-simpson",
+                          "label": "洛娜·辛普森",
+                          "year": 1960,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/muholi",
+                          "kind": "photographer",
+                          "refId": "muholi",
+                          "label": "扎内莱·穆霍利",
+                          "year": 1972,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/bey",
+                          "kind": "photographer",
+                          "refId": "bey",
+                          "label": "达乌德·贝",
+                          "year": 1976,
+                          "children": []
                         }
                       ]
                     },
@@ -1476,11 +1691,67 @@
                       "year": 1990,
                       "children": [
                         {
-                          "id": "photographers/ruan-yizhong",
+                          "id": "photographers/li-zhensheng",
                           "kind": "photographer",
-                          "refId": "ruan-yizhong",
-                          "label": "阮义忠",
-                          "year": 1981,
+                          "refId": "li-zhensheng",
+                          "label": "李振盛",
+                          "year": 1940,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/wang-fuchun",
+                          "kind": "photographer",
+                          "refId": "wang-fuchun",
+                          "label": "王福春",
+                          "year": 1943,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/mo-yi",
+                          "kind": "photographer",
+                          "refId": "mo-yi",
+                          "label": "莫毅",
+                          "year": 1958,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/xiao-quan",
+                          "kind": "photographer",
+                          "refId": "xiao-quan",
+                          "label": "肖全",
+                          "year": 1959,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/hai-bo",
+                          "kind": "photographer",
+                          "refId": "hai-bo",
+                          "label": "海波",
+                          "year": 1962,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/zhang-huan",
+                          "kind": "photographer",
+                          "refId": "zhang-huan",
+                          "label": "张洹",
+                          "year": 1965,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/wang-qingsong",
+                          "kind": "photographer",
+                          "refId": "wang-qingsong",
+                          "label": "王庆松",
+                          "year": 1966,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/liu-bolin",
+                          "kind": "photographer",
+                          "refId": "liu-bolin",
+                          "label": "刘勃麟",
+                          "year": 1973,
                           "children": []
                         },
                         {
@@ -1489,6 +1760,46 @@
                           "refId": "chen-chuanxing",
                           "label": "陈传兴",
                           "year": 1976,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/pixy-liao",
+                          "kind": "photographer",
+                          "refId": "pixy-liao",
+                          "label": "廖逸君",
+                          "year": 1979,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/liu-heung-shing",
+                          "kind": "photographer",
+                          "refId": "liu-heung-shing",
+                          "label": "刘香成",
+                          "year": 1980,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/zhang-xiao",
+                          "kind": "photographer",
+                          "refId": "zhang-xiao",
+                          "label": "张晓",
+                          "year": 1981,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/ruan-yizhong",
+                          "kind": "photographer",
+                          "refId": "ruan-yizhong",
+                          "label": "阮义忠",
+                          "year": 1981,
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/ren-hang",
+                          "kind": "photographer",
+                          "refId": "ren-hang",
+                          "label": "任航",
+                          "year": 1987,
                           "children": []
                         },
                         {
@@ -1522,321 +1833,10 @@
                           "label": "洪浩",
                           "year": 2001,
                           "children": []
-                        },
-                        {
-                          "id": "photographers/liu-heung-shing",
-                          "kind": "photographer",
-                          "refId": "liu-heung-shing",
-                          "label": "Liu Heung Shing",
-                          "year": 1980,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/li-zhensheng",
-                          "kind": "photographer",
-                          "refId": "li-zhensheng",
-                          "label": "李振盛",
-                          "year": 1940,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/xiao-quan",
-                          "kind": "photographer",
-                          "refId": "xiao-quan",
-                          "label": "肖全",
-                          "year": 1959,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/wang-qingsong",
-                          "kind": "photographer",
-                          "refId": "wang-qingsong",
-                          "label": "王庆松",
-                          "year": 1966,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/ren-hang",
-                          "kind": "photographer",
-                          "refId": "ren-hang",
-                          "label": "任航",
-                          "year": 1987,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/mo-yi",
-                          "kind": "photographer",
-                          "refId": "mo-yi",
-                          "label": "莫毅",
-                          "year": 1958,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/wang-fuchun",
-                          "kind": "photographer",
-                          "refId": "wang-fuchun",
-                          "label": "王福春",
-                          "year": 1943,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/hai-bo",
-                          "kind": "photographer",
-                          "refId": "hai-bo",
-                          "label": "海波",
-                          "year": 1962,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/zhang-huan",
-                          "kind": "photographer",
-                          "refId": "zhang-huan",
-                          "label": "张洹",
-                          "year": 1965,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/pixy-liao",
-                          "kind": "photographer",
-                          "refId": "pixy-liao",
-                          "label": "廖逸君",
-                          "year": 1979,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/zhang-xiao",
-                          "kind": "photographer",
-                          "refId": "zhang-xiao",
-                          "label": "张晓",
-                          "year": 1981,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/liu-bolin",
-                          "kind": "photographer",
-                          "refId": "liu-bolin",
-                          "label": "刘勃麟",
-                          "year": 1973,
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "id": "movements/black-american-photo",
-                      "kind": "movement",
-                      "refId": "black-american-photo",
-                      "label": "美国黑人摄影",
-                      "year": 1968,
-                      "children": [
-                        {
-                          "id": "photographers/van-der-zee",
-                          "kind": "photographer",
-                          "refId": "van-der-zee",
-                          "label": "Van Der Zee",
-                          "year": 1924,
-                          "children": [
-                            {
-                              "id": "photographers/parks",
-                              "kind": "photographer",
-                              "refId": "parks",
-                              "label": "Parks",
-                              "year": 1942,
-                              "children": [
-                                {
-                                  "id": "photographers/weems",
-                                  "kind": "photographer",
-                                  "refId": "weems",
-                                  "label": "Weems",
-                                  "year": 1990,
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
-                        },
-                        {
-                          "id": "photographers/decarava",
-                          "kind": "photographer",
-                          "refId": "decarava",
-                          "label": "DeCarava",
-                          "year": 1955,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/bey",
-                          "kind": "photographer",
-                          "refId": "bey",
-                          "label": "Bey",
-                          "year": 1976,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/muholi",
-                          "kind": "photographer",
-                          "refId": "muholi",
-                          "label": "扎内莱·穆霍利",
-                          "year": 1972,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/lorna-simpson",
-                          "kind": "photographer",
-                          "refId": "lorna-simpson",
-                          "label": "洛娜·辛普森",
-                          "year": 1960,
-                          "children": []
-                        }
-                      ]
-                    },
-                    {
-                      "id": "movements/west-african-studio",
-                      "kind": "movement",
-                      "refId": "west-african-studio",
-                      "label": "西非棚拍肖像",
-                      "year": 1965,
-                      "children": [
-                        {
-                          "id": "photographers/keita",
-                          "kind": "photographer",
-                          "refId": "keita",
-                          "label": "Keïta",
-                          "year": 1956,
-                          "children": [
-                            {
-                              "id": "photographers/sidibe",
-                              "kind": "photographer",
-                              "refId": "sidibe",
-                              "label": "Sidibé",
-                              "year": 1963,
-                              "children": []
-                            }
-                          ]
-                        },
-                        {
-                          "id": "photographers/samuel-fosso",
-                          "kind": "photographer",
-                          "refId": "samuel-fosso",
-                          "label": "塞缪尔·福索",
-                          "year": 1962,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/malick-sidibe",
-                          "kind": "photographer",
-                          "refId": "malick-sidibe",
-                          "label": "马利克·西迪贝",
-                          "year": 1936,
-                          "children": []
                         }
                       ]
                     }
                   ]
-                },
-                {
-                  "id": "photographers/muybridge",
-                  "kind": "photographer",
-                  "refId": "muybridge",
-                  "label": "Muybridge",
-                  "year": 1878,
-                  "children": []
-                },
-                {
-                  "id": "photographers/brady",
-                  "kind": "photographer",
-                  "refId": "brady",
-                  "label": "Brady",
-                  "year": 1862,
-                  "children": [
-                    {
-                      "id": "movements/war-photography",
-                      "kind": "movement",
-                      "refId": "war-photography",
-                      "label": "战地摄影",
-                      "year": 1944,
-                      "children": [
-                        {
-                          "id": "photographers/lee-miller",
-                          "kind": "photographer",
-                          "refId": "lee-miller",
-                          "label": "Lee Miller",
-                          "year": 1945,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/bourke-white",
-                          "kind": "photographer",
-                          "refId": "bourke-white",
-                          "label": "Bourke-White",
-                          "year": 1936,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/mccullin",
-                          "kind": "photographer",
-                          "refId": "mccullin",
-                          "label": "McCullin",
-                          "year": 1968,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/mccurry",
-                          "kind": "photographer",
-                          "refId": "mccurry",
-                          "label": "McCurry",
-                          "year": 1984,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/nick-ut",
-                          "kind": "photographer",
-                          "refId": "nick-ut",
-                          "label": "Nick Ut",
-                          "year": 1972,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/korda",
-                          "kind": "photographer",
-                          "refId": "korda",
-                          "label": "Korda",
-                          "year": 1960,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/roger-fenton",
-                          "kind": "photographer",
-                          "refId": "roger-fenton",
-                          "label": "罗杰·芬顿",
-                          "year": 1819,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/james-nachtwey",
-                          "kind": "photographer",
-                          "refId": "james-nachtwey",
-                          "label": "詹姆斯·纳赫特韦",
-                          "year": 1948,
-                          "children": []
-                        },
-                        {
-                          "id": "photographers/shirin-neshat",
-                          "kind": "photographer",
-                          "refId": "shirin-neshat",
-                          "label": "希琳·奈沙特",
-                          "year": 1957,
-                          "children": []
-                        }
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "id": "photographers/marey",
-                  "kind": "photographer",
-                  "refId": "marey",
-                  "label": "Marey",
-                  "year": 1882,
-                  "children": []
                 }
               ]
             }

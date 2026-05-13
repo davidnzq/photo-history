@@ -40,7 +40,7 @@
     "countries": [
       "US"
     ],
-    "color": "#3E5A6E",
+    "color": "#6E96AE",
     "description": "主张锐利清晰、不加修饰、忠于介质本身物理性的现代主义路线。f/64 小组(亚当斯、韦斯顿、坎宁安)为代表。",
     "precededBy": [
       "pictorialism"
@@ -70,7 +70,7 @@
       "DE",
       "HU"
     ],
-    "color": "#5A4A6E",
+    "color": "#8A7AAE",
     "description": "包豪斯学校与 Moholy-Nagy 推动的实验摄影:摄影图、仰俯视角、蒙太奇、对镜头本身的研究,把摄影纳入构成主义美学训练。",
     "precededBy": [
       "pictorialism"
@@ -128,7 +128,7 @@
       "FR",
       "US"
     ],
-    "color": "#985365",
+    "color": "#C07888",
     "description": "战后欧洲(尤其法国)一支强调日常温度、共情、普世人性的纪实路线。1955 年 MoMA《人类一家》大展为其高潮。",
     "precededBy": [
       "fsa"
@@ -158,7 +158,7 @@
       "FR",
       "US"
     ],
-    "color": "#2A2826",
+    "color": "#8A8580",
     "description": "1947 年由 Capa、Cartier-Bresson、Rodger、Seymour 在巴黎 / 纽约创立,摄影师拥有版权。是战后报道摄影的金标准,深度参与从西班牙内战到越战的重大事件叙事。",
     "precededBy": [
       "humanist"
@@ -188,7 +188,7 @@
       "FR",
       "JP"
     ],
-    "color": "#506C70",
+    "color": "#78A0A5",
     "description": "从布列松\"决定性瞬间\"出发,经 Frank、Winogrand、Friedlander 在纽约推到顶点的城市偶遇美学。强调直觉、构成与瞬间的张力。",
     "precededBy": [
       "humanist"
@@ -244,7 +244,7 @@
     "countries": [
       "DE"
     ],
-    "color": "#6B7A52",
+    "color": "#95AA7C",
     "description": "Bernd & Hilla Becher 在杜塞尔多夫国立艺术学院培养出的一代:Gursky、Struth、Ruff、Höfer。冷峻、巨幅、工业类型学,把摄影推入大画廊与高价艺术市场。",
     "precededBy": [
       "new-topographics"
@@ -270,7 +270,7 @@
     "countries": [
       "JP"
     ],
-    "color": "#2A2826",
+    "color": "#8A8580",
     "description": "从 VIVO 集团到《Provoke》杂志(1968-70),日本战后摄影发展出粗、糙、晕(are-bure-boke)的独立美学,反西方纪实路线。森山、东松、中平、荒木为代表。",
     "precededBy": [],
     "succeededBy": [],
@@ -322,7 +322,7 @@
     "countries": [
       "CN"
     ],
-    "color": "#985365",
+    "color": "#C07888",
     "description": "从 1980s 民间纪实(吕楠、张海儿)到 1990s 观念摄影(荣荣、洪浩),再到 2000 年后市场化阶段。阮义忠、陈传兴等台湾文人脉络在大陆产生持续回响。",
     "precededBy": [],
     "succeededBy": [],
@@ -349,7 +349,7 @@
       "FR",
       "DE"
     ],
-    "color": "#6E3F40",
+    "color": "#B06A6C",
     "description": "始于克里米亚战争(Roger Fenton)与美国南北战争(Brady),经一战二战(Capa, Bourke-White, Lee Miller, Taro)推向黄金时代,是 20 世纪新闻图像的脊柱。",
     "arc": "1855 Crimea / 1862 Brady 战场展 / 1936 Capa 西班牙 / 1944 D-Day / 越战后转型",
     "precededBy": [
@@ -435,7 +435,7 @@
     "countries": [
       "US"
     ],
-    "color": "#4A6E70",
+    "color": "#72A0A3",
     "description": "从 Van Der Zee 的 Harlem 棚拍记录 Harlem Renaissance 起,经 Roy DeCarava 的低光爵士与 Gordon Parks 的 LIFE 报道,延展到 Carrie Mae Weems 的身份观念,自成一支独立而绵长的视觉脉络。",
     "arc": "1916 Van Der Zee 开棚 / 1942 Parks 入 FSA / 1955 DeCarava《The Sweet Flypaper of Life》/ 1990 Weems Kitchen Table",
     "precededBy": [
@@ -487,7 +487,7 @@
     "countries": [
       "DE"
     ],
-    "color": "#7C7468",
+    "color": "#A49C90",
     "description": "魏玛德国一支冷峻精确的现代主义路线,反表现主义,聚焦对象本身的物质性。Sander 类型学肖像、Renger-Patzsch《世界是美的》是两座地标。",
     "arc": "1923 萌芽 / 1928 Renger-Patzsch《世界是美的》/ 1929 Sander《20 世纪面孔》/ 1933 受纳粹冲击",
     "precededBy": [
@@ -516,7 +516,7 @@
     "countries": [
       "RU"
     ],
-    "color": "#9C5544",
+    "color": "#C47A6A",
     "description": "苏联早期前卫艺术运动,Rodchenko 与 Lissitzky 把摄影 + 蒙太奇推为社会主义新视觉语言:仰俯极端视角、对角构图、政治海报。",
     "arc": "1924 Rodchenko 第一台相机 / 1928《Lef》杂志 / 1932 'Socialist Realism' 强制后转型",
     "precededBy": [

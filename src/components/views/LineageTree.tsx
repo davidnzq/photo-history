@@ -488,7 +488,7 @@ function LineageTreeInner({ root }: Props) {
                           : "rgba(170,160,140,1)"
                       }
                       strokeOpacity={
-                        it.isOnPath ? 1 : hovering ? 0.08 : 0.32
+                        it.isOnPath ? 1 : hovering ? 0.18 : 0.35
                       }
                       strokeWidth={it.isOnPath ? 2 : 1}
                       shapeRendering="geometricPrecision"
@@ -644,8 +644,8 @@ function NodeView({
   }
 
   const r = hovered ? NODE_R + 1.5 : ancestor ? NODE_R + 0.5 : NODE_R;
-  const labelOpacity = dimmed ? 0.22 : 1;
-  const markerOpacity = dimmed ? 0.28 : 1;
+  const labelOpacity = dimmed ? 0.38 : 1;
+  const markerOpacity = dimmed ? 0.42 : 1;
   const isMovementCollapsible = node.kind === "movement" && hasChildren;
 
   return (

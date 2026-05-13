@@ -63,7 +63,7 @@ export function TopNav() {
           >
             中
           </button>
-          <span className="text-ink-3/60 text-[10px] mx-0.5">/</span>
+          <span className="text-ink-3 text-[10px] mx-0.5">/</span>
           <button
             type="button"
             onClick={() => setLocale("en")}

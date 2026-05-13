@@ -26,19 +26,19 @@
   --color-rule-2: #3A352D;
   --color-accent: #C49A5C;
 
-  /* movement palette (暗底 muted) */
-  --color-m-pic: #B89870; /* pictorialism */
-  --color-m-str-photo: #7A8A6E; /* straight photography */
-  --color-m-bauhaus: #5A5A6E; /* bauhaus / new vision */
-  --color-m-fsa: #6E5740; /* fsa documentary */
-  --color-m-hum: #B07A3A; /* humanist */
-  --color-m-street: #506C70; /* street */
+  /* movement palette — all ≥ 4.5:1 contrast vs #0F0E0C (WCAG AA) */
+  --color-m-pic: #B89870; /* pictorialism – 7.1:1 */
+  --color-m-str-photo: #6E96AE; /* straight photography – 6.1:1 */
+  --color-m-bauhaus: #8A7AAE; /* bauhaus / new vision – 5.0:1 */
+  --color-m-fsa: #A86C4F; /* fsa documentary – 4.5:1 */
+  --color-m-hum: #C07888; /* humanist – 5.8:1 */
+  --color-m-street: #78A0A5; /* street – 6.8:1 */
   --color-m-conceptual: #8870B0; /* conceptual */
-  --color-m-newcolor: #C49A5C; /* new color */
-  --color-m-newtopo: #7C6B52; /* new topographics */
-  --color-m-dusseldorf: #5A5A6E; /* düsseldorf */
-  --color-m-jpw: #985365; /* japanese postwar */
-  --color-m-ccn: #5E7060; /* chinese contemporary */
+  --color-m-newcolor: #C9A862; /* new color – 8.5:1 */
+  --color-m-newtopo: #7C8973; /* new topographics – 5.2:1 */
+  --color-m-dusseldorf: #95AA7C; /* düsseldorf – 7.6:1 */
+  --color-m-jpw: #8A8580; /* japanese postwar – 5.3:1 */
+  --color-m-ccn: #C07888; /* chinese contemporary – 5.8:1 */
   --color-m-cnt: #8870B0; /* contemporary international */
 
   /* typography */

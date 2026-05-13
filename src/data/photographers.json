@@ -2,7 +2,7 @@
   {
     "id": "niepce",
     "name": "Nicéphore Niépce",
-    "nameZh": "尼埃普斯",
+    "nameZh": "涅普斯",
     "born": 1765,
     "died": 1833,
     "country": "FR",
@@ -247,7 +247,7 @@
   {
     "id": "atget",
     "name": "Eugène Atget",
-    "nameZh": "阿杰",
+    "nameZh": "阿杰特",
     "born": 1857,
     "died": 1927,
     "country": "FR",
@@ -1681,7 +1681,7 @@
   {
     "id": "erwitt",
     "name": "Elliott Erwitt",
-    "nameZh": "艾略特·欧维特",
+    "nameZh": "埃利奥特·厄威特",
     "born": 1928,
     "died": 2023,
     "country": "US",
@@ -3669,7 +3669,7 @@
   {
     "id": "muybridge",
     "name": "Eadweard Muybridge",
-    "nameZh": "穆布里奇",
+    "nameZh": "迈布里奇",
     "born": 1830,
     "died": 1904,
     "country": "UK",
@@ -4066,7 +4066,7 @@
   {
     "id": "newton",
     "name": "Helmut Newton",
-    "nameZh": "纽顿",
+    "nameZh": "赫尔穆特·牛顿",
     "born": 1920,
     "died": 2004,
     "country": "DE",
@@ -4826,7 +4826,7 @@
   {
     "id": "rodchenko",
     "name": "Alexander Rodchenko",
-    "nameZh": "罗琴科",
+    "nameZh": "罗德钦科",
     "born": 1891,
     "died": 1956,
     "country": "RU",
@@ -4889,7 +4889,7 @@
   {
     "id": "lissitzky",
     "name": "El Lissitzky",
-    "nameZh": "李西斯基",
+    "nameZh": "利西茨基",
     "born": 1890,
     "died": 1941,
     "country": "RU",
@@ -5396,7 +5396,7 @@
   {
     "id": "bey",
     "name": "Dawoud Bey",
-    "nameZh": "戴·贝",
+    "nameZh": "达乌德·贝",
     "born": 1953,
     "died": null,
     "country": "US",
@@ -5576,7 +5576,7 @@
   {
     "id": "nick-ut",
     "name": "Nick Ut (Huỳnh Công Út)",
-    "nameZh": "黄功吾",
+    "nameZh": "黄公崴",
     "born": 1951,
     "died": null,
     "country": "VN",
