@@ -186,6 +186,12 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/anna-atkins",
+                          "label": "Anna Atkins",
+                          "year": 1799,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/talbot",
                           "kind": "photographer",
                           "refId": "talbot",
@@ -208,6 +214,12 @@
                           "label": "亨利·皮奇·罗宾逊",
                           "year": 1830,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/eadweard-muybridge",
+                          "label": "Eadweard Muybridge",
+                          "year": 1830,
+                          "kind": "photographer"
                         },
                         {
                           "id": "photographers/felice-beato",
@@ -450,6 +462,12 @@
                           "year": 1923,
                           "children": [
                             {
+                              "id": "photographers/karl-blossfeldt",
+                              "label": "Karl Blossfeldt",
+                              "year": 1865,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/man-ray",
                               "kind": "photographer",
                               "refId": "man-ray",
@@ -545,6 +563,18 @@
                               "id": "photographers/imogen-cunningham",
                               "label": "Imogen Cunningham",
                               "year": 1883,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/tina-modotti",
+                              "label": "Tina Modotti",
+                              "year": 1896,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/berenice-abbott",
+                              "label": "Berenice Abbott",
+                              "year": 1898,
                               "kind": "photographer"
                             },
                             {
@@ -763,6 +793,12 @@
                                       "label": "威廉·克莱因",
                                       "year": 1926,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/vivian-maier",
+                                      "label": "Vivian Maier",
+                                      "year": 1926,
+                                      "kind": "photographer"
                                     },
                                     {
                                       "id": "photographers/garry-winogrand",
@@ -1171,6 +1207,12 @@
                           "year": 1947,
                           "children": [
                             {
+                              "id": "photographers/eve-arnold",
+                              "label": "Eve Arnold",
+                              "year": 1912,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/w-eugene-smith",
                               "kind": "photographer",
                               "refId": "w-eugene-smith",
@@ -1203,6 +1245,12 @@
                             {
                               "id": "photographers/bruce-davidson",
                               "label": "Bruce Davidson",
+                              "year": 1933,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/rene-burri",
+                              "label": "René Burri",
                               "year": 1933,
                               "kind": "photographer"
                             },
@@ -1242,6 +1290,12 @@
                               "id": "photographers/susan-meiselas",
                               "label": "Susan Meiselas",
                               "year": 1948,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/alex-webb",
+                              "label": "Alex Webb",
+                              "year": 1952,
                               "kind": "photographer"
                             },
                             {
@@ -1436,6 +1490,12 @@
                               "label": "中平卓马",
                               "year": 1938,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/issei-suda",
+                              "label": "Issei Suda",
+                              "year": 1940,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/ishiuchi-miyako",

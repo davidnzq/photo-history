@@ -12308,5 +12308,1019 @@
       "https://en.wikipedia.org/wiki/Felice_Beato",
       "https://www.getty.edu/art/collection/artists/1940/felice-beato/"
     ]
+  },
+  {
+    "id": "roger-ballen",
+    "name": "Roger Ballen",
+    "nameZh": "罗杰·拜伦",
+    "born": 1950,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American-born South African photographer known for his dark, surreal images that blend documentary with staged tableau. His work explores the psychological underbelly of human existence.",
+    "bioLong": "罗杰·拜伦出生于纽约，1982年移居南非，此后在约翰内斯堡生活和创作至今。他的早期作品记录南非小镇的边缘人物，逐渐从纪实转向更为黑暗、超现实的编导式摄影。他的标志性风格——粗粝的黑白影像、涂鸦般的墙面、扭曲的人体与动物——创造出一个介于梦魇与现实之间的视觉世界。《寄宿公寓》和《暗影之地》等系列让他成为当代摄影中最具争议性和辨识度的声音之一。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "staged-photography",
+      "black-and-white",
+      "surrealism"
+    ],
+    "influencedBy": [
+      "arbus"
+    ],
+    "works": [
+      {
+        "title": "Dresie and Casie, Twins, Western Transvaal",
+        "titleZh": "德雷西和卡西，双胞胎，西德兰士瓦",
+        "year": 1993,
+        "image": null,
+        "href": "https://www.rogerballen.com/",
+        "description": "Twin brothers in a sparse room, an early masterwork of Ballen's documentary-surrealist style.",
+        "descriptionZh": "简陋房间中的双胞胎兄弟，拜伦纪实-超现实风格的早期代表作。"
+      },
+      {
+        "title": "Shadow Chamber",
+        "titleZh": "暗影之室",
+        "year": 2005,
+        "image": null,
+        "href": "https://www.rogerballen.com/",
+        "description": "A series of staged photographs featuring figures, animals, and drawings in claustrophobic spaces.",
+        "descriptionZh": "一组在幽闭空间中以人物、动物和涂鸦构成的编导式摄影系列。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1950,
+        "event": "Born in New York City",
+        "eventZh": "出生于纽约"
+      },
+      {
+        "year": 1982,
+        "event": "Settled permanently in Johannesburg, South Africa",
+        "eventZh": "定居南非约翰内斯堡"
+      },
+      {
+        "year": 1994,
+        "event": "Published Platteland, documenting rural South Africa",
+        "eventZh": "出版《普拉特兰》，记录南非乡村"
+      },
+      {
+        "year": 2005,
+        "event": "Shadow Chamber series exhibited worldwide",
+        "eventZh": "《暗影之室》系列在全球展出"
+      },
+      {
+        "year": 2012,
+        "event": "Asylum of the Birds published",
+        "eventZh": "出版《鸟的庇护所》"
+      }
+    ],
+    "sources": [
+      "https://www.rogerballen.com/",
+      "https://en.wikipedia.org/wiki/Roger_Ballen"
+    ]
+  },
+  {
+    "id": "masao-yamamoto",
+    "name": "Masao Yamamoto",
+    "nameZh": "山本昌男",
+    "born": 1957,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photographer known for his tiny, intimate prints that evoke the transience and beauty of nature. His work embodies wabi-sabi aesthetics and the Japanese reverence for small things.",
+    "bioLong": "山本昌男是日本当代摄影中最具诗意的存在。他的照片通常只有手掌大小，以茶色调和柔化边缘呈现自然界的细微片段——一片羽毛、一朵花、一只飞鸟、水面的涟漪。他将这些小照片视为「种子」，在展览中散布于墙面，像落叶般随意又精心。他的创作深受日本俳句和侘寂美学影响，追求在极简中捕捉存在的本质。他的作品在西方获得了广泛的收藏和展览，被视为摄影与绘画、雕塑跨界的典范。",
+    "movements": [
+      "japan-postwar"
+    ],
+    "techniques": [
+      "fine-art",
+      "miniature-print",
+      "wabi-sabi"
+    ],
+    "influencedBy": [
+      "moriyama"
+    ],
+    "works": [
+      {
+        "title": "A Box of Ku #39",
+        "titleZh": "空之盒 #39",
+        "year": 1994,
+        "image": null,
+        "href": "https://www.ethertongallery.com/artists/masao-yamamoto/",
+        "description": "A tiny gelatin silver print of a bird in flight, embodying Yamamoto's signature minimalist style.",
+        "descriptionZh": "一只飞鸟的小幅银盐照片，体现了山本昌男标志性的极简风格。"
+      },
+      {
+        "title": "Nakazora #1547",
+        "titleZh": "中空 #1547",
+        "year": 2009,
+        "image": null,
+        "href": "https://www.ethertongallery.com/artists/masao-yamamoto/",
+        "description": "From his Nakazora (between sky) series, a meditative study of natural phenomena.",
+        "descriptionZh": "来自《中空》系列，对自然现象的冥想性研究。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1957,
+        "event": "Born in Gamagori, Aichi Prefecture",
+        "eventZh": "出生于爱知县�的蒲郡市"
+      },
+      {
+        "year": 1988,
+        "event": "Began A Box of Ku series",
+        "eventZh": "开始《空之盒》系列"
+      },
+      {
+        "year": 1994,
+        "event": "First international exhibition in the United States",
+        "eventZh": "在美国首次国际展览"
+      },
+      {
+        "year": 2009,
+        "event": "Published Nakazora series",
+        "eventZh": "发表《中空》系列"
+      },
+      {
+        "year": 2018,
+        "event": "Small Things in Silence published, major retrospective",
+        "eventZh": "出版《沉默中的小事》，大型回顾展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Masao_Yamamoto",
+      "https://www.ethertongallery.com/artists/masao-yamamoto/"
+    ]
+  },
+  {
+    "id": "david-lachapelle",
+    "name": "David LaChapelle",
+    "nameZh": "大卫·拉切贝尔",
+    "born": 1963,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer and director known for his hyper-saturated, pop-surrealist imagery. His elaborate staged photographs of celebrities and cultural commentary define the visual language of pop culture photography.",
+    "bioLong": "大卫·拉切贝尔是当代流行文化摄影最具标志性的创作者。安迪·沃霍尔在他少年时代就发现了他的才华，邀请他为《Interview》杂志拍摄。此后他为几乎所有顶级杂志和品牌创作了令人目眩的视觉作品——超高饱和度的色彩、精心搭建的布景、宗教图像学与流行文化的碰撞。他的作品既是对消费主义的讽刺，也是对美的极致追求。近年他转向以自然灾害和气候变化为主题的大型装置式摄影，用同样华丽的视觉语言讨论严肃的社会议题。",
+    "movements": [
+      "fashion"
+    ],
+    "techniques": [
+      "staged-photography",
+      "pop-art",
+      "celebrity-portrait"
+    ],
+    "influencedBy": [
+      "avedon",
+      "newton"
+    ],
+    "works": [
+      {
+        "title": "Deluge",
+        "titleZh": "大洪水",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.davidlachapelle.com/",
+        "description": "A large-scale staged photograph recreating a biblical flood scene in a contemporary shopping mall.",
+        "descriptionZh": "大型编导式摄影，在当代购物中心重现圣经洪水场景。"
+      },
+      {
+        "title": "Amanda Lepore as Andy Warhol's Marilyn",
+        "titleZh": "阿曼达·勒波尔饰安迪·沃霍尔的玛丽莲",
+        "year": 2002,
+        "image": null,
+        "href": "https://www.davidlachapelle.com/",
+        "description": "A pop-art portrait paying homage to Warhol's iconic Marilyn series.",
+        "descriptionZh": "向沃霍尔标志性的玛丽莲系列致敬的波普艺术肖像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1963,
+        "event": "Born in Fairfield, Connecticut",
+        "eventZh": "出生于康涅狄格州费尔菲尔德"
+      },
+      {
+        "year": 1984,
+        "event": "Hired by Andy Warhol to shoot for Interview magazine",
+        "eventZh": "被安迪·沃霍尔聘为《Interview》杂志拍摄"
+      },
+      {
+        "year": 1996,
+        "event": "Published LaChapelle Land, his first major book",
+        "eventZh": "出版首部重要作品集《拉切贝尔之地》"
+      },
+      {
+        "year": 2007,
+        "event": "Created Deluge series, pivoting toward environmental themes",
+        "eventZh": "创作《大洪水》系列，转向环境主题"
+      },
+      {
+        "year": 2017,
+        "event": "Lost and Found and Good News series on environmental destruction",
+        "eventZh": "《失与得》和《好消息》系列关注环境破坏"
+      }
+    ],
+    "sources": [
+      "https://www.davidlachapelle.com/",
+      "https://en.wikipedia.org/wiki/David_LaChapelle"
+    ]
+  },
+  {
+    "id": "hiroji-kubota",
+    "name": "Hiroji Kubota",
+    "nameZh": "久保田博二",
+    "born": 1939,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photojournalist and the first Asian full member of Magnum Photos. His decades-long coverage of Asia, particularly China and North Korea, provides an unparalleled visual record of the continent's transformation.",
+    "bioLong": "久保田博二是亚洲最重要的报道摄影师之一，也是马格南图片社第一位亚洲正式成员。1960年代在芝加哥结识了卡帕和布列松后，他决心用摄影记录亚洲的变迁。他的足迹遍布整个亚洲——从文化大革命后最早向外国记者开放的中国，到朝鲜、缅甸、越南和日本。他对中国长达数十年的持续拍摄，是20世纪后半叶中国社会变迁最完整的域外视觉档案之一。他的彩色摄影以鲜明的色彩和人文关怀著称。",
+    "movements": [
+      "magnum"
+    ],
+    "techniques": [
+      "photojournalism",
+      "color",
+      "documentary"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "works": [
+      {
+        "title": "China, 1979",
+        "titleZh": "中国，1979",
+        "year": 1979,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/hiroji-kubota/",
+        "description": "Early color documentation of China just after its opening, among the first Western photojournalistic records.",
+        "descriptionZh": "中国改革开放初期的早期彩色记录，最早的西方新闻摄影文献之一。"
+      },
+      {
+        "title": "North Korea, Pyongyang",
+        "titleZh": "朝鲜，平壤",
+        "year": 1982,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/hiroji-kubota/",
+        "description": "Rare color photographs from inside North Korea during the 1980s.",
+        "descriptionZh": "1980年代朝鲜内部的珍贵彩色照片。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1939,
+        "event": "Born in Tokyo",
+        "eventZh": "出生于东京"
+      },
+      {
+        "year": 1965,
+        "event": "Met Magnum photographers in Chicago, inspired to join",
+        "eventZh": "在芝加哥结识马格南摄影师，立志加入"
+      },
+      {
+        "year": 1971,
+        "event": "Became first Asian full member of Magnum Photos",
+        "eventZh": "成为马格南图片社第一位亚洲正式成员"
+      },
+      {
+        "year": 1979,
+        "event": "Began extensive documentation of China",
+        "eventZh": "开始大规模拍摄中国"
+      },
+      {
+        "year": 2004,
+        "event": "Published Can We Feed Ourselves?, on global food issues",
+        "eventZh": "出版《我们能养活自己吗？》，关注全球粮食问题"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/hiroji-kubota/",
+      "https://en.wikipedia.org/wiki/Hiroji_Kubota"
+    ]
+  },
+  {
+    "id": "eadweard-muybridge",
+    "name": "Eadweard Muybridge",
+    "nameZh": "埃德沃德·迈布里奇",
+    "born": 1830,
+    "died": 1904,
+    "country": "GB",
+    "region": "europe",
+    "bio": "English photographer who pioneered motion photography. His sequential studies of animal and human locomotion laid the groundwork for cinema.",
+    "bioLong": "埃德沃德·迈布里奇是摄影史与电影史共同的奠基人之一。1878年他用排列的多台相机成功捕捉了奔马的连续动作，证明了马在奔跑时四蹄同时离地——这一发现震动了科学界和艺术界。此后他在宾夕法尼亚大学系统地拍摄了数千组人体和动物的运动序列，收入巨著《动物运动》。这些连续影像不仅是运动科学的里程碑，更直接启发了活动影像技术的发明。从他的「动物实用镜」到卢米埃尔兄弟的电影放映机，只隔了不到二十年。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "sequential-photography",
+      "motion-study",
+      "landscape"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "The Horse in Motion",
+        "titleZh": "运动中的马",
+        "year": 1878,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/The_Horse_in_Motion.jpg/800px-The_Horse_in_Motion.jpg",
+        "description": "Sequential photographs proving that a galloping horse lifts all four hooves off the ground simultaneously.",
+        "descriptionZh": "连续照片证明奔驰的马四蹄同时离地。"
+      },
+      {
+        "title": "Animal Locomotion, Plate 626",
+        "titleZh": "动物运动，图版626",
+        "year": 1887,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Muybridge_race_horse_animated.gif/800px-Muybridge_race_horse_animated.gif",
+        "description": "From his monumental study of animal and human movement at the University of Pennsylvania.",
+        "descriptionZh": "来自他在宾夕法尼亚大学进行的动物与人体运动研究巨著。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1830,
+        "event": "Born in Kingston upon Thames, England",
+        "eventZh": "出生于英格兰泰晤士河畔金斯顿"
+      },
+      {
+        "year": 1867,
+        "event": "Began photographing Yosemite Valley landscapes",
+        "eventZh": "开始拍摄优胜美地山谷风景"
+      },
+      {
+        "year": 1878,
+        "event": "Captured The Horse in Motion for Leland Stanford",
+        "eventZh": "为利兰·斯坦福拍摄《运动中的马》"
+      },
+      {
+        "year": 1887,
+        "event": "Published Animal Locomotion, 781 plates of motion studies",
+        "eventZh": "出版《动物运动》，含781幅运动研究图版"
+      },
+      {
+        "year": 1904,
+        "event": "Died in Kingston upon Thames",
+        "eventZh": "在金斯顿去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eadweard_Muybridge",
+      "https://www.moma.org/artists/4151"
+    ]
+  },
+  {
+    "id": "berenice-abbott",
+    "name": "Berenice Abbott",
+    "nameZh": "贝伦尼丝·阿博特",
+    "born": 1898,
+    "died": 1991,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer best known for her documentation of New York City in the 1930s and her scientific photography. She also rescued and promoted the work of Eugène Atget.",
+    "bioLong": "贝伦尼丝·阿博特是20世纪美国最重要的女性摄影师之一。在巴黎担任曼·雷助手期间，她发现了尚未被认可的阿杰的作品，并在阿杰去世后购入其大量底片，为保存这批珍贵遗产做出了决定性贡献。1929年回到纽约后，她启动了宏大的《变化中的纽约》项目，用大画幅相机系统记录这座城市在现代化进程中的急剧变迁——摩天大楼的崛起、老建筑的消失、街头生活的喧嚣。这套作品至今是研究1930年代纽约最重要的视觉档案。晚年她转向科学摄影，以创新手法可视化物理现象。",
+    "movements": [
+      "straight"
+    ],
+    "techniques": [
+      "architectural",
+      "documentary",
+      "scientific-photography"
+    ],
+    "influencedBy": [
+      "atget"
+    ],
+    "works": [
+      {
+        "title": "Nightview, New York",
+        "titleZh": "纽约夜景",
+        "year": 1932,
+        "image": null,
+        "href": "https://www.moma.org/artists/41",
+        "description": "An aerial view of Manhattan at night, a masterwork of urban documentation.",
+        "descriptionZh": "曼哈顿夜景俯瞰，城市纪实的杰作。"
+      },
+      {
+        "title": "Exchange Place, New York",
+        "titleZh": "交易所广场，纽约",
+        "year": 1934,
+        "image": null,
+        "href": "https://www.moma.org/artists/41",
+        "description": "A dramatic upward view of Wall Street skyscrapers, from the Changing New York series.",
+        "descriptionZh": "华尔街摩天大楼的戏剧性仰视，来自《变化中的纽约》系列。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1898,
+        "event": "Born in Springfield, Ohio",
+        "eventZh": "出生于俄亥俄州斯普林菲尔德"
+      },
+      {
+        "year": 1923,
+        "event": "Became Man Ray's darkroom assistant in Paris",
+        "eventZh": "在巴黎成为曼·雷的暗房助手"
+      },
+      {
+        "year": 1927,
+        "event": "Discovered and began preserving Eugène Atget's archive",
+        "eventZh": "发现并开始保存阿杰的档案"
+      },
+      {
+        "year": 1935,
+        "event": "Began Changing New York project under WPA",
+        "eventZh": "在WPA资助下开始《变化中的纽约》项目"
+      },
+      {
+        "year": 1958,
+        "event": "Published comprehensive scientific photography manual",
+        "eventZh": "出版综合科学摄影手册"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Berenice_Abbott",
+      "https://www.moma.org/artists/41"
+    ]
+  },
+  {
+    "id": "vivian-maier",
+    "name": "Vivian Maier",
+    "nameZh": "薇薇安·迈尔",
+    "born": 1926,
+    "died": 2009,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American street photographer whose vast body of work was discovered posthumously. A nanny by profession, she secretly created one of the most remarkable street photography archives of the 20th century.",
+    "bioLong": "薇薇安·迈尔是摄影史上最传奇的发现之一。她一生以保姆为职业，在芝加哥和纽约的街头用禄来双反相机拍摄了超过十五万张照片，却从未向任何人展示。2007年，她储物柜中的底片在拍卖中被偶然发现，此后迅速被认定为20世纪最重要的街头摄影档案之一。她的作品展现了一位具有非凡视觉天赋的观察者——从街头的陌生人到自拍肖像，从芝加哥的贫民区到上东区的富人——构图精确、视角独到、充满对人性的关注。她的故事也引发了关于艺术家身份、作品归属和摄影发现伦理的深刻讨论。",
+    "movements": [
+      "street"
+    ],
+    "techniques": [
+      "street",
+      "medium-format",
+      "self-portrait"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Self-Portrait, New York",
+        "titleZh": "自拍像，纽约",
+        "year": 1954,
+        "image": null,
+        "href": "https://www.vivianmaier.com/",
+        "description": "One of many self-portraits captured in reflective surfaces, a recurring motif in Maier's work.",
+        "descriptionZh": "在反射面中捕捉的众多自拍像之一，是迈尔作品中的反复出现的母题。"
+      },
+      {
+        "title": "Chicago Street Scene",
+        "titleZh": "芝加哥街景",
+        "year": 1960,
+        "image": null,
+        "href": "https://www.vivianmaier.com/",
+        "description": "A characteristic street photograph showing Maier's ability to capture fleeting human moments.",
+        "descriptionZh": "一张典型的街头照片，展示了迈尔捕捉转瞬即逝的人间时刻的能力。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1926,
+        "event": "Born in New York City",
+        "eventZh": "出生于纽约"
+      },
+      {
+        "year": 1951,
+        "event": "Began working as a nanny, started photographing streets",
+        "eventZh": "开始做保姆，并开始街头摄影"
+      },
+      {
+        "year": 1956,
+        "event": "Moved to Chicago, continued prolific street photography",
+        "eventZh": "搬到芝加哥，继续大量街头摄影创作"
+      },
+      {
+        "year": 2007,
+        "event": "Vast archive discovered at auction by John Maloof",
+        "eventZh": "大量档案在拍卖中被约翰·马卢夫偶然发现"
+      },
+      {
+        "year": 2009,
+        "event": "Died in Chicago, unknown during her lifetime",
+        "eventZh": "在芝加哥去世，生前默默无闻"
+      }
+    ],
+    "sources": [
+      "https://www.vivianmaier.com/",
+      "https://en.wikipedia.org/wiki/Vivian_Maier"
+    ]
+  },
+  {
+    "id": "eve-arnold",
+    "name": "Eve Arnold",
+    "nameZh": "伊芙·阿诺德",
+    "born": 1912,
+    "died": 2012,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photojournalist and the first woman to become a full member of Magnum Photos. Known for her intimate portraits of Marilyn Monroe and her empathetic documentary work across five continents.",
+    "bioLong": "伊芙·阿诺德是马格南图片社第一位女性正式成员，也是20世纪最具影响力的女性摄影记者之一。她与玛丽莲·梦露长达十年的合作关系产出了最为私密和真实的梦露影像，远超其他摄影师对这位巨星的表面捕捉。但她的成就远不止名人肖像——从美国民权运动到中国内蒙古，从阿富汗女性到南非种族隔离，她的镜头始终关注被忽视的人群和故事。她在自传中写道，对她而言，相机是一把通往他人生命的钥匙。",
+    "movements": [
+      "magnum",
+      "humanist"
+    ],
+    "techniques": [
+      "portrait",
+      "photojournalism",
+      "color"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "works": [
+      {
+        "title": "Marilyn Monroe, The Misfits Set",
+        "titleZh": "玛丽莲·梦露，《不合时宜的人》片场",
+        "year": 1960,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/eve-arnold/",
+        "description": "An intimate portrait of Monroe during the filming of her final completed film.",
+        "descriptionZh": "梦露拍摄最后一部完成电影期间的私密肖像。"
+      },
+      {
+        "title": "Malcolm X, Chicago",
+        "titleZh": "马尔科姆·X，芝加哥",
+        "year": 1961,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/eve-arnold/",
+        "description": "A powerful portrait of the civil rights leader during a rally.",
+        "descriptionZh": "民权领袖在集会期间的有力肖像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1912,
+        "event": "Born in Philadelphia to Russian immigrant parents",
+        "eventZh": "出生于费城的俄国移民家庭"
+      },
+      {
+        "year": 1951,
+        "event": "Studied photography with Alexey Brodovitch",
+        "eventZh": "在阿列克谢·布罗多维奇指导下学习摄影"
+      },
+      {
+        "year": 1957,
+        "event": "Became first female member of Magnum Photos",
+        "eventZh": "成为马格南图片社第一位女性成员"
+      },
+      {
+        "year": 1960,
+        "event": "Photographed Marilyn Monroe on The Misfits set",
+        "eventZh": "在《不合时宜的人》片场拍摄梦露"
+      },
+      {
+        "year": 2012,
+        "event": "Died in London at age 99",
+        "eventZh": "在伦敦逝世，享年99岁"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/eve-arnold/",
+      "https://en.wikipedia.org/wiki/Eve_Arnold"
+    ]
+  },
+  {
+    "id": "alex-webb",
+    "name": "Alex Webb",
+    "nameZh": "亚历克斯·韦伯",
+    "born": 1952,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer and Magnum member known for his complex, layered color photographs of the US-Mexico border, the Caribbean, and conflict zones. A master of color street photography.",
+    "bioLong": "亚历克斯·韦伯是当代彩色街头摄影最重要的实践者之一。他的照片以极度复杂的多层构图和炽热的色彩闻名——阴影、光线、人物和建筑在同一个画面中编织出近乎不可能的视觉密度。从海地到墨西哥边境，从伊斯坦布尔到古巴，他在热带和冲突地带的工作重新定义了彩色纪实摄影的可能性。他深受威廉·克莱因和加里·温诺格兰德影响，但发展出了完全属于自己的视觉语言——一种在混乱中发现秩序、在日常中揭示超现实的独特能力。",
+    "movements": [
+      "magnum",
+      "street",
+      "new-color"
+    ],
+    "techniques": [
+      "color",
+      "street",
+      "layered-composition"
+    ],
+    "influencedBy": [
+      "william-klein",
+      "garry-winogrand"
+    ],
+    "works": [
+      {
+        "title": "Istanbul, Turkey",
+        "titleZh": "伊斯坦布尔，土耳其",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/alex-webb/",
+        "description": "A multi-layered street scene with intersecting light and shadow, exemplifying Webb's signature complexity.",
+        "descriptionZh": "交叉光影中的多层街景，体现了韦伯标志性的视觉复杂性。"
+      },
+      {
+        "title": "Nuevo Laredo, Mexico",
+        "titleZh": "新拉雷多，墨西哥",
+        "year": 1996,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/alex-webb/",
+        "description": "A vibrant border town scene from his decades-long US-Mexico border project.",
+        "descriptionZh": "来自他持续数十年的美墨边境项目中的鲜明边境城镇场景。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1952,
+        "event": "Born in San Francisco, California",
+        "eventZh": "出生于加利福尼亚州旧金山"
+      },
+      {
+        "year": 1976,
+        "event": "Joined Magnum Photos as an associate",
+        "eventZh": "作为准成员加入马格南图片社"
+      },
+      {
+        "year": 1986,
+        "event": "Published Hot Light/Half-Made Worlds, his breakthrough book",
+        "eventZh": "出版《灼热之光/半成之世》，突破性作品集"
+      },
+      {
+        "year": 2003,
+        "event": "Published Istanbul: City of a Hundred Names",
+        "eventZh": "出版《伊斯坦布尔：百名之城》"
+      },
+      {
+        "year": 2010,
+        "event": "The Suffering of Light retrospective published",
+        "eventZh": "出版回顾集《光的苦痛》"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/alex-webb/",
+      "https://en.wikipedia.org/wiki/Alex_Webb"
+    ]
+  },
+  {
+    "id": "anna-atkins",
+    "name": "Anna Atkins",
+    "nameZh": "安娜·阿特金斯",
+    "born": 1799,
+    "died": 1871,
+    "country": "GB",
+    "region": "europe",
+    "bio": "English botanist and photographer, considered the first person to publish a book illustrated with photographic images. Her cyanotype prints of algae are pioneering works of both science and art.",
+    "bioLong": "安娜·阿特金斯是摄影史上最重要的女性先驱。1843年她开始使用约翰·赫歇尔发明的氰版印相法（蓝晒法）制作英国藻类的照片标本，将植物直接放置在感光纸上曝光，创造出精美的白色轮廓与深蓝背景的影像。她的《英国藻类照片》被认为是世界上第一部以摄影插图出版的书籍，比塔尔博特的《自然之笔》还要早几个月。这些既是科学文献又是艺术作品的蓝晒印相，将摄影、植物学和设计完美融合，是维多利亚时代女性智识成就的杰出代表。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "cyanotype",
+      "photogram",
+      "botanical-illustration"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Photographs of British Algae: Cyanotype Impressions",
+        "titleZh": "英国藻类照片：氰版印相",
+        "year": 1843,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Anna_Atkins_algae_cyanotype.jpg/800px-Anna_Atkins_algae_cyanotype.jpg",
+        "description": "Pages from the first book illustrated with photographic images, featuring cyanotype prints of algae specimens.",
+        "descriptionZh": "世界上第一部以摄影插图出版的书籍中的页面，以蓝晒法呈现藻类标本。"
+      },
+      {
+        "title": "Dictyota dichotoma, in the young state & in fruit",
+        "titleZh": "叉状网地藻，幼态与果态",
+        "year": 1843,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Anna_Atkins_-_Dictyota_dichotoma.jpg/800px-Anna_Atkins_-_Dictyota_dichotoma.jpg",
+        "description": "A delicate cyanotype of branching algae, demonstrating the artistic beauty of scientific documentation.",
+        "descriptionZh": "分枝藻类的精致蓝晒印相，展示了科学记录的艺术之美。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1799,
+        "event": "Born in Tonbridge, Kent, England",
+        "eventZh": "出生于英格兰肯特郡唐布里奇"
+      },
+      {
+        "year": 1825,
+        "event": "Married and began serious botanical studies",
+        "eventZh": "结婚并开始系统的植物学研究"
+      },
+      {
+        "year": 1843,
+        "event": "Began Photographs of British Algae, the first photo-illustrated book",
+        "eventZh": "开始制作《英国藻类照片》，世界第一部摄影插图书"
+      },
+      {
+        "year": 1853,
+        "event": "Completed the algae book with over 400 cyanotype prints",
+        "eventZh": "完成藻类书，包含超过400幅蓝晒印相"
+      },
+      {
+        "year": 1871,
+        "event": "Died in Halstead, Kent",
+        "eventZh": "在肯特郡霍尔斯特德去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Anna_Atkins",
+      "https://www.nypl.org/events/exhibitions/anna-atkins"
+    ]
+  },
+  {
+    "id": "karl-blossfeldt",
+    "name": "Karl Blossfeldt",
+    "nameZh": "卡尔·布洛斯菲尔德",
+    "born": 1865,
+    "died": 1932,
+    "country": "DE",
+    "region": "europe",
+    "bio": "German photographer and educator known for his magnified photographs of plant forms. His images revealed the architectural beauty of nature and influenced both New Objectivity and Bauhaus design.",
+    "bioLong": "卡尔·布洛斯菲尔德是新客观主义摄影最重要的代表人物之一。他原本是柏林艺术学院的雕塑教授，拍摄植物照片最初只是教学辅助工具。但当他用自制的相机将花蕾、茎叶和种子放大数十倍后，这些影像呈现出令人震惊的建筑性和装饰性——卷曲的蕨叶如同哥特式尖顶，蒲公英的种子如同精密的工业设计。1928年他出版的《自然界的艺术形式》立即引起轰动，被超现实主义者和包豪斯设计师视为自然与艺术统一的证明。他的工作预言了微距摄影的审美潜力。",
+    "movements": [
+      "bauhaus",
+      "new-objectivity"
+    ],
+    "techniques": [
+      "macro",
+      "botanical",
+      "black-and-white"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Urformen der Kunst (Art Forms in Nature), Plate 45",
+        "titleZh": "自然界的艺术形式，图版45",
+        "year": 1928,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Karl_Blossfeldt_-_Adiantum_pedatum.jpg/800px-Karl_Blossfeldt_-_Adiantum_pedatum.jpg",
+        "description": "Magnified fern fronds revealing architectural patterns in plant structures.",
+        "descriptionZh": "放大的蕨类叶片，揭示了植物结构中的建筑性图案。"
+      },
+      {
+        "title": "Acanthus mollis",
+        "titleZh": "软叶老鸦嘴花",
+        "year": 1928,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Blossfeldt_Acanthus_mollis.jpg/800px-Blossfeldt_Acanthus_mollis.jpg",
+        "description": "A magnified plant form that echoes Corinthian column capitals, demonstrating nature's inherent architecture.",
+        "descriptionZh": "放大的植物形态呼应科林斯柱头，展示了自然固有的建筑性。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1865,
+        "event": "Born in Schielo, Harz, Germany",
+        "eventZh": "出生于德国哈尔茨山区希洛"
+      },
+      {
+        "year": 1898,
+        "event": "Began teaching at Berlin School of Applied Arts",
+        "eventZh": "开始在柏林应用艺术学校任教"
+      },
+      {
+        "year": 1900,
+        "event": "Started systematic photography of plant forms",
+        "eventZh": "开始系统拍摄植物形态"
+      },
+      {
+        "year": 1928,
+        "event": "Published Urformen der Kunst, an instant sensation",
+        "eventZh": "出版《自然界的艺术形式》，立即引起轰动"
+      },
+      {
+        "year": 1932,
+        "event": "Died in Berlin",
+        "eventZh": "在柏林去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Karl_Blossfeldt",
+      "https://www.moma.org/artists/613"
+    ]
+  },
+  {
+    "id": "tina-modotti",
+    "name": "Tina Modotti",
+    "nameZh": "蒂娜·莫多蒂",
+    "born": 1896,
+    "died": 1942,
+    "country": "IT",
+    "region": "europe",
+    "bio": "Italian-born photographer and political activist who created powerful modernist images in Mexico. Her photographs merged aesthetic innovation with revolutionary politics.",
+    "bioLong": "蒂娜·莫多蒂是20世纪最迷人的摄影师之一，一位将艺术与革命完美融合的传奇女性。出生于意大利乌迪内的工人家庭，她先后在好莱坞和墨西哥生活。在墨西哥期间，她师从爱德华·韦斯顿学习摄影，但很快发展出截然不同的方向——将韦斯顿式的形式主义与强烈的社会关怀结合。她的照片——工人的手、镰刀与玉米、革命标语——以现代主义的构图和光影呈现劳动者的尊严与革命的力量。她同时是一名坚定的共产主义活动家，短暂而燃烧般的一生横跨了艺术、政治和爱情。",
+    "movements": [
+      "straight"
+    ],
+    "techniques": [
+      "modernist",
+      "social-documentary",
+      "still-life"
+    ],
+    "influencedBy": [
+      "e-weston"
+    ],
+    "works": [
+      {
+        "title": "Workers' Hands",
+        "titleZh": "工人的手",
+        "year": 1927,
+        "image": null,
+        "href": "https://www.moma.org/artists/4039",
+        "description": "A study of a worker's hands resting on a tool, merging modernist form with social content.",
+        "descriptionZh": "工人的手搁在工具上的研究，将现代主义形式与社会内容融合。"
+      },
+      {
+        "title": "Bandolier, Corn and Sickle",
+        "titleZh": "子弹带、玉米与镰刀",
+        "year": 1927,
+        "image": null,
+        "href": "https://www.moma.org/artists/4039",
+        "description": "A still life of revolutionary symbols arranged with formal precision.",
+        "descriptionZh": "以精确形式编排的革命象征物静物。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1896,
+        "event": "Born in Udine, Italy",
+        "eventZh": "出生于意大利乌迪内"
+      },
+      {
+        "year": 1923,
+        "event": "Moved to Mexico with Edward Weston, began serious photography",
+        "eventZh": "与韦斯顿移居墨西哥，开始严肃摄影创作"
+      },
+      {
+        "year": 1927,
+        "event": "Created her most iconic political photographs",
+        "eventZh": "创作了最具标志性的政治摄影作品"
+      },
+      {
+        "year": 1930,
+        "event": "Expelled from Mexico for political activism",
+        "eventZh": "因政治活动被墨西哥驱逐"
+      },
+      {
+        "year": 1942,
+        "event": "Died in Mexico City at age 45",
+        "eventZh": "在墨西哥城去世，年仅45岁"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tina_Modotti",
+      "https://www.moma.org/artists/4039"
+    ]
+  },
+  {
+    "id": "issei-suda",
+    "name": "Issei Suda",
+    "nameZh": "须田一政",
+    "born": 1940,
+    "died": 2019,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photographer known for his poetic snapshots of everyday Japan. His work captured the atmosphere of festivals, back streets, and ordinary moments with a uniquely Japanese sensibility.",
+    "bioLong": "须田一政是日本战后摄影中最独特的诗人之一。与森山大道的粗粝激烈不同，须田的照片以内敛、诗意和微妙著称。他的代表作《风姿花传》（取自世阿弥的能乐论著）以正方形画幅捕捉日本各地的祭典、街巷和日常片段——面具下的脸、落樱中的行人、暗巷里的猫——这些影像散发出一种独特的日本式幽玄之美。他不追求决定性瞬间的戏剧性，而是在平凡中发现诗意、在日常中感受无常。他的工作深刻影响了后来的日本摄影师对「日常」的美学认知。",
+    "movements": [
+      "japan-postwar"
+    ],
+    "techniques": [
+      "street",
+      "medium-format",
+      "black-and-white"
+    ],
+    "influencedBy": [
+      "moriyama"
+    ],
+    "works": [
+      {
+        "title": "Fushi Kaden (The Flowering Spirit)",
+        "titleZh": "风姿花传",
+        "year": 1978,
+        "image": null,
+        "href": "https://www.japanphotomuseum.org/en/",
+        "description": "Poetic square-format photographs of Japanese festivals, streets, and everyday life.",
+        "descriptionZh": "以正方形画幅拍摄的日本祭典、街巷和日常生活的诗意照片。"
+      },
+      {
+        "title": "Waga Tokyo 100 (My Tokyo 100)",
+        "titleZh": "吾之东京100",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.japanphotomuseum.org/en/",
+        "description": "A personal visual diary of Tokyo, capturing the city's atmosphere with quiet intimacy.",
+        "descriptionZh": "东京的个人视觉日记，以安静的亲密感捕捉城市气息。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1940,
+        "event": "Born in Kanda, Tokyo",
+        "eventZh": "出生于东京神田"
+      },
+      {
+        "year": 1967,
+        "event": "Worked as assistant to theater photographer",
+        "eventZh": "担任戏剧摄影师的助手"
+      },
+      {
+        "year": 1978,
+        "event": "Published Fushi Kaden, his masterwork",
+        "eventZh": "出版代表作《风姿花传》"
+      },
+      {
+        "year": 2007,
+        "event": "Published Waga Tokyo 100",
+        "eventZh": "出版《吾之东京100》"
+      },
+      {
+        "year": 2019,
+        "event": "Died in Tokyo",
+        "eventZh": "在东京去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Issei_Suda",
+      "https://www.japanphotomuseum.org/en/"
+    ]
+  },
+  {
+    "id": "rene-burri",
+    "name": "René Burri",
+    "nameZh": "勒内·布里",
+    "born": 1933,
+    "died": 2014,
+    "country": "CH",
+    "region": "europe",
+    "bio": "Swiss photographer and Magnum member known for his iconic portraits and reportage. His image of Che Guevara with a cigar is one of the most famous photographs of the 20th century.",
+    "bioLong": "勒内·布里是瑞士最伟大的摄影师之一，也是马格南图片社的核心成员。他的作品跨越了半个世纪的世界历史——从古巴革命到巴西利亚的建设，从中东冲突到日本经济奇迹。1963年他在哈瓦那拍摄的切·格瓦拉叼着雪茄的肖像，成为20世纪最具辨识度的影像之一。但布里远不只是一位肖像摄影师——他对建筑、城市和日常生活的观察同样出色，他的几何构图和对光影的敏感让每一张照片都兼具新闻价值和美学力量。",
+    "movements": [
+      "magnum"
+    ],
+    "techniques": [
+      "photojournalism",
+      "portrait",
+      "architectural"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "works": [
+      {
+        "title": "Che Guevara, Havana",
+        "titleZh": "切·格瓦拉，哈瓦那",
+        "year": 1963,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/rene-burri/",
+        "description": "The iconic portrait of Che Guevara smoking a cigar during an interview.",
+        "descriptionZh": "切·格瓦拉在采访中吸雪茄的标志性肖像。"
+      },
+      {
+        "title": "Men on a Rooftop, São Paulo",
+        "titleZh": "屋顶上的人，圣保罗",
+        "year": 1960,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/rene-burri/",
+        "description": "Four men silhouetted on a modernist rooftop, a masterwork of geometric composition.",
+        "descriptionZh": "四个人在现代主义屋顶上的剪影，几何构图的杰作。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1933,
+        "event": "Born in Zurich, Switzerland",
+        "eventZh": "出生于瑞士苏黎世"
+      },
+      {
+        "year": 1959,
+        "event": "Joined Magnum Photos as an associate",
+        "eventZh": "作为准成员加入马格南图片社"
+      },
+      {
+        "year": 1963,
+        "event": "Photographed Che Guevara in Havana",
+        "eventZh": "在哈瓦那拍摄切·格瓦拉"
+      },
+      {
+        "year": 1998,
+        "event": "Published retrospective Photographs spanning four decades",
+        "eventZh": "出版跨越四十年的回顾作品集"
+      },
+      {
+        "year": 2014,
+        "event": "Died in Zurich",
+        "eventZh": "在苏黎世去世"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/rene-burri/",
+      "https://en.wikipedia.org/wiki/Ren%C3%A9_Burri"
+    ]
   }
 ]
