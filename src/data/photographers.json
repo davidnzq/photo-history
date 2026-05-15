@@ -1739,66 +1739,6 @@
     "bioLong": "1928 年生于巴黎(俄裔意大利家庭),在洛杉矶长大。1953 年加入 Magnum 图片社,成为其历史上任职最久的成员之一。他以机智、幽默和精准的时机著称:跳跃的吉娃娃与大丹犬之间的身高差、艾菲尔铁塔下的接吻情侣、尼克松戳赫鲁晓夫胸口的'厨房辩论'——每张照片都在严肃的纪实构图中藏着会心一笑。他也大量拍摄狗,出版了多本以狗为主题的摄影集。他的幽默是Magnum 传统中人文关怀的另一种表达。"
   },
   {
-    "id": "koudelka",
-    "name": "Josef Koudelka",
-    "nameZh": "寇德卡",
-    "born": 1938,
-    "died": null,
-    "country": "CZ",
-    "region": "europe",
-    "movements": [
-      "magnum",
-      "street"
-    ],
-    "influencedBy": [
-      "cartier-bresson"
-    ],
-    "bio": "捷克-法国摄影师,1968 年苏联坦克入侵布拉格的现场图像震惊西方,后流亡欧洲拍摄吉普赛人 17 年。",
-    "keyDates": [
-      {
-        "year": 1968,
-        "event": "布拉格入侵现场拍摄"
-      },
-      {
-        "year": 1975,
-        "event": "《Gypsies》出版"
-      },
-      {
-        "year": 1968,
-        "event": "匿名拍摄苏联入侵布拉格"
-      },
-      {
-        "year": 1975,
-        "event": "出版《吉普赛人》"
-      }
-    ],
-    "works": [
-      {
-        "title": "Invasion of Prague",
-        "year": 1968,
-        "image": null,
-        "credit": "Magnum Photos"
-      },
-      {
-        "title": "Prague, August 1968 (Wenceslas Square)",
-        "year": 1968,
-        "image": null,
-        "credit": "© Josef Koudelka / Magnum Photos",
-        "href": "https://www.magnumphotos.com/photographer/josef-koudelka/"
-      }
-    ],
-    "techniques": [
-      "黑白浓郁",
-      "广角徒步"
-    ],
-    "quote": "我必须看,我必须看见。",
-    "sources": [
-      "https://www.magnumphotos.com/photographer/josef-koudelka/",
-      "https://en.wikipedia.org/wiki/Josef_Koudelka"
-    ],
-    "bioLong": "1938 年生于捷克斯洛伐克摩拉维亚,原为航空工程师,业余拍摄吉普赛人的生活。1968 年苏联入侵布拉格时,他冒着生命危险用匿名方式拍摄了坦克碾过布拉格街头的照片——这组以'P.P.'(Prague Photographer)署名发表的图片震动西方世界。1970 年流亡西欧,以无国籍身份生活了近 20 年。他的《吉普赛人》(Gypsies, 1975)和《流亡》(Exiles, 1988)以粗粝的黑白影调和史诗般的构图表达了失去家园的孤独与尊严。2000 年代开始拍摄全景风景。"
-  },
-  {
     "id": "salgado",
     "name": "Sebastião Salgado",
     "nameZh": "萨尔加多",
@@ -2011,125 +1951,6 @@
       "https://en.wikipedia.org/wiki/Diane_Arbus"
     ],
     "bioLong": "1923 年生于纽约富裕的皮草商家庭,1960 年代成为美国最具争议性的摄影师。她专注于拍摄'社会边缘人'——双胞胎、侏儒、变装者、裸体营居民、智障者——以正面、直视镜头的方式呈现,既不猎奇也不美化。1967 年 MoMA 的'新纪实'(New Documents)展览将她与 Winogrand、Friedlander 并列,定义了纪实摄影的新方向:不再为社会改革服务,而是表达摄影师个人对世界的感受。1971 年自杀身亡,年仅 48 岁。1972 年威尼斯双年展的回顾展使她成为首位在该展出展的美国摄影师。"
-  },
-  {
-    "id": "winogrand",
-    "name": "Garry Winogrand",
-    "nameZh": "维诺格兰德",
-    "born": 1928,
-    "died": 1984,
-    "country": "US",
-    "region": "n-america",
-    "movements": [
-      "street"
-    ],
-    "influencedBy": [
-      "frank"
-    ],
-    "bio": "美国街头摄影标志性人物,生前未冲洗的胶卷以万计,代表了 1960-70 美国\"看上去到处都在发生事\"的能量。",
-    "keyDates": [
-      {
-        "year": 1967,
-        "event": "MoMA《New Documents》"
-      },
-      {
-        "year": 1969,
-        "event": "《女人很美》系列"
-      },
-      {
-        "year": 1967,
-        "event": "MoMA 'New Documents' 展览"
-      },
-      {
-        "year": 1984,
-        "event": "去世时留下 2500 卷未冲洗胶卷"
-      }
-    ],
-    "works": [
-      {
-        "title": "New York",
-        "year": 1969,
-        "image": null,
-        "credit": "Winogrand Estate"
-      },
-      {
-        "title": "World's Fair, New York City",
-        "year": 1964,
-        "image": null,
-        "credit": "© The Estate of Garry Winogrand",
-        "href": "https://www.moma.org/artists/6398"
-      }
-    ],
-    "techniques": [
-      "Leica 28mm",
-      "高速反应"
-    ],
-    "quote": "我拍照是为了看世界拍出来是什么样。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Garry_Winogrand",
-      "https://www.moma.org/artists/6398"
-    ],
-    "bioLong": "1928 年生于纽约布朗克斯,以狂热的拍摄速度和'歪斜的地平线'著称。他每天在纽约街头拍摄数百张,用 28mm 广角镜头以倾斜角度捕捉城市生活的混乱能量:动物园里看动物的人、机场候机厅的旅客、街头偶遇的陌生人组合。1984 年去世时留下 2500 卷未冲洗胶卷和 6500 卷已冲洗但未编辑的底片——这批惊人的'未完成档案'至今仍在被整理出版。他与 Arbus、Friedlander 构成 60 年代纽约新纪实摄影的三巨头。"
-  },
-  {
-    "id": "friedlander",
-    "name": "Lee Friedlander",
-    "nameZh": "弗里兰德",
-    "born": 1934,
-    "died": null,
-    "country": "US",
-    "region": "n-america",
-    "movements": [
-      "street"
-    ],
-    "influencedBy": [
-      "evans",
-      "frank"
-    ],
-    "bio": "美国街头摄影代表,以反射、自影、城市标志的\"美国社会风景\"著称,New Documents 三人之一。",
-    "keyDates": [
-      {
-        "year": 1967,
-        "event": "MoMA《New Documents》"
-      },
-      {
-        "year": 1970,
-        "event": "《Self Portrait》系列"
-      },
-      {
-        "year": 1967,
-        "event": "MoMA 'New Documents' 展览"
-      },
-      {
-        "year": 2005,
-        "event": "MoMA 大型回顾展,展出 400 多张作品"
-      }
-    ],
-    "works": [
-      {
-        "title": "New Orleans",
-        "year": 1968,
-        "image": null,
-        "credit": "Fraenkel Gallery"
-      },
-      {
-        "title": "New York City",
-        "year": 1966,
-        "image": null,
-        "credit": "© Lee Friedlander / Fraenkel Gallery",
-        "href": "https://www.moma.org/artists/2004"
-      }
-    ],
-    "techniques": [
-      "Leica 35mm",
-      "复杂叠层"
-    ],
-    "quote": "世界在橱窗里也在外面。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Lee_Friedlander",
-      "https://www.moma.org/artists/2004"
-    ],
-    "bioLong": "1934 年生于华盛顿州阿伯丁,自学摄影。他以冷峻、层次丰富的黑白照片记录美国社会风景:电视屏幕上的反射、电线杆与招牌的视觉混乱、橱窗中的自我倒影——'社会风景'(social landscape)这个概念因他而成为摄影术语。他的构图刻意制造视觉障碍:前景的树干遮住人物,镜面反射叠加多层空间,观看本身成为主题。1967 年 MoMA 'New Documents' 展奠定地位,此后数十年持续以同样的方法拍摄美国各地,作品量惊人且质量极为稳定。"
   },
   {
     "id": "r-adams",
@@ -2524,183 +2345,6 @@
       "https://en.wikipedia.org/wiki/Andreas_Gursky"
     ],
     "bioLong": "1955 年生于莱比锡,在杜塞尔多夫艺术学院师从 Becher 夫妇。他将 Becher 的类型学方法推向极致:用大画幅相机拍摄全球化时代的大尺度场景——证券交易所的屏幕矩阵、99 美分商店的商品墙、F1 赛道的鸟瞰、北韩的万人体操——然后以数字后期将多张照片无缝拼接,输出为动辄 2-3 米宽的巨幅打印。1999 年的《Rhine II》(莱茵河)以 430 万美元成为当时全球最贵的照片。他的作品模糊了摄影与绘画的边界,将消费社会和全球资本的景观转化为令人眩晕的抽象图案。"
-  },
-  {
-    "id": "struth",
-    "name": "Thomas Struth",
-    "nameZh": "施特鲁斯",
-    "born": 1954,
-    "died": null,
-    "country": "DE",
-    "region": "europe",
-    "movements": [
-      "dusseldorf"
-    ],
-    "influencedBy": [
-      "becher"
-    ],
-    "bio": "德国摄影师,杜塞尔多夫学派之一,以城市街道、博物馆观众、家庭肖像系列建立国际声誉。",
-    "keyDates": [
-      {
-        "year": 1989,
-        "event": "《Museum Photographs》系列"
-      },
-      {
-        "year": 2002,
-        "event": "《Family Portraits》系列"
-      },
-      {
-        "year": 1993,
-        "event": "博物馆系列在全球巡展,确立国际声誉"
-      },
-      {
-        "year": 2009,
-        "event": "开始拍摄高科技设施(NASA/CERN)"
-      }
-    ],
-    "works": [
-      {
-        "title": "Pantheon, Rome",
-        "year": 1990,
-        "image": null,
-        "credit": "Marian Goodman"
-      },
-      {
-        "title": "Museum Photographs — Art Institute of Chicago II",
-        "year": 1990,
-        "image": null,
-        "credit": "© Thomas Struth / Marian Goodman Gallery",
-        "href": "https://www.moma.org/artists/7457"
-      }
-    ],
-    "techniques": [
-      "大画幅",
-      "直角视点"
-    ],
-    "quote": "我把镜头当窗户使用。",
-    "sources": [
-      "https://www.moma.org/artists/7457",
-      "https://en.wikipedia.org/wiki/Thomas_Struth"
-    ],
-    "bioLong": "1954 年生于格尔德恩,杜塞尔多夫学派核心成员。他的创作以系列化展开:1970 年代的空无一人的城市街道(黑白,继承 Becher 的冷静视角);1990 年代的博物馆系列——在卢浮宫、普拉多等馆拍摄观众凝视名画的场景,画中画的结构质问了'观看'本身;2000 年代的丛林系列将巨幅镜头对准热带雨林的树冠层,创造出几乎不可读的绿色密度。他也拍摄家庭肖像和高科技设施(粒子加速器、NASA 火箭组装车间),在每个系列中都追求一种'超越个人情感的客观性'。"
-  },
-  {
-    "id": "ruff",
-    "name": "Thomas Ruff",
-    "nameZh": "鲁夫",
-    "born": 1958,
-    "died": null,
-    "country": "DE",
-    "region": "europe",
-    "movements": [
-      "dusseldorf"
-    ],
-    "influencedBy": [
-      "becher"
-    ],
-    "bio": "德国摄影师,杜塞尔多夫学派,以巨幅证件照式肖像、夜景、互联网图像与抽象图像探索摄影本体。",
-    "keyDates": [
-      {
-        "year": 1986,
-        "event": "《Porträts》系列开始"
-      },
-      {
-        "year": 1995,
-        "event": "《Nudes》互联网图像系列"
-      },
-      {
-        "year": 1989,
-        "event": "开始翻拍天文台底片的'Sterne'星空系列"
-      },
-      {
-        "year": 2003,
-        "event": "'nudes' 系列引发数字图像伦理讨论"
-      }
-    ],
-    "works": [
-      {
-        "title": "Portrait (A. Vollberg)",
-        "year": 1986,
-        "image": null,
-        "credit": "David Zwirner"
-      },
-      {
-        "title": "Porträt (Portrait) — Blue Eyes",
-        "year": 1991,
-        "image": null,
-        "credit": "© Thomas Ruff / VG Bild-Kunst",
-        "href": "https://www.moma.org/artists/7463"
-      }
-    ],
-    "techniques": [
-      "巨幅证件式",
-      "互联网截图"
-    ],
-    "quote": "摄影只展现表面。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Thomas_Ruff",
-      "https://www.moma.org/artists/7463"
-    ],
-    "bioLong": "1958 年生于策尔阿姆哈默斯巴赫,杜塞尔多夫学派中最激进的实验者。他的创作横跨几乎所有图像来源:早期的大尺幅护照式肖像(1981 起)继承 Sander/Becher 传统;1989 年的星空系列翻拍天文台底片;2000 年代的 'nudes' 系列用模糊处理将网络色情图片转化为印象派般的抽象;'jpeg' 系列放大数字压缩伪影;最近的 'press++' 系列在报社废弃的新闻底片上叠加手工着色。他不断追问:在数字时代,什么才算'照片'?"
-  },
-  {
-    "id": "hofer",
-    "name": "Candida Höfer",
-    "nameZh": "霍弗",
-    "born": 1944,
-    "died": null,
-    "country": "DE",
-    "region": "europe",
-    "movements": [
-      "dusseldorf"
-    ],
-    "influencedBy": [
-      "becher"
-    ],
-    "bio": "德国摄影师,以无人公共空间(图书馆、剧院、博物馆)的对称构图形成强烈视觉签名。",
-    "keyDates": [
-      {
-        "year": 1973,
-        "event": "入读杜塞尔多夫学院"
-      },
-      {
-        "year": 2003,
-        "event": "威尼斯双年展德国馆"
-      },
-      {
-        "year": 2003,
-        "event": "代表德国参加威尼斯双年展(与 Martin Kippenberger)"
-      },
-      {
-        "year": 2004,
-        "event": "拍摄都柏林圣三一学院图书馆标志性作品"
-      }
-    ],
-    "works": [
-      {
-        "title": "Biblioteca Real, Madrid",
-        "year": 2000,
-        "image": null,
-        "credit": "Sonnabend"
-      },
-      {
-        "title": "Trinity College Library, Dublin I",
-        "year": 2004,
-        "image": null,
-        "credit": "© Candida Höfer / VG Bild-Kunst",
-        "href": "https://www.moma.org/artists/35155"
-      }
-    ],
-    "techniques": [
-      "对称构图",
-      "空间无人化"
-    ],
-    "quote": "空间会替使用它的人说话。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Candida_H%C3%B6fer",
-      "https://www.moma.org/artists/35155"
-    ],
-    "bioLong": "1944 年生于科隆,杜塞尔多夫学派的重要成员。她以拍摄空旷的公共内部空间闻名:图书馆阅览室、歌剧院大厅、博物馆中庭、议会厅——所有空间都在无人使用时拍摄,精确对称的构图和柔和的自然光让建筑本身成为肖像的主体。她的大画幅照片(通常 150×200 厘米)以极端的细节精度和安静的庄严感著称,每张照片的拍摄周期长达数天(等待理想光线)。她的作品是对启蒙时代以来公共空间理想的视觉冥想。"
   },
   {
     "id": "tomatsu",
@@ -3997,73 +3641,6 @@
     "bioLong": "1923 年生于纽约,20 世纪最具影响力的肖像与时尚摄影师之一。1945 年加入 Harper's Bazaar,在艺术总监 Alexey Brodovitch 指导下革新时尚摄影:让模特走出摄影棚,在巴黎街头、夜总会、马戏团中自由运动,赋予时尚照片叙事性和生命力。1966 年转投 Vogue。同时他以白背景极简肖像闻名:将被摄者从一切环境中剥离,只留下面孔与身体的真相。《In the American West》(1985)用同样方法拍摄美国西部底层劳动者——农场工人、矿工、服务员——每张 4×5 英寸底片放大到近真人大小,尊严与脆弱并存。2004 年在为《纽约客》拍摄总统竞选时心脏病发去世。"
   },
   {
-    "id": "penn",
-    "name": "Irving Penn",
-    "nameZh": "佩恩",
-    "born": 1917,
-    "died": 2009,
-    "country": "US",
-    "region": "n-america",
-    "movements": [
-      "fashion",
-      "straight"
-    ],
-    "influencedBy": [],
-    "bio": "美国摄影师,Vogue 长达六十年合作。极简灰白棚拍背景 + 椅子角落构图(Corner Portraits)成时尚摄影标杆,静物-时装-人种学(秘鲁 Cuzco 系列)统一在同一种节制语言下。",
-    "keyDates": [
-      {
-        "year": 1943,
-        "event": "入职 Vogue"
-      },
-      {
-        "year": 1948,
-        "event": "秘鲁 Cuzco 肖像系列"
-      },
-      {
-        "year": 1950,
-        "event": "Corner Portraits 系列"
-      },
-      {
-        "year": 1943,
-        "event": "加入 Vogue,开始 60 年合作"
-      },
-      {
-        "year": 1967,
-        "event": "开始'Small Trades'全球劳动者肖像系列"
-      },
-      {
-        "year": 2017,
-        "event": "MoMA 百年诞辰回顾展 'Centennial'"
-      }
-    ],
-    "works": [
-      {
-        "title": "Cuzco Children",
-        "year": 1948,
-        "image": null,
-        "credit": "© Irving Penn Foundation"
-      },
-      {
-        "title": "Girl Behind Bottle (Jean Patchett), New York",
-        "year": 1949,
-        "image": null,
-        "credit": "© The Irving Penn Foundation",
-        "href": "https://www.moma.org/artists/4586"
-      }
-    ],
-    "techniques": [
-      "8x10 棚拍",
-      "灰白背景",
-      "极简构图"
-    ],
-    "quote": "一张好照片,什么都不去说。",
-    "sources": [
-      "https://www.moma.org/artists/4586",
-      "https://en.wikipedia.org/wiki/Irving_Penn"
-    ],
-    "bioLong": "1917 年生于新泽西州普莱恩菲尔德,在费城艺术博物馆学校师从 Alexey Brodovitch。1943 年加入《Vogue》,此后合作长达 60 年。他的标志性方法是将被摄者——无论是顶级模特还是巴布亚新几内亚的部落战士——置于极简的灰色或白色背景前,用精确到苛刻的布光呈现每一个细节。他的静物摄影同样出众:冰冻的食物、枯萎的花、香烟烟蒂,每一组都以近乎荷兰古典油画的光影处理。铂金印相(Platinum/Palladium print)技术的精湛运用使他的暗房工艺达到摄影工艺的巅峰。"
-  },
-  {
     "id": "newton",
     "name": "Helmut Newton",
     "nameZh": "赫尔穆特·牛顿",
@@ -4264,73 +3841,6 @@
     "bioLong": "1902 年生于墨西哥城,被誉为'拉丁美洲摄影之父'。他的作品融合墨西哥民间文化的神秘感与欧洲超现实主义的诗意:一个沉睡在仙人掌旁的裸体女人(《La buena fama durmiendo》)、一个刚被子弹击中的工人(《Obrero en huelga, asesinado》)——每张照片都在现实与梦境之间游移。他与 Diego Rivera、Frida Kahlo 和 André Breton 交往密切,Breton 称他为'最纯粹的超现实主义者'。他一生几乎只在墨西哥拍摄,用六十年的持续创作建立了拉丁美洲独立于欧美的摄影传统。"
   },
   {
-    "id": "iturbide",
-    "name": "Graciela Iturbide",
-    "nameZh": "伊图尔比德",
-    "born": 1942,
-    "died": null,
-    "country": "MX",
-    "region": "latin",
-    "movements": [
-      "latin-american-modernism"
-    ],
-    "influencedBy": [
-      "alvarez-bravo"
-    ],
-    "bio": "墨西哥摄影师,Bravo 学生,长期记录萨波特克族原住民。《天使女人》(1979)是 Sonora 沙漠中携带卡带的塞里族女性,被视为拉美摄影象征性影像。",
-    "keyDates": [
-      {
-        "year": 1969,
-        "event": "师从 Bravo"
-      },
-      {
-        "year": 1979,
-        "event": "Juchitán《天使女人》"
-      },
-      {
-        "year": 2008,
-        "event": "Hasselblad 国际摄影奖"
-      },
-      {
-        "year": 1979,
-        "event": "拍摄《鬣蜥女王》,成为标志性作品"
-      },
-      {
-        "year": 1989,
-        "event": "出版《Juchitán de las Mujeres》"
-      },
-      {
-        "year": 2008,
-        "event": "获哈苏基金会国际摄影奖"
-      }
-    ],
-    "works": [
-      {
-        "title": "Mujer Ángel, Sonora",
-        "year": 1979,
-        "image": null,
-        "credit": "© Graciela Iturbide"
-      },
-      {
-        "title": "Nuestra Señora de las Iguanas, Juchitán",
-        "year": 1979,
-        "image": null,
-        "credit": "© Graciela Iturbide",
-        "href": "https://www.moma.org/artists/8121"
-      }
-    ],
-    "techniques": [
-      "35mm 黑白",
-      "长期蹲点"
-    ],
-    "quote": "时间在等我们,不是反过来。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Graciela_Iturbide",
-      "https://www.moma.org/artists/8121"
-    ],
-    "bioLong": "1942 年生于墨西哥城,师从 Manuel Álvarez Bravo,是墨西哥当代最重要的摄影师。她以拍摄墨西哥原住民文化闻名,尤其是瓦哈卡州胡奇坦的萨波特克族女性——1989 年出版的《Juchitán de las Mujeres》展现了这个母系社会中女性的力量与美。她的风格继承了 Bravo 的超现实诗意:一只站在女人头上展翅的鬣蜥(《Nuestra Señora de las Iguanas》)、沙漠中的仙人掌与死亡符号——每张照片都是墨西哥魔幻现实的视觉化身。"
-  },
-  {
     "id": "van-der-zee",
     "name": "James Van Der Zee",
     "nameZh": "范德齐",
@@ -4393,77 +3903,6 @@
     "bioLong": "1886 年生于马萨诸塞州勒诺克斯,1916 年在纽约哈莱姆区开设摄影工作室,成为哈莱姆文艺复兴时期最重要的影像记录者。从 1920 年代到 60 年代,他拍摄了哈莱姆黑人社区的方方面面:婚礼、葬礼、社交俱乐部、教堂活动、Marcus Garvey 的 UNIA 游行——为美国黑人中产阶级留下了最完整的视觉自传。他的肖像风格精致优雅,常使用修饰和叠印技术营造理想化效果。1969 年 Harlem on My Mind 展览让他重获关注,83 岁的他成为纽约文化偶像。"
   },
   {
-    "id": "parks",
-    "name": "Gordon Parks",
-    "nameZh": "戈登·帕克斯",
-    "born": 1912,
-    "died": 2006,
-    "country": "US",
-    "region": "n-america",
-    "movements": [
-      "black-american-photo",
-      "fsa",
-      "fashion"
-    ],
-    "influencedBy": [
-      "lange",
-      "evans"
-    ],
-    "bio": "美国摄影师 / 作家 / 导演,FSA 唯一黑人摄影师,LIFE 杂志首位黑人摄影师 (1948-72),1971 年执导《Shaft》开启 blaxploitation 电影。1942《American Gothic, Washington》为其代表作。",
-    "keyDates": [
-      {
-        "year": 1942,
-        "event": "加入 FSA;《American Gothic》"
-      },
-      {
-        "year": 1948,
-        "event": "入职 LIFE 杂志"
-      },
-      {
-        "year": 1971,
-        "event": "执导《Shaft》"
-      },
-      {
-        "year": 1942,
-        "event": "拍摄《美国哥特式》;加入 FSA"
-      },
-      {
-        "year": 1948,
-        "event": "成为 LIFE 杂志首位黑人专职摄影师"
-      },
-      {
-        "year": 1971,
-        "event": "执导电影《Shaft》"
-      }
-    ],
-    "works": [
-      {
-        "title": "American Gothic, Washington, D.C.",
-        "year": 1942,
-        "image": null,
-        "credit": "Library of Congress / Public Domain"
-      },
-      {
-        "title": "American Gothic, Washington, D.C. (Ella Watson)",
-        "year": 1942,
-        "image": "https://upload.wikimedia.org/wikipedia/commons/1/12/Grant_DeVolson_Wood_-_American_Gothic.jpg",
-        "credit": "Public Domain — Gordon Parks / Library of Congress",
-        "href": "https://www.gordonparksfoundation.org"
-      }
-    ],
-    "techniques": [
-      "35mm 报道",
-      "时尚棚拍",
-      "电影"
-    ],
-    "quote": "选你的武器,我选了相机。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Gordon_Parks",
-      "https://www.gordonparksfoundation.org"
-    ],
-    "bioLong": "1912 年生于堪萨斯州,美国第一位在《Life》杂志担任专职摄影师的黑人。他从芝加哥南区的贫困与种族歧视中成长起来,1942 年获得 Julius Rosenwald 奖学金进入 FSA 工作,在那里拍摄了《美国哥特式》(American Gothic)——一位黑人清洁女工手持拖把站在美国国旗前,直接引用和颠覆了 Grant Wood 的名画。在《Life》杂志的 20 年间(1948-1972),他深入报道了民权运动、贫困社区和穆斯林领袖 Malcolm X 的生活。1971 年他还执导了《Shaft》,成为好莱坞 Blaxploitation 类型的开山之作。"
-  },
-  {
     "id": "weems",
     "name": "Carrie Mae Weems",
     "nameZh": "威姆斯",
@@ -4477,7 +3916,7 @@
     ],
     "influencedBy": [
       "van-der-zee",
-      "parks"
+      "gordon-parks"
     ],
     "bio": "美国摄影师,《Kitchen Table》(1990) 系列以同一张餐桌为舞台,通过 20 张摆拍 + 文字重塑黑人女性自我表象。装置 + 影像 + 文字穿透身份与历史。2014 MacArthur 天才奖。",
     "keyDates": [
@@ -4594,70 +4033,6 @@
       "https://www.moma.org/artists/35340"
     ],
     "bioLong": "1921 年生于法属苏丹(今马里)巴马科,1948 年在巴马科开设肖像工作室,成为西非最著名的棚拍摄影师。从 1948 到 1962 年(马里独立),他为数以千计的巴马科市民拍摄了精心布置的黑白肖像:被摄者穿着最好的衣服,在花布背景前摆出自信的姿态。他的照片不是西方人类学家的'异域凝视',而是非洲人自己选择如何被记录——这一主体性让他成为非洲摄影史的标志人物。1990 年代被国际策展人重新发现后,在全球主要博物馆巡展。"
-  },
-  {
-    "id": "sidibe",
-    "name": "Malick Sidibé",
-    "nameZh": "西迪贝",
-    "born": 1936,
-    "died": 2016,
-    "country": "ML",
-    "region": "africa",
-    "movements": [
-      "west-african-studio"
-    ],
-    "influencedBy": [
-      "keita"
-    ],
-    "bio": "马里摄影师,'Bamako 之眼',1962 自立工作室。周末舞会与海滩青年记录使其成为非洲后殖民青年文化最重要的视觉档案者。2007 威尼斯双年展金狮终身成就奖,首位获奖的非洲艺术家。",
-    "keyDates": [
-      {
-        "year": 1962,
-        "event": "Studio Malick 开张"
-      },
-      {
-        "year": 2003,
-        "event": "Hasselblad 奖"
-      },
-      {
-        "year": 2007,
-        "event": "威尼斯金狮终身成就"
-      },
-      {
-        "year": 1962,
-        "event": "开始记录巴马科独立后的夜生活文化"
-      },
-      {
-        "year": 2003,
-        "event": "获哈苏基金会国际摄影奖(首位非洲获奖者)"
-      }
-    ],
-    "works": [
-      {
-        "title": "Nuit de Noël (Happy Club)",
-        "year": 1963,
-        "image": null,
-        "credit": "© Malick Sidibé Estate"
-      },
-      {
-        "title": "Nuit de Noël (Christmas Eve), Bamako",
-        "year": 1963,
-        "image": null,
-        "credit": "© Malick Sidibé / Estate",
-        "href": "https://www.moma.org/artists/62186"
-      }
-    ],
-    "techniques": [
-      "35mm 黑白",
-      "舞会现场",
-      "棚拍肖像"
-    ],
-    "quote": "音乐响起,他们就是另一个人。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Malick_Sidib%C3%A9",
-      "https://www.moma.org/artists/62186"
-    ],
-    "bioLong": "1936 年生于法属苏丹(今马里)巴马科,被称为'非洲夜生活之眼'。1960 年代马里独立后,他用闪光灯和中画幅相机记录了巴马科年轻人的舞厅夜生活:扭动的身体、时髦的西装与非洲印花裙、唱片机旁的笑脸——这些充满欢乐和自信的影像颠覆了西方对非洲的贫穷刻板印象。白天他也拍摄婚礼、节日和体育活动,几乎记录了独立后马里社会生活的方方面面。2003 年获哈苏基金会国际摄影奖,2017 年去世前成为首位在巴马科双年展获终身成就奖的非洲摄影师。"
   },
   {
     "id": "marey",
@@ -5631,67 +5006,6 @@
     "bioLong": "1951 年生于越南隆安省,1966 年 15 岁时接替在战场上牺牲的哥哥成为美联社摄影师。1972 年 6 月 8 日在展鹏拍下 9 岁女孩潘金淑(Kim Phúc)全身赤裸、被凝固汽油弹烧伤后在公路上奔跑尖叫的照片——这张《战火中的女孩》(The Terror of War)获得 1973 年普利策奖,成为越战中最具冲击力的反战影像,直接影响了美国公众对战争的态度。他在拍下照片后立即将孩子们送往医院救治。此后在洛杉矶为美联社工作至 2017 年退休。"
   },
   {
-    "id": "mark",
-    "name": "Mary Ellen Mark",
-    "nameZh": "玛丽·艾伦·马克",
-    "born": 1940,
-    "died": 2015,
-    "country": "US",
-    "region": "n-america",
-    "movements": [
-      "humanist",
-      "street"
-    ],
-    "influencedBy": [
-      "evans",
-      "lange"
-    ],
-    "bio": "美国摄影师,长期蹲点项目记录边缘群体:孟买妓女(《Falkland Road》)、印第安纳州精神病院(《Ward 81》)、流浪青少年(《Streetwise》)。同情但不浪漫化。",
-    "keyDates": [
-      {
-        "year": 1981,
-        "event": "《Falkland Road》出版"
-      },
-      {
-        "year": 1985,
-        "event": "《Streetwise》纪录片+画册"
-      },
-      {
-        "year": 1981,
-        "event": "出版《Falkland Road》,记录孟买性工作者"
-      },
-      {
-        "year": 1988,
-        "event": "《Streetwise》获奥斯卡纪录短片提名"
-      }
-    ],
-    "works": [
-      {
-        "title": "Tiny in Her Halloween Costume, Seattle",
-        "year": 1983,
-        "image": null,
-        "credit": "© Mary Ellen Mark Estate"
-      },
-      {
-        "title": "Streetwise — Erin and Tiny, Seattle",
-        "year": 1983,
-        "image": null,
-        "credit": "© Mary Ellen Mark / Mary Ellen Mark Foundation",
-        "href": "https://www.maryellemark.com"
-      }
-    ],
-    "techniques": [
-      "35mm 黑白",
-      "长期蹲点"
-    ],
-    "quote": "你必须真的喜欢人。",
-    "sources": [
-      "https://www.maryellemark.com",
-      "https://en.wikipedia.org/wiki/Mary_Ellen_Mark"
-    ],
-    "bioLong": "1940 年生于费城,美国最重要的纪实肖像摄影师之一。她专注于拍摄社会边缘群体:印度马戏团表演者、西雅图街头的流浪少女(《Streetwise》,1988)、孟买笼屋里的性工作者(《Falkland Road》,1981)——她会花数月甚至数年与拍摄对象建立信任后才按下快门。她的照片以黑白的沉重质感和对被摄者尊严的深刻尊重著称。1981 年的《Falkland Road》是她最具争议也最受赞誉的项目,花了 10 年才获准进入拍摄。"
-  },
-  {
     "id": "meyerowitz",
     "name": "Joel Meyerowitz",
     "nameZh": "迈耶罗维茨",
@@ -5705,7 +5019,7 @@
     ],
     "influencedBy": [
       "frank",
-      "winogrand"
+      "garry-winogrand"
     ],
     "bio": "美国摄影师,1960s 起街头彩色先锋(与 Eggleston / Shore 同代)。2001 911 后获唯一进入 Ground Zero 拍摄许可,9 个月 8000 张档案性记录。",
     "keyDates": [
@@ -5930,126 +5244,6 @@
     "bioLong": "1946 年生于温哥华,当代'摄影作为艺术'运动的关键人物。他将摄影从'纪录'推向'构建':像电影导演一样策划场景、雇佣演员、设计布光,然后用大画幅相机拍摄一张精心编排的'瞬间'——呈现在巨大的背光灯箱上。1978 年的《The Destroyed Room》模仿德拉克罗瓦的《萨达纳帕勒之死》,开创了'画面式摄影'(tableau photography)这一类型。他的作品游走于纪实与虚构之间:'near documentary'(近纪实)是他自己的术语——看起来像街头抓拍,实际上每个元素都经过编排。"
   },
   {
-    "id": "soth",
-    "name": "Alec Soth",
-    "nameZh": "索斯",
-    "born": 1969,
-    "died": null,
-    "country": "US",
-    "region": "n-america",
-    "movements": [
-      "new-color",
-      "magnum"
-    ],
-    "influencedBy": [
-      "shore",
-      "eggleston"
-    ],
-    "bio": "美国摄影师,Magnum 成员。2004《Sleeping by the Mississippi》8x10 彩色公路项目从明尼苏达到新奥尔良,与 Shore 同款气质但更忧郁。",
-    "keyDates": [
-      {
-        "year": 2004,
-        "event": "《Sleeping by the Mississippi》出版"
-      },
-      {
-        "year": 2008,
-        "event": "Magnum 正式成员"
-      },
-      {
-        "year": 2004,
-        "event": "出版《Sleeping by the Mississippi》,一举成名"
-      },
-      {
-        "year": 2008,
-        "event": "加入 Magnum 图片社"
-      }
-    ],
-    "works": [
-      {
-        "title": "Charles, Vasa, Minnesota",
-        "year": 2002,
-        "image": null,
-        "credit": "© Alec Soth / Magnum"
-      },
-      {
-        "title": "Charles, Vasa, Minnesota (Sleeping by the Mississippi)",
-        "year": 2002,
-        "image": null,
-        "credit": "© Alec Soth / Magnum Photos",
-        "href": "https://www.magnumphotos.com/photographer/alec-soth/"
-      }
-    ],
-    "techniques": [
-      "8x10 彩色",
-      "公路慢速"
-    ],
-    "quote": "我对自己感到困惑。",
-    "sources": [
-      "https://www.magnumphotos.com/photographer/alec-soth/",
-      "https://en.wikipedia.org/wiki/Alec_Soth"
-    ],
-    "bioLong": "1969 年生于明尼阿波利斯,2004 年出版处女作《Sleeping by the Mississippi》——沿密西西比河拍摄沿岸的孤独者、遗弃物和梦境般的风景——一夜之间成为 21 世纪美国纪实摄影的新声音。他继承了 Eggleston 和 Shore 的大画幅彩色传统,但注入了更强的叙事性和文学气质:每本书都是一次公路旅行式的视觉小说。2008 年加入 Magnum 图片社。后续系列《Niagara》(2006)探索美国爱情神话的破灭,《Songbook》(2015)记录美国社区生活的孤独与连接。他也是社交媒体时代最早反思摄影传播方式变化的严肃摄影师之一。"
-  },
-  {
-    "id": "crewdson",
-    "name": "Gregory Crewdson",
-    "nameZh": "克鲁森",
-    "born": 1962,
-    "died": null,
-    "country": "US",
-    "region": "n-america",
-    "movements": [
-      "dusseldorf"
-    ],
-    "influencedBy": [
-      "wall"
-    ],
-    "bio": "美国艺术家,以电影级搭建拍摄美国小镇黄昏:闭路灯、烟雾机、布景师团队,一张照片成本数万美元。把摄影做到电影一帧的精度。",
-    "keyDates": [
-      {
-        "year": 2002,
-        "event": "《Twilight》系列出版"
-      },
-      {
-        "year": 2008,
-        "event": "《Beneath the Roses》出版"
-      },
-      {
-        "year": 2001,
-        "event": "《Twilight》系列确立电影级制作摄影风格"
-      },
-      {
-        "year": 2008,
-        "event": "《Beneath the Roses》全球巡展"
-      }
-    ],
-    "works": [
-      {
-        "title": "Untitled (Ophelia)",
-        "year": 2001,
-        "image": null,
-        "credit": "© Gregory Crewdson / Gagosian"
-      },
-      {
-        "title": "Untitled (Ophelia), from Twilight",
-        "year": 2001,
-        "image": null,
-        "credit": "© Gregory Crewdson / Gagosian Gallery",
-        "href": "https://gagosian.com/artists/gregory-crewdson/"
-      }
-    ],
-    "techniques": [
-      "大型团队制作",
-      "电影灯光"
-    ],
-    "quote": "我每张照片都要一个剧本。",
-    "sources": [
-      "https://en.wikipedia.org/wiki/Gregory_Crewdson",
-      "https://gagosian.com/artists/gregory-crewdson/"
-    ],
-    "bioLong": "1962 年生于纽约布鲁克林,以电影级制作规模的摄影闻名。每张照片都需要数十人的剧组、专业灯光设备、雾机和起重机,在美国小镇的实景中搭建超现实的'日常噩梦':一个裸体女人漂浮在被洪水淹没的客厅中、深夜公路上无人的汽车亮着诡异的灯光——画面融合 Steven Spielberg 式郊区怀旧与 David Lynch 式心理恐惧。《Beneath the Roses》(2003-08)系列每张拍摄成本达数万美元,是摄影史上制作成本最高的系列之一。他在耶鲁大学任教,是'构建式摄影'(constructed photography)教育的核心人物。"
-  },
-  {
     "id": "lang-jingshan",
     "name": "Lang Jingshan",
     "nameZh": "郎静山",
@@ -6226,63 +5420,6 @@
     "bioLong": "1942 年生于印度旁遮普邦,被 Henri Cartier-Bresson 亲自推荐加入 Magnum 图片社(1977)——这一推荐本身就是对他纪实才华的最高认可。他用超过 50 年的时间拍摄印度:从英迪拉·甘地的葬礼到博帕尔毒气泄漏灾难,从恒河边的朝圣者到拉贾斯坦的骆驼集市——他的照片构建了当代印度最完整的影像叙事。他的风格在布列松式的决定性瞬间和印度文化特有的混沌活力之间找到了独特的平衡。"
   },
   {
-    "id": "neshat",
-    "name": "Shirin Neshat",
-    "nameZh": "希林·内沙",
-    "born": 1957,
-    "died": null,
-    "country": "IR",
-    "region": "middle-east",
-    "movements": [
-      "new-color"
-    ],
-    "influencedBy": [],
-    "bio": "伊朗-美国艺术家,《Women of Allah》(1993-97) 在伊斯兰女性身体上书写波斯诗篇 + 武器,把性别 / 宗教 / 离散合并为 1990s 当代摄影最具张力的政治图像。",
-    "keyDates": [
-      {
-        "year": 1996,
-        "event": "《Women of Allah》系列完成"
-      },
-      {
-        "year": 1999,
-        "event": "威尼斯双年展金狮奖"
-      },
-      {
-        "year": 1994,
-        "event": "开始《Women of Allah》系列"
-      },
-      {
-        "year": 1999,
-        "event": "凭《Turbulent》获威尼斯双年展金狮奖"
-      }
-    ],
-    "works": [
-      {
-        "title": "Rebellious Silence (from Women of Allah)",
-        "year": 1994,
-        "image": null,
-        "credit": "© Shirin Neshat / Gladstone Gallery"
-      },
-      {
-        "title": "Rebellious Silence (Women of Allah)",
-        "year": 1994,
-        "image": null,
-        "credit": "© Shirin Neshat / Gladstone Gallery",
-        "href": "https://www.moma.org/artists/36790"
-      }
-    ],
-    "techniques": [
-      "黑白手书",
-      "身体作媒介"
-    ],
-    "quote": "我不能假装我没有失去家园。",
-    "sources": [
-      "https://www.moma.org/artists/36790",
-      "https://en.wikipedia.org/wiki/Shirin_Neshat"
-    ],
-    "bioLong": "1957 年生于伊朗加兹温,1979 年伊斯兰革命前赴美留学,此后长期流亡。1993 年首次回到革命后的伊朗,被巨变震惊,开始创作《Women of Allah》系列——在覆盖面纱的女性面孔和手部上书写波斯诗歌,枪口指向镜头,质问西方对穆斯林女性的简单化想象。她的作品在摄影、影像装置和电影之间流动,持续探索流亡、身份、性别与权力的交织。1999 年凭影像装置《Turbulent》获威尼斯双年展金狮奖。她被认为是当代最重要的伊朗裔艺术家之一。"
-  },
-  {
     "id": "kawauchi",
     "name": "Rinko Kawauchi",
     "nameZh": "川内伦子",
@@ -6357,7 +5494,7 @@
     "influencedBy": [
       "newton",
       "avedon",
-      "penn"
+      "irving-penn"
     ],
     "bio": "秘鲁裔时尚摄影师,以为 Vogue、Vanity Fair 拍摄名人肖像与高端时装大片闻名,戴安娜王妃标志性肖像出自其手。",
     "bioLong": "1954 年生于秘鲁利马,1976 年移居伦敦,从零起步在时尚界闯荡。80 年代初为英国版 Vogue 拍摄第一组大片后逐渐崭露头角,90 年代成为全球最炙手可热的时尚摄影师之一。1997 年为戴安娜王妃拍摄的 Vanity Fair 封面肖像成为其最具标志性的作品——那组照片中的戴安娜放松自然,被公认为王妃最动人的影像。Testino 的风格融合拉丁美洲的色彩活力与欧洲高级时装的精致,擅长捕捉模特与名人最自然放松的一面。他长期为 Gucci、Burberry、Versace 等品牌拍摄广告,与 Gisele Bündchen、Kate Moss 等超模的合作定义了千禧年前后的时尚影像语言。2012 年在利马创办 MATE 博物馆,致力于将拉美当代艺术与摄影带入国际视野。",
@@ -8108,7 +7245,7 @@
     ],
     "influencedBy": [
       "avedon",
-      "penn"
+      "irving-penn"
     ],
     "bio": "美国时尚与名人摄影师,以加州阳光下的雕塑感黑白人体和名人肖像定义了 1980-90 年代的视觉文化。",
     "bioLong": "1952 年生于洛杉矶,在加州大学修读经济学期间开始为朋友拍照,1979 年为演员 Richard Gere 拍摄的一组公路旁即兴肖像让两人同时成名。80-90 年代他成为时尚与名人摄影的顶级人物:麦当娜、辛迪·克劳馥、超模 Naomi Campbell 的标志性形象大多出自他手。他的风格独特地融合了加州的自然光与古典雕塑的形体感:在沙漠或海滩的强光下,人体呈现出大理石般的质感和纪念碑式的庄严。他也为 Michael Jackson、Janet Jackson 拍摄 MV,将摄影美学带入流行音乐视觉。2002 年因 AIDS 并发症去世。",
@@ -9067,7 +8204,7 @@
     ],
     "influencedBy": [
       "wall",
-      "crewdson"
+      "gregory-crewdson"
     ],
     "bio": "美国摄影师,以电影级布光在街头拍摄'编排的偶然',模糊了纪实与虚构的边界。",
     "bioLong": "1951 年生于康涅狄格州,耶鲁大学 MFA。他最具标志性的方法是在纽约时代广场的街头预先架设闪光灯,然后等待路人走入光线——被闪光灯'挑选'出的路人在周围暗色人群中呈现出电影般的孤立感和戏剧性,仿佛在上演一个无名的故事。这种'编排的偶然'(staged candid)挑战了街头摄影的真实性预设。他早期的'家庭系列'(Hartford)则用电影布光拍摄家庭成员的日常场景,每张照片都暗含叙事张力。",
@@ -10918,8 +10055,16 @@
         "event": "拍摄'小世界'(Small Trades)系列"
       },
       {
+        "year": 1967,
+        "event": "开始'Small Trades'全球劳动者肖像系列"
+      },
+      {
         "year": 2009,
         "event": "去世于纽约"
+      },
+      {
+        "year": 2017,
+        "event": "MoMA 百年诞辰回顾展 'Centennial'"
       }
     ],
     "works": [
@@ -10982,6 +10127,10 @@
       {
         "year": 1988,
         "event": "出版《华纳特佩克》"
+      },
+      {
+        "year": 1989,
+        "event": "出版《Juchitán de las Mujeres》"
       },
       {
         "year": 2008,
@@ -11480,7 +10629,7 @@
       "fashion"
     ],
     "influencedBy": [
-      "penn"
+      "irving-penn"
     ],
     "bio": "意大利时尚摄影大师，以宝丽来8x10大画幅和朦胧诗意的光线风格独树一帜。",
     "bioLong": "保罗·罗韦西是当代时尚摄影界最具辨识度的大师之一。自1980年代起，他坚持使用宝丽来8x10大画幅相机拍摄时尚人像，以长时间曝光、自然光线和暗调色彩创造出一种介于绘画与摄影之间的朦胧美感。他的风格与追求锐利和商业感的主流时尚摄影截然相反——模特如同从文艺复兴油画中走出的幽灵，充满神秘与诗意。他长期为Dior、Comme des Garçons等品牌拍摄，2020年拍摄了Dior春夏高定系列。",
@@ -12114,7 +11263,7 @@
       "fashion"
     ],
     "influencedBy": [
-      "penn",
+      "irving-penn",
       "newton"
     ],
     "bio": "英国时尚摄影家和影像导演，SHOWstudio创始人，数码时尚影像的先驱。",
@@ -12425,6 +11574,739 @@
     "sources": [
       "https://en.wikipedia.org/wiki/Marc_Riboud",
       "https://www.magnumphotos.com/photographer/marc-riboud/"
+    ]
+  },
+  {
+    "id": "imogen-cunningham",
+    "name": "Imogen Cunningham",
+    "nameZh": "伊莫金·坎宁安",
+    "born": 1883,
+    "died": 1976,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer known for botanical photography, nudes, and industrial landscapes. A founding member of Group f/64, she helped establish West Coast modernist photography.",
+    "bioLong": "伊莫金·坎宁安是美国西海岸现代主义摄影的先驱者之一。1901年购入第一台相机后，她在西雅图和德累斯顿接受了系统的摄影教育。1920年代她开始拍摄植物特写和裸体，以惊人的锐度和几何构图见长。1932年她与安塞尔·亚当斯、爱德华·韦斯顿等人共同创立了 f/64 小组，倡导纯粹、清晰的直接摄影。晚年她转向街头肖像，93岁高龄仍活跃在创作一线。她的职业生涯横跨七十余年，见证了从画意主义到现代主义再到概念摄影的整个二十世纪摄影史。",
+    "movements": [
+      "straight"
+    ],
+    "techniques": [
+      "botanical-photography",
+      "portrait",
+      "nude"
+    ],
+    "influencedBy": [
+      "e-weston"
+    ],
+    "works": [
+      {
+        "title": "Magnolia Blossom",
+        "titleZh": "木兰花",
+        "year": 1925,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Imogen_Cunningham_Magnolia_Blossom_1925.jpg/800px-Imogen_Cunningham_Magnolia_Blossom_1925.jpg",
+        "description": "A close-up study of a magnolia flower, showcasing Cunningham's mastery of botanical forms and tonal precision.",
+        "descriptionZh": "木兰花特写，展示了坎宁安对植物形态和影调的精准把控。"
+      },
+      {
+        "title": "Two Callas",
+        "titleZh": "两朵马蹄莲",
+        "year": 1929,
+        "image": null,
+        "href": "https://www.moma.org/collection/works/46840",
+        "description": "An elegant study of two calla lilies, demonstrating her signature sharp-focus botanical style.",
+        "descriptionZh": "两朵马蹄莲的优雅研究，展示了她标志性的锐焦植物风格。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1901,
+        "event": "Purchased first camera in Seattle",
+        "eventZh": "在西雅图购入第一台相机"
+      },
+      {
+        "year": 1910,
+        "event": "Studied photographic chemistry in Dresden, Germany",
+        "eventZh": "赴德国德累斯顿学习摄影化学"
+      },
+      {
+        "year": 1925,
+        "event": "Created iconic botanical photographs including Magnolia Blossom",
+        "eventZh": "创作了标志性的植物摄影作品《木兰花》"
+      },
+      {
+        "year": 1932,
+        "event": "Co-founded Group f/64 with Adams and Weston",
+        "eventZh": "与亚当斯、韦斯顿共同创立 f/64 小组"
+      },
+      {
+        "year": 1970,
+        "event": "Retrospective at the age of 87, awarded Guggenheim Fellowship",
+        "eventZh": "87岁举办回顾展，获古根海姆奖学金"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Imogen_Cunningham",
+      "https://www.imogencunningham.com/"
+    ]
+  },
+  {
+    "id": "elliott-erwitt",
+    "name": "Elliott Erwitt",
+    "nameZh": "艾略特·厄韦特",
+    "born": 1928,
+    "died": 2023,
+    "country": "FR",
+    "region": "europe",
+    "bio": "French-born American photographer celebrated for his witty, ironic observations of everyday life. A longtime Magnum member, he was a master of the humorous decisive moment.",
+    "bioLong": "艾略特·厄韦特出生于巴黎的一个俄裔犹太家庭，少年时随家人辗转意大利和美国。他的摄影以幽默、讽刺和温情并存著称。1953年加入马格南图片社后，他以锐利的观察力捕捉日常生活中荒诞而动人的瞬间。他著名的狗狗系列既是对人类世界的隐喻，也是对摄影本身的一种戏谑。他同时是出色的商业摄影师和纪录片导演，职业生涯横跨七十年，是马格南最具辨识度的声音之一。",
+    "movements": [
+      "magnum",
+      "street"
+    ],
+    "techniques": [
+      "street",
+      "humor",
+      "animal-photography"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "capa"
+    ],
+    "works": [
+      {
+        "title": "Bulldogs, New York City",
+        "titleZh": "斗牛犬，纽约",
+        "year": 1974,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/elliott-erwitt/",
+        "description": "A humorous street photograph of two dogs and their owner's legs, exemplifying Erwitt's ability to find comedy in everyday scenes.",
+        "descriptionZh": "一张幽默的街头照片，两只狗和主人的腿构成妙趣横生的画面。"
+      },
+      {
+        "title": "North Carolina",
+        "titleZh": "北卡罗来纳",
+        "year": 1950,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/elliott-erwitt/",
+        "description": "Segregated water fountains, a powerful document of American racial segregation.",
+        "descriptionZh": "隔离饮水设施，美国种族隔离的有力视觉文献。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1928,
+        "event": "Born in Paris to Russian-Jewish parents",
+        "eventZh": "出生于巴黎的俄裔犹太家庭"
+      },
+      {
+        "year": 1948,
+        "event": "Met Edward Steichen and Robert Capa in New York",
+        "eventZh": "在纽约结识斯泰肯和卡帕"
+      },
+      {
+        "year": 1953,
+        "event": "Joined Magnum Photos",
+        "eventZh": "加入马格南图片社"
+      },
+      {
+        "year": 1974,
+        "event": "Published iconic dogs series photographs",
+        "eventZh": "发表标志性的狗狗系列照片"
+      },
+      {
+        "year": 2023,
+        "event": "Died in New York at age 95",
+        "eventZh": "在纽约逝世，享年95岁"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/elliott-erwitt/",
+      "https://en.wikipedia.org/wiki/Elliott_Erwitt"
+    ]
+  },
+  {
+    "id": "bruce-davidson",
+    "name": "Bruce Davidson",
+    "nameZh": "布鲁斯·戴维森",
+    "born": 1933,
+    "died": 2024,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer known for deeply immersive social documentary projects. His long-term engagement with marginalized communities set the standard for empathetic photojournalism.",
+    "bioLong": "布鲁斯·戴维森是美国社会纪实摄影最重要的实践者之一。1958年加入马格南图片社后，他开始以长期项目的方式深入社区——从布鲁克林帮派少年到东100街的贫困家庭，从纽约地铁到中央公园。他的工作方式强调与拍摄对象建立深度信任，往往在一个项目中投入数月甚至数年。《东100街》被视为纪实摄影的里程碑，展现了哈莱姆区一个街区居民的日常生活。他的《纽约地铁》则以彩色摄影重新定义了城市纪实的视觉语言。",
+    "movements": [
+      "magnum",
+      "street"
+    ],
+    "techniques": [
+      "documentary",
+      "long-term-project",
+      "color"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "w-eugene-smith"
+    ],
+    "works": [
+      {
+        "title": "East 100th Street",
+        "titleZh": "东100街",
+        "year": 1970,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/bruce-davidson/",
+        "description": "A landmark documentary project capturing life in a Harlem tenement block, created over two years of deep community engagement.",
+        "descriptionZh": "哈莱姆区一个街区的里程碑式纪实项目，历时两年深入社区拍摄。"
+      },
+      {
+        "title": "Subway",
+        "titleZh": "地铁",
+        "year": 1980,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/bruce-davidson/",
+        "description": "Vivid color photographs of New York City subway riders in the 1980s.",
+        "descriptionZh": "1980年代纽约地铁乘客的鲜明彩色影像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1933,
+        "event": "Born in Oak Park, Illinois",
+        "eventZh": "出生于伊利诺伊州橡树园"
+      },
+      {
+        "year": 1958,
+        "event": "Joined Magnum Photos at age 25",
+        "eventZh": "25岁加入马格南图片社"
+      },
+      {
+        "year": 1970,
+        "event": "Published East 100th Street",
+        "eventZh": "出版《东100街》"
+      },
+      {
+        "year": 1980,
+        "event": "Began Subway project",
+        "eventZh": "开始《地铁》项目"
+      },
+      {
+        "year": 2024,
+        "event": "Died in New York",
+        "eventZh": "在纽约逝世"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/bruce-davidson/",
+      "https://en.wikipedia.org/wiki/Bruce_Davidson_(photographer)"
+    ]
+  },
+  {
+    "id": "don-mccullin",
+    "name": "Don McCullin",
+    "nameZh": "唐·麦库林",
+    "born": 1935,
+    "died": null,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British photojournalist regarded as one of the greatest war photographers in history. His unflinching coverage of conflicts from Vietnam to Biafra defined the moral conscience of photojournalism.",
+    "bioLong": "唐·麦库林是20世纪最伟大的战地摄影师之一。出身伦敦芬斯伯里公园的工人阶级社区，他通过摄影走上了一条从未想象过的人生道路。从1960年代起，他辗转于塞浦路斯、越南、柬埔寨、比亚法拉和北爱尔兰等战场，用极具震撼力的黑白影像记录战争的残酷与人性的脆弱。晚年他转向英国北部工业衰退区和风景摄影，依然保持着对光影的精湛把控。",
+    "movements": [
+      "war-photography"
+    ],
+    "techniques": [
+      "war-photography",
+      "photojournalism",
+      "black-and-white"
+    ],
+    "influencedBy": [
+      "capa"
+    ],
+    "works": [
+      {
+        "title": "Shell Shocked Marine, Hue",
+        "titleZh": "贝壳震荡的海军陆战队员，顺化",
+        "year": 1968,
+        "image": null,
+        "href": "https://www.tate.org.uk/art/artists/don-mccullin-2587",
+        "description": "An iconic portrait of a traumatized US Marine during the Battle of Hue.",
+        "descriptionZh": "顺化战役中一名受创美国海军陆战队员的标志性肖像。"
+      },
+      {
+        "title": "Biafra, Albino Boy",
+        "titleZh": "比亚法拉，白化病男孩",
+        "year": 1969,
+        "image": null,
+        "href": "https://www.tate.org.uk/art/artists/don-mccullin-2587",
+        "description": "A haunting image from the Nigerian Civil War famine.",
+        "descriptionZh": "尼日利亚内战饥荒中令人难忘的影像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1935,
+        "event": "Born in Finsbury Park, London",
+        "eventZh": "出生于伦敦芬斯伯里公园"
+      },
+      {
+        "year": 1959,
+        "event": "First published photograph in The Observer",
+        "eventZh": "第一张照片发表于《观察家报》"
+      },
+      {
+        "year": 1968,
+        "event": "Covered the Battle of Hue during Vietnam War",
+        "eventZh": "报道越战中的顺化战役"
+      },
+      {
+        "year": 1993,
+        "event": "Awarded CBE for services to photography",
+        "eventZh": "因对摄影的贡献获颁大英帝国司令勋章"
+      },
+      {
+        "year": 2017,
+        "event": "Knighted for services to photography",
+        "eventZh": "因对摄影的贡献被封为爵士"
+      }
+    ],
+    "sources": [
+      "https://www.tate.org.uk/art/artists/don-mccullin-2587",
+      "https://en.wikipedia.org/wiki/Don_McCullin"
+    ]
+  },
+  {
+    "id": "susan-meiselas",
+    "name": "Susan Meiselas",
+    "nameZh": "苏珊·梅塞拉斯",
+    "born": 1948,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American documentary photographer known for her coverage of the Nicaraguan revolution and for redefining the relationship between photographer and subject in conflict zones.",
+    "bioLong": "苏珊·梅塞拉斯是美国最具影响力的纪实摄影师之一。1976年加入马格南图片社，1978至1979年她深入尼加拉瓜拍摄桑地尼斯塔革命，彩色画面中的革命者成为20世纪最具辨识度的冲突影像。她的工作始终关注影像的伦理、所有权和流通问题。后来的项目涵盖萨尔瓦多内战、库尔德斯坦历史和美国家庭暴力等议题，持续拓展着纪实摄影的边界。",
+    "movements": [
+      "magnum",
+      "war-photography"
+    ],
+    "techniques": [
+      "documentary",
+      "color",
+      "conflict-photography"
+    ],
+    "influencedBy": [
+      "capa"
+    ],
+    "works": [
+      {
+        "title": "Molotov Man, Nicaragua",
+        "titleZh": "莫洛托夫鸡尾酒人，尼加拉瓜",
+        "year": 1979,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/susan-meiselas/",
+        "description": "An iconic image of a Sandinista fighter throwing a Molotov cocktail.",
+        "descriptionZh": "一名桑地尼斯塔战士投掷燃烧瓶的标志性影像。"
+      },
+      {
+        "title": "Carnival Strippers",
+        "titleZh": "嘉年华脱衣舞者",
+        "year": 1976,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/susan-meiselas/",
+        "description": "Her first major project documenting women performers at New England fairs.",
+        "descriptionZh": "她的首个重要项目，记录新英格兰集市上的女性表演者。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1948,
+        "event": "Born in Baltimore, Maryland",
+        "eventZh": "出生于马里兰州巴尔的摩"
+      },
+      {
+        "year": 1976,
+        "event": "Joined Magnum Photos; published Carnival Strippers",
+        "eventZh": "加入马格南图片社；出版《嘉年华脱衣舞者》"
+      },
+      {
+        "year": 1979,
+        "event": "Covered Nicaraguan revolution; created Molotov Man",
+        "eventZh": "报道尼加拉瓜革命，创作《莫洛托夫鸡尾酒人》"
+      },
+      {
+        "year": 1992,
+        "event": "Began Kurdistan project on collective memory",
+        "eventZh": "开始库尔德斯坦集体记忆项目"
+      },
+      {
+        "year": 2019,
+        "event": "Awarded Deutsche Boerse Photography Foundation Prize",
+        "eventZh": "获德意志交易所摄影基金奖"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/susan-meiselas/",
+      "https://en.wikipedia.org/wiki/Susan_Meiselas"
+    ]
+  },
+  {
+    "id": "shoji-ueda",
+    "name": "Shoji Ueda",
+    "nameZh": "植田正治",
+    "born": 1913,
+    "died": 2000,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photographer known for his surrealistic staged photographs set in the Tottori sand dunes. His playful, dreamlike compositions bridged Eastern and Western traditions.",
+    "bioLong": "植田正治是日本摄影史上最独特的存在之一。他一生以家乡鸟取砂丘为舞台，创作出一系列超现实主义风格的编导式摄影作品。在砂丘上，他让家人和朋友身着正装、撑着雨伞、摆出戏剧性的姿态，创造出介于现实与梦境之间的诗意画面。这种被称为「植田调」的独特风格——空旷的地平线、精确的人物编排、幽默与诗意并存——在日本和欧洲都获得了高度评价。他的作品证明：伟大的摄影不需要都市、不需要冲突，一片沙丘就足以容纳一个完整的宇宙。",
+    "movements": [
+      "japan-postwar"
+    ],
+    "techniques": [
+      "staged-photography",
+      "surrealism",
+      "landscape"
+    ],
+    "influencedBy": [
+      "kimura-ihei"
+    ],
+    "works": [
+      {
+        "title": "Papa, Mama and the Children in the Dune",
+        "titleZh": "沙丘上的爸爸、妈妈和孩子们",
+        "year": 1949,
+        "image": null,
+        "href": "https://www.japanphotomuseum.org/en/",
+        "description": "A surrealist family portrait in Tottori Sand Dunes.",
+        "descriptionZh": "鸟取砂丘上的超现实家庭肖像。"
+      },
+      {
+        "title": "Small Biographies of My Townspeople",
+        "titleZh": "小传·我的乡人们",
+        "year": 1950,
+        "image": null,
+        "href": "https://www.japanphotomuseum.org/en/",
+        "description": "A series documenting Ueda's neighbors in staged, whimsical portraits.",
+        "descriptionZh": "一组记录植田邻居的编导式肖像系列。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1913,
+        "event": "Born in Sakaiminato, Tottori Prefecture",
+        "eventZh": "出生于鸟取县境港市"
+      },
+      {
+        "year": 1932,
+        "event": "Opened a portrait studio in his hometown",
+        "eventZh": "在家乡开设肖像照相馆"
+      },
+      {
+        "year": 1949,
+        "event": "Created iconic Sand Dunes series with family members",
+        "eventZh": "以家人为模特创作标志性砂丘系列"
+      },
+      {
+        "year": 1978,
+        "event": "Retrospective toured Japan",
+        "eventZh": "回顾展在日本巡展"
+      },
+      {
+        "year": 1996,
+        "event": "Shoji Ueda Museum of Photography opened in Tottori",
+        "eventZh": "植田正治写真美术馆在鸟取开馆"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Sh%C5%8Dji_Ueda",
+      "https://www.japanphotomuseum.org/en/"
+    ]
+  },
+  {
+    "id": "richard-misrach",
+    "name": "Richard Misrach",
+    "nameZh": "理查德·米斯拉奇",
+    "born": 1949,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer known for his large-format color photographs of the American desert landscape and environmental degradation.",
+    "bioLong": "理查德·米斯拉奇是美国当代风景摄影最重要的实践者之一。从1979年开始的《沙漠颂歌》系列——一个持续至今的宏大项目——以大画幅彩色摄影记录了美国西部沙漠的壮美与创伤：核试验场、军事废弃物、环境污染与自然的顽强再生。他的照片以惊人的色彩饱和度和史诗般的构图著称，在美学极致中揭示环境危机。近年的《墙上风景》系列以美墨边境墙为主题，将政治景观纳入他的视觉体系。",
+    "movements": [
+      "new-topographics",
+      "new-color"
+    ],
+    "techniques": [
+      "large-format",
+      "color",
+      "landscape",
+      "environmental"
+    ],
+    "influencedBy": [
+      "r-adams",
+      "shore"
+    ],
+    "works": [
+      {
+        "title": "Desert Fire #153",
+        "titleZh": "沙漠之火 #153",
+        "year": 1983,
+        "image": null,
+        "href": "https://fraenkelgallery.com/artists/richard-misrach",
+        "description": "A dramatically lit desert fire scene from the Desert Cantos series.",
+        "descriptionZh": "《沙漠颂歌》系列中一幅戏剧性的沙漠火灾场景。"
+      },
+      {
+        "title": "Wall, East of Nogales",
+        "titleZh": "墙，诺加莱斯以东",
+        "year": 2015,
+        "image": null,
+        "href": "https://fraenkelgallery.com/artists/richard-misrach",
+        "description": "From the Border Cantos series, documenting the US-Mexico border wall.",
+        "descriptionZh": "来自《边境颂歌》系列，将美墨边境墙作为政治景观记录。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1949,
+        "event": "Born in Los Angeles, California",
+        "eventZh": "出生于加利福尼亚州洛杉矶"
+      },
+      {
+        "year": 1979,
+        "event": "Began Desert Cantos series",
+        "eventZh": "开始《沙漠颂歌》系列"
+      },
+      {
+        "year": 1992,
+        "event": "Violent Legacies documented nuclear test sites",
+        "eventZh": "《暴力遗产》记录了核试验场地"
+      },
+      {
+        "year": 2011,
+        "event": "Petrochemical America published",
+        "eventZh": "出版《石化美国》"
+      },
+      {
+        "year": 2016,
+        "event": "Border Cantos exhibited at Amon Carter Museum",
+        "eventZh": "《边境颂歌》在阿蒙·卡特博物馆展出"
+      }
+    ],
+    "sources": [
+      "https://fraenkelgallery.com/artists/richard-misrach",
+      "https://en.wikipedia.org/wiki/Richard_Misrach"
+    ]
+  },
+  {
+    "id": "michael-kenna",
+    "name": "Michael Kenna",
+    "nameZh": "迈克尔·肯纳",
+    "born": 1953,
+    "died": null,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British photographer known for minimalist black-and-white landscapes created with long exposures. His meditative images have a global following.",
+    "bioLong": "迈克尔·肯纳是当代最具辨识度的风景摄影师之一。出生于英格兰兰开夏郡，在伦敦学习摄影后移居美国。他的标志性风格——极简构图、长时间曝光（有时长达10小时）、精致的银盐冲印——将风景摄影提升到了冥想的境界。他在全世界拍摄——从北海道的雪原到中国的黄山——每张照片都散发出宁静与永恒的气息。他的作品在日本尤其受到尊崇，与日本侘寂美学有着深刻的精神共鸣。",
+    "movements": [
+      "new-topographics"
+    ],
+    "techniques": [
+      "long-exposure",
+      "black-and-white",
+      "minimalist-landscape"
+    ],
+    "influencedBy": [
+      "bill-brandt",
+      "a-adams"
+    ],
+    "works": [
+      {
+        "title": "Kussharo Lake Tree, Study 1, Kotan, Hokkaido",
+        "titleZh": "屈斜路湖之树，研究1，北海道",
+        "year": 2002,
+        "image": null,
+        "href": "https://www.michaelkenna.com/",
+        "description": "A lone tree in a frozen lake shrouded in mist.",
+        "descriptionZh": "雾中冰湖上的一棵孤树，肯纳最标志性的影像。"
+      },
+      {
+        "title": "Huangshan Mountains, Study 2, Anhui, China",
+        "titleZh": "黄山，研究2，安徽",
+        "year": 2008,
+        "image": null,
+        "href": "https://www.michaelkenna.com/",
+        "description": "Ethereal mountain peaks emerging from clouds.",
+        "descriptionZh": "山峰从云海中显现，展现了肯纳与中国水墨画美学的精神亲缘。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1953,
+        "event": "Born in Widnes, Lancashire, England",
+        "eventZh": "出生于英格兰兰开夏郡威德尼斯"
+      },
+      {
+        "year": 1977,
+        "event": "Studied at London College of Printing",
+        "eventZh": "在伦敦印刷学院学习摄影"
+      },
+      {
+        "year": 1987,
+        "event": "First exhibition in Japan",
+        "eventZh": "在日本首次展览"
+      },
+      {
+        "year": 2000,
+        "event": "Began extensive Hokkaido series",
+        "eventZh": "开始大规模的北海道系列"
+      },
+      {
+        "year": 2015,
+        "event": "Retrospective toured internationally",
+        "eventZh": "回顾展国际巡展"
+      }
+    ],
+    "sources": [
+      "https://www.michaelkenna.com/",
+      "https://en.wikipedia.org/wiki/Michael_Kenna_(photographer)"
+    ]
+  },
+  {
+    "id": "larry-burrows",
+    "name": "Larry Burrows",
+    "nameZh": "拉里·伯罗斯",
+    "born": 1926,
+    "died": 1971,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British photojournalist whose color coverage of the Vietnam War for Life magazine set a new standard for war photography.",
+    "bioLong": "拉里·伯罗斯是越战时期最重要的战地摄影师。16岁进入《生活》杂志伦敦分部做暗房助手，此后在这本杂志工作了整个职业生涯。1962年起他开始报道越战，与此前的黑白战地传统不同，他大胆使用彩色胶片，以饱和的色彩和深度的情感投入创造了全新的战争影像语言。1971年2月，他乘坐的直升机在老挝被击落，年仅44岁。",
+    "movements": [
+      "war-photography"
+    ],
+    "techniques": [
+      "color-war-photography",
+      "photojournalism"
+    ],
+    "influencedBy": [
+      "capa"
+    ],
+    "works": [
+      {
+        "title": "Reaching Out, Vietnam",
+        "titleZh": "伸出手，越南",
+        "year": 1966,
+        "image": null,
+        "href": "https://www.life.com/photographer/larry-burrows/",
+        "description": "A wounded Marine reaches out to a fallen comrade during Operation Prairie.",
+        "descriptionZh": "一名受伤的海军陆战队员在「草原行动」中向倒下的战友伸出手。"
+      },
+      {
+        "title": "Yankee Papa 13, Vietnam",
+        "titleZh": "洋基老爹13号，越南",
+        "year": 1965,
+        "image": null,
+        "href": "https://www.life.com/photographer/larry-burrows/",
+        "description": "A photo essay following a helicopter crew chief through a harrowing mission.",
+        "descriptionZh": "跟随一位直升机机组长经历惊心动魄的任务的图片故事。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1926,
+        "event": "Born in London, England",
+        "eventZh": "出生于英格兰伦敦"
+      },
+      {
+        "year": 1942,
+        "event": "Joined Life magazine as a 16-year-old darkroom assistant",
+        "eventZh": "16岁进入《生活》杂志做暗房助手"
+      },
+      {
+        "year": 1962,
+        "event": "Began covering Vietnam War for Life magazine",
+        "eventZh": "开始为《生活》杂志报道越战"
+      },
+      {
+        "year": 1965,
+        "event": "Published Yankee Papa 13 photo essay",
+        "eventZh": "发表《洋基老爹13号》图片故事"
+      },
+      {
+        "year": 1971,
+        "event": "Killed when helicopter shot down over Laos",
+        "eventZh": "直升机在老挝被击落遇难"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Larry_Burrows",
+      "https://www.laurencemillergallery.com/artists/larry-burrows"
+    ]
+  },
+  {
+    "id": "felice-beato",
+    "name": "Felice Beato",
+    "nameZh": "费利切·贝亚托",
+    "born": 1832,
+    "died": 1909,
+    "country": "IT",
+    "region": "europe",
+    "bio": "Italian-British photographer and one of the first to document East Asia and war zones. His images of Japan, China, and India are among the earliest photographic records of these regions.",
+    "bioLong": "费利切·贝亚托是19世纪最伟大的旅行摄影师和最早的战地摄影师之一。出生于威尼斯，他的足迹遍布全球：从克里米亚战争到印度民族起义，从第二次鸦片战争到明治维新初期的日本。他是最早拍摄战争余波的摄影师之一，也是最早系统记录东亚文化与风景的西方摄影师。他在日本横滨驻留近二十年，拍摄了大量手工着色的蛋白照片，记录下一个正在消逝的幕末-明治社会。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "travel-photography",
+      "war-photography",
+      "hand-colored-albumen"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Interior of Secundra Bagh After the Slaughter",
+        "titleZh": "大屠杀后的塞坎德拉堡内部",
+        "year": 1858,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Secundra_Bagh_after_Indian_Mutiny.jpg/800px-Secundra_Bagh_after_Indian_Mutiny.jpg",
+        "description": "One of the first photographs to show the aftermath of battle.",
+        "descriptionZh": "最早展示战争余波的照片之一。"
+      },
+      {
+        "title": "Samurai of the Satsuma Clan",
+        "titleZh": "萨摩藩武士",
+        "year": 1868,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Satsuma-samurai-during-boshin-war-period.jpg/800px-Satsuma-samurai-during-boshin-war-period.jpg",
+        "description": "A group portrait of Satsuma samurai during the Boshin War.",
+        "descriptionZh": "戊辰战争期间萨摩藩武士的群像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1832,
+        "event": "Born in Venice",
+        "eventZh": "出生于威尼斯"
+      },
+      {
+        "year": 1855,
+        "event": "Photographed the Crimean War",
+        "eventZh": "拍摄克里米亚战争"
+      },
+      {
+        "year": 1858,
+        "event": "Documented aftermath of Indian Rebellion",
+        "eventZh": "记录了印度民族起义的余波"
+      },
+      {
+        "year": 1863,
+        "event": "Arrived in Yokohama, began documenting Japan",
+        "eventZh": "抵达横滨，开始记录日本"
+      },
+      {
+        "year": 1909,
+        "event": "Died in Florence, Italy",
+        "eventZh": "在意大利佛罗伦萨去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Felice_Beato",
+      "https://www.getty.edu/art/collection/artists/1940/felice-beato/"
     ]
   }
 ]

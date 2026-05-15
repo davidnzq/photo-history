@@ -61,6 +61,18 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/larry-burrows",
+                          "label": "Larry Burrows",
+                          "year": 1926,
+                          "kind": "photographer"
+                        },
+                        {
+                          "id": "photographers/don-mccullin",
+                          "label": "Don McCullin",
+                          "year": 1935,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/bourke-white",
                           "kind": "photographer",
                           "refId": "bourke-white",
@@ -198,6 +210,12 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/felice-beato",
+                          "label": "Felice Beato",
+                          "year": 1832,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/kasebier",
                           "kind": "photographer",
                           "refId": "kasebier",
@@ -312,14 +330,6 @@
                                       "refId": "paolo-roversi",
                                       "label": "保罗·罗韦西",
                                       "year": 1947,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/penn",
-                                      "kind": "photographer",
-                                      "refId": "penn",
-                                      "label": "佩恩",
-                                      "year": 1948,
                                       "children": []
                                     },
                                     {
@@ -532,6 +542,12 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/imogen-cunningham",
+                              "label": "Imogen Cunningham",
+                              "year": 1883,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/aaron-siskind",
                               "kind": "photographer",
                               "refId": "aaron-siskind",
@@ -615,16 +631,7 @@
                                       "refId": "alvarez-bravo",
                                       "label": "布拉沃",
                                       "year": 1939,
-                                      "children": [
-                                        {
-                                          "id": "photographers/iturbide",
-                                          "kind": "photographer",
-                                          "refId": "iturbide",
-                                          "label": "伊图尔比德",
-                                          "year": 1979,
-                                          "children": []
-                                        }
-                                      ]
+                                      "children": []
                                     },
                                     {
                                       "id": "photographers/graciela-iturbide",
@@ -878,22 +885,6 @@
                                       "children": []
                                     },
                                     {
-                                      "id": "photographers/friedlander",
-                                      "kind": "photographer",
-                                      "refId": "friedlander",
-                                      "label": "弗里兰德",
-                                      "year": 1967,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/winogrand",
-                                      "kind": "photographer",
-                                      "refId": "winogrand",
-                                      "label": "维诺格兰德",
-                                      "year": 1967,
-                                      "children": []
-                                    },
-                                    {
                                       "id": "photographers/eamonn-doyle",
                                       "kind": "photographer",
                                       "refId": "eamonn-doyle",
@@ -919,12 +910,24 @@
                                       "children": []
                                     },
                                     {
+                                      "id": "photographers/richard-misrach",
+                                      "label": "Richard Misrach",
+                                      "year": 1949,
+                                      "kind": "photographer"
+                                    },
+                                    {
                                       "id": "photographers/bae-bien-u",
                                       "kind": "photographer",
                                       "refId": "bae-bien-u",
                                       "label": "裴炳雨",
                                       "year": 1950,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/michael-kenna",
+                                      "label": "Michael Kenna",
+                                      "year": 1953,
+                                      "kind": "photographer"
                                     },
                                     {
                                       "id": "photographers/edward-burtynsky",
@@ -1059,22 +1062,6 @@
                                               "label": "斯特恩菲尔德",
                                               "year": 1987,
                                               "children": []
-                                            },
-                                            {
-                                              "id": "photographers/neshat",
-                                              "kind": "photographer",
-                                              "refId": "neshat",
-                                              "label": "希林·内沙",
-                                              "year": 1996,
-                                              "children": []
-                                            },
-                                            {
-                                              "id": "photographers/soth",
-                                              "kind": "photographer",
-                                              "refId": "soth",
-                                              "label": "索斯",
-                                              "year": 2004,
-                                              "children": []
                                             }
                                           ]
                                         }
@@ -1129,14 +1116,6 @@
                                       "year": 1976,
                                       "children": [
                                         {
-                                          "id": "photographers/struth",
-                                          "kind": "photographer",
-                                          "refId": "struth",
-                                          "label": "施特鲁斯",
-                                          "year": 1990,
-                                          "children": []
-                                        },
-                                        {
                                           "id": "photographers/dijkstra",
                                           "kind": "photographer",
                                           "refId": "dijkstra",
@@ -1151,22 +1130,6 @@
                                           "label": "古尔斯基",
                                           "year": 1995,
                                           "children": []
-                                        },
-                                        {
-                                          "id": "photographers/ruff",
-                                          "kind": "photographer",
-                                          "refId": "ruff",
-                                          "label": "鲁夫",
-                                          "year": 1995,
-                                          "children": []
-                                        },
-                                        {
-                                          "id": "photographers/hofer",
-                                          "kind": "photographer",
-                                          "refId": "hofer",
-                                          "label": "霍弗",
-                                          "year": 2000,
-                                          "children": []
                                         }
                                       ]
                                     },
@@ -1176,14 +1139,6 @@
                                       "refId": "wall",
                                       "label": "杰夫·沃尔",
                                       "year": 1993,
-                                      "children": []
-                                    },
-                                    {
-                                      "id": "photographers/crewdson",
-                                      "kind": "photographer",
-                                      "refId": "crewdson",
-                                      "label": "克鲁森",
-                                      "year": 2001,
                                       "children": []
                                     }
                                   ]
@@ -1240,6 +1195,18 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/elliott-erwitt",
+                              "label": "Elliott Erwitt",
+                              "year": 1928,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/bruce-davidson",
+                              "label": "Bruce Davidson",
+                              "year": 1933,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/josef-koudelka",
                               "kind": "photographer",
                               "refId": "josef-koudelka",
@@ -1272,19 +1239,17 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/susan-meiselas",
+                              "label": "Susan Meiselas",
+                              "year": 1948,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/erwitt",
                               "kind": "photographer",
                               "refId": "erwitt",
                               "label": "埃利奥特·厄威特",
                               "year": 1953,
-                              "children": []
-                            },
-                            {
-                              "id": "photographers/koudelka",
-                              "kind": "photographer",
-                              "refId": "koudelka",
-                              "label": "寇德卡",
-                              "year": 1968,
                               "children": []
                             },
                             {
@@ -1408,14 +1373,6 @@
                               "label": "拉胡·赖",
                               "year": 1980,
                               "children": []
-                            },
-                            {
-                              "id": "photographers/mark",
-                              "kind": "photographer",
-                              "refId": "mark",
-                              "label": "玛丽·艾伦·马克",
-                              "year": 1981,
-                              "children": []
                             }
                           ]
                         }
@@ -1449,6 +1406,12 @@
                               "label": "土门拳",
                               "year": 1909,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/shoji-ueda",
+                              "label": "Shoji Ueda",
+                              "year": 1913,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/hiroshi-hamaya",
@@ -1595,16 +1558,7 @@
                           "refId": "keita",
                           "label": "凯塔",
                           "year": 1956,
-                          "children": [
-                            {
-                              "id": "photographers/sidibe",
-                              "kind": "photographer",
-                              "refId": "sidibe",
-                              "label": "西迪贝",
-                              "year": 1963,
-                              "children": []
-                            }
-                          ]
+                          "children": []
                         },
                         {
                           "id": "photographers/samuel-fosso",
@@ -1629,25 +1583,13 @@
                           "refId": "van-der-zee",
                           "label": "范德齐",
                           "year": 1924,
-                          "children": [
-                            {
-                              "id": "photographers/parks",
-                              "kind": "photographer",
-                              "refId": "parks",
-                              "label": "戈登·帕克斯",
-                              "year": 1942,
-                              "children": [
-                                {
-                                  "id": "photographers/weems",
-                                  "kind": "photographer",
-                                  "refId": "weems",
-                                  "label": "威姆斯",
-                                  "year": 1990,
-                                  "children": []
-                                }
-                              ]
-                            }
-                          ]
+                          "children": []
+                        },
+                        {
+                          "id": "photographers/weems",
+                          "label": "Carrie Mae Weems",
+                          "year": 1953,
+                          "kind": "photographer"
                         },
                         {
                           "id": "photographers/decarava",
