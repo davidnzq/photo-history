@@ -14048,5 +14048,2205 @@
       "https://en.wikipedia.org/wiki/Ilse_Bing",
       "https://www.moma.org/artists/564"
     ]
+  },
+  {
+    "id": "henry-peach-robinson",
+    "name": "Henry Peach Robinson",
+    "nameZh": "亨利·皮奇·罗宾逊",
+    "born": 1830,
+    "died": 1901,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British photographer and pioneer of combination printing, creating elaborate composite images from multiple negatives to achieve painterly effects.",
+    "bioLong": "亨利·皮奇·罗宾逊是维多利亚时代英国最具影响力的画意摄影家之一，也是组合印相术的先驱。他早年学习绘画，1857年转向摄影后迅速崭露头角。他的代表作《弥留之际》(1858)由五张底片组合而成，引发了关于摄影艺术性与真实性的广泛讨论。罗宾逊深受拉斐尔前派绘画影响，坚信摄影应追求艺术美感而非机械记录。他撰写了《摄影的画意效果》(1869)等多部理论著作，系统阐述了画意摄影的美学原则。他的组合印相技法和美学理念深刻影响了整个画意主义运动，被视为摄影走向艺术殿堂的重要推手。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "combination-printing",
+      "albumen-print",
+      "composite"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Fading Away",
+        "titleZh": "弥留之际",
+        "year": 1858,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/83/Henry_Peach_Robinson_-_Fading_Away.jpg",
+        "description": "A pioneering combination print made from five negatives, depicting a young woman on her deathbed surrounded by mourning family.",
+        "descriptionZh": "由五张底片组合而成的先驱之作，描绘一位年轻女子弥留之际，家人环绕悲悼的场景。"
+      },
+      {
+        "title": "When the Day's Work Is Done",
+        "titleZh": "日暮归途",
+        "year": 1877,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Henry_Peach_Robinson_-_When_the_Day%27s_Work_is_Done.jpg",
+        "description": "A pastoral combination print showing a cottage scene at dusk, exemplifying Robinson's pursuit of painterly composition in photography.",
+        "descriptionZh": "一幅田园风格的组合印相作品，展现黄昏时分的乡间小屋场景，体现了罗宾逊对绘画式构图的追求。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1830,
+        "event": "Born in Ludlow, Shropshire, England",
+        "eventZh": "出生于英格兰什罗普郡勒德洛"
+      },
+      {
+        "year": 1857,
+        "event": "Opened a photographic studio in Leamington Spa",
+        "eventZh": "在利明顿开设摄影工作室"
+      },
+      {
+        "year": 1858,
+        "event": "Created 'Fading Away', sparking debate on photography and art",
+        "eventZh": "创作《弥留之际》，引发摄影与艺术之辩"
+      },
+      {
+        "year": 1869,
+        "event": "Published 'Pictorial Effect in Photography', the first major treatise on art photography",
+        "eventZh": "出版《摄影的画意效果》，第一部系统阐述摄影美学的理论著作"
+      },
+      {
+        "year": 1901,
+        "event": "Died in Tunbridge Wells, Kent",
+        "eventZh": "逝世于肯特郡唐布里奇韦尔斯"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Henry_Peach_Robinson",
+      "https://www.metmuseum.org/art/collection/search/283092"
+    ]
+  },
+  {
+    "id": "peter-henry-emerson",
+    "name": "Peter Henry Emerson",
+    "nameZh": "彼得·亨利·爱默生",
+    "born": 1856,
+    "died": 1936,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British photographer who championed naturalistic photography, advocating differential focus to mimic human vision over Robinson's composite approach.",
+    "bioLong": "彼得·亨利·爱默生是自然主义摄影的倡导者，对画意摄影的发展方向产生了深远影响。他出生于古巴，在英国接受医学教育后转向摄影。1886年他发表演讲《摄影：一种画意艺术》，提出摄影应模仿人眼的视觉方式——主体清晰而背景柔化——而非追求全景深的锐度。他的代表作《诺福克水乡生活》(1886)以诗意的视角记录了东安格利亚沼泽地的劳动者生活。然而1891年他突然发表《自然主义摄影之死》，声称摄影不能成为艺术，这一戏剧性转变震惊了摄影界。尽管如此，他的差异聚焦理论和对自然光线的强调深刻影响了后来的摄影实践。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "platinum-print",
+      "differential-focus",
+      "naturalistic"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Gathering Water-Lilies",
+        "titleZh": "采摘睡莲",
+        "year": 1886,
+        "image": null,
+        "href": "https://www.metmuseum.org/art/collection/search/283157",
+        "description": "A platinum print from 'Life and Landscape on the Norfolk Broads', showing laborers on a misty waterway, exemplifying his naturalistic soft-focus aesthetic.",
+        "descriptionZh": "选自《诺福克水乡生活》的铂金印相作品，展现雾气笼罩的水道上劳动者的身影，体现了他自然主义的柔焦美学。"
+      },
+      {
+        "title": "During the Reed Harvest",
+        "titleZh": "芦苇收割时节",
+        "year": 1886,
+        "image": null,
+        "href": "https://www.metmuseum.org/art/collection/search/283160",
+        "description": "Laborers cutting reeds in the Norfolk marshes, a key image from Emerson's naturalistic documentation of rural English life.",
+        "descriptionZh": "诺福克沼泽地的芦苇收割场景，爱默生自然主义乡村纪实的代表作之一。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1856,
+        "event": "Born in Sagua la Grande, Cuba",
+        "eventZh": "出生于古巴萨瓜拉格兰德"
+      },
+      {
+        "year": 1886,
+        "event": "Published 'Life and Landscape on the Norfolk Broads'",
+        "eventZh": "出版《诺福克水乡生活与风景》"
+      },
+      {
+        "year": 1889,
+        "event": "Published 'Naturalistic Photography for Students of the Art'",
+        "eventZh": "出版《自然主义摄影》理论著作"
+      },
+      {
+        "year": 1891,
+        "event": "Published 'The Death of Naturalistic Photography', renouncing his own theories",
+        "eventZh": "发表《自然主义摄影之死》，否定自身理论"
+      },
+      {
+        "year": 1936,
+        "event": "Died in Falmouth, Cornwall",
+        "eventZh": "逝世于康沃尔郡法尔茅斯"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Peter_Henry_Emerson",
+      "https://www.metmuseum.org/art/collection/search/283157"
+    ]
+  },
+  {
+    "id": "frederick-h-evans",
+    "name": "Frederick H. Evans",
+    "nameZh": "弗雷德里克·H·埃文斯",
+    "born": 1853,
+    "died": 1943,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British photographer celebrated for his luminous platinum prints of English and French cathedral interiors, elevating architectural photography to fine art.",
+    "bioLong": "弗雷德里克·H·埃文斯是英国画意摄影运动中最杰出的建筑摄影家。他早年经营书店，与奥伯利·比亚兹莱等艺术家交往密切，40岁后全身投入摄影。他以铂金印相法拍摄的英法大教堂内部——尤其是威尔斯大教堂和沙特尔大教堂——以其空灵的光影层次和精妙的空间感成为摄影史经典。他坚持纯粹摄影，拒绝任何后期修改，认为完美的影像应在拍摄时一次完成。斯蒂格利茨极为推崇他的作品，曾在《Camera Work》杂志上大篇幅介绍。他的建筑摄影将光线视为建筑的灵魂，以无与伦比的技术精度捕捉了石头与光的诗意对话。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "platinum-print",
+      "architectural-photography",
+      "pure-photography"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "works": [
+      {
+        "title": "A Sea of Steps",
+        "titleZh": "阶梯之海",
+        "year": 1903,
+        "image": null,
+        "href": "https://www.metmuseum.org/art/collection/search/267814",
+        "description": "A platinum print of the Chapter House stairway at Wells Cathedral, widely regarded as one of the greatest architectural photographs ever made.",
+        "descriptionZh": "威尔斯大教堂会议厅阶梯的铂金印相，被广泛认为是摄影史上最伟大的建筑摄影作品之一。"
+      },
+      {
+        "title": "York Minster, Into the North Transept",
+        "titleZh": "约克大教堂，通往北翼殿",
+        "year": 1900,
+        "image": null,
+        "href": "https://www.moma.org/collection/works/49553",
+        "description": "A luminous study of York Minster's north transept, capturing the interplay of Gothic architecture and natural light.",
+        "descriptionZh": "约克大教堂北翼殿的光影研究，捕捉了哥特式建筑与自然光的交融。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1853,
+        "event": "Born in London, England",
+        "eventZh": "出生于英格兰伦敦"
+      },
+      {
+        "year": 1898,
+        "event": "Exhibited at the Royal Photographic Society, gaining recognition",
+        "eventZh": "在皇家摄影学会展出，获得广泛认可"
+      },
+      {
+        "year": 1903,
+        "event": "Created 'A Sea of Steps' at Wells Cathedral",
+        "eventZh": "在威尔斯大教堂拍摄《阶梯之海》"
+      },
+      {
+        "year": 1904,
+        "event": "Featured prominently in Stieglitz's Camera Work magazine",
+        "eventZh": "作品在斯蒂格利茨《Camera Work》杂志上大篇幅发表"
+      },
+      {
+        "year": 1943,
+        "event": "Died in London",
+        "eventZh": "逝世于伦敦"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Frederick_H._Evans",
+      "https://www.moma.org/artists/1791"
+    ]
+  },
+  {
+    "id": "gertrude-kasebier",
+    "name": "Gertrude Käsebier",
+    "nameZh": "格特鲁德·凯泽比尔",
+    "born": 1852,
+    "died": 1934,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer and founding member of the Photo-Secession, renowned for her evocative portraits of mothers and children and her pioneering role for women in photography.",
+    "bioLong": "格特鲁德·凯泽比尔是美国画意摄影运动的核心人物和「摄影分离派」的创始成员之一。她在38岁时进入普拉特学院学习艺术，后赴欧洲深造，回美后在纽约开设了极为成功的肖像摄影工作室。她以拍摄母亲与孩子的亲密肖像著称，作品充满温柔而神秘的光影氛围。她的《牧场》(1902)——一幅美洲原住民走向帐篷的剪影——成为画意摄影的标志性作品。斯蒂格利茨选择她的作品作为《Camera Notes》的首期封面，但两人后来因艺术理念分歧而决裂。她是那个时代最成功的女性摄影师之一，为后来的女性摄影家开辟了道路。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "gum-bichromate",
+      "platinum-print",
+      "portrait"
+    ],
+    "influencedBy": [
+      "stieglitz"
+    ],
+    "works": [
+      {
+        "title": "Blessed Art Thou Among Women",
+        "titleZh": "你在女人中是有福的",
+        "year": 1899,
+        "image": null,
+        "href": "https://www.moma.org/collection/works/49273",
+        "description": "A mother and daughter framed in a doorway, combining intimacy with symbolic depth in the Photo-Secession tradition.",
+        "descriptionZh": "门框中的母女，将亲密情感与象征深度结合，是摄影分离派的典范之作。"
+      },
+      {
+        "title": "The Manger",
+        "titleZh": "马槽",
+        "year": 1899,
+        "image": null,
+        "href": "https://www.moma.org/collection/works/49274",
+        "description": "A softly lit nativity-inspired scene of a mother and child, one of the most reproduced images of the pictorialist era.",
+        "descriptionZh": "柔光下母与子的圣诞场景，画意摄影时代被翻印最多的作品之一。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1852,
+        "event": "Born in Des Moines, Iowa",
+        "eventZh": "出生于爱荷华州得梅因"
+      },
+      {
+        "year": 1897,
+        "event": "Opened a portrait studio on Fifth Avenue, New York",
+        "eventZh": "在纽约第五大道开设肖像摄影工作室"
+      },
+      {
+        "year": 1902,
+        "event": "Became a founding member of the Photo-Secession with Stieglitz",
+        "eventZh": "与斯蒂格利茨共同创立摄影分离派"
+      },
+      {
+        "year": 1912,
+        "event": "Broke with Stieglitz and co-founded the Pictorial Photographers of America",
+        "eventZh": "与斯蒂格利茨决裂，联合创立美国画意摄影家协会"
+      },
+      {
+        "year": 1934,
+        "event": "Died in New York City",
+        "eventZh": "逝世于纽约"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gertrude_K%C3%A4sebier",
+      "https://www.moma.org/artists/3052"
+    ]
+  },
+  {
+    "id": "cornell-capa",
+    "name": "Cornell Capa",
+    "nameZh": "康奈尔·卡帕",
+    "born": 1918,
+    "died": 2008,
+    "country": "HU",
+    "region": "north-america",
+    "bio": "Hungarian-American photographer who founded the International Center of Photography (ICP) and coined the term 'concerned photographer' to champion socially engaged documentary work.",
+    "bioLong": "康奈尔·卡帕是匈牙利裔美国摄影家，罗伯特·卡帕之弟。他最初在巴黎为哥哥做暗房助手，后成为一名独立的新闻摄影师，为《生活》杂志拍摄了大量报道。他最重要的贡献是创立了「关心摄影家」(Concerned Photographer)的概念，强调摄影的社会责任和人道关怀。1974年他在纽约创办了国际摄影中心(ICP)，以纪念哥哥的遗产，同时为摄影教育和展览提供世界级平台。ICP至今仍是全球最重要的摄影机构之一。他拍摄了肯尼迪竞选总统的珍贵影像，也记录了拉丁美洲的社会变革。他毕生致力于维护和弘扬纪实摄影的人文传统。",
+    "movements": [
+      "magnum"
+    ],
+    "techniques": [
+      "photojournalism",
+      "documentary",
+      "35mm"
+    ],
+    "influencedBy": [
+      "capa"
+    ],
+    "works": [
+      {
+        "title": "JFK for President",
+        "titleZh": "肯尼迪竞选总统",
+        "year": 1960,
+        "image": null,
+        "href": "https://www.icp.org/browse/archive/constituents/cornell-capa",
+        "description": "Intimate coverage of John F. Kennedy's presidential campaign, capturing unguarded moments with the candidate.",
+        "descriptionZh": "约翰·F·肯尼迪总统竞选的亲密记录，捕捉了候选人不设防的瞬间。"
+      },
+      {
+        "title": "Concerned Photographer Exhibition",
+        "titleZh": "关心摄影家展览",
+        "year": 1968,
+        "image": null,
+        "href": "https://www.icp.org/browse/archive/constituents/cornell-capa",
+        "description": "The landmark exhibition Cornell organized at the Riverside Museum, coining the concept of socially engaged photography.",
+        "descriptionZh": "康奈尔在河滨博物馆组织的里程碑式展览，正式提出社会关怀摄影的理念。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1918,
+        "event": "Born Kornél Friedmann in Budapest, Hungary",
+        "eventZh": "出生于匈牙利布达佩斯，原名科内尔·弗里德曼"
+      },
+      {
+        "year": 1937,
+        "event": "Joined Robert Capa in Paris as a darkroom assistant",
+        "eventZh": "在巴黎加入哥哥罗伯特·卡帕，担任暗房助手"
+      },
+      {
+        "year": 1954,
+        "event": "Joined Magnum Photos following Robert Capa's death",
+        "eventZh": "在罗伯特·卡帕去世后加入马格南图片社"
+      },
+      {
+        "year": 1974,
+        "event": "Founded the International Center of Photography (ICP) in New York",
+        "eventZh": "在纽约创立国际摄影中心（ICP）"
+      },
+      {
+        "year": 2008,
+        "event": "Died in New York City",
+        "eventZh": "逝世于纽约"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cornell_Capa",
+      "https://www.icp.org/browse/archive/constituents/cornell-capa"
+    ]
+  },
+  {
+    "id": "eugene-richards",
+    "name": "Eugene Richards",
+    "nameZh": "尤金·理查兹",
+    "born": 1944,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American documentary photographer known for his raw, unflinching portrayals of poverty, drug addiction, emergency rooms, and the human cost of social inequality in the United States.",
+    "bioLong": "尤金·理查兹是美国最具冲击力的纪实摄影家之一。他早年在多切斯特的贫民区从事社区组织工作，这段经历深刻塑造了他的摄影视角。他的代表作《Cocaine True, Cocaine Blue》(1994)深入美国贫民窟拍摄毒品泛滥的惨烈现实，以近距离的黑白影像将观者置于不安的第一现场。他的《急诊室》系列则记录了美国公立医院急诊室的生死瞬间。理查兹的影像风格粗粝而有力，常用极近距离、倾斜构图和高反差黑白来营造紧迫感。他也曾是马格南图片社成员，但后来选择独立工作以保持创作自由。他的作品揭示了美国社会光鲜表面下的残酷真相。",
+    "movements": [
+      "street",
+      "war-photography"
+    ],
+    "techniques": [
+      "black-and-white",
+      "documentary",
+      "close-range"
+    ],
+    "influencedBy": [
+      "w-eugene-smith",
+      "frank"
+    ],
+    "works": [
+      {
+        "title": "Cocaine True, Cocaine Blue",
+        "titleZh": "可卡因的真相与忧郁",
+        "year": 1994,
+        "image": null,
+        "href": "https://www.icp.org/browse/archive/constituents/eugene-richards",
+        "description": "A devastating long-term project documenting crack cocaine addiction in American inner cities, published as a landmark photobook.",
+        "descriptionZh": "一部深入记录美国内城可卡因成瘾问题的长期纪实项目，以摄影书出版成为里程碑之作。"
+      },
+      {
+        "title": "The Knife and Gun Club",
+        "titleZh": "刀枪俱乐部",
+        "year": 1989,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/eugene-richards/",
+        "description": "An intimate look inside a Denver emergency room, capturing the chaotic reality of urban trauma care in America.",
+        "descriptionZh": "深入丹佛急诊室内部，捕捉美国城市创伤救治的混乱现实。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1944,
+        "event": "Born in Dorchester, Massachusetts",
+        "eventZh": "出生于马萨诸塞州多切斯特"
+      },
+      {
+        "year": 1978,
+        "event": "Published 'Dorchester Days', documenting his community",
+        "eventZh": "出版《多切斯特的日子》，记录自己的社区"
+      },
+      {
+        "year": 1989,
+        "event": "Published 'The Knife and Gun Club' on emergency room life",
+        "eventZh": "出版《刀枪俱乐部》，记录急诊室生活"
+      },
+      {
+        "year": 1994,
+        "event": "Published 'Cocaine True, Cocaine Blue', a landmark drug crisis document",
+        "eventZh": "出版《可卡因的真相与忧郁》，毒品危机纪实的里程碑"
+      },
+      {
+        "year": 2009,
+        "event": "Published 'The Blue Room', photographing abandoned rural homes",
+        "eventZh": "出版《蓝色房间》，拍摄废弃的乡村住宅"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Eugene_Richards",
+      "https://www.magnumphotos.com/photographer/eugene-richards/"
+    ]
+  },
+  {
+    "id": "gilles-peress",
+    "name": "Gilles Peress",
+    "nameZh": "吉勒·佩雷斯",
+    "born": 1946,
+    "died": null,
+    "country": "FR",
+    "region": "europe",
+    "bio": "French Magnum photographer who redefined conflict documentation through projects on the Iran hostage crisis, Northern Ireland, Rwanda genocide, and Bosnia, emphasizing evidence over narrative.",
+    "bioLong": "吉勒·佩雷斯是法国马格南图片社成员，当代最重要的冲突纪实摄影家之一。他在巴黎学习政治学和哲学，这种学术背景使他的摄影超越了传统新闻摄影的叙事模式，转而关注影像作为证据和证词的功能。他的《Telex Iran》(1984)以碎片化的视觉语言记录了伊朗人质危机，打破了线性叙事的常规。此后他深入北爱尔兰、波黑和卢旺达，拍摄了大量种族冲突和种族灭绝的影像。他在卢旺达大屠杀期间拍摄的《沉默》系列是对人类暴行最震撼的视觉见证之一。他推动了摄影从新闻向人权证据的转变，也是数字时代摄影存档的先驱。",
+    "movements": [
+      "magnum"
+    ],
+    "techniques": [
+      "black-and-white",
+      "documentary",
+      "conflict-photography"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "frank"
+    ],
+    "works": [
+      {
+        "title": "Telex Iran",
+        "titleZh": "电传：伊朗",
+        "year": 1984,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/gilles-peress/",
+        "description": "A fragmented, anti-narrative document of the 1979 Iran hostage crisis that redefined photojournalistic book-making.",
+        "descriptionZh": "以碎片化、反叙事的方式记录1979年伊朗人质危机，重新定义了新闻摄影书籍的制作方式。"
+      },
+      {
+        "title": "The Silence",
+        "titleZh": "沉默",
+        "year": 1995,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/gilles-peress/",
+        "description": "A harrowing visual testimony of the 1994 Rwandan genocide, documenting the aftermath of mass killings.",
+        "descriptionZh": "1994年卢旺达大屠杀的震撼视觉证词，记录大规模杀戮的惨烈后果。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1946,
+        "event": "Born in Neuilly-sur-Seine, France",
+        "eventZh": "出生于法国塞纳河畔讷伊"
+      },
+      {
+        "year": 1972,
+        "event": "Joined Magnum Photos",
+        "eventZh": "加入马格南图片社"
+      },
+      {
+        "year": 1984,
+        "event": "Published 'Telex Iran', redefining conflict photography",
+        "eventZh": "出版《电传：伊朗》，重新定义冲突摄影"
+      },
+      {
+        "year": 1995,
+        "event": "Published 'The Silence' on the Rwandan genocide",
+        "eventZh": "出版《沉默》，记录卢旺达大屠杀"
+      },
+      {
+        "year": 2001,
+        "event": "Documented September 11 aftermath and its global impact",
+        "eventZh": "记录9·11事件余波及其全球影响"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gilles_Peress",
+      "https://www.magnumphotos.com/photographer/gilles-peress/"
+    ]
+  },
+  {
+    "id": "chris-killip",
+    "name": "Chris Killip",
+    "nameZh": "克里斯·基利普",
+    "born": 1946,
+    "died": 2020,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British documentary photographer who spent decades recording the deindustrialization of northeast England, producing one of the most powerful visual records of working-class decline.",
+    "bioLong": "克里斯·基利普是20世纪下半叶英国最重要的纪实摄影家之一。他出生于马恩岛，年轻时在伦敦做摄影助理，但选择返回英格兰东北部，用近二十年时间拍摄该地区因工业衰退而陷入困境的工人阶级社区。他的代表作《In Flagrante》(1988)记录了纽卡斯尔和西哈特尔普尔的矿工、渔民和失业者，以沉重的黑白影调和凝视般的构图赋予被忽视群体以尊严。这部作品被视为撒切尔时代英国社会的视觉证据。他的《Seacoal》系列拍摄了在海滩上拾煤为生的赤贫家庭，是关于贫困的最具力量的摄影之一。他后来在哈佛大学教授摄影直至退休。",
+    "movements": [
+      "new-topographics"
+    ],
+    "techniques": [
+      "black-and-white",
+      "large-format",
+      "documentary"
+    ],
+    "influencedBy": [
+      "bill-brandt",
+      "evans"
+    ],
+    "works": [
+      {
+        "title": "In Flagrante",
+        "titleZh": "当场",
+        "year": 1988,
+        "image": null,
+        "href": "https://www.moma.org/artists/38963",
+        "description": "A landmark photobook documenting northeast England's industrial decline through intimate portraits of working-class communities.",
+        "descriptionZh": "里程碑式的摄影书，通过工人阶级社区的亲密肖像记录英格兰东北部的工业衰退。"
+      },
+      {
+        "title": "Seacoal",
+        "titleZh": "海煤",
+        "year": 1984,
+        "image": null,
+        "href": "https://www.martinparrfoundation.org/artists/chris-killip/",
+        "description": "A series documenting the seacoal gatherers of Lynemouth beach, living in extreme poverty on the industrial coast.",
+        "descriptionZh": "记录莱恩茅斯海滩上拾海煤为生者的系列作品，他们在工业海岸上生活在极度贫困之中。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1946,
+        "event": "Born in Douglas, Isle of Man",
+        "eventZh": "出生于马恩岛道格拉斯"
+      },
+      {
+        "year": 1969,
+        "event": "First solo exhibition at the Museum of Modern Art, New York",
+        "eventZh": "在纽约现代艺术博物馆举办首次个展"
+      },
+      {
+        "year": 1988,
+        "event": "Published 'In Flagrante', his seminal work on industrial decline",
+        "eventZh": "出版代表作《当场》，记录工业衰退"
+      },
+      {
+        "year": 1991,
+        "event": "Became a professor at Harvard's Visual and Environmental Studies",
+        "eventZh": "成为哈佛大学视觉与环境研究系教授"
+      },
+      {
+        "year": 2020,
+        "event": "Died in London",
+        "eventZh": "逝世于伦敦"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chris_Killip",
+      "https://www.martinparrfoundation.org/artists/chris-killip/"
+    ]
+  },
+  {
+    "id": "miyako-ishiuchi",
+    "name": "Miyako Ishiuchi",
+    "nameZh": "石内都",
+    "born": 1947,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photographer known for her intimate explorations of memory, body, and trauma through close-up studies of scarred skin and Hiroshima artifact clothing.",
+    "bioLong": "石内都是日本当代最重要的女性摄影家之一，以探索身体、记忆与创伤的关系闻名于世。她最初在横须贺——美军基地所在地——长大，这段经历深刻影响了她的创作。早期作品《横须贺街道》(1977)以粗粒子黑白影像记录了基地周围的颓废街景。后来她转向对身体的微观探索，《1·9·4·7》系列拍摄了与她同年出生的女性的皮肤特写，将衰老的痕迹转化为时间的地图。2007年她受邀拍摄广岛原子弹幸存者遗留的衣物，《ひろしま》系列以极其柔美的光线呈现了被烧灼的丝绸连衣裙和儿童衬衫，将物件转化为关于记忆、丧失与存续的深沉冥想。2014年获颁哈苏基金会国际摄影奖。",
+    "movements": [
+      "japan-postwar"
+    ],
+    "techniques": [
+      "close-up",
+      "color",
+      "artifact-photography"
+    ],
+    "influencedBy": [
+      "moriyama"
+    ],
+    "works": [
+      {
+        "title": "ひろしま / Hiroshima",
+        "titleZh": "广岛",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.getty.edu/art/collection/artists/35606/miyako-ishiuchi-japanese-born-1947/",
+        "description": "Close-up photographs of clothing and personal belongings left by Hiroshima atomic bomb victims, transforming artifacts into meditations on memory and loss.",
+        "descriptionZh": "广岛原子弹受害者遗留衣物和个人物品的特写，将遗物转化为对记忆与丧失的深沉冥想。"
+      },
+      {
+        "title": "1·9·4·7",
+        "titleZh": "1·9·4·7",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.tate.org.uk/art/artists/miyako-ishiuchi-15835",
+        "description": "Close-up studies of the hands, feet, and skin of women born in 1947, mapping the passage of time onto the body.",
+        "descriptionZh": "1947年出生的女性的手、脚和皮肤特写，将时间的流逝映射在身体之上。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1947,
+        "event": "Born in Kiryu, Gunma Prefecture, raised in Yokosuka",
+        "eventZh": "出生于群马县桐生市，在横须贺长大"
+      },
+      {
+        "year": 1979,
+        "event": "Won the Kimura Ihei Award for 'Apartment'",
+        "eventZh": "凭《公寓》获木村伊兵卫摄影奖"
+      },
+      {
+        "year": 2005,
+        "event": "Represented Japan at the Venice Biennale",
+        "eventZh": "代表日本参加威尼斯双年展"
+      },
+      {
+        "year": 2007,
+        "event": "Began the 'ひろしま' Hiroshima series at the Peace Memorial Museum",
+        "eventZh": "在广岛和平纪念馆开始《广岛》系列创作"
+      },
+      {
+        "year": 2014,
+        "event": "Awarded the Hasselblad Foundation International Award in Photography",
+        "eventZh": "获颁哈苏基金会国际摄影奖"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Miyako_Ishiuchi",
+      "https://www.tate.org.uk/art/artists/miyako-ishiuchi-15835"
+    ]
+  },
+  {
+    "id": "kikuji-kawada",
+    "name": "Kikuji Kawada",
+    "nameZh": "川田喜久治",
+    "born": 1933,
+    "died": 2024,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photographer whose masterwork 'The Map' (1965) used extreme close-ups of the Hiroshima atomic bomb dome's stained walls to create an abstract meditation on nuclear devastation and memory.",
+    "bioLong": "川田喜久治是日本战后摄影最重要的先锋之一。他早年在新潮社从事编辑工作，同时开始独立摄影创作。1965年出版的《地图》(Chizu)被誉为日本摄影史上最伟大的摄影书之一——他以极端特写拍摄广岛原子弹圆顶废墟的墙壁污渍、天花板和碎片，将战争的记忆转化为近乎抽象的视觉图像。这些变形的、粗粒子的影像在杉浦康平的激进版式设计下，构成了一部关于核毁灭的视觉诗篇。此后他持续探索摄影的表现边界，《宇宙志》(Cosmology)系列以天空和云彩构建宏观宇宙观，《末日》系列则关注日本社会的黑暗面。他是VIV摄影群体的联合创始人，也是将摄影书提升为独立艺术形式的先驱。",
+    "movements": [
+      "japan-postwar"
+    ],
+    "techniques": [
+      "high-contrast",
+      "close-up",
+      "photobook"
+    ],
+    "influencedBy": [
+      "moriyama"
+    ],
+    "works": [
+      {
+        "title": "The Map (Chizu)",
+        "titleZh": "地图",
+        "year": 1965,
+        "image": null,
+        "href": "https://www.metmuseum.org/art/collection/search/291015",
+        "description": "Extreme close-ups of stains and marks on the walls of the Hiroshima atomic bomb dome, creating an abstract cartography of nuclear destruction.",
+        "descriptionZh": "广岛原子弹圆顶废墟墙壁上污渍与痕迹的极端特写，创造了一幅关于核毁灭的抽象地图。"
+      },
+      {
+        "title": "The Last Cosmology",
+        "titleZh": "最后的宇宙志",
+        "year": 1995,
+        "image": null,
+        "href": "https://www.tokyoartbeat.com/en/articles/kikuji-kawada",
+        "description": "Photographs of skies, clouds, and celestial phenomena forming a contemplative cosmological vision.",
+        "descriptionZh": "天空、云彩与天体现象的摄影，构成一幅沉思性的宇宙学图景。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1933,
+        "event": "Born in Ibaraki Prefecture, Japan",
+        "eventZh": "出生于日本茨城县"
+      },
+      {
+        "year": 1959,
+        "event": "Co-founded the VIVO photography collective",
+        "eventZh": "联合创立VIVO摄影群体"
+      },
+      {
+        "year": 1965,
+        "event": "Published 'The Map' (Chizu), a masterpiece of postwar Japanese photography",
+        "eventZh": "出版《地图》，日本战后摄影的杰作"
+      },
+      {
+        "year": 1995,
+        "event": "Published 'The Last Cosmology', expanding into abstract cosmic imagery",
+        "eventZh": "出版《最后的宇宙志》，拓展为抽象宇宙影像"
+      },
+      {
+        "year": 2024,
+        "event": "Died in Tokyo",
+        "eventZh": "逝世于东京"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Kikuji_Kawada",
+      "https://www.metmuseum.org/art/collection/search/291015"
+    ]
+  },
+  {
+    "id": "martin-parr",
+    "name": "Martin Parr",
+    "nameZh": "马丁·帕尔",
+    "born": 1952,
+    "died": null,
+    "country": "GB",
+    "region": "europe",
+    "bio": "British photographer and Magnum member renowned for his satirical, brightly colored images of consumerism, leisure, and the absurdities of modern life.",
+    "bioLong": "马丁·帕尔是英国最具辨识度的当代摄影家之一，马格南图片社成员。他早年拍摄黑白纪实作品，但1980年代中期转向彩色摄影后找到了独特的视觉语言。他以微距闪光灯、过饱和色彩和近距离构图拍摄英国（及全球）中产阶级的消费行为、度假场景和日常荒诞，作品充满尖锐的幽默感和社会批评。代表作《最后的度假胜地》(1986)记录了新布莱顿海滨度假者的众生相，以近乎残忍的细节揭示了英国工人阶级休闲的现实。《常识》(1999)将全球化消费文化的千篇一律推向极致。他加入马格南时引发了社内关于纪实摄影边界的激烈争论。他也是狂热的摄影书收藏家和出版者，推动了全球摄影书文化的复兴。",
+    "movements": [
+      "street",
+      "new-color"
+    ],
+    "techniques": [
+      "ring-flash",
+      "macro",
+      "saturated-color"
+    ],
+    "influencedBy": [
+      "eggleston",
+      "shore"
+    ],
+    "works": [
+      {
+        "title": "The Last Resort",
+        "titleZh": "最后的度假胜地",
+        "year": 1986,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/martin-parr/",
+        "description": "A vivid and satirical color document of working-class beachgoers at New Brighton, Merseyside, that established Parr's signature style.",
+        "descriptionZh": "新布莱顿海滩工人阶级度假者的鲜艳讽刺彩色记录，确立了帕尔标志性的视觉风格。"
+      },
+      {
+        "title": "Common Sense",
+        "titleZh": "常识",
+        "year": 1999,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/martin-parr/",
+        "description": "Extreme close-ups of global consumer culture — food, souvenirs, bodies — in hyper-saturated color, pushing consumerism critique to the absurd.",
+        "descriptionZh": "以过饱和色彩极端特写全球消费文化——食物、纪念品、身体——将消费主义批判推向荒诞。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1952,
+        "event": "Born in Epsom, Surrey, England",
+        "eventZh": "出生于英格兰萨里郡爱普森"
+      },
+      {
+        "year": 1986,
+        "event": "Published 'The Last Resort', shifting to color and gaining fame",
+        "eventZh": "出版《最后的度假胜地》，转向彩色摄影并一举成名"
+      },
+      {
+        "year": 1994,
+        "event": "Joined Magnum Photos, sparking internal controversy",
+        "eventZh": "加入马格南图片社，引发社内争议"
+      },
+      {
+        "year": 1999,
+        "event": "Published 'Common Sense', a global consumer culture project",
+        "eventZh": "出版《常识》，关注全球消费文化"
+      },
+      {
+        "year": 2017,
+        "event": "Elected President of Magnum Photos",
+        "eventZh": "当选马格南图片社主席"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Martin_Parr",
+      "https://www.magnumphotos.com/photographer/martin-parr/"
+    ]
+  },
+  {
+    "id": "harry-gruyaert",
+    "name": "Harry Gruyaert",
+    "nameZh": "哈里·格鲁亚特",
+    "born": 1941,
+    "died": null,
+    "country": "BE",
+    "region": "europe",
+    "bio": "Belgian Magnum photographer and pioneer of European color photography, known for his richly saturated images of light, color, and atmospheric urban scenes across Morocco, Belgium, and beyond.",
+    "bioLong": "哈里·格鲁亚特是欧洲彩色摄影的先驱之一，比利时马格南图片社成员。他在布鲁塞尔学习摄影和电影后，1960年代末移居巴黎开始自由摄影生涯。在威廉·埃格尔斯顿和斯蒂芬·肖尔将彩色摄影引入美国艺术殿堂的同时，格鲁亚特在欧洲独立开辟了自己的彩色摄影道路。他对色彩的敏锐感知源于对绘画——尤其是波普艺术和野兽派——的深入研究。他的摩洛哥系列以浓烈的北非光线和饱和色彩创造了梦幻般的视觉体验；比利时海岸系列则以薄雾中的柔和色调捕捉了低地国家独特的灰色光线。他的作品证明了彩色摄影不只是美国现象，欧洲同样孕育了独特的色彩传统。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "color",
+      "street-photography",
+      "available-light"
+    ],
+    "influencedBy": [
+      "eggleston",
+      "william-klein"
+    ],
+    "works": [
+      {
+        "title": "Morocco",
+        "titleZh": "摩洛哥",
+        "year": 1988,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/harry-gruyaert/",
+        "description": "Richly saturated photographs of Moroccan streets, markets, and coastal towns, capturing the intensity of North African light and color.",
+        "descriptionZh": "摩洛哥街头、市场和海岸小镇的浓郁饱和影像，捕捉北非光线与色彩的强烈感。"
+      },
+      {
+        "title": "Rivages",
+        "titleZh": "海岸",
+        "year": 2003,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/harry-gruyaert/",
+        "description": "Atmospheric photographs of the Belgian coast and other shorelines, exploring the subtle gradations of light in overcast maritime landscapes.",
+        "descriptionZh": "比利时海岸及其他海滨的氛围影像，探索阴天海洋景观中光线的微妙变化。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1941,
+        "event": "Born in Antwerp, Belgium",
+        "eventZh": "出生于比利时安特卫普"
+      },
+      {
+        "year": 1969,
+        "event": "Moved to Paris and began freelance photography career",
+        "eventZh": "移居巴黎，开始自由摄影生涯"
+      },
+      {
+        "year": 1982,
+        "event": "Joined Magnum Photos",
+        "eventZh": "加入马格南图片社"
+      },
+      {
+        "year": 1988,
+        "event": "Published 'Morocco', establishing his reputation for saturated color",
+        "eventZh": "出版《摩洛哥》，确立饱和色彩的声誉"
+      },
+      {
+        "year": 2003,
+        "event": "Published 'Rivages', exploring Belgian coastal light",
+        "eventZh": "出版《海岸》，探索比利时海岸光线"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Harry_Gruyaert",
+      "https://www.magnumphotos.com/photographer/harry-gruyaert/"
+    ]
+  },
+  {
+    "id": "thomas-hoepker",
+    "name": "Thomas Hoepker",
+    "nameZh": "托马斯·赫普克",
+    "born": 1936,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "bio": "German photojournalist and longtime Magnum member, known for his vivid color reportage and the controversial photograph of young New Yorkers seemingly relaxed as the Twin Towers burned on September 11, 2001.",
+    "bioLong": "托马斯·赫普克是德国最杰出的新闻摄影家之一，马格南图片社成员及前任主席。他在慕尼黑和哥廷根学习艺术史和考古学，后转向摄影记者生涯，为《明星》杂志和《地理》杂志拍摄了大量深度报道。他从1960年代起便大量使用彩色胶片，在当时以黑白为主导的新闻摄影界中独树一帜。他最广为人知的影像是2001年9月11日拍摄的一张照片：前景中几位年轻人在布鲁克林水边闲坐聊天，背景是正在燃烧坍塌的世贸中心双塔。这张照片直到2006年才被公开，随即引发了关于摄影伦理和图像解读的广泛争论。他的德国纪实作品也记录了战后两德的深刻差异。",
+    "movements": [
+      "magnum"
+    ],
+    "techniques": [
+      "color",
+      "photojournalism",
+      "reportage"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "capa"
+    ],
+    "works": [
+      {
+        "title": "9/11 Brooklyn View",
+        "titleZh": "9·11布鲁克林远望",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/thomas-hoepker/",
+        "description": "Young New Yorkers in the foreground seemingly relaxed while the Twin Towers burn in the background, a deeply debated image about perception and tragedy.",
+        "descriptionZh": "前景中年轻人看似轻松闲坐，背景是燃烧的双子塔，一幅关于感知与悲剧的深刻争议影像。"
+      },
+      {
+        "title": "Muhammad Ali",
+        "titleZh": "穆罕默德·阿里",
+        "year": 1966,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/thomas-hoepker/",
+        "description": "An iconic portrait of Muhammad Ali showing his fist to the camera, captured during an assignment for a German magazine.",
+        "descriptionZh": "穆罕默德·阿里向镜头展示拳头的标志性肖像，拍摄于为德国杂志执行的任务中。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1936,
+        "event": "Born in Munich, Germany",
+        "eventZh": "出生于德国慕尼黑"
+      },
+      {
+        "year": 1964,
+        "event": "Began shooting for Stern magazine as a staff photographer",
+        "eventZh": "成为《明星》杂志专职摄影师"
+      },
+      {
+        "year": 1989,
+        "event": "Joined Magnum Photos",
+        "eventZh": "加入马格南图片社"
+      },
+      {
+        "year": 2001,
+        "event": "Photographed September 11 from Brooklyn, creating the controversial panoramic view",
+        "eventZh": "从布鲁克林拍摄9·11事件，创作了引发争议的远景照片"
+      },
+      {
+        "year": 2003,
+        "event": "Served as President of Magnum Photos",
+        "eventZh": "担任马格南图片社主席"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Hoepker",
+      "https://www.magnumphotos.com/photographer/thomas-hoepker/"
+    ]
+  },
+  {
+    "id": "paul-outerbridge",
+    "name": "Paul Outerbridge",
+    "nameZh": "保罗·奥特布里奇",
+    "born": 1896,
+    "died": 1958,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer and early master of color photography, renowned for his technically exquisite carbro process prints and modernist still life compositions.",
+    "bioLong": "保罗·奥特布里奇是美国早期彩色摄影的先驱和碳转印工艺大师。他在克拉伦斯·怀特摄影学校学习后迅速崭露头角，成为1920年代纽约最受欢迎的商业和艺术摄影师之一。他的黑白静物作品以精确的几何构图和细腻的影调层次著称，深受立体主义和包豪斯美学影响。1930年代他精通了极其复杂的碳转印彩色工艺（Carbro Process），制作出在当时技术条件下近乎不可能的高品质彩色照片。他的彩色静物和人体作品色彩浓郁而精确，被视为彩色摄影从技术实验走向艺术表达的关键人物。他也拍摄了大量裸体作品，在当时引发争议。他的职业生涯横跨商业摄影和纯艺术，打破了两者之间的界限。",
+    "movements": [
+      "straight"
+    ],
+    "techniques": [
+      "carbro-process",
+      "color",
+      "still-life"
+    ],
+    "influencedBy": [
+      "e-weston",
+      "stieglitz"
+    ],
+    "works": [
+      {
+        "title": "Ide Collar",
+        "titleZh": "Ide衬衫领",
+        "year": 1922,
+        "image": null,
+        "href": "https://www.metmuseum.org/art/collection/search/267815",
+        "description": "A modernist still life of a shirt collar and checkerboard, showcasing geometric precision that merged commercial and fine art photography.",
+        "descriptionZh": "衬衫领与棋盘格的现代主义静物，以几何精确性融合了商业与纯艺术摄影。"
+      },
+      {
+        "title": "Avocado Pears",
+        "titleZh": "牛油果",
+        "year": 1936,
+        "image": null,
+        "href": "https://www.getty.edu/art/collection/object/103QYV",
+        "description": "A carbro color print of avocado halves, exemplifying Outerbridge's mastery of the complex color process and modernist composition.",
+        "descriptionZh": "牛油果切面的碳转印彩色作品，展示了奥特布里奇对复杂彩色工艺和现代主义构图的精通。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1896,
+        "event": "Born in New York City",
+        "eventZh": "出生于纽约"
+      },
+      {
+        "year": 1921,
+        "event": "Enrolled at the Clarence H. White School of Photography",
+        "eventZh": "进入克拉伦斯·怀特摄影学校学习"
+      },
+      {
+        "year": 1925,
+        "event": "Moved to Paris, worked for Vogue and studied with Man Ray",
+        "eventZh": "移居巴黎，为《时尚》杂志工作并师从曼·雷"
+      },
+      {
+        "year": 1936,
+        "event": "Published 'Photographing in Color', the first book on color photography technique",
+        "eventZh": "出版《彩色摄影》，第一部彩色摄影技术专著"
+      },
+      {
+        "year": 1958,
+        "event": "Died in Laguna Beach, California",
+        "eventZh": "逝世于加利福尼亚州拉古纳海滩"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Paul_Outerbridge",
+      "https://www.metmuseum.org/art/collection/search/267815"
+    ]
+  },
+  {
+    "id": "rong-rong",
+    "name": "RongRong (Lu Zhirong)",
+    "nameZh": "荣荣（卢志荣）",
+    "born": 1968,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "bio": "Chinese experimental photographer who co-founded Three Shadows Photography Art Centre in Beijing with his partner inri, documenting China's avant-garde art scene and exploring identity through the body.",
+    "bioLong": "荣荣是中国当代实验摄影的先锋人物。他1992年来到北京东村，成为中国前卫艺术运动的见证者和参与者，用相机记录了张洹、马六明等行为艺术家的创作现场。他早期的黑白自拍作品以颓废、荒诞的美学探索了身体与废墟的关系。2000年他与日本摄影家映里（inri）相识，两人开始以「荣荣&映里」的身份合作创作，以双重裸体置于自然和废墟景观中的大画幅影像探索爱、亲密与存在。2007年他们在北京草场地创立了三影堂摄影艺术中心——中国第一家专注于当代摄影的民间艺术机构——为中国摄影的发展提供了重要平台。三影堂已成为中国当代摄影最重要的推动力量之一。",
+    "movements": [
+      "china-contemporary"
+    ],
+    "techniques": [
+      "black-and-white",
+      "self-portrait",
+      "large-format"
+    ],
+    "influencedBy": [
+      "araki",
+      "moriyama"
+    ],
+    "works": [
+      {
+        "title": "East Village Beijing",
+        "titleZh": "北京东村",
+        "year": 1994,
+        "image": null,
+        "href": "https://www.threeshadows.cn/en/about",
+        "description": "Documentary photographs of Beijing's avant-garde art community in the East Village, capturing performances by Zhang Huan and Ma Liuming.",
+        "descriptionZh": "北京东村前卫艺术社区的纪实摄影，捕捉张洹、马六明等人的行为艺术现场。"
+      },
+      {
+        "title": "RongRong & inri: In the Great Wall",
+        "titleZh": "荣荣&映里：在长城",
+        "year": 2003,
+        "image": null,
+        "href": "https://www.threeshadows.cn/en/about",
+        "description": "A collaborative large-format series with partner inri, placing their nude bodies within the landscape of the Great Wall.",
+        "descriptionZh": "与伴侣映里的大画幅合作系列，将两人的裸体置于长城景观之中。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1968,
+        "event": "Born in Zhangzhou, Fujian Province",
+        "eventZh": "出生于福建省漳州市"
+      },
+      {
+        "year": 1992,
+        "event": "Moved to Beijing, began documenting the East Village art scene",
+        "eventZh": "来到北京，开始记录东村艺术场景"
+      },
+      {
+        "year": 2000,
+        "event": "Met Japanese photographer inri, began long-term collaboration",
+        "eventZh": "与日本摄影家映里相识，开始长期合作"
+      },
+      {
+        "year": 2007,
+        "event": "Co-founded Three Shadows Photography Art Centre in Beijing",
+        "eventZh": "在北京联合创立三影堂摄影艺术中心"
+      },
+      {
+        "year": 2014,
+        "event": "Established Three Shadows Xiamen Photography Art Centre",
+        "eventZh": "创立三影堂厦门摄影艺术中心"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/RongRong_(photographer)",
+      "https://www.threeshadows.cn/en/about"
+    ]
+  },
+  {
+    "id": "luo-yang",
+    "name": "Luo Yang",
+    "nameZh": "罗洋",
+    "born": 1984,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "bio": "Chinese photographer best known for her long-running 'Girls' series, capturing the confidence, vulnerability, and evolving identity of young Chinese women.",
+    "bioLong": "罗洋是中国新生代最受关注的摄影家之一。她出生于辽宁沈阳，在鲁迅美术学院学习摄影后开始了持续十余年的《女孩》(Girls)系列创作。这一系列以直接而亲密的方式拍摄中国年轻女性——她们或在出租屋中慵懒地躺卧，或在街头展现叛逆姿态——呈现了当代中国女性在传统期望与个人自由之间的张力。她的影像风格自然、不矫饰，色调温暖而略带忧郁，既非猎奇也非美化，而是以平视的目光记录了一代人的真实状态。她的作品在国际上引起广泛共鸣，被视为理解当代中国青年文化的重要视觉文献。她也拍摄了《青年》系列，将视角扩展到男性青年。",
+    "movements": [
+      "china-contemporary"
+    ],
+    "techniques": [
+      "color",
+      "portrait",
+      "natural-light"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Girls",
+        "titleZh": "女孩",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.luoyang.me/",
+        "description": "An ongoing portrait series documenting young Chinese women in intimate settings, exploring identity, confidence, and the tensions of modern Chinese womanhood.",
+        "descriptionZh": "持续进行的肖像系列，在私密场景中记录中国年轻女性，探索身份认同、自信与当代中国女性处境的张力。"
+      },
+      {
+        "title": "Youth",
+        "titleZh": "青年",
+        "year": 2016,
+        "image": null,
+        "href": "https://www.luoyang.me/",
+        "description": "A companion series expanding to young Chinese men, capturing the restlessness and uncertainty of contemporary Chinese youth culture.",
+        "descriptionZh": "拓展至中国男性青年的姊妹系列，捕捉当代中国青年文化的躁动与迷茫。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1984,
+        "event": "Born in Shenyang, Liaoning Province",
+        "eventZh": "出生于辽宁省沈阳市"
+      },
+      {
+        "year": 2007,
+        "event": "Began the 'Girls' series, her defining body of work",
+        "eventZh": "开始《女孩》系列创作，成为她的标志性项目"
+      },
+      {
+        "year": 2014,
+        "event": "Published 'Girls' photobook, gaining international recognition",
+        "eventZh": "出版《女孩》摄影书，获得国际关注"
+      },
+      {
+        "year": 2019,
+        "event": "Featured in exhibitions across Asia, Europe, and North America",
+        "eventZh": "作品在亚洲、欧洲和北美广泛展出"
+      },
+      {
+        "year": 2020,
+        "event": "Published expanded edition of 'Girls' with a decade of work",
+        "eventZh": "出版《女孩》扩展版，收录十年创作"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luo_Yang_(photographer)",
+      "https://www.luoyang.me/"
+    ]
+  },
+  {
+    "id": "feng-li",
+    "name": "Feng Li",
+    "nameZh": "冯立",
+    "born": 1971,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "bio": "Chinese street photographer from Chengdu known for his surreal flash photographs capturing absurd, dreamlike moments in everyday Chinese urban life.",
+    "bioLong": "冯立是中国当代最受国际关注的街头摄影家之一。他生活在成都，白天在政府部门工作，业余时间带着闪光灯在成都街头捕捉荒诞的日常瞬间。他的作品以直射闪光灯的硬光、超现实的场景和不可预测的构图著称：一只巨大的充气恐龙在街头漫步，一位穿着奇异服装的老人在公园中独坐，一群人在不可思议的场景中做出匪夷所思的姿态。他的影像风格看似随意却极具视觉冲击力，将成都街头转化为一座超现实主义的剧场。2017年他凭《白夜》系列获得集美·阿尔勒发现奖，随后在全球范围内获得广泛认可。他的作品证明了中国街头蕴藏着取之不尽的视觉奇观。",
+    "movements": [
+      "china-contemporary",
+      "street"
+    ],
+    "techniques": [
+      "flash",
+      "street-photography",
+      "color"
+    ],
+    "influencedBy": [
+      "william-klein"
+    ],
+    "works": [
+      {
+        "title": "White Night",
+        "titleZh": "白夜",
+        "year": 2017,
+        "image": null,
+        "href": "https://www.jimeiarlesphotofestival.com/",
+        "description": "Flash-lit street photographs from Chengdu capturing surreal and absurd moments in everyday urban life.",
+        "descriptionZh": "闪光灯照亮的成都街头摄影，捕捉日常城市生活中超现实而荒诞的瞬间。"
+      },
+      {
+        "title": "Chengdu Diary",
+        "titleZh": "成都日记",
+        "year": 2015,
+        "image": null,
+        "href": "https://www.lensculture.com/feng-li",
+        "description": "An ongoing series of flash street photographs documenting the bizarre and wonderful characters of Chengdu's public spaces.",
+        "descriptionZh": "持续进行的闪光灯街头摄影系列，记录成都公共空间中奇异而精彩的人物与场景。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1971,
+        "event": "Born in Chengdu, Sichuan Province",
+        "eventZh": "出生于四川省成都市"
+      },
+      {
+        "year": 2005,
+        "event": "Began street photography in Chengdu as a personal project",
+        "eventZh": "开始在成都进行街头摄影，作为个人项目"
+      },
+      {
+        "year": 2017,
+        "event": "Won the Jimei x Arles Discovery Award for 'White Night'",
+        "eventZh": "凭《白夜》获集美·阿尔勒发现奖"
+      },
+      {
+        "year": 2018,
+        "event": "Exhibited at Les Rencontres d'Arles, gaining global recognition",
+        "eventZh": "在阿尔勒国际摄影节展出，获得全球关注"
+      },
+      {
+        "year": 2020,
+        "event": "Published 'White Night' photobook",
+        "eventZh": "出版《白夜》摄影书"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Feng_Li_(photographer)",
+      "https://www.lensculture.com/feng-li"
+    ]
+  },
+  {
+    "id": "gregory-halpern",
+    "name": "Gregory Halpern",
+    "nameZh": "格雷戈里·哈尔彭",
+    "born": 1977,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer known for 'ZZYZX', a poetic color document of Los Angeles that blends portraiture, landscape, and found detail into a lyrical vision of the American West.",
+    "bioLong": "格雷戈里·哈尔彭是美国当代彩色纪实摄影的代表人物之一。他在哈佛大学学习历史和文学，后在加州艺术学院获得摄影硕士学位。他的代表作《ZZYZX》(2016)以美国最后一个地名字母排序的地名命名，通过多年在洛杉矶的拍摄，将人物肖像、自然景观、城市碎片和光影抽象编织成一部关于美国西部的视觉诗篇。他的色彩运用温暖而丰富，构图在写实与诗意之间游走，赋予日常场景以神话般的光辉。他的作品延续了新彩色摄影的传统，但更强调叙事的碎片化和情感的模糊性。他也是罗切斯特理工学院的摄影教授，为年轻一代摄影师提供指导。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "color",
+      "medium-format",
+      "documentary"
+    ],
+    "influencedBy": [
+      "eggleston",
+      "shore"
+    ],
+    "works": [
+      {
+        "title": "ZZYZX",
+        "titleZh": "ZZYZX",
+        "year": 2016,
+        "image": null,
+        "href": "https://www.mack-books.com/gregory-halpern-zzyzx.html",
+        "description": "A poetic color photobook of Los Angeles, weaving portraits, landscapes, and details into a fragmented but cohesive vision of the American West.",
+        "descriptionZh": "洛杉矶的诗意彩色摄影书，将肖像、风景和细节编织成关于美国西部的碎片化但统一的视觉叙事。"
+      },
+      {
+        "title": "Let the Sun Beheaded Be",
+        "titleZh": "让太阳被斩首",
+        "year": 2020,
+        "image": null,
+        "href": "https://aperture.org/editorial/gregory-halpern-let-the-sun-beheaded-be/",
+        "description": "Photographs from Guadeloupe exploring the French Caribbean island's colonial history, landscape, and contemporary life in vivid color.",
+        "descriptionZh": "在瓜德罗普岛拍摄的作品，以鲜明色彩探索这座法属加勒比岛屿的殖民历史、景观和当代生活。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1977,
+        "event": "Born in Buffalo, New York",
+        "eventZh": "出生于纽约州布法罗"
+      },
+      {
+        "year": 2002,
+        "event": "Earned MFA from California College of the Arts",
+        "eventZh": "获加州艺术学院摄影硕士学位"
+      },
+      {
+        "year": 2016,
+        "event": "Published 'ZZYZX', winning the Paris Photo-Aperture Foundation Photobook Award",
+        "eventZh": "出版《ZZYZX》，获巴黎摄影-光圈基金会摄影书奖"
+      },
+      {
+        "year": 2020,
+        "event": "Exhibited 'Let the Sun Beheaded Be' at the Venice Biennale (French Pavilion)",
+        "eventZh": "《让太阳被斩首》在威尼斯双年展法国馆展出"
+      },
+      {
+        "year": 2021,
+        "event": "Received a Guggenheim Fellowship",
+        "eventZh": "获古根海姆奖学金"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gregory_Halpern",
+      "https://aperture.org/editorial/gregory-halpern-let-the-sun-beheaded-be/"
+    ]
+  },
+  {
+    "id": "zoe-leonard",
+    "name": "Zoe Leonard",
+    "nameZh": "佐伊·莱昂纳德",
+    "born": 1961,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American artist and photographer known for her conceptual work exploring gender, desire, loss, and urban transformation through photography and installation.",
+    "bioLong": "佐伊·莱昂纳德是美国当代最重要的概念摄影艺术家之一。她在1980年代的纽约崛起于艾滋危机和LGBT权利运动的背景下，成为ACT UP等激进团体的活跃成员。她的摄影实践将政治关怀与诗意的视觉语言融为一体。代表作《奇异的水果》(1992-97)用线缝合果皮后展示其衰腐过程，是对艾滋危机中逝去友人的深沉悼念。她的《纽约市调查》系列以安装在城市各处的针孔相机拍摄纽约的变迁，记录了绅士化浪潮下消失的街角店铺。2012年的装置作品《安纳托利亚人》则以二手明信片构建了一个关于旅行、殖民凝视和图像流通的庞大档案。她的作品模糊了摄影、雕塑和装置的边界，以低调却有力的方式追问图像在权力与记忆中的角色。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "analog",
+      "pinhole",
+      "installation"
+    ],
+    "influencedBy": [
+      "atget",
+      "evans"
+    ],
+    "works": [
+      {
+        "title": "Analogue",
+        "titleZh": "模拟",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.moma.org/artists/34517",
+        "description": "A monumental series of photographs documenting vanishing small shops in New York and their global counterparts, exploring capitalism and cultural loss.",
+        "descriptionZh": "记录纽约消失中的小店铺及其全球对应物的宏大系列，探索资本主义与文化消失。"
+      },
+      {
+        "title": "Strange Fruit",
+        "titleZh": "奇异的水果",
+        "year": 1997,
+        "image": null,
+        "href": "https://www.moma.org/artists/34517",
+        "description": "Sewn-up fruit peels displayed as they slowly decompose, a meditation on loss during the AIDS crisis.",
+        "descriptionZh": "缝合的果皮在缓慢腐烂中展示，是对艾滋危机中丧失的沉思。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1961,
+        "event": "Born in Liberty, New York",
+        "eventZh": "出生于纽约州利伯蒂"
+      },
+      {
+        "year": 1992,
+        "event": "Began 'Strange Fruit', her AIDS memorial installation",
+        "eventZh": "开始创作《奇异的水果》，纪念艾滋危机中逝去的友人"
+      },
+      {
+        "year": 1997,
+        "event": "Exhibited at documenta X in Kassel, Germany",
+        "eventZh": "参加德国卡塞尔第十届文献展"
+      },
+      {
+        "year": 2007,
+        "event": "Completed 'Analogue', a decade-long project on urban transformation",
+        "eventZh": "完成《模拟》，历时十年的城市变迁项目"
+      },
+      {
+        "year": 2018,
+        "event": "Major retrospective 'Survey' opened at the Whitney Museum",
+        "eventZh": "大型回顾展《Survey》在惠特尼美术馆开幕"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zoe_Leonard",
+      "https://www.moma.org/artists/34517"
+    ]
+  },
+  {
+    "id": "thomas-demand",
+    "name": "Thomas Demand",
+    "nameZh": "托马斯·迪曼德",
+    "born": 1964,
+    "died": null,
+    "country": "DE",
+    "region": "europe",
+    "bio": "German artist who meticulously constructs life-size paper and cardboard models of spaces from news photographs, then photographs and destroys them, questioning the nature of photographic truth.",
+    "bioLong": "托马斯·迪曼德是德国当代最具独创性的摄影艺术家之一，杜塞尔多夫学派的重要延续者。他的创作方法独特而繁复：首先根据新闻照片或历史影像，用纸张和纸板精心搭建1:1比例的空间模型，然后拍摄这些模型，最后将其销毁。他的影像乍看逼真，但细看会发现所有文字、标签和细节都是空白的——一种令人不安的「近似真实」。他的选题常常涉及政治事件的现场：萨达姆·侯赛因的厨房、佛罗里达选票重计的办公室、日本海啸的灾后房间。通过这种「重建-拍摄-销毁」的过程，他质疑了新闻影像的真实性和记忆的可靠性。他的大尺幅作品在全球主要美术馆展出，被视为数字时代思考摄影本体论的重要艺术家。",
+    "movements": [
+      "dusseldorf"
+    ],
+    "techniques": [
+      "constructed-photography",
+      "large-format",
+      "paper-model"
+    ],
+    "influencedBy": [
+      "becher"
+    ],
+    "works": [
+      {
+        "title": "Presidency (Flur / Corridor)",
+        "titleZh": "总统（走廊）",
+        "year": 2008,
+        "image": null,
+        "href": "https://www.moma.org/artists/7757",
+        "description": "A life-size paper reconstruction of a Saddam Hussein palace corridor, photographed and then destroyed, questioning documentary truth.",
+        "descriptionZh": "以纸张1:1重建萨达姆·侯赛因宫殿走廊，拍摄后销毁，质疑纪实影像的真实性。"
+      },
+      {
+        "title": "Grotto",
+        "titleZh": "洞穴",
+        "year": 2006,
+        "image": null,
+        "href": "https://www.moma.org/artists/7757",
+        "description": "A massive paper construction of a natural grotto, blurring the boundary between artificial and natural, model and reality.",
+        "descriptionZh": "以纸张搭建的巨大天然洞穴模型，模糊人工与自然、模型与现实的界限。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1964,
+        "event": "Born in Munich, Germany",
+        "eventZh": "出生于德国慕尼黑"
+      },
+      {
+        "year": 1993,
+        "event": "Created first major paper model work, establishing his distinctive method",
+        "eventZh": "创作首件重要纸模型作品，确立独特的创作方法"
+      },
+      {
+        "year": 2005,
+        "event": "Major exhibition 'Phototrophy' at Museum of Contemporary Art, Chicago",
+        "eventZh": "大型展览《向光性》在芝加哥当代艺术博物馆举办"
+      },
+      {
+        "year": 2009,
+        "event": "Retrospective 'Nationalgalerie' at the Neue Nationalgalerie, Berlin",
+        "eventZh": "回顾展在柏林新国家美术馆举办"
+      },
+      {
+        "year": 2011,
+        "event": "Created 'Pacific Sun' animation, extending his practice into moving image",
+        "eventZh": "创作《太平洋阳光》动画，将实践拓展至动态影像"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Demand",
+      "https://www.moma.org/artists/7757"
+    ]
+  },
+  {
+    "id": "trent-parke",
+    "name": "Trent Parke",
+    "nameZh": "特伦特·帕克",
+    "born": 1971,
+    "died": null,
+    "country": "AU",
+    "region": "oceania",
+    "bio": "Australian photographer and the only Australian member of Magnum Photos, known for his dramatic use of light and shadow in street photography and epic road-trip narratives across the Australian continent.",
+    "bioLong": "特伦特·帕克是澳大利亚最重要的当代摄影家，也是马格南图片社唯一的澳大利亚籍成员。他的摄影以对光影的极致运用著称——在悉尼街头，他捕捉阳光穿过建筑缝隙投射在行人身上的戏剧性瞬间，将日常通勤转化为充满宗教感的光影剧场。代表作《梦/生》(2002)是他与妻子驾车环绕澳大利亚9万公里的影像记录，以黑白和彩色交织呈现了澳洲内陆的荒凉与超现实感。他后来转向更具概念性的长期项目，如《黑玫瑰》系列探索澳大利亚的暴力历史。他的作品在街头摄影的即兴性和长期项目的深度之间达到了罕见的平衡。",
+    "movements": [
+      "magnum",
+      "street"
+    ],
+    "techniques": [
+      "black-and-white",
+      "color",
+      "available-light"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "frank"
+    ],
+    "works": [
+      {
+        "title": "Dream/Life",
+        "titleZh": "梦/生",
+        "year": 2002,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/trent-parke/",
+        "description": "A series of dramatic light-and-shadow street photographs from Sydney, transforming everyday commuters into figures in a chiaroscuro theater.",
+        "descriptionZh": "悉尼街头戏剧性光影照片系列，将日常通勤者转化为明暗交织的光影剧场中的人物。"
+      },
+      {
+        "title": "Minutes to Midnight",
+        "titleZh": "午夜前几分钟",
+        "year": 2013,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/trent-parke/",
+        "description": "A 90,000km road trip across Australia, documenting the continent's surreal landscapes and isolated communities in both black-and-white and color.",
+        "descriptionZh": "环绕澳大利亚9万公里的公路旅行，以黑白和彩色记录了这片大陆超现实的景观和孤立的社区。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1971,
+        "event": "Born in Newcastle, New South Wales, Australia",
+        "eventZh": "出生于澳大利亚新南威尔士州纽卡斯尔"
+      },
+      {
+        "year": 2002,
+        "event": "Published 'Dream/Life', establishing his international reputation",
+        "eventZh": "出版《梦/生》，确立国际声誉"
+      },
+      {
+        "year": 2007,
+        "event": "Became the first and only Australian full member of Magnum Photos",
+        "eventZh": "成为马格南图片社首位也是唯一一位澳大利亚正式成员"
+      },
+      {
+        "year": 2013,
+        "event": "Published 'Minutes to Midnight', a decade-long Australian road trip project",
+        "eventZh": "出版《午夜前几分钟》，历时十年的澳大利亚公路旅行项目"
+      },
+      {
+        "year": 2015,
+        "event": "Won the W. Eugene Smith Grant in Humanistic Photography",
+        "eventZh": "获W·尤金·史密斯人文主义摄影奖"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Trent_Parke",
+      "https://www.magnumphotos.com/photographer/trent-parke/"
+    ]
+  },
+  {
+    "id": "ralph-gibson",
+    "name": "Ralph Gibson",
+    "nameZh": "拉尔夫·吉布森",
+    "born": 1939,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer known for his high-contrast, fragmentary images of the human body and urban forms, most notably in his photobook trilogy beginning with 'The Somnambulist'.",
+    "bioLong": "拉尔夫·吉布森是美国当代摄影中以视觉碎片和高反差美学著称的重要摄影家。他早年在旧金山艺术学院学习后，曾担任多罗西娅·兰格和罗伯特·弗兰克的助手，这两段经历深刻影响了他的摄影观。1970年他自费出版了《梦游者》(The Somnambulist)，以高反差黑白影像、断裂的身体碎片和梦幻般的叙事序列震惊了摄影界。此后的《似曾相识》(Déjà-Vu, 1973)和《天光》(Days at Sea, 1975)构成了他标志性的摄影三部曲。他的影像风格将身体的局部——手、嘴唇、眼睛、肌肤——从上下文中剥离出来，创造出充满情欲暗示和存在主义张力的视觉碎片。他创立了Lustrum Press出版社，推动了独立摄影书出版的发展。",
+    "movements": [
+      "street"
+    ],
+    "techniques": [
+      "high-contrast",
+      "black-and-white",
+      "fragment"
+    ],
+    "influencedBy": [
+      "frank",
+      "lange"
+    ],
+    "works": [
+      {
+        "title": "The Somnambulist",
+        "titleZh": "梦游者",
+        "year": 1970,
+        "image": null,
+        "href": "https://www.moma.org/artists/2147",
+        "description": "A dreamlike sequence of high-contrast images — fragmented bodies, mysterious hands, dark interiors — that redefined the photobook as an art form.",
+        "descriptionZh": "高反差影像的梦幻序列——碎片化的身体、神秘的手、黑暗的室内——重新定义了摄影书作为艺术形式的可能性。"
+      },
+      {
+        "title": "Déjà-Vu",
+        "titleZh": "似曾相识",
+        "year": 1973,
+        "image": null,
+        "href": "https://www.moma.org/artists/2147",
+        "description": "The second volume of Gibson's trilogy, continuing his exploration of erotic fragments and metaphysical ambiguity.",
+        "descriptionZh": "吉布森三部曲的第二卷，延续对情欲碎片和形而上模糊性的探索。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1939,
+        "event": "Born in Los Angeles, California",
+        "eventZh": "出生于加利福尼亚州洛杉矶"
+      },
+      {
+        "year": 1962,
+        "event": "Served as assistant to Dorothea Lange",
+        "eventZh": "担任多罗西娅·兰格的助手"
+      },
+      {
+        "year": 1968,
+        "event": "Worked as assistant to Robert Frank on film projects",
+        "eventZh": "在罗伯特·弗兰克的电影项目中担任助手"
+      },
+      {
+        "year": 1970,
+        "event": "Self-published 'The Somnambulist' and founded Lustrum Press",
+        "eventZh": "自费出版《梦游者》并创立Lustrum Press出版社"
+      },
+      {
+        "year": 1973,
+        "event": "Published 'Déjà-Vu', completing the second part of his trilogy",
+        "eventZh": "出版《似曾相识》，完成三部曲的第二部"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ralph_Gibson",
+      "https://www.moma.org/artists/2147"
+    ]
+  },
+  {
+    "id": "ray-metzker",
+    "name": "Ray K. Metzker",
+    "nameZh": "雷·梅茨克",
+    "born": 1931,
+    "died": 2014,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer who studied under Harry Callahan and Aaron Siskind, pioneering composite photographs, double exposures, and extreme light-shadow abstractions of the urban landscape.",
+    "bioLong": "雷·梅茨克是美国战后摄影中最具实验精神的艺术家之一。他在芝加哥设计学院（后来的IIT设计学院）师从哈里·卡拉汉和亚伦·西斯金德，这两位导师对他的视觉语言产生了决定性影响。他毕业后在费城和芝加哥的城市街头开始了长达半个世纪的探索。他的实验手法多样而大胆：将多张底片拼合成复合影像、在同一画面中叠加多次曝光、以极端的高反差将城市场景简化为纯粹的光与影的抽象图案。他的《复合》系列将城市行人拼贴成重复节奏的网格，预示了数字时代的影像拼合。《未知领地》系列则以强烈的逆光将海滨人物简化为神秘的剪影。他的作品证明了传统黑白胶片在表达实验方面的无限可能。",
+    "movements": [
+      "street"
+    ],
+    "techniques": [
+      "composite",
+      "double-exposure",
+      "high-contrast"
+    ],
+    "influencedBy": [
+      "harry-callahan"
+    ],
+    "works": [
+      {
+        "title": "Composites",
+        "titleZh": "复合影像",
+        "year": 1964,
+        "image": null,
+        "href": "https://www.moma.org/artists/3923",
+        "description": "Multiple photographic prints assembled into grids and sequences, transforming individual street scenes into rhythmic visual patterns.",
+        "descriptionZh": "多张照片拼合成网格和序列，将单独的街头场景转化为具有节奏感的视觉图案。"
+      },
+      {
+        "title": "City Whispers",
+        "titleZh": "城市低语",
+        "year": 1983,
+        "image": null,
+        "href": "https://www.moma.org/artists/3923",
+        "description": "Extreme light-and-shadow abstractions of Philadelphia street life, reducing urban scenes to stark graphic compositions.",
+        "descriptionZh": "费城街头生活的极端光影抽象，将城市场景简化为鲜明的图形构成。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1931,
+        "event": "Born in Milwaukee, Wisconsin",
+        "eventZh": "出生于威斯康星州密尔沃基"
+      },
+      {
+        "year": 1959,
+        "event": "Earned MFA from the Institute of Design under Callahan and Siskind",
+        "eventZh": "在卡拉汉和西斯金德指导下获设计学院硕士学位"
+      },
+      {
+        "year": 1964,
+        "event": "Created the 'Composites' series, pioneering photographic montage",
+        "eventZh": "创作《复合影像》系列，开创摄影蒙太奇新领域"
+      },
+      {
+        "year": 1978,
+        "event": "Appointed professor at the Philadelphia College of Art",
+        "eventZh": "被任命为费城艺术学院教授"
+      },
+      {
+        "year": 2014,
+        "event": "Died in Philadelphia",
+        "eventZh": "逝世于费城"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ray_Metzker",
+      "https://www.moma.org/artists/3923"
+    ]
+  },
+  {
+    "id": "donna-ferrato",
+    "name": "Donna Ferrato",
+    "nameZh": "唐娜·费拉托",
+    "born": 1949,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photojournalist who dedicated her career to documenting domestic violence, producing 'Living with the Enemy', a groundbreaking visual investigation that helped change American law and public awareness.",
+    "bioLong": "唐娜·费拉托是美国最勇敢的纪实摄影家之一，毕生致力于记录家庭暴力这一长期被忽视的社会议题。1982年她在拍摄一对看似幸福的中产夫妇时，亲眼目睹了丈夫对妻子的暴力殴打，这一经历彻底改变了她的创作方向。此后她花了十余年时间深入庇护所、警局和受害者家庭，拍摄了震撼人心的影像系列《与敌同眠》(1991)。这些黑白照片以惊人的近距离和不加掩饰的直接性呈现了暴力的恐怖和受害者的坚韧。这部作品推动了美国1994年《暴力侵害妇女法案》的通过。她后来创立了「我不是自找的」(I Am Unbeatable)组织，将摄影作为社会变革的工具。她的作品证明了纪实摄影改变世界的力量。",
+    "movements": [
+      "war-photography"
+    ],
+    "techniques": [
+      "black-and-white",
+      "documentary",
+      "photojournalism"
+    ],
+    "influencedBy": [
+      "w-eugene-smith"
+    ],
+    "works": [
+      {
+        "title": "Living with the Enemy",
+        "titleZh": "与敌同眠",
+        "year": 1991,
+        "image": null,
+        "href": "https://www.donnaferrato.com/",
+        "description": "A decade-long documentary project on domestic violence in America, capturing both the horror of abuse and the resilience of survivors.",
+        "descriptionZh": "历时十年的美国家庭暴力纪实项目，捕捉了暴力的恐怖和幸存者的坚韧。"
+      },
+      {
+        "title": "Holy",
+        "titleZh": "神圣",
+        "year": 2020,
+        "image": null,
+        "href": "https://www.donnaferrato.com/",
+        "description": "A continuation of her advocacy work, photographing love, resilience, and empowerment among women who have survived abuse.",
+        "descriptionZh": "她倡导工作的延续，拍摄经历暴力后的女性中的爱、坚韧和自我赋权。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1949,
+        "event": "Born in Waltham, Massachusetts",
+        "eventZh": "出生于马萨诸塞州沃尔瑟姆"
+      },
+      {
+        "year": 1982,
+        "event": "Witnessed domestic violence while on assignment, changing her career direction",
+        "eventZh": "在拍摄任务中目睹家庭暴力，彻底改变创作方向"
+      },
+      {
+        "year": 1991,
+        "event": "Published 'Living with the Enemy', the first major photo-essay on domestic abuse",
+        "eventZh": "出版《与敌同眠》，第一部关于家庭暴力的重要摄影纪实"
+      },
+      {
+        "year": 1994,
+        "event": "Her work helped drive passage of the Violence Against Women Act",
+        "eventZh": "她的作品推动了《暴力侵害妇女法案》的通过"
+      },
+      {
+        "year": 2012,
+        "event": "Founded the 'I Am Unbeatable' advocacy organization",
+        "eventZh": "创立「我不可战胜」倡导组织"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Donna_Ferrato",
+      "https://www.donnaferrato.com/"
+    ]
+  },
+  {
+    "id": "laura-gilpin",
+    "name": "Laura Gilpin",
+    "nameZh": "劳拉·吉尔平",
+    "born": 1891,
+    "died": 1979,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer who spent over five decades documenting the landscapes of the American Southwest and the lives of the Navajo people with dignity and respect.",
+    "bioLong": "劳拉·吉尔平是美国西南部最重要的摄影记录者之一。她在纽约克拉伦斯·怀特摄影学校接受训练后返回科罗拉多州和新墨西哥州，开始了长达半个世纪的西南摄影生涯。她以铂金印相和银盐工艺拍摄了壮丽的沙漠风景、峡谷和悬崖住所，同时深入纳瓦霍（Navajo）保留地，以尊重和亲密的视角记录了纳瓦霍人的日常生活、仪式和土地关系。与同时代许多以猎奇目光拍摄原住民的摄影师不同，她与纳瓦霍社区建立了深厚的长期关系。她的代表作《永恒的河流：纳瓦霍人》(1968)是对纳瓦霍文化最有尊严的摄影记录之一。她的风景摄影在技术精度上堪比安塞尔·亚当斯，但更注重人与土地的关系。",
+    "movements": [
+      "straight"
+    ],
+    "techniques": [
+      "platinum-print",
+      "landscape",
+      "documentary"
+    ],
+    "influencedBy": [
+      "a-adams"
+    ],
+    "works": [
+      {
+        "title": "The Enduring Navaho",
+        "titleZh": "永恒的纳瓦霍人",
+        "year": 1968,
+        "image": null,
+        "href": "https://www.amoncartercenter.org/explore/collection/laura-gilpin/",
+        "description": "A comprehensive photographic record of Navajo life spanning decades, documenting ceremonies, daily activities, and the relationship between the people and their land.",
+        "descriptionZh": "横跨数十年的纳瓦霍人生活全面记录，记录仪式、日常活动以及人与土地的关系。"
+      },
+      {
+        "title": "The Rio Grande: River of Destiny",
+        "titleZh": "里奥格兰德河：命运之河",
+        "year": 1949,
+        "image": null,
+        "href": "https://www.amoncartercenter.org/explore/collection/laura-gilpin/",
+        "description": "A photographic journey along the Rio Grande from its Colorado source to the Gulf of Mexico, documenting landscape and culture.",
+        "descriptionZh": "沿里奥格兰德河从科罗拉多州源头到墨西哥湾的摄影之旅，记录沿途的景观与文化。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1891,
+        "event": "Born in Austin Bluffs, Colorado",
+        "eventZh": "出生于科罗拉多州奥斯汀布拉夫斯"
+      },
+      {
+        "year": 1916,
+        "event": "Studied at the Clarence White School of Photography in New York",
+        "eventZh": "在纽约克拉伦斯·怀特摄影学校学习"
+      },
+      {
+        "year": 1949,
+        "event": "Published 'The Rio Grande: River of Destiny'",
+        "eventZh": "出版《里奥格兰德河：命运之河》"
+      },
+      {
+        "year": 1968,
+        "event": "Published 'The Enduring Navaho', her magnum opus",
+        "eventZh": "出版代表作《永恒的纳瓦霍人》"
+      },
+      {
+        "year": 1979,
+        "event": "Died in Santa Fe, New Mexico",
+        "eventZh": "逝世于新墨西哥州圣塔菲"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Laura_Gilpin",
+      "https://www.amoncartercenter.org/explore/collection/laura-gilpin/"
+    ]
+  },
+  {
+    "id": "wynn-bullock",
+    "name": "Wynn Bullock",
+    "nameZh": "韦恩·布洛克",
+    "born": 1902,
+    "died": 1975,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer known for his philosophically driven images of nature, the nude in landscape, and explorations of light, time, and space as fundamental photographic elements.",
+    "bioLong": "韦恩·布洛克是美国西海岸摄影传统中最具哲学深度的摄影家之一。他早年在巴黎学习音乐和声乐，回美后转向摄影，在爱德华·韦斯顿的影响下发展出对自然和裸体的深刻关注。他的代表作《林中儿童裸体》(1951)——一个小女孩赤裸躺在苍翠的蕨类植物丛中——以诗意的方式表达了人与自然的原初和谐。他的后期作品越来越抽象，探索光作为时间的隐喻、空间的多重维度以及事物表象之下的深层现实。他深受爱因斯坦相对论和东方哲学的影响，将摄影视为探索存在本质的工具而非仅仅记录表象。他与安塞尔·亚当斯等人同属加州摄影传统，但其哲学取向使他在群体中独树一帜。",
+    "movements": [
+      "straight"
+    ],
+    "techniques": [
+      "black-and-white",
+      "nature",
+      "nude"
+    ],
+    "influencedBy": [
+      "e-weston",
+      "a-adams"
+    ],
+    "works": [
+      {
+        "title": "Child in Forest",
+        "titleZh": "林中儿童",
+        "year": 1951,
+        "image": null,
+        "href": "https://www.sfmoma.org/artist/wynn_bullock/",
+        "description": "A nude child resting among lush ferns in a redwood forest, expressing the primal unity of the human body and the natural world.",
+        "descriptionZh": "一个孩子赤身躺在红杉林中繁茂的蕨类植物间，表达人体与自然世界的原初统一。"
+      },
+      {
+        "title": "Sea Palms",
+        "titleZh": "海棕榈",
+        "year": 1968,
+        "image": null,
+        "href": "https://www.sfmoma.org/artist/wynn_bullock/",
+        "description": "An abstract study of sea palms along the Pacific coast, dissolving natural forms into patterns of light and organic rhythm.",
+        "descriptionZh": "太平洋海岸海棕榈的抽象研究，将自然形态溶解为光与有机节奏的图案。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1902,
+        "event": "Born in Chicago, Illinois",
+        "eventZh": "出生于伊利诺伊州芝加哥"
+      },
+      {
+        "year": 1938,
+        "event": "Began studying photography at the Art Center School in Los Angeles",
+        "eventZh": "在洛杉矶艺术中心学校开始学习摄影"
+      },
+      {
+        "year": 1951,
+        "event": "Created 'Child in Forest', one of his most iconic images",
+        "eventZh": "创作《林中儿童》，他最具标志性的作品之一"
+      },
+      {
+        "year": 1955,
+        "event": "Included in Edward Steichen's 'The Family of Man' exhibition at MoMA",
+        "eventZh": "入选斯泰肯在MoMA举办的《人类一家》展览"
+      },
+      {
+        "year": 1975,
+        "event": "Died in Monterey, California",
+        "eventZh": "逝世于加利福尼亚州蒙特雷"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Wynn_Bullock",
+      "https://www.sfmoma.org/artist/wynn_bullock/"
+    ]
+  },
+  {
+    "id": "ruth-bernhard",
+    "name": "Ruth Bernhard",
+    "nameZh": "露丝·伯恩哈德",
+    "born": 1905,
+    "died": 2006,
+    "country": "DE",
+    "region": "north-america",
+    "bio": "German-born American photographer who became one of the great masters of nude and still life photography, known for her luminous, sculptural images of the female form.",
+    "bioLong": "露丝·伯恩哈德是20世纪最杰出的人体和静物摄影大师之一。她出生于柏林，父亲是著名的字体设计师卢西安·伯恩哈德。1927年移居纽约后偶然接触摄影便深深迷上。1935年与爱德华·韦斯顿的相遇成为她创作生涯的转折点——韦斯顿对光线和形式的追求深刻启发了她。此后她移居旧金山，以女性人体为核心进行创作。她以雕塑般的光线处理和对肌肤质感的细腻表现闻名，将女性身体呈现为自然形态的延伸而非情色对象。代表作《盒中》(1962)以简洁有力的方式探讨了身体与空间的关系。她一直创作到近百岁高龄，在摄影教育领域也有深远影响。",
+    "movements": [
+      "straight"
+    ],
+    "techniques": [
+      "black-and-white",
+      "nude",
+      "still-life"
+    ],
+    "influencedBy": [
+      "e-weston"
+    ],
+    "works": [
+      {
+        "title": "In the Box — Horizontal",
+        "titleZh": "盒中——横式",
+        "year": 1962,
+        "image": null,
+        "href": "https://www.sfmoma.org/artist/ruth_bernhard/",
+        "description": "A nude figure curled inside a small box, a sculptural and minimalist exploration of the body's relationship to confined space.",
+        "descriptionZh": "一个裸体蜷缩在小盒子中，以雕塑般的极简方式探索身体与有限空间的关系。"
+      },
+      {
+        "title": "Two Leaves",
+        "titleZh": "两片叶子",
+        "year": 1952,
+        "image": null,
+        "href": "https://www.sfmoma.org/artist/ruth_bernhard/",
+        "description": "A luminous still life of two overlapping leaves, exemplifying her ability to find abstract beauty in natural forms.",
+        "descriptionZh": "两片交叠叶子的光感静物，展示了她在自然形态中发现抽象之美的能力。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1905,
+        "event": "Born in Berlin, Germany",
+        "eventZh": "出生于德国柏林"
+      },
+      {
+        "year": 1927,
+        "event": "Emigrated to the United States",
+        "eventZh": "移民美国"
+      },
+      {
+        "year": 1935,
+        "event": "Met Edward Weston, a pivotal influence on her artistic direction",
+        "eventZh": "遇到爱德华·韦斯顿，对她的艺术方向产生决定性影响"
+      },
+      {
+        "year": 1962,
+        "event": "Created 'In the Box — Horizontal', one of her most iconic images",
+        "eventZh": "创作《盒中——横式》，她最具标志性的作品之一"
+      },
+      {
+        "year": 2006,
+        "event": "Died in San Francisco at the age of 101",
+        "eventZh": "在旧金山逝世，享年101岁"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ruth_Bernhard",
+      "https://www.sfmoma.org/artist/ruth_bernhard/"
+    ]
+  },
+  {
+    "id": "chen-zhe",
+    "name": "Chen Zhe",
+    "nameZh": "陈哲",
+    "born": 1989,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "bio": "Chinese artist and photographer whose work explores self-harm, trauma, and emotional healing, best known for her 'Bees' project documenting young women who practice self-injury.",
+    "bioLong": "陈哲是中国新生代最受国际关注的摄影艺术家之一。她在北京中央美术学院学习摄影后赴美深造。她的代表作《蜜蜂》(Bees)系列源自她自身经历——作为曾经的自伤者，她以极其私密而诚实的方式拍摄了一群同样有自伤行为的年轻女性。这些影像以细腻的光线和柔和的色调呈现了伤疤、仪式性的行为和脆弱的身体，将通常被隐藏和污名化的经历转化为可以被理解和共情的视觉叙事。她的后续作品《向晚六章》更加抽象和诗意，探索黄昏的光线与心理状态的关系。她的创作横跨摄影、文本和装置，拒绝将创伤简单化为奇观，而是以艺术的方式建构理解和疗愈的空间。她获得了侯登科纪实摄影奖等多项荣誉。",
+    "movements": [
+      "china-contemporary"
+    ],
+    "techniques": [
+      "color",
+      "portrait",
+      "mixed-media"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Bees",
+        "titleZh": "蜜蜂",
+        "year": 2010,
+        "image": null,
+        "href": "https://chenzhe.info/",
+        "description": "An intimate photographic project documenting young women who self-harm, transforming hidden trauma into visible, empathetic visual narrative.",
+        "descriptionZh": "记录有自伤行为的年轻女性的亲密摄影项目，将隐藏的创伤转化为可见的、充满共情的视觉叙事。"
+      },
+      {
+        "title": "Towards Evening: Six Chapters",
+        "titleZh": "向晚六章",
+        "year": 2017,
+        "image": null,
+        "href": "https://chenzhe.info/",
+        "description": "A poetic exploration of twilight, grief, and emotional transition, combining photography with text and installation.",
+        "descriptionZh": "对黄昏、悲伤和情感过渡的诗意探索，将摄影与文本和装置相结合。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1989,
+        "event": "Born in Beijing, China",
+        "eventZh": "出生于中国北京"
+      },
+      {
+        "year": 2010,
+        "event": "Began the 'Bees' project on self-harm and healing",
+        "eventZh": "开始《蜜蜂》项目，关注自伤与疗愈"
+      },
+      {
+        "year": 2012,
+        "event": "Won the Hou Dengke Documentary Photography Award",
+        "eventZh": "获侯登科纪实摄影奖"
+      },
+      {
+        "year": 2017,
+        "event": "Exhibited 'Towards Evening' at multiple international venues",
+        "eventZh": "《向晚六章》在多个国际场馆展出"
+      },
+      {
+        "year": 2019,
+        "event": "Completed MFA at Yale School of Art",
+        "eventZh": "完成耶鲁大学艺术学院硕士学位"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Chen_Zhe_(photographer)",
+      "https://chenzhe.info/"
+    ]
+  },
+  {
+    "id": "birdhead",
+    "name": "Birdhead (Song Tao & Ji Weiyu)",
+    "nameZh": "鸟头（宋涛 & 季炜煜）",
+    "born": 1979,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "bio": "Chinese photography duo Song Tao (b.1979) and Ji Weiyu (b.1980) who obsessively photograph their daily lives in Shanghai, creating a raw, chaotic visual diary of urban Chinese youth culture.",
+    "bioLong": "鸟头是由宋涛（1979年生）和季炜煜（1980年生）组成的中国摄影二人组。他们在上海工艺美术学校相识，2004年开始以「鸟头」为名合作创作。他们的工作方式极其高产且即兴——每天用胶片大量拍摄上海街头、朋友聚会、日常琐事和城市碎片，然后以拼贴、装置和巨幅照片墙的方式呈现。影像风格粗粝、随意、充满能量，既非传统纪实也非概念艺术，而是以摄影为媒介的日常生活实践。他们拍摄的上海是年轻人的上海——烟火气、荒诞感和无序的生命力混杂在一起。他们在世界各大双年展和美术馆广泛展出，被视为理解当代中国青年亚文化的重要窗口。",
+    "movements": [
+      "china-contemporary"
+    ],
+    "techniques": [
+      "film",
+      "snapshot",
+      "installation"
+    ],
+    "influencedBy": [
+      "araki",
+      "moriyama"
+    ],
+    "works": [
+      {
+        "title": "Welcome to Birdhead World Again",
+        "titleZh": "欢迎再次来到鸟头的世界",
+        "year": 2008,
+        "image": null,
+        "href": "https://www.shanghartgallery.com/galleryarchive/texts/id/1038",
+        "description": "A massive installation of hundreds of photographs forming a chaotic visual diary of daily life in Shanghai.",
+        "descriptionZh": "由数百张照片组成的大型装置，形成关于上海日常生活的混乱视觉日记。"
+      },
+      {
+        "title": "New Village",
+        "titleZh": "新村",
+        "year": 2013,
+        "image": null,
+        "href": "https://www.shanghartgallery.com/galleryarchive/texts/id/1038",
+        "description": "Photographs of Shanghai's old neighborhoods undergoing demolition and transformation, blending personal memory with urban change.",
+        "descriptionZh": "拍摄上海正在被拆迁和改造的老社区，将个人记忆与城市变迁融合在一起。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1979,
+        "event": "Song Tao born in Shanghai; Ji Weiyu born in 1980",
+        "eventZh": "宋涛出生于上海；季炜煜于1980年出生"
+      },
+      {
+        "year": 2004,
+        "event": "Formed the 'Birdhead' collective, beginning their collaborative practice",
+        "eventZh": "成立「鸟头」组合，开始合作创作"
+      },
+      {
+        "year": 2008,
+        "event": "Exhibited at Shanghai Biennale, gaining major recognition",
+        "eventZh": "参加上海双年展，获得广泛认可"
+      },
+      {
+        "year": 2010,
+        "event": "Exhibited at the Palais de Tokyo, Paris",
+        "eventZh": "在巴黎东京宫展出"
+      },
+      {
+        "year": 2014,
+        "event": "Solo exhibition at the Museum of Contemporary Art Australia",
+        "eventZh": "在澳大利亚当代艺术博物馆举办个展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Birdhead_(art_collective)",
+      "https://www.shanghartgallery.com/galleryarchive/texts/id/1038"
+    ]
+  },
+  {
+    "id": "cristina-garcia-rodero",
+    "name": "Cristina Garcia Rodero",
+    "nameZh": "克里斯蒂娜·加西亚·罗德罗",
+    "born": 1949,
+    "died": null,
+    "country": "ES",
+    "region": "europe",
+    "bio": "Spanish photographer and Magnum member known for her powerful black-and-white documentation of Spanish religious festivals, rituals, and the persistence of ancient traditions in modern life.",
+    "bioLong": "克里斯蒂娜·加西亚·罗德罗是西班牙最重要的纪实摄影家，马格南图片社成员。她在马德里大学学习绘画后转向摄影，从1970年代起深入西班牙乡村，系统记录各地的宗教节庆、朝圣仪式和民间传统。代表作《隐藏的西班牙》(1989)历时十五年拍摄完成，以强烈的黑白影像呈现了西班牙人在宗教仪式中的狂热与荒诞——巨大的基督像被抬过狭窄街道、忏悔者戴着尖顶帽在黑暗中行进。这些影像揭示了现代化表面之下西班牙深层的文化基因。此后她将镜头延伸到海地伏都教仪式和印度的宗教节庆，始终关注人类通过仪式表达信仰和情感的普遍需求。",
+    "movements": [
+      "magnum",
+      "humanist"
+    ],
+    "techniques": [
+      "black-and-white",
+      "documentary",
+      "ritual-photography"
+    ],
+    "influencedBy": [
+      "cartier-bresson",
+      "salgado"
+    ],
+    "works": [
+      {
+        "title": "Hidden Spain (Espana Oculta)",
+        "titleZh": "隐藏的西班牙",
+        "year": 1989,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/cristina-garcia-rodero/",
+        "description": "A fifteen-year project documenting Spain's religious festivals, pilgrimages, and folk rituals, revealing the ancient traditions persisting beneath modern life.",
+        "descriptionZh": "历时十五年的项目，记录西班牙的宗教节庆、朝圣和民间仪式，揭示现代生活表面之下延续的古老传统。"
+      },
+      {
+        "title": "Rituales en Haiti",
+        "titleZh": "海地仪式",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/cristina-garcia-rodero/",
+        "description": "An intense documentary series on Vodou ceremonies in Haiti, extending her exploration of religious ecstasy to the Caribbean.",
+        "descriptionZh": "关于海地伏都教仪式的强烈纪实系列，将她对宗教狂喜的探索延伸至加勒比海地区。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1949,
+        "event": "Born in Puertollano, Ciudad Real, Spain",
+        "eventZh": "出生于西班牙雷阿尔城省普埃尔托利亚诺"
+      },
+      {
+        "year": 1974,
+        "event": "Began documenting Spanish religious festivals and rituals",
+        "eventZh": "开始记录西班牙宗教节庆和仪式"
+      },
+      {
+        "year": 1989,
+        "event": "Published 'Espana Oculta', winning the Book of the Year Award at Arles",
+        "eventZh": "出版《隐藏的西班牙》，获阿尔勒年度摄影书奖"
+      },
+      {
+        "year": 2005,
+        "event": "Became a full member of Magnum Photos",
+        "eventZh": "成为马格南图片社正式成员"
+      },
+      {
+        "year": 2009,
+        "event": "Awarded the Spanish National Photography Prize",
+        "eventZh": "获西班牙国家摄影奖"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cristina_Garcia_Rodero",
+      "https://www.magnumphotos.com/photographer/cristina-garcia-rodero/"
+    ]
   }
 ]

@@ -97,6 +97,12 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/donna-ferrato",
+                          "label": "Donna Ferrato",
+                          "year": 1949,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/shirin-neshat",
                           "kind": "photographer",
                           "refId": "shirin-neshat",
@@ -240,6 +246,12 @@
                           "kind": "photographer"
                         },
                         {
+                          "id": "photographers/henry-peach-robinson",
+                          "label": "Henry Peach Robinson",
+                          "year": 1830,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/felice-beato",
                           "label": "Felice Beato",
                           "year": 1832,
@@ -254,12 +266,30 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/gertrude-kasebier",
+                          "label": "Gertrude Käsebier",
+                          "year": 1852,
+                          "kind": "photographer"
+                        },
+                        {
+                          "id": "photographers/frederick-h-evans",
+                          "label": "Frederick H. Evans",
+                          "year": 1853,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/emerson",
                           "kind": "photographer",
                           "refId": "emerson",
                           "label": "彼得·亨利·爱默生",
                           "year": 1856,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/peter-henry-emerson",
+                          "label": "Peter Henry Emerson",
+                          "year": 1856,
+                          "kind": "photographer"
                         },
                         {
                           "id": "photographers/atget",
@@ -385,6 +415,12 @@
                                       "label": "尼克·奈特",
                                       "year": 1958,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/david-lachapelle",
+                                      "label": "David LaChapelle",
+                                      "year": 1963,
+                                      "kind": "photographer"
                                     },
                                     {
                                       "id": "photographers/viviane-sassen",
@@ -596,8 +632,20 @@
                               "kind": "photographer"
                             },
                             {
+                              "id": "photographers/laura-gilpin",
+                              "label": "Laura Gilpin",
+                              "year": 1891,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/tina-modotti",
                               "label": "Tina Modotti",
+                              "year": 1896,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/paul-outerbridge",
+                              "label": "Paul Outerbridge",
                               "year": 1896,
                               "kind": "photographer"
                             },
@@ -608,12 +656,24 @@
                               "kind": "photographer"
                             },
                             {
+                              "id": "photographers/wynn-bullock",
+                              "label": "Wynn Bullock",
+                              "year": 1902,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/aaron-siskind",
                               "kind": "photographer",
                               "refId": "aaron-siskind",
                               "label": "阿伦·西斯金德",
                               "year": 1903,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/ruth-bernhard",
+                              "label": "Ruth Bernhard",
+                              "year": 1905,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/minor-white",
@@ -847,6 +907,12 @@
                                       "children": []
                                     },
                                     {
+                                      "id": "photographers/ray-metzker",
+                                      "label": "Ray K. Metzker",
+                                      "year": 1931,
+                                      "kind": "photographer"
+                                    },
+                                    {
                                       "id": "photographers/duane-michals",
                                       "kind": "photographer",
                                       "refId": "duane-michals",
@@ -871,6 +937,12 @@
                                       "children": []
                                     },
                                     {
+                                      "id": "photographers/ralph-gibson",
+                                      "label": "Ralph Gibson",
+                                      "year": 1939,
+                                      "kind": "photographer"
+                                    },
+                                    {
                                       "id": "photographers/mary-ellen-mark",
                                       "kind": "photographer",
                                       "refId": "mary-ellen-mark",
@@ -887,6 +959,12 @@
                                       "children": []
                                     },
                                     {
+                                      "id": "photographers/eugene-richards",
+                                      "label": "Eugene Richards",
+                                      "year": 1944,
+                                      "kind": "photographer"
+                                    },
+                                    {
                                       "id": "photographers/barbara-kruger",
                                       "kind": "photographer",
                                       "refId": "barbara-kruger",
@@ -901,6 +979,12 @@
                                       "label": "菲利普-洛卡·迪科西亚",
                                       "year": 1951,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/martin-parr",
+                                      "label": "Martin Parr",
+                                      "year": 1952,
+                                      "kind": "photographer"
                                     },
                                     {
                                       "id": "photographers/maier",
@@ -974,6 +1058,12 @@
                                       "label": "刘易斯·巴尔兹",
                                       "year": 1945,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/chris-killip",
+                                      "label": "Chris Killip",
+                                      "year": 1946,
+                                      "kind": "photographer"
                                     },
                                     {
                                       "id": "photographers/richard-misrach",
@@ -1050,6 +1140,12 @@
                                           "year": 1976,
                                           "children": [
                                             {
+                                              "id": "photographers/harry-gruyaert",
+                                              "label": "Harry Gruyaert",
+                                              "year": 1941,
+                                              "kind": "photographer"
+                                            },
+                                            {
                                               "id": "photographers/raghubir-singh",
                                               "kind": "photographer",
                                               "refId": "raghubir-singh",
@@ -1066,6 +1162,12 @@
                                               "children": []
                                             },
                                             {
+                                              "id": "photographers/roger-ballen",
+                                              "label": "Roger Ballen",
+                                              "year": 1950,
+                                              "kind": "photographer"
+                                            },
+                                            {
                                               "id": "photographers/goldin",
                                               "kind": "photographer",
                                               "refId": "goldin",
@@ -1080,6 +1182,12 @@
                                               "label": "辛迪·谢尔曼",
                                               "year": 1954,
                                               "children": []
+                                            },
+                                            {
+                                              "id": "photographers/zoe-leonard",
+                                              "label": "Zoe Leonard",
+                                              "year": 1961,
+                                              "kind": "photographer"
                                             },
                                             {
                                               "id": "photographers/gregory-crewdson",
@@ -1126,6 +1234,12 @@
                                               "label": "迈耶罗维茨",
                                               "year": 1976,
                                               "children": []
+                                            },
+                                            {
+                                              "id": "photographers/gregory-halpern",
+                                              "label": "Gregory Halpern",
+                                              "year": 1977,
+                                              "kind": "photographer"
                                             },
                                             {
                                               "id": "photographers/sternfeld",
@@ -1179,6 +1293,12 @@
                                       "label": "托马斯·鲁夫",
                                       "year": 1958,
                                       "children": []
+                                    },
+                                    {
+                                      "id": "photographers/thomas-demand",
+                                      "label": "Thomas Demand",
+                                      "year": 1964,
+                                      "kind": "photographer"
                                     },
                                     {
                                       "id": "photographers/becher",
@@ -1263,6 +1383,12 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/cornell-capa",
+                              "label": "Cornell Capa",
+                              "year": 1918,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/ernst-haas",
                               "kind": "photographer",
                               "refId": "ernst-haas",
@@ -1303,6 +1429,12 @@
                               "kind": "photographer"
                             },
                             {
+                              "id": "photographers/thomas-hoepker",
+                              "label": "Thomas Hoepker",
+                              "year": 1936,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/josef-koudelka",
                               "kind": "photographer",
                               "refId": "josef-koudelka",
@@ -1311,12 +1443,24 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/hiroji-kubota",
+                              "label": "Hiroji Kubota",
+                              "year": 1939,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/abbas",
                               "kind": "photographer",
                               "refId": "abbas",
                               "label": "阿巴斯",
                               "year": 1944,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/gilles-peress",
+                              "label": "Gilles Peress",
+                              "year": 1946,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/capa",
@@ -1341,6 +1485,12 @@
                               "kind": "photographer"
                             },
                             {
+                              "id": "photographers/cristina-garcia-rodero",
+                              "label": "Cristina Garcia Rodero",
+                              "year": 1949,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/alex-webb",
                               "label": "Alex Webb",
                               "year": 1952,
@@ -1358,6 +1508,12 @@
                               "id": "photographers/paolo-pellegrin",
                               "label": "Paolo Pellegrin",
                               "year": 1964,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/trent-parke",
+                              "label": "Trent Parke",
+                              "year": 1971,
                               "kind": "photographer"
                             },
                             {
@@ -1530,6 +1686,12 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/kikuji-kawada",
+                              "label": "Kikuji Kawada",
+                              "year": 1933,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/fukase",
                               "kind": "photographer",
                               "refId": "fukase",
@@ -1560,6 +1722,12 @@
                               "children": []
                             },
                             {
+                              "id": "photographers/miyako-ishiuchi",
+                              "label": "Miyako Ishiuchi",
+                              "year": 1947,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/yasumasa-morimura",
                               "kind": "photographer",
                               "refId": "yasumasa-morimura",
@@ -1582,6 +1750,12 @@
                               "label": "佐藤时启",
                               "year": 1957,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/masao-yamamoto",
+                              "label": "Masao Yamamoto",
+                              "year": 1957,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/tomatsu",
@@ -1809,6 +1983,18 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/rong-rong",
+                          "label": "RongRong (Lu Zhirong)",
+                          "year": 1968,
+                          "kind": "photographer"
+                        },
+                        {
+                          "id": "photographers/feng-li",
+                          "label": "Feng Li",
+                          "year": 1971,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/liu-bolin",
                           "kind": "photographer",
                           "refId": "liu-bolin",
@@ -1831,6 +2017,12 @@
                           "label": "廖逸君",
                           "year": 1979,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/birdhead",
+                          "label": "Birdhead (Song Tao & Ji Weiyu)",
+                          "year": 1979,
+                          "kind": "photographer"
                         },
                         {
                           "id": "photographers/liu-heung-shing",
@@ -1857,6 +2049,12 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/luo-yang",
+                          "label": "Luo Yang",
+                          "year": 1984,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/ren-hang",
                           "kind": "photographer",
                           "refId": "ren-hang",
@@ -1879,6 +2077,12 @@
                           "label": "吕楠",
                           "year": 1989,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/chen-zhe",
+                          "label": "Chen Zhe",
+                          "year": 1989,
+                          "kind": "photographer"
                         },
                         {
                           "id": "photographers/rongrong",
