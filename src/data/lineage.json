@@ -113,6 +113,12 @@
                           "children": []
                         },
                         {
+                          "id": "photographers/luc-delahaye",
+                          "label": "Luc Delahaye",
+                          "year": 1962,
+                          "kind": "photographer"
+                        },
+                        {
                           "id": "photographers/mccullin",
                           "kind": "photographer",
                           "refId": "mccullin",
@@ -206,6 +212,18 @@
                           "label": "奥斯卡·雷兰德",
                           "year": 1813,
                           "children": []
+                        },
+                        {
+                          "id": "photographers/oscar-rejlander",
+                          "label": "Oscar Rejlander",
+                          "year": 1813,
+                          "kind": "photographer"
+                        },
+                        {
+                          "id": "photographers/edouard-baldus",
+                          "label": "Édouard Baldus",
+                          "year": 1813,
+                          "kind": "photographer"
                         },
                         {
                           "id": "photographers/robinson",
@@ -465,6 +483,18 @@
                               "id": "photographers/karl-blossfeldt",
                               "label": "Karl Blossfeldt",
                               "year": 1865,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/germaine-krull",
+                              "label": "Germaine Krull",
+                              "year": 1897,
+                              "kind": "photographer"
+                            },
+                            {
+                              "id": "photographers/ilse-bing",
+                              "label": "Ilse Bing",
+                              "year": 1899,
                               "kind": "photographer"
                             },
                             {
@@ -1068,6 +1098,12 @@
                                               "children": []
                                             },
                                             {
+                                              "id": "photographers/todd-hido",
+                                              "label": "Todd Hido",
+                                              "year": 1968,
+                                              "kind": "photographer"
+                                            },
+                                            {
                                               "id": "photographers/alec-soth",
                                               "kind": "photographer",
                                               "refId": "alec-soth",
@@ -1207,6 +1243,12 @@
                           "year": 1947,
                           "children": [
                             {
+                              "id": "photographers/david-seymour",
+                              "label": "David Seymour",
+                              "year": 1911,
+                              "kind": "photographer"
+                            },
+                            {
                               "id": "photographers/eve-arnold",
                               "label": "Eve Arnold",
                               "year": 1912,
@@ -1235,6 +1277,12 @@
                               "label": "马克·吕布",
                               "year": 1923,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/inge-morath",
+                              "label": "Inge Morath",
+                              "year": 1923,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/elliott-erwitt",
@@ -1305,6 +1353,12 @@
                               "label": "埃利奥特·厄威特",
                               "year": 1953,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/paolo-pellegrin",
+                              "label": "Paolo Pellegrin",
+                              "year": 1964,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/cristina-de-middel",
@@ -1584,6 +1638,12 @@
                               "label": "杉本博司",
                               "year": 1980,
                               "children": []
+                            },
+                            {
+                              "id": "photographers/lieko-shiga",
+                              "label": "Lieko Shiga",
+                              "year": 1980,
+                              "kind": "photographer"
                             },
                             {
                               "id": "photographers/kawauchi",

@@ -13322,5 +13322,731 @@
       "https://www.magnumphotos.com/photographer/rene-burri/",
       "https://en.wikipedia.org/wiki/Ren%C3%A9_Burri"
     ]
+  },
+  {
+    "id": "inge-morath",
+    "name": "Inge Morath",
+    "nameZh": "英格·莫拉斯",
+    "born": 1923,
+    "died": 2002,
+    "country": "AT",
+    "region": "europe",
+    "bio": "Austrian-American photographer and one of the first female members of Magnum Photos. Known for her sensitive portraits and cultural reportage spanning four decades.",
+    "bioLong": "英格·莫拉斯是马格南图片社最早的女性成员之一，也是20世纪最优秀的文化报道摄影师之一。出生于奥地利格拉茨，精通多国语言的她以文字记者身份进入马格南，后受布列松影响转向摄影。她的镜头涵盖了从伊朗到中国、从西班牙到罗马尼亚的广阔世界，以知性的观察和对文化差异的尊重见长。她同时是出色的肖像摄影师，与丈夫剧作家亚瑟·米勒合作的系列作品展现了独特的文学-视觉对话。",
+    "movements": [
+      "magnum",
+      "humanist"
+    ],
+    "techniques": [
+      "portrait",
+      "cultural-reportage",
+      "travel"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "works": [
+      {
+        "title": "Llama, Times Square, New York",
+        "titleZh": "骆马，时代广场，纽约",
+        "year": 1957,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/inge-morath/",
+        "description": "A llama in a car passing through Times Square, a surreal yet real moment.",
+        "descriptionZh": "一只骆马在通过时代广场的汽车中，超现实却真实的瞬间。"
+      },
+      {
+        "title": "Mrs. Eveleigh Nash, London",
+        "titleZh": "伊夫利·纳什夫人，伦敦",
+        "year": 1953,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/inge-morath/",
+        "description": "An elegant portrait from her early London work.",
+        "descriptionZh": "来自她早期伦敦工作的优雅肖像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1923,
+        "event": "Born in Graz, Austria",
+        "eventZh": "出生于奥地利格拉茨"
+      },
+      {
+        "year": 1953,
+        "event": "Became a full member of Magnum Photos",
+        "eventZh": "成为马格南图片社正式成员"
+      },
+      {
+        "year": 1962,
+        "event": "Married playwright Arthur Miller",
+        "eventZh": "与剧作家亚瑟·米勒结婚"
+      },
+      {
+        "year": 1978,
+        "event": "First Western photographer to work extensively in China",
+        "eventZh": "首批在中国广泛工作的西方摄影师之一"
+      },
+      {
+        "year": 2002,
+        "event": "Died in New York; Inge Morath Foundation established",
+        "eventZh": "在纽约去世；英格·莫拉斯基金会成立"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/inge-morath/",
+      "https://en.wikipedia.org/wiki/Inge_Morath"
+    ]
+  },
+  {
+    "id": "david-seymour",
+    "name": "David Seymour",
+    "nameZh": "大卫·西摩",
+    "born": 1911,
+    "died": 1956,
+    "country": "PL",
+    "region": "europe",
+    "bio": "Polish-American photojournalist known as 'Chim'. Co-founder of Magnum Photos, he documented the impact of war on children and civilians with profound empathy.",
+    "bioLong": "大卫·西摩（绰号「奇姆」）是马格南图片社的联合创始人之一，与卡帕和布列松齐名。出生于华沙的犹太家庭，他在巴黎学习摄影后开始记录西班牙内战和二战后欧洲的创伤。他最令人铭记的作品是为联合国儿童基金会拍摄的战后欧洲儿童——那些在废墟中的眼神、在难民营里的等待——以极度克制和温柔呈现了战争对最脆弱群体的伤害。1954年他接任马格南主席，但仅两年后就在苏伊士运河危机报道中被埃及军队射杀，成为继卡帕之后马格南又一位殉职的创始人。",
+    "movements": [
+      "magnum",
+      "humanist"
+    ],
+    "techniques": [
+      "photojournalism",
+      "documentary",
+      "children-photography"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Children of War, Vienna",
+        "titleZh": "战争中的孩子们，维也纳",
+        "year": 1948,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/david-seymour/",
+        "description": "A child drawing on a blackboard in a war-ravaged school, from his UNICEF assignment.",
+        "descriptionZh": "一个孩子在战后破败的学校黑板上画画，来自他的联合国儿基会任务。"
+      },
+      {
+        "title": "Spanish Civil War, Bilbao",
+        "titleZh": "西班牙内战，毕尔巴鄂",
+        "year": 1937,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/david-seymour/",
+        "description": "A woman nursing a baby during an air raid, a defining humanist war image.",
+        "descriptionZh": "一位妇女在空袭中哺乳婴儿，人道主义战争影像的典范之作。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1911,
+        "event": "Born in Warsaw, Poland",
+        "eventZh": "出生于波兰华沙"
+      },
+      {
+        "year": 1936,
+        "event": "Covered the Spanish Civil War alongside Capa",
+        "eventZh": "与卡帕一同报道西班牙内战"
+      },
+      {
+        "year": 1947,
+        "event": "Co-founded Magnum Photos with Capa and Cartier-Bresson",
+        "eventZh": "与卡帕、布列松共同创立马格南图片社"
+      },
+      {
+        "year": 1948,
+        "event": "Photographed war-affected children for UNICEF",
+        "eventZh": "为联合国儿基会拍摄受战争影响的儿童"
+      },
+      {
+        "year": 1956,
+        "event": "Killed by Egyptian machine gun fire at Suez Canal",
+        "eventZh": "在苏伊士运河被埃及军队射杀"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/david-seymour/",
+      "https://en.wikipedia.org/wiki/David_Seymour"
+    ]
+  },
+  {
+    "id": "germaine-krull",
+    "name": "Germaine Krull",
+    "nameZh": "热尔梅娜·克鲁尔",
+    "born": 1897,
+    "died": 1985,
+    "country": "DE",
+    "region": "europe",
+    "bio": "German-born photographer and radical modernist. Her close-up studies of industrial structures and avant-garde approach to the camera defined 1920s European photography.",
+    "bioLong": "热尔梅娜·克鲁尔是1920年代欧洲先锋摄影运动中最重要的女性摄影师。她的代表作《金属》以极端的视角和大胆的裁切拍摄了埃菲尔铁塔和其他工业结构，将机械之美提升到近乎抽象的境界。这本摄影集被视为新视觉运动的宣言之一，与莫霍利-纳吉的理论相呼应。她的职业生涯充满冒险——参与过德国十一月革命、在荷兰经营肖像工作室、在巴黎成为先锋艺术圈的核心人物，二战期间还参加了法国抵抗运动。",
+    "movements": [
+      "bauhaus"
+    ],
+    "techniques": [
+      "industrial-photography",
+      "avant-garde",
+      "photomontage"
+    ],
+    "influencedBy": [
+      "moholy-nagy"
+    ],
+    "works": [
+      {
+        "title": "Métal, Plate 15 (Eiffel Tower)",
+        "titleZh": "金属，图版15（埃菲尔铁塔）",
+        "year": 1928,
+        "image": null,
+        "href": "https://www.moma.org/artists/3291",
+        "description": "A dizzying close-up of the Eiffel Tower's iron structure, from her groundbreaking portfolio.",
+        "descriptionZh": "埃菲尔铁塔铁结构的眩晕特写，来自她的开创性作品集。"
+      },
+      {
+        "title": "Self-Portrait with Icarette Camera",
+        "titleZh": "持Icarette相机自拍像",
+        "year": 1925,
+        "image": null,
+        "href": "https://www.moma.org/artists/3291",
+        "description": "A modernist self-portrait that became an icon of the New Woman movement.",
+        "descriptionZh": "一幅现代主义自拍像，成为新女性运动的标志。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1897,
+        "event": "Born in Wilda, East Prussia (now Poland)",
+        "eventZh": "出生于东普鲁士维尔达（现属波兰）"
+      },
+      {
+        "year": 1928,
+        "event": "Published Métal, a manifesto of New Vision photography",
+        "eventZh": "出版《金属》，新视觉摄影的宣言"
+      },
+      {
+        "year": 1930,
+        "event": "Became a leading photographer in Paris's avant-garde scene",
+        "eventZh": "成为巴黎先锋艺术界的领军摄影师"
+      },
+      {
+        "year": 1943,
+        "event": "Joined the French Resistance during WWII",
+        "eventZh": "二战期间加入法国抵抗运动"
+      },
+      {
+        "year": 1985,
+        "event": "Died in Wetzlar, Germany",
+        "eventZh": "在德国韦茨拉尔去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Germaine_Krull",
+      "https://www.moma.org/artists/3291"
+    ]
+  },
+  {
+    "id": "paolo-pellegrin",
+    "name": "Paolo Pellegrin",
+    "nameZh": "保罗·佩莱格林",
+    "born": 1964,
+    "died": null,
+    "country": "IT",
+    "region": "europe",
+    "bio": "Italian photojournalist and Magnum member known for his visceral, abstracted images of conflict and humanitarian crises. His work pushes the boundaries between photojournalism and fine art.",
+    "bioLong": "保罗·佩莱格林是当代最具争议性和视觉力量的战地摄影师之一。他的照片以高对比度的黑白影像、模糊与锐利的交替、以及戏剧性的构图著称——不是传统的新闻记录，而是对冲突本质的情感性表达。从黎巴嫩到加沙、从科索沃到伊拉克，他在世界上最危险的地方工作了二十多年。他的作品多次获得世界新闻摄影奖，但也因抽象化处理引发了关于新闻摄影边界的激烈讨论。",
+    "movements": [
+      "magnum",
+      "war-photography"
+    ],
+    "techniques": [
+      "black-and-white",
+      "conflict-photography",
+      "abstract-documentary"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "works": [
+      {
+        "title": "Kosovo, Refugees",
+        "titleZh": "科索沃，难民",
+        "year": 1999,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/paolo-pellegrin/",
+        "description": "A haunting image of displacement during the Kosovo War.",
+        "descriptionZh": "科索沃战争中流离失所的令人难忘的影像。"
+      },
+      {
+        "title": "Lebanon, Bombardment",
+        "titleZh": "黎巴嫩，轰炸",
+        "year": 2006,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/paolo-pellegrin/",
+        "description": "Abstracted images of destruction during the Lebanon War.",
+        "descriptionZh": "黎巴嫩战争中被抽象化处理的破坏影像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1964,
+        "event": "Born in Rome, Italy",
+        "eventZh": "出生于意大利罗马"
+      },
+      {
+        "year": 1995,
+        "event": "Began covering wars and humanitarian crises",
+        "eventZh": "开始报道战争和人道主义危机"
+      },
+      {
+        "year": 2001,
+        "event": "Joined Magnum Photos",
+        "eventZh": "加入马格南图片社"
+      },
+      {
+        "year": 2006,
+        "event": "Covered Lebanon War, won World Press Photo",
+        "eventZh": "报道黎巴嫩战争，获世界新闻摄影奖"
+      },
+      {
+        "year": 2013,
+        "event": "Published Dies Irae on global conflict",
+        "eventZh": "出版关于全球冲突的《末日经》"
+      }
+    ],
+    "sources": [
+      "https://www.magnumphotos.com/photographer/paolo-pellegrin/",
+      "https://en.wikipedia.org/wiki/Paolo_Pellegrin"
+    ]
+  },
+  {
+    "id": "oscar-rejlander",
+    "name": "Oscar Gustave Rejlander",
+    "nameZh": "奥斯卡·雷兰德",
+    "born": 1813,
+    "died": 1875,
+    "country": "SE",
+    "region": "europe",
+    "bio": "Swedish-born British photographer and pioneer of photographic combination printing. His composite images demonstrated that photography could aspire to the ambitions of painting.",
+    "bioLong": "奥斯卡·雷兰德是摄影史上最早的艺术实验者之一。他发明的「合成印相」技术——将多张底片合成一幅画面——开创了摄影蒙太奇的先河。1857年他的《人生的两条路》用超过30张底片合成了一幅巨大的寓言式影像，模仿拉斐尔的壁画构图，展示了一个年轻人面对美德与堕落两条人生道路的选择。这幅作品既是维多利亚时代道德教化的产物，也是摄影能否成为艺术的第一次有力论证。他还为达尔文拍摄了用于《人类和动物的表情》的面部表情照片。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "combination-printing",
+      "photomontage",
+      "portrait"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "The Two Ways of Life",
+        "titleZh": "人生的两条路",
+        "year": 1857,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Oscar_Gustave_Rejlander_-_The_Two_Ways_of_Life.jpg/800px-Oscar_Gustave_Rejlander_-_The_Two_Ways_of_Life.jpg",
+        "description": "A monumental composite photograph combining over 30 negatives into an allegorical tableau.",
+        "descriptionZh": "将30多张底片合成为一幅寓言式画面的纪念碑式合成摄影。"
+      },
+      {
+        "title": "Head of St. John the Baptist in a Charger",
+        "titleZh": "盘上施洗约翰的头",
+        "year": 1858,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Rejlander%2C_Head_of_John_the_Baptist.jpg/800px-Rejlander%2C_Head_of_John_the_Baptist.jpg",
+        "description": "A staged religious tableau demonstrating Rejlander's dramatic vision.",
+        "descriptionZh": "一幅编导式宗教画面，展示了雷兰德的戏剧性视野。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1813,
+        "event": "Born in Sweden",
+        "eventZh": "出生于瑞典"
+      },
+      {
+        "year": 1846,
+        "event": "Settled in England, learned photography",
+        "eventZh": "定居英格兰，学习摄影"
+      },
+      {
+        "year": 1857,
+        "event": "Created The Two Ways of Life, a landmark composite photograph",
+        "eventZh": "创作《人生的两条路》，合成摄影里程碑"
+      },
+      {
+        "year": 1871,
+        "event": "Photographed facial expressions for Darwin's research",
+        "eventZh": "为达尔文的研究拍摄面部表情"
+      },
+      {
+        "year": 1875,
+        "event": "Died in Clapham, London",
+        "eventZh": "在伦敦克拉彭去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Oscar_Gustave_Rejlander",
+      "https://www.vam.ac.uk/articles/oscar-gustave-rejlander"
+    ]
+  },
+  {
+    "id": "luc-delahaye",
+    "name": "Luc Delahaye",
+    "nameZh": "吕克·德拉艾",
+    "born": 1962,
+    "died": null,
+    "country": "FR",
+    "region": "europe",
+    "bio": "French photographer who bridges photojournalism and contemporary art. His large-format tableau-scale prints of conflict and history challenge the conventions of war photography.",
+    "bioLong": "吕克·德拉艾是当代摄影中最重要的跨界实践者之一——从马格南战地摄影记者转型为在美术馆展出大幅面历史画面的艺术家。他在阿富汗、伊拉克和非洲的战地工作赢得了最高级别的新闻奖，但从2001年起他开始以大画幅相机拍摄壁画般的历史场景，以美术馆的尺度和观看方式重新定义了冲突影像。他的作品——如塔利班战壕中的尸体或联合国安理会的全景——以古典油画般的构图和冷静的距离感，在美学与伦理之间制造持续的张力。",
+    "movements": [
+      "war-photography"
+    ],
+    "techniques": [
+      "large-format",
+      "tableau",
+      "conflict-photography"
+    ],
+    "influencedBy": [
+      "cartier-bresson"
+    ],
+    "works": [
+      {
+        "title": "Taliban, Kabul",
+        "titleZh": "塔利班，喀布尔",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.lfrg.ch/luc-delahaye",
+        "description": "A monumental panoramic photograph of a dead Taliban fighter, exhibited as fine art.",
+        "descriptionZh": "一幅纪念碑式的全景照片，记录一名阵亡塔利班战士，作为美术作品展出。"
+      },
+      {
+        "title": "US Bombing on Taliban Positions",
+        "titleZh": "美军轰炸塔利班阵地",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.lfrg.ch/luc-delahaye",
+        "description": "A distant, landscape-like view of bombardment, challenging conventions of war imagery.",
+        "descriptionZh": "远距离、风景画般的轰炸场景，挑战了战争影像的惯例。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1962,
+        "event": "Born in Tours, France",
+        "eventZh": "出生于法国图尔"
+      },
+      {
+        "year": 1989,
+        "event": "Covered the fall of the Berlin Wall for Newsweek",
+        "eventZh": "为《新闻周刊》报道柏林墙倒塌"
+      },
+      {
+        "year": 1994,
+        "event": "Joined Magnum Photos",
+        "eventZh": "加入马格南图片社"
+      },
+      {
+        "year": 2001,
+        "event": "Pivoted to large-format art photography of conflicts",
+        "eventZh": "转向以大画幅艺术摄影呈现冲突"
+      },
+      {
+        "year": 2007,
+        "event": "Left Magnum to focus on gallery-scale work",
+        "eventZh": "离开马格南，专注于美术馆尺度的创作"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luc_Delahaye",
+      "https://www.lfrg.ch/luc-delahaye"
+    ]
+  },
+  {
+    "id": "lieko-shiga",
+    "name": "Lieko Shiga",
+    "nameZh": "志贺理江子",
+    "born": 1980,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photographer known for her visceral, otherworldly images that blur the boundary between photography and ritual. Her work explores themes of life, death, and community in rural Japan.",
+    "bioLong": "志贺理江子是日本当代摄影中最具原创性的声音之一。她的作品完全打破了纪实与虚构的界限——在宫城县北釜村驻留期间，她与村民们共同创造出一系列如同萨满仪式般的影像：身体被泥土和水包裹、面孔被花朵和光遮蔽、日常生活与死亡意象交织。2011年东日本大地震和海啸摧毁了她居住的村庄，此后她的创作更加深刻地面对生死、记忆和消逝的主题。她的照片不是观察的结果，而是参与和创造的过程——摄影成为了一种仪式行为。",
+    "movements": [
+      "japan-postwar"
+    ],
+    "techniques": [
+      "staged-photography",
+      "ritualistic",
+      "color"
+    ],
+    "influencedBy": [
+      "moriyama",
+      "araki"
+    ],
+    "works": [
+      {
+        "title": "Rasen Kaigan (Spiral Shore)",
+        "titleZh": "螺旋海岸",
+        "year": 2013,
+        "image": null,
+        "href": "https://www.japanphotomuseum.org/en/",
+        "description": "Monumental prints of ritualistic scenes created with residents of Kitakama before the tsunami destroyed the village.",
+        "descriptionZh": "与北釜村民共同创造的仪式性场景巨幅照片，在海啸摧毁村庄之前完成。"
+      },
+      {
+        "title": "Canary",
+        "titleZh": "金丝雀",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.japanphotomuseum.org/en/",
+        "description": "Early series of surreal, embodied photographs exploring boundaries of self and landscape.",
+        "descriptionZh": "早期超现实、身体性摄影系列，探索自我与风景的边界。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1980,
+        "event": "Born in Aichi Prefecture, Japan",
+        "eventZh": "出生于日本爱知县"
+      },
+      {
+        "year": 2006,
+        "event": "Moved to Kitakama village, Miyagi Prefecture",
+        "eventZh": "搬到宫城县北釜村"
+      },
+      {
+        "year": 2008,
+        "event": "Won Kimura Ihei Award for Canary and Lilly",
+        "eventZh": "凭《金丝雀》和《百合》获木村伊兵卫奖"
+      },
+      {
+        "year": 2011,
+        "event": "Kitakama destroyed by tsunami; work took on themes of loss",
+        "eventZh": "北釜被海啸摧毁；创作转向失去的主题"
+      },
+      {
+        "year": 2013,
+        "event": "Published Rasen Kaigan (Spiral Shore)",
+        "eventZh": "出版《螺旋海岸》"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lieko_Shiga",
+      "https://www.japanphotomuseum.org/en/"
+    ]
+  },
+  {
+    "id": "todd-hido",
+    "name": "Todd Hido",
+    "nameZh": "托德·希多",
+    "born": 1968,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photographer known for his atmospheric, cinematic images of suburban houses at night and melancholic landscapes. His work explores themes of isolation, memory, and the American domestic landscape.",
+    "bioLong": "托德·希多是美国当代摄影中「新叙事」风格的代表人物。他的标志性作品是深夜从屋外拍摄的亮着灯光的郊区房屋——每扇窗户后面似乎都隐藏着一个故事，但观者永远无法得知。这些照片以柔和的色彩、模糊的焦点和电影般的氛围营造出一种深层的孤独感和怀旧情绪。他后来的作品扩展到迷雾中的风景、匿名的女性肖像和废弃的室内空间，始终围绕着美国郊区生活的忧郁诗意。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "color",
+      "nocturnal",
+      "cinematic-narrative"
+    ],
+    "influencedBy": [
+      "eggleston",
+      "shore"
+    ],
+    "works": [
+      {
+        "title": "House Hunting #2921",
+        "titleZh": "寻屋 #2921",
+        "year": 2000,
+        "image": null,
+        "href": "https://www.toddhido.com/",
+        "description": "A suburban house glowing in the night, embodying Hido's signature nocturnal suburban aesthetic.",
+        "descriptionZh": "夜色中发光的郊区房屋，体现了希多标志性的夜间郊区美学。"
+      },
+      {
+        "title": "Excerpts from Silver Meadows #8962",
+        "titleZh": "银草地节选 #8962",
+        "year": 2013,
+        "image": null,
+        "href": "https://www.toddhido.com/",
+        "description": "A foggy landscape from his autobiographical Silver Meadows project.",
+        "descriptionZh": "来自他自传性项目《银草地》的迷雾风景。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1968,
+        "event": "Born in Kent, Ohio",
+        "eventZh": "出生于俄亥俄州肯特"
+      },
+      {
+        "year": 1996,
+        "event": "Began House Hunting series of nocturnal suburban scenes",
+        "eventZh": "开始《寻屋》系列，拍摄夜间郊区场景"
+      },
+      {
+        "year": 2001,
+        "event": "Published House Hunting, his breakthrough book",
+        "eventZh": "出版突破性作品集《寻屋》"
+      },
+      {
+        "year": 2013,
+        "event": "Published Silver Meadows, autobiographical project",
+        "eventZh": "出版自传性项目《银草地》"
+      },
+      {
+        "year": 2019,
+        "event": "Published Bright Black World on winter landscapes",
+        "eventZh": "出版关于冬季风景的《明亮的黑暗世界》"
+      }
+    ],
+    "sources": [
+      "https://www.toddhido.com/",
+      "https://en.wikipedia.org/wiki/Todd_Hido"
+    ]
+  },
+  {
+    "id": "edouard-baldus",
+    "name": "Édouard Baldus",
+    "nameZh": "爱德华·巴尔迪斯",
+    "born": 1813,
+    "died": 1889,
+    "country": "FR",
+    "region": "europe",
+    "bio": "Prussian-born French photographer known for his monumental documentation of French architecture, railways, and landscapes. One of the great masters of early paper negative photography.",
+    "bioLong": "爱德华·巴尔迪斯是19世纪法国摄影最重要的实践者之一。1851年他被选入拿破仑三世的历史古迹摄影调查任务（Mission Héliographique），与勒格雷等人一同记录法国的中世纪建筑和教堂。他用纸基负片和蛋白印相创造了惊人的建筑和风景影像——巴黎歌剧院的施工过程、法国南部的铁路线、普罗旺斯的罗马遗迹——每一张都具有油画般的丰富层次和纪念碑式的庄严感。他的铁路全景拼接照片是早期超宽幅摄影的杰出代表。",
+    "movements": [
+      "pictorialism"
+    ],
+    "techniques": [
+      "architectural",
+      "paper-negative",
+      "panorama"
+    ],
+    "influencedBy": [],
+    "works": [
+      {
+        "title": "Cloister of Saint-Trophime, Arles",
+        "titleZh": "阿尔勒圣特罗菲姆回廊",
+        "year": 1851,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Baldus_St_Trophime_Arles.jpg/800px-Baldus_St_Trophime_Arles.jpg",
+        "description": "A masterful documentation of Romanesque architecture in southern France.",
+        "descriptionZh": "法国南部罗马式建筑的精湛记录。"
+      },
+      {
+        "title": "Flooding of the Rhône at Avignon",
+        "titleZh": "阿维尼翁罗讷河洪水",
+        "year": 1856,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Baldus_Avignon_Flood_1856.jpg/800px-Baldus_Avignon_Flood_1856.jpg",
+        "description": "A dramatic panorama of flood devastation, combining documentary urgency with formal beauty.",
+        "descriptionZh": "洪水灾害的戏剧性全景，将纪实性的紧迫与形式美感结合。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1813,
+        "event": "Born in Grünebach, Prussia",
+        "eventZh": "出生于普鲁士格吕内巴赫"
+      },
+      {
+        "year": 1851,
+        "event": "Selected for Mission Héliographique to document French monuments",
+        "eventZh": "入选日光摄影调查任务，记录法国古迹"
+      },
+      {
+        "year": 1855,
+        "event": "Commissioned to photograph Paris-Lyon-Méditerranée railway",
+        "eventZh": "受委托拍摄巴黎-里昂-地中海铁路"
+      },
+      {
+        "year": 1861,
+        "event": "Documented construction of the new Louvre and Paris Opéra",
+        "eventZh": "记录了新卢浮宫和巴黎歌剧院的建设"
+      },
+      {
+        "year": 1889,
+        "event": "Died in Paris",
+        "eventZh": "在巴黎去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/%C3%89douard_Baldus",
+      "https://www.metmuseum.org/toah/hd/bald/hd_bald.htm"
+    ]
+  },
+  {
+    "id": "ilse-bing",
+    "name": "Ilse Bing",
+    "nameZh": "伊尔莎·宾",
+    "born": 1899,
+    "died": 1998,
+    "country": "DE",
+    "region": "europe",
+    "bio": "German-born photographer known as 'Queen of the Leica'. A pioneer of handheld 35mm photography in 1930s Paris, she bridged Bauhaus modernism and humanist street photography.",
+    "bioLong": "伊尔莎·宾被誉为「徕卡女王」，是1930年代巴黎先锋摄影圈中最杰出的女性摄影师之一。她是最早将35毫米徕卡相机作为主要创作工具的摄影师之一，以此拍摄了大量具有新视觉运动风格的作品——俯拍、仰拍、极端透视、多重曝光。从法兰克福建筑到巴黎街头，从时尚杂志到夜间摄影，她的作品兼具包豪斯的形式严谨和人文主义的情感温度。1941年因犹太身份逃离法国到美国后，她继续创作了数十年，直到晚年转向诗歌和绘画。",
+    "movements": [
+      "bauhaus",
+      "street"
+    ],
+    "techniques": [
+      "35mm",
+      "night-photography",
+      "avant-garde"
+    ],
+    "influencedBy": [
+      "moholy-nagy"
+    ],
+    "works": [
+      {
+        "title": "Self-Portrait with Leica",
+        "titleZh": "持徕卡相机自拍像",
+        "year": 1931,
+        "image": null,
+        "href": "https://www.moma.org/artists/564",
+        "description": "A double-exposure self-portrait with mirrors and her Leica camera, an icon of modernist photography.",
+        "descriptionZh": "镜中的双重曝光自拍像与她的徕卡相机，现代主义摄影的标志。"
+      },
+      {
+        "title": "Eiffel Tower, Paris",
+        "titleZh": "埃菲尔铁塔，巴黎",
+        "year": 1931,
+        "image": null,
+        "href": "https://www.moma.org/artists/564",
+        "description": "A vertiginous view of the Eiffel Tower captured with New Vision techniques.",
+        "descriptionZh": "以新视觉技法捕捉的埃菲尔铁塔眩晕视角。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1899,
+        "event": "Born in Frankfurt am Main, Germany",
+        "eventZh": "出生于德国美因河畔法兰克福"
+      },
+      {
+        "year": 1929,
+        "event": "Acquired her first Leica, became a freelance photographer",
+        "eventZh": "购入第一台徕卡相机，成为自由摄影师"
+      },
+      {
+        "year": 1930,
+        "event": "Moved to Paris, became part of the avant-garde scene",
+        "eventZh": "移居巴黎，融入先锋艺术圈"
+      },
+      {
+        "year": 1941,
+        "event": "Fled to New York to escape Nazi persecution",
+        "eventZh": "为逃离纳粹迫害逃往纽约"
+      },
+      {
+        "year": 1998,
+        "event": "Died in New York at age 98",
+        "eventZh": "在纽约逝世，享年98岁"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Ilse_Bing",
+      "https://www.moma.org/artists/564"
+    ]
   }
 ]
