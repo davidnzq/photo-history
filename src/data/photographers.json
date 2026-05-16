@@ -16248,5 +16248,2952 @@
       "https://en.wikipedia.org/wiki/Cristina_Garcia_Rodero",
       "https://www.magnumphotos.com/photographer/cristina-garcia-rodero/"
     ]
+  },
+  {
+    "id": "boris-ignatovich",
+    "name": "Boris Ignatovich",
+    "nameZh": "鲍里斯·伊格纳托维奇",
+    "born": 1899,
+    "died": 1976,
+    "country": "RU",
+    "region": "europe",
+    "bio": "Soviet photographer and photojournalist who became a leading figure in Russian Constructivist photography, known for radical angles, dynamic compositions, and industrial subject matter.",
+    "bioLong": "鲍里斯·伊格纳托维奇是苏联构成主义摄影的核心人物之一。他1899年出生于乌克兰，1920年代移居莫斯科后投身新闻摄影，很快受到罗德钦科等先锋艺术家的影响，开始探索极端俯仰角度、对角线构图和蒙太奇手法。他的作品大量聚焦工业建设和社会主义新生活，以《建设中的莫斯科》系列最为著名——在高空拍摄的脚手架、起重机和工人身影，将劳动者与机器融为充满力量感的几何构图。1930年代曾因'形式主义'遭受批评，被迫转向更传统的纪实风格。二战期间作为前线记者记录了列宁格勒围城。他的大量底片在晚年被重新发掘，确立了其作为苏联先锋摄影重要代表的历史地位。",
+    "movements": [
+      "russian-constructivism"
+    ],
+    "techniques": [
+      "extreme-angles",
+      "photomontage",
+      "industrial-documentary"
+    ],
+    "influencedBy": [
+      "rodchenko",
+      "moholy-nagy"
+    ],
+    "works": [
+      {
+        "title": "At the Building Site",
+        "titleZh": "建筑工地",
+        "year": 1929,
+        "image": null,
+        "href": "https://www.moma.org/artists/29248",
+        "description": "A vertiginous downward view of construction workers on scaffolding, exemplifying the radical angles of Constructivist photography.",
+        "descriptionZh": "从高处俯拍脚手架上的建筑工人，令人目眩的角度体现了构成主义摄影的激进视角。"
+      },
+      {
+        "title": "Shower (Dush)",
+        "titleZh": "淋浴",
+        "year": 1932,
+        "image": null,
+        "href": "https://en.wikipedia.org/wiki/Boris_Ignatovich",
+        "description": "An intimate yet formally inventive image of a figure under a shower, merging the human body with modernist geometric abstraction.",
+        "descriptionZh": "拍摄淋浴中人物的亲密而形式创新的影像，将人体与现代主义几何抽象融为一体。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1899,
+        "event": "Born in Slutsk, Ukraine (then Russian Empire)",
+        "eventZh": "出生于乌克兰斯卢茨克（时属俄罗斯帝国）"
+      },
+      {
+        "year": 1926,
+        "event": "Moved to Moscow and began working as a photojournalist",
+        "eventZh": "移居莫斯科，开始新闻摄影工作"
+      },
+      {
+        "year": 1930,
+        "event": "Co-founded the 'October' group of avant-garde photographers",
+        "eventZh": "参与创立先锋摄影团体'十月'"
+      },
+      {
+        "year": 1941,
+        "event": "Served as frontline photographer during WWII",
+        "eventZh": "作为前线摄影师参加二战"
+      },
+      {
+        "year": 1976,
+        "event": "Died in Moscow; archive later rediscovered",
+        "eventZh": "在莫斯科去世，档案后来被重新发掘"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Boris_Ignatovich",
+      "https://www.moma.org/artists/29248"
+    ]
+  },
+  {
+    "id": "georgy-zelma",
+    "name": "Georgy Zelma",
+    "nameZh": "格奥尔基·泽尔马",
+    "born": 1906,
+    "died": 1984,
+    "country": "RU",
+    "region": "europe",
+    "bio": "Soviet photojournalist who documented Central Asian modernization in the 1920s-30s and the Battle of Stalingrad, combining Constructivist aesthetics with documentary urgency.",
+    "bioLong": "格奥尔基·泽尔马是苏联摄影史上跨越构成主义与战争纪实两大领域的重要人物。1906年出生于塔什干，年轻时便接受了先锋派摄影训练。1920-30年代他深入中亚地区，记录乌兹别克斯坦等地在苏维埃政权下的社会变革——游牧民族定居、妇女揭开面纱、新式学校建立——这些影像以构成主义的斜线构图和戏剧性光影呈现，既是宣传又具有真实的人类学价值。二战爆发后他成为前线记者，在斯大林格勒战役中拍下了大量震撼人心的影像，记录了城市在炮火中化为废墟以及苏军艰苦卓绝的抵抗。他的中亚系列至今被视为理解苏联早期民族政策和中亚现代化进程的珍贵视觉档案。",
+    "movements": [
+      "russian-constructivism",
+      "war-photography"
+    ],
+    "techniques": [
+      "photojournalism",
+      "diagonal-composition",
+      "social-documentary"
+    ],
+    "influencedBy": [
+      "rodchenko"
+    ],
+    "works": [
+      {
+        "title": "Uzbekistan Modernization Series",
+        "titleZh": "乌兹别克斯坦现代化系列",
+        "year": 1930,
+        "image": null,
+        "href": "https://en.wikipedia.org/wiki/Georgy_Zelma",
+        "description": "A groundbreaking series documenting the transformation of Central Asian society under Soviet rule, from veiled women to new schools.",
+        "descriptionZh": "开创性系列作品，记录苏维埃政权下中亚社会的转型——从面纱后的女性到新建学校。"
+      },
+      {
+        "title": "Battle of Stalingrad",
+        "titleZh": "斯大林格勒战役",
+        "year": 1942,
+        "image": null,
+        "href": "https://en.wikipedia.org/wiki/Georgy_Zelma",
+        "description": "Harrowing frontline photographs from the decisive WWII battle, capturing the devastation and Soviet resistance in the ruined city.",
+        "descriptionZh": "在二战决定性战役前线拍摄的震撼影像，记录了废墟城市中的毁灭与苏军抵抗。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1906,
+        "event": "Born in Tashkent, Uzbek SSR",
+        "eventZh": "出生于乌兹别克苏维埃社会主义共和国塔什干"
+      },
+      {
+        "year": 1924,
+        "event": "Began documenting Central Asian social transformation",
+        "eventZh": "开始记录中亚社会变革"
+      },
+      {
+        "year": 1929,
+        "event": "Joined the journal 'USSR in Construction' as staff photographer",
+        "eventZh": "加入《建设中的苏联》杂志担任摄影师"
+      },
+      {
+        "year": 1942,
+        "event": "Covered the Battle of Stalingrad as a frontline photographer",
+        "eventZh": "作为前线摄影师报道斯大林格勒战役"
+      },
+      {
+        "year": 1984,
+        "event": "Died in Moscow",
+        "eventZh": "在莫斯科去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Georgy_Zelma",
+      "https://rosphoto.org/en/"
+    ]
+  },
+  {
+    "id": "aenne-biermann",
+    "name": "Aenne Biermann",
+    "nameZh": "安妮·比尔曼",
+    "born": 1898,
+    "died": 1933,
+    "country": "DE",
+    "region": "europe",
+    "bio": "German photographer associated with New Objectivity, known for her close-up studies of plants, minerals, and everyday objects that revealed hidden structures through precise, unsentimental observation.",
+    "bioLong": "安妮·比尔曼是德国新客观主义摄影的重要女性代表。1898年出生于下西里西亚的一个犹太家庭，婚后定居图灵根州的格拉市。没有接受过正式摄影训练的她从1925年左右开始拍照，最初以自己的孩子为对象，随后转向植物、矿物和日常器物的微距摄影。她的风格与伦格-帕奇、布洛斯费尔特等新客观主义摄影师高度契合——极度清晰的对焦、消除一切主观情感的冷静凝视、通过特写揭示事物内在结构。1929年她的作品在重要的'电影与照片'展览中展出，获得广泛认可。弗兰茨·罗在1930年为她出版了专著《60张照片》。不幸的是，比尔曼1933年因肝病早逝，年仅35岁，她短暂而集中的创作生涯为新客观主义摄影留下了精炼而独特的视觉遗产。",
+    "movements": [
+      "new-objectivity"
+    ],
+    "techniques": [
+      "close-up",
+      "still-life",
+      "botanical-photography"
+    ],
+    "influencedBy": [
+      "renger-patzsch"
+    ],
+    "works": [
+      {
+        "title": "Ficus Elastica",
+        "titleZh": "橡皮树",
+        "year": 1929,
+        "image": null,
+        "href": "https://en.wikipedia.org/wiki/Aenne_Biermann",
+        "description": "A luminous close-up of a rubber plant leaf, revealing its translucent veins and waxy surface with clinical precision.",
+        "descriptionZh": "橡皮树叶片的微距特写，以临床般的精确度展现其半透明的叶脉和蜡质表面。"
+      },
+      {
+        "title": "60 Fotos (book)",
+        "titleZh": "60张照片",
+        "year": 1930,
+        "image": null,
+        "href": "https://www.moma.org/artists/28780",
+        "description": "A monograph published by Franz Roh showcasing Biermann's plant studies, mineral close-ups, and child portraits in the New Objectivity style.",
+        "descriptionZh": "弗兰茨·罗编辑出版的专著，展示比尔曼以新客观主义风格拍摄的植物研究、矿物特写和儿童肖像。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1898,
+        "event": "Born in Goch, Lower Silesia, Germany",
+        "eventZh": "出生于德国下西里西亚戈赫"
+      },
+      {
+        "year": 1925,
+        "event": "Began photographing seriously, focusing on children and still life",
+        "eventZh": "开始认真从事摄影，聚焦儿童和静物"
+      },
+      {
+        "year": 1929,
+        "event": "Works exhibited at the landmark Film und Foto exhibition in Stuttgart",
+        "eventZh": "作品在斯图加特标志性的'电影与照片'展览中展出"
+      },
+      {
+        "year": 1930,
+        "event": "Franz Roh published '60 Fotos' monograph of her work",
+        "eventZh": "弗兰茨·罗出版其作品专著《60张照片》"
+      },
+      {
+        "year": 1933,
+        "event": "Died of liver disease in Gera, aged 35",
+        "eventZh": "因肝病在格拉去世，年仅35岁"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Aenne_Biermann",
+      "https://www.moma.org/artists/28780"
+    ]
+  },
+  {
+    "id": "helmar-lerski",
+    "name": "Helmar Lerski",
+    "nameZh": "赫尔马·莱斯基",
+    "born": 1871,
+    "died": 1956,
+    "country": "CH",
+    "region": "europe",
+    "bio": "Swiss-born photographer who pushed New Objectivity portraiture to its extreme with his 'Metamorphosis Through Light' series, using mirrors and reflectors to sculpt faces into abstract landscapes.",
+    "bioLong": "赫尔马·莱斯基是一位在新客观主义摄影中独树一帜的人物。1871年出生于瑞士斯特拉斯堡（时属德国），年轻时曾在美国做演员，后转向摄影。1910-20年代他在柏林从事电影摄影和肖像摄影，以极端特写和戏剧性光影著称。1931年出版的《日常的头颅》收录了八十位柏林普通劳动者——洗碗工、送报员、失业者——的特写肖像，以新客观主义的冷静手法赋予底层人物一种纪念碑般的庄严感。1936年移居巴勒斯坦后创作了登峰造极之作《通过光的变形》系列：他在同一张面孔上使用不同角度的镜子和反射板反复拍摄，仅靠光线变化就将人脸转化为截然不同的风景——有的如月球表面，有的似沙漠丘陵。这555张照片是对摄影'真实性'最激进的质疑之一，证明了光线本身就是雕塑的工具。",
+    "movements": [
+      "new-objectivity"
+    ],
+    "techniques": [
+      "extreme-close-up",
+      "light-manipulation",
+      "portrait"
+    ],
+    "influencedBy": [
+      "sander"
+    ],
+    "works": [
+      {
+        "title": "Everyday Heads (Kopfe des Alltags)",
+        "titleZh": "日常的头颅",
+        "year": 1931,
+        "image": null,
+        "href": "https://en.wikipedia.org/wiki/Helmar_Lerski",
+        "description": "Eighty close-up portraits of ordinary Berlin workers — dishwashers, newsboys, the unemployed — given monumental dignity through New Objectivity lighting.",
+        "descriptionZh": "八十幅柏林普通劳动者的特写肖像——洗碗工、送报员、失业者——通过新客观主义光影获得纪念碑般的尊严。"
+      },
+      {
+        "title": "Metamorphosis Through Light",
+        "titleZh": "通过光的变形",
+        "year": 1936,
+        "image": null,
+        "href": "https://en.wikipedia.org/wiki/Helmar_Lerski",
+        "description": "555 photographs of one face transformed by mirrors and reflectors alone, proving light itself as a sculptural medium.",
+        "descriptionZh": "仅靠镜子和反射板对同一张面孔的555次变形拍摄，证明光线本身即是雕塑媒介。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1871,
+        "event": "Born in Strasbourg (then Germany, now France)",
+        "eventZh": "出生于斯特拉斯堡（时属德国，今属法国）"
+      },
+      {
+        "year": 1915,
+        "event": "Began career as a cinematographer and portrait photographer in Berlin",
+        "eventZh": "在柏林开始电影摄影师和肖像摄影师生涯"
+      },
+      {
+        "year": 1931,
+        "event": "Published 'Kopfe des Alltags' (Everyday Heads)",
+        "eventZh": "出版《日常的头颅》"
+      },
+      {
+        "year": 1936,
+        "event": "Emigrated to Palestine; began 'Metamorphosis Through Light' series",
+        "eventZh": "移居巴勒斯坦，开始创作《通过光的变形》系列"
+      },
+      {
+        "year": 1956,
+        "event": "Died in Zurich, Switzerland",
+        "eventZh": "在瑞士苏黎世去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Helmar_Lerski",
+      "https://www.musee-elysee.ch/"
+    ]
+  },
+  {
+    "id": "philip-kwame-apagya",
+    "name": "Philip Kwame Apagya",
+    "nameZh": "菲利普·夸梅·阿帕贾",
+    "born": 1958,
+    "died": null,
+    "country": "GH",
+    "region": "africa",
+    "bio": "Ghanaian studio photographer celebrated for his exuberant hand-painted fantasy backdrops depicting modern luxury, technology, and aspirational lifestyles against which clients pose in their finest attire.",
+    "bioLong": "菲利普·夸梅·阿帕贾是加纳当代工作室摄影最具辨识度的代表人物。1958年出生于加纳沃尔特省的谢亚，1980年代在阿克拉附近的特马市开设了自己的照相馆。与早期西非工作室摄影师使用素净背景不同，阿帕贾以手绘的大型幻想布景著称——描绘着豪华客厅、现代化城市天际线、飞机、游泳池、高级轿车等代表现代化和富裕生活的场景。客户穿着最体面的服装在这些绚丽的虚构世界前摆姿势，照片成为一种介于现实与梦想之间的视觉宣言。这种独特的美学既反映了全球化时代非洲人对现代生活的想象和渴望，也延续了西非工作室摄影以影像构建身份的深厚传统。他的作品自1990年代被国际策展人发现后，在蓬皮杜中心、泰特美术馆等机构展出，成为当代非洲摄影的标志性图像。",
+    "movements": [
+      "west-african-studio"
+    ],
+    "techniques": [
+      "painted-backdrops",
+      "studio-portrait",
+      "color-photography"
+    ],
+    "influencedBy": [
+      "keita",
+      "malick-sidibe"
+    ],
+    "works": [
+      {
+        "title": "Welcome to the World",
+        "titleZh": "欢迎来到世界",
+        "year": 1996,
+        "image": null,
+        "href": "https://www.saatchigallery.com/artist/philip_kwame_apagya",
+        "description": "A series of studio portraits with hand-painted backdrops depicting luxury interiors and cityscapes, embodying aspirational fantasies of modern life.",
+        "descriptionZh": "以手绘豪华内饰和城市天际线为背景的工作室肖像系列，体现了对现代生活的理想化想象。"
+      },
+      {
+        "title": "Dream City",
+        "titleZh": "梦想之城",
+        "year": 2000,
+        "image": null,
+        "href": "https://www.saatchigallery.com/artist/philip_kwame_apagya",
+        "description": "Portraits set against painted visions of futuristic cityscapes and modern technology, bridging West African studio traditions with global aspirations.",
+        "descriptionZh": "以描绘未来主义城市和现代科技的画布为背景的肖像，将西非工作室传统与全球化愿景相连。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1958,
+        "event": "Born in Senya, Volta Region, Ghana",
+        "eventZh": "出生于加纳沃尔特省谢亚"
+      },
+      {
+        "year": 1982,
+        "event": "Opened his photography studio in Tema, near Accra",
+        "eventZh": "在阿克拉附近的特马市开设照相馆"
+      },
+      {
+        "year": 1996,
+        "event": "Work discovered by international curators and exhibited in Europe",
+        "eventZh": "作品被国际策展人发现并在欧洲展出"
+      },
+      {
+        "year": 2000,
+        "event": "Featured in major exhibitions at Centre Pompidou and Tate Modern",
+        "eventZh": "作品在蓬皮杜中心和泰特现代美术馆重要展览中展出"
+      },
+      {
+        "year": 2010,
+        "event": "Continued studio practice while gaining global recognition",
+        "eventZh": "在获得国际认可的同时继续工作室实践"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Philip_Kwame_Apagya",
+      "https://www.saatchigallery.com/artist/philip_kwame_apagya"
+    ]
+  },
+  {
+    "id": "david-guttenfelder",
+    "name": "David Guttenfelder",
+    "nameZh": "大卫·古腾费尔德",
+    "born": 1970,
+    "died": null,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American photojournalist who spent decades covering conflict zones for the Associated Press, and gained unique access to photograph daily life in North Korea over multiple visits.",
+    "bioLong": "大卫·古腾费尔德是美联社最杰出的摄影记者之一。1970年出生于美国爱荷华州，在爱荷华大学学习后加入美联社驻亚洲分部。他在阿富汗、伊拉克、非洲等全球冲突地区工作超过二十年，但真正使他获得国际瞩目的是他对朝鲜的罕见影像记录。从2000年至2015年间，他多次获准进入朝鲜，利用有限的拍摄机会捕捉了这个封闭国家的日常生活——平壤的地铁、学校里的孩子、农田中的工人、新建的游乐场——这些影像以其人性化的视角穿透了意识形态的迷雾。2013年他成为首位获准在朝鲜使用Instagram的西方记者，其发布的照片在全球引发巨大关注。他的作品多次获得世界新闻摄影奖，后加入《国家地理》杂志继续从事深度纪实项目。",
+    "movements": [
+      "war-photography"
+    ],
+    "techniques": [
+      "photojournalism",
+      "color-documentary",
+      "mobile-photography"
+    ],
+    "influencedBy": [
+      "capa",
+      "w-eugene-smith"
+    ],
+    "works": [
+      {
+        "title": "North Korea: Life Inside",
+        "titleZh": "朝鲜：内部生活",
+        "year": 2013,
+        "image": null,
+        "href": "https://www.nationalgeographic.com/contributors/g/photographer-david-guttenfelder/",
+        "description": "A rare and humanizing photographic document of everyday life in North Korea, shot over multiple visits and shared globally via Instagram.",
+        "descriptionZh": "通过多次访问拍摄并经Instagram全球传播的珍贵朝鲜日常生活影像记录，以人性化视角呈现。"
+      },
+      {
+        "title": "Fukushima Exclusion Zone",
+        "titleZh": "福岛禁区",
+        "year": 2011,
+        "image": null,
+        "href": "https://www.nationalgeographic.com/contributors/g/photographer-david-guttenfelder/",
+        "description": "A haunting documentation of the abandoned towns within the Fukushima nuclear disaster exclusion zone, capturing nature reclaiming human spaces.",
+        "descriptionZh": "令人心悸的福岛核灾难禁区荒废城镇纪录，捕捉大自然重新占领人类空间的景象。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1970,
+        "event": "Born in Iowa, United States",
+        "eventZh": "出生于美国爱荷华州"
+      },
+      {
+        "year": 1996,
+        "event": "Joined Associated Press as a photographer based in Asia",
+        "eventZh": "加入美联社担任驻亚洲摄影师"
+      },
+      {
+        "year": 2000,
+        "event": "First trip to North Korea; began rare long-term documentation",
+        "eventZh": "首次进入朝鲜，开始罕见的长期纪实拍摄"
+      },
+      {
+        "year": 2013,
+        "event": "Became the first Western journalist to use Instagram inside North Korea",
+        "eventZh": "成为首位在朝鲜境内使用Instagram的西方记者"
+      },
+      {
+        "year": 2015,
+        "event": "Joined National Geographic as a staff photographer",
+        "eventZh": "加入《国家地理》杂志担任专职摄影师"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Guttenfelder",
+      "https://www.nationalgeographic.com/contributors/g/photographer-david-guttenfelder/"
+    ]
+  },
+  {
+    "id": "newsha-tavakolian",
+    "name": "Newsha Tavakolian",
+    "nameZh": "纽莎·塔瓦科利安",
+    "born": 1981,
+    "died": null,
+    "country": "IR",
+    "region": "middle-east",
+    "bio": "Iranian photographer and Magnum nominee who began covering the Iran-Iraq war aftermath at age 16, and is known for intimate portrayals of Iranian women's lives and the emotional landscapes of conflict.",
+    "bioLong": "纽莎·塔瓦科利安是当代中东最重要的女性摄影师之一。1981年出生于德黑兰，16岁便开始为伊朗报刊拍摄新闻图片，18岁成为伊朗最年轻的报道摄影师之一。她早期报道了伊拉克战争、黎巴嫩冲突等中东重大事件，但逐渐从传统的战地摄影转向更具个人性和诗意的表达方式。代表作《聆听》系列(2010)为六位不被允许公开演唱的伊朗女歌手制作了虚构的唱片封面——每位歌手闭眼沉浸在音乐中，背景是色彩浓郁的舞台布景——以含蓄而有力的方式揭示了伊朗社会对女性的限制。《空白的书页》系列则记录了伊朗年轻一代在政治压抑与日常生活之间的矛盾状态。2015年成为马格南图片社提名成员，她的作品模糊了纪实与艺术的边界，以深刻的同理心呈现伊朗社会的复杂现实。",
+    "movements": [
+      "war-photography",
+      "magnum"
+    ],
+    "techniques": [
+      "color-documentary",
+      "staged-photography",
+      "portraiture"
+    ],
+    "influencedBy": [
+      "shirin-neshat",
+      "w-eugene-smith"
+    ],
+    "works": [
+      {
+        "title": "Listen (Gush-Kon)",
+        "titleZh": "聆听",
+        "year": 2010,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/newsha-tavakolian/",
+        "description": "Fictional album covers for six Iranian female singers forbidden from performing publicly, a poetic protest against censorship of women's voices.",
+        "descriptionZh": "为六位被禁止公开演唱的伊朗女歌手制作的虚构唱片封面，诗意地抗议对女性声音的审查。"
+      },
+      {
+        "title": "Blank Pages of an Iranian Photo Album",
+        "titleZh": "一本伊朗影集的空白页",
+        "year": 2014,
+        "image": null,
+        "href": "https://www.magnumphotos.com/photographer/newsha-tavakolian/",
+        "description": "An intimate series documenting the contradictions of daily life for Iran's young generation caught between political repression and personal aspiration.",
+        "descriptionZh": "亲密的系列作品，记录伊朗年轻一代在政治压抑与个人追求之间的矛盾日常。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1981,
+        "event": "Born in Tehran, Iran",
+        "eventZh": "出生于伊朗德黑兰"
+      },
+      {
+        "year": 1997,
+        "event": "Began photojournalism career at age 16 for Iranian newspapers",
+        "eventZh": "16岁开始为伊朗报纸从事新闻摄影"
+      },
+      {
+        "year": 2003,
+        "event": "Covered the Iraq War for international media outlets",
+        "eventZh": "为国际媒体报道伊拉克战争"
+      },
+      {
+        "year": 2010,
+        "event": "Created 'Listen' series on banned female singers in Iran",
+        "eventZh": "创作关于伊朗被禁女歌手的《聆听》系列"
+      },
+      {
+        "year": 2015,
+        "event": "Nominated to Magnum Photos",
+        "eventZh": "获马格南图片社提名"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Newsha_Tavakolian",
+      "https://www.magnumphotos.com/photographer/newsha-tavakolian/"
+    ]
+  },
+  {
+    "id": "max-pinckers",
+    "name": "Max Pinckers",
+    "nameZh": "马克斯·平克斯",
+    "born": 1988,
+    "died": null,
+    "country": "BE",
+    "region": "europe",
+    "bio": "Belgian photographer whose conceptual documentary work interrogates the boundaries between truth and fiction, best known for his projects in India and his research-based approach to image-making.",
+    "bioLong": "马克斯·平克斯是欧洲当代摄影中最具思辨性的年轻创作者之一。1988年出生于比利时布鲁塞尔，在根特皇家美术学院学习摄影。他的创作方法论特立独行：每个项目都从深入的学术研究开始，再通过摆拍、文献嫁接和虚构叙事来质疑纪实摄影中'真实'的概念。成名作《Will They Sing Like Raindrops or Leave Me Thirsty》(2013)聚焦印度的私奔文化——年轻情侣为逃避种姓制度和家族压力而私奔——平克斯将真实故事与精心编排的电影化场景交织，模糊了事实与虚构的边界。《两棵山》(2018)进一步探讨了摄影作为证据的可靠性问题，将新闻照片、宣传影像与虚构场景并置。2018年他获得了尤金·史密斯人道主义摄影奖，其作品被视为'后真相'时代纪实摄影转型的重要范例。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "conceptual-documentary",
+      "staged-photography",
+      "research-based"
+    ],
+    "influencedBy": [
+      "wall",
+      "philip-lorca-dicorcia"
+    ],
+    "works": [
+      {
+        "title": "Will They Sing Like Raindrops or Leave Me Thirsty",
+        "titleZh": "他们会像雨滴般歌唱还是让我干渴",
+        "year": 2013,
+        "image": null,
+        "href": "https://maxpinckers.be/",
+        "description": "A cinematic exploration of elopement culture in India, blending real stories with staged scenes to question documentary photography's truth claims.",
+        "descriptionZh": "以电影化手法探索印度私奔文化，将真实故事与摆拍场景融合，质疑纪实摄影的真实性声称。"
+      },
+      {
+        "title": "Two Mountains",
+        "titleZh": "两棵山",
+        "year": 2018,
+        "image": null,
+        "href": "https://maxpinckers.be/",
+        "description": "A conceptual project juxtaposing news images, propaganda, and fictional scenarios to interrogate photography's role as evidence in the post-truth era.",
+        "descriptionZh": "将新闻图片、宣传影像和虚构场景并置的概念项目，质疑后真相时代摄影作为证据的角色。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1988,
+        "event": "Born in Brussels, Belgium",
+        "eventZh": "出生于比利时布鲁塞尔"
+      },
+      {
+        "year": 2013,
+        "event": "Published debut book on Indian elopement culture",
+        "eventZh": "出版关于印度私奔文化的首部摄影书"
+      },
+      {
+        "year": 2015,
+        "event": "Nominated for the Deutsche Borse Photography Foundation Prize",
+        "eventZh": "获德意志交易所摄影基金会奖提名"
+      },
+      {
+        "year": 2018,
+        "event": "Won the W. Eugene Smith Memorial Fund Grant",
+        "eventZh": "获得尤金·史密斯纪念基金奖"
+      },
+      {
+        "year": 2020,
+        "event": "Appointed professor at KASK School of Arts, Ghent",
+        "eventZh": "受聘为根特KASK艺术学院教授"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Max_Pinckers",
+      "https://maxpinckers.be/"
+    ]
+  },
+  {
+    "id": "an-my-le",
+    "name": "An-My Le",
+    "nameZh": "安美黎",
+    "born": 1960,
+    "died": null,
+    "country": "VN",
+    "region": "north-america",
+    "bio": "Vietnamese-American photographer who fled Saigon as a teenager and creates large-format landscape photographs exploring how war reshapes terrain, memory, and national identity.",
+    "bioLong": "安美黎是当代最深刻的战争与风景摄影交叉领域的创作者之一。1960年出生于越南西贡，1975年越战结束时随家人以难民身份逃离越南。在美国完成学业后，她于耶鲁大学获得摄影硕士学位。她的创作始终围绕战争对风景和记忆的塑造展开——但不是传统的战地摄影，而是冷静、疏离、以大画幅相机拍摄的广阔风景。成名作《Small Wars》(1999-2002)记录了越战爱好者在美国弗吉尼亚州丛林中进行的军事重演活动——穿着越战时期军服的美国人在真实的美国森林中扮演越共和美军——这些影像令人不安地模糊了真实与模拟、过去与现在的界限。《29 Palms》系列则在美国海军陆战队沙漠训练基地拍摄备战伊拉克部署的士兵，将辽阔的加利福尼亚沙漠转化为关于帝国与战争的寓言。她的作品被纽约现代艺术博物馆和大都会博物馆等主要机构收藏。",
+    "movements": [
+      "war-photography",
+      "new-topographics"
+    ],
+    "techniques": [
+      "large-format",
+      "landscape",
+      "color-photography"
+    ],
+    "influencedBy": [
+      "r-adams",
+      "lewis-baltz"
+    ],
+    "works": [
+      {
+        "title": "Small Wars",
+        "titleZh": "小战争",
+        "year": 1999,
+        "image": null,
+        "href": "https://www.moma.org/artists/29846",
+        "description": "Large-format photographs of Vietnam War reenactments in Virginia forests, blurring the line between real war and its simulation.",
+        "descriptionZh": "以大画幅相机拍摄弗吉尼亚森林中的越战重演活动，模糊了真实战争与模拟之间的界限。"
+      },
+      {
+        "title": "29 Palms",
+        "titleZh": "29棕榈村",
+        "year": 2003,
+        "image": null,
+        "href": "https://www.moma.org/artists/29846",
+        "description": "Sweeping desert landscapes of Marine Corps training exercises before Iraq deployment, transforming military rehearsal into allegories of empire.",
+        "descriptionZh": "美国海军陆战队在部署伊拉克前进行沙漠训练的广阔风景，将军事演习转化为帝国寓言。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1960,
+        "event": "Born in Saigon, Vietnam",
+        "eventZh": "出生于越南西贡"
+      },
+      {
+        "year": 1975,
+        "event": "Fled Vietnam as a refugee after the fall of Saigon",
+        "eventZh": "西贡陷落后作为难民逃离越南"
+      },
+      {
+        "year": 1993,
+        "event": "Earned MFA in Photography from Yale University",
+        "eventZh": "获耶鲁大学摄影硕士学位"
+      },
+      {
+        "year": 1999,
+        "event": "Began 'Small Wars' series on Vietnam War reenactments",
+        "eventZh": "开始拍摄越战重演的《小战争》系列"
+      },
+      {
+        "year": 2023,
+        "event": "Major retrospective 'Between Two Rivers' at MoMA",
+        "eventZh": "纽约现代艺术博物馆举办大型回顾展《两河之间》"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/An-My_L%C3%AA",
+      "https://www.moma.org/artists/29846"
+    ]
+  },
+  {
+    "id": "mame-diarra-niang",
+    "name": "Mame-Diarra Niang",
+    "nameZh": "马梅-迪亚拉·尼昂",
+    "born": 1982,
+    "died": null,
+    "country": "SN",
+    "region": "africa",
+    "bio": "Senegalese-French visual artist whose ethereal photographs explore identity, displacement, and the erasure of the body within vast, minimalist landscapes.",
+    "bioLong": "马梅-迪亚拉·尼昂是新一代非洲当代摄影中最具诗意和哲学深度的创作者之一。1982年出生于法国，父母来自塞内加尔，她在法国和非洲之间的文化夹缝中成长，这种双重身份成为其创作的核心主题。她的作品风格独特：孤独的人影置于辽阔而空旷的风景中——沙漠、盐湖、雾气弥漫的海岸——身体被环境吞噬，几近消失。代表作《至此我消失》系列在撒哈拉沙漠中拍摄，红衣人影在黄沙中渐行渐远直至融入地平线，探讨了流散者的身份消融和文化归属感的缺失。她的另一系列《萨赫勒之光》以极简主义手法呈现西非萨赫勒地带的荒凉之美，将风景摄影转化为关于存在和缺席的冥想。她的作品在巴马科非洲摄影双年展、阿尔勒摄影节等国际场域获得广泛关注。",
+    "movements": [
+      "west-african-studio"
+    ],
+    "techniques": [
+      "minimalist-landscape",
+      "conceptual",
+      "color-photography"
+    ],
+    "influencedBy": [
+      "malick-sidibe"
+    ],
+    "works": [
+      {
+        "title": "At This Point I Disappeared",
+        "titleZh": "至此我消失",
+        "year": 2016,
+        "image": null,
+        "href": "https://www.mamediaraniang.com/",
+        "description": "A haunting series of solitary figures dissolving into Saharan landscapes, meditating on diaspora identity and the body's erasure.",
+        "descriptionZh": "令人难忘的系列——孤独身影融入撒哈拉风景中消失，关于流散身份和身体消融的冥想。"
+      },
+      {
+        "title": "Sahel Gris",
+        "titleZh": "灰色萨赫勒",
+        "year": 2019,
+        "image": null,
+        "href": "https://www.mamediaraniang.com/",
+        "description": "Minimalist photographs of West Africa's Sahel region, transforming the arid landscape into meditations on presence and absence.",
+        "descriptionZh": "以极简主义手法拍摄西非萨赫勒地区，将干旱风景转化为关于存在与缺席的冥想。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1982,
+        "event": "Born in France to Senegalese parents",
+        "eventZh": "出生于法国，父母为塞内加尔人"
+      },
+      {
+        "year": 2010,
+        "event": "Began photographic practice exploring diaspora and identity",
+        "eventZh": "开始以摄影探索流散和身份主题"
+      },
+      {
+        "year": 2016,
+        "event": "Completed 'At This Point I Disappeared' series in the Sahara",
+        "eventZh": "在撒哈拉完成《至此我消失》系列"
+      },
+      {
+        "year": 2017,
+        "event": "Exhibited at Bamako Encounters African Photography Biennial",
+        "eventZh": "参展巴马科非洲摄影双年展"
+      },
+      {
+        "year": 2019,
+        "event": "Published 'Sahel Gris', exhibited internationally",
+        "eventZh": "发表《灰色萨赫勒》，在国际广泛展出"
+      }
+    ],
+    "sources": [
+      "https://www.mamediaraniang.com/",
+      "https://www.aperture.org/"
+    ]
+  },
+  {
+    "id": "claudia-andujar",
+    "name": "Claudia Andujar",
+    "nameZh": "克劳迪亚·安杜雅尔",
+    "born": 1931,
+    "died": null,
+    "country": "BR",
+    "region": "south-america",
+    "bio": "Swiss-born Brazilian photographer and activist whose decades-long documentation of the Yanomami people combined intimate photographic art with political advocacy that helped secure their territorial rights.",
+    "bioLong": "克劳迪亚·安杜雅尔是拉丁美洲摄影史上最具人道主义精神的创作者之一。1931年出生于瑞士纳沙泰尔的一个犹太-匈牙利家庭，父亲在奥斯维辛集中营遇难后，她辗转移居巴西。1970年代初她深入亚马逊雨林，开始对雅诺马米原住民族群进行系统性的摄影记录——最终持续了半个世纪。她的影像手法独特而富于实验性：使用红外胶片、长时间曝光和凡士林涂抹镜头等技术，将雅诺马米人的仪式、日常生活和精神世界转化为梦幻般的视觉体验。更重要的是，当1980年代巴西军政府批准在雅诺马米领地修建公路和开矿时，安杜雅尔从艺术家转变为激进行动者，联合人类学家和国际组织发起抗议运动，最终在1992年成功促使巴西政府划定了面积达九百六十万公顷的雅诺马米原住民保留地。她的创作证明了摄影可以既是艺术又是政治武器。",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "techniques": [
+      "infrared-film",
+      "long-exposure",
+      "documentary-activism"
+    ],
+    "influencedBy": [
+      "w-eugene-smith"
+    ],
+    "works": [
+      {
+        "title": "Yanomami: The Marked",
+        "titleZh": "雅诺马米：被标记的人",
+        "year": 1983,
+        "image": null,
+        "href": "https://www.ica.art/exhibitions/claudia-andujar-the-yanomami-struggle",
+        "description": "Numbered identification photographs of Yanomami individuals created during a health campaign, later transforming into a meditation on colonial cataloguing and Indigenous identity.",
+        "descriptionZh": "在健康运动中为雅诺马米人拍摄的编号身份照片，后来转化为对殖民编目和原住民身份的反思。"
+      },
+      {
+        "title": "Dreams (Sonhos)",
+        "titleZh": "梦境",
+        "year": 1976,
+        "image": null,
+        "href": "https://www.ica.art/exhibitions/claudia-andujar-the-yanomami-struggle",
+        "description": "Ethereal photographs using infrared film and slow exposures to evoke the shamanic spirit world of the Yanomami people.",
+        "descriptionZh": "使用红外胶片和慢速曝光创造空灵影像，唤起雅诺马米人的萨满灵界。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1931,
+        "event": "Born in Neuchatel, Switzerland to a Jewish-Hungarian family",
+        "eventZh": "出生于瑞士纳沙泰尔的犹太-匈牙利家庭"
+      },
+      {
+        "year": 1955,
+        "event": "Emigrated to Brazil; began photographic career in Sao Paulo",
+        "eventZh": "移居巴西，在圣保罗开始摄影生涯"
+      },
+      {
+        "year": 1971,
+        "event": "First journey to the Yanomami territory in the Amazon",
+        "eventZh": "首次进入亚马逊雅诺马米领地"
+      },
+      {
+        "year": 1978,
+        "event": "Co-founded the Pro-Yanomami Commission (CCPY) for Indigenous rights",
+        "eventZh": "联合创立保护雅诺马米委员会(CCPY)"
+      },
+      {
+        "year": 1992,
+        "event": "Brazilian government demarcated 9.6 million hectares of Yanomami territory",
+        "eventZh": "巴西政府划定960万公顷的雅诺马米领地"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Claudia_Andujar",
+      "https://www.ica.art/exhibitions/claudia-andujar-the-yanomami-struggle"
+    ]
+  },
+  {
+    "id": "luis-gonzalez-palma",
+    "name": "Luis Gonzalez Palma",
+    "nameZh": "路易斯·冈萨雷斯·帕尔马",
+    "born": 1957,
+    "died": null,
+    "country": "GT",
+    "region": "south-america",
+    "bio": "Guatemalan photographer and visual artist whose sepia-toned, hand-altered portraits of Indigenous Maya people merge colonial-era aesthetics with contemporary commentary on racial hierarchy and cultural erasure.",
+    "bioLong": "路易斯·冈萨雷斯·帕尔马是危地马拉最具国际影响力的视觉艺术家。1957年出生于危地马拉城，最初学习建筑和电影。1980年代中期转向摄影后，他发展出一种独特的、充满诗意和悲情的视觉语言——以玛雅原住民为拍摄对象，使用深褐色调、手工着色和沥青涂层等技法，在照片表面制造出古老、斑驳、仿佛穿越时空的质感。他的肖像中，玛雅面孔戴着巴洛克式的蕾丝面纱或殖民时期的天使翅膀，眼中流露着深沉的忧伤——这些影像有意援引了西班牙殖民时期宗教绘画的视觉传统，却将被殖民者而非殖民者置于画面中心。代表作《玫瑰之光》《月亮的沉默》等系列持续探讨了拉丁美洲种族等级制度中原住民身份的可见与不可见。他的作品在全球超过二十个国家展出，获得无数奖项，被认为定义了当代拉美摄影的诗性纪实方向。",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "techniques": [
+      "hand-tinting",
+      "mixed-media",
+      "sepia-portraiture"
+    ],
+    "influencedBy": [
+      "alvarez-bravo",
+      "chambi"
+    ],
+    "works": [
+      {
+        "title": "La Rosa de los Vientos (The Compass Rose)",
+        "titleZh": "风向玫瑰",
+        "year": 1989,
+        "image": null,
+        "href": "https://www.gonzalezpalma.com/",
+        "description": "Hand-altered sepia portraits of Indigenous Maya individuals adorned with baroque religious imagery, inverting colonial visual hierarchies.",
+        "descriptionZh": "以手工处理的深褐色调拍摄装饰有巴洛克宗教意象的玛雅原住民肖像，颠覆殖民视觉等级制度。"
+      },
+      {
+        "title": "The Silence of the Moon",
+        "titleZh": "月亮的沉默",
+        "year": 1998,
+        "image": null,
+        "href": "https://www.gonzalezpalma.com/",
+        "description": "A haunting series of Maya faces veiled in lace and shadow, exploring the invisible presence of Indigenous peoples in Guatemalan society.",
+        "descriptionZh": "笼罩在蕾丝和阴影中的玛雅面孔系列，探索原住民在危地马拉社会中的隐形存在。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1957,
+        "event": "Born in Guatemala City, Guatemala",
+        "eventZh": "出生于危地马拉城"
+      },
+      {
+        "year": 1987,
+        "event": "Began photographic practice focused on Maya identity",
+        "eventZh": "开始以玛雅身份为主题的摄影创作"
+      },
+      {
+        "year": 1993,
+        "event": "First major international exhibition at the Venice Biennale",
+        "eventZh": "在威尼斯双年展首次重要国际展出"
+      },
+      {
+        "year": 2000,
+        "event": "Relocated to Cordoba, Argentina; continued Latin American focus",
+        "eventZh": "移居阿根廷科尔多瓦，继续拉美主题创作"
+      },
+      {
+        "year": 2011,
+        "event": "Retrospective at the Museum of Latin American Art, Long Beach",
+        "eventZh": "在长滩拉丁美洲艺术博物馆举办回顾展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luis_Gonz%C3%A1lez_Palma",
+      "https://www.gonzalezpalma.com/"
+    ]
+  },
+  {
+    "id": "adriana-lestido",
+    "name": "Adriana Lestido",
+    "nameZh": "阿德里安娜·莱斯蒂多",
+    "born": 1955,
+    "died": null,
+    "country": "AR",
+    "region": "south-america",
+    "bio": "Argentine documentary photographer known for her deeply empathetic long-term projects on women in extreme situations — imprisoned mothers, orphaned girls, and women surviving domestic violence.",
+    "bioLong": "阿德里安娜·莱斯蒂多是阿根廷最重要的纪实摄影师之一，其作品以对边缘化女性群体的深切关怀和长期陪伴著称。1955年出生于布宜诺斯艾利斯，1970年代末开始新闻摄影工作，曾亲历阿根廷军事独裁末期的动荡。她丈夫在独裁时期'被失踪'的经历深刻影响了她的创作方向——她将镜头始终对准社会中最脆弱的人群，尤其是遭受制度性暴力的女性。代表作《监狱中的母亲》(1991-93)记录了布宜诺斯艾利斯女子监狱中的母亲和她们出生在铁窗内的婴儿；《被遗弃的女孩》(2000)跟踪拍摄一群流落街头的孤儿少女；《亲密的爱》(1998-2002)则深入受暴女性庇护所。这些项目往往持续数年，莱斯蒂多与拍摄对象建立了深厚的信任关系，因此能够以极度亲密和真诚的方式呈现苦难中的人性尊严。她的影像风格黑白分明，构图严谨而富有情感张力。",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "techniques": [
+      "black-and-white",
+      "long-term-documentary",
+      "social-documentary"
+    ],
+    "influencedBy": [
+      "lange",
+      "mary-ellen-mark"
+    ],
+    "works": [
+      {
+        "title": "Madres con hijos en la carcel (Mothers in Prison)",
+        "titleZh": "监狱中的母亲",
+        "year": 1993,
+        "image": null,
+        "href": "https://www.adrianalestido.com.ar/",
+        "description": "A wrenching documentary series on incarcerated mothers raising infants inside Buenos Aires women's prison.",
+        "descriptionZh": "令人心碎的纪实系列，记录布宜诺斯艾利斯女子监狱中的母亲抚养婴儿的景象。"
+      },
+      {
+        "title": "Love (El Amor)",
+        "titleZh": "爱",
+        "year": 2002,
+        "image": null,
+        "href": "https://www.adrianalestido.com.ar/",
+        "description": "A series on women who survived domestic violence, photographed in their daily recovery at shelters, exploring resilience and tenderness.",
+        "descriptionZh": "记录家庭暴力幸存女性在庇护所中日常恢复的系列，探索韧性与温柔。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1955,
+        "event": "Born in Buenos Aires, Argentina",
+        "eventZh": "出生于阿根廷布宜诺斯艾利斯"
+      },
+      {
+        "year": 1979,
+        "event": "Began photojournalism during the final years of the Argentine dictatorship",
+        "eventZh": "在阿根廷独裁末期开始新闻摄影"
+      },
+      {
+        "year": 1991,
+        "event": "Began 'Mothers in Prison' project at Buenos Aires women's prison",
+        "eventZh": "在布宜诺斯艾利斯女子监狱开始《监狱中的母亲》项目"
+      },
+      {
+        "year": 1995,
+        "event": "Received Konex Foundation Award for Best Documentary Photographer",
+        "eventZh": "获科内克斯基金会最佳纪实摄影师奖"
+      },
+      {
+        "year": 2019,
+        "event": "Major retrospective at MALBA, Buenos Aires",
+        "eventZh": "在布宜诺斯艾利斯拉丁美洲艺术博物馆举办大型回顾展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Adriana_Lestido",
+      "https://www.adrianalestido.com.ar/"
+    ]
+  },
+  {
+    "id": "marcos-lopez",
+    "name": "Marcos Lopez",
+    "nameZh": "马科斯·洛佩斯",
+    "born": 1958,
+    "died": null,
+    "country": "AR",
+    "region": "south-america",
+    "bio": "Argentine photographer whose elaborately staged, hyper-saturated color tableaux satirize Argentine national identity, consumer culture, and the collision between Latin American tradition and globalization.",
+    "bioLong": "马科斯·洛佩斯是阿根廷当代摄影中最具幽默感和社会批判力的创作者。1958年出生于圣菲省，早期从事黑白街头摄影，1990年代经历了根本性的风格转变——转向精心编排的彩色场景摄影，以夸张的色彩饱和度、流行文化符号和戏剧性的布景创造一种他称之为'Pop Latino'(拉丁波普)的独特美学。他的作品如同阿根廷版的杰夫·沃尔或大卫·拉夏贝尔——将超市货架、廉价旅馆、街角烧烤摊等日常场景转化为色彩爆炸的寓言画面，演员们摆出夸张的姿态，呈现阿根廷社会在新自由主义经济改革下的荒诞现实。代表作《阿根廷之家的堂吉诃德》将经典文学人物置于布宜诺斯艾利斯的日常场景中，《Sub-realismo Criollo》(克里奥尔超现实主义)系列则以肥皂剧般的戏剧性呈现阿根廷中产阶级的消费幻梦。他的作品深受拉美文学'魔幻现实主义'传统的影响，是视觉领域对这一文学传统的精彩回应。",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "techniques": [
+      "staged-photography",
+      "hyper-saturated-color",
+      "pop-art"
+    ],
+    "influencedBy": [
+      "wall",
+      "david-lachapelle"
+    ],
+    "works": [
+      {
+        "title": "Sub-realismo Criollo (Creole Sub-realism)",
+        "titleZh": "克里奥尔亚现实主义",
+        "year": 2003,
+        "image": null,
+        "href": "https://www.marcoslopez.com/",
+        "description": "Hyper-saturated staged photographs satirizing Argentine consumer culture, blending pop art aesthetics with Latin American magical realism.",
+        "descriptionZh": "以过饱和色彩的摆拍照片讽刺阿根廷消费文化，融合波普艺术美学与拉美魔幻现实主义。"
+      },
+      {
+        "title": "Asado en Mendiolaza (Barbecue in Mendiolaza)",
+        "titleZh": "门迪奥拉萨的烤肉",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.marcoslopez.com/",
+        "description": "An iconic staged photograph of an Argentine asado transformed into a pop art tableau, embodying national identity through food ritual.",
+        "descriptionZh": "将阿根廷烤肉场景转化为波普艺术画面的标志性摆拍照片，通过饮食仪式体现国族认同。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1958,
+        "event": "Born in Santa Fe, Argentina",
+        "eventZh": "出生于阿根廷圣菲省"
+      },
+      {
+        "year": 1982,
+        "event": "Began career as a black-and-white street photographer",
+        "eventZh": "以黑白街头摄影师身份开始生涯"
+      },
+      {
+        "year": 1993,
+        "event": "Pivoted to staged color photography and the 'Pop Latino' aesthetic",
+        "eventZh": "转向摆拍彩色摄影和'拉丁波普'美学"
+      },
+      {
+        "year": 2001,
+        "event": "Created iconic works during Argentina's economic crisis",
+        "eventZh": "在阿根廷经济危机期间创作标志性作品"
+      },
+      {
+        "year": 2015,
+        "event": "Major retrospective 'Debut y Despedida' at MALBA museum",
+        "eventZh": "在拉丁美洲艺术博物馆举办大型回顾展《首演与告别》"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Marcos_L%C3%B3pez_(photographer)",
+      "https://www.marcoslopez.com/"
+    ]
+  },
+  {
+    "id": "zwelethu-mthethwa",
+    "name": "Zwelethu Mthethwa",
+    "nameZh": "兹韦莱图·姆特特瓦",
+    "born": 1960,
+    "died": null,
+    "country": "ZA",
+    "region": "africa",
+    "bio": "South African photographer known for large-scale, richly colored portraits of working-class Black South Africans in their homes, restoring dignity and individuality to marginalized communities.",
+    "bioLong": "兹韦莱图·姆特特瓦是后种族隔离时代南非最重要的摄影艺术家之一。1960年出生于德班，在开普敦米歇尔斯学院和罗切斯特理工学院接受艺术教育。他的代表性创作始于1990年代末：以大画幅相机走进开普敦周边的非正式居住区(棚户区)，拍摄居民在自家空间中的大尺幅彩色肖像。这些影像的独特之处在于——与通常以苦难叙事框架呈现贫困社区的纪实摄影不同——姆特特瓦的镜头中，被摄者总是以自主、从容、充满尊严的姿态出现在自己精心布置的居所中。剥落的墙壁上贴着色彩鲜艳的海报和杂志封面，成为丰富的文化信息层。这种手法既受杜塞尔多夫学派大画幅传统的影响，又根植于南非特殊的社会现实，将当代艺术摄影的形式语言与社会关怀相结合。他的作品被纽约古根海姆美术馆等全球主要机构收藏。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "large-format",
+      "environmental-portrait",
+      "color-photography"
+    ],
+    "influencedBy": [
+      "david-goldblatt",
+      "eggleston"
+    ],
+    "works": [
+      {
+        "title": "Interiors",
+        "titleZh": "室内",
+        "year": 1998,
+        "image": null,
+        "href": "https://www.artsy.net/artist/zwelethu-mthethwa",
+        "description": "Large-format color portraits of residents within their homes in Cape Town's informal settlements, emphasizing dignity and individual agency.",
+        "descriptionZh": "在开普敦非正式居住区中拍摄的大画幅彩色居民肖像，强调尊严和个人主体性。"
+      },
+      {
+        "title": "Sugar Cane Workers",
+        "titleZh": "甘蔗工人",
+        "year": 2003,
+        "image": null,
+        "href": "https://www.artsy.net/artist/zwelethu-mthethwa",
+        "description": "Monumental color photographs of sugar cane field workers in KwaZulu-Natal, portraying agricultural labor with grandeur and respect.",
+        "descriptionZh": "在夸祖鲁-纳塔尔省拍摄的甘蔗田工人的纪念碑式彩色照片，以庄严和尊重呈现农业劳动。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1960,
+        "event": "Born in Durban, South Africa",
+        "eventZh": "出生于南非德班"
+      },
+      {
+        "year": 1985,
+        "event": "Graduated from Michaelis School of Fine Art, Cape Town",
+        "eventZh": "毕业于开普敦米歇尔斯美术学院"
+      },
+      {
+        "year": 1998,
+        "event": "Began 'Interiors' series in Cape Town informal settlements",
+        "eventZh": "在开普敦非正式居住区开始《室内》系列"
+      },
+      {
+        "year": 2004,
+        "event": "Major exhibition at Guggenheim Museum, New York",
+        "eventZh": "在纽约古根海姆美术馆举办重要展览"
+      },
+      {
+        "year": 2010,
+        "event": "Work included in 'Figures & Fictions' at the V&A Museum, London",
+        "eventZh": "作品入选伦敦V&A博物馆《形象与虚构》展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Zwelethu_Mthethwa",
+      "https://www.artsy.net/artist/zwelethu-mthethwa"
+    ]
+  },
+  {
+    "id": "andrew-esiebo",
+    "name": "Andrew Esiebo",
+    "nameZh": "安德鲁·埃西埃博",
+    "born": 1978,
+    "died": null,
+    "country": "NG",
+    "region": "africa",
+    "bio": "Nigerian photographer who documents urban African life through projects on barbershop culture, football, faith, and everyday creativity, challenging one-dimensional narratives about the continent.",
+    "bioLong": "安德鲁·埃西埃博是尼日利亚当代摄影最活跃的实践者之一。1978年出生于尼日利亚伊巴丹，在伊巴丹大学学习戏剧艺术后转向摄影。他的创作始终致力于呈现非洲城市生活的活力、创造力和复杂性，反对将非洲简化为贫困和冲突的单一叙事。最具标志性的项目《理发店》(2006-)走遍西非和南部非洲的数十座城市，记录理发店作为社会空间的文化功能——这些充满手绘招牌和流行文化图像的场所是男性社交、信息交换和身份表达的重要节点。《上帝是活的》系列探索尼日利亚蓬勃的五旬节教会文化，《非洲足球的神》则记录足球运动在大陆各地的社会意义。他的拍摄方法强调长期沉浸和参与式观察，以局内人视角呈现日常生活的丰富纹理。作品在巴马科双年展、拉各斯摄影节等重要平台展出。",
+    "movements": [
+      "west-african-studio"
+    ],
+    "techniques": [
+      "color-documentary",
+      "social-documentary",
+      "street"
+    ],
+    "influencedBy": [
+      "malick-sidibe",
+      "keita"
+    ],
+    "works": [
+      {
+        "title": "Barber's Chair",
+        "titleZh": "理发椅",
+        "year": 2006,
+        "image": null,
+        "href": "https://www.andrewesiebo.com/",
+        "description": "A pan-African documentation of barbershops as social spaces, recording hand-painted signs, hairstyle creativity, and community gathering.",
+        "descriptionZh": "对理发店作为社会空间的泛非洲纪录，记录手绘招牌、发型创意和社区聚集。"
+      },
+      {
+        "title": "God Is Alive",
+        "titleZh": "上帝是活的",
+        "year": 2014,
+        "image": null,
+        "href": "https://www.andrewesiebo.com/",
+        "description": "A vibrant series on Nigeria's booming Pentecostal church culture, documenting faith, spectacle, and community in worship spaces.",
+        "descriptionZh": "关于尼日利亚蓬勃发展的五旬节教会文化的鲜活系列，记录礼拜空间中的信仰、仪式和社群。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1978,
+        "event": "Born in Ibadan, Nigeria",
+        "eventZh": "出生于尼日利亚伊巴丹"
+      },
+      {
+        "year": 2003,
+        "event": "Began career as a documentary photographer in Lagos",
+        "eventZh": "在拉各斯开始纪实摄影生涯"
+      },
+      {
+        "year": 2006,
+        "event": "Started the pan-African 'Barber's Chair' project",
+        "eventZh": "开始泛非洲《理发椅》项目"
+      },
+      {
+        "year": 2013,
+        "event": "Exhibited at Bamako Encounters African Photography Biennial",
+        "eventZh": "参展巴马科非洲摄影双年展"
+      },
+      {
+        "year": 2017,
+        "event": "Work featured at Documenta 14 in Kassel and Athens",
+        "eventZh": "作品在卡塞尔和雅典的第14届文献展中展出"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Andrew_Esiebo",
+      "https://www.andrewesiebo.com/"
+    ]
+  },
+  {
+    "id": "lebohang-kganye",
+    "name": "Lebohang Kganye",
+    "nameZh": "莱博汉·卡甘耶",
+    "born": 1990,
+    "died": null,
+    "country": "ZA",
+    "region": "africa",
+    "bio": "South African visual artist who merges photography, sculpture, and performance to explore family memory, loss, and inherited identity, known for inserting herself into her late mother's archival photographs.",
+    "bioLong": "莱博汉·卡甘耶是南非新一代当代视觉艺术中最令人瞩目的创作者之一。1990年出生于约翰内斯堡，在约翰内斯堡市场摄影工作坊和威特沃特斯兰德大学接受训练。她的创作源于一个极度个人的动机——2012年母亲去世后，她开始翻阅家族相册，并产生了将自己'插入'母亲年轻时期照片中的想法。成名作《她对我说的话》(2013)正是这一实践的成果：她穿上类似母亲当年服装的衣物，将自己的身影通过双重曝光或剪纸拼贴的方式叠加到母亲的旧照上，创造出跨越时空的母女'合影'。这些影像同时是哀悼、对话和身份追寻的行为。后续作品进一步将摄影与剪纸雕塑和装置相结合，探讨南非黑人家庭在种族隔离和后种族隔离时代的迁徙记忆。她曾获保罗·霍夫奖等重要国际奖项，作品被泰特美术馆收藏。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "double-exposure",
+      "collage",
+      "archival-intervention"
+    ],
+    "influencedBy": [
+      "david-goldblatt"
+    ],
+    "works": [
+      {
+        "title": "Her-story (Ke Lefa Laka)",
+        "titleZh": "她的故事",
+        "year": 2013,
+        "image": null,
+        "href": "https://www.stevenson.info/artist/lebohang-kganye/works",
+        "description": "Self-portraits inserted into her late mother's archival photographs through collage and double exposure, creating impossible cross-generational encounters.",
+        "descriptionZh": "通过拼贴和双重曝光将自拍像插入已故母亲的档案照片中，创造不可能的跨代相遇。"
+      },
+      {
+        "title": "Telling Tales",
+        "titleZh": "讲述故事",
+        "year": 2015,
+        "image": null,
+        "href": "https://www.stevenson.info/artist/lebohang-kganye/works",
+        "description": "Paper-cut silhouette installations combining photography and sculpture to retell family migration narratives of apartheid-era South Africa.",
+        "descriptionZh": "结合摄影和雕塑的剪纸剪影装置，重新讲述种族隔离时代南非的家庭迁徙叙事。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1990,
+        "event": "Born in Johannesburg, South Africa",
+        "eventZh": "出生于南非约翰内斯堡"
+      },
+      {
+        "year": 2011,
+        "event": "Studied at the Market Photo Workshop in Johannesburg",
+        "eventZh": "在约翰内斯堡市场摄影工作坊学习"
+      },
+      {
+        "year": 2013,
+        "event": "Created 'Her-story' after her mother's death, gaining international attention",
+        "eventZh": "母亲去世后创作《她的故事》，获得国际关注"
+      },
+      {
+        "year": 2018,
+        "event": "Won the Paul Huf Award from Foam Museum, Amsterdam",
+        "eventZh": "获阿姆斯特丹泡沫博物馆保罗·霍夫奖"
+      },
+      {
+        "year": 2022,
+        "event": "Work acquired by Tate Modern, London",
+        "eventZh": "作品被伦敦泰特现代美术馆收藏"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lebohang_Kganye",
+      "https://www.stevenson.info/artist/lebohang-kganye/works"
+    ]
+  },
+  {
+    "id": "david-uzochukwu",
+    "name": "David Uzochukwu",
+    "nameZh": "大卫·乌佐丘库",
+    "born": 2000,
+    "died": null,
+    "country": "AT",
+    "region": "europe",
+    "bio": "Austrian-Nigerian visual artist who began creating surreal, digitally composed self-portraits at age 10, becoming one of the youngest photographers to gain global gallery recognition and collaborate with major brands.",
+    "bioLong": "大卫·乌佐丘库是当代摄影中最年轻的突破性创作者之一。2000年出生于奥地利因斯布鲁克，父亲是尼日利亚人，母亲是比利时人。10岁时他开始用家中的数码相机拍摄自画像，并自学Photoshop进行后期处理。他的早期作品已展现出惊人的成熟度——将人体置于水、火、花瓣等自然元素中，创造出介于梦境与现实之间的超现实影像。13岁时他因一张自己在水下仰望光线的照片在社交媒体走红，14岁获得国际摄影奖。他的作品探讨身份、变形和人与自然的关系，视觉语言融合了文艺复兴绘画的古典美感与数字时代的流体美学。17岁时受到碧昂丝的团队邀请合作，此后与众多国际时尚品牌合作。尽管年纪轻轻，他的作品已在多个国际画廊展出并被收藏，代表了数字原住民一代全新的摄影创作方式。",
+    "movements": [
+      "fashion"
+    ],
+    "techniques": [
+      "digital-composite",
+      "self-portraiture",
+      "surrealism"
+    ],
+    "influencedBy": [
+      "francesca-woodman"
+    ],
+    "works": [
+      {
+        "title": "Atonement",
+        "titleZh": "赎罪",
+        "year": 2016,
+        "image": null,
+        "href": "https://www.daviduzochukwu.com/",
+        "description": "A surreal self-portrait submerged in water, gazing upward through refracted light, exploring themes of transformation and rebirth.",
+        "descriptionZh": "浸没在水中的超现实自画像，透过折射光线仰望，探索变形与重生主题。"
+      },
+      {
+        "title": "Chrysalis",
+        "titleZh": "蛹",
+        "year": 2018,
+        "image": null,
+        "href": "https://www.daviduzochukwu.com/",
+        "description": "A series of digitally composed portraits featuring bodies emerging from or dissolving into natural elements, exploring metamorphosis and identity.",
+        "descriptionZh": "以数字合成手法呈现身体从自然元素中浮现或融化的肖像系列，探索蜕变与身份。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 2000,
+        "event": "Born in Innsbruck, Austria to a Nigerian father and Belgian mother",
+        "eventZh": "出生于奥地利因斯布鲁克，父亲是尼日利亚人，母亲是比利时人"
+      },
+      {
+        "year": 2010,
+        "event": "Began creating self-portraits and learning digital editing at age 10",
+        "eventZh": "10岁开始创作自画像并自学数字编辑"
+      },
+      {
+        "year": 2014,
+        "event": "Won international photography awards at age 14",
+        "eventZh": "14岁获国际摄影奖项"
+      },
+      {
+        "year": 2017,
+        "event": "Collaborated with Beyonce's creative team for visual projects",
+        "eventZh": "与碧昂丝创意团队合作视觉项目"
+      },
+      {
+        "year": 2020,
+        "event": "Featured in major gallery exhibitions across Europe",
+        "eventZh": "作品在欧洲多个重要画廊展出"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/David_Uzochukwu",
+      "https://www.daviduzochukwu.com/"
+    ]
+  },
+  {
+    "id": "max-pam",
+    "name": "Max Pam",
+    "nameZh": "马克斯·帕姆",
+    "born": 1949,
+    "died": null,
+    "country": "AU",
+    "region": "oceania",
+    "bio": "Australian photographer whose five decades of restless travel across Asia, India, and the Pacific produced a raw, visceral body of street photography that captures the sensory chaos of life on the road.",
+    "bioLong": "马克斯·帕姆是澳大利亚最具传奇色彩的旅行摄影师。1949年出生于墨尔本的一个犹太家庭，十几岁时便离开学校开始流浪。1970年代初他搭便车从澳大利亚出发，经东南亚、印度、中东一路旅行至欧洲，此后五十年间不断重返亚洲各地——印度、土耳其、日本、泰国、巴厘岛——以相机记录途中遇到的一切。他的影像风格粗粝、直觉化、充满身体感——晃动的街道、汗水、烟雾、倾斜的地平线、闪光灯下突然出现的面孔——与精心构图的旅行摄影截然对立。他的作品更接近杰克·凯鲁亚克式的'在路上'文学传统：不是观察者记录异域风情，而是参与者将自身投入混乱的现实。代表作《印度之歌》《深入北方》等将数十年的旅行影像编织成关于漂泊、相遇和人性的视觉史诗。他的作品对后来的澳大利亚摄影师如特伦特·帕克产生了重要影响。",
+    "movements": [
+      "street"
+    ],
+    "techniques": [
+      "color-street",
+      "travel-photography",
+      "flash-photography"
+    ],
+    "influencedBy": [
+      "william-klein",
+      "moriyama"
+    ],
+    "works": [
+      {
+        "title": "Indian Song",
+        "titleZh": "印度之歌",
+        "year": 1993,
+        "image": null,
+        "href": "https://www.maxpam.com.au/",
+        "description": "A raw, sensory immersion into decades of travel through India, capturing the chaos, spirituality, and humanity of life on the subcontinent.",
+        "descriptionZh": "对数十年印度旅行的粗粝而感官化的沉浸记录，捕捉次大陆上生活的混乱、灵性和人性。"
+      },
+      {
+        "title": "Going North",
+        "titleZh": "深入北方",
+        "year": 2006,
+        "image": null,
+        "href": "https://www.maxpam.com.au/",
+        "description": "Photographs from journeys through Turkey, Iran, and Central Asia, depicting encounters at the crossroads of ancient civilizations.",
+        "descriptionZh": "在土耳其、伊朗和中亚旅途中拍摄的照片，描绘古老文明交汇处的邂逅。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1949,
+        "event": "Born in Melbourne, Australia",
+        "eventZh": "出生于澳大利亚墨尔本"
+      },
+      {
+        "year": 1970,
+        "event": "Began overland journey from Australia through Asia to Europe",
+        "eventZh": "开始从澳大利亚经亚洲到欧洲的陆路旅行"
+      },
+      {
+        "year": 1980,
+        "event": "First major exhibition in Melbourne; established as Australia's leading travel photographer",
+        "eventZh": "在墨尔本首次重要展览，确立澳大利亚首要旅行摄影师地位"
+      },
+      {
+        "year": 1993,
+        "event": "Published 'Indian Song', his seminal book on India",
+        "eventZh": "出版关于印度的代表作《印度之歌》"
+      },
+      {
+        "year": 2014,
+        "event": "Published 'Atlas Monographs', a comprehensive career retrospective",
+        "eventZh": "出版《图集专著》，全面的生涯回顾"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Max_Pam",
+      "https://www.maxpam.com.au/"
+    ]
+  },
+  {
+    "id": "tracey-moffatt",
+    "name": "Tracey Moffatt",
+    "nameZh": "特蕾西·莫法特",
+    "born": 1960,
+    "died": null,
+    "country": "AU",
+    "region": "oceania",
+    "bio": "Australian artist of Aboriginal heritage whose elaborately staged photographs and films explore race, identity, desire, and the mythology of Australia, drawing on cinema, pop culture, and Indigenous storytelling.",
+    "bioLong": "特蕾西·莫法特是澳大利亚当代艺术界最具国际影响力的人物之一。1960年出生于布里斯班，拥有原住民血统，在白人养父母家庭中长大——这种跨文化的成长经历成为其创作的深层动力。她在昆士兰艺术学院学习视觉传播后，开始以摄影和短片为媒介创作。代表作《Something More》(1989)是一组九张摆拍照片构成的叙事序列，讲述一个原住民女性试图逃离贫困乡村生活的故事——影像借鉴了1950年代好莱坞B级片和澳大利亚内陆神话的视觉风格，将种族、性别和阶级的政治纳入一种戏剧化的流行叙事框架中。《Scarred for Life》系列则以模仿老式杂志照片故事的形式，重新搬演童年创伤记忆。她始终拒绝被归类为'原住民艺术家'，坚持以全球化的视觉语言处理身份议题。2017年她代表澳大利亚参加威尼斯双年展，是首位获此殊荣的原住民血统艺术家。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "staged-narrative",
+      "cinematic-photography",
+      "photo-series"
+    ],
+    "influencedBy": [
+      "sherman"
+    ],
+    "works": [
+      {
+        "title": "Something More",
+        "titleZh": "更多的东西",
+        "year": 1989,
+        "image": null,
+        "href": "https://www.roslynoxley9.com.au/artist/tracey-moffatt",
+        "description": "A nine-part staged photographic narrative of an Aboriginal woman's escape from rural poverty, shot in lurid cinematic style.",
+        "descriptionZh": "九张摆拍照片构成的叙事序列，以绚丽电影化风格讲述一位原住民女性逃离乡村贫困的故事。"
+      },
+      {
+        "title": "Scarred for Life",
+        "titleZh": "终身伤痕",
+        "year": 1994,
+        "image": null,
+        "href": "https://www.roslynoxley9.com.au/artist/tracey-moffatt",
+        "description": "Restaged childhood trauma memories in the style of 1960s magazine photo-stories, blending personal pain with pop culture aesthetics.",
+        "descriptionZh": "以1960年代杂志照片故事的风格重新搬演童年创伤记忆，将个人痛苦与流行文化美学融合。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1960,
+        "event": "Born in Brisbane, Australia; raised by white foster parents",
+        "eventZh": "出生于澳大利亚布里斯班，由白人养父母抚养"
+      },
+      {
+        "year": 1982,
+        "event": "Graduated from Queensland College of Art in visual communication",
+        "eventZh": "毕业于昆士兰艺术学院视觉传播专业"
+      },
+      {
+        "year": 1989,
+        "event": "Created 'Something More', her breakthrough staged photo-narrative",
+        "eventZh": "创作突破性摆拍叙事摄影《更多的东西》"
+      },
+      {
+        "year": 1997,
+        "event": "First solo exhibition at Dia Center for the Arts, New York",
+        "eventZh": "在纽约迪亚艺术中心首次个展"
+      },
+      {
+        "year": 2017,
+        "event": "Represented Australia at the Venice Biennale",
+        "eventZh": "代表澳大利亚参加威尼斯双年展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Tracey_Moffatt",
+      "https://www.roslynoxley9.com.au/artist/tracey-moffatt"
+    ]
+  },
+  {
+    "id": "lucas-samaras",
+    "name": "Lucas Samaras",
+    "nameZh": "卢卡斯·萨马拉斯",
+    "born": 1936,
+    "died": 2025,
+    "country": "GR",
+    "region": "north-america",
+    "bio": "Greek-American artist who pioneered Polaroid manipulation in the 1970s with his 'Photo-Transformations', physically distorting the emulsion of instant photographs to create hallucinatory self-portraits.",
+    "bioLong": "卢卡斯·萨马拉斯是一位横跨雕塑、绘画、行为艺术和摄影的希腊裔美国艺术家，在摄影领域以其开创性的宝丽来操控技法闻名于世。1936年出生于希腊马其顿，1948年移居美国，在罗格斯大学师从艾伦·卡普罗和乔治·西格尔。1969年他开始用宝丽来相机进行创作，最初的'自动宝丽来'系列以长时间自拍记录自己裸体在工作室中的动作。1973年起的'照片变形'系列则成为其标志性贡献——他在宝丽来SX-70即时成像照片的乳剂层尚未凝固时，用手指、指甲和各种工具对影像进行物理推挤和变形，将自己的面孔和身体扭曲成色彩斑斓的幻觉图像。这些作品打破了摄影的'客观记录'边界，证明了即时照片可以成为绘画般的表现媒介。他的实践影响了后来整个宝丽来艺术和即时摄影操控的方向。晚年转向数字摄影的变形实验，延续了毕生对自我形象和材料可塑性的探索。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "polaroid-manipulation",
+      "self-portraiture",
+      "mixed-media"
+    ],
+    "influencedBy": [
+      "man-ray"
+    ],
+    "works": [
+      {
+        "title": "Photo-Transformations",
+        "titleZh": "照片变形",
+        "year": 1973,
+        "image": null,
+        "href": "https://www.moma.org/artists/5117",
+        "description": "Pioneering series of physically manipulated Polaroid SX-70 prints, distorting self-portraits into hallucinatory, painterly images.",
+        "descriptionZh": "开创性的宝丽来SX-70照片物理操控系列，将自画像扭曲为幻觉般的绘画性图像。"
+      },
+      {
+        "title": "AutoPolaroids",
+        "titleZh": "自动宝丽来",
+        "year": 1971,
+        "image": null,
+        "href": "https://www.moma.org/artists/5117",
+        "description": "Intimate self-portraits taken in his studio using a Polaroid camera, exploring the body and identity through the immediacy of instant photography.",
+        "descriptionZh": "在工作室中使用宝丽来相机拍摄的亲密自画像，通过即时摄影的即时性探索身体与身份。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1936,
+        "event": "Born in Kastoria, Greek Macedonia",
+        "eventZh": "出生于希腊马其顿卡斯托里亚"
+      },
+      {
+        "year": 1948,
+        "event": "Emigrated to the United States",
+        "eventZh": "移居美国"
+      },
+      {
+        "year": 1969,
+        "event": "Began photographic self-portrait experiments with Polaroid",
+        "eventZh": "开始使用宝丽来进行摄影自画像实验"
+      },
+      {
+        "year": 1973,
+        "event": "Created 'Photo-Transformations' series with manipulated SX-70 prints",
+        "eventZh": "创作操控SX-70照片的《照片变形》系列"
+      },
+      {
+        "year": 2025,
+        "event": "Died in New York City",
+        "eventZh": "在纽约去世"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Lucas_Samaras",
+      "https://www.moma.org/artists/5117"
+    ]
+  },
+  {
+    "id": "gordon-matta-clark",
+    "name": "Gordon Matta-Clark",
+    "nameZh": "戈登·马塔-克拉克",
+    "born": 1943,
+    "died": 1978,
+    "country": "US",
+    "region": "north-america",
+    "bio": "American artist who documented his radical 'building cuts' — slicing through abandoned structures to reveal hidden spatial relationships — through photography and film that became artworks in their own right.",
+    "bioLong": "戈登·马塔-克拉克是1970年代纽约先锋艺术界最激进的人物之一，他对建筑的物理切割——以及对这些行为的摄影记录——彻底改变了人们理解建筑空间和摄影文献的方式。1943年出生于纽约，父亲是智利超现实主义画家罗伯托·马塔。他在康奈尔大学学习建筑，但毕业后走向了建筑的反面——'反建筑'(Anarchitecture)。他的创作方式是在废弃建筑中进行大规模的物理切割：锯开地板露出下面的楼层，在外墙上切出圆形或锥形的洞，让光线以前所未有的方式穿透建筑体量。这些临时性的空间干预只存在于拆除前的短暂时间里，因此摄影和影像记录成为作品存续的唯一形式。代表作《分裂》(1974)将新泽西一栋即将拆除的郊区住宅从中间劈开；《圆锥交叉》(1975)在巴黎蓬皮杜中心旁的两栋旧楼中切出巨大的锥形孔洞。马塔-克拉克年仅35岁便因胰腺癌去世，但他对建筑、摄影和空间观念的革命性思考影响了后来几代艺术家和建筑师。",
+    "movements": [
+      "new-topographics"
+    ],
+    "techniques": [
+      "architectural-intervention",
+      "documentary-photography",
+      "collage"
+    ],
+    "influencedBy": [
+      "r-adams"
+    ],
+    "works": [
+      {
+        "title": "Splitting",
+        "titleZh": "分裂",
+        "year": 1974,
+        "image": null,
+        "href": "https://www.moma.org/artists/3757",
+        "description": "Photographic documentation of a suburban New Jersey house sawn in half, revealing light and space flowing through the severed structure.",
+        "descriptionZh": "一栋新泽西郊区住宅被从中间锯开的摄影记录，展示光线和空间如何流穿被切断的结构。"
+      },
+      {
+        "title": "Conical Intersect",
+        "titleZh": "圆锥交叉",
+        "year": 1975,
+        "image": null,
+        "href": "https://www.moma.org/artists/3757",
+        "description": "A large conical hole cut through two 17th-century buildings near the Centre Pompidou, documented in photographs that became iconic artworks.",
+        "descriptionZh": "在蓬皮杜中心附近两栋17世纪建筑中切出的巨大锥形孔洞，摄影记录本身成为标志性艺术品。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1943,
+        "event": "Born in New York City; son of Surrealist painter Roberto Matta",
+        "eventZh": "出生于纽约，父亲是超现实主义画家罗伯托·马塔"
+      },
+      {
+        "year": 1968,
+        "event": "Graduated from Cornell University with a degree in architecture",
+        "eventZh": "毕业于康奈尔大学建筑专业"
+      },
+      {
+        "year": 1974,
+        "event": "Created 'Splitting', sawing a house in half in Englewood, NJ",
+        "eventZh": "创作《分裂》，在新泽西恩格尔伍德将一栋房子从中间锯开"
+      },
+      {
+        "year": 1975,
+        "event": "Cut conical holes through buildings in Paris for 'Conical Intersect'",
+        "eventZh": "在巴黎建筑中切出锥形孔洞，创作《圆锥交叉》"
+      },
+      {
+        "year": 1978,
+        "event": "Died of pancreatic cancer in New York, aged 35",
+        "eventZh": "因胰腺癌在纽约去世，年仅35岁"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Gordon_Matta-Clark",
+      "https://www.moma.org/artists/3757"
+    ]
+  },
+  {
+    "id": "thomas-joshua-cooper",
+    "name": "Thomas Joshua Cooper",
+    "nameZh": "托马斯·乔舒亚·库珀",
+    "born": 1946,
+    "died": null,
+    "country": "US",
+    "region": "europe",
+    "bio": "American-born, Scotland-based photographer who has spent decades traveling to the most extreme coastal edges of the Atlantic Basin, creating austere, single-exposure photographs of land meeting sea.",
+    "bioLong": "托马斯·乔舒亚·库珀是当代风景摄影中最极端的实践者之一。1946年出生于美国加利福尼亚州旧金山，拥有切罗基原住民血统。1982年移居苏格兰后，他在格拉斯哥艺术学院创立了美术摄影系并任教超过三十年。他的毕生项目《大西洋盆地》是一次史诗般的摄影朝圣——他立志拍摄大西洋沿岸所有最极端的地理端点：最北的岬角、最南的海角、最偏远的岛屿。为此他旅行到了地球上一些最难以到达的地方——北极圈内的扬马延岛、南极洲的南设得兰群岛、南美洲的合恩角、非洲的好望角。在每个地点，他只用一台19世纪设计的亚吉平卧式大画幅相机拍摄唯一一张照片——不进行试拍，不做第二次曝光——然后离开。这种极度的自律和仪式感使每张照片都承载了到达该地的全部旅程的重量。他的影像极简、肃穆，大面积的海水和天空中只有最微妙的灰调变化，呈现的是大地与海洋相遇时那种原始的、超越人类尺度的庄严。",
+    "movements": [
+      "new-topographics"
+    ],
+    "techniques": [
+      "large-format",
+      "single-exposure",
+      "landscape"
+    ],
+    "influencedBy": [
+      "a-adams",
+      "minor-white"
+    ],
+    "works": [
+      {
+        "title": "The World's Edge — The Atlantic Basin Project",
+        "titleZh": "世界的边缘——大西洋盆地项目",
+        "year": 1990,
+        "image": null,
+        "href": "https://www.lacma.org/art/exhibition/thomas-joshua-cooper-worlds-edge",
+        "description": "A decades-long project photographing every extreme point of the Atlantic coastline, from Arctic islands to Antarctica, using a single exposure at each location.",
+        "descriptionZh": "历时数十年的项目，拍摄大西洋海岸线的每个极端地点——从北极岛屿到南极——在每个地点只曝光一次。"
+      },
+      {
+        "title": "Point of No Return — The Southernmost Point of the Atlantic Ocean",
+        "titleZh": "不归点——大西洋最南端",
+        "year": 2017,
+        "image": null,
+        "href": "https://www.lacma.org/art/exhibition/thomas-joshua-cooper-worlds-edge",
+        "description": "A single photograph taken at the southernmost navigable point of the Atlantic, near the South Shetland Islands of Antarctica.",
+        "descriptionZh": "在大西洋最南可航行点——南极洲南设得兰群岛附近——拍摄的一张照片。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1946,
+        "event": "Born in San Francisco, California, with Cherokee ancestry",
+        "eventZh": "出生于加利福尼亚州旧金山，拥有切罗基原住民血统"
+      },
+      {
+        "year": 1982,
+        "event": "Moved to Scotland; founded Fine Art Photography at Glasgow School of Art",
+        "eventZh": "移居苏格兰，在格拉斯哥艺术学院创立美术摄影系"
+      },
+      {
+        "year": 1990,
+        "event": "Began 'The Atlantic Basin Project', his life's work",
+        "eventZh": "开始毕生项目《大西洋盆地》"
+      },
+      {
+        "year": 2017,
+        "event": "Traveled to Antarctica for the project's southernmost photographs",
+        "eventZh": "为项目前往南极拍摄最南端照片"
+      },
+      {
+        "year": 2019,
+        "event": "Major exhibition 'The World's Edge' at LACMA, Los Angeles",
+        "eventZh": "在洛杉矶郡艺术博物馆举办大型展览《世界的边缘》"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thomas_Joshua_Cooper",
+      "https://www.lacma.org/art/exhibition/thomas-joshua-cooper-worlds-edge"
+    ]
+  },
+  {
+    "id": "flor-garduno",
+    "name": "Flor Garduno",
+    "nameZh": "弗洛尔·加尔杜尼奥",
+    "born": 1957,
+    "died": null,
+    "country": "MX",
+    "region": "south-america",
+    "bio": "Mexican photographer whose poetic black-and-white images interweave Indigenous women, animals, and natural elements into mythological tableaux celebrating pre-Columbian spiritual traditions.",
+    "bioLong": "弗洛尔·加尔杜尼奥是墨西哥当代摄影中将自然、女性身体和原住民精神世界融为一体的重要创作者。1957年出生于墨西哥城，在圣卡洛斯美术学院学习视觉艺术，后成为曼努埃尔·阿尔瓦雷斯·布拉沃的暗房助手——这段经历深刻塑造了她的美学取向。1980年代她开始深入墨西哥和中美洲的原住民社区，拍摄了《目击者的沉默》系列——这组黑白照片以极度诗意的方式呈现原住民女性与动物、植物、泥土的亲密关系：一个女人将蛇缠绕在手臂上如同佩戴珠宝，另一个怀抱着死去的雏鸟如同圣母哀悼圣子。这些影像并非纯粹的纪实，而是介于现实与神话之间的视觉诗——援引了前哥伦布时期万物有灵的世界观，将女性身体与大地、动物视为同一生命循环的不同面向。她的作品在全球广泛展出和出版，被视为拉美摄影中'魔幻纪实'传统的杰出代表。",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "techniques": [
+      "black-and-white",
+      "mythological-portraiture",
+      "nature-photography"
+    ],
+    "influencedBy": [
+      "alvarez-bravo",
+      "graciela-iturbide"
+    ],
+    "works": [
+      {
+        "title": "Witnesses of Time (Testigos del Tiempo)",
+        "titleZh": "时间的目击者",
+        "year": 1992,
+        "image": null,
+        "href": "https://www.artsy.net/artist/flor-garduno",
+        "description": "Poetic black-and-white photographs of Indigenous women intertwined with animals and natural elements, evoking pre-Columbian mythology.",
+        "descriptionZh": "诗意的黑白照片，原住民女性与动物和自然元素交织，唤起前哥伦布时期的神话。"
+      },
+      {
+        "title": "The Basket of Light (La Canasta de Luz)",
+        "titleZh": "光之篮",
+        "year": 1981,
+        "image": null,
+        "href": "https://www.artsy.net/artist/flor-garduno",
+        "description": "A woman carrying a woven basket filled with light, one of Garduno's most iconic images merging everyday labor with spiritual symbolism.",
+        "descriptionZh": "一位女性头顶装满光线的编织篮，加尔杜尼奥最标志性的影像之一，将日常劳动与精神象征融合。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1957,
+        "event": "Born in Mexico City",
+        "eventZh": "出生于墨西哥城"
+      },
+      {
+        "year": 1979,
+        "event": "Became darkroom assistant to Manuel Alvarez Bravo",
+        "eventZh": "成为曼努埃尔·阿尔瓦雷斯·布拉沃的暗房助手"
+      },
+      {
+        "year": 1985,
+        "event": "Began photographing Indigenous communities across Mesoamerica",
+        "eventZh": "开始在中美洲各地拍摄原住民社区"
+      },
+      {
+        "year": 1992,
+        "event": "Published 'Witnesses of Time', her landmark book",
+        "eventZh": "出版代表作《时间的目击者》"
+      },
+      {
+        "year": 1996,
+        "event": "Awarded the Hasselblad Foundation International Award in Photography",
+        "eventZh": "获哈苏基金会国际摄影奖"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Flor_Gardu%C3%B1o",
+      "https://www.artsy.net/artist/flor-garduno"
+    ]
+  },
+  {
+    "id": "shirana-shahbazi",
+    "name": "Shirana Shahbazi",
+    "nameZh": "希拉娜·沙赫巴齐",
+    "born": 1974,
+    "died": null,
+    "country": "CH",
+    "region": "europe",
+    "bio": "Iranian-Swiss photographer whose work juxtaposes diverse photographic genres — landscapes, still lifes, portraits — to question cultural categories and the construction of meaning between Eastern and Western visual traditions.",
+    "bioLong": "希拉娜·沙赫巴齐是当代欧洲摄影中最具跨文化视野的创作者之一。1974年出生于德黑兰，在德国求学后定居瑞士苏黎世，在苏黎世艺术大学接受训练。她的创作方法具有鲜明的概念化特征：将不同摄影类型——风景、静物、肖像、商业摄影——并置展示，故意消除它们之间通常的等级关系。代表作系列《Goftare Nik / Good Words》将伊朗和瑞士拍摄的影像混合呈现——伊朗的城市街景与瑞士的阿尔卑斯山脉、德黑兰市场的水果与苏黎世画廊的展品——不加标注地并列，迫使观者反思自己对'东方'与'西方'的预设分类。她还经常将自己的摄影作品委托伊朗传统画师转绘为油画，或将商业广告的视觉语言引入当代艺术展览空间，持续质疑原创与复制、高雅与通俗的边界。作品被泰特美术馆、纽约现代艺术博物馆等重要机构收藏。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "genre-juxtaposition",
+      "cross-cultural",
+      "conceptual"
+    ],
+    "influencedBy": [
+      "becher",
+      "thomas-ruff"
+    ],
+    "works": [
+      {
+        "title": "Goftare Nik / Good Words",
+        "titleZh": "善言",
+        "year": 2000,
+        "image": null,
+        "href": "https://www.shiranashahbazi.com/",
+        "description": "A series interleaving photographs from Iran and Switzerland without labels, challenging viewers to question their cultural assumptions about East and West.",
+        "descriptionZh": "将伊朗和瑞士拍摄的照片不加标注地交错呈现，挑战观者对东西方的文化预设。"
+      },
+      {
+        "title": "Painted Desert",
+        "titleZh": "彩绘沙漠",
+        "year": 2012,
+        "image": null,
+        "href": "https://www.shiranashahbazi.com/",
+        "description": "Photographs of landscapes and objects commissioned to be repainted by Iranian sign painters, questioning boundaries between photography, painting, and reproduction.",
+        "descriptionZh": "将风景和物品照片委托伊朗招牌画师转绘为油画，质疑摄影、绘画和复制之间的边界。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1974,
+        "event": "Born in Tehran, Iran",
+        "eventZh": "出生于伊朗德黑兰"
+      },
+      {
+        "year": 1997,
+        "event": "Moved to Zurich; studied at Zurich University of the Arts",
+        "eventZh": "移居苏黎世，在苏黎世艺术大学学习"
+      },
+      {
+        "year": 2002,
+        "event": "Won the Citigroup Photography Prize",
+        "eventZh": "获花旗集团摄影奖"
+      },
+      {
+        "year": 2004,
+        "event": "Exhibited at Tate Liverpool and major international venues",
+        "eventZh": "在泰特利物浦和重要国际场馆展出"
+      },
+      {
+        "year": 2015,
+        "event": "Major survey exhibition at Fotomuseum Winterthur",
+        "eventZh": "在温特图尔摄影博物馆举办大型巡展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Shirana_Shahbazi",
+      "https://www.shiranashahbazi.com/"
+    ]
+  },
+  {
+    "id": "osamu-kanemura",
+    "name": "Osamu Kanemura",
+    "nameZh": "金村修",
+    "born": 1964,
+    "died": null,
+    "country": "JP",
+    "region": "asia",
+    "bio": "Japanese photographer who captures the claustrophobic density of Tokyo's urban sprawl through high-contrast black-and-white images of tangled power lines, cramped buildings, and visual overload.",
+    "bioLong": "金村修是日本当代摄影中以极端的城市视觉密度著称的创作者。1964年出生于东京，在东京综合写真专门学校学习摄影。他的创作从1990年代开始聚焦于东京城市景观中那些被大多数人视而不见的混乱地带——密集交错的电线、紧贴的建筑立面、堆叠的招牌和管道。他使用高对比度黑白胶片，以快速连拍的方式在东京街头捕捉城市的视觉噪音，将画面推向信息过载的极限——每张照片中都挤满了线条、形状和纹理，几乎没有留白或透气的空间。这种'恐怖真空'(horror vacui)的美学与日本传统中对空白和简洁的追求形成了尖锐的对立。代表作《蜘蛛的策略》《混凝土世界中的世界》等系列将东京呈现为一个自我增殖的、吞噬一切空间的有机体。他的作品与威廉·克莱因的城市摄影传统有精神上的亲缘关系，但更加极端和系统化——不是捕捉城市的戏剧性瞬间，而是呈现城市本身作为一种无法逃脱的视觉矩阵的存在状态。",
+    "movements": [
+      "japan-postwar"
+    ],
+    "techniques": [
+      "high-contrast",
+      "black-and-white",
+      "urban-landscape"
+    ],
+    "influencedBy": [
+      "moriyama",
+      "william-klein"
+    ],
+    "works": [
+      {
+        "title": "Spider's Strategy",
+        "titleZh": "蜘蛛的策略",
+        "year": 2001,
+        "image": null,
+        "href": "https://www.artsy.net/artist/osamu-kanemura",
+        "description": "Dense, claustrophobic black-and-white photographs of Tokyo's urban sprawl, presenting the city as a self-replicating visual matrix of wires and concrete.",
+        "descriptionZh": "东京城市蔓延的密集、幽闭恐惧的黑白照片，将城市呈现为电线和混凝土构成的自我复制视觉矩阵。"
+      },
+      {
+        "title": "World within a World within a World of Concrete",
+        "titleZh": "混凝土世界中的世界中的世界",
+        "year": 2006,
+        "image": null,
+        "href": "https://www.artsy.net/artist/osamu-kanemura",
+        "description": "An intensification of Tokyo's visual overload, pushing photographic density to the point where individual elements dissolve into abstract pattern.",
+        "descriptionZh": "东京视觉过载的强化呈现，将影像密度推向个体元素溶解为抽象图案的极限。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1964,
+        "event": "Born in Tokyo, Japan",
+        "eventZh": "出生于日本东京"
+      },
+      {
+        "year": 1990,
+        "event": "Graduated from Tokyo College of Photography",
+        "eventZh": "毕业于东京综合写真专门学校"
+      },
+      {
+        "year": 2001,
+        "event": "Published 'Spider's Strategy', establishing his signature urban vision",
+        "eventZh": "出版《蜘蛛的策略》，确立其标志性城市视觉"
+      },
+      {
+        "year": 2006,
+        "event": "Won the Kimura Ihei Award for photography",
+        "eventZh": "获木村伊兵卫摄影奖"
+      },
+      {
+        "year": 2015,
+        "event": "Exhibited in 'Provoke: Between Protest and Performance' at Albertina, Vienna",
+        "eventZh": "参展维也纳阿尔贝蒂娜博物馆《挑衅：在抗议与表演之间》"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Osamu_Kanemura",
+      "https://www.artsy.net/artist/osamu-kanemura"
+    ]
+  },
+  {
+    "id": "cao-fei",
+    "name": "Cao Fei",
+    "nameZh": "曹斐",
+    "born": 1978,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "bio": "Chinese multimedia artist who uses photography, video, and virtual reality to explore the surreal collisions between China's rapid urbanization, digital culture, and the dream lives of its young working class.",
+    "bioLong": "曹斐是中国当代艺术中最敏锐地捕捉数字化和城市化浪潮的创作者之一。1978年出生于广州，父亲是著名雕塑家曹崇恩。她在广州美术学院学习后迅速成为中国新媒体艺术的领军人物。她的创作横跨摄影、录像、虚拟现实和装置，始终聚焦于中国快速变迁的社会现实与年轻一代的精神世界之间的超现实碰撞。早期代表作《角色》(2004)以摄影和录像记录中国年轻人的Cosplay文化——工厂女工装扮成动漫角色在流水线上摆姿势，呈现了全球化消费幻想与中国制造业现实的荒诞交汇。《人民城寨》(2007-2011)项目则在虚拟世界Second Life中建造了一个虚拟的中国城市，居民是来自全球的数字化身，探讨虚拟与现实、乌托邦与反乌托邦的关系。近年的《亚洲一号》系列关注自动化仓储物流中心的无人景观，呈现人类在智能机器时代的存在焦虑。她是首位在蓬皮杜中心举办大型个展的中国女性艺术家。",
+    "movements": [
+      "china-contemporary"
+    ],
+    "techniques": [
+      "multimedia",
+      "digital-art",
+      "staged-photography"
+    ],
+    "influencedBy": [
+      "wang-qingsong"
+    ],
+    "works": [
+      {
+        "title": "Cosplayers (Cos Players)",
+        "titleZh": "角色",
+        "year": 2004,
+        "image": null,
+        "href": "https://www.moma.org/artists/44038",
+        "description": "Photographs and video of young Chinese factory workers cosplaying as anime characters in industrial settings, colliding global fantasy with manufacturing reality.",
+        "descriptionZh": "中国年轻工厂工人在工业环境中扮演动漫角色的照片和录像，全球幻想与制造业现实的碰撞。"
+      },
+      {
+        "title": "RMB City (Renminbi City)",
+        "titleZh": "人民城寨",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.moma.org/artists/44038",
+        "description": "A virtual Chinese city built in Second Life, blending utopian architecture with the chaos of real Chinese urbanization in digital space.",
+        "descriptionZh": "在Second Life中建造的虚拟中国城市，在数字空间中将乌托邦建筑与中国城市化的混乱融合。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1978,
+        "event": "Born in Guangzhou, China, daughter of sculptor Cao Chongen",
+        "eventZh": "出生于广州，父亲是雕塑家曹崇恩"
+      },
+      {
+        "year": 2001,
+        "event": "Graduated from Guangzhou Academy of Fine Arts",
+        "eventZh": "毕业于广州美术学院"
+      },
+      {
+        "year": 2004,
+        "event": "Created 'Cosplayers' series, gaining international attention",
+        "eventZh": "创作《角色》系列，获得国际关注"
+      },
+      {
+        "year": 2007,
+        "event": "Launched 'RMB City' virtual world project in Second Life",
+        "eventZh": "在Second Life中启动《人民城寨》虚拟世界项目"
+      },
+      {
+        "year": 2020,
+        "event": "First Chinese female artist to have major solo show at Centre Pompidou",
+        "eventZh": "首位在蓬皮杜中心举办大型个展的中国女性艺术家"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Cao_Fei",
+      "https://www.moma.org/artists/44038"
+    ]
+  },
+  {
+    "id": "vasantha-yogananthan",
+    "name": "Vasantha Yogananthan",
+    "nameZh": "瓦桑塔·约加南坦",
+    "born": 1985,
+    "died": null,
+    "country": "FR",
+    "region": "europe",
+    "bio": "French photographer of Sri Lankan Tamil heritage whose seven-year project retracing the Ramayana epic across India blends documentary photography with hand-painted interventions, merging myth and reality.",
+    "bioLong": "瓦桑塔·约加南坦是法国当代摄影中最具雄心和诗意的年轻创作者之一。1985年出生于法国格勒诺布尔，父母是斯里兰卡泰米尔移民。在巴黎政治学院学习政治学后转向摄影。他的代表作是历时七年（2014-2021）的史诗级项目《两个灵魂的神话》——沿着印度史诗《罗摩衍那》的叙事路线穿越印度各地，从罗摩的出生地阿约提亚到悉多被囚禁的斯里兰卡，每一卷对应史诗的一章。这个项目的独特之处在于方法论上的混合：他以纪实手法拍摄沿途的真实人物和风景，然后将选定的照片委托印度传统细密画画师进行手工着色——画师们根据自己对史诗的理解为照片增添色彩和装饰元素，使纪实照片与神话叙事产生了层次丰富的对话。七卷摄影书构成了一部完整的视觉史诗，探讨了古老神话如何在当代印度社会中继续活着——在宗教仪式中、在乡村戏剧中、在人们的日常语言和道德想象中。",
+    "movements": [
+      "humanist"
+    ],
+    "techniques": [
+      "hand-painted-photography",
+      "documentary",
+      "book-project"
+    ],
+    "influencedBy": [
+      "raghubir-singh",
+      "cartier-bresson"
+    ],
+    "works": [
+      {
+        "title": "A Myth of Two Souls (Early Times)",
+        "titleZh": "两个灵魂的神话（早期时光）",
+        "year": 2016,
+        "image": null,
+        "href": "https://www.yogananthan.com/",
+        "description": "The first volume of a seven-book project retracing the Ramayana across India, blending documentary photographs with hand-painted interventions by Indian miniature painters.",
+        "descriptionZh": "七卷项目的第一卷，沿《罗摩衍那》路线穿越印度，将纪实照片与印度细密画师的手工着色融合。"
+      },
+      {
+        "title": "Amma (A Myth of Two Souls, Book 7)",
+        "titleZh": "阿玛（两个灵魂的神话，第七卷）",
+        "year": 2021,
+        "image": null,
+        "href": "https://www.yogananthan.com/",
+        "description": "The final volume of the Ramayana project, focusing on Sita's exile and motherhood, connecting the ancient epic to contemporary women's lives.",
+        "descriptionZh": "《罗摩衍那》项目的最终卷，聚焦悉多的流放与母性，将古老史诗与当代女性生活相连。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1985,
+        "event": "Born in Grenoble, France, to Sri Lankan Tamil parents",
+        "eventZh": "出生于法国格勒诺布尔，父母为斯里兰卡泰米尔人"
+      },
+      {
+        "year": 2012,
+        "event": "Transitioned from political science to photography",
+        "eventZh": "从政治学转向摄影"
+      },
+      {
+        "year": 2014,
+        "event": "Began the seven-year Ramayana project across India",
+        "eventZh": "开始历时七年的印度《罗摩衍那》项目"
+      },
+      {
+        "year": 2016,
+        "event": "Published first volume 'Early Times'; won Aperture First Book Award",
+        "eventZh": "出版第一卷《早期时光》，获光圈首作奖"
+      },
+      {
+        "year": 2021,
+        "event": "Completed the seven-book 'A Myth of Two Souls' series",
+        "eventZh": "完成七卷本《两个灵魂的神话》系列"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Vasantha_Yogananthan",
+      "https://www.yogananthan.com/"
+    ]
+  },
+  {
+    "id": "rula-halawani",
+    "name": "Rula Halawani",
+    "nameZh": "鲁拉·哈拉瓦尼",
+    "born": 1964,
+    "died": null,
+    "country": "PS",
+    "region": "middle-east",
+    "bio": "Palestinian photographer and educator whose stark, high-contrast images document the landscapes and human impact of occupation, checkpoints, and the separation barrier in the West Bank.",
+    "bioLong": "鲁拉·哈拉瓦尼是巴勒斯坦最重要的当代摄影师之一。1964年出生于耶路撒冷，在加拿大渥太华大学和英国伦敦大学金史密斯学院接受摄影教育。她在比尔泽特大学创立了巴勒斯坦第一个摄影专业，培养了一代新的本土摄影师。她的创作始终围绕巴勒斯坦人在占领下的生存现实，但手法远超传统新闻摄影——她使用极高对比度的黑白处理、红外线拍摄和数字操控等技术，将隔离墙、检查站和被拆毁的建筑转化为具有强烈表现力的抽象景观。代表作《亲密的领地》(2002)以模糊而阴郁的影像呈现占领军事化下的日常风景——检查站前的长队、推土机推平的橄榄园、被混凝土墙分割的社区——画面的暗黑处理传达了一种被围困者视角中世界失去色彩和清晰度的感觉。后续系列《否定》使用底片的负像效果呈现被拆毁的巴勒斯坦房屋，将毁灭转化为幽灵般的白色轮廓。她的作品在国际广泛展出，是通过艺术手段呈现巴以冲突中巴勒斯坦视角的最有力声音之一。",
+    "movements": [
+      "war-photography"
+    ],
+    "techniques": [
+      "high-contrast",
+      "infrared",
+      "digital-manipulation"
+    ],
+    "influencedBy": [
+      "shirin-neshat"
+    ],
+    "works": [
+      {
+        "title": "Intimate Territory",
+        "titleZh": "亲密的领地",
+        "year": 2002,
+        "image": null,
+        "href": "https://www.rulahalawani.com/",
+        "description": "Dark, high-contrast photographs of life under occupation — checkpoints, demolished homes, severed landscapes — conveying the visual experience of enclosure.",
+        "descriptionZh": "高对比度的暗黑照片记录占领下的生活——检查站、被拆毁的房屋、被分割的风景——传达被围困的视觉体验。"
+      },
+      {
+        "title": "Negative Incursions",
+        "titleZh": "否定入侵",
+        "year": 2003,
+        "image": null,
+        "href": "https://www.rulahalawani.com/",
+        "description": "Photographs of demolished Palestinian homes printed as negatives, turning destruction into ghostly white silhouettes against black skies.",
+        "descriptionZh": "以底片负像效果呈现被拆毁的巴勒斯坦房屋，将毁灭转化为黑色天空下幽灵般的白色轮廓。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1964,
+        "event": "Born in Jerusalem",
+        "eventZh": "出生于耶路撒冷"
+      },
+      {
+        "year": 1994,
+        "event": "Founded the Photography Department at Birzeit University",
+        "eventZh": "在比尔泽特大学创立摄影系"
+      },
+      {
+        "year": 2002,
+        "event": "Created 'Intimate Territory' during the Second Intifada",
+        "eventZh": "在第二次起义期间创作《亲密的领地》"
+      },
+      {
+        "year": 2009,
+        "event": "Exhibited at the Palestinian Pavilion, Venice Biennale",
+        "eventZh": "在威尼斯双年展巴勒斯坦馆展出"
+      },
+      {
+        "year": 2017,
+        "event": "Major exhibition at Musee d'Art Moderne, Paris",
+        "eventZh": "在巴黎现代艺术博物馆举办重要展览"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Rula_Halawani",
+      "https://www.rulahalawani.com/"
+    ]
+  },
+  {
+    "id": "yto-barrada",
+    "name": "Yto Barrada",
+    "nameZh": "伊托·巴拉达",
+    "born": 1971,
+    "died": null,
+    "country": "MA",
+    "region": "africa",
+    "bio": "Moroccan-French artist whose photographs, films, and installations explore the geopolitics of the Strait of Gibraltar, examining migration, borders, and the contested narratives of North African identity.",
+    "bioLong": "伊托·巴拉达是北非当代艺术中最具智识深度和政治敏感性的创作者之一。1971年出生于巴黎的摩洛哥家庭，在丹吉尔和巴黎之间成长。在巴黎索邦大学学习历史和政治学、并在纽约国际摄影中心接受摄影训练后，她选择回到丹吉尔——这座隔着直布罗陀海峡遥望欧洲的摩洛哥港口城市——作为创作基地。丹吉尔的独特位置使它成为非洲移民前往欧洲的中转站和象征性门槛，也是殖民历史、地缘政治和文化杂糅的集中体现。巴拉达的代表作《海峡项目》(1998-2004)以冷静、几近类型学的方式拍摄了丹吉尔的城市景观——空荡的旅馆、未完工的建筑、等待渡船的人群——这些表面平静的影像背后是移民梦想与政治现实的巨大张力。她拒绝将移民问题简化为戏剧性的悲惨影像，而是通过日常风景中的细微线索让观者自行感知那种弥漫的焦虑和等待。2006年她在丹吉尔创立了电影资料馆(Cinematheque de Tanger)，致力于保存北非电影遗产。她的作品在泰特美术馆、MoMA等全球主要机构展出和收藏。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "typological",
+      "conceptual",
+      "color-documentary"
+    ],
+    "influencedBy": [
+      "becher",
+      "lewis-baltz"
+    ],
+    "works": [
+      {
+        "title": "A Life Full of Holes: The Strait Project",
+        "titleZh": "满是洞的生活：海峡项目",
+        "year": 2004,
+        "image": null,
+        "href": "https://www.moma.org/artists/37043",
+        "description": "A multi-year photographic study of Tangier as a staging ground for migration across the Strait of Gibraltar, documenting the landscape of waiting and desire.",
+        "descriptionZh": "对丹吉尔作为跨越直布罗陀海峡移民中转站的多年摄影研究，记录等待和渴望的风景。"
+      },
+      {
+        "title": "Iris Tingitana (Tangier Iris)",
+        "titleZh": "丹吉尔鸢尾",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.moma.org/artists/37043",
+        "description": "Botanical photographs of endangered North African iris species, metaphorically connecting ecological loss with cultural displacement.",
+        "descriptionZh": "北非濒危鸢尾物种的植物摄影，以隐喻方式将生态消失与文化流离联系起来。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1971,
+        "event": "Born in Paris to a Moroccan family",
+        "eventZh": "出生于巴黎的摩洛哥家庭"
+      },
+      {
+        "year": 1998,
+        "event": "Began 'The Strait Project' in Tangier, documenting migration geopolitics",
+        "eventZh": "在丹吉尔开始《海峡项目》，记录移民地缘政治"
+      },
+      {
+        "year": 2006,
+        "event": "Founded the Cinematheque de Tanger for North African film preservation",
+        "eventZh": "创立丹吉尔电影资料馆，致力于保存北非电影遗产"
+      },
+      {
+        "year": 2011,
+        "event": "Major exhibition at Tate Modern, London",
+        "eventZh": "在伦敦泰特现代美术馆举办重要展览"
+      },
+      {
+        "year": 2016,
+        "event": "Retrospective at Pace Gallery, New York; work acquired by MoMA",
+        "eventZh": "在纽约佩斯画廊举办回顾展，作品被MoMA收藏"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Yto_Barrada",
+      "https://www.moma.org/artists/37043"
+    ]
+  },
+  {
+    "id": "mimi-cherono-ng-ok",
+    "name": "Mimi Cherono Ng'ok",
+    "nameZh": "咪咪·切罗诺·恩戈克",
+    "born": 1983,
+    "died": null,
+    "country": "KE",
+    "region": "africa",
+    "bio": "Kenyan photographer whose quiet, contemplative images explore intimacy, belonging, and the poetics of everyday Black life across Africa and its diaspora.",
+    "bioLong": "咪咪·切罗诺·恩戈克是东非当代摄影中最具诗意和内省气质的创作者之一。1983年出生于肯尼亚内罗毕，在南非开普敦米歇尔斯美术学院学习摄影后，在约翰内斯堡、内罗毕和纽约之间工作。她的摄影风格与非洲大陆主流的社会纪实传统截然不同——她关注的不是宏大事件或政治议题，而是非洲日常生活中那些安静、柔软、转瞬即逝的亲密时刻：朋友之间的对话、阳光照在皮肤上的温度、雨后花园的潮湿气息。她的影像语言轻柔而精确，以温暖的自然光和细腻的色彩呈现一种不被猎奇目光消费的黑人日常美学。代表作《每一刻的持续》系列在多个非洲和欧洲城市拍摄，以碎片化的影像——一只手、一个背影、一片织物——编织出关于归属感和亲密关系的视觉诗篇。她是非洲当代摄影平台Addis Foto Fest和巴马科双年展的重要参与者，作品被泰特美术馆和蓬皮杜中心收藏。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "intimate-documentary",
+      "natural-light",
+      "color-photography"
+    ],
+    "influencedBy": [
+      "david-goldblatt"
+    ],
+    "works": [
+      {
+        "title": "The Persistence of Every Moment",
+        "titleZh": "每一刻的持续",
+        "year": 2016,
+        "image": null,
+        "href": "https://www.stevenson.info/artist/mimi-cherono-ngok/works",
+        "description": "Quiet, fragmented photographs of everyday intimate moments across Africa and its diaspora, weaving a visual poem of belonging.",
+        "descriptionZh": "安静而碎片化的照片，记录非洲及其散居群体的日常亲密时刻，编织关于归属的视觉诗篇。"
+      },
+      {
+        "title": "We Had the Sky",
+        "titleZh": "我们曾拥有天空",
+        "year": 2019,
+        "image": null,
+        "href": "https://www.stevenson.info/artist/mimi-cherono-ngok/works",
+        "description": "Photographs exploring shared spaces and gestures of tenderness in Nairobi and Johannesburg, celebrating the beauty of ordinary Black life.",
+        "descriptionZh": "探索内罗毕和约翰内斯堡中共享空间与温柔姿态的照片，赞美普通黑人生活的美。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1983,
+        "event": "Born in Nairobi, Kenya",
+        "eventZh": "出生于肯尼亚内罗毕"
+      },
+      {
+        "year": 2009,
+        "event": "Graduated from Michaelis School of Fine Art, University of Cape Town",
+        "eventZh": "毕业于开普敦大学米歇尔斯美术学院"
+      },
+      {
+        "year": 2015,
+        "event": "Work exhibited at Bamako Encounters and Addis Foto Fest",
+        "eventZh": "作品在巴马科摄影展和亚的斯摄影节展出"
+      },
+      {
+        "year": 2019,
+        "event": "Included in New Photography exhibition at MoMA, New York",
+        "eventZh": "入选纽约现代艺术博物馆新摄影展"
+      },
+      {
+        "year": 2022,
+        "event": "Work acquired by Tate Modern and Centre Pompidou",
+        "eventZh": "作品被泰特现代美术馆和蓬皮杜中心收藏"
+      }
+    ],
+    "sources": [
+      "https://www.stevenson.info/artist/mimi-cherono-ngok/works",
+      "https://www.aperture.org/"
+    ]
+  },
+  {
+    "id": "george-osodi",
+    "name": "George Osodi",
+    "nameZh": "乔治·奥索迪",
+    "born": 1974,
+    "died": null,
+    "country": "NG",
+    "region": "africa",
+    "bio": "Nigerian photographer who documents the environmental devastation of oil extraction in the Niger Delta and the opulent rituals of West African monarchies, revealing the extremes of power and exploitation.",
+    "bioLong": "乔治·奥索迪是尼日利亚最重要的纪实摄影师之一，他的两大代表性项目揭示了非洲最大石油产国内部权力与破坏的两个极端。1974年出生于拉各斯，曾担任AP美联社驻尼日利亚摄影记者。他的第一个重要项目《尼日尔三角洲的石油富饶与贫困》(2003-2007)深入尼日利亚产油区，记录了石油开采对当地社区和自然环境造成的毁灭性影响——燃烧的天然气火炬照亮了污染的河流，孩子们在被原油浸透的土地上玩耍，渔民在死去的红树林中拖着空网。这些影像成为国际社会了解非洲石油诅咒的重要视觉证据。他的另一项重要项目《尼日利亚君主》(2012-)则转向了完全不同的景观——以大画幅彩色肖像记录尼日利亚各地传统君主在其华丽宫殿中的官方形象，珠宝和仪式服装的视觉丰富度与三角洲的环境灾难形成了刺目的对比。他的作品获得世界新闻摄影奖等多项国际奖项。",
+    "movements": [
+      "war-photography"
+    ],
+    "techniques": [
+      "photojournalism",
+      "environmental-documentary",
+      "large-format-portrait"
+    ],
+    "influencedBy": [
+      "salgado",
+      "david-goldblatt"
+    ],
+    "works": [
+      {
+        "title": "Oil Rich Niger Delta",
+        "titleZh": "富油的尼日尔三角洲",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.georgeosodi.com/",
+        "description": "A searing documentation of environmental devastation from oil extraction in Nigeria's Niger Delta, showing gas flares, polluted waters, and displaced communities.",
+        "descriptionZh": "对尼日利亚尼日尔三角洲石油开采环境破坏的灼热记录——燃烧的天然气火炬、被污染的水域和流离失所的社区。"
+      },
+      {
+        "title": "Nigerian Monarchs",
+        "titleZh": "尼日利亚君主",
+        "year": 2012,
+        "image": null,
+        "href": "https://www.georgeosodi.com/",
+        "description": "Lavish large-format portraits of Nigeria's traditional rulers in full ceremonial regalia, documenting the visual spectacle of African monarchical power.",
+        "descriptionZh": "尼日利亚传统统治者身着全套仪式盛装的华丽大画幅肖像，记录非洲君权的视觉奇观。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1974,
+        "event": "Born in Lagos, Nigeria",
+        "eventZh": "出生于尼日利亚拉各斯"
+      },
+      {
+        "year": 2000,
+        "event": "Began career as AP photojournalist covering West Africa",
+        "eventZh": "开始担任美联社摄影记者报道西非"
+      },
+      {
+        "year": 2007,
+        "event": "Completed Niger Delta oil documentation; exhibited internationally",
+        "eventZh": "完成尼日尔三角洲石油纪录，在国际展出"
+      },
+      {
+        "year": 2012,
+        "event": "Began 'Nigerian Monarchs' portrait series",
+        "eventZh": "开始《尼日利亚君主》肖像系列"
+      },
+      {
+        "year": 2015,
+        "event": "Won the World Press Photo Award; exhibited at Venice Biennale",
+        "eventZh": "获世界新闻摄影奖，参展威尼斯双年展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/George_Osodi",
+      "https://www.georgeosodi.com/"
+    ]
+  },
+  {
+    "id": "thabiso-sekgala",
+    "name": "Thabiso Sekgala",
+    "nameZh": "塔比索·塞卡拉",
+    "born": 1981,
+    "died": 2014,
+    "country": "ZA",
+    "region": "africa",
+    "bio": "South African photographer whose quietly powerful work documented post-apartheid landscapes and young people in transition, exploring the gap between political freedom and lived reality.",
+    "bioLong": "塔比索·塞卡拉是后种族隔离时代南非摄影中最令人痛惜的英年早逝的天才之一。1981年出生于约翰内斯堡，在约翰内斯堡市场摄影工作坊接受训练。他的创作聚焦于南非民主化后那些被'彩虹国家'叙事所掩盖的裂缝——特别是年轻一代在政治自由与经济不平等之间的矛盾体验。代表作《再也不会/再次》(2011)拍摄了南非各地的废弃建筑和荒地——曾经的种族隔离时期设施如今成为无人问津的废墟，既是历史创伤的物质遗存，也是当下社会忽视的证据。另一系列《第二次过渡》关注南非乡村青年的日常生活——他们在土路上骑自行车，在简陋的房间里做作业，面容中混合着希望和不确定——这些安静而克制的影像捕捉了一代人处于旧秩序消亡与新秩序未定之间的悬浮状态。2014年他意外去世，年仅33岁。他的档案和遗作后来在多个国际机构展出，被视为南非当代摄影的重要财富。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "landscape",
+      "youth-portraiture",
+      "color-documentary"
+    ],
+    "influencedBy": [
+      "david-goldblatt"
+    ],
+    "works": [
+      {
+        "title": "Never/Again",
+        "titleZh": "再也不会/再次",
+        "year": 2011,
+        "image": null,
+        "href": "https://www.stevenson.info/artist/thabiso-sekgala/works",
+        "description": "Photographs of abandoned apartheid-era structures across South Africa, documenting the physical remnants of historical trauma in the post-democratic landscape.",
+        "descriptionZh": "南非各地废弃的种族隔离时期建筑的照片，记录民主后风景中历史创伤的物质遗存。"
+      },
+      {
+        "title": "Second Transition",
+        "titleZh": "第二次过渡",
+        "year": 2012,
+        "image": null,
+        "href": "https://www.stevenson.info/artist/thabiso-sekgala/works",
+        "description": "Quiet portraits and landscapes of rural South African youth suspended between political liberation and economic uncertainty.",
+        "descriptionZh": "南非乡村青年在政治解放与经济不确定之间悬浮状态的安静肖像和风景。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1981,
+        "event": "Born in Johannesburg, South Africa",
+        "eventZh": "出生于南非约翰内斯堡"
+      },
+      {
+        "year": 2007,
+        "event": "Trained at the Market Photo Workshop, Johannesburg",
+        "eventZh": "在约翰内斯堡市场摄影工作坊接受训练"
+      },
+      {
+        "year": 2011,
+        "event": "Created 'Never/Again' series on abandoned apartheid-era sites",
+        "eventZh": "创作关于废弃种族隔离时期场所的《再也不会/再次》系列"
+      },
+      {
+        "year": 2013,
+        "event": "Exhibited at the New Museum Triennial, New York",
+        "eventZh": "参展纽约新美术馆三年展"
+      },
+      {
+        "year": 2014,
+        "event": "Died unexpectedly in Johannesburg, aged 33",
+        "eventZh": "在约翰内斯堡意外去世，年仅33岁"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Thabiso_Sekgala",
+      "https://www.stevenson.info/artist/thabiso-sekgala/works"
+    ]
+  },
+  {
+    "id": "tamara-merino",
+    "name": "Tamara Merino",
+    "nameZh": "塔玛拉·梅里诺",
+    "born": 1983,
+    "died": null,
+    "country": "CL",
+    "region": "south-america",
+    "bio": "Chilean photographer whose long-term projects explore unconventional communities and alternative lifestyles, from Patagonian communes to European forest dwellers, using immersive color photography.",
+    "bioLong": "塔玛拉·梅里诺是智利新一代纪实摄影中最具探索精神的创作者之一。1983年出生于圣地亚哥，最初学习新闻学后转向摄影，在巴塞罗那和纽约国际摄影中心接受专业训练。她的创作方法以深度沉浸为特征——每个项目都涉及数月甚至数年与拍摄对象共同生活的过程。成名作《隐形生活》(2015-)是一个跨越多个国家和大陆的长期项目，记录选择离开主流社会、在森林、山洞、废弃村庄或自建社区中过自给自足生活的人群——从巴塔哥尼亚荒野中的隐居者到苏格兰高地的生态社区居民。她以温暖的自然光和丰富的色彩呈现这些'隐形人'的日常——劈柴、生火、在溪水中洗衣——影像中没有猎奇或浪漫化，而是一种深切的理解和平等对视。这个项目获得了世界新闻摄影奖和索尼世界摄影奖等重要奖项，使她成为拉丁美洲新纪实摄影的代表人物之一。",
+    "movements": [
+      "latin-american-modernism"
+    ],
+    "techniques": [
+      "immersive-documentary",
+      "color-photography",
+      "natural-light"
+    ],
+    "influencedBy": [
+      "salgado"
+    ],
+    "works": [
+      {
+        "title": "The Invisible Life",
+        "titleZh": "隐形生活",
+        "year": 2015,
+        "image": null,
+        "href": "https://www.tamaramerino.com/",
+        "description": "A multi-year, multi-continent project documenting people who have chosen to live off-grid in forests, caves, and self-built communities.",
+        "descriptionZh": "跨越多年和多个大陆的项目，记录选择在森林、山洞和自建社区中离网生活的人群。"
+      },
+      {
+        "title": "The Forest People",
+        "titleZh": "森林之民",
+        "year": 2018,
+        "image": null,
+        "href": "https://www.tamaramerino.com/",
+        "description": "Immersive photographs of European forest communities in Scotland and Scandinavia, capturing the daily rhythms of alternative lifestyles.",
+        "descriptionZh": "苏格兰和斯堪的纳维亚欧洲森林社区的沉浸式照片，捕捉另类生活方式的日常节奏。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1983,
+        "event": "Born in Santiago, Chile",
+        "eventZh": "出生于智利圣地亚哥"
+      },
+      {
+        "year": 2010,
+        "event": "Studied documentary photography at ICP, New York",
+        "eventZh": "在纽约国际摄影中心学习纪实摄影"
+      },
+      {
+        "year": 2015,
+        "event": "Began 'The Invisible Life' project across South America and Europe",
+        "eventZh": "在南美和欧洲开始《隐形生活》项目"
+      },
+      {
+        "year": 2019,
+        "event": "Won World Press Photo Award for 'The Invisible Life'",
+        "eventZh": "凭《隐形生活》获世界新闻摄影奖"
+      },
+      {
+        "year": 2022,
+        "event": "Exhibited at international photography festivals across Latin America",
+        "eventZh": "在拉丁美洲各地国际摄影节展出"
+      }
+    ],
+    "sources": [
+      "https://www.tamaramerino.com/",
+      "https://www.worldpressphoto.org/"
+    ]
+  },
+  {
+    "id": "mahtab-hussain",
+    "name": "Mahtab Hussain",
+    "nameZh": "马赫塔卜·侯赛因",
+    "born": 1981,
+    "died": null,
+    "country": "GB",
+    "region": "middle-east",
+    "bio": "British-Pakistani photographer whose decade-long portrait project of young British Muslim men in Birmingham challenged media stereotypes, earning the title 'one of the most important British photo projects of the decade'.",
+    "bioLong": "马赫塔卜·侯赛因是英国当代摄影中以长期项目关注穆斯林社区身份问题的重要创作者。1981年出生于伯明翰，父母是巴基斯坦移民。他在伯明翰和诺丁汉学习摄影后，开始了一个持续十余年的深度项目。代表作《你找我什么？》(2008-2018)以十年时间拍摄了伯明翰的年轻英国穆斯林男性——这个群体在9/11后的西方媒体中几乎只以'安全威胁'的面貌出现。侯赛因的做法不是辩护或反驳，而是简单地让这些年轻人以自己选择的方式出现在镜头前：街头时尚、精心修饰的胡须、定制的运动服——他们的自我呈现中混合了巴基斯坦传统、英国工人阶级文化和全球嘻哈美学。照片以明亮的闪光灯和环境背景的伯明翰街道拍摄，被摄者直视镜头的目光中带着自信甚至挑衅。该项目出版后被《卫报》等媒体誉为'十年来最重要的英国摄影项目之一'，因为它以最直接的方式打破了围绕穆斯林男性身份的刻板视觉框架。",
+    "movements": [
+      "street"
+    ],
+    "techniques": [
+      "environmental-portrait",
+      "flash-photography",
+      "color-documentary"
+    ],
+    "influencedBy": [
+      "martin-parr"
+    ],
+    "works": [
+      {
+        "title": "You Get Me?",
+        "titleZh": "你找我什么？",
+        "year": 2017,
+        "image": null,
+        "href": "https://www.mahtabhussain.com/",
+        "description": "A decade-long portrait project of young British Muslim men in Birmingham, challenging post-9/11 stereotypes through self-determined presentation.",
+        "descriptionZh": "历时十年的伯明翰年轻英国穆斯林男性肖像项目，通过自主呈现挑战后9/11时代的刻板印象。"
+      },
+      {
+        "title": "Honest With You",
+        "titleZh": "与你坦诚",
+        "year": 2019,
+        "image": null,
+        "href": "https://www.mahtabhussain.com/",
+        "description": "Photographs of British South Asian women and girls in urban and domestic settings, exploring gender, tradition, and self-expression.",
+        "descriptionZh": "在城市和家庭场景中拍摄英国南亚女性的照片，探索性别、传统和自我表达。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1981,
+        "event": "Born in Birmingham, UK, to Pakistani immigrant parents",
+        "eventZh": "出生于英国伯明翰，父母为巴基斯坦移民"
+      },
+      {
+        "year": 2008,
+        "event": "Began 'You Get Me?' project photographing British Muslim men",
+        "eventZh": "开始拍摄英国穆斯林男性的《你找我什么？》项目"
+      },
+      {
+        "year": 2017,
+        "event": "Published 'You Get Me?' to widespread critical acclaim",
+        "eventZh": "出版《你找我什么？》，获广泛好评"
+      },
+      {
+        "year": 2019,
+        "event": "Began 'Honest With You' series on South Asian women in Britain",
+        "eventZh": "开始关于英国南亚女性的《与你坦诚》系列"
+      },
+      {
+        "year": 2023,
+        "event": "Work acquired by National Portrait Gallery, London",
+        "eventZh": "作品被伦敦国家肖像美术馆收藏"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Mahtab_Hussain",
+      "https://www.mahtabhussain.com/"
+    ]
+  },
+  {
+    "id": "jack-latham",
+    "name": "Jack Latham",
+    "nameZh": "杰克·莱瑟姆",
+    "born": 1989,
+    "died": null,
+    "country": "GB",
+    "region": "europe",
+    "bio": "Welsh photographer whose investigative projects blend documentary photography with deep research, including his acclaimed exploration of internet culture's impact on the 2016 Icelandic banking collapse investigation.",
+    "bioLong": "杰克·莱瑟姆是英国当代摄影中最具调查性思维的年轻创作者之一。1989年出生于威尔士，在南威尔士大学纪实摄影专业毕业后迅速以概念化的纪实项目引起国际关注。他的创作方法介于新闻调查和艺术创作之间——每个项目都从大量的研究和采访开始，然后以独特的视觉策略将复杂的社会现象转化为可感知的影像叙事。成名作《议会之路》(2015)追踪了中世纪冰岛的北方议会遗址，将北欧民主传统的起源与当代冰岛政治联系起来。但真正使他获得国际声誉的是《果糖》(2017)项目——以冰岛人通过网络众包基因检测调查2008年金融危机银行家的事件为起点，探讨互联网时代公民调查与监控的边界。项目混合了纪实照片、屏幕截图、数据可视化和文献资料，创造了一种适合数字时代复杂议题的新型摄影叙事形式。2018年获巴黎摄影博览会光圈基金会首作奖。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "investigative-documentary",
+      "mixed-media",
+      "research-based"
+    ],
+    "influencedBy": [
+      "martin-parr",
+      "alec-soth"
+    ],
+    "works": [
+      {
+        "title": "Sugar Paper Theories",
+        "titleZh": "果糖纸理论",
+        "year": 2017,
+        "image": null,
+        "href": "https://www.jacklatham.com/",
+        "description": "An investigative photography project exploring Iceland's crowdsourced investigation of a 1970s disappearance case, examining truth, memory, and internet vigilantism.",
+        "descriptionZh": "调查性摄影项目，探索冰岛对1970年代失踪案的众包调查，审视真相、记忆和网络自发正义。"
+      },
+      {
+        "title": "Parliament of Owls",
+        "titleZh": "猫头鹰的议会",
+        "year": 2015,
+        "image": null,
+        "href": "https://www.jacklatham.com/",
+        "description": "A photographic journey through Iceland's medieval parliament sites, connecting the origins of Nordic democracy with the country's contemporary political landscape.",
+        "descriptionZh": "穿越冰岛中世纪议会遗址的摄影旅程，将北欧民主起源与该国当代政治景观相连。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1989,
+        "event": "Born in Pontypool, Wales",
+        "eventZh": "出生于威尔士庞蒂普尔"
+      },
+      {
+        "year": 2012,
+        "event": "Graduated in Documentary Photography from University of South Wales",
+        "eventZh": "毕业于南威尔士大学纪实摄影专业"
+      },
+      {
+        "year": 2015,
+        "event": "Published 'Parliament of Owls' on Iceland's democratic heritage",
+        "eventZh": "出版关于冰岛民主遗产的《猫头鹰的议会》"
+      },
+      {
+        "year": 2017,
+        "event": "Published 'Sugar Paper Theories'; shortlisted for Deutsche Borse Prize",
+        "eventZh": "出版《果糖纸理论》，入围德意志交易所摄影奖"
+      },
+      {
+        "year": 2019,
+        "event": "Won Aperture Foundation First Book Award at Paris Photo",
+        "eventZh": "在巴黎摄影博览会获光圈基金会首作奖"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Jack_Latham_(photographer)",
+      "https://www.jacklatham.com/"
+    ]
+  },
+  {
+    "id": "poulomi-basu",
+    "name": "Poulomi Basu",
+    "nameZh": "普洛米·巴苏",
+    "born": 1983,
+    "died": null,
+    "country": "IN",
+    "region": "asia",
+    "bio": "Indian-British photographer and activist who uses transmedia storytelling to document marginalized communities, from menstrual exile in Nepal to the invisible wars in India's 'Red Corridor'.",
+    "bioLong": "普洛米·巴苏是当代摄影中将纪实实践与社会行动主义和新媒体技术最紧密结合的创作者之一。1983年出生于印度加尔各答，在伦敦艺术大学和国家电影电视学院接受训练。她的创作理念是'讲故事即行动'——每个项目不仅是艺术作品，也是推动具体社会变革的工具。成名作《血之歌》(2013-)记录了尼泊尔西部村庄中因月经被迫流放到户外棚屋的女性——一种名为'Chhaupadi'的古老禁忌习俗。巴苏不仅拍摄了这些在严寒中独自度过经期的少女，还与当地NGO合作开发了VR（虚拟现实）版本的项目，让全球观众以沉浸式体验感受这种隔离的残酷。这个多媒体项目直接促成了尼泊尔政府将Chhaupadi入罪。后续项目《中心弹道》(2017-)深入印度中部被政府与毛派武装冲突撕裂的'红色走廊'地区，记录了一场长达五十年却几乎不被外界知晓的'隐形战争'中平民的遭遇。她是世界新闻摄影奖和荷赛基金会的获奖者。",
+    "movements": [
+      "humanist"
+    ],
+    "techniques": [
+      "transmedia",
+      "VR-photography",
+      "social-documentary"
+    ],
+    "influencedBy": [
+      "salgado",
+      "james-nachtwey"
+    ],
+    "works": [
+      {
+        "title": "Blood Speaks (A Ritual of Exile)",
+        "titleZh": "血之歌（流放的仪式）",
+        "year": 2013,
+        "image": null,
+        "href": "https://www.poulomibasu.com/",
+        "description": "A transmedia project documenting Nepali women exiled to outdoor huts during menstruation, combining photography, VR, and activism that helped criminalize the practice.",
+        "descriptionZh": "记录尼泊尔女性在月经期间被流放至户外棚屋的跨媒体项目，结合摄影、VR和行动主义，促成该习俗入罪。"
+      },
+      {
+        "title": "Centralia",
+        "titleZh": "中心弹道",
+        "year": 2020,
+        "image": null,
+        "href": "https://www.poulomibasu.com/",
+        "description": "A long-term investigation of India's fifty-year Maoist insurgency in the 'Red Corridor', documenting an invisible war through photography and data visualization.",
+        "descriptionZh": "对印度'红色走廊'长达五十年毛派武装冲突的长期调查，通过摄影和数据可视化记录一场隐形战争。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1983,
+        "event": "Born in Kolkata, India",
+        "eventZh": "出生于印度加尔各答"
+      },
+      {
+        "year": 2009,
+        "event": "Moved to London; studied at University of the Arts and NFTS",
+        "eventZh": "移居伦敦，在伦敦艺术大学和国家电影电视学院学习"
+      },
+      {
+        "year": 2013,
+        "event": "Began 'Blood Speaks' project on menstrual exile in Nepal",
+        "eventZh": "开始关于尼泊尔月经流放的《血之歌》项目"
+      },
+      {
+        "year": 2017,
+        "event": "Nepal criminalized Chhaupadi; project cited as contributing factor",
+        "eventZh": "尼泊尔将Chhaupadi入罪，项目被认为是促成因素之一"
+      },
+      {
+        "year": 2021,
+        "event": "Won World Press Photo Award for 'Centralia' on India's Red Corridor",
+        "eventZh": "凭《中心弹道》获世界新闻摄影奖"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Poulomi_Basu",
+      "https://www.poulomibasu.com/"
+    ]
+  },
+  {
+    "id": "brook-andrew",
+    "name": "Brook Andrew",
+    "nameZh": "布鲁克·安德鲁",
+    "born": 1970,
+    "died": null,
+    "country": "AU",
+    "region": "oceania",
+    "bio": "Wiradjuri Australian artist who uses photography, neon, and installation to confront colonial histories and reclaim Indigenous visual sovereignty, notably curating the 2020 Biennale of Sydney.",
+    "bioLong": "布鲁克·安德鲁是澳大利亚当代艺术中最具影响力的原住民艺术家之一。1970年出生于悉尼，属于维拉朱里(Wiradjuri)族群和凯尔特血统。他在澳大利亚国立大学和皇家墨尔本理工大学接受训练后，发展出一种将摄影、霓虹灯、装置和文本相结合的跨媒介实践。他的标志性手法是对殖民时期档案影像的干预——他收集19世纪人类学家和传教士拍摄的原住民照片，然后通过放大、色彩反转、霓虹叠加等手段打破原始影像中隐含的殖民凝视关系。代表作《枪械》(2007)将一张殖民时期原住民家庭的合影放大为纪念碑尺度，以鲜艳的红色处理和霓虹灯框架赋予被拍摄者一种反抗性的视觉力量。他的作品持续质疑博物馆和档案机构中原住民影像的伦理问题——谁有权拍摄、收藏和展示这些影像？2020年他被任命为悉尼双年展艺术总监，这是首次由原住民艺术家担任该职位，他以'NIRIN'(边缘)为主题重新定义了这一国际展览的视角。",
+    "movements": [
+      "new-color"
+    ],
+    "techniques": [
+      "archival-intervention",
+      "neon-installation",
+      "photographic-appropriation"
+    ],
+    "influencedBy": [
+      "tracey-moffatt"
+    ],
+    "works": [
+      {
+        "title": "Gundjirrmarra (The Guns)",
+        "titleZh": "枪械",
+        "year": 2007,
+        "image": null,
+        "href": "https://www.brookandrew.com/",
+        "description": "A monumental reprocessing of colonial-era Indigenous family photographs, using color inversion and neon to reclaim the subjects' visual sovereignty.",
+        "descriptionZh": "对殖民时期原住民家庭照片的纪念碑式重新处理，使用色彩反转和霓虹灯夺回被拍摄者的视觉主权。"
+      },
+      {
+        "title": "NIRIN (2020 Biennale of Sydney)",
+        "titleZh": "NIRIN（2020年悉尼双年展）",
+        "year": 2020,
+        "image": null,
+        "href": "https://www.brookandrew.com/",
+        "description": "As artistic director, Andrew curated the Biennale around the Wiradjuri concept of 'edge', centering Indigenous perspectives in a major international exhibition.",
+        "descriptionZh": "作为艺术总监，安德鲁以维拉朱里语'边缘'概念策划双年展，将原住民视角置于国际大型展览的中心。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1970,
+        "event": "Born in Sydney, Australia; Wiradjuri and Celtic heritage",
+        "eventZh": "出生于澳大利亚悉尼，维拉朱里族和凯尔特血统"
+      },
+      {
+        "year": 1996,
+        "event": "First solo exhibition; began practice of intervening in colonial archives",
+        "eventZh": "首次个展，开始干预殖民档案的创作实践"
+      },
+      {
+        "year": 2007,
+        "event": "Created 'Gundjirrmarra' series reclaiming colonial-era photographs",
+        "eventZh": "创作《枪械》系列，夺回殖民时期照片的主权"
+      },
+      {
+        "year": 2017,
+        "event": "Appointed Professor at RMIT University, Melbourne",
+        "eventZh": "受聘为墨尔本皇家理工大学教授"
+      },
+      {
+        "year": 2020,
+        "event": "Curated the Biennale of Sydney as first Indigenous artistic director",
+        "eventZh": "作为首位原住民艺术总监策划悉尼双年展"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Brook_Andrew",
+      "https://www.brookandrew.com/"
+    ]
+  },
+  {
+    "id": "luo-dan",
+    "name": "Luo Dan",
+    "nameZh": "骆丹",
+    "born": 1968,
+    "died": null,
+    "country": "CN",
+    "region": "asia",
+    "bio": "Chinese photographer who spent years living among remote ethnic minority communities in Yunnan and the Tibetan Plateau, creating deeply immersive large-format portraits and landscapes in the tradition of humanist documentary.",
+    "bioLong": "骆丹是中国当代摄影中最具沉浸式实践精神的纪实摄影师之一。1968年出生于重庆，在四川美术学院学习后从事新闻摄影工作。2000年代中期他做出了改变生涯的决定——辞去城市工作，带着大画幅相机深入云南和藏区的偏远少数民族社区，开始了长达数年的共同生活和拍摄。代表作《318国道》(2006)记录了他沿中国最长国道从上海到西藏的徒步旅行中遇到的各色人物。更具代表性的是《北方，南方》(2008-2011)和《素歌》(2010-2014)两个系列——前者以大画幅黑白影像记录云南怒江峡谷中偏远的傈僳族基督教村庄，后者深入藏区拍摄藏族游牧民的日常和精神生活。骆丹的方法近乎修行：他不只是去拍照，而是在这些社区中居住、劳作、参与宗教仪式，以最缓慢和谦卑的方式获取信任。他的大画幅湿版摄影呈现出一种超越时代的庄严感，让21世纪的中国少数民族面孔具有了19世纪肖像摄影的尊严和份量。",
+    "movements": [
+      "china-contemporary",
+      "humanist"
+    ],
+    "techniques": [
+      "large-format",
+      "wet-plate-collodion",
+      "immersive-documentary"
+    ],
+    "influencedBy": [
+      "salgado",
+      "a-adams"
+    ],
+    "works": [
+      {
+        "title": "Simple Song (Su Ge)",
+        "titleZh": "素歌",
+        "year": 2014,
+        "image": null,
+        "href": "https://www.threeblindmen.com/luo-dan",
+        "description": "Large-format wet-plate portraits and landscapes of Tibetan nomadic communities, created over four years of immersive living on the plateau.",
+        "descriptionZh": "历时四年沉浸式生活于高原，以大画幅湿版工艺拍摄藏族游牧社区的肖像和风景。"
+      },
+      {
+        "title": "North, South (On the Road: National Highway 318)",
+        "titleZh": "北方，南方（在路上：318国道）",
+        "year": 2008,
+        "image": null,
+        "href": "https://www.threeblindmen.com/luo-dan",
+        "description": "Portraits and landscapes from a journey along China's longest highway, from Shanghai to Tibet, documenting lives along the road.",
+        "descriptionZh": "沿中国最长公路从上海到西藏旅途中拍摄的肖像和风景，记录沿途的生命。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1968,
+        "event": "Born in Chongqing, China",
+        "eventZh": "出生于中国重庆"
+      },
+      {
+        "year": 2006,
+        "event": "Began walking and photographing along National Highway 318",
+        "eventZh": "开始沿318国道步行拍摄"
+      },
+      {
+        "year": 2008,
+        "event": "Published 'North, South' to critical acclaim in China",
+        "eventZh": "出版《北方，南方》，在中国获好评"
+      },
+      {
+        "year": 2010,
+        "event": "Began living among Lisu Christians in Yunnan's Nu River gorge",
+        "eventZh": "开始在云南怒江峡谷傈僳族基督教村庄中生活"
+      },
+      {
+        "year": 2014,
+        "event": "Published 'Simple Song'; exhibited at major international photography festivals",
+        "eventZh": "出版《素歌》，在国际重要摄影节展出"
+      }
+    ],
+    "sources": [
+      "https://en.wikipedia.org/wiki/Luo_Dan_(photographer)",
+      "https://www.threeblindmen.com/luo-dan"
+    ]
+  },
+  {
+    "id": "atong-atem",
+    "name": "Atong Atem",
+    "nameZh": "阿通·阿特姆",
+    "born": 1994,
+    "died": null,
+    "country": "AU",
+    "region": "oceania",
+    "bio": "South Sudanese-Australian photographer whose vibrant, color-saturated studio portraits of African diaspora subjects in Australia celebrate cultural hybridity and reclaim the traditions of West African studio photography.",
+    "bioLong": "阿通·阿特姆是澳大利亚当代摄影中最鲜明的新声音之一。1994年出生于埃塞俄比亚的难民营，父母是南苏丹人，她童年时随家人移居澳大利亚墨尔本。在皇家墨尔本理工大学学习摄影后迅速以色彩浓烈、文化自信的工作室肖像引起广泛关注。她的创作直接承续了塞杜·凯塔和马利克·西迪贝等西非工作室摄影师的传统——让被拍摄者在精心布置的彩色背景前以自己选择的服装和姿态出现——但语境已经转换到了澳大利亚多元文化社会中非洲散居社区的当下生活。她的肖像中，模特们身着混合了非洲传统纺织品和西方当代时尚的服装，面对镜头展现出一种毫不退缩的自我肯定。代表作系列探讨了'双重意识'——作为非洲人和澳大利亚人的双重身份如何在视觉自我表达中共存。她的作品被澳大利亚国家美术馆收藏，并在多个国际场域展出，被视为全球化时代非洲散居摄影的重要实践。",
+    "movements": [
+      "west-african-studio"
+    ],
+    "techniques": [
+      "studio-portrait",
+      "saturated-color",
+      "fashion-photography"
+    ],
+    "influencedBy": [
+      "keita",
+      "malick-sidibe"
+    ],
+    "works": [
+      {
+        "title": "Surat (Images)",
+        "titleZh": "影像",
+        "year": 2018,
+        "image": null,
+        "href": "https://www.atongatem.com/",
+        "description": "Vivid studio portraits of African diaspora subjects in Melbourne, combining West African studio traditions with contemporary Australian multiculturalism.",
+        "descriptionZh": "在墨尔本拍摄的非洲散居群体鲜明工作室肖像，将西非工作室传统与当代澳大利亚多元文化融合。"
+      },
+      {
+        "title": "Surat 2.0",
+        "titleZh": "影像2.0",
+        "year": 2021,
+        "image": null,
+        "href": "https://www.atongatem.com/",
+        "description": "An expanded series of elaborately styled portraits celebrating the cultural hybridity of young African-Australians through fashion and color.",
+        "descriptionZh": "扩展的精心造型肖像系列，通过时尚和色彩庆祝年轻非洲裔澳大利亚人的文化混合性。"
+      }
+    ],
+    "keyDates": [
+      {
+        "year": 1994,
+        "event": "Born in a refugee camp in Ethiopia to South Sudanese parents",
+        "eventZh": "出生于埃塞俄比亚难民营，父母为南苏丹人"
+      },
+      {
+        "year": 2000,
+        "event": "Family resettled in Melbourne, Australia",
+        "eventZh": "家庭在澳大利亚墨尔本重新定居"
+      },
+      {
+        "year": 2016,
+        "event": "Graduated from RMIT University with a BA in Photography",
+        "eventZh": "毕业于皇家墨尔本理工大学摄影学士"
+      },
+      {
+        "year": 2018,
+        "event": "First major solo exhibition 'Surat' in Melbourne",
+        "eventZh": "在墨尔本举办首次重要个展《影像》"
+      },
+      {
+        "year": 2022,
+        "event": "Work acquired by National Gallery of Australia",
+        "eventZh": "作品被澳大利亚国家美术馆收藏"
+      }
+    ],
+    "sources": [
+      "https://www.atongatem.com/",
+      "https://www.nga.gov.au/"
+    ]
   }
 ]
